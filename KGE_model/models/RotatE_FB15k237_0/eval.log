@@ -1,0 +1,26 @@
+2026-04-09 20:00:03 INFO     ========== Evaluation Start ==========
+2026-04-09 20:00:03 INFO     Checkpoint: /home/wenbin.guo/DKGE4R/KGE_model/models/RotatE_FB15k237_0
+2026-04-09 20:00:03 INFO     Data Path  : /home/wenbin.guo/DKGE4R/data/FB15k-237
+2026-04-09 20:00:03 INFO     Model: RotatE
+2026-04-09 20:00:03 INFO     #entity: 14541
+2026-04-09 20:00:03 INFO     #relation: 237
+2026-04-09 20:00:03 INFO     #train: 272115
+2026-04-09 20:00:03 INFO     #valid: 17535
+2026-04-09 20:00:03 INFO     #test : 20466
+2026-04-09 20:00:04 INFO     Model loaded successfully from checkpoint.
+2026-04-09 20:00:04 INFO     Checkpoint step = 149999
+2026-04-09 20:00:04 INFO     Model Parameter Configuration:
+2026-04-09 20:00:04 INFO     Parameter gamma: torch.Size([1]), require_grad = False
+2026-04-09 20:00:04 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
+2026-04-09 20:00:04 INFO     Parameter entity_embedding: torch.Size([14541, 2000]), require_grad = True
+2026-04-09 20:00:04 INFO     Parameter relation_embedding: torch.Size([237, 1000]), require_grad = True
+2026-04-09 20:00:04 INFO     Evaluating on Test Dataset...
+2026-04-09 20:00:05 INFO     Evaluating the model... (0/2560)
+2026-04-09 20:00:38 INFO     Evaluating the model... (1000/2560)
+2026-04-09 20:01:04 INFO     Evaluating the model... (2000/2560)
+2026-04-09 20:01:19 INFO     Test MRR at step 149999: 0.324315
+2026-04-09 20:01:19 INFO     Test MR at step 149999: 239.743795
+2026-04-09 20:01:19 INFO     Test HITS@1 at step 149999: 0.232727
+2026-04-09 20:01:19 INFO     Test HITS@3 at step 149999: 0.358302
+2026-04-09 20:01:19 INFO     Test HITS@10 at step 149999: 0.510090
+2026-04-09 20:01:19 INFO     ========== Evaluation Finished ==========
