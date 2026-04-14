@@ -1,0 +1,586 @@
+{
+  "query": {
+    "head": 5741,
+    "relation": 75,
+    "candidate_tails": [
+      1063,
+      9223,
+      9034,
+      7124,
+      10060,
+      1943,
+      1499,
+      6980,
+      5713,
+      4031,
+      5913,
+      6902,
+      6759,
+      14476,
+      819,
+      1332,
+      2747,
+      823,
+      7377,
+      3031,
+      2029,
+      9780,
+      242,
+      14173,
+      9065,
+      4617,
+      8429,
+      5691,
+      2381,
+      8662,
+      2414,
+      3056,
+      13398,
+      10222,
+      4994,
+      268,
+      6981,
+      10721,
+      11173,
+      9851,
+      3502,
+      1111,
+      2505,
+      12872,
+      11898,
+      7153,
+      12402,
+      216,
+      10904,
+      160
+    ]
+  },
+  "nodes": [
+    375,
+    717,
+    819,
+    823,
+    1063,
+    1332,
+    1480,
+    1499,
+    1943,
+    2747,
+    3031,
+    3778,
+    4031,
+    4100,
+    5713,
+    5741,
+    5913,
+    6609,
+    6759,
+    6765,
+    6902,
+    6980,
+    7124,
+    7239,
+    7377,
+    7473,
+    7492,
+    8372,
+    8598,
+    8641,
+    8642,
+    8982,
+    9034,
+    9185,
+    9223,
+    10060,
+    10267,
+    10748,
+    11118,
+    11635,
+    13167,
+    14173,
+    14476,
+    14526
+  ],
+  "edges": [
+    {
+      "head": 1063,
+      "relation": 55,
+      "tail": 1480
+    },
+    {
+      "head": 1063,
+      "relation": 198,
+      "tail": 8598
+    },
+    {
+      "head": 1063,
+      "relation": 198,
+      "tail": 9185
+    },
+    {
+      "head": 1499,
+      "relation": 31,
+      "tail": 7492
+    },
+    {
+      "head": 1499,
+      "relation": 174,
+      "tail": 717
+    },
+    {
+      "head": 1499,
+      "relation": 198,
+      "tail": 11635
+    },
+    {
+      "head": 1943,
+      "relation": 61,
+      "tail": 10748
+    },
+    {
+      "head": 1943,
+      "relation": 166,
+      "tail": 13167
+    },
+    {
+      "head": 1943,
+      "relation": 230,
+      "tail": 7473
+    },
+    {
+      "head": 5713,
+      "relation": 61,
+      "tail": 1063
+    },
+    {
+      "head": 5713,
+      "relation": 61,
+      "tail": 14526
+    },
+    {
+      "head": 5713,
+      "relation": 208,
+      "tail": 6765
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 819
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 823
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 1063
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 1332
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 1499
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 1943
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 2747
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 3031
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 4031
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 5713
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 5913
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 6759
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 6902
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 6980
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 7124
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 7377
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 9034
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 9223
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 10060
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 14173
+    },
+    {
+      "head": 5741,
+      "relation": 75,
+      "tail": 14476
+    },
+    {
+      "head": 5741,
+      "relation": 233,
+      "tail": 8641
+    },
+    {
+      "head": 6980,
+      "relation": 61,
+      "tail": 7239
+    },
+    {
+      "head": 6980,
+      "relation": 152,
+      "tail": 3778
+    },
+    {
+      "head": 6980,
+      "relation": 230,
+      "tail": 11118
+    },
+    {
+      "head": 7124,
+      "relation": 55,
+      "tail": 8372
+    },
+    {
+      "head": 7124,
+      "relation": 152,
+      "tail": 3778
+    },
+    {
+      "head": 7124,
+      "relation": 198,
+      "tail": 375
+    },
+    {
+      "head": 9034,
+      "relation": 31,
+      "tail": 8642
+    },
+    {
+      "head": 9034,
+      "relation": 55,
+      "tail": 10267
+    },
+    {
+      "head": 9034,
+      "relation": 147,
+      "tail": 8982
+    },
+    {
+      "head": 9223,
+      "relation": 61,
+      "tail": 5713
+    },
+    {
+      "head": 9223,
+      "relation": 152,
+      "tail": 3778
+    },
+    {
+      "head": 9223,
+      "relation": 219,
+      "tail": 6765
+    },
+    {
+      "head": 10060,
+      "relation": 198,
+      "tail": 4100
+    },
+    {
+      "head": 10060,
+      "relation": 198,
+      "tail": 6609
+    },
+    {
+      "head": 10060,
+      "relation": 198,
+      "tail": 10267
+    }
+  ],
+  "paths": [
+    {
+      "nodes": [
+        5741,
+        1063
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 1063,
+      "path_score": -0.1
+    },
+    {
+      "nodes": [
+        5741,
+        9223
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 9223,
+      "path_score": -0.1
+    },
+    {
+      "nodes": [
+        5741,
+        9034
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 9034,
+      "path_score": -0.1
+    },
+    {
+      "nodes": [
+        5741,
+        7124
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 7124,
+      "path_score": -0.1
+    },
+    {
+      "nodes": [
+        5741,
+        10060
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 10060,
+      "path_score": -0.1
+    },
+    {
+      "nodes": [
+        5741,
+        1943
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 1943,
+      "path_score": -0.1
+    },
+    {
+      "nodes": [
+        5741,
+        1499
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 1499,
+      "path_score": -0.1
+    },
+    {
+      "nodes": [
+        5741,
+        6980
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 6980,
+      "path_score": -0.1
+    },
+    {
+      "nodes": [
+        5741,
+        5713
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 5713,
+      "path_score": -0.1
+    },
+    {
+      "nodes": [
+        5741,
+        4031
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 4031,
+      "path_score": -0.1
+    },
+    {
+      "nodes": [
+        5741,
+        5913
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 5913,
+      "path_score": -0.1
+    },
+    {
+      "nodes": [
+        5741,
+        6902
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 6902,
+      "path_score": -0.1
+    },
+    {
+      "nodes": [
+        5741,
+        6759
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 6759,
+      "path_score": -0.1
+    },
+    {
+      "nodes": [
+        5741,
+        14476
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 14476,
+      "path_score": -0.1
+    },
+    {
+      "nodes": [
+        5741,
+        819
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 819,
+      "path_score": -0.1
+    },
+    {
+      "nodes": [
+        5741,
+        1332
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 1332,
+      "path_score": -0.1
+    },
+    {
+      "nodes": [
+        5741,
+        2747
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 2747,
+      "path_score": -0.1
+    },
+    {
+      "nodes": [
+        5741,
+        823
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 823,
+      "path_score": -0.1
+    },
+    {
+      "nodes": [
+        5741,
+        7377
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 7377,
+      "path_score": -0.1
+    },
+    {
+      "nodes": [
+        5741,
+        3031
+      ],
+      "relations": [
+        75
+      ],
+      "tail": 3031,
+      "path_score": -0.1
+    }
+  ],
+  "key_nodes": [
+    5741,
+    1063,
+    9223,
+    9034,
+    7124,
+    10060,
+    1943,
+    1499,
+    6980,
+    5713
+  ],
+  "gold_tail": 7153
+}

@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 9425,
+        "head_label": "John Carpenter",
+        "head_class": "Director/composer",
+        "relation_id": 3,
+        "relation_label": "hasAwardWinner",
+        "gold_tail": 5885,
+        "gold_tail_label": "Hereford United F.c.",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 9982,
+            "entity_label": "Industrial Engineering",
+            "entity_class": "Field of Study",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 7651,
+            "entity_label": "Stephen J. Cannell",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 4455,
+            "entity_label": "Max Fleischer",
+            "entity_class": "Animator, Film Director",
+            "score": 1.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 6745,
+            "entity_label": "Kim Kardashian",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 1303,
+            "entity_label": "Antichrist",
+            "entity_class": "Concept",
+            "score": 3.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 6977,
+            "entity_label": "George Cukor",
+            "entity_class": "Director",
+            "score": 1.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 621,
+            "entity_label": "Jackie Cooper",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 10423,
+            "entity_label": "Lombardy",
+            "entity_class": "Region",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 12325,
+            "entity_label": "Achala Sachdev",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 664,
+            "entity_label": "Timothy Olyphant",
+            "entity_class": "Actor",
+            "score": 2.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 5752,
+            "entity_label": "Timothy Dalton",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 10890,
+            "entity_label": "Limburg",
+            "entity_class": "Province",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 10098,
+            "entity_label": "Ronald Harwood",
+            "entity_class": "Person",
+            "score": 7.841066,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 14247,
+            "entity_label": "Lounge Music",
+            "entity_class": "Music Genre",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 4513,
+            "entity_label": "Cameron Diaz",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 4012,
+            "entity_label": "Karl Malden",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 4435,
+            "entity_label": "Katrina Bowden",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 5139,
+            "entity_label": "Deion Sanders",
+            "entity_class": "Athlete",
+            "score": 3.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 5885,
+            "entity_label": "Hereford United F.c.",
+            "entity_class": "Football Club",
+            "score": 6.414157,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 4,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 7799,
+            "entity_label": "Igor Stravinsky",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "9982": 1,
+        "7651": 2,
+        "4455": 3,
+        "6745": 4,
+        "1303": 5,
+        "6977": 6,
+        "621": 7,
+        "10423": 8,
+        "12325": 9,
+        "664": 10,
+        "5752": 11,
+        "10890": 12,
+        "10098": 13,
+        "14247": 14,
+        "4513": 15,
+        "4012": 16,
+        "4435": 17,
+        "5139": 18,
+        "5885": 19,
+        "7799": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=John Carpenter, relation=hasAwardWinner, tail=?)\n\nOntology summary:\n- Query relation: hasAwardWinner\n- Head entity: John Carpenter\n- Head class: Director/composer\n- Relation domain: Person\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=56, edges=71, paths=20\n- Head outgoing edges under target relation hasAwardWinner: 1\n- Key support nodes: John Carpenter, Timothy Olyphant, Hereford United F.c., Deion Sanders, Antichrist, Alan J. Pakula, Ronald Harwood, The Messenger: the Story of Joan of Arc\n- Main auxiliary relations: foundIn(17), hasRegularPerformanceRole(9), hasDomesticTuition(5)\n\nFrequent relation path patterns:\n- hasArtist -> foundIn -> hasAwardWinner (count=14)\n- hasRosterPosition -> hasDomesticTuition -> hasAwardWinner (count=3)\n- influencedBy -> hasRegularPerformanceRole -> hasAwardWinner (count=2)\n- hasAwardWinner (count=1)\n\nCandidates:\n1. Industrial Engineering [id=9982 | class=Field of Study | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Stephen J. Cannell [id=7651 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Max Fleischer [id=4455 | class=Animator, Film Director | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]\n4. Kim Kardashian [id=6745 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Antichrist [id=1303 | class=Concept | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n6. George Cukor [id=6977 | class=Director | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]\n7. Jackie Cooper [id=621 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Lombardy [id=10423 | class=Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n9. Achala Sachdev [id=12325 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Timothy Olyphant [id=664 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=1]\n11. Timothy Dalton [id=5752 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Limburg [id=10890 | class=Province | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n13. Ronald Harwood [id=10098 | class=Person | type=1 | soft_type=1 | direct=0 | paths=2 | aux=1 | key=1]\n14. Lounge Music [id=14247 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n15. Cameron Diaz [id=4513 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n16. Karl Malden [id=4012 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Katrina Bowden [id=4435 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Deion Sanders [id=5139 | class=Athlete | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n19. Hereford United F.c. [id=5885 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=4 | aux=0 | key=1]\n20. Igor Stravinsky [id=7799 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n"
+}

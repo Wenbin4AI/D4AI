@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 3776,
+        "head_label": "Hope Springs",
+        "head_class": "Movie",
+        "relation_id": 166,
+        "relation_label": "hasDomesticTuition",
+        "gold_tail": 1820,
+        "gold_tail_label": "Furman University",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 3654,
+            "entity_label": "Midnight in the Garden of Good and Evil",
+            "entity_class": "Book",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 2156,
+            "entity_label": "Karan Johar",
+            "entity_class": "Director",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 8432,
+            "entity_label": "Mike Barker",
+            "entity_class": "Director",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 8727,
+            "entity_label": "Lionel Richie",
+            "entity_class": "Musician",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 6875,
+            "entity_label": "Walter Pidgeon",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 3023,
+            "entity_label": "Kathryn Joosten",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 10793,
+            "entity_label": "Fc Schaffhausen",
+            "entity_class": "Sports Team",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 5821,
+            "entity_label": "The Godfather Part Iii",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 4505,
+            "entity_label": "Jean Louis",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 11266,
+            "entity_label": "Wonder Woman",
+            "entity_class": "Superhero",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 14211,
+            "entity_label": "Williams Racing",
+            "entity_class": "Racing Team",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 7961,
+            "entity_label": "Fc Urartu",
+            "entity_class": "Football Club",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 10711,
+            "entity_label": "Girton College",
+            "entity_class": "Educational Institution",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 9680,
+            "entity_label": "Marion County",
+            "entity_class": "County",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 8493,
+            "entity_label": "Peter Falk",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 2593,
+            "entity_label": "Thelonious Monk",
+            "entity_class": "Musician",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 9170,
+            "entity_label": "Gil Bellows",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 10368,
+            "entity_label": "Halloween",
+            "entity_class": "Holiday",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 1820,
+            "entity_label": "Furman University",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 10762,
+            "entity_label": "Darmstadt",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "3654": 1,
+        "2156": 2,
+        "8432": 3,
+        "8727": 4,
+        "6875": 5,
+        "3023": 6,
+        "10793": 7,
+        "5821": 8,
+        "4505": 9,
+        "11266": 10,
+        "14211": 11,
+        "7961": 12,
+        "10711": 13,
+        "9680": 14,
+        "8493": 15,
+        "2593": 16,
+        "9170": 17,
+        "10368": 18,
+        "1820": 19,
+        "10762": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Hope Springs, relation=hasDomesticTuition, tail=?)\n\nOntology summary:\n- Query relation: hasDomesticTuition\n- Head entity: Hope Springs\n- Head class: Movie\n- Relation domain: University\n- Relation range: Currency\n- Domain check: not clearly matched\n- Tail entities of class 'Currency' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=46, edges=50, paths=20\n- Head outgoing edges under target relation hasDomesticTuition: 23\n- Key support nodes: Hope Springs, Girton College, Peter Falk, Darmstadt, Lionel Richie, Karan Johar, Jean Louis, Gil Bellows\n- Main auxiliary relations: hasRosterPosition(8), hasProgram(2), hasCounty(2)\n\nFrequent relation path patterns:\n- hasDomesticTuition (count=20)\n\nCandidates:\n1. Midnight in the Garden of Good and Evil [id=3654 | class=Book | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Karan Johar [id=2156 | class=Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Mike Barker [id=8432 | class=Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Lionel Richie [id=8727 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Walter Pidgeon [id=6875 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Kathryn Joosten [id=3023 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Fc Schaffhausen [id=10793 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. The Godfather Part Iii [id=5821 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Jean Louis [id=4505 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Wonder Woman [id=11266 | class=Superhero | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Williams Racing [id=14211 | class=Racing Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Fc Urartu [id=7961 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Girton College [id=10711 | class=Educational Institution | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Marion County [id=9680 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Peter Falk [id=8493 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Thelonious Monk [id=2593 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Gil Bellows [id=9170 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Halloween [id=10368 | class=Holiday | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Furman University [id=1820 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Darmstadt [id=10762 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

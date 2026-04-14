@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 5673,
+        "head_label": "Dave Grusin",
+        "head_class": "Composer",
+        "relation_id": 235,
+        "relation_label": "hasInstrumentFamily",
+        "gold_tail": 8293,
+        "gold_tail_label": "The Talented Mr. Ripley",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 4009,
+            "entity_label": "Mao's Last Dancer",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 7337,
+            "entity_label": "Rosanna Arquette",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 11835,
+            "entity_label": "Haudenosaunee",
+            "entity_class": "Ethnic Group",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 5199,
+            "entity_label": "Boston College Eagles Football",
+            "entity_class": "American Football Team",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 1102,
+            "entity_label": "Nebula Award for Best Novelette",
+            "entity_class": "Award",
+            "score": 1.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 1733,
+            "entity_label": "Truman Capote",
+            "entity_class": "Author",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 9021,
+            "entity_label": "Warren",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 1450,
+            "entity_label": "Aida Turturro",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 256,
+            "entity_label": "Jamie-lynn Sigler",
+            "entity_class": "Actress",
+            "score": 3.414157,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 4,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 4209,
+            "entity_label": "Ben Hecht",
+            "entity_class": "Writer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 5964,
+            "entity_label": "The Doors",
+            "entity_class": "Rock Band",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 5980,
+            "entity_label": "Duquesne University",
+            "entity_class": "University",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 4314,
+            "entity_label": "Tin Whistle",
+            "entity_class": "Musical Instrument",
+            "score": 11.246531,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 11079,
+            "entity_label": "From Russia with Love",
+            "entity_class": "Book",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 9661,
+            "entity_label": "Russian Americans",
+            "entity_class": "Ethnic Group",
+            "score": 7.512769,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 4,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 2366,
+            "entity_label": "Bryan Ferry",
+            "entity_class": "Musician",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 7747,
+            "entity_label": "Shark Tale",
+            "entity_class": "Movie",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 8526,
+            "entity_label": "Club Deportivo Vida",
+            "entity_class": "Organization",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 8293,
+            "entity_label": "The Talented Mr. Ripley",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 10278,
+            "entity_label": "Radiohead",
+            "entity_class": "Rock Band",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "4009": 1,
+        "7337": 2,
+        "11835": 3,
+        "5199": 4,
+        "1102": 5,
+        "1733": 6,
+        "9021": 7,
+        "1450": 8,
+        "256": 9,
+        "4209": 10,
+        "5964": 11,
+        "5980": 12,
+        "4314": 13,
+        "11079": 14,
+        "9661": 15,
+        "2366": 16,
+        "7747": 17,
+        "8526": 18,
+        "8293": 19,
+        "10278": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Dave Grusin, relation=hasInstrumentFamily, tail=?)\n\nOntology summary:\n- Query relation: hasInstrumentFamily\n- Head entity: Dave Grusin\n- Head class: Composer\n- Relation domain: Musical Instrument\n- Relation range: Musical Instrument\n- Domain check: not clearly matched\n- Tail entities of class 'Musical Instrument' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=45, edges=56, paths=20\n- Head outgoing edges under target relation hasInstrumentFamily: 7\n- Key support nodes: Dave Grusin, Tin Whistle, Russian Americans, 60th Golden Globe Awards, Jamie-lynn Sigler, Radiohead, Art History, Boston College Eagles Football\n- Main auxiliary relations: hasAthlete(11), hasWinner(9), hasCountry(4)\n\nFrequent relation path patterns:\n- hasInstrumentFamily -> hasAthlete -> hasWinner (count=9)\n- hasInstrumentFamily (count=6)\n- hasInstrumentFamily -> hasImpersonatedCelebrities (count=2)\n- hasInstrumentFamily -> hasCountry (count=2)\n- hasInstrumentFamily -> hasRegularPerformanceRole -> influencedBy (count=1)\n\nCandidates:\n1. Mao's Last Dancer [id=4009 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Rosanna Arquette [id=7337 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Haudenosaunee [id=11835 | class=Ethnic Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Boston College Eagles Football [id=5199 | class=American Football Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Nebula Award for Best Novelette [id=1102 | class=Award | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]\n6. Truman Capote [id=1733 | class=Author | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Warren [id=9021 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Aida Turturro [id=1450 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Jamie-lynn Sigler [id=256 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=4 | aux=0 | key=1]\n10. Ben Hecht [id=4209 | class=Writer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. The Doors [id=5964 | class=Rock Band | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Duquesne University [id=5980 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Tin Whistle [id=4314 | class=Musical Instrument | type=1 | soft_type=1 | direct=1 | paths=2 | aux=2 | key=1]\n14. From Russia with Love [id=11079 | class=Book | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Russian Americans [id=9661 | class=Ethnic Group | type=0 | soft_type=0 | direct=1 | paths=4 | aux=2 | key=1]\n16. Bryan Ferry [id=2366 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Shark Tale [id=7747 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n18. Club Deportivo Vida [id=8526 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n19. The Talented Mr. Ripley [id=8293 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Radiohead [id=10278 | class=Rock Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n"
+}

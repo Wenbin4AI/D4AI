@@ -1,0 +1,63 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Richard Schiff, relation=hasProductionCompanies, tail=?)
+
+Ontology summary:
+- Query relation: hasProductionCompanies
+- Head entity: Richard Schiff
+- Head class: Actor
+- Relation domain: Movie
+- Relation range: Film Studio
+- Domain check: not clearly matched
+- Tail entities of class 'Film Studio' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=52, edges=68, paths=20
+- Head outgoing edges under target relation hasProductionCompanies: 1
+- Key support nodes: Richard Schiff, 2012 San Sebastián International Film Festival, A Christmas Carol, Norwich City F.c., 2003 Nba Draft, Shochiku, Hope Springs, Pocahontas
+- Main auxiliary relations: hasDomesticTuition(21), foundIn(6), hasRegularPerformanceRole(5)
+
+Frequent relation path patterns:
+- hasRosterPosition -> hasDomesticTuition -> hasProductionCompanies (count=13)
+- hasArtist -> foundIn -> hasProductionCompanies (count=5)
+- hasProductionCompanies (count=1)
+- hasProductionCompanies -> hasRegularPerformanceRole -> influencedBy (count=1)
+
+Candidates:
+1. Claude Berri [id=9435 | class=Film Director | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. San Antonio [id=1516 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+3. Henry Bumstead [id=3902 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Mansfield [id=13874 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+5. Nord-pas-de-calais [id=13017 | class=Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+6. Warrington [id=13537 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. 59th Berlin International Film Festival [id=3567 | class=Film Festival | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Preston Sturges [id=8954 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Mississauga [id=6477 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+10. Pfc Cherno More Varna [id=13320 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Ocad University [id=4949 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Primetime Emmy Award for Outstanding Supporting Actress in a Miniseries or a Movie [id=261 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+13. Toulouse Fc [id=5251 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]
+14. Citizen Kane [id=8904 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+15. Atlantic Records [id=6196 | class=Company | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+16. Andy Samberg [id=1729 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Latin [id=10755 | class=Language | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+18. Norwich City F.c. [id=3438 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]
+19. 2012 San Sebastián International Film Festival [id=6279 | class=Film Festival | type=0 | soft_type=0 | direct=1 | paths=14 | aux=0 | key=1]
+20. Chiba Prefecture [id=13924 | class=Prefecture | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]

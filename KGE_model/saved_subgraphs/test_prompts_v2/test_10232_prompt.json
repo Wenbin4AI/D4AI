@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 9780,
+        "head_label": "Meath",
+        "head_class": "County",
+        "relation_id": 61,
+        "relation_label": "hasColors",
+        "gold_tail": 5691,
+        "gold_tail_label": "Karachi",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 3366,
+            "entity_label": "Cary Grant",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 9220,
+            "entity_label": "Pina",
+            "entity_class": "Person",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 13535,
+            "entity_label": "Shrewsbury",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 11222,
+            "entity_label": "Moncton",
+            "entity_class": "Location",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 1980,
+            "entity_label": "West Sussex",
+            "entity_class": "County",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 9780,
+            "entity_label": "Meath",
+            "entity_class": "County",
+            "score": 1.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 4031,
+            "entity_label": "Santa Cruz",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 10222,
+            "entity_label": "World Fantasy Award for Best Novel",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 13752,
+            "entity_label": "Houston Aeros",
+            "entity_class": "Ice Hockey Team",
+            "score": 2.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 9513,
+            "entity_label": "Onium Betaine",
+            "entity_class": "Compound",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 2029,
+            "entity_label": "Uriah Heep",
+            "entity_class": "Rock Band",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 6758,
+            "entity_label": "62nd Academy Awards",
+            "entity_class": "Awards Show",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 12897,
+            "entity_label": "Akira Kamiya",
+            "entity_class": "Person",
+            "score": 6.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 14476,
+            "entity_label": "Android",
+            "entity_class": "Operating System",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 936,
+            "entity_label": "12th Screen Actors Guild Awards",
+            "entity_class": "Award Ceremony",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 7738,
+            "entity_label": "Wim Wenders",
+            "entity_class": "Film Director",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 2911,
+            "entity_label": "Danger Mouse",
+            "entity_class": "Music Producer",
+            "score": 2.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 12330,
+            "entity_label": "University of Tehran",
+            "entity_class": "University",
+            "score": 2.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 5691,
+            "entity_label": "Karachi",
+            "entity_class": "City",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 7595,
+            "entity_label": "Emile Kuri",
+            "entity_class": "Person",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "3366": 1,
+        "9220": 2,
+        "13535": 3,
+        "11222": 4,
+        "1980": 5,
+        "9780": 6,
+        "4031": 7,
+        "10222": 8,
+        "13752": 9,
+        "9513": 10,
+        "2029": 11,
+        "6758": 12,
+        "12897": 13,
+        "14476": 14,
+        "936": 15,
+        "7738": 16,
+        "2911": 17,
+        "12330": 18,
+        "5691": 19,
+        "7595": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Meath, relation=hasColors, tail=?)\n\nOntology summary:\n- Query relation: hasColors\n- Head entity: Meath\n- Head class: County\n- Relation domain: University\n- Relation range: Color\n- Domain check: not clearly matched\n- Tail entities of class 'Color' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=34, edges=48, paths=20\n- Head outgoing edges under target relation hasColors: 4\n- Key support nodes: Meath, Akira Kamiya, Karachi, 12th Screen Actors Guild Awards, Emile Kuri, Moncton, Pina, Houston Aeros\n- Main auxiliary relations: hasPerformanceType(4), hasPhoneNumber(4), hasPrequel(3)\n\nFrequent relation path patterns:\n- hasColors -> hasColors (count=16)\n- hasColors (count=4)\n\nCandidates:\n1. Cary Grant [id=3366 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Pina [id=9220 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n3. Shrewsbury [id=13535 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Moncton [id=11222 | class=Location | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n5. West Sussex [id=1980 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Meath [id=9780 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]\n7. Santa Cruz [id=4031 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. World Fantasy Award for Best Novel [id=10222 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Houston Aeros [id=13752 | class=Ice Hockey Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n10. Onium Betaine [id=9513 | class=Compound | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. Uriah Heep [id=2029 | class=Rock Band | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. 62nd Academy Awards [id=6758 | class=Awards Show | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Akira Kamiya [id=12897 | class=Person | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n14. Android [id=14476 | class=Operating System | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. 12th Screen Actors Guild Awards [id=936 | class=Award Ceremony | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n16. Wim Wenders [id=7738 | class=Film Director | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Danger Mouse [id=2911 | class=Music Producer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n18. University of Tehran [id=12330 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n19. Karachi [id=5691 | class=City | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n20. Emile Kuri [id=7595 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n"
+}

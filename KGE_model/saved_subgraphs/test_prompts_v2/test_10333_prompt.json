@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 3005,
+        "head_label": "64th Academy Awards",
+        "head_class": "Event",
+        "relation_id": 130,
+        "relation_label": "hasPlayer",
+        "gold_tail": 9332,
+        "gold_tail_label": "The Firm",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 937,
+            "entity_label": "Placekicker",
+            "entity_class": "Position in American Football",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 12447,
+            "entity_label": "Experimental Film",
+            "entity_class": "Film Genre",
+            "score": 4.295837,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 8,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 11345,
+            "entity_label": "Delta Blues",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 1463,
+            "entity_label": "Nac Breda",
+            "entity_class": "Football Club",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 3480,
+            "entity_label": "Ryan Kavanaugh",
+            "entity_class": "Producer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 1322,
+            "entity_label": "The Golden Compass",
+            "entity_class": "Novel",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 7544,
+            "entity_label": "Jamie Gangel",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 1204,
+            "entity_label": "Cecil County",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 4337,
+            "entity_label": "Anthony Anderson",
+            "entity_class": "Actor",
+            "score": 3.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 5245,
+            "entity_label": "Miniseries",
+            "entity_class": "Tv Format",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 5029,
+            "entity_label": "Exeter",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 8982,
+            "entity_label": "Maaya Sakamoto",
+            "entity_class": "Voice Actress and Singer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 10052,
+            "entity_label": "Ebbsfleet United F.c.",
+            "entity_class": "Football Club",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 10732,
+            "entity_label": "Anthony Head",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 4810,
+            "entity_label": "Danubio F.c.",
+            "entity_class": "Football Club",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 12350,
+            "entity_label": "Independent School",
+            "entity_class": "School",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 2.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 9332,
+            "entity_label": "The Firm",
+            "entity_class": "Organization",
+            "score": 7.988984,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 8,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 2786,
+            "entity_label": "Huddersfield Town A.f.c.",
+            "entity_class": "Football Club",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "937": 1,
+        "12447": 2,
+        "11345": 3,
+        "1463": 4,
+        "3480": 5,
+        "1322": 6,
+        "7544": 7,
+        "1204": 8,
+        "4337": 9,
+        "5245": 10,
+        "5029": 11,
+        "8982": 12,
+        "10052": 13,
+        "10732": 14,
+        "4810": 15,
+        "12350": 16,
+        "4994": 17,
+        "14037": 18,
+        "9332": 19,
+        "2786": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=64th Academy Awards, relation=hasPlayer, tail=?)\n\nOntology summary:\n- Query relation: hasPlayer\n- Head entity: 64th Academy Awards\n- Head class: Event\n- Relation domain: Position\n- Relation range: Football Club\n- Domain check: not clearly matched\n- Tail entities of class 'Football Club' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=46, edges=66, paths=20\n- Head outgoing edges under target relation hasPlayer: 1\n- Key support nodes: 64th Academy Awards, The Firm, Spartanburg County, Mrs. Brown, Experimental Film, Greenland, Anthony Anderson, Seattle\n- Main auxiliary relations: hasLocalTuitionCurrency(26), capital(6), hasWife(5)\n\nFrequent relation path patterns:\n- capital -> hasLocalTuitionCurrency -> hasPlayer (count=11)\n- hasInternationalTuitionCurrency -> hasLocalTuitionCurrency -> hasPlayer (count=7)\n- hasPlayer (count=1)\n- hasPlayer -> hasWife (count=1)\n\nCandidates:\n1. Placekicker [id=937 | class=Position in American Football | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Experimental Film [id=12447 | class=Film Genre | type=0 | soft_type=0 | direct=0 | paths=8 | aux=0 | key=1]\n3. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Nac Breda [id=1463 | class=Football Club | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Ryan Kavanaugh [id=3480 | class=Producer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. The Golden Compass [id=1322 | class=Novel | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Cecil County [id=1204 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Anthony Anderson [id=4337 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n10. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Ebbsfleet United F.c. [id=10052 | class=Football Club | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n14. Anthony Head [id=10732 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Danubio F.c. [id=4810 | class=Football Club | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n16. Independent School [id=12350 | class=School | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n18. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. The Firm [id=9332 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=8 | aux=1 | key=1]\n20. Huddersfield Town A.f.c. [id=2786 | class=Football Club | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n"
+}

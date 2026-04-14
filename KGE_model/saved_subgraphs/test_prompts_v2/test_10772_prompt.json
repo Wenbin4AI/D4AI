@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 14204,
+        "head_label": "Republic Pictures",
+        "head_class": "Film Studio",
+        "relation_id": 31,
+        "relation_label": "hasGenre",
+        "gold_tail": 8931,
+        "gold_tail_label": "Morgan State University",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 1640,
+            "entity_label": "Emmanuel College",
+            "entity_class": "College",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 2046,
+            "entity_label": "Iceland",
+            "entity_class": "Country",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 7204,
+            "entity_label": "Ronaldo",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 6141,
+            "entity_label": "University of Nottingham",
+            "entity_class": "Educational Institution",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 485,
+            "entity_label": "Central Michigan University",
+            "entity_class": "University",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 3634,
+            "entity_label": "University of Bologna",
+            "entity_class": "Educational Institution",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 1678,
+            "entity_label": "Brigitte Nielsen",
+            "entity_class": "Actress, Model, Wrestler",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 7939,
+            "entity_label": "University of California, Irvine",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 10108,
+            "entity_label": "Education",
+            "entity_class": "Field of Study",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 13125,
+            "entity_label": "United States Secretary of State",
+            "entity_class": "Government Position",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 1475,
+            "entity_label": "Bryan Cranston",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 8527,
+            "entity_label": "Tooele County",
+            "entity_class": "Location",
+            "score": 4.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 9924,
+            "entity_label": "War of the Sixth Coalition",
+            "entity_class": "Military Conflict",
+            "score": 7.465736,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 103,
+            "entity_label": "Rocky V",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 2464,
+            "entity_label": "Grammy Award for Best Instrumental Soloist(s) Performance (with Orchestra)",
+            "entity_class": "Award",
+            "score": 7.257356,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 4643,
+            "entity_label": "Franz Kafka",
+            "entity_class": "Author",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 7455,
+            "entity_label": "All About My Mother",
+            "entity_class": "Film",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 14219,
+            "entity_label": "Creation Records",
+            "entity_class": "Record Label",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 8931,
+            "entity_label": "Morgan State University",
+            "entity_class": "University",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 7378,
+            "entity_label": "Dutch",
+            "entity_class": "Nationality",
+            "score": 7.034213,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "1640": 1,
+        "2046": 2,
+        "7204": 3,
+        "6141": 4,
+        "485": 5,
+        "3634": 6,
+        "1678": 7,
+        "7939": 8,
+        "10108": 9,
+        "13125": 10,
+        "1475": 11,
+        "8527": 12,
+        "9924": 13,
+        "103": 14,
+        "2464": 15,
+        "4643": 16,
+        "7455": 17,
+        "14219": 18,
+        "8931": 19,
+        "7378": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Republic Pictures, relation=hasGenre, tail=?)\n\nOntology summary:\n- Query relation: hasGenre\n- Head entity: Republic Pictures\n- Head class: Film Studio\n- Relation domain: Movie\n- Relation range: Genre\n- Domain check: not clearly matched\n- Tail entities of class 'Genre' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=24, edges=45, paths=20\n- Head outgoing edges under target relation hasGenre: 15\n- Key support nodes: Republic Pictures, War of the Sixth Coalition, Dutch, Central Michigan University, All About My Mother, Iceland, Grammy Award for Best Instrumental Soloist(s) Performance (with Orchestra), Education\n- Main auxiliary relations: hasMember(6), hasPhoneNumber(4), hasDraftPickFromSchool(3)\n\nFrequent relation path patterns:\n- hasGenre (count=15)\n- hasGenre -> hasGenre (count=3)\n- hasGenre -> isRecurringEvent (count=2)\n\nCandidates:\n1. Emmanuel College [id=1640 | class=College | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Iceland [id=2046 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n3. Ronaldo [id=7204 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. University of Nottingham [id=6141 | class=Educational Institution | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n5. Central Michigan University [id=485 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. University of Bologna [id=3634 | class=Educational Institution | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Brigitte Nielsen [id=1678 | class=Actress, Model, Wrestler | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. University of California, Irvine [id=7939 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Education [id=10108 | class=Field of Study | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n10. United States Secretary of State [id=13125 | class=Government Position | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Bryan Cranston [id=1475 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Tooele County [id=8527 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]\n13. War of the Sixth Coalition [id=9924 | class=Military Conflict | type=0 | soft_type=0 | direct=1 | paths=3 | aux=3 | key=1]\n14. Rocky V [id=103 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Grammy Award for Best Instrumental Soloist(s) Performance (with Orchestra) [id=2464 | class=Award | type=0 | soft_type=0 | direct=1 | paths=2 | aux=4 | key=1]\n16. Franz Kafka [id=4643 | class=Author | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. All About My Mother [id=7455 | class=Film | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n18. Creation Records [id=14219 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Morgan State University [id=8931 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Dutch [id=7378 | class=Nationality | type=0 | soft_type=0 | direct=1 | paths=2 | aux=3 | key=1]\n"
+}

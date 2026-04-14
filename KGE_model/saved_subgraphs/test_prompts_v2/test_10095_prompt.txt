@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Frank Sinatra, relation=hasPrequel, tail=?)
+
+Ontology summary:
+- Query relation: hasPrequel
+- Head entity: Frank Sinatra
+- Head class: Person
+- Relation domain: Movie
+- Relation range: Movie
+- Domain check: not clearly matched
+- Tail entities of class 'Movie' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=30, edges=49, paths=20
+- Head outgoing edges under target relation hasPrequel: 5
+- Key support nodes: Frank Sinatra, Eastern Front, Irish Folk Music, Gillian Welch, Richard Pryor, Forest Green Rovers F.c., Grammy Award for Best New Artist, Ethnikos Piraeus F.c.
+- Main auxiliary relations: hasColors(12), hasPhoneNumber(3), hasVoiceActingLanguage(2)
+
+Frequent relation path patterns:
+- hasColors -> hasPrequel (count=15)
+- hasPrequel (count=5)
+
+Candidates:
+1. South Korea National Football Team [id=8230 | class=National Football Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Waltz with Bashir [id=3700 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+3. Monty Python [id=12176 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Grammy Award for Best Contemporary Instrumental Album [id=9663 | class=Award Category | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Carrie Preston [id=2944 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+6. Dundee F.c. [id=10119 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Jim Steinman [id=6106 | class=Songwriter | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Oliver Twist [id=9375 | class=Fictional Character | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+10. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. The Lord of the Rings [id=9987 | class=Book Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. 106th United States Congress [id=857 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+13. Eastern Front [id=10481 | class=Military Conflict | type=0 | soft_type=0 | direct=1 | paths=9 | aux=0 | key=1]
+14. Dave Goelz [id=10502 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+15. Irish Folk Music [id=12318 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=6 | aux=0 | key=1]
+16. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. David Benioff [id=4761 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+18. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+19. Superhero [id=11118 | class=Character Type | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Gillian Welch [id=7473 | class=Person | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]

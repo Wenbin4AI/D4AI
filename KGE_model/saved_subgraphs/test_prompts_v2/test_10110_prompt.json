@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 5366,
+        "head_label": "20th-century Classical Music",
+        "head_class": "Classical Music",
+        "relation_id": 88,
+        "relation_label": "hasInvolvedEntity",
+        "gold_tail": 2,
+        "gold_tail_label": "Mighty Morphin Power Rangers",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 10573,
+            "entity_label": "East River",
+            "entity_class": "Geographic Feature",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 218,
+            "entity_label": "Conrad Buff Iv",
+            "entity_class": "Person",
+            "score": 6.232868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 7507,
+            "entity_label": "Columbia Law School",
+            "entity_class": "Law School",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 12987,
+            "entity_label": "American Hockey League",
+            "entity_class": "Ice Hockey League",
+            "score": 6.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 1489,
+            "entity_label": "Mtv Movie Award for Best Comedic Performance",
+            "entity_class": "Award",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 11862,
+            "entity_label": "Royal Medal",
+            "entity_class": "Award",
+            "score": 5.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 9540,
+            "entity_label": "Kyoto University",
+            "entity_class": "University",
+            "score": 4.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 7194,
+            "entity_label": "Buzz Aldrin",
+            "entity_class": "Astronaut",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 13817,
+            "entity_label": "Xerez C.d.",
+            "entity_class": "Sports Club",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 8715,
+            "entity_label": "Allen Iverson",
+            "entity_class": "Person",
+            "score": 5.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 11090,
+            "entity_label": "Michael Piller",
+            "entity_class": "Producer",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 9843,
+            "entity_label": "Franklin County",
+            "entity_class": "County",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 13615,
+            "entity_label": "Sidhique",
+            "entity_class": "Person",
+            "score": 7.232868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 3732,
+            "entity_label": "Janet Jackson",
+            "entity_class": "Person",
+            "score": 5.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 1010,
+            "entity_label": "Allen Leech",
+            "entity_class": "Person",
+            "score": 7.232868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 100,
+            "entity_label": "Roger Deakins",
+            "entity_class": "Cinematographer",
+            "score": 4.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 10894,
+            "entity_label": "Joseph Cotten",
+            "entity_class": "Actor",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 10228,
+            "entity_label": "James Monroe",
+            "entity_class": "Us President",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 2,
+            "entity_label": "Mighty Morphin Power Rangers",
+            "entity_class": "Tv Series",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 5120,
+            "entity_label": "Lorenzo Music",
+            "entity_class": "Person",
+            "score": 6.638333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "10573": 1,
+        "218": 2,
+        "7507": 3,
+        "12987": 4,
+        "1489": 5,
+        "11862": 6,
+        "9540": 7,
+        "7194": 8,
+        "13817": 9,
+        "8715": 10,
+        "11090": 11,
+        "9843": 12,
+        "13615": 13,
+        "3732": 14,
+        "1010": 15,
+        "100": 16,
+        "10894": 17,
+        "10228": 18,
+        "2": 19,
+        "5120": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=20th-century Classical Music, relation=hasInvolvedEntity, tail=?)\n\nOntology summary:\n- Query relation: hasInvolvedEntity\n- Head entity: 20th-century Classical Music\n- Head class: Classical Music\n- Relation domain: Historical Event\n- Relation range: Country\n- Domain check: not clearly matched\n- Tail entities of class 'Country' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=34, edges=46, paths=20\n- Head outgoing edges under target relation hasInvolvedEntity: 20\n- Key support nodes: 20th-century Classical Music, Columbia Law School, Xerez C.d., Franklin County, Sidhique, Joseph Cotten, Allen Leech, James Monroe\n- Main auxiliary relations: originCountry(14), distributorsInRegion(6), hasOfficialLanguage(3)\n\nFrequent relation path patterns:\n- hasInvolvedEntity (count=20)\n\nCandidates:\n1. East River [id=10573 | class=Geographic Feature | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Conrad Buff Iv [id=218 | class=Person | type=0 | soft_type=1 | direct=1 | paths=1 | aux=1 | key=0]\n3. Columbia Law School [id=7507 | class=Law School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n4. American Hockey League [id=12987 | class=Ice Hockey League | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n5. Mtv Movie Award for Best Comedic Performance [id=1489 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n6. Royal Medal [id=11862 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=0]\n7. Kyoto University [id=9540 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]\n8. Buzz Aldrin [id=7194 | class=Astronaut | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Xerez C.d. [id=13817 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n10. Allen Iverson [id=8715 | class=Person | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n11. Michael Piller [id=11090 | class=Producer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Franklin County [id=9843 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n13. Sidhique [id=13615 | class=Person | type=0 | soft_type=1 | direct=1 | paths=1 | aux=1 | key=1]\n14. Janet Jackson [id=3732 | class=Person | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n15. Allen Leech [id=1010 | class=Person | type=0 | soft_type=1 | direct=1 | paths=1 | aux=1 | key=1]\n16. Roger Deakins [id=100 | class=Cinematographer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]\n17. Joseph Cotten [id=10894 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n18. James Monroe [id=10228 | class=Us President | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n19. Mighty Morphin Power Rangers [id=2 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Lorenzo Music [id=5120 | class=Person | type=0 | soft_type=1 | direct=1 | paths=1 | aux=2 | key=0]\n"
+}

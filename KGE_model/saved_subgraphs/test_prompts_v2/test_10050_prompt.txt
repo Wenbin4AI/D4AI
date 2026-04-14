@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Canoe Sprint, relation=hasEndowmentCurrency, tail=?)
+
+Ontology summary:
+- Query relation: hasEndowmentCurrency
+- Head entity: Canoe Sprint
+- Head class: Sport
+- Relation domain: University
+- Relation range: Currency
+- Domain check: not clearly matched
+- Tail entities of class 'Currency' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=45, edges=48, paths=20
+- Head outgoing edges under target relation hasEndowmentCurrency: 21
+- Key support nodes: Canoe Sprint, Merced, Grace Jones, David Paymer, Douglas Slocombe, Indianapolis Colts, Amherst, Seattle Supersonics
+- Main auxiliary relations: hasRosterPosition(8), hasWriter(5), performedBy(4)
+
+Frequent relation path patterns:
+- hasEndowmentCurrency (count=20)
+
+Candidates:
+1. Norman Blake [id=3837 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Indianapolis Colts [id=5546 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. United Airlines [id=1343 | class=Airline | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Douglas Slocombe [id=11632 | class=Cinematographer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Iowa City [id=207 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Ally Mcbeal [id=5113 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Elsevier Bv [id=13447 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Baz Luhrmann [id=9000 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Amherst [id=11816 | class=Town | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Marvel Comics [id=6692 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Ricky Martin [id=724 | class=Singer, Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Uefa [id=8313 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Merced [id=13409 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. Filmfare Award for Best Actor [id=1724 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Grace Jones [id=2306 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Donovan [id=9812 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Seattle Supersonics [id=13494 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Some Like It Hot [id=2538 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Tampa Bay Buccaneers [id=1438 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. David Paymer [id=7642 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

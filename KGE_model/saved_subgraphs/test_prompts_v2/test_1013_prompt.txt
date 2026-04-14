@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Leslie Dilley, relation=:hasCostumeDesigner, tail=?)
+
+Ontology summary:
+- Query relation: :hasCostumeDesigner
+- Head entity: Leslie Dilley
+- Head class: Production Designer
+- Relation domain: Movie
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=40, edges=49, paths=20
+- Head outgoing edges under target relation :hasCostumeDesigner: 21
+- Key support nodes: Leslie Dilley, United States Secretary of the Treasury, Dr. Strangelove, Limerick, Hal Pereira, Yeovil Town F.c., Neil Jordan, Dave Foley
+- Main auxiliary relations: hasInvolvedEntity(7), hasPlayer(3), hasCategory(3)
+
+Frequent relation path patterns:
+- :hasCostumeDesigner (count=20)
+
+Candidates:
+1. Cyndi Lauper [id=7301 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+2. Sara Haines [id=4493 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+3. Catherine Deneuve [id=8607 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+4. Dante Ferretti [id=2834 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+5. Yeovil Town F.c. [id=7861 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+6. Thirtysomething [id=544 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+7. Tony Thomas [id=4116 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+8. Ozzy Osbourne [id=3668 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+9. Michael Douglas [id=7665 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+10. Dr. Strangelove [id=4956 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+11. Amrish Puri [id=11503 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+12. Pantothenic Acid [id=7613 | class=Chemical Compound | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+13. Hal Pereira [id=4624 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=2 | key=1]
+14. Malcolm Arnold [id=1813 | class=Composer | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+15. Dave Foley [id=2583 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=2 | key=1]
+16. Dana Carvey [id=7864 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+17. United States Secretary of the Treasury [id=14459 | class=Government Position | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+18. Limerick [id=10031 | class=Poetic Form | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+19. Paducah [id=13087 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+20. Neil Jordan [id=6788 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]

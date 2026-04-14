@@ -1,0 +1,62 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Mean Girls, relation=hasCountry, tail=?)
+
+Ontology summary:
+- Query relation: hasCountry
+- Head entity: Mean Girls
+- Head class: Movie
+- Relation domain: City
+- Relation range: Country
+- Domain check: not clearly matched
+- Tail entities of class 'Country' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=33, edges=44, paths=20
+- Head outgoing edges under target relation hasCountry: 8
+- Key support nodes: Mean Girls, George Lopez, The Lord of the Rings: the Fellowship of the Ring, Microsoft Windows, Set Dresser, Liberal National Party of Queensland, Tara Strong, Wood County
+- Main auxiliary relations: hasDomesticTuition(17), hasRosterPosition(12), hasOfficialLanguage(2)
+
+Frequent relation path patterns:
+- hasCountry -> hasDomesticTuition -> hasRosterPosition (count=11)
+- hasCountry (count=8)
+- hasCountry -> hasAppearance (count=1)
+
+Candidates:
+1. Jorma Taccone [id=6169 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Tara Strong [id=2360 | class=Voice Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Hope Springs [id=3776 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Liberal National Party of Queensland [id=13884 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Nevada County [id=12058 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+6. Morris County [id=7892 | class=Geographic Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Why We Fight [id=5817 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Some Kind of Monster [id=743 | class=Movie Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Wood County [id=14191 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Shochiku [id=13511 | class=Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Cynthia Watros [id=4016 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Hammersmith [id=8761 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. George Lopez [id=7280 | class=Comedian | type=0 | soft_type=0 | direct=1 | paths=12 | aux=0 | key=1]
+14. Mecca [id=6302 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+15. Set Dresser [id=4864 | class=Job Title | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]
+16. Joel Grey [id=864 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. The Lord of the Rings: the Fellowship of the Ring [id=805 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Switzerland [id=622 | class=Country | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+19. Padua [id=14083 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+20. Microsoft Windows [id=14246 | class=Software | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]

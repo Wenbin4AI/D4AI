@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Richard D. Zanuck, relation=hasInvolvedEntity, tail=?)
+
+Ontology summary:
+- Query relation: hasInvolvedEntity
+- Head entity: Richard D. Zanuck
+- Head class: Film Producer
+- Relation domain: Historical Event
+- Relation range: Country
+- Domain check: not clearly matched
+- Tail entities of class 'Country' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=27, edges=41, paths=20
+- Head outgoing edges under target relation hasInvolvedEntity: 7
+- Key support nodes: Richard D. Zanuck, Timbales, Danny Devito, Conrad Buff Iv, Kyoto University, The Beaver, Long Beach, Roger Deakins
+- Main auxiliary relations: originCountry(23), hasOfficialLanguage(5), distributorsInRegion(4)
+
+Frequent relation path patterns:
+- hasInvolvedEntity -> originCountry (count=13)
+- hasInvolvedEntity (count=7)
+
+Candidates:
+1. Sissy Spacek [id=1061 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+2. Roger Deakins [id=100 | class=Cinematographer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+3. American Hockey League [id=12987 | class=Ice Hockey League | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+4. The Beaver [id=4085 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+5. Anthony Newley [id=10264 | class=Person | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]
+6. Timbaland [id=792 | class=Music Producer, Rapper | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+7. Fidel Castro [id=9266 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+8. Allen Iverson [id=8715 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+9. Kyoto University [id=9540 | class=University | type=0 | soft_type=0 | direct=0 | paths=4 | aux=6 | key=1]
+10. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=2 | key=0]
+11. Gloria Stuart [id=1423 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+12. Mtv Movie Award for Best Comedic Performance [id=1489 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]
+13. Danny Devito [id=16 | class=Person | type=0 | soft_type=1 | direct=1 | paths=2 | aux=4 | key=1]
+14. Gregory Peck [id=8719 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=2 | key=0]
+15. Conrad Buff Iv [id=218 | class=Person | type=0 | soft_type=1 | direct=1 | paths=2 | aux=4 | key=1]
+16. Jeri Taylor [id=9045 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+17. 2012 Sundance Film Festival [id=13492 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Lorenzo Music [id=5120 | class=Person | type=0 | soft_type=1 | direct=0 | paths=1 | aux=2 | key=0]
+19. Timbales [id=7169 | class=Musical Instrument | type=0 | soft_type=0 | direct=1 | paths=3 | aux=9 | key=1]
+20. Long Beach [id=8187 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]

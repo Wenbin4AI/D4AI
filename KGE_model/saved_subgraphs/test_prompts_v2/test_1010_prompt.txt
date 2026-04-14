@@ -1,0 +1,62 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=High Anxiety, relation=hasReligion, tail=?)
+
+Ontology summary:
+- Query relation: hasReligion
+- Head entity: High Anxiety
+- Head class: Movie
+- Relation domain: Person
+- Relation range: Religion
+- Domain check: not clearly matched
+- Tail entities of class 'Religion' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=39, edges=53, paths=20
+- Head outgoing edges under target relation hasReligion: 7
+- Key support nodes: High Anxiety, Charlie Kaufman, Bam Margera, New Order, Russell T Davies, Magic Knight Rayearth, Nursing, John Swasey
+- Main auxiliary relations: hasImpersonatedCelebrities(11), livingIn(4), hasRosterPosition(3)
+
+Frequent relation path patterns:
+- hasImpersonatedCelebrities -> hasReligion (count=9)
+- hasReligion (count=7)
+- hasReligion -> livingIn (count=4)
+
+Candidates:
+1. Modernism [id=14503 | class=Movement | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. East Timor [id=3394 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Irene Cara [id=7256 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Russell T Davies [id=9511 | class=Writer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+5. Comedy Rock [id=1358 | class=Music Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+6. St. Louis Blues [id=13577 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Shrek the Third [id=7794 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. 1998 Ncaa Division I Men's Basketball Tournament [id=6304 | class=Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Contemporary Worship Music [id=14354 | class=Religion Music | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+10. Carmine Coppola [id=8251 | class=Composer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. The Royal Tenenbaums [id=4499 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Huntington [id=2851 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+13. Charlie Kaufman [id=4601 | class=Screenwriter | type=0 | soft_type=0 | direct=1 | paths=7 | aux=1 | key=1]
+14. California State University, Los Angeles [id=10961 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+15. Bam Margera [id=10558 | class=Person | type=0 | soft_type=0 | direct=1 | paths=5 | aux=2 | key=1]
+16. Ballet Dancer [id=14441 | class=People | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. University of Paris [id=12540 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+18. Norfolk County [id=4718 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+19. Magic Knight Rayearth [id=9736 | class=Anime/manga | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]
+20. New Order [id=1791 | class=Musical Groups | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]

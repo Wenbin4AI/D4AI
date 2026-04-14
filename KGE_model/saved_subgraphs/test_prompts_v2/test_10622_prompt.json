@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 4885,
+        "head_label": "The Squid and the Whale",
+        "head_class": "Movie",
+        "relation_id": 179,
+        "relation_label": "hasGovernmentPosition",
+        "gold_tail": 8877,
+        "gold_tail_label": "Chief Administrative Officer",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 7226,
+            "entity_label": "Robert Wyatt",
+            "entity_class": "Musician",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 13891,
+            "entity_label": "Farsley Celtic F.c.",
+            "entity_class": "Football Club",
+            "score": 7.257356,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 5749,
+            "entity_label": "Burt Bacharach",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 12922,
+            "entity_label": "Fort Smith",
+            "entity_class": "City",
+            "score": 7.688879,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 9430,
+            "entity_label": "Tarrant County",
+            "entity_class": "County",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 11226,
+            "entity_label": "June Carter Cash",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 350,
+            "entity_label": "J. R. R. Tolkien",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 2270,
+            "entity_label": "Ocean's Twelve",
+            "entity_class": "Movie",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 1769,
+            "entity_label": "Christopher Boyes",
+            "entity_class": "Sound Designer",
+            "score": 6.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 11075,
+            "entity_label": "Daniel Haller",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8821,
+            "entity_label": "Organisation of African, Caribbean and Pacific States",
+            "entity_class": "International Organization",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 4758,
+            "entity_label": "Kyle Chandler",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 12360,
+            "entity_label": "Christian",
+            "entity_class": "Person",
+            "score": 12.188879,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 9690,
+            "entity_label": "Blair Underwood",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 584,
+            "entity_label": "Rutger Hauer",
+            "entity_class": "Person",
+            "score": 10.232868,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 12681,
+            "entity_label": "Constantine",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 11684,
+            "entity_label": "Ventura County",
+            "entity_class": "County",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 10325,
+            "entity_label": "James Wong Howe",
+            "entity_class": "Cinematographer",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 8877,
+            "entity_label": "Chief Administrative Officer",
+            "entity_class": "Occupation",
+            "score": 5.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 11734,
+            "entity_label": "Liberty Records",
+            "entity_class": "Record Label",
+            "score": 7.688879,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "7226": 1,
+        "13891": 2,
+        "5749": 3,
+        "12922": 4,
+        "9430": 5,
+        "11226": 6,
+        "350": 7,
+        "2270": 8,
+        "1769": 9,
+        "11075": 10,
+        "8821": 11,
+        "4758": 12,
+        "12360": 13,
+        "9690": 14,
+        "584": 15,
+        "12681": 16,
+        "11684": 17,
+        "10325": 18,
+        "8877": 19,
+        "11734": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=The Squid and the Whale, relation=hasGovernmentPosition, tail=?)\n\nOntology summary:\n- Query relation: hasGovernmentPosition\n- Head entity: The Squid and the Whale\n- Head class: Movie\n- Relation domain: Person\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=41, edges=48, paths=20\n- Head outgoing edges under target relation hasGovernmentPosition: 10\n- Key support nodes: The Squid and the Whale, Christian, Liberty Records, Fort Smith, Farsley Celtic F.c., Christopher Boyes, Rutger Hauer, Ventura County\n- Main auxiliary relations: hasImpersonatedCelebrities(15), hasAthlete(9), hasRegularPerformanceRole(3)\n\nFrequent relation path patterns:\n- hasGovernmentPosition (count=10)\n- hasGovernmentPosition -> hasImpersonatedCelebrities (count=10)\n\nCandidates:\n1. Robert Wyatt [id=7226 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n2. Farsley Celtic F.c. [id=13891 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=2 | aux=4 | key=1]\n3. Burt Bacharach [id=5749 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Fort Smith [id=12922 | class=City | type=0 | soft_type=0 | direct=1 | paths=3 | aux=4 | key=1]\n5. Tarrant County [id=9430 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. June Carter Cash [id=11226 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. J. R. R. Tolkien [id=350 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Ocean's Twelve [id=2270 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n9. Christopher Boyes [id=1769 | class=Sound Designer | type=0 | soft_type=0 | direct=1 | paths=2 | aux=2 | key=1]\n10. Daniel Haller [id=11075 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Organisation of African, Caribbean and Pacific States [id=8821 | class=International Organization | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n12. Kyle Chandler [id=4758 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Christian [id=12360 | class=Person | type=1 | soft_type=1 | direct=1 | paths=3 | aux=4 | key=1]\n14. Blair Underwood [id=9690 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Rutger Hauer [id=584 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=1 | key=1]\n16. Constantine [id=12681 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Ventura County [id=11684 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. James Wong Howe [id=10325 | class=Cinematographer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Chief Administrative Officer [id=8877 | class=Occupation | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n20. Liberty Records [id=11734 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=3 | aux=4 | key=1]\n"
+}

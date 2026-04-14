@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 2020,
+        "head_label": "Mca Records",
+        "head_class": "Record Label",
+        "relation_id": 117,
+        "relation_label": "hasRosterPosition",
+        "gold_tail": 4342,
+        "gold_tail_label": "David Arquette",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 9611,
+            "entity_label": "The Lives of Others",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 2011,
+            "entity_label": "Addams Family Values",
+            "entity_class": "Film",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 1576,
+            "entity_label": "Saudi Arabia",
+            "entity_class": "Country",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 7861,
+            "entity_label": "Yeovil Town F.c.",
+            "entity_class": "Football Club",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 11552,
+            "entity_label": "Billy Connolly",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 8482,
+            "entity_label": "The Cannon Group",
+            "entity_class": "Organization",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 8901,
+            "entity_label": "Notts County F.c.",
+            "entity_class": "Football Club",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 1346,
+            "entity_label": "Chrysalis Records",
+            "entity_class": "Record Label",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 4526,
+            "entity_label": "Don Delillo",
+            "entity_class": "Author",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 4558,
+            "entity_label": "January",
+            "entity_class": "Month",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 1613,
+            "entity_label": "James Poyser",
+            "entity_class": "Musician",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 10286,
+            "entity_label": "Palestinian National Authority",
+            "entity_class": "Government Entity",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 13672,
+            "entity_label": "Worcester",
+            "entity_class": "City",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 2396,
+            "entity_label": "Cross-country Skiing",
+            "entity_class": "Sport",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 4081,
+            "entity_label": "Alpha Sigma Phi",
+            "entity_class": "Fraternity",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 8836,
+            "entity_label": "Ryan Adams",
+            "entity_class": "Musician",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 11641,
+            "entity_label": "Michael Jordan",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 7834,
+            "entity_label": "Muskegon",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 4342,
+            "entity_label": "David Arquette",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 10031,
+            "entity_label": "Limerick",
+            "entity_class": "Poetic Form",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "9611": 1,
+        "2011": 2,
+        "1576": 3,
+        "7861": 4,
+        "11552": 5,
+        "8482": 6,
+        "8901": 7,
+        "1346": 8,
+        "4526": 9,
+        "4558": 10,
+        "1613": 11,
+        "10286": 12,
+        "13672": 13,
+        "2396": 14,
+        "4081": 15,
+        "8836": 16,
+        "11641": 17,
+        "7834": 18,
+        "4342": 19,
+        "10031": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Mca Records, relation=hasRosterPosition, tail=?)\n\nOntology summary:\n- Query relation: hasRosterPosition\n- Head entity: Mca Records\n- Head class: Record Label\n- Relation domain: Sports Team\n- Relation range: Position in American Football\n- Domain check: not clearly matched\n- Tail entities of class 'Position in American Football' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=35, edges=48, paths=20\n- Head outgoing edges under target relation hasRosterPosition: 22\n- Key support nodes: Mca Records, Worcester, Addams Family Values, Don Delillo, Alpha Sigma Phi, Michael Jordan, Muskegon, Limerick\n- Main auxiliary relations: nominated_for(9), hasBorder(3), hasPlayer(3)\n\nFrequent relation path patterns:\n- hasRosterPosition (count=20)\n\nCandidates:\n1. The Lives of Others [id=9611 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Addams Family Values [id=2011 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Saudi Arabia [id=1576 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Yeovil Town F.c. [id=7861 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n5. Billy Connolly [id=11552 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. The Cannon Group [id=8482 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Notts County F.c. [id=8901 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Chrysalis Records [id=1346 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Don Delillo [id=4526 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. January [id=4558 | class=Month | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. James Poyser [id=1613 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Palestinian National Authority [id=10286 | class=Government Entity | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Worcester [id=13672 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n14. Cross-country Skiing [id=2396 | class=Sport | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Alpha Sigma Phi [id=4081 | class=Fraternity | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n16. Ryan Adams [id=8836 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Michael Jordan [id=11641 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Muskegon [id=7834 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. David Arquette [id=4342 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Limerick [id=10031 | class=Poetic Form | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n"
+}

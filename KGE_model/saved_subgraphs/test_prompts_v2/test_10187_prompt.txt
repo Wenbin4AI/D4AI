@@ -1,0 +1,62 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Syracuse, relation=isInRankedList, tail=?)
+
+Ontology summary:
+- Query relation: isInRankedList
+- Head entity: Syracuse
+- Head class: City
+- Relation domain: Company
+- Relation range: Organization
+- Domain check: not clearly matched
+- Tail entities of class 'Organization' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=51, edges=58, paths=20
+- Head outgoing edges under target relation isInRankedList: 2
+- Key support nodes: Syracuse, Latin Grammy Award for Song of the Year, New Jersey Devils, Fish Tank, Bobby Mcferrin, Villarreal Cf, Arterial Hypertension, Internal Medicine
+- Main auxiliary relations: hasWinner(21), hasAthlete(10), hasEndowmentCurrency(8)
+
+Frequent relation path patterns:
+- isInRankedList -> hasAthlete -> hasWinner (count=17)
+- isInRankedList (count=2)
+- isInRankedList -> hasRegularPerformanceRole -> influencedBy (count=1)
+
+Candidates:
+1. Everyone Says I Love You [id=3723 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Dan Curtis [id=8310 | class=Director | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]
+3. Shoegaze [id=9673 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+4. Swarthmore College [id=3317 | class=College | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+5. Greenwich [id=10225 | class=Location | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+6. Juris Doctor [id=1323 | class=Academic Degree | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+7. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Star Wars: Episode Vi – Return of the Jedi [id=2140 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Kid Rock [id=2742 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]
+10. The Trouble with Harry [id=4823 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+11. Candlelight Records [id=14473 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Old Dogs [id=3910 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+13. Latin Grammy Award for Song of the Year [id=12699 | class=Award Category | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. Burgundy [id=13580 | class=Region | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+15. Arterial Hypertension [id=5526 | class=Disease | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+16. Criminology [id=11283 | class=Field of Study | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Luc Besson [id=4416 | class=Director | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+18. Union of South Africa [id=5464 | class=Historical Region | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+19. New Jersey Devils [id=13043 | class=Ice Hockey Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+20. Internal Medicine [id=14145 | class=Medical Specialty | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]

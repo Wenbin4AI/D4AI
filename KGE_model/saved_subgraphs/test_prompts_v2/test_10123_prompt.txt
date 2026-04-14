@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=2000 Cannes Film Festival, relation=workedAt, tail=?)
+
+Ontology summary:
+- Query relation: workedAt
+- Head entity: 2000 Cannes Film Festival
+- Head class: Film Festival
+- Relation domain: Person
+- Relation range: University
+- Domain check: not clearly matched
+- Tail entities of class 'University' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=37, edges=54, paths=20
+- Head outgoing edges under target relation workedAt: 2
+- Key support nodes: 2000 Cannes Film Festival, Bird, Basic Instinct 2, Michael Lerner, High Sheriff, Canadian Americans, War on Terror, University of Paris
+- Main auxiliary relations: foundIn(6), hasAthlete(4), hasImpersonatedCelebrities(4)
+
+Frequent relation path patterns:
+- hasArtist -> foundIn -> workedAt (count=7)
+- workedAt -> hasImpersonatedCelebrities (count=4)
+- workedAt -> hasNutrient (count=3)
+- workedAt (count=2)
+- livingIn -> workedAt (count=2)
+
+Candidates:
+1. 107th United States Congress [id=6653 | class=Government Institution | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Canadian Americans [id=5333 | class=Ethnicity | type=0 | soft_type=0 | direct=0 | paths=3 | aux=3 | key=1]
+3. Sally Field [id=8331 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. University of Bath [id=3839 | class=University | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+5. Mexico [id=75 | class=Country | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+6. Gulfport [id=4818 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Unitary State [id=4494 | class=Political Concept | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Lima [id=4673 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Georges Delerue [id=3427 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+10. Ken Adam [id=2276 | class=Production Designer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Cape Fear [id=4187 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. 39th Daytime Emmy Awards [id=2510 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+13. Basic Instinct 2 [id=5354 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=7 | aux=7 | key=1]
+14. Jeffrey Tambor [id=523 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+15. Stanford University [id=447 | class=University | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+16. Anthropology [id=2089 | class=Academic Discipline | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Sequoia Capital [id=12313 | class=Company | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+18. 2002 Major League Baseball Draft [id=4510 | class=Event | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+19. Bird [id=10120 | class=Animal | type=0 | soft_type=0 | direct=1 | paths=7 | aux=8 | key=1]
+20. Lincoln University [id=3251 | class=University | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]

@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 1261,
+        "head_label": "Ordinary People",
+        "head_class": "Movie",
+        "relation_id": 188,
+        "relation_label": "hasMajor",
+        "gold_tail": 6441,
+        "gold_tail_label": "Quills",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 14072,
+            "entity_label": "Glitch",
+            "entity_class": "Music Subgenre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 5029,
+            "entity_label": "Exeter",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 9995,
+            "entity_label": "David Henrie",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 7120,
+            "entity_label": "William Somerset Maugham",
+            "entity_class": "Author",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 10729,
+            "entity_label": "Sofia",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 7663,
+            "entity_label": "30th United States Congress",
+            "entity_class": "Government Body",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 12689,
+            "entity_label": "Andes",
+            "entity_class": "Mountain Range",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 4864,
+            "entity_label": "Set Dresser",
+            "entity_class": "Job Title",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 5245,
+            "entity_label": "Miniseries",
+            "entity_class": "Tv Format",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 5604,
+            "entity_label": "Dermot Mulroney",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 9460,
+            "entity_label": "Bachelor of Commerce",
+            "entity_class": "Degree",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 12176,
+            "entity_label": "Monty Python",
+            "entity_class": "Organization",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 8082,
+            "entity_label": "California State University, Northridge",
+            "entity_class": "University",
+            "score": 3.918865,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 6,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 5388,
+            "entity_label": "Lili Taylor",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 9448,
+            "entity_label": "Costa Rica",
+            "entity_class": "Country",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 4810,
+            "entity_label": "Danubio F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 8982,
+            "entity_label": "Maaya Sakamoto",
+            "entity_class": "Voice Actress and Singer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 6441,
+            "entity_label": "Quills",
+            "entity_class": "Book",
+            "score": 8.062075,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 14,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 11345,
+            "entity_label": "Delta Blues",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "14072": 1,
+        "5029": 2,
+        "9995": 3,
+        "7120": 4,
+        "10729": 5,
+        "7663": 6,
+        "12689": 7,
+        "4864": 8,
+        "5245": 9,
+        "5604": 10,
+        "9460": 11,
+        "12176": 12,
+        "8082": 13,
+        "5388": 14,
+        "14037": 15,
+        "9448": 16,
+        "4810": 17,
+        "8982": 18,
+        "6441": 19,
+        "11345": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Ordinary People, relation=hasMajor, tail=?)\n\nOntology summary:\n- Query relation: hasMajor\n- Head entity: Ordinary People\n- Head class: Movie\n- Relation domain: Field of Study\n- Relation range: Field of Study\n- Domain check: not clearly matched\n- Tail entities of class 'Field of Study' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=44, edges=63, paths=20\n- Head outgoing edges under target relation hasMajor: 1\n- Key support nodes: Ordinary People, Igor Stravinsky, Quills, California State University, Northridge, Mammootty, Santos F.c., Dennis Franz, Master's Degree\n- Main auxiliary relations: foundIn(20), hasRosterPosition(4), hasArtist(3)\n\nFrequent relation path patterns:\n- hasArtist -> foundIn -> hasMajor (count=19)\n- hasMajor (count=1)\n\nCandidates:\n1. Glitch [id=14072 | class=Music Subgenre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. David Henrie [id=9995 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. William Somerset Maugham [id=7120 | class=Author | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Sofia [id=10729 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. 30th United States Congress [id=7663 | class=Government Body | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Set Dresser [id=4864 | class=Job Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Dermot Mulroney [id=5604 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Bachelor of Commerce [id=9460 | class=Degree | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Monty Python [id=12176 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. California State University, Northridge [id=8082 | class=University | type=0 | soft_type=0 | direct=0 | paths=6 | aux=0 | key=1]\n14. Lili Taylor [id=5388 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Costa Rica [id=9448 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Danubio F.c. [id=4810 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Quills [id=6441 | class=Book | type=0 | soft_type=0 | direct=1 | paths=14 | aux=0 | key=1]\n20. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
+}

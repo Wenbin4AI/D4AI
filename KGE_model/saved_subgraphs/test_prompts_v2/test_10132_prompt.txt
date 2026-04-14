@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Fran Walsh, relation=hasSpouse, tail=?)
+
+Ontology summary:
+- Query relation: hasSpouse
+- Head entity: Fran Walsh
+- Head class: Person
+- Relation domain: Marriage
+- Relation range: City
+- Domain check: not clearly matched
+- Tail entities of class 'City' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=39, edges=51, paths=20
+- Head outgoing edges under target relation hasSpouse: 4
+- Key support nodes: Fran Walsh, Keanu Reeves, Pontefract, Second Boer War, Jamie Gangel, Allium Cepa, Steuben County, Vincent Pastore
+- Main auxiliary relations: headquarteredIn(7), hasInvolvedEntity(7), hasBorder(4)
+
+Frequent relation path patterns:
+- hasSpouse (count=4)
+- headquarteredIn -> hasBorder (count=4)
+- headquarteredIn -> hasInvolvedEntity (count=3)
+- headquarteredIn -> hasGovernmentType (count=3)
+- headquarteredIn -> actedIn (count=2)
+
+Candidates:
+1. Yale University [id=53 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Sofia [id=10729 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+3. Hope Springs [id=3776 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+4. Exeter [id=5029 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+5. Allium Cepa [id=7439 | class=Plant | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]
+6. Fayette County [id=10246 | class=County | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+7. Joel Madden [id=5759 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Enya [id=2211 | class=Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Northern Ireland National Association Football Team [id=9077 | class=National Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+10. Ahmedabad [id=3157 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+11. Queen's University Belfast [id=11176 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Vincent Pastore [id=322 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+13. Pontefract [id=14037 | class=City | type=1 | soft_type=1 | direct=0 | paths=4 | aux=0 | key=1]
+14. Costa Rica [id=9448 | class=Country | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]
+15. Seattle [id=4994 | class=City | type=1 | soft_type=1 | direct=0 | paths=2 | aux=0 | key=0]
+16. Black Swan [id=1774 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. John F. Seitz [id=12293 | class=Cinematographer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+18. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]
+19. Mtv Video Music Award for Best Hip-hop Video [id=3137 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Kern County [id=13111 | class=County | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]

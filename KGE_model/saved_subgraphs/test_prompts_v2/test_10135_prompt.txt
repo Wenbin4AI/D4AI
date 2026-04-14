@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Selangor, relation=hasStudent, tail=?)
+
+Ontology summary:
+- Query relation: hasStudent
+- Head entity: Selangor
+- Head class: State
+- Relation domain: University
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=36, edges=50, paths=20
+- Head outgoing edges under target relation hasStudent: 2
+- Key support nodes: Selangor, Oneworld, Seattle, Michael Rapaport, Triangle, Jean-claude Van Damme, Stockton-on-tees, Bleak House
+- Main auxiliary relations: hasGenre(13), hasDraftPickFromSchool(3), nominatedFor(3)
+
+Frequent relation path patterns:
+- hasStudent -> hasContributions -> hasGenre (count=9)
+- hasStudent (count=2)
+- hasStudent -> hasGenre (count=1)
+- hasAward (count=1)
+- hasStudent -> containsCountry (count=1)
+
+Candidates:
+1. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+2. Steve Jordan [id=1096 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+3. Network [id=5737 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]
+4. Samuel Vincent [id=14248 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+5. Rick Kline [id=9110 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+6. Bleak House [id=7144 | class=Novel | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]
+7. Unknown [id=4517 | class=Unknown | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+8. Dev Patel [id=6843 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+9. Mary-louise Parker [id=10208 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+10. South Bend [id=11565 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]
+11. Dinner for Schmucks [id=4841 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+12. Jean-claude Van Damme [id=3979 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=1]
+13. Michael Rapaport [id=9231 | class=Person | type=1 | soft_type=1 | direct=1 | paths=6 | aux=6 | key=1]
+14. Stockton-on-tees [id=14472 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]
+15. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=3 | aux=13 | key=1]
+16. Plovdiv [id=14252 | class=Location | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+17. Meena [id=7816 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+18. Rainer Werner Fassbinder [id=9963 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+19. Oneworld [id=14489 | class=Alliance | type=0 | soft_type=0 | direct=1 | paths=3 | aux=5 | key=1]
+20. Dio [id=13295 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]

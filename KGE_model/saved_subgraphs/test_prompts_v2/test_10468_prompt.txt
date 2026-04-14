@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Kerry Washington, relation=hasEndowmentCurrency, tail=?)
+
+Ontology summary:
+- Query relation: hasEndowmentCurrency
+- Head entity: Kerry Washington
+- Head class: Actress
+- Relation domain: University
+- Relation range: Currency
+- Domain check: not clearly matched
+- Tail entities of class 'Currency' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=42, edges=48, paths=20
+- Head outgoing edges under target relation hasEndowmentCurrency: 21
+- Key support nodes: Kerry Washington, Gary Barber, E. G. Marshall, Thailand, Troy, Carrie Underwood, Hungarians, Teri Hatcher
+- Main auxiliary relations: hasEstimatedMortgages(4), hasWriter(4), hasRosterPosition(4)
+
+Frequent relation path patterns:
+- hasEndowmentCurrency (count=20)
+
+Candidates:
+1. Notes on a Scandal [id=2229 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Carrie Underwood [id=1589 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Monsters, Inc. [id=909 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Troy [id=3714 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Australian English [id=14240 | class=Language | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Kellie Martin [id=9180 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Erykah Badu [id=2927 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Theft [id=14426 | class=Action/crime | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Hungarians [id=8368 | class=Nationality | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Lon Chaney Jr. [id=6470 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Bill Condon [id=7806 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Dunfermline Athletic F.c. [id=3540 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Gary Barber [id=10147 | class=Businessperson | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. Christopher Walken [id=3437 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. E. G. Marshall [id=4214 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Comics Artist [id=3953 | class=Profession | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Teri Hatcher [id=320 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Nicholas and Alexandra [id=3727 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. American Recordings [id=11432 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Thailand [id=7467 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

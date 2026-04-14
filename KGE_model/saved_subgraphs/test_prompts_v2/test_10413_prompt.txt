@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=T. Rajendar, relation=hasEndowmentCurrency, tail=?)
+
+Ontology summary:
+- Query relation: hasEndowmentCurrency
+- Head entity: T. Rajendar
+- Head class: Actor
+- Relation domain: University
+- Relation range: Currency
+- Domain check: not clearly matched
+- Tail entities of class 'Currency' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=47, edges=50, paths=20
+- Head outgoing edges under target relation hasEndowmentCurrency: 23
+- Key support nodes: T. Rajendar, Kingdom of Scotland, Charles Pratt Jr., Mash, State University of New York at Purchase, Fever, Cry Freedom, Adventure Film
+- Main auxiliary relations: influencedBy(6), hasRosterPosition(4), hasProgram(4)
+
+Frequent relation path patterns:
+- hasEndowmentCurrency (count=20)
+
+Candidates:
+1. Chris Carter [id=2408 | class=Tv Personality | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Fever [id=10434 | class=Medical Condition | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. 1999 Ncaa Division I Men's Basketball Tournament [id=10158 | class=Tournament | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. State University of New York at Purchase [id=10753 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. 2008 Ncaa Division I Men's Basketball Tournament [id=6522 | class=Basketball Tournament | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Stockholm University [id=11272 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Southwest Airlines [id=1406 | class=Airline | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Penobscot County [id=6779 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Cry Freedom [id=12147 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. David Byrne [id=1455 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. San Francisco Bay Area [id=2397 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Production Sound Mixer [id=1098 | class=Profession | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Kingdom of Scotland [id=1412 | class=Kingdom | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. Game of Thrones [id=6839 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Charles Pratt Jr. [id=5869 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Ip Man [id=4766 | class=Martial Artist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Adventure Film [id=657 | class=Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Switzerland National Association Football Team [id=11281 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Doctor of Philosophy [id=587 | class=Academic Degree | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Mash [id=8270 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

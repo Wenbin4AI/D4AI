@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 3772,
+        "head_label": "Band of Brothers",
+        "head_class": "Tv Series",
+        "relation_id": 108,
+        "relation_label": "hasEndowmentCurrency",
+        "gold_tail": 4876,
+        "gold_tail_label": "Carl Jung",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 1612,
+            "entity_label": "Linda Ronstadt",
+            "entity_class": "Singer",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 7493,
+            "entity_label": "Swindon Town F.c.",
+            "entity_class": "Football Club",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 10941,
+            "entity_label": "York",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 6839,
+            "entity_label": "Game of Thrones",
+            "entity_class": "Tv Series",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 13894,
+            "entity_label": "Steubenville",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 3033,
+            "entity_label": "Mark Gatiss",
+            "entity_class": "Screenwriter",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 9633,
+            "entity_label": "Calcium",
+            "entity_class": "Chemical Element",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 8313,
+            "entity_label": "Uefa",
+            "entity_class": "Organization",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 1270,
+            "entity_label": "Pittsburgh Panthers Football",
+            "entity_class": "Sports Team",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 3897,
+            "entity_label": "Fukuoka",
+            "entity_class": "Location",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 10644,
+            "entity_label": "Southern Baptist Convention Church",
+            "entity_class": "Church",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 2498,
+            "entity_label": "Ja Rule",
+            "entity_class": "Musician",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 5108,
+            "entity_label": "Memphis",
+            "entity_class": "City/town",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 1362,
+            "entity_label": "Octavia Spencer",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 8408,
+            "entity_label": "Fc Dinamo Moscow",
+            "entity_class": "Football Club",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 12289,
+            "entity_label": "Merge Records",
+            "entity_class": "Organization",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 9270,
+            "entity_label": "Harold Rosson",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 8287,
+            "entity_label": "David Rasche",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 4876,
+            "entity_label": "Carl Jung",
+            "entity_class": "Psychologist",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 14468,
+            "entity_label": "Bancroft Prize",
+            "entity_class": "Award",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "1612": 1,
+        "7493": 2,
+        "10941": 3,
+        "6839": 4,
+        "13894": 5,
+        "3033": 6,
+        "9633": 7,
+        "8313": 8,
+        "1270": 9,
+        "3897": 10,
+        "10644": 11,
+        "2498": 12,
+        "5108": 13,
+        "1362": 14,
+        "8408": 15,
+        "12289": 16,
+        "9270": 17,
+        "8287": 18,
+        "4876": 19,
+        "14468": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Band of Brothers, relation=hasEndowmentCurrency, tail=?)\n\nOntology summary:\n- Query relation: hasEndowmentCurrency\n- Head entity: Band of Brothers\n- Head class: Tv Series\n- Relation domain: University\n- Relation range: Currency\n- Domain check: not clearly matched\n- Tail entities of class 'Currency' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=42, edges=50, paths=20\n- Head outgoing edges under target relation hasEndowmentCurrency: 23\n- Key support nodes: Band of Brothers, Memphis, Fc Dinamo Moscow, Bancroft Prize, Game of Thrones, Swindon Town F.c., Pittsburgh Panthers Football, Harold Rosson\n- Main auxiliary relations: hasRosterPosition(9), hasWriter(5), hasProfession(4)\n\nFrequent relation path patterns:\n- hasEndowmentCurrency (count=20)\n\nCandidates:\n1. Linda Ronstadt [id=1612 | class=Singer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Swindon Town F.c. [id=7493 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. York [id=10941 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Game of Thrones [id=6839 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Steubenville [id=13894 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Mark Gatiss [id=3033 | class=Screenwriter | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Calcium [id=9633 | class=Chemical Element | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Uefa [id=8313 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Pittsburgh Panthers Football [id=1270 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Fukuoka [id=3897 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Southern Baptist Convention Church [id=10644 | class=Church | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Ja Rule [id=2498 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Memphis [id=5108 | class=City/town | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Octavia Spencer [id=1362 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Fc Dinamo Moscow [id=8408 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Merge Records [id=12289 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Harold Rosson [id=9270 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. David Rasche [id=8287 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Carl Jung [id=4876 | class=Psychologist | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Bancroft Prize [id=14468 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

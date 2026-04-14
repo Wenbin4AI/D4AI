@@ -1,0 +1,63 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Breakfast at Tiffany's, relation=isInductedIntoHallOfFame, tail=?)
+
+Ontology summary:
+- Query relation: isInductedIntoHallOfFame
+- Head entity: Breakfast at Tiffany's
+- Head class: Movie
+- Relation domain: Hall of Fame
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=45, edges=64, paths=20
+- Head outgoing edges under target relation isInductedIntoHallOfFame: 1
+- Key support nodes: Breakfast at Tiffany's, Delta Blues, Anchor Bay Entertainment, Sofia, Loretta Lynn, The Kingdom, Shannon Elizabeth, Gulshan Grover
+- Main auxiliary relations: hasWinner(14), hasEthnicity(6), hasAthlete(5)
+
+Frequent relation path patterns:
+- hasAthlete -> hasWinner -> isInductedIntoHallOfFame (count=15)
+- hasStudent -> isInRankedList -> isInductedIntoHallOfFame (count=3)
+- isInductedIntoHallOfFame (count=1)
+- isInductedIntoHallOfFame -> distributorsInRegion (count=1)
+
+Candidates:
+1. Danubio F.c. [id=4810 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Morgan Freeman [id=2937 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+3. Bipasha Basu [id=9751 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+4. Darryl F. Zanuck [id=1114 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+5. Sofia [id=10729 | class=City | type=0 | soft_type=0 | direct=0 | paths=5 | aux=0 | key=1]
+6. Denise Richards [id=2788 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+7. Bee Gees [id=7797 | class=Music Group | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+8. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Scott Glenn [id=12084 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+10. Mila Kunis [id=4684 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+11. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+13. Jamie Gangel [id=7544 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+14. Christopher Lloyd [id=9418 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+15. Kristin Scott Thomas [id=6765 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+16. Verona [id=10468 | class=Town | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+17. Alan J. Pakula [id=12677 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+18. David Henrie [id=9995 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+19. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=13 | aux=1 | key=1]
+20. Lili Taylor [id=5388 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]

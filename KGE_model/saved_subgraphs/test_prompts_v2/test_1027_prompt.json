@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 316,
+        "head_label": "Richard Culliton",
+        "head_class": "Writer",
+        "relation_id": 60,
+        "relation_label": "hasNetWorthCurrency",
+        "gold_tail": 10904,
+        "gold_tail_label": "Ulster County",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 12217,
+            "entity_label": "Rebecca Eaton",
+            "entity_class": "Producer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 9444,
+            "entity_label": "Cairns",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 4695,
+            "entity_label": "The Kingdom",
+            "entity_class": "Film",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 3056,
+            "entity_label": "Ryan Phillippe",
+            "entity_class": "Actor",
+            "score": 2.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 8429,
+            "entity_label": "San Diego State Aztecs Football",
+            "entity_class": "Football Team",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 3638,
+            "entity_label": "Grammy Award for Best Chamber Music Performance",
+            "entity_class": "Award",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 2222,
+            "entity_label": "Kevin Costner",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 1463,
+            "entity_label": "Nac Breda",
+            "entity_class": "Football Club",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 1332,
+            "entity_label": "Chiang Kai-shek",
+            "entity_class": "Person",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 348,
+            "entity_label": "Garbage",
+            "entity_class": "Band",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 14252,
+            "entity_label": "Plovdiv",
+            "entity_class": "Location",
+            "score": 2.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 10222,
+            "entity_label": "World Fantasy Award for Best Novel",
+            "entity_class": "Award",
+            "score": 7.119162,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 7,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 3235,
+            "entity_label": "Jill Scott",
+            "entity_class": "Musician/actor",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 12689,
+            "entity_label": "Andes",
+            "entity_class": "Mountain Range",
+            "score": 6.83148,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 5,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 13295,
+            "entity_label": "Dio",
+            "entity_class": "Person",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 12439,
+            "entity_label": "Shinya Tsukamoto",
+            "entity_class": "Person",
+            "score": 4.034213,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 1499,
+            "entity_label": "Green Lantern",
+            "entity_class": "Superhero",
+            "score": 3.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 10904,
+            "entity_label": "Ulster County",
+            "entity_class": "County",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 7396,
+            "entity_label": "Gary Cooper",
+            "entity_class": "Actor",
+            "score": 6.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "12217": 1,
+        "9444": 2,
+        "4994": 3,
+        "4695": 4,
+        "3056": 5,
+        "8429": 6,
+        "3638": 7,
+        "2222": 8,
+        "1463": 9,
+        "1332": 10,
+        "348": 11,
+        "14252": 12,
+        "10222": 13,
+        "3235": 14,
+        "12689": 15,
+        "13295": 16,
+        "12439": 17,
+        "1499": 18,
+        "10904": 19,
+        "7396": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Richard Culliton, relation=hasNetWorthCurrency, tail=?)\n\nOntology summary:\n- Query relation: hasNetWorthCurrency\n- Head entity: Richard Culliton\n- Head class: Writer\n- Relation domain: Person\n- Relation range: Currency\n- Domain check: not clearly matched\n- Tail entities of class 'Currency' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=41, edges=49, paths=20\n- Head outgoing edges under target relation hasNetWorthCurrency: 7\n- Key support nodes: Richard Culliton, World Fantasy Award for Best Novel, Andes, Gary Cooper, Ulster County, Green Lantern, Shinya Tsukamoto, Cairns\n- Main auxiliary relations: hasGenre(13), countyPlace(5), isInRankedList(3)\n\nFrequent relation path patterns:\n- hasNetWorthCurrency (count=7)\n- hasNetWorthCurrency -> hasGenre (count=5)\n- hasNetWorthCurrency -> countyPlace (count=5)\n- hasNetWorthCurrency -> hasColors (count=1)\n- hasNetWorthCurrency -> hasRuntime (count=1)\n\nCandidates:\n1. Rebecca Eaton [id=12217 | class=Producer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Cairns [id=9444 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n4. The Kingdom [id=4695 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n5. Ryan Phillippe [id=3056 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=0]\n6. San Diego State Aztecs Football [id=8429 | class=Football Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n7. Grammy Award for Best Chamber Music Performance [id=3638 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n8. Kevin Costner [id=2222 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Nac Breda [id=1463 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Chiang Kai-shek [id=1332 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n11. Garbage [id=348 | class=Band | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Plovdiv [id=14252 | class=Location | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=0]\n13. World Fantasy Award for Best Novel [id=10222 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=7 | key=1]\n14. Jill Scott [id=3235 | class=Musician/actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n15. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=1 | paths=1 | aux=5 | key=1]\n16. Dio [id=13295 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n17. Shinya Tsukamoto [id=12439 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=3 | key=1]\n18. Green Lantern [id=1499 | class=Superhero | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n19. Ulster County [id=10904 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n20. Gary Cooper [id=7396 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=2 | aux=2 | key=1]\n"
+}

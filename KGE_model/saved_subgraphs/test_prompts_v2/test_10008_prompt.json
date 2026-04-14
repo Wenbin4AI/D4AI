@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 7663,
+        "head_label": "30th United States Congress",
+        "head_class": "Government Body",
+        "relation_id": 105,
+        "relation_label": ":hasCostumeDesigner",
+        "gold_tail": 13403,
+        "gold_tail_label": "Drone Music",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 36,
+            "entity_label": "California Institute of the Arts",
+            "entity_class": "University",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 12533,
+            "entity_label": "Publishing",
+            "entity_class": "Industry",
+            "score": 6.649159,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 8836,
+            "entity_label": "Ryan Adams",
+            "entity_class": "Musician",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 7975,
+            "entity_label": "Nathan Fillion",
+            "entity_class": "Person",
+            "score": 8.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 7861,
+            "entity_label": "Yeovil Town F.c.",
+            "entity_class": "Football Club",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 5399,
+            "entity_label": "Sicilian Mafia",
+            "entity_class": "Criminal Organization",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 2618,
+            "entity_label": "Dan Wilson",
+            "entity_class": "Musician",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 13212,
+            "entity_label": "Costa Rica National Football Team",
+            "entity_class": "Sportsteam",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 9625,
+            "entity_label": "Varanasi",
+            "entity_class": "City",
+            "score": 6.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 5605,
+            "entity_label": "Wilmer Valderrama",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 7549,
+            "entity_label": "Novara Calcio",
+            "entity_class": "Football Club",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 2991,
+            "entity_label": "Capitol Records",
+            "entity_class": "Record Label",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 2583,
+            "entity_label": "Dave Foley",
+            "entity_class": "Person",
+            "score": 10.638333,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 9990,
+            "entity_label": "Somerset",
+            "entity_class": "Location",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 12558,
+            "entity_label": "Charles Bukowski",
+            "entity_class": "Person",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 14536,
+            "entity_label": "Pulitzer Prize for Music",
+            "entity_class": "Music Award",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 1504,
+            "entity_label": "Sherlock Holmes",
+            "entity_class": "Fictional Character",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 810,
+            "entity_label": "Serbia National Football Team",
+            "entity_class": "National Team",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 13403,
+            "entity_label": "Drone Music",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 6788,
+            "entity_label": "Neil Jordan",
+            "entity_class": "Person",
+            "score": 8.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "36": 1,
+        "12533": 2,
+        "8836": 3,
+        "7975": 4,
+        "7861": 5,
+        "5399": 6,
+        "2618": 7,
+        "13212": 8,
+        "9625": 9,
+        "5605": 10,
+        "7549": 11,
+        "2991": 12,
+        "2583": 13,
+        "9990": 14,
+        "12558": 15,
+        "14536": 16,
+        "1504": 17,
+        "810": 18,
+        "13403": 19,
+        "6788": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=30th United States Congress, relation=:hasCostumeDesigner, tail=?)\n\nOntology summary:\n- Query relation: :hasCostumeDesigner\n- Head entity: 30th United States Congress\n- Head class: Government Body\n- Relation domain: Movie\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=39, edges=50, paths=20\n- Head outgoing edges under target relation :hasCostumeDesigner: 23\n- Key support nodes: 30th United States Congress, Sherlock Holmes, Serbia National Football Team, Varanasi, Dave Foley, Yeovil Town F.c., Publishing, Charles Bukowski\n- Main auxiliary relations: hasPlayer(6), hasInvolvedEntity(5), hasDiscipline(3)\n\nFrequent relation path patterns:\n- :hasCostumeDesigner (count=20)\n\nCandidates:\n1. California Institute of the Arts [id=36 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Publishing [id=12533 | class=Industry | type=0 | soft_type=0 | direct=1 | paths=1 | aux=4 | key=1]\n3. Ryan Adams [id=8836 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Nathan Fillion [id=7975 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n5. Yeovil Town F.c. [id=7861 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n6. Sicilian Mafia [id=5399 | class=Criminal Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Dan Wilson [id=2618 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Costa Rica National Football Team [id=13212 | class=Sportsteam | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Varanasi [id=9625 | class=City | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n10. Wilmer Valderrama [id=5605 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Novara Calcio [id=7549 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Capitol Records [id=2991 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n13. Dave Foley [id=2583 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=2 | key=1]\n14. Somerset [id=9990 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n15. Charles Bukowski [id=12558 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n16. Pulitzer Prize for Music [id=14536 | class=Music Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Sherlock Holmes [id=1504 | class=Fictional Character | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n18. Serbia National Football Team [id=810 | class=National Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n19. Drone Music [id=13403 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Neil Jordan [id=6788 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n"
+}

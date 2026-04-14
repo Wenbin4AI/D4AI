@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 13557,
+        "head_label": "Pavia",
+        "head_class": "Location",
+        "relation_id": 59,
+        "relation_label": "hasSubject",
+        "gold_tail": 9404,
+        "gold_tail_label": "Fred Thompson",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 6673,
+            "entity_label": "Florida State University",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 12383,
+            "entity_label": "Sire",
+            "entity_class": "Recordlabel",
+            "score": 3.414157,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 4,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 10568,
+            "entity_label": "Illeana Douglas",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 6087,
+            "entity_label": "Team America: World Police",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 11133,
+            "entity_label": "Beloved",
+            "entity_class": "Novel",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 13033,
+            "entity_label": "Humboldt University of Berlin",
+            "entity_class": "Education",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 13261,
+            "entity_label": "Menlo Park",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 4847,
+            "entity_label": "Andy Williams",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 10515,
+            "entity_label": "Japanese People",
+            "entity_class": "Ethnic Group",
+            "score": 3.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 9931,
+            "entity_label": "Everett",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 6044,
+            "entity_label": "Friday Night Lights",
+            "entity_class": "Tv Show",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 1179,
+            "entity_label": "The Artist",
+            "entity_class": "Film",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 4835,
+            "entity_label": "Happy-go-lucky",
+            "entity_class": "Movie",
+            "score": 7.914157,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 4,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 11211,
+            "entity_label": "Melbourne Victory Fc",
+            "entity_class": "Football Club",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 418,
+            "entity_label": "The Mummy",
+            "entity_class": "Movie",
+            "score": 7.914157,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 4,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 1269,
+            "entity_label": "Luxembourg",
+            "entity_class": "Country",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 2369,
+            "entity_label": "Primetime Emmy Award for Outstanding Supporting Actress in a Comedy Series",
+            "entity_class": "Award",
+            "score": 3.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 11713,
+            "entity_label": "The Green Mile",
+            "entity_class": "Book",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 9404,
+            "entity_label": "Fred Thompson",
+            "entity_class": "Politician",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 1542,
+            "entity_label": "The Ten Commandments",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "6673": 1,
+        "12383": 2,
+        "10568": 3,
+        "6087": 4,
+        "11133": 5,
+        "13033": 6,
+        "13261": 7,
+        "4847": 8,
+        "10515": 9,
+        "9931": 10,
+        "6044": 11,
+        "1179": 12,
+        "4835": 13,
+        "11211": 14,
+        "418": 15,
+        "1269": 16,
+        "2369": 17,
+        "11713": 18,
+        "9404": 19,
+        "1542": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Pavia, relation=hasSubject, tail=?)\n\nOntology summary:\n- Query relation: hasSubject\n- Head entity: Pavia\n- Head class: Location\n- Relation domain: Event\n- Relation range: Movie\n- Domain check: not clearly matched\n- Tail entities of class 'Movie' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=39, edges=52, paths=20\n- Head outgoing edges under target relation hasSubject: 1\n- Key support nodes: Pavia, Indie Rock, Gothic Rock, Grammy Award for Best Jazz Vocal Album, Sire, Happy-go-lucky, The Mummy, Japanese People\n- Main auxiliary relations: hasCauseOfDeath(7), hasCapital(7), hasAthlete(3)\n\nFrequent relation path patterns:\n- hasCapital -> hasSubject (count=19)\n- hasSubject (count=1)\n\nCandidates:\n1. Florida State University [id=6673 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Sire [id=12383 | class=Recordlabel | type=0 | soft_type=0 | direct=0 | paths=4 | aux=0 | key=1]\n3. Illeana Douglas [id=10568 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Team America: World Police [id=6087 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Beloved [id=11133 | class=Novel | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Humboldt University of Berlin [id=13033 | class=Education | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Menlo Park [id=13261 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Andy Williams [id=4847 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Japanese People [id=10515 | class=Ethnic Group | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n10. Everett [id=9931 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Friday Night Lights [id=6044 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. The Artist [id=1179 | class=Film | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Happy-go-lucky [id=4835 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=4 | aux=0 | key=1]\n14. Melbourne Victory Fc [id=11211 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. The Mummy [id=418 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=4 | aux=0 | key=1]\n16. Luxembourg [id=1269 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Primetime Emmy Award for Outstanding Supporting Actress in a Comedy Series [id=2369 | class=Award | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n18. The Green Mile [id=11713 | class=Book | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Fred Thompson [id=9404 | class=Politician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. The Ten Commandments [id=1542 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n"
+}

@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 13678,
+        "head_label": "Tulane University Law School",
+        "head_class": "Law School",
+        "relation_id": 110,
+        "relation_label": "producedPrograms",
+        "gold_tail": 5309,
+        "gold_tail_label": "Dwyane Wade",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 14080,
+            "entity_label": "World",
+            "entity_class": "World",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 4371,
+            "entity_label": "Missy Elliott",
+            "entity_class": "Music Artist",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 6741,
+            "entity_label": "Central School of Speech and Drama",
+            "entity_class": "Organization",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 5,
+            "entity_label": "American History X",
+            "entity_class": "Movie Title",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 12,
+            "entity_label": "Bryan Singer",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 14482,
+            "entity_label": "Star",
+            "entity_class": "Star",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 6717,
+            "entity_label": "Julie Walters",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 6485,
+            "entity_label": "Mark Tinker",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 2513,
+            "entity_label": "Wedding Crashers",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 484,
+            "entity_label": "Master of Business Administration",
+            "entity_class": "Academic Degree",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8331,
+            "entity_label": "Sally Field",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 3995,
+            "entity_label": "Pearl Jam",
+            "entity_class": "Band",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 5103,
+            "entity_label": "Essex",
+            "entity_class": "County",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 2027,
+            "entity_label": "Larry Mcmurtry",
+            "entity_class": "Writer",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 11600,
+            "entity_label": "Right Fielder",
+            "entity_class": "Baseball Position",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 10652,
+            "entity_label": "Real Sociedad",
+            "entity_class": "Football Club",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 13625,
+            "entity_label": "Neo-prog",
+            "entity_class": "Music Genre",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 10366,
+            "entity_label": "Pin-up Girl",
+            "entity_class": "Model",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 5309,
+            "entity_label": "Dwyane Wade",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 5679,
+            "entity_label": "Porco Rosso",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "14080": 1,
+        "4371": 2,
+        "6741": 3,
+        "5": 4,
+        "12": 5,
+        "14482": 6,
+        "6717": 7,
+        "6485": 8,
+        "2513": 9,
+        "484": 10,
+        "8331": 11,
+        "3995": 12,
+        "5103": 13,
+        "2027": 14,
+        "11600": 15,
+        "10652": 16,
+        "13625": 17,
+        "10366": 18,
+        "5309": 19,
+        "5679": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Tulane University Law School, relation=producedPrograms, tail=?)\n\nOntology summary:\n- Query relation: producedPrograms\n- Head entity: Tulane University Law School\n- Head class: Law School\n- Relation domain: Person\n- Relation range: Profession\n- Domain check: not clearly matched\n- Tail entities of class 'Profession' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=45, edges=50, paths=20\n- Head outgoing edges under target relation producedPrograms: 23\n- Key support nodes: Tulane University Law School, Essex, Right Fielder, Porco Rosso, American History X, Missy Elliott, Wedding Crashers, Neo-prog\n- Main auxiliary relations: hasBurialPlace(7), hasAward(5), hasMonthlyClimate(3)\n\nFrequent relation path patterns:\n- producedPrograms (count=20)\n\nCandidates:\n1. World [id=14080 | class=World | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Missy Elliott [id=4371 | class=Music Artist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Central School of Speech and Drama [id=6741 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. American History X [id=5 | class=Movie Title | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Bryan Singer [id=12 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Star [id=14482 | class=Star | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Julie Walters [id=6717 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Mark Tinker [id=6485 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Wedding Crashers [id=2513 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Master of Business Administration [id=484 | class=Academic Degree | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Sally Field [id=8331 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Pearl Jam [id=3995 | class=Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Essex [id=5103 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Larry Mcmurtry [id=2027 | class=Writer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Right Fielder [id=11600 | class=Baseball Position | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Real Sociedad [id=10652 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Neo-prog [id=13625 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Pin-up Girl [id=10366 | class=Model | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Dwyane Wade [id=5309 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Porco Rosso [id=5679 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

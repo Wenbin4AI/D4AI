@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 13038,
+        "head_label": "Broadcasting",
+        "head_class": "Broadcasting",
+        "relation_id": 108,
+        "relation_label": "hasEndowmentCurrency",
+        "gold_tail": 6812,
+        "gold_tail_label": "Bryn Mawr College",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 9547,
+            "entity_label": "Religion",
+            "entity_class": "Religion",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 13918,
+            "entity_label": "U.s. Cremonese",
+            "entity_class": "Football Club",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 2519,
+            "entity_label": "University of Utah",
+            "entity_class": "University",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 5301,
+            "entity_label": "Amy Robach",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 5445,
+            "entity_label": "Dallas",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 11685,
+            "entity_label": "Galveston",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 213,
+            "entity_label": "Jean-michel Jarre",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 3487,
+            "entity_label": "Aaron Sorkin",
+            "entity_class": "Writer",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 12563,
+            "entity_label": "Centre County",
+            "entity_class": "County",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 8510,
+            "entity_label": "American Psycho",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8250,
+            "entity_label": "Marathi",
+            "entity_class": "Language",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 1905,
+            "entity_label": "Pete Postlethwaite",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 11248,
+            "entity_label": "Middle Eastern Theater of World War I",
+            "entity_class": "Historical Event",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 5135,
+            "entity_label": "Jobeth Williams",
+            "entity_class": "Actress",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 7392,
+            "entity_label": "300",
+            "entity_class": "Film",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 8172,
+            "entity_label": "New England Revolution",
+            "entity_class": "Sports Team",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 7234,
+            "entity_label": "Rush Hour 3",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 10965,
+            "entity_label": "Buenos Aires Province",
+            "entity_class": "Province",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 6812,
+            "entity_label": "Bryn Mawr College",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 4900,
+            "entity_label": "Steven Epstein",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "9547": 1,
+        "13918": 2,
+        "2519": 3,
+        "5301": 4,
+        "5445": 5,
+        "11685": 6,
+        "213": 7,
+        "3487": 8,
+        "12563": 9,
+        "8510": 10,
+        "8250": 11,
+        "1905": 12,
+        "11248": 13,
+        "5135": 14,
+        "7392": 15,
+        "8172": 16,
+        "7234": 17,
+        "10965": 18,
+        "6812": 19,
+        "4900": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Broadcasting, relation=hasEndowmentCurrency, tail=?)\n\nOntology summary:\n- Query relation: hasEndowmentCurrency\n- Head entity: Broadcasting\n- Head class: Broadcasting\n- Relation domain: University\n- Relation range: Currency\n- Domain check: not clearly matched\n- Tail entities of class 'Currency' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=43, edges=48, paths=20\n- Head outgoing edges under target relation hasEndowmentCurrency: 20\n- Key support nodes: Broadcasting, Steven Epstein, Amy Robach, Middle Eastern Theater of World War I, U.s. Cremonese, 300, Centre County, Rush Hour 3\n- Main auxiliary relations: influencedBy(6), hasSchoolType(6), hasWriter(5)\n\nFrequent relation path patterns:\n- hasEndowmentCurrency (count=20)\n\nCandidates:\n1. Religion [id=9547 | class=Religion | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. U.s. Cremonese [id=13918 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. University of Utah [id=2519 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Amy Robach [id=5301 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Dallas [id=5445 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Galveston [id=11685 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Jean-michel Jarre [id=213 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Aaron Sorkin [id=3487 | class=Writer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Centre County [id=12563 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. American Psycho [id=8510 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Marathi [id=8250 | class=Language | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Pete Postlethwaite [id=1905 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Middle Eastern Theater of World War I [id=11248 | class=Historical Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n14. Jobeth Williams [id=5135 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. 300 [id=7392 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n16. New England Revolution [id=8172 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Rush Hour 3 [id=7234 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Buenos Aires Province [id=10965 | class=Province | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Bryn Mawr College [id=6812 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Steven Epstein [id=4900 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

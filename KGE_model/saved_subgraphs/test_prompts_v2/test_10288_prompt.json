@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 10175,
+        "head_label": "Dnipro",
+        "head_class": "City",
+        "relation_id": 75,
+        "relation_label": "performedBy",
+        "gold_tail": 11173,
+        "gold_tail_label": "Grammy Award for Best Boxed or Special Limited Edition Package",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 7124,
+            "entity_label": "Montpelier",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 7950,
+            "entity_label": "Tom Fontana",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 5913,
+            "entity_label": "Ray Romano",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 2505,
+            "entity_label": "How to Train Your Dragon",
+            "entity_class": "Animated Movie Series",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 1751,
+            "entity_label": "Aurora",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 5395,
+            "entity_label": "Michael Powell",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 14526,
+            "entity_label": "2009 Tour De France",
+            "entity_class": "Cycling Race",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 8662,
+            "entity_label": "Bucknell University",
+            "entity_class": "University",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 9034,
+            "entity_label": "Karnataka",
+            "entity_class": "State",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 3502,
+            "entity_label": "100th United States Congress",
+            "entity_class": "Government Agency",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 4029,
+            "entity_label": "University of Arizona",
+            "entity_class": "University",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 242,
+            "entity_label": "Pierre Boulez",
+            "entity_class": "Person",
+            "score": 4.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 13506,
+            "entity_label": "Tennis Borussia Berlin",
+            "entity_class": "Sports Club",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 9003,
+            "entity_label": "Samuel R. Delany",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 10060,
+            "entity_label": "Columbia",
+            "entity_class": "Record Label",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 3268,
+            "entity_label": "Muskogee",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 14325,
+            "entity_label": "Extreme Sport",
+            "entity_class": "Sport",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 4617,
+            "entity_label": "State University of New York at Albany",
+            "entity_class": "University",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 11173,
+            "entity_label": "Grammy Award for Best Boxed or Special Limited Edition Package",
+            "entity_class": "Award Category",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 606,
+            "entity_label": "New York, I Love You",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "7124": 1,
+        "7950": 2,
+        "5913": 3,
+        "2505": 4,
+        "1751": 5,
+        "5395": 6,
+        "14526": 7,
+        "8662": 8,
+        "9034": 9,
+        "3502": 10,
+        "4029": 11,
+        "242": 12,
+        "13506": 13,
+        "9003": 14,
+        "10060": 15,
+        "3268": 16,
+        "14325": 17,
+        "4617": 18,
+        "11173": 19,
+        "606": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Dnipro, relation=performedBy, tail=?)\n\nOntology summary:\n- Query relation: performedBy\n- Head entity: Dnipro\n- Head class: City\n- Relation domain: Musical Instrument\n- Relation range: Musical Instrument\n- Domain check: not clearly matched\n- Tail entities of class 'Musical Instrument' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=42, edges=49, paths=20\n- Head outgoing edges under target relation performedBy: 22\n- Key support nodes: Dnipro, Columbia, Tennis Borussia Berlin, New York, I Love You, How to Train Your Dragon, Tom Fontana, Karnataka, Extreme Sport\n- Main auxiliary relations: hasCinematographer(4), distributorsInRegion(3), countyPlace(3)\n\nFrequent relation path patterns:\n- performedBy (count=20)\n\nCandidates:\n1. Montpelier [id=7124 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Tom Fontana [id=7950 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Ray Romano [id=5913 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. How to Train Your Dragon [id=2505 | class=Animated Movie Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Aurora [id=1751 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Michael Powell [id=5395 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. 2009 Tour De France [id=14526 | class=Cycling Race | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Bucknell University [id=8662 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Karnataka [id=9034 | class=State | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. 100th United States Congress [id=3502 | class=Government Agency | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. University of Arizona [id=4029 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Pierre Boulez [id=242 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]\n13. Tennis Borussia Berlin [id=13506 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n14. Samuel R. Delany [id=9003 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Columbia [id=10060 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Muskogee [id=3268 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Extreme Sport [id=14325 | class=Sport | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. State University of New York at Albany [id=4617 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Grammy Award for Best Boxed or Special Limited Edition Package [id=11173 | class=Award Category | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. New York, I Love You [id=606 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

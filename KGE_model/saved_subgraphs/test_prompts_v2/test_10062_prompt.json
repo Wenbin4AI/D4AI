@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 3523,
+        "head_label": "The Good Wife",
+        "head_class": "Tv Show",
+        "relation_id": 108,
+        "relation_label": "hasEndowmentCurrency",
+        "gold_tail": 10434,
+        "gold_tail_label": "Fever",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 10855,
+            "entity_label": "British Isles",
+            "entity_class": "Region",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 14012,
+            "entity_label": "Sutton Coldfield",
+            "entity_class": "地理位置",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 4165,
+            "entity_label": "Robert Guillaume",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 5356,
+            "entity_label": "Latin Hip Hop",
+            "entity_class": "Music Genre",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 6821,
+            "entity_label": "Aquitaine",
+            "entity_class": "Region",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 13830,
+            "entity_label": "Tampa Bay Area",
+            "entity_class": "Region",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 972,
+            "entity_label": "Berklee College of Music",
+            "entity_class": "Music School",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 8493,
+            "entity_label": "Peter Falk",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 8433,
+            "entity_label": "Democratic Party",
+            "entity_class": "Political Party",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 3440,
+            "entity_label": "Honolulu County",
+            "entity_class": "County",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 1094,
+            "entity_label": "General Hospital",
+            "entity_class": "Tv Series",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 10368,
+            "entity_label": "Halloween",
+            "entity_class": "Holiday",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 1197,
+            "entity_label": "Drake",
+            "entity_class": "Singer",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 1685,
+            "entity_label": "Justin Timberlake",
+            "entity_class": "Singer",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 6645,
+            "entity_label": "Brown University",
+            "entity_class": "University",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 10218,
+            "entity_label": "Mexico National Football Team",
+            "entity_class": "Football Team",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 7865,
+            "entity_label": "Rashida Jones",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 5663,
+            "entity_label": "Kathleen Barr",
+            "entity_class": "Voice Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 10434,
+            "entity_label": "Fever",
+            "entity_class": "Medical Condition",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 9659,
+            "entity_label": "Rushmore",
+            "entity_class": "Memorial/monument",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "10855": 1,
+        "14012": 2,
+        "4165": 3,
+        "5356": 4,
+        "6821": 5,
+        "13830": 6,
+        "972": 7,
+        "8493": 8,
+        "8433": 9,
+        "3440": 10,
+        "1094": 11,
+        "10368": 12,
+        "1197": 13,
+        "1685": 14,
+        "6645": 15,
+        "10218": 16,
+        "7865": 17,
+        "5663": 18,
+        "10434": 19,
+        "9659": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=The Good Wife, relation=hasEndowmentCurrency, tail=?)\n\nOntology summary:\n- Query relation: hasEndowmentCurrency\n- Head entity: The Good Wife\n- Head class: Tv Show\n- Relation domain: University\n- Relation range: Currency\n- Domain check: not clearly matched\n- Tail entities of class 'Currency' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=46, edges=48, paths=20\n- Head outgoing edges under target relation hasEndowmentCurrency: 20\n- Key support nodes: The Good Wife, Drake, Brown University, Rushmore, Latin Hip Hop, Sutton Coldfield, Democratic Party, Rashida Jones\n- Main auxiliary relations: influencedBy(4), hasCounty(4), hasRosterPosition(3)\n\nFrequent relation path patterns:\n- hasEndowmentCurrency (count=20)\n\nCandidates:\n1. British Isles [id=10855 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Sutton Coldfield [id=14012 | class=地理位置 | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Robert Guillaume [id=4165 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Latin Hip Hop [id=5356 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Aquitaine [id=6821 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Tampa Bay Area [id=13830 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Berklee College of Music [id=972 | class=Music School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Peter Falk [id=8493 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Democratic Party [id=8433 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Honolulu County [id=3440 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. General Hospital [id=1094 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Halloween [id=10368 | class=Holiday | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Drake [id=1197 | class=Singer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Justin Timberlake [id=1685 | class=Singer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Brown University [id=6645 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Mexico National Football Team [id=10218 | class=Football Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Rashida Jones [id=7865 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Kathleen Barr [id=5663 | class=Voice Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Fever [id=10434 | class=Medical Condition | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Rushmore [id=9659 | class=Memorial/monument | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

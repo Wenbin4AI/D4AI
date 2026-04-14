@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Mahesh Manjrekar, relation=hasTeam, tail=?)
+
+Ontology summary:
+- Query relation: hasTeam
+- Head entity: Mahesh Manjrekar
+- Head class: Person
+- Relation domain: Sports Event
+- Relation range: Sports Team
+- Domain check: not clearly matched
+- Tail entities of class 'Sports Team' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=40, edges=53, paths=20
+- Head outgoing edges under target relation hasTeam: 11
+- Key support nodes: Mahesh Manjrekar, Hip House, Celtic Rock, Defenseman, Sri Lankan Tamils, Sikkim, French Polynesia, Jay Roach
+- Main auxiliary relations: hasGenre(11), estimated_budget_currency(9), hasPeer(4)
+
+Frequent relation path patterns:
+- hasTeam (count=11)
+- estimated_budget_currency -> hasTeam (count=9)
+
+Candidates:
+1. Amjad Khan [id=13873 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Sikkim [id=12799 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+3. Paterson [id=3543 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Sri Lankan Tamils [id=14053 | class=Ethnic Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+5. Fort Lauderdale [id=3627 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=5 | key=0]
+7. Robots [id=338 | class=Technology | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Parma [id=12935 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. French Polynesia [id=6145 | class=Area | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+10. Barrister [id=11929 | class=Profession | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Kent County [id=12602 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Exeter City F.c. [id=4447 | class=Sports Team | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. Hip House [id=7393 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=10 | aux=0 | key=1]
+14. Syria National Football Team [id=2814 | class=Sports Team | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+15. Celtic Rock [id=11895 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+16. Syracuse [id=3522 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Jay Roach [id=2548 | class=Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Shinya Tsukamoto [id=12439 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Lois Mcmaster Bujold [id=4777 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Defenseman [id=2674 | class=Position | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]

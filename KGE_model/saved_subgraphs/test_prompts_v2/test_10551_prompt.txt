@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Gilles Deleuze, relation=hasWinner, tail=?)
+
+Ontology summary:
+- Query relation: hasWinner
+- Head entity: Gilles Deleuze
+- Head class: Person
+- Relation domain: Award
+- Relation range: Event
+- Domain check: not clearly matched
+- Tail entities of class 'Event' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=45, edges=50, paths=20
+- Head outgoing edges under target relation hasWinner: 22
+- Key support nodes: Gilles Deleuze, Emilio Estevez, Townsville, Heriot-watt University, Northwestern University Pritzker School of Law, Melvin Frank, John Slattery, High Fidelity
+- Main auxiliary relations: hasAthlete(9), hasImpersonatedCelebrities(7), hasReleaseMedium(3)
+
+Frequent relation path patterns:
+- hasWinner (count=20)
+
+Candidates:
+1. Pas Giannina F.c. [id=11082 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Empire of Japan [id=6187 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+3. Utv [id=13880 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Melvin Frank [id=12240 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+5. High Fidelity [id=7539 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Leslie David Baker [id=4066 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Hampshire [id=11585 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Bowed String Instrument [id=9603 | class=String Instrument | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Emilio Estevez [id=5558 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. The Descendants [id=3520 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Bai Ling [id=1026 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Harrogate [id=10503 | class=Town | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]
+13. 17th Screen Actors Guild Awards [id=11455 | class=Awards | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+14. Dl-proline [id=5253 | class=Chemical Compound | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. John Slattery [id=2805 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]
+16. Philosophy of Science [id=11234 | class=Field of Study | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Townsville [id=14388 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Heriot-watt University [id=13487 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. One Tree Hill [id=8751 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Northwestern University Pritzker School of Law [id=10224 | class=Law School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]

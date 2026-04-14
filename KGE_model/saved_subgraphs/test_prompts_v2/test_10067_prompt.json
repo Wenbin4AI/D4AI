@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 10376,
+        "head_label": "Stony Brook University",
+        "head_class": "University",
+        "relation_id": 82,
+        "relation_label": "hasReligion",
+        "gold_tail": 10958,
+        "gold_tail_label": "Helsingborg",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 10340,
+            "entity_label": "Ghost Rider: Spirit of Vengeance",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 7039,
+            "entity_label": "Gia",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 6660,
+            "entity_label": "Get Shorty",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 2485,
+            "entity_label": "Menahem Golan",
+            "entity_class": "Film Director and Producer",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 325,
+            "entity_label": "Terre Haute",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 10696,
+            "entity_label": "Shigeru Miyamoto",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 3498,
+            "entity_label": "David Chase",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 5327,
+            "entity_label": "George Frideric Handel",
+            "entity_class": "Composer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 651,
+            "entity_label": "John Leguizamo",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 5769,
+            "entity_label": "Michael Crichton",
+            "entity_class": "Author",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 6421,
+            "entity_label": "Xander Berkeley",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 14405,
+            "entity_label": "Canadian Armed Forces",
+            "entity_class": "Armed Forces",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 3405,
+            "entity_label": "Damon Albarn",
+            "entity_class": "Musician",
+            "score": 6.687639,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 5,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 10711,
+            "entity_label": "Girton College",
+            "entity_class": "Educational Institution",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 3600,
+            "entity_label": "Bradley Cooper",
+            "entity_class": "Actor",
+            "score": 6.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 7976,
+            "entity_label": "Tom Arnold",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 6998,
+            "entity_label": "California Institute of Technology",
+            "entity_class": "University",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 6298,
+            "entity_label": "Selena Gomez",
+            "entity_class": "Singer and Actress",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 10958,
+            "entity_label": "Helsingborg",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 7111,
+            "entity_label": "Jack Lemmon",
+            "entity_class": "Actor",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "10340": 1,
+        "7039": 2,
+        "6660": 3,
+        "2485": 4,
+        "325": 5,
+        "10696": 6,
+        "3498": 7,
+        "5327": 8,
+        "651": 9,
+        "5769": 10,
+        "6421": 11,
+        "14405": 12,
+        "3405": 13,
+        "10711": 14,
+        "3600": 15,
+        "7976": 16,
+        "6998": 17,
+        "6298": 18,
+        "10958": 19,
+        "7111": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Stony Brook University, relation=hasReligion, tail=?)\n\nOntology summary:\n- Query relation: hasReligion\n- Head entity: Stony Brook University\n- Head class: University\n- Relation domain: Person\n- Relation range: Religion\n- Domain check: not clearly matched\n- Tail entities of class 'Religion' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=48, edges=58, paths=20\n- Head outgoing edges under target relation hasReligion: 10\n- Key support nodes: Stony Brook University, Damon Albarn, Bradley Cooper, Jack Lemmon, Menahem Golan, Russell Crowe, Canadian Armed Forces, Gia\n- Main auxiliary relations: hasImpersonatedCelebrities(9), hasRosterPosition(6), hasCounty(4)\n\nFrequent relation path patterns:\n- hasReligion (count=10)\n- hasImpersonatedCelebrities -> hasReligion (count=10)\n\nCandidates:\n1. Ghost Rider: Spirit of Vengeance [id=10340 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Gia [id=7039 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Get Shorty [id=6660 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Menahem Golan [id=2485 | class=Film Director and Producer | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n5. Terre Haute [id=325 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n6. Shigeru Miyamoto [id=10696 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. David Chase [id=3498 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. George Frideric Handel [id=5327 | class=Composer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. John Leguizamo [id=651 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Michael Crichton [id=5769 | class=Author | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Xander Berkeley [id=6421 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Canadian Armed Forces [id=14405 | class=Armed Forces | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n13. Damon Albarn [id=3405 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=5 | aux=0 | key=1]\n14. Girton College [id=10711 | class=Educational Institution | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Bradley Cooper [id=3600 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n16. Tom Arnold [id=7976 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. California Institute of Technology [id=6998 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Selena Gomez [id=6298 | class=Singer and Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n19. Helsingborg [id=10958 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Jack Lemmon [id=7111 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n"
+}

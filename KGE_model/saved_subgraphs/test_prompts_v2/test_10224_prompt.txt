@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=San Francisco Giants, relation=hasDesignedFilmSets, tail=?)
+
+Ontology summary:
+- Query relation: hasDesignedFilmSets
+- Head entity: San Francisco Giants
+- Head class: Baseball Team
+- Relation domain: Person
+- Relation range: Movie
+- Domain check: not clearly matched
+- Tail entities of class 'Movie' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=38, edges=48, paths=20
+- Head outgoing edges under target relation hasDesignedFilmSets: 10
+- Key support nodes: San Francisco Giants, Michael Kamen, Bob Dylan, Calvin University, Croatian Americans, Star Wars: Episode I – the Phantom Menace, Alex Borstein, Mangaluru
+- Main auxiliary relations: hasNetflixGenreTitle(7), hasAthlete(2), hasNotablePeople(2)
+
+Frequent relation path patterns:
+- hasDesignedFilmSets (count=10)
+- hasDesignedFilmSets -> hasDesignedFilmSets (count=10)
+
+Candidates:
+1. Ronny Cox [id=13799 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Calvin University [id=11524 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. San Francisco Giants [id=3977 | class=Baseball Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]
+4. Bob Dylan [id=917 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+5. The Truman Show [id=7152 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+6. Park County [id=14228 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+7. Mike Mogis [id=5773 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Kingdom of Bulgaria [id=2894 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Law & Order [id=4626 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Spy Kids [id=3093 | class=Movie Series | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+11. Fc Bayern Munich [id=11224 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Vera Drake [id=1655 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. Scent of a Woman [id=6735 | class=Movie | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+14. Holy Roman Empire [id=1573 | class=Empire | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Michael Kamen [id=9127 | class=Composer | type=0 | soft_type=0 | direct=1 | paths=7 | aux=0 | key=1]
+16. Joseph Conrad [id=3283 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Alex Borstein [id=1341 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Mangaluru [id=12838 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Star Wars: Episode I – the Phantom Menace [id=2655 | class=Movie | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+20. Croatian Americans [id=12219 | class=Ethnic Group | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]

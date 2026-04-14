@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=War of 1812, relation=hasProductionCompanies, tail=?)
+
+Ontology summary:
+- Query relation: hasProductionCompanies
+- Head entity: War of 1812
+- Head class: Event
+- Relation domain: Movie
+- Relation range: Film Studio
+- Domain check: not clearly matched
+- Tail entities of class 'Film Studio' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=49, edges=67, paths=20
+- Head outgoing edges under target relation hasProductionCompanies: 1
+- Key support nodes: War of 1812, Hope Springs, Andy Samberg, Preston Sturges, 59th Berlin International Film Festival, Locus Award for Best Fantasy Novel, Warrington, Travis Banton
+- Main auxiliary relations: hasDomesticTuition(15), hasRosterPosition(5), hasRegularPerformanceRole(4)
+
+Frequent relation path patterns:
+- hasRosterPosition -> hasDomesticTuition -> hasProductionCompanies (count=12)
+- hasFriend -> hasProductionCompanies (count=3)
+- influencedBy -> hasRegularPerformanceRole -> hasProductionCompanies (count=2)
+- hasProductionCompanies (count=1)
+- hasProductionCompanies -> hasImpersonatedCelebrities (count=1)
+
+Candidates:
+1. Mongolia [id=3104 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Pfc Cherno More Varna [id=13320 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]
+3. Lipid [id=9084 | class=Biochemistry | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Locus Award for Best Fantasy Novel [id=8628 | class=Award | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]
+5. Stephen J. Cannell [id=7651 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+6. Breaking and Entering [id=3892 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Music Executive [id=12435 | class=Occupation | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Henry Bumstead [id=3902 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+10. Silent Hill [id=2364 | class=Video Game Series, Film Franchise | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Mobile Suit Gundam 00 [id=13274 | class=Anime Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Igor Stravinsky [id=7799 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+13. Preston Sturges [id=8954 | class=Person | type=0 | soft_type=0 | direct=0 | paths=5 | aux=1 | key=1]
+14. Haskell Wexler [id=2237 | class=Cinematographer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+15. Warrington [id=13537 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]
+16. Ocad University [id=4949 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Australia [id=274 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+18. Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Miniseries or Television Movie [id=721 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+19. Andy Samberg [id=1729 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=4 | aux=2 | key=1]
+20. 59th Berlin International Film Festival [id=3567 | class=Film Festival | type=0 | soft_type=0 | direct=0 | paths=4 | aux=0 | key=1]

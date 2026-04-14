@@ -1,0 +1,63 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Northampton Town F.c., relation=hasStudent, tail=?)
+
+Ontology summary:
+- Query relation: hasStudent
+- Head entity: Northampton Town F.c.
+- Head class: Football Club
+- Relation domain: University
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=38, edges=62, paths=20
+- Head outgoing edges under target relation hasStudent: 2
+- Key support nodes: Northampton Town F.c., Andes, Dio, Plovdiv, Castle Rock Entertainment, Belarus, Shinya Tsukamoto, Blockbuster
+- Main auxiliary relations: hasImpersonatedCelebrities(19), hasGenre(6), hasReleaseMedium(4)
+
+Frequent relation path patterns:
+- hasImpersonatedCelebrities -> hasStudent (count=16)
+- hasStudent (count=2)
+- hasAward (count=1)
+- hasStudent -> hasColors (count=1)
+
+Candidates:
+1. Allium Cepa [id=7439 | class=Plant | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Samuel Vincent [id=14248 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+3. Designated Hitter [id=7253 | class=Sport | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=6 | aux=1 | key=1]
+5. Patti Smith [id=1903 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+6. Oklahoma County [id=9974 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Gone with the Wind [id=2377 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Amjad Khan [id=13873 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+10. Brigitte Nielsen [id=1678 | class=Actress, Model, Wrestler | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+11. Prescott [id=3568 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Lenny Kravitz [id=2664 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. Dio [id=13295 | class=Person | type=1 | soft_type=1 | direct=1 | paths=4 | aux=3 | key=1]
+14. Garbage [id=348 | class=Band | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+15. Shinya Tsukamoto [id=12439 | class=Person | type=1 | soft_type=1 | direct=0 | paths=2 | aux=2 | key=1]
+16. Robots [id=338 | class=Technology | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. William Powell [id=5211 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+18. Blockbuster [id=8300 | class=Video Rental Chain | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]
+19. Grammy Award for Best Chamber Music Performance [id=3638 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+20. Plovdiv [id=14252 | class=Location | type=0 | soft_type=0 | direct=0 | paths=3 | aux=5 | key=1]

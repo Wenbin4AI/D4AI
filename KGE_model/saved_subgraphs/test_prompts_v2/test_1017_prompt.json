@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 2353,
+        "head_label": "Robert Forster",
+        "head_class": "Person",
+        "relation_id": 82,
+        "relation_label": "hasReligion",
+        "gold_tail": 7431,
+        "gold_tail_label": "The French Connection",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 9735,
+            "entity_label": "2000 Major League Baseball Season",
+            "entity_class": "Sports Event",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 13375,
+            "entity_label": "Comedy Television Program",
+            "entity_class": "Television Genre",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 6055,
+            "entity_label": "Texas A&m University",
+            "entity_class": "University",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 13145,
+            "entity_label": "Daegu",
+            "entity_class": "City",
+            "score": 6.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 13697,
+            "entity_label": "Philadelphia Union",
+            "entity_class": "Sports Team",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 5556,
+            "entity_label": "Paul Dini",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 10485,
+            "entity_label": "Frederick",
+            "entity_class": "City",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 3606,
+            "entity_label": "Afc Bournemouth",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 3253,
+            "entity_label": "James E. Reilly",
+            "entity_class": "Person",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 7653,
+            "entity_label": "North Rhine-westphalia",
+            "entity_class": "State",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 5327,
+            "entity_label": "George Frideric Handel",
+            "entity_class": "Composer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 6221,
+            "entity_label": "Coach Carter",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 9070,
+            "entity_label": "Chinese Civil War",
+            "entity_class": "War",
+            "score": 7.034213,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 12184,
+            "entity_label": "Hollywood Records",
+            "entity_class": "Record Label",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 3714,
+            "entity_label": "Troy",
+            "entity_class": "City",
+            "score": 6.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 10959,
+            "entity_label": "Dream Pop",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 13617,
+            "entity_label": "Wwe",
+            "entity_class": "Company",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 8116,
+            "entity_label": "The Lost World: Jurassic Park",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 7431,
+            "entity_label": "The French Connection",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 6520,
+            "entity_label": "Teletoon",
+            "entity_class": "Tv Network",
+            "score": 6.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "9735": 1,
+        "13375": 2,
+        "6055": 3,
+        "13145": 4,
+        "13697": 5,
+        "5556": 6,
+        "10485": 7,
+        "3606": 8,
+        "3253": 9,
+        "7653": 10,
+        "5327": 11,
+        "6221": 12,
+        "9070": 13,
+        "12184": 14,
+        "3714": 15,
+        "10959": 16,
+        "13617": 17,
+        "8116": 18,
+        "7431": 19,
+        "6520": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Robert Forster, relation=hasReligion, tail=?)\n\nOntology summary:\n- Query relation: hasReligion\n- Head entity: Robert Forster\n- Head class: Person\n- Relation domain: Person\n- Relation range: Religion\n- Domain check: matched\n- Tail entities of class 'Religion' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=40, edges=49, paths=20\n- Head outgoing edges under target relation hasReligion: 15\n- Key support nodes: Robert Forster, Chinese Civil War, Troy, James E. Reilly, Comedy Television Program, Teletoon, Wwe, Daegu\n- Main auxiliary relations: performedBy(8), livingIn(5), hasCounty(5)\n\nFrequent relation path patterns:\n- hasReligion (count=15)\n- hasReligion -> livingIn (count=5)\n\nCandidates:\n1. 2000 Major League Baseball Season [id=9735 | class=Sports Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Comedy Television Program [id=13375 | class=Television Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n3. Texas A&m University [id=6055 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Daegu [id=13145 | class=City | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]\n5. Philadelphia Union [id=13697 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Paul Dini [id=5556 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Frederick [id=10485 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n8. Afc Bournemouth [id=3606 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. James E. Reilly [id=3253 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n10. North Rhine-westphalia [id=7653 | class=State | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. George Frideric Handel [id=5327 | class=Composer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Coach Carter [id=6221 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Chinese Civil War [id=9070 | class=War | type=0 | soft_type=0 | direct=1 | paths=2 | aux=3 | key=1]\n14. Hollywood Records [id=12184 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Troy [id=3714 | class=City | type=0 | soft_type=0 | direct=1 | paths=2 | aux=2 | key=1]\n16. Dream Pop [id=10959 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Wwe [id=13617 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n18. The Lost World: Jurassic Park [id=8116 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. The French Connection [id=7431 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Teletoon [id=6520 | class=Tv Network | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]\n"
+}

@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Bret Michaels, relation=hasPrequel, tail=?)
+
+Ontology summary:
+- Query relation: hasPrequel
+- Head entity: Bret Michaels
+- Head class: Musician
+- Relation domain: Movie
+- Relation range: Movie
+- Domain check: not clearly matched
+- Tail entities of class 'Movie' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=28, edges=49, paths=20
+- Head outgoing edges under target relation hasPrequel: 5
+- Key support nodes: Bret Michaels, Grammy Award for Best Contemporary Instrumental Album, Liaoning, David Benioff, 106th United States Congress, Superhero, Cr Vasco Da Gama, Irish Folk Music
+- Main auxiliary relations: hasColors(6), hasCreator(4), hasBorder(3)
+
+Frequent relation path patterns:
+- hasColors -> hasPrequel (count=15)
+- hasPrequel (count=5)
+
+Candidates:
+1. Dave Goelz [id=10502 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Waltz with Bashir [id=3700 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+3. Jim Steinman [id=6106 | class=Songwriter | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Irish Folk Music [id=12318 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]
+5. Oliver Twist [id=9375 | class=Fictional Character | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+6. Eastern Front [id=10481 | class=Military Conflict | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Carrie Preston [id=2944 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Pfc Lokomotiv Plovdiv [id=9001 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. The Cabin in the Woods [id=5958 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+10. Gillian Welch [id=7473 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=3 | key=0]
+13. Grammy Award for Best Contemporary Instrumental Album [id=9663 | class=Award Category | type=0 | soft_type=0 | direct=1 | paths=5 | aux=1 | key=1]
+14. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=0]
+15. David Benioff [id=4761 | class=Person | type=0 | soft_type=0 | direct=1 | paths=4 | aux=1 | key=1]
+16. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Hope Springs [id=3776 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+18. Bret Michaels [id=10046 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=1]
+19. Superhero [id=11118 | class=Character Type | type=0 | soft_type=0 | direct=1 | paths=4 | aux=1 | key=1]
+20. 106th United States Congress [id=857 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=4 | aux=1 | key=1]

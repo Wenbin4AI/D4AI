@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Denmark, relation=hasGenre, tail=?)
+
+Ontology summary:
+- Query relation: hasGenre
+- Head entity: Denmark
+- Head class: Country
+- Relation domain: Movie
+- Relation range: Genre
+- Domain check: not clearly matched
+- Tail entities of class 'Genre' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=38, edges=49, paths=20
+- Head outgoing edges under target relation hasGenre: 22
+- Key support nodes: Denmark, Minnie Driver, Rocky Mountains, My Sister's Keeper, Erotic Thriller, Ghost, Saba Qom F.c., David Healy
+- Main auxiliary relations: hasCinematographer(9), hasVoiceActingLanguage(4), hasPrequel(3)
+
+Frequent relation path patterns:
+- hasGenre (count=20)
+
+Candidates:
+1. Precious [id=2502 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Ghost [id=7641 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Kevin Bacon [id=7250 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. My Sister's Keeper [id=6439 | class=Novel and Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Stargate Sg-1 [id=1635 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. John C. Reilly [id=2128 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Wellington [id=11460 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. The Sopranos [id=1641 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Saba Qom F.c. [id=4306 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Dougray Scott [id=9722 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. David Javerbaum [id=3364 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Peter Tolan [id=11298 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Erotic Thriller [id=3001 | class=Movie Genre | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+14. Akira Toriyama [id=12351 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Minnie Driver [id=1488 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Molly Parker [id=2381 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. David Healy [id=121 | class=Footballer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Ethan Coen [id=670 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. William H. Daniels [id=6838 | class=Cinematographer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Rocky Mountains [id=12612 | class=Mountain | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

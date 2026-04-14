@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 5652,
+        "head_label": "Creative Director",
+        "head_class": "Job Title",
+        "relation_id": 39,
+        "relation_label": "placeOfDeath",
+        "gold_tail": 5460,
+        "gold_tail_label": "Saturn Award for the Best Actor",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 10058,
+            "entity_label": "New Trier High School",
+            "entity_class": "High School",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 993,
+            "entity_label": "Kuwait",
+            "entity_class": "Country",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 4012,
+            "entity_label": "Karl Malden",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 10939,
+            "entity_label": "Ninja Tune",
+            "entity_class": "Record Label",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 6450,
+            "entity_label": "Josh Hartnett",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 10449,
+            "entity_label": "The Station Agent",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 5354,
+            "entity_label": "Basic Instinct 2",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 13583,
+            "entity_label": "Tompkins County",
+            "entity_class": "County",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 12471,
+            "entity_label": "David Crane",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 12675,
+            "entity_label": "University of Westminster",
+            "entity_class": "University",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8628,
+            "entity_label": "Locus Award for Best Fantasy Novel",
+            "entity_class": "Award",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 13106,
+            "entity_label": "Kirkcaldy",
+            "entity_class": "City",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 10620,
+            "entity_label": "Kozhikode",
+            "entity_class": "City",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 13904,
+            "entity_label": "Kinshasa",
+            "entity_class": "City",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 4939,
+            "entity_label": "Savannah",
+            "entity_class": "City",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 8620,
+            "entity_label": "Toronto Blue Jays",
+            "entity_class": "Sports Team",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 4746,
+            "entity_label": "Filmfare Award for Best Film",
+            "entity_class": "Award",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 9998,
+            "entity_label": "Purdue Boilermakers Football",
+            "entity_class": "Sports Team",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 5460,
+            "entity_label": "Saturn Award for the Best Actor",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 13407,
+            "entity_label": "Silver Spring",
+            "entity_class": "Location",
+            "score": 6.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "10058": 1,
+        "993": 2,
+        "4012": 3,
+        "10939": 4,
+        "6450": 5,
+        "10449": 6,
+        "5354": 7,
+        "13583": 8,
+        "12471": 9,
+        "12675": 10,
+        "8628": 11,
+        "13106": 12,
+        "10620": 13,
+        "13904": 14,
+        "4939": 15,
+        "8620": 16,
+        "4746": 17,
+        "9998": 18,
+        "5460": 19,
+        "13407": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Creative Director, relation=placeOfDeath, tail=?)\n\nOntology summary:\n- Query relation: placeOfDeath\n- Head entity: Creative Director\n- Head class: Job Title\n- Relation domain: Person\n- Relation range: City\n- Domain check: not clearly matched\n- Tail entities of class 'City' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=46, edges=48, paths=20\n- Head outgoing edges under target relation placeOfDeath: 20\n- Key support nodes: Creative Director, Silver Spring, Kozhikode, Ninja Tune, Kuwait, David Crane, Savannah, Filmfare Award for Best Film\n- Main auxiliary relations: hasAthlete(7), hasReligion(4), editedBy(3)\n\nFrequent relation path patterns:\n- placeOfDeath (count=20)\n\nCandidates:\n1. New Trier High School [id=10058 | class=High School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Kuwait [id=993 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Karl Malden [id=4012 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Ninja Tune [id=10939 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Josh Hartnett [id=6450 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. The Station Agent [id=10449 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Basic Instinct 2 [id=5354 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Tompkins County [id=13583 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. David Crane [id=12471 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. University of Westminster [id=12675 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Locus Award for Best Fantasy Novel [id=8628 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Kirkcaldy [id=13106 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Kozhikode [id=10620 | class=City | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n14. Kinshasa [id=13904 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Savannah [id=4939 | class=City | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n16. Toronto Blue Jays [id=8620 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Filmfare Award for Best Film [id=4746 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Purdue Boilermakers Football [id=9998 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Saturn Award for the Best Actor [id=5460 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Silver Spring [id=13407 | class=Location | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

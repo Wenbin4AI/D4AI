@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Western Film, relation=hasRiskFactors, tail=?)
+
+Ontology summary:
+- Query relation: hasRiskFactors
+- Head entity: Western Film
+- Head class: Western Film
+- Relation domain: Disease
+- Relation range: Disease
+- Domain check: not clearly matched
+- Tail entities of class 'Disease' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=36, edges=43, paths=20
+- Head outgoing edges under target relation hasRiskFactors: 6
+- Key support nodes: Western Film, Coronation Street, Bangor, Plumas County, Queen, Pierre Boulez, Karnataka, Grammy Award for Best R&b Instrumental Performance
+- Main auxiliary relations: countyPlace(22), hasPerformanceType(2), hasColors(2)
+
+Frequent relation path patterns:
+- hasRiskFactors -> countyPlace (count=14)
+- hasRiskFactors (count=6)
+
+Candidates:
+1. Vijay [id=12967 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+2. Grammy Award for Best R&b Instrumental Performance [id=11195 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Flash Gordon [id=5753 | class=Movie Title | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+4. William Friedkin [id=1239 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+5. Ryan Phillippe [id=3056 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+6. Uriah Heep [id=2029 | class=Rock Band | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+7. Columbia University [id=3169 | class=Educational Institution | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+8. Alan Bergman [id=5735 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+9. Queen [id=8718 | class=Music Group | type=0 | soft_type=0 | direct=0 | paths=2 | aux=4 | key=1]
+10. San Diego State Aztecs Football [id=8429 | class=Football Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+11. 100th United States Congress [id=3502 | class=Government Agency | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+12. Paris Saint-germain F.c. [id=13297 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+13. Coronation Street [id=9467 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=2 | aux=11 | key=1]
+14. Green Lantern [id=1499 | class=Superhero | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+15. Bangor [id=8626 | class=Town | type=0 | soft_type=0 | direct=1 | paths=2 | aux=8 | key=1]
+16. Montpelier [id=7124 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+17. Pierre Boulez [id=242 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=3 | key=1]
+18. Karnataka [id=9034 | class=State | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]
+19. Akon [id=7919 | class=Singer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+20. Plumas County [id=10006 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]

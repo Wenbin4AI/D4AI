@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 9890,
+        "head_label": "Govinda",
+        "head_class": "Person",
+        "relation_id": 9,
+        "relation_label": "hasRegularPerformanceRole",
+        "gold_tail": 9547,
+        "gold_tail_label": "Religion",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 7954,
+            "entity_label": "Peter Berg",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 14295,
+            "entity_label": "Villarreal Cf B",
+            "entity_class": "Football Club",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 3857,
+            "entity_label": "Marc Anthony",
+            "entity_class": "Person",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 13315,
+            "entity_label": "Billings",
+            "entity_class": "City",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 1935,
+            "entity_label": "Astro Boy",
+            "entity_class": "Manga Character",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 6180,
+            "entity_label": "Zürich",
+            "entity_class": "City",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 6463,
+            "entity_label": "91st United States Congress",
+            "entity_class": "Event",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 4169,
+            "entity_label": "Robert Duvall",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 14119,
+            "entity_label": "Geelong Football Club",
+            "entity_class": "Sports Club",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 2137,
+            "entity_label": "Trevor Rabin",
+            "entity_class": "Musician",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8410,
+            "entity_label": "Tara Reid",
+            "entity_class": "Actor",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 10657,
+            "entity_label": "Camberwell College of Arts",
+            "entity_class": "College",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 12093,
+            "entity_label": "Cercle Brugge K.s.v.",
+            "entity_class": "Football Club",
+            "score": 6.772589,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 1949,
+            "entity_label": "Anthony Quinn",
+            "entity_class": "Actor",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 2563,
+            "entity_label": "Judi Dench",
+            "entity_class": "Actress",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 3129,
+            "entity_label": "Fc Dynamo Kyiv",
+            "entity_class": "Football Club",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 10665,
+            "entity_label": "The Way We Were",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 95,
+            "entity_label": "Ohio",
+            "entity_class": "State",
+            "score": 2.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 9547,
+            "entity_label": "Religion",
+            "entity_class": "Religion",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 7305,
+            "entity_label": "Dylan Baker",
+            "entity_class": "Actor",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "7954": 1,
+        "14295": 2,
+        "3857": 3,
+        "13315": 4,
+        "1935": 5,
+        "6180": 6,
+        "6463": 7,
+        "4169": 8,
+        "14119": 9,
+        "2137": 10,
+        "8410": 11,
+        "10657": 12,
+        "12093": 13,
+        "1949": 14,
+        "2563": 15,
+        "3129": 16,
+        "10665": 17,
+        "95": 18,
+        "9547": 19,
+        "7305": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Govinda, relation=hasRegularPerformanceRole, tail=?)\n\nOntology summary:\n- Query relation: hasRegularPerformanceRole\n- Head entity: Govinda\n- Head class: Person\n- Relation domain: Musical Instrument\n- Relation range: Musical Instrument\n- Domain check: not clearly matched\n- Tail entities of class 'Musical Instrument' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=52, edges=56, paths=20\n- Head outgoing edges under target relation hasRegularPerformanceRole: 8\n- Key support nodes: Govinda, Cercle Brugge K.s.v., From Russia with Love, Billings, Judi Dench, Lake Erie, Dylan Baker, Villarreal Cf B\n- Main auxiliary relations: hasImpersonatedCelebrities(6), performedBy(6), hasRosterPosition(3)\n\nFrequent relation path patterns:\n- hasRegularPerformanceRole (count=8)\n- hasImpersonatedCelebrities -> hasRegularPerformanceRole (count=7)\n- hasReleaseMedium -> hasRegularPerformanceRole (count=3)\n- hasRegularPerformanceRole -> livingIn (count=2)\n\nCandidates:\n1. Peter Berg [id=7954 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Villarreal Cf B [id=14295 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Marc Anthony [id=3857 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n4. Billings [id=13315 | class=City | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n5. Astro Boy [id=1935 | class=Manga Character | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n6. Zürich [id=6180 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n7. 91st United States Congress [id=6463 | class=Event | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n8. Robert Duvall [id=4169 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Geelong Football Club [id=14119 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Trevor Rabin [id=2137 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. Tara Reid [id=8410 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n12. Camberwell College of Arts [id=10657 | class=College | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Cercle Brugge K.s.v. [id=12093 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=3 | aux=1 | key=1]\n14. Anthony Quinn [id=1949 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Judi Dench [id=2563 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n16. Fc Dynamo Kyiv [id=3129 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n17. The Way We Were [id=10665 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Ohio [id=95 | class=State | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=0]\n19. Religion [id=9547 | class=Religion | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Dylan Baker [id=7305 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n"
+}

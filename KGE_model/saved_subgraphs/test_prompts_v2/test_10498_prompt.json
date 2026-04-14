@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 11555,
+        "head_label": "Tyler Perry",
+        "head_class": "Person",
+        "relation_id": 204,
+        "relation_label": "hasCurrentRoster",
+        "gold_tail": 12393,
+        "gold_tail_label": "Scarlet",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 13232,
+            "entity_label": "Mcdonald’s",
+            "entity_class": "Fast Food Restaurant",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 4746,
+            "entity_label": "Filmfare Award for Best Film",
+            "entity_class": "Award",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 9798,
+            "entity_label": "Detective Dee and the Mystery of the Phantom Flame",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 2969,
+            "entity_label": "Independence Day",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 14488,
+            "entity_label": "Rugby League",
+            "entity_class": "Sport",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 9072,
+            "entity_label": "John Buscema",
+            "entity_class": "Comic Book Artist",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 14302,
+            "entity_label": "Jainism",
+            "entity_class": "Religion",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 11100,
+            "entity_label": "Nassau",
+            "entity_class": "Location",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 12983,
+            "entity_label": "Sk Slavia Prague",
+            "entity_class": "Football Club",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 5659,
+            "entity_label": "Nirvana",
+            "entity_class": "Band",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 11046,
+            "entity_label": "Byzantine Empire",
+            "entity_class": "Historical Empire",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 2191,
+            "entity_label": "Grammy Award for Best Country Collaboration with Vocals",
+            "entity_class": "Award Category",
+            "score": 4.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 2385,
+            "entity_label": "Brass Instrument",
+            "entity_class": "Musical Instrument",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 9847,
+            "entity_label": "Dean Saunders",
+            "entity_class": "Footballer",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 10592,
+            "entity_label": "Tours Fc.",
+            "entity_class": "Football Club",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 5093,
+            "entity_label": "Elia Kazan",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 2103,
+            "entity_label": "Christopher Guest",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 13371,
+            "entity_label": "Espionage",
+            "entity_class": "Activity",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 12393,
+            "entity_label": "Scarlet",
+            "entity_class": "Color",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 533,
+            "entity_label": "The Hurricane",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "13232": 1,
+        "4746": 2,
+        "9798": 3,
+        "2969": 4,
+        "14488": 5,
+        "9072": 6,
+        "14302": 7,
+        "11100": 8,
+        "12983": 9,
+        "5659": 10,
+        "11046": 11,
+        "2191": 12,
+        "2385": 13,
+        "9847": 14,
+        "10592": 15,
+        "5093": 16,
+        "2103": 17,
+        "13371": 18,
+        "12393": 19,
+        "533": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Tyler Perry, relation=hasCurrentRoster, tail=?)\n\nOntology summary:\n- Query relation: hasCurrentRoster\n- Head entity: Tyler Perry\n- Head class: Person\n- Relation domain: Sports Team\n- Relation range: Position\n- Domain check: not clearly matched\n- Tail entities of class 'Position' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=44, edges=48, paths=20\n- Head outgoing edges under target relation hasCurrentRoster: 21\n- Key support nodes: Tyler Perry, The Hurricane, Independence Day, Tours Fc., Filmfare Award for Best Film, Sk Slavia Prague, Christopher Guest, Brass Instrument\n- Main auxiliary relations: hasAthlete(8), hasNetflixGenreTitle(4), hasAward(3)\n\nFrequent relation path patterns:\n- hasCurrentRoster (count=20)\n\nCandidates:\n1. Mcdonald’s [id=13232 | class=Fast Food Restaurant | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Filmfare Award for Best Film [id=4746 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Detective Dee and the Mystery of the Phantom Flame [id=9798 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Independence Day [id=2969 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Rugby League [id=14488 | class=Sport | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. John Buscema [id=9072 | class=Comic Book Artist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Jainism [id=14302 | class=Religion | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Nassau [id=11100 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Sk Slavia Prague [id=12983 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Nirvana [id=5659 | class=Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Byzantine Empire [id=11046 | class=Historical Empire | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Grammy Award for Best Country Collaboration with Vocals [id=2191 | class=Award Category | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]\n13. Brass Instrument [id=2385 | class=Musical Instrument | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n14. Dean Saunders [id=9847 | class=Footballer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Tours Fc. [id=10592 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n16. Elia Kazan [id=5093 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Christopher Guest [id=2103 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Espionage [id=13371 | class=Activity | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Scarlet [id=12393 | class=Color | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. The Hurricane [id=533 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

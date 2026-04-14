@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=As Good As It Gets, relation=hasPrequel, tail=?)
+
+Ontology summary:
+- Query relation: hasPrequel
+- Head entity: As Good As It Gets
+- Head class: Movie
+- Relation domain: Movie
+- Relation range: Movie
+- Domain check: matched
+- Tail entities of class 'Movie' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=47, edges=66, paths=20
+- Head outgoing edges under target relation hasPrequel: 1
+- Key support nodes: As Good As It Gets, Kagoshima Prefecture, Seattle, Hercules, Leslie Bricusse, Shinya Tsukamoto, Sayaji Shinde, Conga
+- Main auxiliary relations: hasGenre(23), placeOfDeath(4), hasGovernmentType(3)
+
+Frequent relation path patterns:
+- producedPrograms -> hasGenre -> hasPrequel (count=13)
+- hasPrequel (count=1)
+- hasPrequel -> hasGovernmentType -> hasGenre (count=1)
+- hasGovernmentType -> hasGenre -> hasPrequel (count=1)
+- hasCreator -> hasGenre -> hasPrequel (count=1)
+
+Candidates:
+1. William Lava [id=13292 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Sayaji Shinde [id=4754 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+3. Monty Python [id=12176 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]
+5. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+6. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Charlie Adler [id=12956 | class=Voice Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=0]
+10. Foreigner [id=12527 | class=Band | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Ebbsfleet United F.c. [id=10052 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+13. Kagoshima Prefecture [id=12701 | class=Prefecture | type=0 | soft_type=0 | direct=0 | paths=15 | aux=1 | key=1]
+14. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+15. The Cabin in the Woods [id=5958 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+16. Placekicker [id=937 | class=Position in American Football | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Dio [id=13295 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+18. Cass County [id=10852 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+19. Hercules [id=10866 | class=Movie | type=1 | soft_type=1 | direct=1 | paths=1 | aux=2 | key=1]
+20. The Turning Point [id=8857 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]

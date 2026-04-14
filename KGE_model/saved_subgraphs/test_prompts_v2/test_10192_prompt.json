@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 8400,
+        "head_label": "Music",
+        "head_class": "Music",
+        "relation_id": 45,
+        "relation_label": "hasFriend",
+        "gold_tail": 14068,
+        "gold_tail_label": "Greater Manchester",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 11966,
+            "entity_label": "Rostock",
+            "entity_class": "City",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 10886,
+            "entity_label": "Julius Caesar",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 7305,
+            "entity_label": "Dylan Baker",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 3253,
+            "entity_label": "James E. Reilly",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 3183,
+            "entity_label": "Harvard University",
+            "entity_class": "University",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 3868,
+            "entity_label": "Stephanie Morgenstern",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 9769,
+            "entity_label": "Dennis Franz",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 9853,
+            "entity_label": "Star Trek Iv: the Voyage Home",
+            "entity_class": "Movie",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 661,
+            "entity_label": "Eli Roth",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 1094,
+            "entity_label": "General Hospital",
+            "entity_class": "Tv Series",
+            "score": 2.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 3302,
+            "entity_label": "Logic",
+            "entity_class": "Music Artist",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 1842,
+            "entity_label": "Rhode Island School of Design",
+            "entity_class": "School",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 6082,
+            "entity_label": "Dabney Coleman",
+            "entity_class": "Person",
+            "score": 7.147918,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 6692,
+            "entity_label": "Marvel Comics",
+            "entity_class": "Company",
+            "score": 2.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 514,
+            "entity_label": "Brian Wilson",
+            "entity_class": "Person",
+            "score": 5.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 7445,
+            "entity_label": "Texas Rangers",
+            "entity_class": "Sports Team",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 12470,
+            "entity_label": "Mamoru Miyano",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 12481,
+            "entity_label": "Hamilton County",
+            "entity_class": "Administrative Region",
+            "score": 3.414157,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 4,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 14068,
+            "entity_label": "Greater Manchester",
+            "entity_class": "Metropolitan County",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 7865,
+            "entity_label": "Rashida Jones",
+            "entity_class": "Person",
+            "score": 5.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "11966": 1,
+        "10886": 2,
+        "7305": 3,
+        "3253": 4,
+        "3183": 5,
+        "3868": 6,
+        "9769": 7,
+        "9853": 8,
+        "661": 9,
+        "1094": 10,
+        "3302": 11,
+        "1842": 12,
+        "6082": 13,
+        "6692": 14,
+        "514": 15,
+        "7445": 16,
+        "12470": 17,
+        "12481": 18,
+        "14068": 19,
+        "7865": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Music, relation=hasFriend, tail=?)\n\nOntology summary:\n- Query relation: hasFriend\n- Head entity: Music\n- Head class: Music\n- Relation domain: Person\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=54, edges=64, paths=20\n- Head outgoing edges under target relation hasFriend: 1\n- Key support nodes: Music, Hope Springs, Greater Manchester, Hamilton County, Rashida Jones, General Hospital, Marvel Comics, Dabney Coleman\n- Main auxiliary relations: hasDomesticTuition(20), performedBy(7), influencedBy(3)\n\nFrequent relation path patterns:\n- hasRosterPosition -> hasDomesticTuition -> hasFriend (count=14)\n- hasFriend -> hasRosterPosition -> hasDomesticTuition (count=5)\n- hasFriend (count=1)\n\nCandidates:\n1. Rostock [id=11966 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n2. Julius Caesar [id=10886 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Dylan Baker [id=7305 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. James E. Reilly [id=3253 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Harvard University [id=3183 | class=University | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n6. Stephanie Morgenstern [id=3868 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Dennis Franz [id=9769 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Star Trek Iv: the Voyage Home [id=9853 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n9. Eli Roth [id=661 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. General Hospital [id=1094 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n11. Logic [id=3302 | class=Music Artist | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n12. Rhode Island School of Design [id=1842 | class=School | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n13. Dabney Coleman [id=6082 | class=Person | type=1 | soft_type=1 | direct=0 | paths=2 | aux=0 | key=1]\n14. Marvel Comics [id=6692 | class=Company | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n15. Brian Wilson [id=514 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n16. Texas Rangers [id=7445 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n17. Mamoru Miyano [id=12470 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Hamilton County [id=12481 | class=Administrative Region | type=0 | soft_type=0 | direct=0 | paths=4 | aux=0 | key=1]\n19. Greater Manchester [id=14068 | class=Metropolitan County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Rashida Jones [id=7865 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=1]\n"
+}

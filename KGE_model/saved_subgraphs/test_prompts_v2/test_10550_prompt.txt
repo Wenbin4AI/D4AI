@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Pedal Steel Guitar, relation=hasColors, tail=?)
+
+Ontology summary:
+- Query relation: hasColors
+- Head entity: Pedal Steel Guitar
+- Head class: Musical Instrument
+- Relation domain: University
+- Relation range: Color
+- Domain check: not clearly matched
+- Tail entities of class 'Color' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=34, edges=45, paths=20
+- Head outgoing edges under target relation hasColors: 2
+- Key support nodes: Pedal Steel Guitar, Sparta Rotterdam, James Horner, Anton Yelchin, Pontefract, Acr Siena 1904, Fairleigh Dickinson University, Seattle
+- Main auxiliary relations: hasGenre(10), hasDraftPickFromSchool(4), nominatedFor(3)
+
+Frequent relation path patterns:
+- hasColors -> hasColors (count=5)
+- hasColors (count=2)
+- hasGenre -> hasParticipantCountries -> hasColors (count=2)
+- hasGenre -> containsCountry -> hasColors (count=2)
+- hasColors -> hasPhoneNumber -> hasBorder (count=2)
+
+Candidates:
+1. Cymbal [id=1042 | class=Musical Instrument | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Rebecca Eaton [id=12217 | class=Producer | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+3. Las Vegas Raiders [id=3904 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Fairleigh Dickinson University [id=7167 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]
+5. On Golden Pond [id=1731 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+6. Four Weddings and a Funeral [id=3308 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Japan Academy Prize for Outstanding Performance by an Actress in a Leading Role [id=13040 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Iberian Peninsula [id=11811 | class=Peninsula | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Portage County [id=6674 | class=County | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+10. Asia [id=6676 | class=Continent | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Bhangra [id=14357 | class=Culture | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Jon Lord [id=8793 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+13. Sparta Rotterdam [id=8896 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+14. Pedal Steel Guitar [id=1676 | class=Musical Instrument | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]
+15. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=3 | aux=1 | key=1]
+16. Louisville [id=2501 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Corpus Christi College [id=12538 | class=College | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+18. Ontario Liberal Party [id=14183 | class=Political Party | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+19. James Horner [id=1995 | class=Composer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+20. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=5 | aux=0 | key=1]

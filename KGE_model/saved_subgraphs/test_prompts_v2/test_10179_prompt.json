@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 9372,
+        "head_label": "Solomon Islands",
+        "head_class": "Country",
+        "relation_id": 80,
+        "relation_label": "plays",
+        "gold_tail": 1058,
+        "gold_tail_label": "Nigeria",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 7055,
+            "entity_label": "Asrani",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 14030,
+            "entity_label": "Blaxploitation Film",
+            "entity_class": "Film Genre",
+            "score": 4.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 5590,
+            "entity_label": "Spelman College",
+            "entity_class": "College",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 3108,
+            "entity_label": "Bridget Fonda",
+            "entity_class": "Actor",
+            "score": 4.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 4931,
+            "entity_label": "Juelz Santana",
+            "entity_class": "Rapper, Singer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 12765,
+            "entity_label": "Sol Polito",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 8857,
+            "entity_label": "The Turning Point",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 4568,
+            "entity_label": "Grammy Award for Best Melodic Rap Performance",
+            "entity_class": "Music Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 2028,
+            "entity_label": "Heavy Metal",
+            "entity_class": "Music Genre",
+            "score": 3.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 11545,
+            "entity_label": "Rochester New York Fc",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 9693,
+            "entity_label": "Clemson Tigers Men's Basketball",
+            "entity_class": "Organization",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 13387,
+            "entity_label": "Carleton University",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 10849,
+            "entity_label": "Polish Americans",
+            "entity_class": "Ethnicity",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 9201,
+            "entity_label": "Brian Austin Green",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 10583,
+            "entity_label": "Djimon Hounsou",
+            "entity_class": "Actor",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 13729,
+            "entity_label": "Selangor F.c.",
+            "entity_class": "Sports Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 6533,
+            "entity_label": "South Korea National Under-23 Football Team",
+            "entity_class": "Football Team",
+            "score": 3.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 1993,
+            "entity_label": "Grammy Award for Best Large Jazz Ensemble Album",
+            "entity_class": "Award",
+            "score": 1.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 1058,
+            "entity_label": "Nigeria",
+            "entity_class": "Country",
+            "score": 4.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 7065,
+            "entity_label": "John Denver",
+            "entity_class": "Singer-songwriter",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "7055": 1,
+        "14030": 2,
+        "5590": 3,
+        "3108": 4,
+        "4931": 5,
+        "12765": 6,
+        "8857": 7,
+        "4568": 8,
+        "2028": 9,
+        "11545": 10,
+        "9693": 11,
+        "13387": 12,
+        "10849": 13,
+        "9201": 14,
+        "10583": 15,
+        "13729": 16,
+        "6533": 17,
+        "1993": 18,
+        "1058": 19,
+        "7065": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Solomon Islands, relation=plays, tail=?)\n\nOntology summary:\n- Query relation: plays\n- Head entity: Solomon Islands\n- Head class: Country\n- Relation domain: Sports Team\n- Relation range: Sport\n- Domain check: not clearly matched\n- Tail entities of class 'Sport' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=46, edges=55, paths=20\n- Head outgoing edges under target relation plays: 6\n- Key support nodes: Solomon Islands, St Patrick's Athletic F.c., Timmins, Burt Bacharach, Image Entertainment, Heavy Metal, South Korea National Under-23 Football Team, Polish Americans\n- Main auxiliary relations: hasGovernmentPosition(10), hasAthlete(9), hasEndowmentCurrency(8)\n\nFrequent relation path patterns:\n- hasWinner -> hasAthlete -> plays (count=14)\n- plays (count=6)\n\nCandidates:\n1. Asrani [id=7055 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Blaxploitation Film [id=14030 | class=Film Genre | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=0]\n3. Spelman College [id=5590 | class=College | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Bridget Fonda [id=3108 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=0]\n5. Juelz Santana [id=4931 | class=Rapper, Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Sol Polito [id=12765 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. The Turning Point [id=8857 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Grammy Award for Best Melodic Rap Performance [id=4568 | class=Music Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Heavy Metal [id=2028 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n10. Rochester New York Fc [id=11545 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Clemson Tigers Men's Basketball [id=9693 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Carleton University [id=13387 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Polish Americans [id=10849 | class=Ethnicity | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n14. Brian Austin Green [id=9201 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Djimon Hounsou [id=10583 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n16. Selangor F.c. [id=13729 | class=Sports Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. South Korea National Under-23 Football Team [id=6533 | class=Football Team | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n18. Grammy Award for Best Large Jazz Ensemble Album [id=1993 | class=Award | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]\n19. Nigeria [id=1058 | class=Country | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=0]\n20. John Denver [id=7065 | class=Singer-songwriter | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n"
+}

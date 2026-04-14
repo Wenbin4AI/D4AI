@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 1676,
+        "head_label": "Pedal Steel Guitar",
+        "head_class": "Musical Instrument",
+        "relation_id": 61,
+        "relation_label": "hasColors",
+        "gold_tail": 1995,
+        "gold_tail_label": "James Horner",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 1042,
+            "entity_label": "Cymbal",
+            "entity_class": "Musical Instrument",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 12217,
+            "entity_label": "Rebecca Eaton",
+            "entity_class": "Producer",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 3904,
+            "entity_label": "Las Vegas Raiders",
+            "entity_class": "Sports Team",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 7167,
+            "entity_label": "Fairleigh Dickinson University",
+            "entity_class": "University",
+            "score": 3.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 1731,
+            "entity_label": "On Golden Pond",
+            "entity_class": "Film",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 3308,
+            "entity_label": "Four Weddings and a Funeral",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 13040,
+            "entity_label": "Japan Academy Prize for Outstanding Performance by an Actress in a Leading Role",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 11811,
+            "entity_label": "Iberian Peninsula",
+            "entity_class": "Peninsula",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 6674,
+            "entity_label": "Portage County",
+            "entity_class": "County",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 6676,
+            "entity_label": "Asia",
+            "entity_class": "Continent",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 14357,
+            "entity_label": "Bhangra",
+            "entity_class": "Culture",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 8793,
+            "entity_label": "Jon Lord",
+            "entity_class": "Musician",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 8896,
+            "entity_label": "Sparta Rotterdam",
+            "entity_class": "Sports Team",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 1676,
+            "entity_label": "Pedal Steel Guitar",
+            "entity_class": "Musical Instrument",
+            "score": 1.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 3.772589,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 2501,
+            "entity_label": "Louisville",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 12538,
+            "entity_label": "Corpus Christi College",
+            "entity_class": "College",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 14183,
+            "entity_label": "Ontario Liberal Party",
+            "entity_class": "Political Party",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 1995,
+            "entity_label": "James Horner",
+            "entity_class": "Composer",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 3.687639,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 5,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "1042": 1,
+        "12217": 2,
+        "3904": 3,
+        "7167": 4,
+        "1731": 5,
+        "3308": 6,
+        "13040": 7,
+        "11811": 8,
+        "6674": 9,
+        "6676": 10,
+        "14357": 11,
+        "8793": 12,
+        "8896": 13,
+        "1676": 14,
+        "4994": 15,
+        "2501": 16,
+        "12538": 17,
+        "14183": 18,
+        "1995": 19,
+        "14037": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Pedal Steel Guitar, relation=hasColors, tail=?)\n\nOntology summary:\n- Query relation: hasColors\n- Head entity: Pedal Steel Guitar\n- Head class: Musical Instrument\n- Relation domain: University\n- Relation range: Color\n- Domain check: not clearly matched\n- Tail entities of class 'Color' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=34, edges=45, paths=20\n- Head outgoing edges under target relation hasColors: 2\n- Key support nodes: Pedal Steel Guitar, Sparta Rotterdam, James Horner, Anton Yelchin, Pontefract, Acr Siena 1904, Fairleigh Dickinson University, Seattle\n- Main auxiliary relations: hasGenre(10), hasDraftPickFromSchool(4), nominatedFor(3)\n\nFrequent relation path patterns:\n- hasColors -> hasColors (count=5)\n- hasColors (count=2)\n- hasGenre -> hasParticipantCountries -> hasColors (count=2)\n- hasGenre -> containsCountry -> hasColors (count=2)\n- hasColors -> hasPhoneNumber -> hasBorder (count=2)\n\nCandidates:\n1. Cymbal [id=1042 | class=Musical Instrument | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Rebecca Eaton [id=12217 | class=Producer | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n3. Las Vegas Raiders [id=3904 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Fairleigh Dickinson University [id=7167 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n5. On Golden Pond [id=1731 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Four Weddings and a Funeral [id=3308 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Japan Academy Prize for Outstanding Performance by an Actress in a Leading Role [id=13040 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Iberian Peninsula [id=11811 | class=Peninsula | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Portage County [id=6674 | class=County | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n10. Asia [id=6676 | class=Continent | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Bhangra [id=14357 | class=Culture | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Jon Lord [id=8793 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Sparta Rotterdam [id=8896 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n14. Pedal Steel Guitar [id=1676 | class=Musical Instrument | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]\n15. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=3 | aux=1 | key=1]\n16. Louisville [id=2501 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Corpus Christi College [id=12538 | class=College | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n18. Ontario Liberal Party [id=14183 | class=Political Party | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n19. James Horner [id=1995 | class=Composer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=5 | aux=0 | key=1]\n"
+}

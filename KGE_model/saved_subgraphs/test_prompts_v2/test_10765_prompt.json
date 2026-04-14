@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 1035,
+        "head_label": "Talk to Me",
+        "head_class": "Movie",
+        "relation_id": 125,
+        "relation_label": "hasAthlete",
+        "gold_tail": 7133,
+        "gold_tail_label": "Lebanon",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 2054,
+            "entity_label": "Cumulus Media",
+            "entity_class": "Company",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 11097,
+            "entity_label": "Paul Winfield",
+            "entity_class": "Actor",
+            "score": 5.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 3171,
+            "entity_label": "Loretta Lynn",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 6420,
+            "entity_label": "Zach Galifianakis",
+            "entity_class": "Actor",
+            "score": 6.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 13647,
+            "entity_label": "Social Issue",
+            "entity_class": "Social Problem",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 10077,
+            "entity_label": "Bernie Brillstein",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 11693,
+            "entity_label": "Anurag Kashyap",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 1937,
+            "entity_label": "Brave",
+            "entity_class": "Film",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 10476,
+            "entity_label": "City University of New York",
+            "entity_class": "Educational Institution",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 4704,
+            "entity_label": "James Denton",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 14533,
+            "entity_label": "Association Football Manager",
+            "entity_class": "Occupation",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 223,
+            "entity_label": "University of Pittsburgh",
+            "entity_class": "Institution",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 12367,
+            "entity_label": "Mark Kirkland",
+            "entity_class": "Person",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 13347,
+            "entity_label": "Green Party of the United States",
+            "entity_class": "Political Party",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 7952,
+            "entity_label": "Gilles Deleuze",
+            "entity_class": "Person",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 10537,
+            "entity_label": "Harris County",
+            "entity_class": "County",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 1501,
+            "entity_label": "Academy Award for Best Film Editing",
+            "entity_class": "Award",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 13701,
+            "entity_label": "Altoona",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 7133,
+            "entity_label": "Lebanon",
+            "entity_class": "Location",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 8624,
+            "entity_label": "Cliff Robertson",
+            "entity_class": "Person",
+            "score": 8.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "2054": 1,
+        "11097": 2,
+        "3171": 3,
+        "6420": 4,
+        "13647": 5,
+        "10077": 6,
+        "11693": 7,
+        "1937": 8,
+        "10476": 9,
+        "4704": 10,
+        "14533": 11,
+        "223": 12,
+        "12367": 13,
+        "13347": 14,
+        "7952": 15,
+        "10537": 16,
+        "1501": 17,
+        "13701": 18,
+        "7133": 19,
+        "8624": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Talk to Me, relation=hasAthlete, tail=?)\n\nOntology summary:\n- Query relation: hasAthlete\n- Head entity: Talk to Me\n- Head class: Movie\n- Relation domain: Sport\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=48, edges=48, paths=20\n- Head outgoing edges under target relation hasAthlete: 20\n- Key support nodes: Talk to Me, Mark Kirkland, City University of New York, Academy Award for Best Film Editing, Altoona, Social Issue, University of Pittsburgh, Gilles Deleuze\n- Main auxiliary relations: hasWinner(18), plays(6), hasEndowmentCurrency(2)\n\nFrequent relation path patterns:\n- hasAthlete (count=20)\n\nCandidates:\n1. Cumulus Media [id=2054 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Paul Winfield [id=11097 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n3. Loretta Lynn [id=3171 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Zach Galifianakis [id=6420 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n5. Social Issue [id=13647 | class=Social Problem | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Bernie Brillstein [id=10077 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Anurag Kashyap [id=11693 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Brave [id=1937 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. City University of New York [id=10476 | class=Educational Institution | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. James Denton [id=4704 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Association Football Manager [id=14533 | class=Occupation | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. University of Pittsburgh [id=223 | class=Institution | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. Mark Kirkland [id=12367 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n14. Green Party of the United States [id=13347 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n15. Gilles Deleuze [id=7952 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n16. Harris County [id=10537 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Academy Award for Best Film Editing [id=1501 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Altoona [id=13701 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Lebanon [id=7133 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Cliff Robertson [id=8624 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n"
+}

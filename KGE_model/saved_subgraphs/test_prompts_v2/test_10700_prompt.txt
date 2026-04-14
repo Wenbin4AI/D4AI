@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=The Firm, relation=hasSibling, tail=?)
+
+Ontology summary:
+- Query relation: hasSibling
+- Head entity: The Firm
+- Head class: Organization
+- Relation domain: Person
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=47, edges=50, paths=20
+- Head outgoing edges under target relation hasSibling: 22
+- Key support nodes: The Firm, Ac Sparta Prague, Viking Fk, The Allman Brothers Band, Richmond, Columbus, Joseph F. Biroc, Hilary Duff
+- Main auxiliary relations: hasBurialPlace(10), hasStudent(8), editedBy(3)
+
+Frequent relation path patterns:
+- hasSibling (count=20)
+
+Candidates:
+1. Cheshire County [id=8444 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. The Allman Brothers Band [id=5112 | class=Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Imagine Entertainment [id=6282 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Viking Fk [id=10436 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Dallas Cowboys [id=272 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Saint Vincent and the Grenadines [id=1712 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. B Movie [id=14127 | class=Film Category | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. St. Louis County [id=11594 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Richmond [id=13429 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Kath Soucie [id=7531 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+11. Fc Volga Nizhny Novgorod [id=5019 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Falls Church [id=12899 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+13. Hilary Duff [id=920 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+14. Ryan O'neal [id=8386 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+15. Dan Grimaldi [id=1290 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+16. Patti Labelle [id=6372 | class=Music Artist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Columbus [id=6175 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Joseph F. Biroc [id=5586 | class=Cinematographer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Batman: the Animated Series [id=8565 | class=Animated Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Ac Sparta Prague [id=10501 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

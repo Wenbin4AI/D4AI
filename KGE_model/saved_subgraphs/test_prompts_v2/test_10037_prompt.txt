@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Karnataka, relation=hasPhoneNumber, tail=?)
+
+Ontology summary:
+- Query relation: hasPhoneNumber
+- Head entity: Karnataka
+- Head class: State
+- Relation domain: Company
+- Relation range: Language
+- Domain check: not clearly matched
+- Tail entities of class 'Language' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=40, edges=50, paths=20
+- Head outgoing edges under target relation hasPhoneNumber: 20
+- Key support nodes: Karnataka, Independent Spirit Award for Best Documentary Feature, London Film Critics Circle Award for Actor of the Year, Oberlin Conservatory of Music, European Film Award for Best Actress, Keio University, Dianne Wiest, Los Angeles Angels
+- Main auxiliary relations: hasExSpouse(16), hasColors(8), hasGDPNominalPerCapita(2)
+
+Frequent relation path patterns:
+- hasPhoneNumber (count=20)
+
+Candidates:
+1. Provost [id=3207 | class=Academic Position | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Keio University [id=8598 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Calgary Stampeders [id=8631 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. European Film Award for Best Actress [id=839 | class=Award Category | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Mare Winningham [id=11635 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. New Delhi [id=9185 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Rensselaer County [id=4554 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. April [id=6025 | class=Month | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Dianne Wiest [id=5231 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Belgium National Football Team [id=10707 | class=National Football Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Whip It [id=10192 | class=Song | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Primetime Emmy Award for Outstanding Writing for a Miniseries, Movie or a Dramatic Special [id=7570 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Independent Spirit Award for Best Documentary Feature [id=10267 | class=Award Category | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. Winnipeg Jets [id=6361 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. London Film Critics Circle Award for Actor of the Year [id=4622 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Stoner Rock [id=1858 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Los Angeles Angels [id=9997 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Ghostbusters [id=10891 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Italian Americans [id=3330 | class=Ethnic Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Oberlin Conservatory of Music [id=3685 | class=Music School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

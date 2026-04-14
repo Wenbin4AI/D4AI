@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 14368,
+        "head_label": "Governor General's Award for English-language Non-fiction",
+        "head_class": "Award",
+        "relation_id": 210,
+        "relation_label": "isRecurringEvent",
+        "gold_tail": 7167,
+        "gold_tail_label": "Fairleigh Dickinson University",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 13410,
+            "entity_label": "Church Building",
+            "entity_class": "Building",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 6765,
+            "entity_label": "Kristin Scott Thomas",
+            "entity_class": "Person",
+            "score": 3.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 6355,
+            "entity_label": "Kate Flannery",
+            "entity_class": "Comedian and Actress",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 8935,
+            "entity_label": "Election",
+            "entity_class": "Event",
+            "score": 3.232868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 11038,
+            "entity_label": "Mexican Americans",
+            "entity_class": "Ethnic Group",
+            "score": 2.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 4250,
+            "entity_label": "Flight",
+            "entity_class": "Aviation",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 5066,
+            "entity_label": "99th United States Congress",
+            "entity_class": "Government Body",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 4096,
+            "entity_label": "University of the Pacific",
+            "entity_class": "University",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 12439,
+            "entity_label": "Shinya Tsukamoto",
+            "entity_class": "Person",
+            "score": 3.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 14357,
+            "entity_label": "Bhangra",
+            "entity_class": "Culture",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 14137,
+            "entity_label": "Koei",
+            "entity_class": "Video Game Company",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 7439,
+            "entity_label": "Allium Cepa",
+            "entity_class": "Plant",
+            "score": 2.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 5.035453,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 19,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 3904,
+            "entity_label": "Las Vegas Raiders",
+            "entity_class": "Sports Team",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 12496,
+            "entity_label": "Librarian",
+            "entity_class": "Occupation",
+            "score": 3.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 12283,
+            "entity_label": "Clint Howard",
+            "entity_class": "Person",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 3277,
+            "entity_label": "Raiders of the Lost Ark",
+            "entity_class": "Film",
+            "score": 3.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 12689,
+            "entity_label": "Andes",
+            "entity_class": "Mountain Range",
+            "score": 2.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 7167,
+            "entity_label": "Fairleigh Dickinson University",
+            "entity_class": "University",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 14368,
+            "entity_label": "Governor General's Award for English-language Non-fiction",
+            "entity_class": "Award",
+            "score": 3.598612,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "13410": 1,
+        "6765": 2,
+        "6355": 3,
+        "8935": 4,
+        "11038": 5,
+        "4250": 6,
+        "5066": 7,
+        "4096": 8,
+        "12439": 9,
+        "14357": 10,
+        "14137": 11,
+        "7439": 12,
+        "4994": 13,
+        "3904": 14,
+        "12496": 15,
+        "12283": 16,
+        "3277": 17,
+        "12689": 18,
+        "7167": 19,
+        "14368": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Governor General's Award for English-language Non-fiction, relation=isRecurringEvent, tail=?)\n\nOntology summary:\n- Query relation: isRecurringEvent\n- Head entity: Governor General's Award for English-language Non-fiction\n- Head class: Award\n- Relation domain: Event\n- Relation range: Awards Show\n- Domain check: not clearly matched\n- Tail entities of class 'Awards Show' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=45, edges=48, paths=20\n- Head outgoing edges under target relation isRecurringEvent: 1\n- Key support nodes: Governor General's Award for English-language Non-fiction, Fairleigh Dickinson University, Seattle, Librarian, Kristin Scott Thomas, Andes, Shinya Tsukamoto, Raiders of the Lost Ark\n- Main auxiliary relations: hasGenre(22), hasSport(8), hasColors(4)\n\nFrequent relation path patterns:\n- isRecurringEvent -> nominatedFor -> hasGenre (count=11)\n- isRecurringEvent -> nominatedFor -> hasSport (count=6)\n- isRecurringEvent (count=1)\n- isRecurringEvent -> nominatedFor (count=1)\n- isRecurringEvent -> hasPhoneNumber (count=1)\n\nCandidates:\n1. Church Building [id=13410 | class=Building | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n2. Kristin Scott Thomas [id=6765 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n3. Kate Flannery [id=6355 | class=Comedian and Actress | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n4. Election [id=8935 | class=Event | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]\n5. Mexican Americans [id=11038 | class=Ethnic Group | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n6. Flight [id=4250 | class=Aviation | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n7. 99th United States Congress [id=5066 | class=Government Body | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n8. University of the Pacific [id=4096 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n9. Shinya Tsukamoto [id=12439 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n10. Bhangra [id=14357 | class=Culture | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n11. Koei [id=14137 | class=Video Game Company | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n12. Allium Cepa [id=7439 | class=Plant | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n13. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=19 | key=1]\n14. Las Vegas Raiders [id=3904 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n15. Librarian [id=12496 | class=Occupation | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n16. Clint Howard [id=12283 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n17. Raiders of the Lost Ark [id=3277 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n18. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n19. Fairleigh Dickinson University [id=7167 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n20. Governor General's Award for English-language Non-fiction [id=14368 | class=Award | type=0 | soft_type=1 | direct=0 | paths=0 | aux=2 | key=1]\n"
+}

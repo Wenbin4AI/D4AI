@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Jennifer Hudson, relation=hasCauseOfDeath, tail=?)
+
+Ontology summary:
+- Query relation: hasCauseOfDeath
+- Head entity: Jennifer Hudson
+- Head class: Actor
+- Relation domain: Disease
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=37, edges=49, paths=20
+- Head outgoing edges under target relation hasCauseOfDeath: 5
+- Key support nodes: Jennifer Hudson, Iron Man 3, Johannesburg, Dead Poets Society, Soviet Air Forces, Kate Bush, Alpha Carotene (stereochemistry Specified), Nunavut
+- Main auxiliary relations: geographic_distribution(18), hasCurrentClub(9), hasRosterPosition(8)
+
+Frequent relation path patterns:
+- hasCauseOfDeath -> geographic_distribution (count=15)
+- hasCauseOfDeath (count=5)
+
+Candidates:
+1. Old Dominion University [id=12453 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+2. Nunavut [id=14103 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+3. Ming-na Wen [id=7555 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+4. Spike Jonze [id=809 | class=Director | type=0 | soft_type=1 | direct=1 | paths=1 | aux=2 | key=1]
+5. Daniel Roebuck [id=9010 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=1]
+6. Ed Harris [id=394 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+7. Evan Rachel Wood [id=784 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+8. Tom and Jerry [id=12190 | class=Cartoon | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+9. Soviet Air Forces [id=14348 | class=Military Branch | type=0 | soft_type=0 | direct=0 | paths=3 | aux=5 | key=1]
+10. Freestyle Skiing [id=6076 | class=Sport | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+11. Bernalillo County [id=10415 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+12. Peter Macnicol [id=3551 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]
+13. Kate Bush [id=4785 | class=Person | type=1 | soft_type=1 | direct=0 | paths=3 | aux=6 | key=1]
+14. King of the Hill [id=5310 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+15. Iron Man 3 [id=4997 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=3 | aux=9 | key=1]
+16. Pre-code Hollywood [id=13691 | class=Era | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=0]
+17. Robbie Keane [id=11498 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+18. Alpha Carotene (stereochemistry Specified) [id=14335 | class=Chemical Compound | type=0 | soft_type=0 | direct=0 | paths=2 | aux=4 | key=1]
+19. Johannesburg [id=1985 | class=City | type=0 | soft_type=0 | direct=1 | paths=2 | aux=8 | key=1]
+20. Dead Poets Society [id=6963 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=2 | aux=7 | key=1]

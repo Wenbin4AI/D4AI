@@ -1,0 +1,63 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Steven Seagal, relation=hasReligion, tail=?)
+
+Ontology summary:
+- Query relation: hasReligion
+- Head entity: Steven Seagal
+- Head class: Person
+- Relation domain: Person
+- Relation range: Religion
+- Domain check: matched
+- Tail entities of class 'Religion' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=47, edges=53, paths=20
+- Head outgoing edges under target relation hasReligion: 4
+- Key support nodes: Steven Seagal, Matt Lucas, The Outer Limits, Tristar Pictures, Nathaniel Hawthorne, The Bold and the Beautiful, 88th United States Congress, Falklands War
+- Main auxiliary relations: foundIn(9), performedBy(7), hasRosterPosition(4)
+
+Frequent relation path patterns:
+- hasDesignedFilmSets -> hasReligion (count=7)
+- hasReligion -> hasArtist -> foundIn (count=7)
+- hasReligion (count=4)
+- hasReligion -> livingIn (count=2)
+
+Candidates:
+1. Absurdism [id=1526 | class=Movement | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. The Bold and the Beautiful [id=3848 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+3. Chuck Berry [id=3146 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+4. Wargames [id=503 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=2 | aux=1 | key=1]
+5. University of Turin [id=9012 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+6. Last of the Summer Wine [id=7776 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+7. French Cuisine [id=13272 | class=Cuisine | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+8. National Football League [id=11040 | class=Sports League | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Falklands War [id=4636 | class=Military Conflict | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+10. 19th Century [id=14346 | class=Century | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+11. Albert Nobbs [id=2447 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Clark Gable [id=9074 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+13. Matt Lucas [id=8067 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+14. Mindy Kaling [id=3659 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+15. Nathaniel Hawthorne [id=6042 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Donaldus Milford Payne [id=7680 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+17. Marc Anthony [id=3857 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+18. Urban Contemporary [id=1816 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+19. Dover [id=14025 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Slade School of Fine Art [id=14042 | class=School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]

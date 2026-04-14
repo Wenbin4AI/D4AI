@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 8288,
+        "head_label": "Turks and Caicos Islands",
+        "head_class": "Location",
+        "relation_id": 30,
+        "relation_label": "hasAward",
+        "gold_tail": 14252,
+        "gold_tail_label": "Plovdiv",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 11918,
+            "entity_label": "County Durham",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 1678,
+            "entity_label": "Brigitte Nielsen",
+            "entity_class": "Actress, Model, Wrestler",
+            "score": 1.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 1069,
+            "entity_label": "Dressed to Kill",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 13295,
+            "entity_label": "Dio",
+            "entity_class": "Person",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 14248,
+            "entity_label": "Samuel Vincent",
+            "entity_class": "Person",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 12217,
+            "entity_label": "Rebecca Eaton",
+            "entity_class": "Producer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 9994,
+            "entity_label": "Pillow Talk",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 1463,
+            "entity_label": "Nac Breda",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 12414,
+            "entity_label": "Lexington",
+            "entity_class": "Town/city",
+            "score": 1.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 7253,
+            "entity_label": "Designated Hitter",
+            "entity_class": "Sport",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 11757,
+            "entity_label": "Maharashtra",
+            "entity_class": "State",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 11995,
+            "entity_label": "Dutch",
+            "entity_class": "Nationality",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 3638,
+            "entity_label": "Grammy Award for Best Chamber Music Performance",
+            "entity_class": "Award",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 4899,
+            "entity_label": "Gordon Brown",
+            "entity_class": "Person",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 12689,
+            "entity_label": "Andes",
+            "entity_class": "Mountain Range",
+            "score": 3.414157,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 4,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 790,
+            "entity_label": "Santa Barbara",
+            "entity_class": "City",
+            "score": 1.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 9649,
+            "entity_label": "Brooklyn Nets",
+            "entity_class": "Basketball Team",
+            "score": 1.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 14252,
+            "entity_label": "Plovdiv",
+            "entity_class": "Location",
+            "score": 6.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 348,
+            "entity_label": "Garbage",
+            "entity_class": "Band",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "11918": 1,
+        "1678": 2,
+        "1069": 3,
+        "13295": 4,
+        "14248": 5,
+        "12217": 6,
+        "9994": 7,
+        "1463": 8,
+        "12414": 9,
+        "7253": 10,
+        "11757": 11,
+        "11995": 12,
+        "3638": 13,
+        "4899": 14,
+        "12689": 15,
+        "4994": 16,
+        "790": 17,
+        "9649": 18,
+        "14252": 19,
+        "348": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Turks and Caicos Islands, relation=hasAward, tail=?)\n\nOntology summary:\n- Query relation: hasAward\n- Head entity: Turks and Caicos Islands\n- Head class: Location\n- Relation domain: Movie\n- Relation range: Award\n- Domain check: not clearly matched\n- Tail entities of class 'Award' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=57, edges=67, paths=20\n- Head outgoing edges under target relation hasAward: 1\n- Key support nodes: Turks and Caicos Islands, Andes, Brunswick, Yunus Parvez, Cool Jazz, Plovdiv, Garbage, Grammy Award for Best Chamber Music/small Ensemble Performance\n- Main auxiliary relations: hasImpersonatedCelebrities(8), hasReleaseMedium(7), hasAthlete(6)\n\nFrequent relation path patterns:\n- hasImpersonatedCelebrities -> hasAward (count=4)\n- hasAthlete -> hasWinner -> hasAward (count=4)\n- hasImpersonatedCelebrities -> hasReleaseMedium -> hasAward (count=4)\n- hasRegularPerformanceRole -> hasSchoolType -> hasAward (count=3)\n- hasAward (count=1)\n\nCandidates:\n1. County Durham [id=11918 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Brigitte Nielsen [id=1678 | class=Actress, Model, Wrestler | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]\n3. Dressed to Kill [id=1069 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Dio [id=13295 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n5. Samuel Vincent [id=14248 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Rebecca Eaton [id=12217 | class=Producer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Pillow Talk [id=9994 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Nac Breda [id=1463 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Lexington [id=12414 | class=Town/city | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]\n10. Designated Hitter [id=7253 | class=Sport | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. Maharashtra [id=11757 | class=State | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Dutch [id=11995 | class=Nationality | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Grammy Award for Best Chamber Music Performance [id=3638 | class=Award | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n14. Gordon Brown [id=4899 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=4 | aux=0 | key=1]\n16. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Santa Barbara [id=790 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]\n18. Brooklyn Nets [id=9649 | class=Basketball Team | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]\n19. Plovdiv [id=14252 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n20. Garbage [id=348 | class=Band | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n"
+}

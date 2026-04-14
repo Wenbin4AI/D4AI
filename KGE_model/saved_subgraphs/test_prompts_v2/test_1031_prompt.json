@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 2786,
+        "head_label": "Huddersfield Town A.f.c.",
+        "head_class": "Football Club",
+        "relation_id": 123,
+        "relation_label": "hasWife",
+        "gold_tail": 10222,
+        "gold_tail_label": "World Fantasy Award for Best Novel",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 9513,
+            "entity_label": "Onium Betaine",
+            "entity_class": "Compound",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 282,
+            "entity_label": "Dustin Hoffman",
+            "entity_class": "Actor",
+            "score": 6.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 5753,
+            "entity_label": "Flash Gordon",
+            "entity_class": "Movie Title",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 242,
+            "entity_label": "Pierre Boulez",
+            "entity_class": "Person",
+            "score": 7.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 11898,
+            "entity_label": "Murfreesboro",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 12897,
+            "entity_label": "Akira Kamiya",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 823,
+            "entity_label": "Kazan",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 14353,
+            "entity_label": "Perth Airport",
+            "entity_class": "Location",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 1100,
+            "entity_label": "Danny Huston",
+            "entity_class": "Actor",
+            "score": 6.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 9003,
+            "entity_label": "Samuel R. Delany",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 9780,
+            "entity_label": "Meath",
+            "entity_class": "County",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 7738,
+            "entity_label": "Wim Wenders",
+            "entity_class": "Film Director",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 5147,
+            "entity_label": "Chris Waddle",
+            "entity_class": "Person",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 268,
+            "entity_label": "Warner Bros.",
+            "entity_class": "Film Company",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 9220,
+            "entity_label": "Pina",
+            "entity_class": "Person",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 6216,
+            "entity_label": "Kyiv",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 819,
+            "entity_label": "Imelda Staunton",
+            "entity_class": "Actor",
+            "score": 5.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 6759,
+            "entity_label": "J. D. Salinger",
+            "entity_class": "Author",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 10222,
+            "entity_label": "World Fantasy Award for Best Novel",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 1332,
+            "entity_label": "Chiang Kai-shek",
+            "entity_class": "Person",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "9513": 1,
+        "282": 2,
+        "5753": 3,
+        "242": 4,
+        "11898": 5,
+        "12897": 6,
+        "823": 7,
+        "14353": 8,
+        "1100": 9,
+        "9003": 10,
+        "9780": 11,
+        "7738": 12,
+        "5147": 13,
+        "268": 14,
+        "9220": 15,
+        "6216": 16,
+        "819": 17,
+        "6759": 18,
+        "10222": 19,
+        "1332": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Huddersfield Town A.f.c., relation=hasWife, tail=?)\n\nOntology summary:\n- Query relation: hasWife\n- Head entity: Huddersfield Town A.f.c.\n- Head class: Football Club\n- Relation domain: Person\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=44, edges=48, paths=20\n- Head outgoing edges under target relation hasWife: 21\n- Key support nodes: Huddersfield Town A.f.c., Dustin Hoffman, Chris Waddle, J. D. Salinger, Murfreesboro, Danny Huston, Wim Wenders, Pina\n- Main auxiliary relations: hasPerformanceType(5), hasPhoneNumber(4), hasRuntime(3)\n\nFrequent relation path patterns:\n- hasWife (count=20)\n\nCandidates:\n1. Onium Betaine [id=9513 | class=Compound | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Dustin Hoffman [id=282 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n3. Flash Gordon [id=5753 | class=Movie Title | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Pierre Boulez [id=242 | class=Person | type=1 | soft_type=1 | direct=1 | paths=0 | aux=0 | key=0]\n5. Murfreesboro [id=11898 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Akira Kamiya [id=12897 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Kazan [id=823 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Perth Airport [id=14353 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Danny Huston [id=1100 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n10. Samuel R. Delany [id=9003 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Meath [id=9780 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Wim Wenders [id=7738 | class=Film Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. Chris Waddle [id=5147 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n14. Warner Bros. [id=268 | class=Film Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n15. Pina [id=9220 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n16. Kyiv [id=6216 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Imelda Staunton [id=819 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n18. J. D. Salinger [id=6759 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. World Fantasy Award for Best Novel [id=10222 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Chiang Kai-shek [id=1332 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

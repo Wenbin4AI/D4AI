@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 13977,
+        "head_label": "Manorama",
+        "head_class": "Newspaper",
+        "relation_id": 91,
+        "relation_label": "hasProducer",
+        "gold_tail": 6519,
+        "gold_tail_label": "Instrumental Music",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 2507,
+            "entity_label": "1896 Summer Olympics",
+            "entity_class": "Event",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 10575,
+            "entity_label": "New Westminster",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 385,
+            "entity_label": "Jesse Metcalfe",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 12142,
+            "entity_label": "Barry Pepper",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 12528,
+            "entity_label": "Laura Bailey",
+            "entity_class": "Voice Actress",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 11209,
+            "entity_label": "Winston Churchill",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 10577,
+            "entity_label": "The Clearing",
+            "entity_class": "Location",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 7161,
+            "entity_label": "1956 Summer Olympics",
+            "entity_class": "Event",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 5024,
+            "entity_label": "Keith Forsey",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 14412,
+            "entity_label": "Haute-savoie",
+            "entity_class": "Province",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8699,
+            "entity_label": "College Park",
+            "entity_class": "Place",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 12230,
+            "entity_label": "Swing Music",
+            "entity_class": "Music Genre",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 5675,
+            "entity_label": "Kate Winslet",
+            "entity_class": "Actress",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 9829,
+            "entity_label": "Max Weber",
+            "entity_class": "Sociologist",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 5101,
+            "entity_label": "Manganese",
+            "entity_class": "Chemical Element",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 1059,
+            "entity_label": "Silver Medal",
+            "entity_class": "Award",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 7814,
+            "entity_label": "University of Wyoming",
+            "entity_class": "University",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 3479,
+            "entity_label": "The Fighter",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 6519,
+            "entity_label": "Instrumental Music",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 3391,
+            "entity_label": "Eintracht Braunschweig",
+            "entity_class": "Football Club",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "2507": 1,
+        "10575": 2,
+        "385": 3,
+        "12142": 4,
+        "12528": 5,
+        "11209": 6,
+        "10577": 7,
+        "7161": 8,
+        "5024": 9,
+        "14412": 10,
+        "8699": 11,
+        "12230": 12,
+        "5675": 13,
+        "9829": 14,
+        "5101": 15,
+        "1059": 16,
+        "7814": 17,
+        "3479": 18,
+        "6519": 19,
+        "3391": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Manorama, relation=hasProducer, tail=?)\n\nOntology summary:\n- Query relation: hasProducer\n- Head entity: Manorama\n- Head class: Newspaper\n- Relation domain: Tv Show\n- Relation range: Profession\n- Domain check: not clearly matched\n- Tail entities of class 'Profession' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=50, edges=50, paths=20\n- Head outgoing edges under target relation hasProducer: 20\n- Key support nodes: Manorama, Manganese, Eintracht Braunschweig, Barry Pepper, New Westminster, Keith Forsey, University of Wyoming, The Fighter\n- Main auxiliary relations: producedIn(6), hasDesignedFilmSets(4), hasNetflixGenreTitle(3)\n\nFrequent relation path patterns:\n- hasProducer (count=20)\n\nCandidates:\n1. 1896 Summer Olympics [id=2507 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. New Westminster [id=10575 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Jesse Metcalfe [id=385 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Barry Pepper [id=12142 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Laura Bailey [id=12528 | class=Voice Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Winston Churchill [id=11209 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. The Clearing [id=10577 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. 1956 Summer Olympics [id=7161 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Keith Forsey [id=5024 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Haute-savoie [id=14412 | class=Province | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. College Park [id=8699 | class=Place | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Swing Music [id=12230 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Kate Winslet [id=5675 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n14. Max Weber [id=9829 | class=Sociologist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Manganese [id=5101 | class=Chemical Element | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Silver Medal [id=1059 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. University of Wyoming [id=7814 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. The Fighter [id=3479 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Instrumental Music [id=6519 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Eintracht Braunschweig [id=3391 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

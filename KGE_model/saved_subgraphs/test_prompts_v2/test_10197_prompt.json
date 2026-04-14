@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 13285,
+        "head_label": "Fox News",
+        "head_class": "News Organization",
+        "relation_id": 47,
+        "relation_label": "hasWinner",
+        "gold_tail": 12233,
+        "gold_tail_label": "Suffolk County",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 3770,
+            "entity_label": "J. J. Abrams",
+            "entity_class": "Director",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 13454,
+            "entity_label": "Old-time Music",
+            "entity_class": "Music Genre",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 5481,
+            "entity_label": "Orlando Magic",
+            "entity_class": "Basketball Team",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 7945,
+            "entity_label": "Blondie",
+            "entity_class": "Band",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 7866,
+            "entity_label": "Dennis Quaid",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 2484,
+            "entity_label": "No Doubt",
+            "entity_class": "Musical Group",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 9960,
+            "entity_label": "Assam",
+            "entity_class": "Place",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 4792,
+            "entity_label": "Marlon Wayans",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 8600,
+            "entity_label": "Yekaterinburg",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 7263,
+            "entity_label": "Stephen Merchant",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 7627,
+            "entity_label": "Rodney Jerkins",
+            "entity_class": "Musician",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 8341,
+            "entity_label": "Prakash Raj",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 8280,
+            "entity_label": "Party Game",
+            "entity_class": "Video Game",
+            "score": 6.918865,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 6,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 2654,
+            "entity_label": "Tom Jones",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 12118,
+            "entity_label": "The Fisher King",
+            "entity_class": "Movie",
+            "score": 6.687639,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 5,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 7760,
+            "entity_label": "Sydney Pollack",
+            "entity_class": "Director",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 4515,
+            "entity_label": "Leonard Goldberg",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 829,
+            "entity_label": "Sridevi",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 12233,
+            "entity_label": "Suffolk County",
+            "entity_class": "County",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 1681,
+            "entity_label": "Supersport United F.c.",
+            "entity_class": "Sports Team",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "3770": 1,
+        "13454": 2,
+        "5481": 3,
+        "7945": 4,
+        "7866": 5,
+        "2484": 6,
+        "9960": 7,
+        "4792": 8,
+        "8600": 9,
+        "7263": 10,
+        "7627": 11,
+        "8341": 12,
+        "8280": 13,
+        "2654": 14,
+        "12118": 15,
+        "7760": 16,
+        "4515": 17,
+        "829": 18,
+        "12233": 19,
+        "1681": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Fox News, relation=hasWinner, tail=?)\n\nOntology summary:\n- Query relation: hasWinner\n- Head entity: Fox News\n- Head class: News Organization\n- Relation domain: Award\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=28, edges=49, paths=20\n- Head outgoing edges under target relation hasWinner: 10\n- Key support nodes: Fox News, Party Game, Yekaterinburg, The Fisher King, John Patrick Shanley, Old-time Music, Blondie, Supersport United F.c.\n- Main auxiliary relations: hasLocalTuitionCurrency(15), capital(12), hasInternationalTuitionCurrency(7)\n\nFrequent relation path patterns:\n- hasWinner (count=10)\n- hasWinner -> capital -> hasLocalTuitionCurrency (count=10)\n\nCandidates:\n1. J. J. Abrams [id=3770 | class=Director | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n2. Old-time Music [id=13454 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Orlando Magic [id=5481 | class=Basketball Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Blondie [id=7945 | class=Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Dennis Quaid [id=7866 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. No Doubt [id=2484 | class=Musical Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Assam [id=9960 | class=Place | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Marlon Wayans [id=4792 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n9. Yekaterinburg [id=8600 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Stephen Merchant [id=7263 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Rodney Jerkins [id=7627 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Prakash Raj [id=8341 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Party Game [id=8280 | class=Video Game | type=0 | soft_type=0 | direct=1 | paths=6 | aux=0 | key=1]\n14. Tom Jones [id=2654 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. The Fisher King [id=12118 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=5 | aux=0 | key=1]\n16. Sydney Pollack [id=7760 | class=Director | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Leonard Goldberg [id=4515 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Sridevi [id=829 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Suffolk County [id=12233 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Supersport United F.c. [id=1681 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n"
+}

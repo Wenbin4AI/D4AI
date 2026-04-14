@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Rockumentary, relation=hasAppearance, tail=?)
+
+Ontology summary:
+- Query relation: hasAppearance
+- Head entity: Rockumentary
+- Head class: Event
+- Relation domain: Movie
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=38, edges=49, paths=20
+- Head outgoing edges under target relation hasAppearance: 0
+- Key support nodes: Rockumentary, San Diego State Aztecs Football, Orion Pictures, Catherine Tate, Theofanis Gekas, Slovakia, James Hetfield, Hannah Arendt
+- Main auxiliary relations: hasGenre(19), nominatedFor(5), hasWife(5)
+
+Frequent relation path patterns:
+- nominatedFor -> hasGenre (count=16)
+- containsCountry (count=1)
+- hasParticipantCountries (count=1)
+- nominatedFor (count=1)
+- hasParticipantCountries -> hasGenre (count=1)
+
+Candidates:
+1. Buffalo [id=3426 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+2. Orion Pictures [id=8720 | class=Movie Studio | type=0 | soft_type=0 | direct=0 | paths=3 | aux=6 | key=1]
+3. Slovakia [id=607 | class=Country | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]
+4. San Diego State Aztecs Football [id=8429 | class=Football Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=22 | key=1]
+5. Lili Taylor [id=5388 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+6. Irving Thalberg [id=9646 | class=Film Producer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]
+7. Hannah Arendt [id=8123 | class=Philosopher | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]
+8. Color of Night [id=12110 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+9. Kevin Costner [id=2222 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+10. Theofanis Gekas [id=8579 | class=Athlete | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]
+11. Capric Acid [id=10170 | class=Chemical Compound | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+12. James Hetfield [id=11352 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=1]
+13. Catherine Tate [id=7472 | class=Person | type=1 | soft_type=1 | direct=0 | paths=2 | aux=4 | key=1]
+14. Sv Werder Bremen [id=11747 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=4 | key=1]
+15. Sayaji Shinde [id=4754 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]
+16. Tehran [id=4965 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=0]
+17. Samuel Vincent [id=14248 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+18. Dio [id=13295 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+19. Rockumentary [id=12033 | class=Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=5 | key=1]
+20. Mona Marshall [id=12516 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]

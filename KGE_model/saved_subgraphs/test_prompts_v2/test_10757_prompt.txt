@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Steve Gerber, relation=hasAdministrative, tail=?)
+
+Ontology summary:
+- Query relation: hasAdministrative
+- Head entity: Steve Gerber
+- Head class: Person
+- Relation domain: Country
+- Relation range: County
+- Domain check: not clearly matched
+- Tail entities of class 'County' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=44, edges=62, paths=20
+- Head outgoing edges under target relation hasAdministrative: 7
+- Key support nodes: Steve Gerber, Ian James Corlett, Ashford, Glen Cove, Tacoma, The Temptations, Thrash Metal, Ohio State University
+- Main auxiliary relations: adminType(21), hasLocalTuitionCurrency(14), headquarteredIn(4)
+
+Frequent relation path patterns:
+- hasSeason -> hasLocalTuitionCurrency -> hasAdministrative (count=13)
+- hasAdministrative (count=7)
+
+Candidates:
+1. Afc Wimbledon [id=5346 | class=Sportsteam | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Thrash Metal [id=10647 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Udinese Calcio [id=8826 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. The Temptations [id=12310 | class=Music Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Exeter [id=5029 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+6. Orix Buffaloes [id=11636 | class=Baseball Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. University of California, Davis [id=2386 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Sexploitation Film [id=14185 | class=Film Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. 110th United States Congress [id=786 | class=Government Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Seattle [id=4994 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+11. Jared Leto [id=6884 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Greater St. Louis [id=11420 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. Ian James Corlett [id=3406 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=14 | aux=0 | key=1]
+14. Haifa [id=13665 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+15. Glen Cove [id=2900 | class=City | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+16. Caper Story [id=13137 | class=Story | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. South Shields [id=10019 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+18. Pontefract [id=14037 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+19. Ohio State University [id=273 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+20. Tacoma [id=9691 | class=Location | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]

@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 6517,
+        "head_label": "Leighton Meester",
+        "head_class": "Actress",
+        "relation_id": 59,
+        "relation_label": "hasSubject",
+        "gold_tail": 11744,
+        "gold_tail_label": "Otsego County",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 7636,
+            "entity_label": "Apocalypto",
+            "entity_class": "Film",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 13284,
+            "entity_label": "Scottish Labour Party",
+            "entity_class": "Political Party",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 9064,
+            "entity_label": "Stalag 17",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 3667,
+            "entity_label": "Fyvush Finkel",
+            "entity_class": "Person",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 7244,
+            "entity_label": "The Rescuers",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 6087,
+            "entity_label": "Team America: World Police",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 450,
+            "entity_label": "1972 Summer Olympics",
+            "entity_class": "Event",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 4732,
+            "entity_label": "William Shakespeare",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 3796,
+            "entity_label": "Kentucky",
+            "entity_class": "State",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 4835,
+            "entity_label": "Happy-go-lucky",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 4847,
+            "entity_label": "Andy Williams",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 11112,
+            "entity_label": "The Glenn Miller Story",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 12383,
+            "entity_label": "Sire",
+            "entity_class": "Recordlabel",
+            "score": 7.612012,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 6,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 1505,
+            "entity_label": "Family Plot",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 869,
+            "entity_label": "Brian Grazer",
+            "entity_class": "Film Producer",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 9404,
+            "entity_label": "Fred Thompson",
+            "entity_class": "Politician",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 940,
+            "entity_label": "Eva Longoria",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 418,
+            "entity_label": "The Mummy",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 11744,
+            "entity_label": "Otsego County",
+            "entity_class": "County",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 7637,
+            "entity_label": "University of Warwick",
+            "entity_class": "University",
+            "score": 6.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "7636": 1,
+        "13284": 2,
+        "9064": 3,
+        "3667": 4,
+        "7244": 5,
+        "6087": 6,
+        "450": 7,
+        "4732": 8,
+        "3796": 9,
+        "4835": 10,
+        "4847": 11,
+        "11112": 12,
+        "12383": 13,
+        "1505": 14,
+        "869": 15,
+        "9404": 16,
+        "940": 17,
+        "418": 18,
+        "11744": 19,
+        "7637": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Leighton Meester, relation=hasSubject, tail=?)\n\nOntology summary:\n- Query relation: hasSubject\n- Head entity: Leighton Meester\n- Head class: Actress\n- Relation domain: Event\n- Relation range: Movie\n- Domain check: not clearly matched\n- Tail entities of class 'Movie' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=40, edges=50, paths=20\n- Head outgoing edges under target relation hasSubject: 12\n- Key support nodes: Leighton Meester, Sire, University of Warwick, North Carolina State University, Scottish Labour Party, Indie Rock, Brian Grazer, Fyvush Finkel\n- Main auxiliary relations: hasAward(5), hasCapital(5), hasNetflixGenreTitle(3)\n\nFrequent relation path patterns:\n- hasSubject (count=12)\n- hasCapital -> hasSubject (count=8)\n\nCandidates:\n1. Apocalypto [id=7636 | class=Film | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n2. Scottish Labour Party [id=13284 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n3. Stalag 17 [id=9064 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Fyvush Finkel [id=3667 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n5. The Rescuers [id=7244 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Team America: World Police [id=6087 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. 1972 Summer Olympics [id=450 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. William Shakespeare [id=4732 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Kentucky [id=3796 | class=State | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Happy-go-lucky [id=4835 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Andy Williams [id=4847 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. The Glenn Miller Story [id=11112 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Sire [id=12383 | class=Recordlabel | type=0 | soft_type=0 | direct=1 | paths=6 | aux=1 | key=1]\n14. Family Plot [id=1505 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Brian Grazer [id=869 | class=Film Producer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n16. Fred Thompson [id=9404 | class=Politician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Eva Longoria [id=940 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. The Mummy [id=418 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Otsego County [id=11744 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. University of Warwick [id=7637 | class=University | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n"
+}

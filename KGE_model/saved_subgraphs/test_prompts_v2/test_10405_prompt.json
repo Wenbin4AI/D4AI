@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 7603,
+        "head_label": "58th Academy Awards",
+        "head_class": "Event",
+        "relation_id": 39,
+        "relation_label": "placeOfDeath",
+        "gold_tail": 872,
+        "gold_tail_label": "Brandeis University",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 2102,
+            "entity_label": "University of Toronto",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 2860,
+            "entity_label": "Kuala Lumpur",
+            "entity_class": "City",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 11699,
+            "entity_label": "Teton County",
+            "entity_class": "Administrative Region",
+            "score": 1.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 3029,
+            "entity_label": "Western Front of World War I",
+            "entity_class": "Historical Event",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 2960,
+            "entity_label": "National Society of Film Critics Award for Best Actor",
+            "entity_class": "Award",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 13389,
+            "entity_label": "Construction",
+            "entity_class": "Industry",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 3722,
+            "entity_label": "Boulder",
+            "entity_class": "Location",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 13646,
+            "entity_label": "Arbroath F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 8682,
+            "entity_label": "Adelaide",
+            "entity_class": "City",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 11033,
+            "entity_label": "Finance Minister",
+            "entity_class": "Position",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 12079,
+            "entity_label": "Red Army",
+            "entity_class": "Military Organization",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 10486,
+            "entity_label": "Crazy, Stupid, Love.",
+            "entity_class": "Movie",
+            "score": 3.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 11985,
+            "entity_label": "Hemel Hempstead",
+            "entity_class": "City",
+            "score": 8.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 9609,
+            "entity_label": "Angelo Badalamenti",
+            "entity_class": "Composer",
+            "score": 3.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 3065,
+            "entity_label": "James Brown",
+            "entity_class": "Musician",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 13553,
+            "entity_label": "Newcastle",
+            "entity_class": "Location",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 7572,
+            "entity_label": "Toledo",
+            "entity_class": "City",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 6089,
+            "entity_label": "Thousand Oaks",
+            "entity_class": "City",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 872,
+            "entity_label": "Brandeis University",
+            "entity_class": "University",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 3617,
+            "entity_label": "Out of Africa",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "2102": 1,
+        "2860": 2,
+        "11699": 3,
+        "3029": 4,
+        "2960": 5,
+        "13389": 6,
+        "3722": 7,
+        "13646": 8,
+        "8682": 9,
+        "11033": 10,
+        "12079": 11,
+        "10486": 12,
+        "11985": 13,
+        "9609": 14,
+        "3065": 15,
+        "13553": 16,
+        "7572": 17,
+        "6089": 18,
+        "872": 19,
+        "3617": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=58th Academy Awards, relation=placeOfDeath, tail=?)\n\nOntology summary:\n- Query relation: placeOfDeath\n- Head entity: 58th Academy Awards\n- Head class: Event\n- Relation domain: Person\n- Relation range: City\n- Domain check: not clearly matched\n- Tail entities of class 'City' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=35, edges=46, paths=20\n- Head outgoing edges under target relation placeOfDeath: 6\n- Key support nodes: 58th Academy Awards, Yash Chopra, James Brown, Western Front of World War I, Crazy, Stupid, Love., Angelo Badalamenti, Out of Africa, Finance Minister\n- Main auxiliary relations: hasWinner(12), hasAthlete(4), hasNotablePeople(4)\n\nFrequent relation path patterns:\n- placeOfDeath -> hasAthlete -> hasWinner (count=14)\n- placeOfDeath (count=6)\n\nCandidates:\n1. University of Toronto [id=2102 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Kuala Lumpur [id=2860 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Teton County [id=11699 | class=Administrative Region | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]\n4. Western Front of World War I [id=3029 | class=Historical Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. National Society of Film Critics Award for Best Actor [id=2960 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n6. Construction [id=13389 | class=Industry | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n7. Boulder [id=3722 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Arbroath F.c. [id=13646 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Adelaide [id=8682 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Finance Minister [id=11033 | class=Position | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n11. Red Army [id=12079 | class=Military Organization | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n12. Crazy, Stupid, Love. [id=10486 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n13. Hemel Hempstead [id=11985 | class=City | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n14. Angelo Badalamenti [id=9609 | class=Composer | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n15. James Brown [id=3065 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n16. Newcastle [id=13553 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Toledo [id=7572 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Thousand Oaks [id=6089 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Brandeis University [id=872 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Out of Africa [id=3617 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Houston Aeros, relation=hasCinematographer, tail=?)
+
+Ontology summary:
+- Query relation: hasCinematographer
+- Head entity: Houston Aeros
+- Head class: Ice Hockey Team
+- Relation domain: Movie
+- Relation range: Cinematographer
+- Domain check: not clearly matched
+- Tail entities of class 'Cinematographer' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=34, edges=50, paths=20
+- Head outgoing edges under target relation hasCinematographer: 3
+- Key support nodes: Houston Aeros, Kathy Bates, Franco Zeffirelli, Tyrone Power, Communist Party of the Soviet Union, University of Tehran, University of Michigan, Karachi
+- Main auxiliary relations: hasNationality(12), hasColors(5), hasPhoneNumber(3)
+
+Frequent relation path patterns:
+- hasPerformanceType -> hasNationality -> hasCinematographer (count=10)
+- hasColors -> hasCinematographer (count=4)
+- hasCinematographer (count=3)
+- hasPerformanceType (count=1)
+- hasPrequel (count=1)
+
+Candidates:
+1. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Lili Taylor [id=5388 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+3. Polk County [id=7063 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. County Galway [id=11687 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+5. Kristin Scott Thomas [id=6765 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+6. Superhero [id=11118 | class=Character Type | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+7. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Darryl F. Zanuck [id=1114 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+10. Natchitoches [id=4743 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+11. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Macaulay Culkin [id=11568 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. Franco Zeffirelli [id=1538 | class=Director | type=0 | soft_type=1 | direct=1 | paths=7 | aux=0 | key=1]
+14. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+15. Communist Party of the Soviet Union [id=13809 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+16. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Dermot Mulroney [id=5604 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+18. Dio [id=13295 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+19. Tyrone Power [id=8619 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=6 | aux=0 | key=1]
+20. University of Michigan [id=1480 | class=University | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]

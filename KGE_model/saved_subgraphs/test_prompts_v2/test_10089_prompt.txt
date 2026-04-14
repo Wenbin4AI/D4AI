@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Claudia Schiffer, relation=hasEndowmentCurrency, tail=?)
+
+Ontology summary:
+- Query relation: hasEndowmentCurrency
+- Head entity: Claudia Schiffer
+- Head class: Model
+- Relation domain: University
+- Relation range: Currency
+- Domain check: not clearly matched
+- Tail entities of class 'Currency' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=46, edges=49, paths=20
+- Head outgoing edges under target relation hasEndowmentCurrency: 21
+- Key support nodes: Claudia Schiffer, Henrico County, Matt Groening, Dundee United F.c., Hundred Years' War, 2003 Nba Draft, Virginia Commonwealth University, Space Rock
+- Main auxiliary relations: hasRosterPosition(5), hasMember(3), hasHeadquartersLocation(3)
+
+Frequent relation path patterns:
+- hasEndowmentCurrency (count=20)
+
+Candidates:
+1. Fc Akhmat Grozny [id=11299 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. 2003 Nba Draft [id=2337 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. The Cassandra Crossing [id=8196 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Hundred Years' War [id=10900 | class=War | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Richard Schiff [id=665 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Barcelona Province [id=3197 | class=Geographic Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Teletoon [id=6520 | class=Tv Network | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. David Kreizman [id=10092 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Virginia Commonwealth University [id=9822 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Roger Savage [id=3315 | class=Sound Mixer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. 85th Academy Awards [id=8126 | class=Award Ceremony | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Picture Book [id=14040 | class=Book | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Henrico County [id=13723 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. National Security [id=2093 | class=Concept | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Matt Groening [id=7820 | class=Cartoonist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Alyson Hannigan [id=2328 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Space Rock [id=2566 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Chicago Film Critics Association Award for Best Actor [id=2303 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Anthony Quinn [id=1949 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Dundee United F.c. [id=8416 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

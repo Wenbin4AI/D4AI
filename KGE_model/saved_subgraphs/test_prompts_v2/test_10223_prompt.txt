@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Raiders of the Lost Ark, relation=hasDraftPickFromSchool, tail=?)
+
+Ontology summary:
+- Query relation: hasDraftPickFromSchool
+- Head entity: Raiders of the Lost Ark
+- Head class: Film
+- Relation domain: Event
+- Relation range: University
+- Domain check: not clearly matched
+- Tail entities of class 'University' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=20, edges=37, paths=20
+- Head outgoing edges under target relation hasDraftPickFromSchool: 1
+- Key support nodes: Raiders of the Lost Ark, David Henrie, Pontefract, Tuscaloosa, Bleak House, Chris Botti, Seattle, Cass County
+- Main auxiliary relations: hasGenre(10), nominatedFor(3), isRecurringEvent(3)
+
+Frequent relation path patterns:
+- hasGenre -> hasDraftPickFromSchool (count=7)
+- hasGenre -> hasDraftPickFromSchool -> hasBorder (count=6)
+- hasGenre -> nominatedFor (count=3)
+- hasDraftPickFromSchool (count=1)
+- speak -> hasDraftPickFromSchool (count=1)
+
+Candidates:
+1. Bee Gees [id=7797 | class=Music Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]
+3. Sofia [id=10729 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Occidental College [id=8284 | class=University | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+5. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+6. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Dermot Mulroney [id=5604 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Monty Python [id=12176 | class=Organization | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+10. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Lili Taylor [id=5388 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+13. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=7 | aux=1 | key=1]
+14. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+15. Carleton University [id=13387 | class=University | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+16. Denise Richards [id=2788 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Fc Zorya Luhansk [id=11155 | class=Organization | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+18. Kristin Scott Thomas [id=6765 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+19. David Henrie [id=9995 | class=Person | type=0 | soft_type=0 | direct=1 | paths=9 | aux=1 | key=1]
+20. California State University, Northridge [id=8082 | class=University | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]

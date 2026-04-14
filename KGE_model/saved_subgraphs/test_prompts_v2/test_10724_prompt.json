@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 9203,
+        "head_label": "Young Frankenstein",
+        "head_class": "Film",
+        "relation_id": 233,
+        "relation_label": "hasArtist",
+        "gold_tail": 1214,
+        "gold_tail_label": "Modesto",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 1.098612,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 2,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 6686,
+            "entity_label": "Decatur",
+            "entity_class": "City",
+            "score": 3.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 4513,
+            "entity_label": "Cameron Diaz",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 12737,
+            "entity_label": "Ali",
+            "entity_class": "Person",
+            "score": 4.232868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 13630,
+            "entity_label": "University of Chicago Law School",
+            "entity_class": "Law School",
+            "score": 2.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 4573,
+            "entity_label": "Nsync",
+            "entity_class": "Music Group",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 7799,
+            "entity_label": "Igor Stravinsky",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 11075,
+            "entity_label": "Daniel Haller",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 2506,
+            "entity_label": "Wayne Shorter",
+            "entity_class": "Musician",
+            "score": 3.232868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 4065,
+            "entity_label": "Brian Baumgartner",
+            "entity_class": "Actor",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8356,
+            "entity_label": "Funkadelic",
+            "entity_class": "Music Group",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 6224,
+            "entity_label": "Ricardo Fuller",
+            "entity_class": "Athlete",
+            "score": 2.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 512,
+            "entity_label": "Daniel Inouye",
+            "entity_class": "Person",
+            "score": 8.418865,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 6,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 14205,
+            "entity_label": "Art Dealer",
+            "entity_class": "Profession",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 8641,
+            "entity_label": "Jon Stone",
+            "entity_class": "Journalist",
+            "score": 6.985631,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 6,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 4498,
+            "entity_label": "Danny Glover",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 8027,
+            "entity_label": "Al Jourgensen",
+            "entity_class": "Musician",
+            "score": 3.232868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 1632,
+            "entity_label": "San Pedro",
+            "entity_class": "City",
+            "score": 3.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 1214,
+            "entity_label": "Modesto",
+            "entity_class": "City",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 5379,
+            "entity_label": "Michael Semanick",
+            "entity_class": "Sound Editor",
+            "score": 6.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "14037": 1,
+        "6686": 2,
+        "4513": 3,
+        "12737": 4,
+        "13630": 5,
+        "4573": 6,
+        "7799": 7,
+        "11075": 8,
+        "2506": 9,
+        "4065": 10,
+        "8356": 11,
+        "6224": 12,
+        "512": 13,
+        "14205": 14,
+        "8641": 15,
+        "4498": 16,
+        "8027": 17,
+        "1632": 18,
+        "1214": 19,
+        "5379": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Young Frankenstein, relation=hasArtist, tail=?)\n\nOntology summary:\n- Query relation: hasArtist\n- Head entity: Young Frankenstein\n- Head class: Film\n- Relation domain: Radio Station\n- Relation range: Band\n- Domain check: not clearly matched\n- Tail entities of class 'Band' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=50, edges=57, paths=20\n- Head outgoing edges under target relation hasArtist: 4\n- Key support nodes: Young Frankenstein, Jon Stone, Daniel Inouye, Michael Semanick, Decatur, Modesto, University of Chicago Law School, San Pedro\n- Main auxiliary relations: foundIn(10), hasReleaseMedium(7), hasImpersonatedCelebrities(6)\n\nFrequent relation path patterns:\n- hasArtist -> foundIn -> hasArtist (count=7)\n- hasArtist -> hasReleaseMedium (count=5)\n- hasArtist (count=4)\n- hasArtist -> hasFeaturedFilmLocations (count=2)\n- hasArtist -> hasImpersonatedCelebrities (count=2)\n\nCandidates:\n1. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=0]\n2. Decatur [id=6686 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n3. Cameron Diaz [id=4513 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Ali [id=12737 | class=Person | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=1]\n5. University of Chicago Law School [id=13630 | class=Law School | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n6. Nsync [id=4573 | class=Music Group | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Igor Stravinsky [id=7799 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Daniel Haller [id=11075 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n9. Wayne Shorter [id=2506 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]\n10. Brian Baumgartner [id=4065 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n11. Funkadelic [id=8356 | class=Music Group | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Ricardo Fuller [id=6224 | class=Athlete | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n13. Daniel Inouye [id=512 | class=Person | type=0 | soft_type=1 | direct=1 | paths=6 | aux=0 | key=1]\n14. Art Dealer [id=14205 | class=Profession | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n15. Jon Stone [id=8641 | class=Journalist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=6 | key=1]\n16. Danny Glover [id=4498 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Al Jourgensen [id=8027 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]\n18. San Pedro [id=1632 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n19. Modesto [id=1214 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n20. Michael Semanick [id=5379 | class=Sound Editor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n"
+}

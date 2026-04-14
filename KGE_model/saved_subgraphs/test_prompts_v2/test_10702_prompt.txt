@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Boom Operator, relation=producedPrograms, tail=?)
+
+Ontology summary:
+- Query relation: producedPrograms
+- Head entity: Boom Operator
+- Head class: Profession
+- Relation domain: Person
+- Relation range: Profession
+- Domain check: not clearly matched
+- Tail entities of class 'Profession' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=44, edges=49, paths=20
+- Head outgoing edges under target relation producedPrograms: 22
+- Key support nodes: Boom Operator, Ohio Wesleyan University, Field Hockey, Rakhee Gulzar, Rosemary's Baby, Julie Benz, Noel Gallagher, Douglas Haig, 1st Earl Haig
+- Main auxiliary relations: editedBy(5), hasNetflixGenreTitle(4), hasAward(3)
+
+Frequent relation path patterns:
+- producedPrograms (count=20)
+
+Candidates:
+1. Methodism [id=1424 | class=Religion | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Julie Benz [id=7087 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Ryuichi Sakamoto [id=2082 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Rosemary's Baby [id=9490 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Sherlock [id=9952 | class=Character | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Shohei Imamura [id=5049 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Allentown [id=696 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Bobby Deol [id=1723 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Noel Gallagher [id=5596 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Lawrence [id=11228 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. The Conversation [id=1833 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. The Quiet American [id=5192 | class=Book | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Ohio Wesleyan University [id=12865 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. Gena Rowlands [id=11294 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Field Hockey [id=6661 | class=Sport | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. University of Alabama at Birmingham [id=1637 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Douglas Haig, 1st Earl Haig [id=13006 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Train [id=4005 | class=Vehicle | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Jet Li [id=7330 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Rakhee Gulzar [id=8623 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

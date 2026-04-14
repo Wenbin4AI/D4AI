@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 6098,
+        "head_label": "In the Mood for Love",
+        "head_class": "Film",
+        "relation_id": 58,
+        "relation_label": "hasBorder",
+        "gold_tail": 14037,
+        "gold_tail_label": "Pontefract",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 10052,
+            "entity_label": "Ebbsfleet United F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 10086,
+            "entity_label": "Insurgency in Khyber Pakhtunkhwa",
+            "entity_class": "Insurgency",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 8761,
+            "entity_label": "Hammersmith",
+            "entity_class": "Location",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 11345,
+            "entity_label": "Delta Blues",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 2223,
+            "entity_label": "William Travilla",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 1855,
+            "entity_label": "Orry-kelly",
+            "entity_class": "Costume Designer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 1990,
+            "entity_label": "Academy Award for Best Visual Effects",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 13665,
+            "entity_label": "Haifa",
+            "entity_class": "City",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 5604,
+            "entity_label": "Dermot Mulroney",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 3056,
+            "entity_label": "Ryan Phillippe",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 8982,
+            "entity_label": "Maaya Sakamoto",
+            "entity_class": "Voice Actress and Singer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 9631,
+            "entity_label": "Oneida County",
+            "entity_class": "County",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 12176,
+            "entity_label": "Monty Python",
+            "entity_class": "Organization",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 9448,
+            "entity_label": "Costa Rica",
+            "entity_class": "Country",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 4810,
+            "entity_label": "Danubio F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 10729,
+            "entity_label": "Sofia",
+            "entity_class": "City",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 5245,
+            "entity_label": "Miniseries",
+            "entity_class": "Tv Format",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 10.066784,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 20,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 5029,
+            "entity_label": "Exeter",
+            "entity_class": "City",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "10052": 1,
+        "4994": 2,
+        "10086": 3,
+        "8761": 4,
+        "11345": 5,
+        "2223": 6,
+        "1855": 7,
+        "1990": 8,
+        "13665": 9,
+        "5604": 10,
+        "3056": 11,
+        "8982": 12,
+        "9631": 13,
+        "12176": 14,
+        "9448": 15,
+        "4810": 16,
+        "10729": 17,
+        "5245": 18,
+        "14037": 19,
+        "5029": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=In the Mood for Love, relation=hasBorder, tail=?)\n\nOntology summary:\n- Query relation: hasBorder\n- Head entity: In the Mood for Love\n- Head class: Film\n- Relation domain: County\n- Relation range: County\n- Domain check: not clearly matched\n- Tail entities of class 'County' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=28, edges=56, paths=20\n- Head outgoing edges under target relation hasBorder: 1\n- Key support nodes: In the Mood for Love, Pontefract, The Spy Who Loved Me, Yarrow Shipbuilders Limited, James Blunt, Norman, Godzilla, Epitaph Records\n- Main auxiliary relations: hasGenre(15), hasMember(4), hasParticipantCountries(2)\n\nFrequent relation path patterns:\n- hasGovernmentType -> hasGenre -> hasBorder (count=14)\n- hasBorder (count=1)\n- hasCreator -> hasBorder (count=1)\n- hasGovernmentType -> hasBorder (count=1)\n- hasGovernmentType -> hasLegislativeSession -> hasBorder (count=1)\n\nCandidates:\n1. Ebbsfleet United F.c. [id=10052 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Seattle [id=4994 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Insurgency in Khyber Pakhtunkhwa [id=10086 | class=Insurgency | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Hammersmith [id=8761 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. William Travilla [id=2223 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Orry-kelly [id=1855 | class=Costume Designer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Academy Award for Best Visual Effects [id=1990 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Haifa [id=13665 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Dermot Mulroney [id=5604 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Ryan Phillippe [id=3056 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Oneida County [id=9631 | class=County | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n14. Monty Python [id=12176 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Costa Rica [id=9448 | class=Country | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n16. Danubio F.c. [id=4810 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Sofia [id=10729 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Pontefract [id=14037 | class=City | type=0 | soft_type=1 | direct=1 | paths=20 | aux=0 | key=1]\n20. Exeter [id=5029 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n"
+}

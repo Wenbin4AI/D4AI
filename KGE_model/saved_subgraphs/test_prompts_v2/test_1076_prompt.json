@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 989,
+        "head_label": "The Whistleblower",
+        "head_class": "Film",
+        "relation_id": 215,
+        "relation_label": "hasImpersonatedCelebrities",
+        "gold_tail": 4829,
+        "gold_tail_label": "Ella Fitzgerald",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 3047,
+            "entity_label": "Edmonton Oilers",
+            "entity_class": "Sports Team",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 4945,
+            "entity_label": "Bruce Campbell",
+            "entity_class": "Actor",
+            "score": 6.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 9160,
+            "entity_label": "Bedtime Stories",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 2725,
+            "entity_label": "Patrick Warburton",
+            "entity_class": "Actor",
+            "score": 7.232868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 10009,
+            "entity_label": "28th United States Congress",
+            "entity_class": "Governmental Body",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 7577,
+            "entity_label": "Sideways",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 3937,
+            "entity_label": "Stargate",
+            "entity_class": "Movie/franchise",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 14501,
+            "entity_label": "House of Plantagenet",
+            "entity_class": "Royal House",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 2660,
+            "entity_label": "Backing Vocalist",
+            "entity_class": "Musician",
+            "score": 5.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 493,
+            "entity_label": "Seinfeld",
+            "entity_class": "Tv Series",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 10590,
+            "entity_label": "The Rocky Horror Picture Show",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 5261,
+            "entity_label": "The Invention of Lying",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 2576,
+            "entity_label": "Carrie-anne Moss",
+            "entity_class": "Person",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 6496,
+            "entity_label": "Fresno County",
+            "entity_class": "County",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 7848,
+            "entity_label": "Daniel Barenboim",
+            "entity_class": "Person",
+            "score": 8.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 2578,
+            "entity_label": "Golden State Warriors",
+            "entity_class": "Sports Team",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 1162,
+            "entity_label": "Archery",
+            "entity_class": "Sport",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 13068,
+            "entity_label": "Split",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 4829,
+            "entity_label": "Ella Fitzgerald",
+            "entity_class": "Person",
+            "score": 8.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 6354,
+            "entity_label": "David Denman",
+            "entity_class": "Actor",
+            "score": 7.232868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "3047": 1,
+        "4945": 2,
+        "9160": 3,
+        "2725": 4,
+        "10009": 5,
+        "7577": 6,
+        "3937": 7,
+        "14501": 8,
+        "2660": 9,
+        "493": 10,
+        "10590": 11,
+        "5261": 12,
+        "2576": 13,
+        "6496": 14,
+        "7848": 15,
+        "2578": 16,
+        "1162": 17,
+        "13068": 18,
+        "4829": 19,
+        "6354": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=The Whistleblower, relation=hasImpersonatedCelebrities, tail=?)\n\nOntology summary:\n- Query relation: hasImpersonatedCelebrities\n- Head entity: The Whistleblower\n- Head class: Film\n- Relation domain: Actor\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=48, edges=49, paths=20\n- Head outgoing edges under target relation hasImpersonatedCelebrities: 20\n- Key support nodes: The Whistleblower, Archery, Bruce Campbell, Split, 28th United States Congress, The Invention of Lying, Fresno County, David Denman\n- Main auxiliary relations: hasReligion(7), hasRegularPerformanceRole(3), hasAthlete(3)\n\nFrequent relation path patterns:\n- hasImpersonatedCelebrities (count=20)\n\nCandidates:\n1. Edmonton Oilers [id=3047 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Bruce Campbell [id=4945 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n3. Bedtime Stories [id=9160 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Patrick Warburton [id=2725 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=1 | key=1]\n5. 28th United States Congress [id=10009 | class=Governmental Body | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Sideways [id=7577 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Stargate [id=3937 | class=Movie/franchise | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. House of Plantagenet [id=14501 | class=Royal House | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Backing Vocalist [id=2660 | class=Musician | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n10. Seinfeld [id=493 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. The Rocky Horror Picture Show [id=10590 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. The Invention of Lying [id=5261 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. Carrie-anne Moss [id=2576 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n14. Fresno County [id=6496 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n15. Daniel Barenboim [id=7848 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n16. Golden State Warriors [id=2578 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Archery [id=1162 | class=Sport | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Split [id=13068 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Ella Fitzgerald [id=4829 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n20. David Denman [id=6354 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=1 | key=1]\n"
+}

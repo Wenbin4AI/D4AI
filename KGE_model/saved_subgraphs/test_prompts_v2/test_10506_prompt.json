@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 846,
+        "head_label": "Sicko",
+        "head_class": "Film",
+        "relation_id": 205,
+        "relation_label": "hasAdministrativeDivision",
+        "gold_tail": 11342,
+        "gold_tail_label": "Irwin Allen",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 2899,
+            "entity_label": "Acclaim Entertainment",
+            "entity_class": "Company",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 14507,
+            "entity_label": "Governor of Massachusetts",
+            "entity_class": "Job Title",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 3675,
+            "entity_label": "Paul Feig",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 14225,
+            "entity_label": "Underground Hip Hop",
+            "entity_class": "Music Style",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 1511,
+            "entity_label": "Don Carmody",
+            "entity_class": "Film Producer",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 9863,
+            "entity_label": "Jethro Tull",
+            "entity_class": "Musical Group",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 2717,
+            "entity_label": "I Love You Phillip Morris",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 3942,
+            "entity_label": "Pittsburgh Pirates",
+            "entity_class": "Sports Team",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 5507,
+            "entity_label": "Curse of the Golden Flower",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 11382,
+            "entity_label": "British Indian",
+            "entity_class": "Ethnicity",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 12396,
+            "entity_label": "Joan of Arc",
+            "entity_class": "Saint",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 3229,
+            "entity_label": "Channel 4",
+            "entity_class": "Tv Network",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 13850,
+            "entity_label": "Greater Boston",
+            "entity_class": "Region",
+            "score": 5.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 13637,
+            "entity_label": "Paul Frees",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 11384,
+            "entity_label": "Sm Town",
+            "entity_class": "Entertainment Company",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 4282,
+            "entity_label": "Indiana Jones and the Kingdom of the Crystal Skull",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 822,
+            "entity_label": "Washington County",
+            "entity_class": "County",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 171,
+            "entity_label": "Cancer",
+            "entity_class": "Disease",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 11342,
+            "entity_label": "Irwin Allen",
+            "entity_class": "Director",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 4150,
+            "entity_label": "Larry Niven",
+            "entity_class": "Author",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "2899": 1,
+        "14507": 2,
+        "3675": 3,
+        "14225": 4,
+        "1511": 5,
+        "9863": 6,
+        "2717": 7,
+        "3942": 8,
+        "5507": 9,
+        "11382": 10,
+        "12396": 11,
+        "3229": 12,
+        "13850": 13,
+        "13637": 14,
+        "11384": 15,
+        "4282": 16,
+        "822": 17,
+        "171": 18,
+        "11342": 19,
+        "4150": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Sicko, relation=hasAdministrativeDivision, tail=?)\n\nOntology summary:\n- Query relation: hasAdministrativeDivision\n- Head entity: Sicko\n- Head class: Film\n- Relation domain: State\n- Relation range: Country\n- Domain check: not clearly matched\n- Tail entities of class 'Country' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=41, edges=49, paths=20\n- Head outgoing edges under target relation hasAdministrativeDivision: 22\n- Key support nodes: Sicko, Sm Town, Larry Niven, Underground Hip Hop, Governor of Massachusetts, Curse of the Golden Flower, Washington County, Cancer\n- Main auxiliary relations: hasGovernmentType(5), hasInstrumentalist(4), hasCreator(4)\n\nFrequent relation path patterns:\n- hasAdministrativeDivision (count=20)\n\nCandidates:\n1. Acclaim Entertainment [id=2899 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Governor of Massachusetts [id=14507 | class=Job Title | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Paul Feig [id=3675 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Underground Hip Hop [id=14225 | class=Music Style | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Don Carmody [id=1511 | class=Film Producer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Jethro Tull [id=9863 | class=Musical Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. I Love You Phillip Morris [id=2717 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Pittsburgh Pirates [id=3942 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Curse of the Golden Flower [id=5507 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. British Indian [id=11382 | class=Ethnicity | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Joan of Arc [id=12396 | class=Saint | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Channel 4 [id=3229 | class=Tv Network | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. Greater Boston [id=13850 | class=Region | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n14. Paul Frees [id=13637 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Sm Town [id=11384 | class=Entertainment Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Indiana Jones and the Kingdom of the Crystal Skull [id=4282 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Washington County [id=822 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Cancer [id=171 | class=Disease | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Irwin Allen [id=11342 | class=Director | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Larry Niven [id=4150 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

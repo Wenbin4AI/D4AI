@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Robert Forster, relation=hasReligion, tail=?)
+
+Ontology summary:
+- Query relation: hasReligion
+- Head entity: Robert Forster
+- Head class: Person
+- Relation domain: Person
+- Relation range: Religion
+- Domain check: matched
+- Tail entities of class 'Religion' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=40, edges=49, paths=20
+- Head outgoing edges under target relation hasReligion: 15
+- Key support nodes: Robert Forster, Chinese Civil War, Troy, James E. Reilly, Comedy Television Program, Teletoon, Wwe, Daegu
+- Main auxiliary relations: performedBy(8), livingIn(5), hasCounty(5)
+
+Frequent relation path patterns:
+- hasReligion (count=15)
+- hasReligion -> livingIn (count=5)
+
+Candidates:
+1. 2000 Major League Baseball Season [id=9735 | class=Sports Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Comedy Television Program [id=13375 | class=Television Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+3. Texas A&m University [id=6055 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Daegu [id=13145 | class=City | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]
+5. Philadelphia Union [id=13697 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Paul Dini [id=5556 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Frederick [id=10485 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+8. Afc Bournemouth [id=3606 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. James E. Reilly [id=3253 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+10. North Rhine-westphalia [id=7653 | class=State | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. George Frideric Handel [id=5327 | class=Composer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Coach Carter [id=6221 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Chinese Civil War [id=9070 | class=War | type=0 | soft_type=0 | direct=1 | paths=2 | aux=3 | key=1]
+14. Hollywood Records [id=12184 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Troy [id=3714 | class=City | type=0 | soft_type=0 | direct=1 | paths=2 | aux=2 | key=1]
+16. Dream Pop [id=10959 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Wwe [id=13617 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+18. The Lost World: Jurassic Park [id=8116 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. The French Connection [id=7431 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Teletoon [id=6520 | class=Tv Network | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]

@@ -1,0 +1,62 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Pearl Harbor, relation=hasAthlete, tail=?)
+
+Ontology summary:
+- Query relation: hasAthlete
+- Head entity: Pearl Harbor
+- Head class: Event
+- Relation domain: Sport
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=42, edges=47, paths=20
+- Head outgoing edges under target relation hasAthlete: 2
+- Key support nodes: Pearl Harbor, Middlesex County, Michelangelo, Cool Jazz, Matthew Mcconaughey, Cincinnati, Timmins, Foreigner
+- Main auxiliary relations: hasEndowmentCurrency(10), hasWinner(5), hasImpersonatedCelebrities(3)
+
+Frequent relation path patterns:
+- hasImpersonatedCelebrities -> hasAthlete (count=12)
+- hasReleaseMedium -> hasAthlete (count=6)
+- hasAthlete (count=2)
+
+Candidates:
+1. Vladimir Lenin [id=3090 | class=Politician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Kevin Betsy [id=3906 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+3. Fish Tank [id=1045 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+4. William Lava [id=13292 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+5. Kingdom of Italy [id=3653 | class=Country | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+6. Inverness Caledonian Thistle F.c. [id=5574 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+7. The Iron Lady [id=1598 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+8. Unknown [id=12938 | class=Unknown | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Timmins [id=12881 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+10. The Chronicles of Narnia: the Voyage of the Dawn Treader [id=6546 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+11. Calendar Girls [id=3762 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Michael Gambon [id=1536 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. Cool Jazz [id=13081 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=4 | aux=0 | key=1]
+14. Media [id=2050 | class=Media | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+15. Cliff Richard [id=11159 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]
+16. W. H. Auden [id=8657 | class=Poet | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+17. Foreigner [id=12527 | class=Band | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+18. Club Universitario De Deportes [id=9230 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+19. Matthew Mcconaughey [id=4133 | class=Person | type=1 | soft_type=1 | direct=1 | paths=4 | aux=0 | key=1]
+20. Nick Mason [id=3017 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]

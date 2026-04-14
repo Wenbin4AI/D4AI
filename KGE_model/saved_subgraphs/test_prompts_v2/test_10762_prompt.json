@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 7065,
+        "head_label": "John Denver",
+        "head_class": "Singer-songwriter",
+        "relation_id": 179,
+        "relation_label": "hasGovernmentPosition",
+        "gold_tail": 8366,
+        "gold_tail_label": "Wandsworth",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 12922,
+            "entity_label": "Fort Smith",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 8877,
+            "entity_label": "Chief Administrative Officer",
+            "entity_class": "Occupation",
+            "score": 5.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 6309,
+            "entity_label": "The Stepford Wives",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 1694,
+            "entity_label": "Ontario",
+            "entity_class": "State",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 12828,
+            "entity_label": "Marion County",
+            "entity_class": "County",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 5749,
+            "entity_label": "Burt Bacharach",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 5099,
+            "entity_label": "The Haunting",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 14447,
+            "entity_label": "West Norwood Cemetery",
+            "entity_class": "Cemetery",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 6269,
+            "entity_label": "Bill Mantlo",
+            "entity_class": "Writer, Lawyer",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 4758,
+            "entity_label": "Kyle Chandler",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 3101,
+            "entity_label": "Kabul",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 9669,
+            "entity_label": "Bewitched",
+            "entity_class": "Tv Series",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 350,
+            "entity_label": "J. R. R. Tolkien",
+            "entity_class": "Person",
+            "score": 10.926015,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 12360,
+            "entity_label": "Christian",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 4711,
+            "entity_label": "Macy Gray",
+            "entity_class": "Person",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 14111,
+            "entity_label": "Thunder Bay",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 9504,
+            "entity_label": "Hannibal Rising",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 13891,
+            "entity_label": "Farsley Celtic F.c.",
+            "entity_class": "Football Club",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 8366,
+            "entity_label": "Wandsworth",
+            "entity_class": "Location",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 8675,
+            "entity_label": "Milan",
+            "entity_class": "City",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "12922": 1,
+        "8877": 2,
+        "6309": 3,
+        "1694": 4,
+        "12828": 5,
+        "5749": 6,
+        "5099": 7,
+        "14447": 8,
+        "6269": 9,
+        "4758": 10,
+        "3101": 11,
+        "9669": 12,
+        "350": 13,
+        "12360": 14,
+        "4711": 15,
+        "14111": 16,
+        "9504": 17,
+        "13891": 18,
+        "8366": 19,
+        "8675": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=John Denver, relation=hasGovernmentPosition, tail=?)\n\nOntology summary:\n- Query relation: hasGovernmentPosition\n- Head entity: John Denver\n- Head class: Singer-songwriter\n- Relation domain: Person\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=46, edges=49, paths=20\n- Head outgoing edges under target relation hasGovernmentPosition: 20\n- Key support nodes: John Denver, Bill Mantlo, J. R. R. Tolkien, Macy Gray, Milan, Hannibal Rising, Farsley Celtic F.c., Marion County\n- Main auxiliary relations: hasImpersonatedCelebrities(6), hasAthlete(4), hasNetflixGenreTitle(4)\n\nFrequent relation path patterns:\n- hasGovernmentPosition (count=20)\n\nCandidates:\n1. Fort Smith [id=12922 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Chief Administrative Officer [id=8877 | class=Occupation | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n3. The Stepford Wives [id=6309 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Ontario [id=1694 | class=State | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n5. Marion County [id=12828 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Burt Bacharach [id=5749 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. The Haunting [id=5099 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. West Norwood Cemetery [id=14447 | class=Cemetery | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Bill Mantlo [id=6269 | class=Writer, Lawyer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Kyle Chandler [id=4758 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Kabul [id=3101 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Bewitched [id=9669 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. J. R. R. Tolkien [id=350 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=3 | key=1]\n14. Christian [id=12360 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Macy Gray [id=4711 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n16. Thunder Bay [id=14111 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Hannibal Rising [id=9504 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Farsley Celtic F.c. [id=13891 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Wandsworth [id=8366 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Milan [id=8675 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n"
+}

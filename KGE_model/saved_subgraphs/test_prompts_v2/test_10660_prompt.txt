@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Post-metal, relation=hasImpersonatedCelebrities, tail=?)
+
+Ontology summary:
+- Query relation: hasImpersonatedCelebrities
+- Head entity: Post-metal
+- Head class: Music Genre
+- Relation domain: Actor
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=19, edges=37, paths=20
+- Head outgoing edges under target relation hasImpersonatedCelebrities: 5
+- Key support nodes: Post-metal, Gretchen Mol, Johnny Mercer, Engineering, Fullmetal Alchemist the Movie: Conqueror of Shamballa, Prostate Cancer
+- Main auxiliary relations: hasReligion(4), hasReleaseMedium(3), hasNetflixGenreTitle(2)
+
+Frequent relation path patterns:
+- hasImpersonatedCelebrities -> hasImpersonatedCelebrities (count=15)
+- hasImpersonatedCelebrities (count=5)
+
+Candidates:
+1. Twelfth Night [id=12287 | class=Creativework | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Katrina Bowden [id=4435 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=2 | key=0]
+3. John Larroquette [id=9154 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+4. Gretchen Mol [id=5755 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=5 | aux=0 | key=1]
+5. Post-metal [id=13369 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=1]
+6. David Denman [id=6354 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+7. Aidan Quinn [id=1291 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+8. Lake Erie [id=12633 | class=Lake | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Tim Minear [id=12686 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+10. Bette Midler [id=2446 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+11. Juris Doctor [id=1323 | class=Academic Degree | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Noah Taylor [id=4200 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. Johnny Mercer [id=10129 | class=Person | type=1 | soft_type=1 | direct=1 | paths=5 | aux=1 | key=1]
+14. Neal Mcdonough [id=6260 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+15. Fullmetal Alchemist the Movie: Conqueror of Shamballa [id=6331 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=4 | aux=2 | key=1]
+16. Bailiwick of Guernsey [id=11471 | class=Crown Dependency | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Govinda [id=9890 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+18. David Nutter [id=9933 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+19. Prostate Cancer [id=6440 | class=Disease | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+20. Engineering [id=1481 | class=Field of Study | type=0 | soft_type=0 | direct=1 | paths=5 | aux=0 | key=1]

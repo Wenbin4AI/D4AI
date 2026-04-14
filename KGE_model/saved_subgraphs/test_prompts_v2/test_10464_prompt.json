@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 3391,
+        "head_label": "Eintracht Braunschweig",
+        "head_class": "Football Club",
+        "relation_id": 2,
+        "relation_label": "hasNetflixGenreTitle",
+        "gold_tail": 5029,
+        "gold_tail_label": "Exeter",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 2937,
+            "entity_label": "Morgan Freeman",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 10052,
+            "entity_label": "Ebbsfleet United F.c.",
+            "entity_class": "Football Club",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 9653,
+            "entity_label": "Garage Rock",
+            "entity_class": "Rock Music",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 7687,
+            "entity_label": "All About Steve",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 12176,
+            "entity_label": "Monty Python",
+            "entity_class": "Organization",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 5604,
+            "entity_label": "Dermot Mulroney",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 8284,
+            "entity_label": "Occidental College",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 7363,
+            "entity_label": "Detroit Lions",
+            "entity_class": "American Football Team",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 12767,
+            "entity_label": "Code Geass Lelouch of the Rebellion",
+            "entity_class": "Tv Show",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 10086,
+            "entity_label": "Insurgency in Khyber Pakhtunkhwa",
+            "entity_class": "Insurgency",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 11345,
+            "entity_label": "Delta Blues",
+            "entity_class": "Music Genre",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 11621,
+            "entity_label": "Somalia",
+            "entity_class": "Country",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 4810,
+            "entity_label": "Danubio F.c.",
+            "entity_class": "Football Club",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 10281,
+            "entity_label": "Rocky Mount",
+            "entity_class": "Location",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 11056,
+            "entity_label": "Al-hilal Sfc",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 546,
+            "entity_label": "Christopher Columbus: the Discovery",
+            "entity_class": "Film",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 10619,
+            "entity_label": "Lost in Space",
+            "entity_class": "Tv Show",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 5029,
+            "entity_label": "Exeter",
+            "entity_class": "City",
+            "score": 9.113654,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 11,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 10136,
+            "entity_label": "Sunsoft",
+            "entity_class": "Company",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "2937": 1,
+        "10052": 2,
+        "9653": 3,
+        "7687": 4,
+        "12176": 5,
+        "5604": 6,
+        "8284": 7,
+        "7363": 8,
+        "12767": 9,
+        "10086": 10,
+        "14037": 11,
+        "11345": 12,
+        "11621": 13,
+        "4810": 14,
+        "10281": 15,
+        "11056": 16,
+        "546": 17,
+        "10619": 18,
+        "5029": 19,
+        "10136": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Eintracht Braunschweig, relation=hasNetflixGenreTitle, tail=?)\n\nOntology summary:\n- Query relation: hasNetflixGenreTitle\n- Head entity: Eintracht Braunschweig\n- Head class: Football Club\n- Relation domain: Genre\n- Relation range: Movie\n- Domain check: not clearly matched\n- Tail entities of class 'Movie' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=36, edges=49, paths=20\n- Head outgoing edges under target relation hasNetflixGenreTitle: 4\n- Key support nodes: Eintracht Braunschweig, Exeter, Jamie Gangel, Frances Conroy, Rocky Mount, Somalia, Lille Osc, Sean Hayes\n- Main auxiliary relations: hasOfficialLanguage(9), worksAt(3), hasCampus(2)\n\nFrequent relation path patterns:\n- hasCampus -> hasOfficialLanguage -> hasNetflixGenreTitle (count=11)\n- hasNetflixGenreTitle (count=4)\n- editedBy -> isInRankedList -> hasNetflixGenreTitle (count=2)\n- hasNetflixGenreTitle -> hasFilmFormat (count=1)\n- hasMonthlyClimate (count=1)\n\nCandidates:\n1. Morgan Freeman [id=2937 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Ebbsfleet United F.c. [id=10052 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n3. Garage Rock [id=9653 | class=Rock Music | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. All About Steve [id=7687 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Monty Python [id=12176 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Dermot Mulroney [id=5604 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Occidental College [id=8284 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Detroit Lions [id=7363 | class=American Football Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Code Geass Lelouch of the Rebellion [id=12767 | class=Tv Show | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Insurgency in Khyber Pakhtunkhwa [id=10086 | class=Insurgency | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Somalia [id=11621 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n14. Danubio F.c. [id=4810 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Rocky Mount [id=10281 | class=Location | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n16. Al-hilal Sfc [id=11056 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Christopher Columbus: the Discovery [id=546 | class=Film | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Lost in Space [id=10619 | class=Tv Show | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=1 | paths=11 | aux=3 | key=1]\n20. Sunsoft [id=10136 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

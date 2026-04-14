@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 9952,
+        "head_label": "Sherlock",
+        "head_class": "Character",
+        "relation_id": 2,
+        "relation_label": "hasNetflixGenreTitle",
+        "gold_tail": 11287,
+        "gold_tail_label": "Eric Rodwell",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 9848,
+            "entity_label": "National Treasure: Book of Secrets",
+            "entity_class": "Film Title",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 10052,
+            "entity_label": "Ebbsfleet United F.c.",
+            "entity_class": "Football Club",
+            "score": 3.772589,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 10086,
+            "entity_label": "Insurgency in Khyber Pakhtunkhwa",
+            "entity_class": "Insurgency",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 11056,
+            "entity_label": "Al-hilal Sfc",
+            "entity_class": "Football Club",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 11345,
+            "entity_label": "Delta Blues",
+            "entity_class": "Music Genre",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 12176,
+            "entity_label": "Monty Python",
+            "entity_class": "Organization",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 11621,
+            "entity_label": "Somalia",
+            "entity_class": "Country",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 5604,
+            "entity_label": "Dermot Mulroney",
+            "entity_class": "Person",
+            "score": 3.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 8772,
+            "entity_label": "Cobb County",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 3305,
+            "entity_label": "Lee Strasberg Theatre and Film Institute",
+            "entity_class": "Acting School",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 10266,
+            "entity_label": "The Nun's Story",
+            "entity_class": "Book/movie Title",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 5029,
+            "entity_label": "Exeter",
+            "entity_class": "City",
+            "score": 5.695455,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 10,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 9460,
+            "entity_label": "Bachelor of Commerce",
+            "entity_class": "Degree",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 12075,
+            "entity_label": "Tempe",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 12451,
+            "entity_label": "Hershey Bears",
+            "entity_class": "Ice Hockey Team",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 4370,
+            "entity_label": "Picket Fences",
+            "entity_class": "Tv Show",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 5245,
+            "entity_label": "Miniseries",
+            "entity_class": "Tv Format",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 11287,
+            "entity_label": "Eric Rodwell",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 1870,
+            "entity_label": "Crossroads",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "9848": 1,
+        "10052": 2,
+        "10086": 3,
+        "11056": 4,
+        "11345": 5,
+        "14037": 6,
+        "12176": 7,
+        "11621": 8,
+        "5604": 9,
+        "8772": 10,
+        "3305": 11,
+        "10266": 12,
+        "5029": 13,
+        "9460": 14,
+        "12075": 15,
+        "12451": 16,
+        "4370": 17,
+        "5245": 18,
+        "11287": 19,
+        "1870": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Sherlock, relation=hasNetflixGenreTitle, tail=?)\n\nOntology summary:\n- Query relation: hasNetflixGenreTitle\n- Head entity: Sherlock\n- Head class: Character\n- Relation domain: Genre\n- Relation range: Movie\n- Domain check: not clearly matched\n- Tail entities of class 'Movie' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=35, edges=50, paths=20\n- Head outgoing edges under target relation hasNetflixGenreTitle: 3\n- Key support nodes: Sherlock, Andes, Exeter, Neustadt International Prize for Literature, Ebbsfleet United F.c., Colorado Rapids, 2008 Summer Olympics, The Doors\n- Main auxiliary relations: isInRankedList(10), hasReligion(3), hasDistributed(2)\n\nFrequent relation path patterns:\n- hasNotablePeople -> isInRankedList -> hasNetflixGenreTitle (count=15)\n- hasNetflixGenreTitle (count=3)\n- hasMonthlyClimate (count=1)\n- isInductedIntoHallOfFame (count=1)\n\nCandidates:\n1. National Treasure: Book of Secrets [id=9848 | class=Film Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Ebbsfleet United F.c. [id=10052 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=3 | aux=1 | key=1]\n3. Insurgency in Khyber Pakhtunkhwa [id=10086 | class=Insurgency | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Al-hilal Sfc [id=11056 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n5. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Monty Python [id=12176 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Somalia [id=11621 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Dermot Mulroney [id=5604 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=1 | key=1]\n10. Cobb County [id=8772 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Lee Strasberg Theatre and Film Institute [id=3305 | class=Acting School | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. The Nun's Story [id=10266 | class=Book/movie Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=10 | aux=2 | key=1]\n14. Bachelor of Commerce [id=9460 | class=Degree | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Tempe [id=12075 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Hershey Bears [id=12451 | class=Ice Hockey Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Picket Fences [id=4370 | class=Tv Show | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n19. Eric Rodwell [id=11287 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Crossroads [id=1870 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n"
+}

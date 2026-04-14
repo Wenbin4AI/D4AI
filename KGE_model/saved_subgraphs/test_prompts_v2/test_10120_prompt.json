@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 890,
+        "head_label": "Malta",
+        "head_class": "Country",
+        "relation_id": 25,
+        "relation_label": "hasCategory",
+        "gold_tail": 10516,
+        "gold_tail_label": "Zodiac",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 1323,
+            "entity_label": "Juris Doctor",
+            "entity_class": "Academic Degree",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 13749,
+            "entity_label": "Slough",
+            "entity_class": "Place",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 12835,
+            "entity_label": "Unknown",
+            "entity_class": "Unknown",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 14109,
+            "entity_label": "Fat Wreck Chords",
+            "entity_class": "Record Label",
+            "score": 4.178054,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 7499,
+            "entity_label": "Anthony Mackie",
+            "entity_class": "Person",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 890,
+            "entity_label": "Malta",
+            "entity_class": "Country",
+            "score": 1.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 5049,
+            "entity_label": "Shohei Imamura",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 2516,
+            "entity_label": "The People Vs. Larry Flynt",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 2643,
+            "entity_label": "Matthew W. Mungle",
+            "entity_class": "Person",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 14166,
+            "entity_label": "Roxbury",
+            "entity_class": "City",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 11820,
+            "entity_label": "Charles Sanders Peirce",
+            "entity_class": "Philosopher",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 13641,
+            "entity_label": "Bronxville",
+            "entity_class": "City",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 10867,
+            "entity_label": "Mchenry County",
+            "entity_class": "County",
+            "score": 8.205916,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 4,
+                "aux_support": 5,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 14163,
+            "entity_label": "Wigan",
+            "entity_class": "City",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 9120,
+            "entity_label": "J-pop",
+            "entity_class": "Music Genre",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 2160,
+            "entity_label": "Secretariat",
+            "entity_class": "Horse",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 8171,
+            "entity_label": "Robert Anton Wilson",
+            "entity_class": "Author",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 1562,
+            "entity_label": "Maryland",
+            "entity_class": "Location",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 10516,
+            "entity_label": "Zodiac",
+            "entity_class": "Astrology Sign",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 4281,
+            "entity_label": "Richard Thompson",
+            "entity_class": "Musician",
+            "score": 4.465736,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "1323": 1,
+        "13749": 2,
+        "12835": 3,
+        "14109": 4,
+        "7499": 5,
+        "890": 6,
+        "5049": 7,
+        "2516": 8,
+        "2643": 9,
+        "14166": 10,
+        "11820": 11,
+        "13641": 12,
+        "10867": 13,
+        "14163": 14,
+        "9120": 15,
+        "2160": 16,
+        "8171": 17,
+        "1562": 18,
+        "10516": 19,
+        "4281": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Malta, relation=hasCategory, tail=?)\n\nOntology summary:\n- Query relation: hasCategory\n- Head entity: Malta\n- Head class: Country\n- Relation domain: City\n- Relation range: Unknown\n- Domain check: not clearly matched\n\nLocal subgraph summary:\n- Local subgraph: nodes=45, edges=53, paths=20\n- Head outgoing edges under target relation hasCategory: 3\n- Key support nodes: Malta, Mchenry County, Pittsburgh Steelers, 1984 Summer Olympics, J-pop, Richard Thompson, Fat Wreck Chords, Mena Suvari\n- Main auxiliary relations: hasAthlete(6), influencedBy(4), hasReleaseMedium(3)\n\nFrequent relation path patterns:\n- hasRegularPerformanceRole -> influencedBy -> hasCategory (count=6)\n- hasCategory (count=3)\n- hasAthlete -> hasWinner -> hasCategory (count=3)\n- hasCategory -> hasCountry (count=2)\n- hasCategory -> hasNutrient (count=2)\n\nCandidates:\n1. Juris Doctor [id=1323 | class=Academic Degree | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Slough [id=13749 | class=Place | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n3. Unknown [id=12835 | class=Unknown | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n4. Fat Wreck Chords [id=14109 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=3 | aux=2 | key=1]\n5. Anthony Mackie [id=7499 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Malta [id=890 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]\n7. Shohei Imamura [id=5049 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. The People Vs. Larry Flynt [id=2516 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Matthew W. Mungle [id=2643 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n10. Roxbury [id=14166 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. Charles Sanders Peirce [id=11820 | class=Philosopher | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Bronxville [id=13641 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Mchenry County [id=10867 | class=County | type=0 | soft_type=0 | direct=1 | paths=4 | aux=5 | key=1]\n14. Wigan [id=14163 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. J-pop [id=9120 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n16. Secretariat [id=2160 | class=Horse | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Robert Anton Wilson [id=8171 | class=Author | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n18. Maryland [id=1562 | class=Location | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n19. Zodiac [id=10516 | class=Astrology Sign | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Richard Thompson [id=4281 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=3 | aux=3 | key=1]\n"
+}

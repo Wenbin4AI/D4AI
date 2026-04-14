@@ -1,0 +1,63 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Richard Wagner, relation=influencedBy, tail=?)
+
+Ontology summary:
+- Query relation: influencedBy
+- Head entity: Richard Wagner
+- Head class: Person
+- Relation domain: Person
+- Relation range: Person
+- Domain check: matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=30, edges=48, paths=20
+- Head outgoing edges under target relation influencedBy: 1
+- Key support nodes: Richard Wagner, University of Vermont, Golden Screen Award, Frank Langella, Hindustani Classical Music, Execution by Firing Squad, Alice in Wonderland, Parma Calcio 1913
+- Main auxiliary relations: hasReleaseMedium(19), hasImpersonatedCelebrities(16), hasWife(4)
+
+Frequent relation path patterns:
+- influencedBy -> hasImpersonatedCelebrities (count=9)
+- influencedBy -> hasReleaseMedium (count=9)
+- influencedBy (count=1)
+- influencedBy -> hasRegularPerformanceRole -> influencedBy (count=1)
+
+Candidates:
+1. Armand Assante [id=5337 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+2. Golden Screen Award [id=10947 | class=Award | type=0 | soft_type=0 | direct=0 | paths=2 | aux=5 | key=1]
+3. European Film Award for Best Composer [id=5889 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+4. David O. Selznick [id=4516 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+5. Parma Calcio 1913 [id=3294 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=2 | aux=4 | key=1]
+6. Ravenna [id=11604 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+7. Legend [id=3508 | class=Music Group | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+8. Alec Baldwin [id=6046 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+9. Hindustani Classical Music [id=7713 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=2 | aux=5 | key=1]
+10. Geoffrey Lewis [id=6478 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]
+11. Martin Heidegger [id=3728 | class=Philosopher | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+12. Crime Novel [id=470 | class=Book | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]
+13. Adam Horowitz [id=3757 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]
+14. Irvine [id=5508 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]
+15. Frank Langella [id=1710 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=2 | aux=4 | key=1]
+16. Lee Marvin [id=3626 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+17. Execution by Firing Squad [id=13172 | class=Execution Method | type=0 | soft_type=0 | direct=0 | paths=2 | aux=5 | key=1]
+18. Alice in Wonderland [id=5265 | class=Book | type=0 | soft_type=0 | direct=0 | paths=2 | aux=4 | key=1]
+19. University of Vermont [id=7727 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=18 | key=1]
+20. John Wells [id=6909 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]

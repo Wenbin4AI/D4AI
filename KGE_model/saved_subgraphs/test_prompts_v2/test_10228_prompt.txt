@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Kim Manners, relation=hasAthlete, tail=?)
+
+Ontology summary:
+- Query relation: hasAthlete
+- Head entity: Kim Manners
+- Head class: Director
+- Relation domain: Sport
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=51, edges=54, paths=20
+- Head outgoing edges under target relation hasAthlete: 16
+- Key support nodes: Kim Manners, Villarreal Cf, Betty White, Welling United F.c., Steve-o, Inverness Caledonian Thistle F.c., T. Rajendar, Keith Richards
+- Main auxiliary relations: hasEndowmentCurrency(15), hasWinner(10), hasImpersonatedCelebrities(5)
+
+Frequent relation path patterns:
+- hasAthlete (count=16)
+- hasImpersonatedCelebrities -> hasAthlete (count=4)
+
+Candidates:
+1. Prison Break [id=8363 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Anna Faris [id=5268 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+3. Gene Simmons [id=9480 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+4. T. Rajendar [id=2043 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+5. Inverness Caledonian Thistle F.c. [id=5574 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Syd Barrett [id=8298 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+7. Matthew Mcconaughey [id=4133 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+8. Think Like a Man [id=9247 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Betty White [id=8859 | class=Comedian | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Bob Newhart [id=3246 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+11. The Iron Lady [id=1598 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Keith Richards [id=2541 | class=Singer/musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+13. Cliff Richard [id=11159 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+14. Jesus College [id=12091 | class=College | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+15. Michael Bay [id=11593 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+16. Club Universitario De Deportes [id=9230 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Welling United F.c. [id=7661 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Steve-o [id=10925 | class=Comedian | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Cardinal [id=9183 | class=Bird | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Villarreal Cf [id=11597 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=5 | aux=0 | key=1]

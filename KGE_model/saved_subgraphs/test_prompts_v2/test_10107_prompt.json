@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 13277,
+        "head_label": "Systemic Lupus Erythematosus",
+        "head_class": "Disease",
+        "relation_id": 22,
+        "relation_label": "hasStudent",
+        "gold_tail": 1499,
+        "gold_tail_label": "Green Lantern",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 14342,
+            "entity_label": "Tartu",
+            "entity_class": "City",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 13564,
+            "entity_label": "Gary Cole",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 1903,
+            "entity_label": "Patti Smith",
+            "entity_class": "Musician",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 5.023595,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 4,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 14248,
+            "entity_label": "Samuel Vincent",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 13748,
+            "entity_label": "Tibet",
+            "entity_class": "Region",
+            "score": 1.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 11578,
+            "entity_label": "Henry Gibson",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 2821,
+            "entity_label": "Washington County",
+            "entity_class": "County",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 9110,
+            "entity_label": "Rick Kline",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 12935,
+            "entity_label": "Parma",
+            "entity_class": "City",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 14431,
+            "entity_label": "Propaganda Film",
+            "entity_class": "Film Genre",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 13873,
+            "entity_label": "Amjad Khan",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 8928,
+            "entity_label": "Brighton Rock",
+            "entity_class": "Movie",
+            "score": 6.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 12689,
+            "entity_label": "Andes",
+            "entity_class": "Mountain Range",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 1678,
+            "entity_label": "Brigitte Nielsen",
+            "entity_class": "Actress, Model, Wrestler",
+            "score": 6.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 8419,
+            "entity_label": "Victor Hugo",
+            "entity_class": "Author",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 7714,
+            "entity_label": "Ravi Shankar",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 12439,
+            "entity_label": "Shinya Tsukamoto",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 1499,
+            "entity_label": "Green Lantern",
+            "entity_class": "Superhero",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 13295,
+            "entity_label": "Dio",
+            "entity_class": "Person",
+            "score": 6.147918,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "14342": 1,
+        "13564": 2,
+        "1903": 3,
+        "4994": 4,
+        "14248": 5,
+        "13748": 6,
+        "11578": 7,
+        "2821": 8,
+        "9110": 9,
+        "12935": 10,
+        "14431": 11,
+        "13873": 12,
+        "8928": 13,
+        "12689": 14,
+        "1678": 15,
+        "8419": 16,
+        "7714": 17,
+        "12439": 18,
+        "1499": 19,
+        "13295": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Systemic Lupus Erythematosus, relation=hasStudent, tail=?)\n\nOntology summary:\n- Query relation: hasStudent\n- Head entity: Systemic Lupus Erythematosus\n- Head class: Disease\n- Relation domain: University\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=54, edges=62, paths=20\n- Head outgoing edges under target relation hasStudent: 3\n- Key support nodes: Systemic Lupus Erythematosus, Third Baseman, Brighton Rock, Seattle, Brigitte Nielsen, Green Lantern, Matthew Mcconaughey, David Petraeus\n- Main auxiliary relations: hasWinner(12), plays(5), hasAthlete(4)\n\nFrequent relation path patterns:\n- hasAthlete -> hasWinner -> hasStudent (count=12)\n- hasStudent (count=3)\n- hasStudent -> nominatedFor (count=2)\n- hasStudent -> hasParticipantCountries (count=1)\n- hasStudent -> countyPlace (count=1)\n\nCandidates:\n1. Tartu [id=14342 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n2. Gary Cole [id=13564 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Patti Smith [id=1903 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=4 | aux=4 | key=1]\n5. Samuel Vincent [id=14248 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Tibet [id=13748 | class=Region | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]\n7. Henry Gibson [id=11578 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Washington County [id=2821 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n9. Rick Kline [id=9110 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Parma [id=12935 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n11. Propaganda Film [id=14431 | class=Film Genre | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n12. Amjad Khan [id=13873 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Brighton Rock [id=8928 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=2 | aux=2 | key=1]\n14. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n15. Brigitte Nielsen [id=1678 | class=Actress, Model, Wrestler | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]\n16. Victor Hugo [id=8419 | class=Author | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Ravi Shankar [id=7714 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Shinya Tsukamoto [id=12439 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Green Lantern [id=1499 | class=Superhero | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n20. Dio [id=13295 | class=Person | type=1 | soft_type=1 | direct=0 | paths=2 | aux=0 | key=0]\n"
+}

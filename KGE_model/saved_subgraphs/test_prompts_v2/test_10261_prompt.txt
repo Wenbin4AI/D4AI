@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Anorthosis Famagusta Fc, relation=hasProgram, tail=?)
+
+Ontology summary:
+- Query relation: hasProgram
+- Head entity: Anorthosis Famagusta Fc
+- Head class: Sports Team
+- Relation domain: Person
+- Relation range: Tv Show
+- Domain check: not clearly matched
+- Tail entities of class 'Tv Show' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=41, edges=61, paths=20
+- Head outgoing edges under target relation hasProgram: 1
+- Key support nodes: Anorthosis Famagusta Fc, Timothy Olyphant, Haifa, 2009 Toronto International Film Festival, Australian Greens, Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Miniseries or Television Movie, Resident Evil: Retribution, Royal Tunbridge Wells
+- Main auxiliary relations: foundIn(20), performedBy(8), hasCounty(4)
+
+Frequent relation path patterns:
+- hasArtist -> foundIn -> hasProgram (count=19)
+- hasProgram (count=1)
+
+Candidates:
+1. Padua [id=14083 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Motivational Speaking [id=11661 | class=Activity | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+3. Mark Irwin [id=3067 | class=Songwriter | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+5. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+6. Ebbsfleet United F.c. [id=10052 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Lili Taylor [id=5388 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Sofia [id=10729 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+10. Sioux City [id=11814 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Nashua [id=10262 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Ctv Television Network [id=13942 | class=Television Network | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+13. Thirtysomething [id=544 | class=Tv Show | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+14. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+15. 2009 Toronto International Film Festival [id=10864 | class=Film Festival | type=0 | soft_type=0 | direct=0 | paths=4 | aux=0 | key=1]
+16. Occidental College [id=8284 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+18. High Point [id=12363 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+19. Haifa [id=13665 | class=City | type=0 | soft_type=0 | direct=1 | paths=16 | aux=0 | key=1]
+20. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]

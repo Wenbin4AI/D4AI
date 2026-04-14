@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 8620,
+        "head_label": "Toronto Blue Jays",
+        "head_class": "Sports Team",
+        "relation_id": 125,
+        "relation_label": "hasAthlete",
+        "gold_tail": 7997,
+        "gold_tail_label": "Psychiatry",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 5574,
+            "entity_label": "Inverness Caledonian Thistle F.c.",
+            "entity_class": "Football Club",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 3134,
+            "entity_label": "Malcolm X",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 10392,
+            "entity_label": "Julie Delpy",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 3790,
+            "entity_label": "George Orwell",
+            "entity_class": "Author",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 915,
+            "entity_label": "Gonzaga University",
+            "entity_class": "University",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 7105,
+            "entity_label": "Trevor Howard",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 2043,
+            "entity_label": "T. Rajendar",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 13745,
+            "entity_label": "United States Department of State",
+            "entity_class": "Government Agency",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 4133,
+            "entity_label": "Matthew Mcconaughey",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 5268,
+            "entity_label": "Anna Faris",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 12527,
+            "entity_label": "Foreigner",
+            "entity_class": "Band",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 13558,
+            "entity_label": "Visual Kei",
+            "entity_class": "Music Genre",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 3246,
+            "entity_label": "Bob Newhart",
+            "entity_class": "Person",
+            "score": 8.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 10309,
+            "entity_label": "George Hamilton",
+            "entity_class": "Actor",
+            "score": 2.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 9557,
+            "entity_label": "Anna Karenina",
+            "entity_class": "Book",
+            "score": 6.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 1536,
+            "entity_label": "Michael Gambon",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 3992,
+            "entity_label": "Emilio Estefan",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 4061,
+            "entity_label": "James Gandolfini",
+            "entity_class": "Actor",
+            "score": 4.147918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 7997,
+            "entity_label": "Psychiatry",
+            "entity_class": "Field of Study",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 3696,
+            "entity_label": "David O. Russell",
+            "entity_class": "Person",
+            "score": 5.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "5574": 1,
+        "3134": 2,
+        "10392": 3,
+        "3790": 4,
+        "915": 5,
+        "7105": 6,
+        "2043": 7,
+        "13745": 8,
+        "4133": 9,
+        "5268": 10,
+        "12527": 11,
+        "13558": 12,
+        "3246": 13,
+        "10309": 14,
+        "9557": 15,
+        "1536": 16,
+        "3992": 17,
+        "4061": 18,
+        "7997": 19,
+        "3696": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Toronto Blue Jays, relation=hasAthlete, tail=?)\n\nOntology summary:\n- Query relation: hasAthlete\n- Head entity: Toronto Blue Jays\n- Head class: Sports Team\n- Relation domain: Sport\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=48, edges=53, paths=20\n- Head outgoing edges under target relation hasAthlete: 5\n- Key support nodes: Toronto Blue Jays, York University, Bronxville, Anna Karenina, James Gandolfini, Dl-lysine, Joel Schumacher, University of Texas at Arlington\n- Main auxiliary relations: hasWinner(6), hasEndowmentCurrency(5), hasCountry(4)\n\nFrequent relation path patterns:\n- hasCountry -> hasAthlete (count=7)\n- hasAthlete (count=5)\n- hasImpersonatedCelebrities -> hasAthlete (count=2)\n- hasReleaseMedium -> hasAthlete (count=2)\n- registeredWith -> hasAthlete (count=2)\n\nCandidates:\n1. Inverness Caledonian Thistle F.c. [id=5574 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n2. Malcolm X [id=3134 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Julie Delpy [id=10392 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. George Orwell [id=3790 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Gonzaga University [id=915 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n6. Trevor Howard [id=7105 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. T. Rajendar [id=2043 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. United States Department of State [id=13745 | class=Government Agency | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n9. Matthew Mcconaughey [id=4133 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Anna Faris [id=5268 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Foreigner [id=12527 | class=Band | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n12. Visual Kei [id=13558 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n13. Bob Newhart [id=3246 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n14. George Hamilton [id=10309 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n15. Anna Karenina [id=9557 | class=Book | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n16. Michael Gambon [id=1536 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Emilio Estefan [id=3992 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. James Gandolfini [id=4061 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=2 | aux=0 | key=1]\n19. Psychiatry [id=7997 | class=Field of Study | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. David O. Russell [id=3696 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n"
+}

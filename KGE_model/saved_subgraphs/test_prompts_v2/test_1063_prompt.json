@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 2839,
+        "head_label": "Image Entertainment",
+        "head_class": "Company",
+        "relation_id": 108,
+        "relation_label": "hasEndowmentCurrency",
+        "gold_tail": 2149,
+        "gold_tail_label": "Bafta Award for Best Actor in a Leading Role",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 4325,
+            "entity_label": "Mark Stent",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 1270,
+            "entity_label": "Pittsburgh Panthers Football",
+            "entity_class": "Sports Team",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 5239,
+            "entity_label": "Toto",
+            "entity_class": "Band",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 5475,
+            "entity_label": "Huelva",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 6421,
+            "entity_label": "Xander Berkeley",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 9841,
+            "entity_label": "4ad",
+            "entity_class": "Record Label",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 13236,
+            "entity_label": "Asha Parekh",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 9005,
+            "entity_label": "Sanctuary Records",
+            "entity_class": "Record Label",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 7385,
+            "entity_label": "Guinea",
+            "entity_class": "Country",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 11554,
+            "entity_label": "Friedrich Hayek",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 4505,
+            "entity_label": "Jean Louis",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 6692,
+            "entity_label": "Marvel Comics",
+            "entity_class": "Company",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 9037,
+            "entity_label": "Beverly Hills High School",
+            "entity_class": "School",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 13707,
+            "entity_label": "Indian National Congress",
+            "entity_class": "Political Party",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 12762,
+            "entity_label": "2006 Ncaa Division I Men's Basketball Tournament",
+            "entity_class": "Tournament",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 10795,
+            "entity_label": "Tv Asahi",
+            "entity_class": "Television Network",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 6184,
+            "entity_label": "2006 Nfl Draft",
+            "entity_class": "Event",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 4032,
+            "entity_label": "Brannon Braga",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 2149,
+            "entity_label": "Bafta Award for Best Actor in a Leading Role",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 2286,
+            "entity_label": "Second Polish Republic",
+            "entity_class": "Historical Period",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "4325": 1,
+        "1270": 2,
+        "5239": 3,
+        "5475": 4,
+        "6421": 5,
+        "9841": 6,
+        "13236": 7,
+        "9005": 8,
+        "7385": 9,
+        "11554": 10,
+        "4505": 11,
+        "6692": 12,
+        "9037": 13,
+        "13707": 14,
+        "12762": 15,
+        "10795": 16,
+        "6184": 17,
+        "4032": 18,
+        "2149": 19,
+        "2286": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Image Entertainment, relation=hasEndowmentCurrency, tail=?)\n\nOntology summary:\n- Query relation: hasEndowmentCurrency\n- Head entity: Image Entertainment\n- Head class: Company\n- Relation domain: University\n- Relation range: Currency\n- Domain check: not clearly matched\n- Tail entities of class 'Currency' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=45, edges=49, paths=20\n- Head outgoing edges under target relation hasEndowmentCurrency: 22\n- Key support nodes: Image Entertainment, Beverly Hills High School, 2006 Ncaa Division I Men's Basketball Tournament, Second Polish Republic, Huelva, Pittsburgh Panthers Football, Guinea, 2006 Nfl Draft\n- Main auxiliary relations: hasRosterPosition(10), hasWriter(5), hasCounty(3)\n\nFrequent relation path patterns:\n- hasEndowmentCurrency (count=20)\n\nCandidates:\n1. Mark Stent [id=4325 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Pittsburgh Panthers Football [id=1270 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Toto [id=5239 | class=Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Huelva [id=5475 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Xander Berkeley [id=6421 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. 4ad [id=9841 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Asha Parekh [id=13236 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Sanctuary Records [id=9005 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Guinea [id=7385 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Friedrich Hayek [id=11554 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Jean Louis [id=4505 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Marvel Comics [id=6692 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Beverly Hills High School [id=9037 | class=School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Indian National Congress [id=13707 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. 2006 Ncaa Division I Men's Basketball Tournament [id=12762 | class=Tournament | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Tv Asahi [id=10795 | class=Television Network | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. 2006 Nfl Draft [id=6184 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Brannon Braga [id=4032 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Bafta Award for Best Actor in a Leading Role [id=2149 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Second Polish Republic [id=2286 | class=Historical Period | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

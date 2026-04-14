@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=George Orwell, relation=hasEndowmentCurrency, tail=?)
+
+Ontology summary:
+- Query relation: hasEndowmentCurrency
+- Head entity: George Orwell
+- Head class: Author
+- Relation domain: University
+- Relation range: Currency
+- Domain check: not clearly matched
+- Tail entities of class 'Currency' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=33, edges=50, paths=20
+- Head outgoing edges under target relation hasEndowmentCurrency: 13
+- Key support nodes: George Orwell, University of Texas at Arlington, Susan Blu, Musical, Fc Aarau, Sheffield United F.c., New Mexico State University, Hamilton
+- Main auxiliary relations: hasWriter(11), influencedBy(9), hasRegularPerformanceRole(8)
+
+Frequent relation path patterns:
+- hasEndowmentCurrency (count=13)
+- hasEndowmentCurrency -> influencedBy -> hasRegularPerformanceRole (count=7)
+
+Candidates:
+1. Religion [id=9547 | class=Religion | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Richard Wagner [id=5927 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. John Osborne [id=12566 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Hamilton [id=10400 | class=Geography | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Isabelle Adjani [id=11071 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+6. Tracy Chapman [id=8640 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Heaven's Gate [id=10782 | class=Cult | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. New England Revolution [id=8172 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. University of Texas at Arlington [id=12512 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Glam Punk [id=14071 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Fitzwilliam College [id=3409 | class=College | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Little Rock [id=10251 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Susan Blu [id=4930 | class=Voice Actress | type=0 | soft_type=0 | direct=1 | paths=5 | aux=0 | key=1]
+14. Werner Herzog [id=2361 | class=Film Director, Screenwriter | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Musical [id=10049 | class=Theater Genre | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]
+16. The Longest Yard [id=6229 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Hagerstown [id=13119 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Crouching Tiger, Hidden Dragon [id=7274 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+19. Rome [id=6679 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Fc Aarau [id=8091 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]

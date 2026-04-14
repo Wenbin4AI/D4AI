@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Cyrano De Bergerac, relation=hasTaxonomyEntry, tail=?)
+
+Ontology summary:
+- Query relation: hasTaxonomyEntry
+- Head entity: Cyrano De Bergerac
+- Head class: Literary Work
+- Relation domain: Country
+- Relation range: Library Classification System
+- Domain check: not clearly matched
+- Tail entities of class 'Library Classification System' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=44, edges=48, paths=20
+- Head outgoing edges under target relation hasTaxonomyEntry: 20
+- Key support nodes: Cyrano De Bergerac, Syracuse Crunch, Aditya Chopra, Donald Pleasence, Shatrughan Sinha, Aliens, Michael Palin, Chuck Norris
+- Main auxiliary relations: hasCauseOfDeath(7), playsFor(5), hasNetflixGenreTitle(4)
+
+Frequent relation path patterns:
+- hasTaxonomyEntry (count=20)
+
+Candidates:
+1. Monster Cap [id=3822 | class=Game Card | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Shatrughan Sinha [id=6094 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. In America [id=900 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Donald Pleasence [id=12613 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Shannon Elizabeth [id=2327 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Chicken [id=14418 | class=Animal | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Kid Vs. Kat [id=5662 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Around the World in 80 Days [id=3491 | class=Book | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Aliens [id=4411 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Ayr United F.c. [id=12604 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. One Tree Hill [id=8751 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Hereafter [id=7252 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Aditya Chopra [id=2383 | class=Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+14. Landon Donovan [id=11658 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Michael Palin [id=4030 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+16. The Clash [id=5826 | class=Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Chuck Norris [id=5331 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Ben Stein [id=3504 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Cairo University [id=10946 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Syracuse Crunch [id=6917 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

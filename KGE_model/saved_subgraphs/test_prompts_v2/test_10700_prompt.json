@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 9332,
+        "head_label": "The Firm",
+        "head_class": "Organization",
+        "relation_id": 175,
+        "relation_label": "hasSibling",
+        "gold_tail": 8565,
+        "gold_tail_label": "Batman: the Animated Series",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 8444,
+            "entity_label": "Cheshire County",
+            "entity_class": "County",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 5112,
+            "entity_label": "The Allman Brothers Band",
+            "entity_class": "Band",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 6282,
+            "entity_label": "Imagine Entertainment",
+            "entity_class": "Company",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 10436,
+            "entity_label": "Viking Fk",
+            "entity_class": "Football Club",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 272,
+            "entity_label": "Dallas Cowboys",
+            "entity_class": "Sports Team",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 1712,
+            "entity_label": "Saint Vincent and the Grenadines",
+            "entity_class": "Country",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 14127,
+            "entity_label": "B Movie",
+            "entity_class": "Film Category",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 11594,
+            "entity_label": "St. Louis County",
+            "entity_class": "Location",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 13429,
+            "entity_label": "Richmond",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 7531,
+            "entity_label": "Kath Soucie",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 5019,
+            "entity_label": "Fc Volga Nizhny Novgorod",
+            "entity_class": "Football Club",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 12899,
+            "entity_label": "Falls Church",
+            "entity_class": "Location",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 920,
+            "entity_label": "Hilary Duff",
+            "entity_class": "Person",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 8386,
+            "entity_label": "Ryan O'neal",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 1290,
+            "entity_label": "Dan Grimaldi",
+            "entity_class": "Person",
+            "score": 8.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 6372,
+            "entity_label": "Patti Labelle",
+            "entity_class": "Music Artist",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 6175,
+            "entity_label": "Columbus",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 5586,
+            "entity_label": "Joseph F. Biroc",
+            "entity_class": "Cinematographer",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 8565,
+            "entity_label": "Batman: the Animated Series",
+            "entity_class": "Animated Series",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 10501,
+            "entity_label": "Ac Sparta Prague",
+            "entity_class": "Football Club",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "8444": 1,
+        "5112": 2,
+        "6282": 3,
+        "10436": 4,
+        "272": 5,
+        "1712": 6,
+        "14127": 7,
+        "11594": 8,
+        "13429": 9,
+        "7531": 10,
+        "5019": 11,
+        "12899": 12,
+        "920": 13,
+        "8386": 14,
+        "1290": 15,
+        "6372": 16,
+        "6175": 17,
+        "5586": 18,
+        "8565": 19,
+        "10501": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=The Firm, relation=hasSibling, tail=?)\n\nOntology summary:\n- Query relation: hasSibling\n- Head entity: The Firm\n- Head class: Organization\n- Relation domain: Person\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=47, edges=50, paths=20\n- Head outgoing edges under target relation hasSibling: 22\n- Key support nodes: The Firm, Ac Sparta Prague, Viking Fk, The Allman Brothers Band, Richmond, Columbus, Joseph F. Biroc, Hilary Duff\n- Main auxiliary relations: hasBurialPlace(10), hasStudent(8), editedBy(3)\n\nFrequent relation path patterns:\n- hasSibling (count=20)\n\nCandidates:\n1. Cheshire County [id=8444 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. The Allman Brothers Band [id=5112 | class=Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Imagine Entertainment [id=6282 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Viking Fk [id=10436 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Dallas Cowboys [id=272 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Saint Vincent and the Grenadines [id=1712 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. B Movie [id=14127 | class=Film Category | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. St. Louis County [id=11594 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Richmond [id=13429 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Kath Soucie [id=7531 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Fc Volga Nizhny Novgorod [id=5019 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Falls Church [id=12899 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. Hilary Duff [id=920 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n14. Ryan O'neal [id=8386 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Dan Grimaldi [id=1290 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n16. Patti Labelle [id=6372 | class=Music Artist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Columbus [id=6175 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Joseph F. Biroc [id=5586 | class=Cinematographer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Batman: the Animated Series [id=8565 | class=Animated Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Ac Sparta Prague [id=10501 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

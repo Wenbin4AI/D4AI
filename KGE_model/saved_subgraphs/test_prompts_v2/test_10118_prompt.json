@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 13941,
+        "head_label": "Renderware",
+        "head_class": "Company",
+        "relation_id": 17,
+        "relation_label": "hasProfession",
+        "gold_tail": 7544,
+        "gold_tail_label": "Jamie Gangel",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 11533,
+            "entity_label": "Macau",
+            "entity_class": "Location",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 232,
+            "entity_label": "Grammy Award for Best Country Instrumental Performance",
+            "entity_class": "Award",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 11128,
+            "entity_label": "H. H. Asquith",
+            "entity_class": "Politician",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 6033,
+            "entity_label": "Adolph Green",
+            "entity_class": "Musician",
+            "score": 2.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 2,
+            "entity_label": "Mighty Morphin Power Rangers",
+            "entity_class": "Tv Series",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 12202,
+            "entity_label": "University of Louisville",
+            "entity_class": "American University",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 13705,
+            "entity_label": "Breda",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 14361,
+            "entity_label": "Vagrant Records",
+            "entity_class": "Record Label",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 3521,
+            "entity_label": "Tom Kenny",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 7469,
+            "entity_label": "John Madden",
+            "entity_class": "Football Coach",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 6100,
+            "entity_label": "Grammy Award for Best Contemporary Blues Album",
+            "entity_class": "Music Award",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 13372,
+            "entity_label": "Kumasi",
+            "entity_class": "City",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 1752,
+            "entity_label": "The Simpsons Movie",
+            "entity_class": "Movie",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 7667,
+            "entity_label": "Fort Bend County",
+            "entity_class": "County",
+            "score": 4.380786,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 5,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 4361,
+            "entity_label": "Swoosie Kurtz",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 1067,
+            "entity_label": "Jason Robards",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 6913,
+            "entity_label": "Jack Bruce",
+            "entity_class": "Musician",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 7544,
+            "entity_label": "Jamie Gangel",
+            "entity_class": "Person",
+            "score": 8.678054,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 5221,
+            "entity_label": "Brian Eno",
+            "entity_class": "Musician",
+            "score": 4.147918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "11533": 1,
+        "232": 2,
+        "11128": 3,
+        "6033": 4,
+        "2": 5,
+        "12202": 6,
+        "13705": 7,
+        "14361": 8,
+        "3521": 9,
+        "7469": 10,
+        "14037": 11,
+        "6100": 12,
+        "13372": 13,
+        "1752": 14,
+        "7667": 15,
+        "4361": 16,
+        "1067": 17,
+        "6913": 18,
+        "7544": 19,
+        "5221": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Renderware, relation=hasProfession, tail=?)\n\nOntology summary:\n- Query relation: hasProfession\n- Head entity: Renderware\n- Head class: Company\n- Relation domain: Person\n- Relation range: Profession\n- Domain check: not clearly matched\n- Tail entities of class 'Profession' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=47, edges=56, paths=20\n- Head outgoing edges under target relation hasProfession: 2\n- Key support nodes: Renderware, Hancock, Jamie Gangel, Fort Bend County, Peter Gallagher, Douglas Slocombe, Kumasi, Hugo Weaving\n- Main auxiliary relations: spokenInCountries(9), hasRegularPerformanceRole(5), hasWriter(4)\n\nFrequent relation path patterns:\n- influencedBy -> hasRegularPerformanceRole -> hasProfession (count=10)\n- hasProfession (count=2)\n- hasProfession -> originCountry (count=2)\n- hasFriend -> hasProfession (count=2)\n- hasPartner -> hasProfession (count=2)\n\nCandidates:\n1. Macau [id=11533 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Grammy Award for Best Country Instrumental Performance [id=232 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n3. H. H. Asquith [id=11128 | class=Politician | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n4. Adolph Green [id=6033 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n5. Mighty Morphin Power Rangers [id=2 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. University of Louisville [id=12202 | class=American University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n7. Breda [id=13705 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Vagrant Records [id=14361 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Tom Kenny [id=3521 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. John Madden [id=7469 | class=Football Coach | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Grammy Award for Best Contemporary Blues Album [id=6100 | class=Music Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Kumasi [id=13372 | class=City | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n14. The Simpsons Movie [id=1752 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Fort Bend County [id=7667 | class=County | type=0 | soft_type=0 | direct=0 | paths=5 | aux=1 | key=1]\n16. Swoosie Kurtz [id=4361 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Jason Robards [id=1067 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Jack Bruce [id=6913 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=1 | direct=1 | paths=3 | aux=2 | key=1]\n20. Brian Eno [id=5221 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=2 | aux=0 | key=1]\n"
+}

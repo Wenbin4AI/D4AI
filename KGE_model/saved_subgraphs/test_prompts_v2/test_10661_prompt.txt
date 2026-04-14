@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Saxony-anhalt, relation=hasEndowmentCurrency, tail=?)
+
+Ontology summary:
+- Query relation: hasEndowmentCurrency
+- Head entity: Saxony-anhalt
+- Head class: State
+- Relation domain: University
+- Relation range: Currency
+- Domain check: not clearly matched
+- Tail entities of class 'Currency' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=46, edges=47, paths=20
+- Head outgoing edges under target relation hasEndowmentCurrency: 20
+- Key support nodes: Saxony-anhalt, Buenos Aires Province, Academy Award for Best Director, A Separation, Dallas, Marathi, Religion, Jobeth Williams
+- Main auxiliary relations: hasSchoolType(12), influencedBy(6), hasWriter(4)
+
+Frequent relation path patterns:
+- hasEndowmentCurrency (count=20)
+
+Candidates:
+1. Pete Postlethwaite [id=1905 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Marathi [id=8250 | class=Language | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Linz [id=5095 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Dallas [id=5445 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Miranda Otto [id=3887 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Waltham [id=11447 | class=Geographic Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. New England Revolution [id=8172 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Industrial Music [id=6940 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Religion [id=9547 | class=Religion | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Space Opera [id=11549 | class=Literary Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Wyoming [id=2840 | class=State | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Falkland Islands [id=9343 | class=Islands | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Buenos Aires Province [id=10965 | class=Province | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. Long Branch [id=6190 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Academy Award for Best Director [id=1127 | class=Award Category | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Victor Young [id=4934 | class=Composer, Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Jobeth Williams [id=5135 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Wheaton College [id=6566 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Anchorage [id=6219 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. A Separation [id=5993 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

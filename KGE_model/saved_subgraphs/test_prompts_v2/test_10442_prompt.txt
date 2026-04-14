@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Trinidad and Tobago National Football Team, relation=hasAthlete, tail=?)
+
+Ontology summary:
+- Query relation: hasAthlete
+- Head entity: Trinidad and Tobago National Football Team
+- Head class: National Football Team
+- Relation domain: Sport
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=44, edges=52, paths=20
+- Head outgoing edges under target relation hasAthlete: 9
+- Key support nodes: Trinidad and Tobago National Football Team, Biotechnology, Matthew Mcconaughey, 56th Primetime Emmy Awards, Michael Gambon, Central Coast Mariners Fc, Club Universitario De Deportes, Cumberland County
+- Main auxiliary relations: hasEndowmentCurrency(12), hasImpersonatedCelebrities(7), plays(3)
+
+Frequent relation path patterns:
+- hasImpersonatedCelebrities -> hasAthlete (count=11)
+- hasAthlete (count=9)
+
+Candidates:
+1. Auburn University [id=2588 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+2. Roots Rock [id=10035 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Trevor Howard [id=7105 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+4. Club Universitario De Deportes [id=9230 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+5. Gilles Deleuze [id=7952 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+6. Zach Galifianakis [id=6420 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+7. Martin Lawrence [id=7784 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+8. The Untouchables [id=109 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+9. Jeff Meckstroth [id=10440 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+10. Pride & Prejudice [id=7040 | class=Novel | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Solomon Islands [id=9372 | class=Country | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+12. Image Entertainment [id=2839 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Michael Gambon [id=1536 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=2 | aux=0 | key=1]
+14. Strasbourg [id=10698 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. 56th Primetime Emmy Awards [id=1909 | class=Award Ceremony | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+16. Timmins [id=12881 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+17. Nick Park [id=10571 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+18. Cliff Richard [id=11159 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+19. Matthew Mcconaughey [id=4133 | class=Person | type=1 | soft_type=1 | direct=1 | paths=4 | aux=0 | key=1]
+20. Central Coast Mariners Fc [id=12998 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]

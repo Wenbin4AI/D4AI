@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 3178,
+        "head_label": "Fran Walsh",
+        "head_class": "Person",
+        "relation_id": 161,
+        "relation_label": "hasSpouse",
+        "gold_tail": 3137,
+        "gold_tail_label": "Mtv Video Music Award for Best Hip-hop Video",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 53,
+            "entity_label": "Yale University",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 10729,
+            "entity_label": "Sofia",
+            "entity_class": "City",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 3776,
+            "entity_label": "Hope Springs",
+            "entity_class": "Movie",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 5029,
+            "entity_label": "Exeter",
+            "entity_class": "City",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 7439,
+            "entity_label": "Allium Cepa",
+            "entity_class": "Plant",
+            "score": 3.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 10246,
+            "entity_label": "Fayette County",
+            "entity_class": "County",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 5759,
+            "entity_label": "Joel Madden",
+            "entity_class": "Musician",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 2211,
+            "entity_label": "Enya",
+            "entity_class": "Singer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 9077,
+            "entity_label": "Northern Ireland National Association Football Team",
+            "entity_class": "National Sports Team",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 3157,
+            "entity_label": "Ahmedabad",
+            "entity_class": "Location",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 11176,
+            "entity_label": "Queen's University Belfast",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 322,
+            "entity_label": "Vincent Pastore",
+            "entity_class": "Actor",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 7.914157,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 4,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 9448,
+            "entity_label": "Costa Rica",
+            "entity_class": "Country",
+            "score": 2.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 6.147918,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 1774,
+            "entity_label": "Black Swan",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 12293,
+            "entity_label": "John F. Seitz",
+            "entity_class": "Cinematographer",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 7544,
+            "entity_label": "Jamie Gangel",
+            "entity_class": "Person",
+            "score": 3.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 3137,
+            "entity_label": "Mtv Video Music Award for Best Hip-hop Video",
+            "entity_class": "Award",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 13111,
+            "entity_label": "Kern County",
+            "entity_class": "County",
+            "score": 5.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "53": 1,
+        "10729": 2,
+        "3776": 3,
+        "5029": 4,
+        "7439": 5,
+        "10246": 6,
+        "5759": 7,
+        "2211": 8,
+        "9077": 9,
+        "3157": 10,
+        "11176": 11,
+        "322": 12,
+        "14037": 13,
+        "9448": 14,
+        "4994": 15,
+        "1774": 16,
+        "12293": 17,
+        "7544": 18,
+        "3137": 19,
+        "13111": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Fran Walsh, relation=hasSpouse, tail=?)\n\nOntology summary:\n- Query relation: hasSpouse\n- Head entity: Fran Walsh\n- Head class: Person\n- Relation domain: Marriage\n- Relation range: City\n- Domain check: not clearly matched\n- Tail entities of class 'City' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=39, edges=51, paths=20\n- Head outgoing edges under target relation hasSpouse: 4\n- Key support nodes: Fran Walsh, Keanu Reeves, Pontefract, Second Boer War, Jamie Gangel, Allium Cepa, Steuben County, Vincent Pastore\n- Main auxiliary relations: headquarteredIn(7), hasInvolvedEntity(7), hasBorder(4)\n\nFrequent relation path patterns:\n- hasSpouse (count=4)\n- headquarteredIn -> hasBorder (count=4)\n- headquarteredIn -> hasInvolvedEntity (count=3)\n- headquarteredIn -> hasGovernmentType (count=3)\n- headquarteredIn -> actedIn (count=2)\n\nCandidates:\n1. Yale University [id=53 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Sofia [id=10729 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Hope Springs [id=3776 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n4. Exeter [id=5029 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Allium Cepa [id=7439 | class=Plant | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n6. Fayette County [id=10246 | class=County | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Joel Madden [id=5759 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Enya [id=2211 | class=Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Northern Ireland National Association Football Team [id=9077 | class=National Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n10. Ahmedabad [id=3157 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Queen's University Belfast [id=11176 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Vincent Pastore [id=322 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n13. Pontefract [id=14037 | class=City | type=1 | soft_type=1 | direct=0 | paths=4 | aux=0 | key=1]\n14. Costa Rica [id=9448 | class=Country | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n15. Seattle [id=4994 | class=City | type=1 | soft_type=1 | direct=0 | paths=2 | aux=0 | key=0]\n16. Black Swan [id=1774 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. John F. Seitz [id=12293 | class=Cinematographer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n18. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n19. Mtv Video Music Award for Best Hip-hop Video [id=3137 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Kern County [id=13111 | class=County | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n"
+}

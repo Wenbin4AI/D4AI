@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Chester County, relation=placeOfDeath, tail=?)
+
+Ontology summary:
+- Query relation: placeOfDeath
+- Head entity: Chester County
+- Head class: County
+- Relation domain: Person
+- Relation range: City
+- Domain check: not clearly matched
+- Tail entities of class 'City' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=43, edges=54, paths=20
+- Head outgoing edges under target relation placeOfDeath: 6
+- Key support nodes: Chester County, Mario Lopez, Hobart, Splash, Province of Brescia, Centre, Insidious, Data East
+- Main auxiliary relations: hasRegularPerformanceRole(9), hasReleaseMedium(7), hasImpersonatedCelebrities(6)
+
+Frequent relation path patterns:
+- placeOfDeath (count=6)
+- placeOfDeath -> hasImpersonatedCelebrities (count=5)
+- placeOfDeath -> hasRegularPerformanceRole -> influencedBy (count=5)
+- placeOfDeath -> hasReleaseMedium (count=2)
+- placeOfDeath -> hasAthlete -> hasWinner (count=2)
+
+Candidates:
+1. Richard Donner [id=2235 | class=Film Director | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Gloucester [id=12484 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+3. New York [id=226 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+4. Palo Alto [id=2691 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+5. Insidious [id=155 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=2 | aux=3 | key=1]
+6. John Ford [id=4654 | class=Director | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+7. June [id=1922 | class=Month | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+8. John Huston [id=5962 | class=Film Director, Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Centre [id=4962 | class=Position | type=0 | soft_type=0 | direct=0 | paths=3 | aux=3 | key=1]
+10. Cornell Law School [id=13680 | class=Law School | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+11. Duran Duran [id=7402 | class=Music Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Data East [id=14154 | class=Company | type=0 | soft_type=0 | direct=0 | paths=2 | aux=1 | key=1]
+13. Hobart [id=13196 | class=City | type=1 | soft_type=1 | direct=1 | paths=1 | aux=2 | key=1]
+14. Christmas Music [id=14177 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+15. Mario Lopez [id=6537 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=5 | key=1]
+16. The Town [id=3526 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Fc Shakhtar Donetsk [id=4256 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+18. Into the Storm [id=7749 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+19. Province of Brescia [id=11859 | class=Administrative Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+20. Splash [id=8684 | class=Movie/tv Show | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]

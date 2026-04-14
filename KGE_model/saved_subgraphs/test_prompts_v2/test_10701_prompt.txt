@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Haskell, relation=hasFriend, tail=?)
+
+Ontology summary:
+- Query relation: hasFriend
+- Head entity: Haskell
+- Head class: Programming Language
+- Relation domain: Person
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=25, edges=49, paths=20
+- Head outgoing edges under target relation hasFriend: 12
+- Key support nodes: Haskell, Harvey Keitel, Adam West, Emilia-romagna, Contemporary Christian Music, Lake Forest, Bolero, John Dingell, Jr.
+- Main auxiliary relations: livingIn(8), hasRosterPosition(4), hasProgram(3)
+
+Frequent relation path patterns:
+- hasFriend (count=12)
+- hasFriend -> livingIn (count=8)
+
+Candidates:
+1. Dylan Baker [id=7305 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+2. Ray Wise [id=12268 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=2 | aux=1 | key=0]
+3. Scott Mcneil [id=12008 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+4. Frank Skinner [id=12479 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=1 | key=1]
+5. Bolero [id=2584 | class=Music Piece | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]
+6. Ciara [id=5868 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+7. Justin Spitzer [id=7416 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+8. The Fabulous Baker Boys [id=7660 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Emilia-romagna [id=8993 | class=Region | type=0 | soft_type=0 | direct=1 | paths=2 | aux=2 | key=1]
+10. Jessica Lange [id=8453 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+11. Merv Griffin [id=12814 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+12. Midwest Hip Hop [id=13999 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+13. Harvey Keitel [id=2606 | class=Person | type=1 | soft_type=1 | direct=1 | paths=2 | aux=2 | key=1]
+14. Aya Hisakawa [id=9949 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+15. Adam West [id=6052 | class=Person | type=1 | soft_type=1 | direct=1 | paths=2 | aux=2 | key=1]
+16. Sonny Rollins [id=1627 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+17. Contemporary Christian Music [id=4470 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=2 | aux=2 | key=1]
+18. Lake Forest [id=3717 | class=City | type=0 | soft_type=0 | direct=1 | paths=2 | aux=2 | key=1]
+19. Enrique Iglesias [id=10743 | class=Music Artist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]
+20. John Dingell, Jr. [id=8326 | class=Person | type=1 | soft_type=1 | direct=1 | paths=2 | aux=1 | key=1]

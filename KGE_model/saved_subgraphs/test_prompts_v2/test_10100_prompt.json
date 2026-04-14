@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 107,
+        "head_label": "Larenz Tate",
+        "head_class": "Actor",
+        "relation_id": 102,
+        "relation_label": "director",
+        "gold_tail": 5008,
+        "gold_tail_label": "Charles University",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 14206,
+            "entity_label": "Christian Punk",
+            "entity_class": "Music Genre",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 1148,
+            "entity_label": "Mtv Movie Award for Best Kiss",
+            "entity_class": "Award Category",
+            "score": 4.178054,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 7516,
+            "entity_label": "Dick Clement",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 6031,
+            "entity_label": "North by Northwest",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 7107,
+            "entity_label": "Wayne County",
+            "entity_class": "Place",
+            "score": 3.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 14163,
+            "entity_label": "Wigan",
+            "entity_class": "City",
+            "score": 1.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 9890,
+            "entity_label": "Govinda",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 9741,
+            "entity_label": "Children's Television Series",
+            "entity_class": "Tv Series",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 4424,
+            "entity_label": "Dido",
+            "entity_class": "Queen",
+            "score": 4.107304,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 4,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 8283,
+            "entity_label": "Southend-on-sea",
+            "entity_class": "Location",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 11282,
+            "entity_label": "Cirque Du Freak: the Vampire's Assistant",
+            "entity_class": "Book",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 5281,
+            "entity_label": "Butte",
+            "entity_class": "City",
+            "score": 3.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 7201,
+            "entity_label": "Lantana",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 10018,
+            "entity_label": "Walon Green",
+            "entity_class": "Person",
+            "score": 2.193147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 4352,
+            "entity_label": "Hancock",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 6640,
+            "entity_label": "Steve Schirripa",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 10273,
+            "entity_label": "Grammy Award for Best Pop/contemporary Gospel Album",
+            "entity_class": "Music Award",
+            "score": 3.772589,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 10884,
+            "entity_label": "Bilbao",
+            "entity_class": "City",
+            "score": 3.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 5008,
+            "entity_label": "Charles University",
+            "entity_class": "University",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 3379,
+            "entity_label": "Judge Dredd",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "14206": 1,
+        "1148": 2,
+        "7516": 3,
+        "6031": 4,
+        "7107": 5,
+        "14163": 6,
+        "9890": 7,
+        "9741": 8,
+        "4424": 9,
+        "8283": 10,
+        "11282": 11,
+        "5281": 12,
+        "7201": 13,
+        "10018": 14,
+        "4352": 15,
+        "6640": 16,
+        "10273": 17,
+        "10884": 18,
+        "5008": 19,
+        "3379": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Larenz Tate, relation=director, tail=?)\n\nOntology summary:\n- Query relation: director\n- Head entity: Larenz Tate\n- Head class: Actor\n- Relation domain: Director\n- Relation range: Movie\n- Domain check: not clearly matched\n- Tail entities of class 'Movie' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=57, edges=73, paths=20\n- Head outgoing edges under target relation director: 1\n- Key support nodes: Larenz Tate, Alan J. Pakula, Dido, Wayne County, Mtv Movie Award for Best Kiss, Grammy Award for Best Pop/contemporary Gospel Album, Butte, Bilbao\n- Main auxiliary relations: hasDomesticTuition(16), hasRegularPerformanceRole(14), influencedBy(4)\n\nFrequent relation path patterns:\n- hasRosterPosition -> hasDomesticTuition -> director (count=14)\n- influencedBy -> hasRegularPerformanceRole -> director (count=5)\n- director (count=1)\n\nCandidates:\n1. Christian Punk [id=14206 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n2. Mtv Movie Award for Best Kiss [id=1148 | class=Award Category | type=0 | soft_type=0 | direct=0 | paths=3 | aux=2 | key=1]\n3. Dick Clement [id=7516 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. North by Northwest [id=6031 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Wayne County [id=7107 | class=Place | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n6. Wigan [id=14163 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=1]\n7. Govinda [id=9890 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Children's Television Series [id=9741 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n9. Dido [id=4424 | class=Queen | type=0 | soft_type=0 | direct=0 | paths=4 | aux=1 | key=1]\n10. Southend-on-sea [id=8283 | class=Location | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n11. Cirque Du Freak: the Vampire's Assistant [id=11282 | class=Book | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Butte [id=5281 | class=City | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n13. Lantana [id=7201 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n14. Walon Green [id=10018 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]\n15. Hancock [id=4352 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n16. Steve Schirripa [id=6640 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Grammy Award for Best Pop/contemporary Gospel Album [id=10273 | class=Music Award | type=0 | soft_type=0 | direct=0 | paths=3 | aux=1 | key=1]\n18. Bilbao [id=10884 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=1 | key=1]\n19. Charles University [id=5008 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Judge Dredd [id=3379 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n"
+}

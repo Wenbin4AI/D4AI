@@ -1,0 +1,62 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Richard Taylor, relation=hasCurrency, tail=?)
+
+Ontology summary:
+- Query relation: hasCurrency
+- Head entity: Richard Taylor
+- Head class: Person
+- Relation domain: Company
+- Relation range: Currency
+- Domain check: not clearly matched
+- Tail entities of class 'Currency' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=53, edges=56, paths=20
+- Head outgoing edges under target relation hasCurrency: 4
+- Key support nodes: Richard Taylor, San Luis Obispo, Crown Prince, The Outer Limits, Quarterback, Jon Stone, Paul Weller, John Goodman
+- Main auxiliary relations: foundIn(14), influencedBy(8), hasRegularPerformanceRole(6)
+
+Frequent relation path patterns:
+- hasCurrency -> hasArtist -> foundIn (count=10)
+- hasCurrency -> influencedBy -> hasRegularPerformanceRole (count=6)
+- hasCurrency (count=4)
+
+Candidates:
+1. Moline [id=14266 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Infernal Affairs Iii [id=5738 | class=Film Series | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+3. Academy Award for Best Production Design [id=356 | class=Award Category | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+4. Paul Weller [id=6494 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+5. Hal Smith [id=5441 | class=Actor and Voice Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+6. Zürich [id=6180 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+7. The Diary of Anne Frank [id=6400 | class=Book | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+8. The Police [id=2290 | class=Music Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Portsmouth [id=7409 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+10. Charles Rosher [id=12810 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+11. Progressive Conservative Party of Canada [id=14450 | class=Political Party | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+12. Richard Hammond [id=5150 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+13. Crown Prince [id=14013 | class=皇室 | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. Katie Couric [id=7841 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+15. Quarterback [id=771 | class=Position in American Football | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Camberwell College of Arts [id=10657 | class=College | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+17. 1996 Grammy Awards [id=2465 | class=Event | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+18. Furman University [id=1820 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+19. Marche [id=11359 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+20. San Luis Obispo [id=4902 | class=Place | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

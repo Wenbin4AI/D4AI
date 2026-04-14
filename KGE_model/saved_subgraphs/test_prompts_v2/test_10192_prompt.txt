@@ -1,0 +1,62 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Music, relation=hasFriend, tail=?)
+
+Ontology summary:
+- Query relation: hasFriend
+- Head entity: Music
+- Head class: Music
+- Relation domain: Person
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=54, edges=64, paths=20
+- Head outgoing edges under target relation hasFriend: 1
+- Key support nodes: Music, Hope Springs, Greater Manchester, Hamilton County, Rashida Jones, General Hospital, Marvel Comics, Dabney Coleman
+- Main auxiliary relations: hasDomesticTuition(20), performedBy(7), influencedBy(3)
+
+Frequent relation path patterns:
+- hasRosterPosition -> hasDomesticTuition -> hasFriend (count=14)
+- hasFriend -> hasRosterPosition -> hasDomesticTuition (count=5)
+- hasFriend (count=1)
+
+Candidates:
+1. Rostock [id=11966 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+2. Julius Caesar [id=10886 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+3. Dylan Baker [id=7305 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+4. James E. Reilly [id=3253 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+5. Harvard University [id=3183 | class=University | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+6. Stephanie Morgenstern [id=3868 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+7. Dennis Franz [id=9769 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+8. Star Trek Iv: the Voyage Home [id=9853 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+9. Eli Roth [id=661 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+10. General Hospital [id=1094 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+11. Logic [id=3302 | class=Music Artist | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+12. Rhode Island School of Design [id=1842 | class=School | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+13. Dabney Coleman [id=6082 | class=Person | type=1 | soft_type=1 | direct=0 | paths=2 | aux=0 | key=1]
+14. Marvel Comics [id=6692 | class=Company | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+15. Brian Wilson [id=514 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]
+16. Texas Rangers [id=7445 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+17. Mamoru Miyano [id=12470 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+18. Hamilton County [id=12481 | class=Administrative Region | type=0 | soft_type=0 | direct=0 | paths=4 | aux=0 | key=1]
+19. Greater Manchester [id=14068 | class=Metropolitan County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+20. Rashida Jones [id=7865 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=1]

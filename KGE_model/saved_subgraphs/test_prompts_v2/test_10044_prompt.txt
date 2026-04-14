@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Brandon, relation=hasEndowmentCurrency, tail=?)
+
+Ontology summary:
+- Query relation: hasEndowmentCurrency
+- Head entity: Brandon
+- Head class: City
+- Relation domain: University
+- Relation range: Currency
+- Domain check: not clearly matched
+- Tail entities of class 'Currency' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=46, edges=50, paths=20
+- Head outgoing edges under target relation hasEndowmentCurrency: 22
+- Key support nodes: Brandon, Central Alberta, Hampton, Brisbane, Luxembourg, Mount Vernon, Jay and Silent Bob Strike Back, Abraham Lincoln
+- Main auxiliary relations: hasRosterPosition(8), hasWriter(3), influencedBy(3)
+
+Frequent relation path patterns:
+- hasEndowmentCurrency (count=20)
+
+Candidates:
+1. Goya Award for Best Actress [id=7494 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Mount Vernon [id=7596 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. The Police [id=2290 | class=Music Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Luxembourg [id=5001 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Michael Crichton [id=5769 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Memphis [id=5108 | class=City/town | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Democratic Party [id=8433 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Simon Property Group [id=7956 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Jay and Silent Bob Strike Back [id=4752 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Striptease [id=618 | class=Performance Art | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Beijing Guoan F.c. [id=10137 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Gold Coast [id=12448 | class=Geographical Area | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Central Alberta [id=14138 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. American Pie [id=6404 | class=Book | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Hampton [id=7198 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Cry Freedom [id=12147 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Abraham Lincoln [id=13415 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Hilary Haag [id=5077 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Fc Schaffhausen [id=10793 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Brisbane [id=11448 | class=Geographic Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 9571,
+        "head_label": "Proto-punk",
+        "head_class": "Music Genre",
+        "relation_id": 82,
+        "relation_label": "hasReligion",
+        "gold_tail": 2593,
+        "gold_tail_label": "Thelonious Monk",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 199,
+            "entity_label": "Math Rock",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 6522,
+            "entity_label": "2008 Ncaa Division I Men's Basketball Tournament",
+            "entity_class": "Basketball Tournament",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 7752,
+            "entity_label": "Laos",
+            "entity_class": "Country",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 8023,
+            "entity_label": "New London",
+            "entity_class": "City",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 5327,
+            "entity_label": "George Frideric Handel",
+            "entity_class": "Composer",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 10324,
+            "entity_label": "Cree Summer",
+            "entity_class": "Actress",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 10979,
+            "entity_label": "Stephen Baxter",
+            "entity_class": "Author",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 8484,
+            "entity_label": "Michael Fassbender",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 8050,
+            "entity_label": "Grammy Award for Best Dance/electronic Album",
+            "entity_class": "Music Award",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 325,
+            "entity_label": "Terre Haute",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 1455,
+            "entity_label": "David Byrne",
+            "entity_class": "Musician",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 10268,
+            "entity_label": "Saturday Night's Main Event",
+            "entity_class": "Event",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 1878,
+            "entity_label": "David Walliams",
+            "entity_class": "Actor",
+            "score": 6.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 14395,
+            "entity_label": "Seoul Broadcasting System",
+            "entity_class": "Broadcasting Network",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 10856,
+            "entity_label": "Blackburn Rovers F.c.",
+            "entity_class": "Organization",
+            "score": 6.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 7666,
+            "entity_label": "2010: the Year We Make Contact",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 1228,
+            "entity_label": "The Savages",
+            "entity_class": "Film",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 12756,
+            "entity_label": "The Cure",
+            "entity_class": "Music Group",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 2593,
+            "entity_label": "Thelonious Monk",
+            "entity_class": "Musician",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 12173,
+            "entity_label": "Burlington",
+            "entity_class": "Location",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "199": 1,
+        "6522": 2,
+        "7752": 3,
+        "8023": 4,
+        "5327": 5,
+        "10324": 6,
+        "10979": 7,
+        "8484": 8,
+        "8050": 9,
+        "325": 10,
+        "1455": 11,
+        "10268": 12,
+        "1878": 13,
+        "14395": 14,
+        "10856": 15,
+        "7666": 16,
+        "1228": 17,
+        "12756": 18,
+        "2593": 19,
+        "12173": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Proto-punk, relation=hasReligion, tail=?)\n\nOntology summary:\n- Query relation: hasReligion\n- Head entity: Proto-punk\n- Head class: Music Genre\n- Relation domain: Person\n- Relation range: Religion\n- Domain check: not clearly matched\n- Tail entities of class 'Religion' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=42, edges=49, paths=20\n- Head outgoing edges under target relation hasReligion: 15\n- Key support nodes: Proto-punk, David Walliams, Burlington, The Cure, George Frideric Handel, New London, Blackburn Rovers F.c., 2008 Ncaa Division I Men's Basketball Tournament\n- Main auxiliary relations: performedBy(9), hasRosterPosition(6), hasCounty(5)\n\nFrequent relation path patterns:\n- hasReligion (count=15)\n- hasRegularPerformanceRole (count=2)\n- hasReligion -> hasArtist -> foundIn (count=2)\n- hasReligion -> livingIn (count=1)\n\nCandidates:\n1. Math Rock [id=199 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. 2008 Ncaa Division I Men's Basketball Tournament [id=6522 | class=Basketball Tournament | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Laos [id=7752 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. New London [id=8023 | class=City | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n5. George Frideric Handel [id=5327 | class=Composer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Cree Summer [id=10324 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Stephen Baxter [id=10979 | class=Author | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n8. Michael Fassbender [id=8484 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Grammy Award for Best Dance/electronic Album [id=8050 | class=Music Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Terre Haute [id=325 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. David Byrne [id=1455 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Saturday Night's Main Event [id=10268 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. David Walliams [id=1878 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]\n14. Seoul Broadcasting System [id=14395 | class=Broadcasting Network | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Blackburn Rovers F.c. [id=10856 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]\n16. 2010: the Year We Make Contact [id=7666 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. The Savages [id=1228 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. The Cure [id=12756 | class=Music Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Thelonious Monk [id=2593 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Burlington [id=12173 | class=Location | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n"
+}

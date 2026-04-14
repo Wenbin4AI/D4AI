@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=George Gershwin, relation=hasRosterPosition, tail=?)
+
+Ontology summary:
+- Query relation: hasRosterPosition
+- Head entity: George Gershwin
+- Head class: Composer
+- Relation domain: Football Club
+- Relation range: Position
+- Domain check: not clearly matched
+- Tail entities of class 'Position' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=39, edges=52, paths=20
+- Head outgoing edges under target relation hasRosterPosition: 9
+- Key support nodes: George Gershwin, Brazil National Football Team, 72nd Academy Awards, Southend United F.c., Alan J. Pakula, Butch Hartman, Why We Fight, Edmund Husserl
+- Main auxiliary relations: hasDomesticTuition(26), performedBy(3), hasAppearance(1)
+
+Frequent relation path patterns:
+- hasRosterPosition -> hasDomesticTuition -> hasRosterPosition (count=11)
+- hasRosterPosition (count=9)
+
+Candidates:
+1. Clive Owen [id=3343 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Butch Hartman [id=11871 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Keble College [id=11904 | class=College | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. 72nd Academy Awards [id=912 | class=Academy Awards | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Hope Springs [id=3776 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+6. New Castle County [id=2590 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. University of California College of the Law, San Francisco [id=8701 | class=Law School | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Shochiku [id=13511 | class=Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Why We Fight [id=5817 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Siskiyou County [id=9239 | class=Administrative Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Some Kind of Monster [id=743 | class=Movie Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Glitch [id=14072 | class=Music Subgenre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+13. Brazil National Football Team [id=11806 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=12 | aux=0 | key=1]
+14. Luke Wilson [id=8010 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+15. Alan J. Pakula [id=12677 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. University of Ibadan [id=8844 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Edmund Husserl [id=8137 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Set Dresser [id=4864 | class=Job Title | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Cynthia Watros [id=4016 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+20. Southend United F.c. [id=8811 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

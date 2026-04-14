@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 1949,
+        "head_label": "Anthony Quinn",
+        "head_class": "Actor",
+        "relation_id": 86,
+        "relation_label": "hasProductionCompanies",
+        "gold_tail": 9084,
+        "gold_tail_label": "Lipid",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 9462,
+            "entity_label": "The Lookout",
+            "entity_class": "Movie/tv Show",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 8121,
+            "entity_label": "Van Nest Polglase",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 3339,
+            "entity_label": "Land of the Lost",
+            "entity_class": "Film",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 1035,
+            "entity_label": "Talk to Me",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 1806,
+            "entity_label": "Massachusetts",
+            "entity_class": "State",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 3567,
+            "entity_label": "59th Berlin International Film Festival",
+            "entity_class": "Film Festival",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 10371,
+            "entity_label": "Johann Wolfgang Von Goethe",
+            "entity_class": "Writer/poet",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 13537,
+            "entity_label": "Warrington",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 11079,
+            "entity_label": "From Russia with Love",
+            "entity_class": "Book",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 5871,
+            "entity_label": "Japan Academy Prize for Picture of the Year",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8954,
+            "entity_label": "Preston Sturges",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 854,
+            "entity_label": "Nebraska",
+            "entity_class": "Location",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 6757,
+            "entity_label": "Liberia",
+            "entity_class": "Country",
+            "score": 4.380786,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 5,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 6279,
+            "entity_label": "2012 San Sebastián International Film Festival",
+            "entity_class": "Film Festival",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 3902,
+            "entity_label": "Henry Bumstead",
+            "entity_class": "Person",
+            "score": 4.295837,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 8,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 2491,
+            "entity_label": "City College of New York",
+            "entity_class": "College",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 1880,
+            "entity_label": "Psycho",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 11283,
+            "entity_label": "Criminology",
+            "entity_class": "Field of Study",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 9084,
+            "entity_label": "Lipid",
+            "entity_class": "Biochemistry",
+            "score": 7.119162,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 7,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "9462": 1,
+        "8121": 2,
+        "3339": 3,
+        "1035": 4,
+        "1806": 5,
+        "3567": 6,
+        "10371": 7,
+        "13537": 8,
+        "11079": 9,
+        "5871": 10,
+        "8954": 11,
+        "854": 12,
+        "6757": 13,
+        "6279": 14,
+        "3902": 15,
+        "2491": 16,
+        "1880": 17,
+        "11283": 18,
+        "9084": 19,
+        "14037": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Anthony Quinn, relation=hasProductionCompanies, tail=?)\n\nOntology summary:\n- Query relation: hasProductionCompanies\n- Head entity: Anthony Quinn\n- Head class: Actor\n- Relation domain: Movie\n- Relation range: Film Studio\n- Domain check: not clearly matched\n- Tail entities of class 'Film Studio' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=49, edges=67, paths=20\n- Head outgoing edges under target relation hasProductionCompanies: 1\n- Key support nodes: Anthony Quinn, Igor Stravinsky, Henry Bumstead, Lipid, Liberia, Jonathan Lynn, John Broome, Sugar Hill Records\n- Main auxiliary relations: foundIn(20), hasRosterPosition(5), hasProfession(3)\n\nFrequent relation path patterns:\n- hasArtist -> foundIn -> hasProductionCompanies (count=18)\n- hasProductionCompanies (count=1)\n- livingIn -> hasProductionCompanies (count=1)\n\nCandidates:\n1. The Lookout [id=9462 | class=Movie/tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Van Nest Polglase [id=8121 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Land of the Lost [id=3339 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Talk to Me [id=1035 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Massachusetts [id=1806 | class=State | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. 59th Berlin International Film Festival [id=3567 | class=Film Festival | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Johann Wolfgang Von Goethe [id=10371 | class=Writer/poet | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Warrington [id=13537 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. From Russia with Love [id=11079 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Japan Academy Prize for Picture of the Year [id=5871 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Preston Sturges [id=8954 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Nebraska [id=854 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Liberia [id=6757 | class=Country | type=0 | soft_type=0 | direct=0 | paths=5 | aux=1 | key=1]\n14. 2012 San Sebastián International Film Festival [id=6279 | class=Film Festival | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Henry Bumstead [id=3902 | class=Person | type=0 | soft_type=0 | direct=0 | paths=8 | aux=0 | key=1]\n16. City College of New York [id=2491 | class=College | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Psycho [id=1880 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Criminology [id=11283 | class=Field of Study | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Lipid [id=9084 | class=Biochemistry | type=0 | soft_type=0 | direct=1 | paths=7 | aux=0 | key=1]\n20. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n"
+}

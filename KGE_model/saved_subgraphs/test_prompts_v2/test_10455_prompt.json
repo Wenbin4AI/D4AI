@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 14493,
+        "head_label": "Chicago Blues",
+        "head_class": "Music Genre",
+        "relation_id": 125,
+        "relation_label": "hasAthlete",
+        "gold_tail": 3221,
+        "gold_tail_label": "If Elfsborg",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 11950,
+            "entity_label": "Washington County",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 4704,
+            "entity_label": "James Denton",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 8074,
+            "entity_label": "June Allyson",
+            "entity_class": "Actress",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 3246,
+            "entity_label": "Bob Newhart",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 6420,
+            "entity_label": "Zach Galifianakis",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 11868,
+            "entity_label": "Puppet",
+            "entity_class": "Puppet",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 5567,
+            "entity_label": "Since You Went Away",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 12036,
+            "entity_label": "Kennebec County",
+            "entity_class": "Location",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 3992,
+            "entity_label": "Emilio Estefan",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 3653,
+            "entity_label": "Kingdom of Italy",
+            "entity_class": "Country",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8657,
+            "entity_label": "W. H. Auden",
+            "entity_class": "Poet",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 7105,
+            "entity_label": "Trevor Howard",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 3696,
+            "entity_label": "David O. Russell",
+            "entity_class": "Person",
+            "score": 11.418865,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 6,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 9557,
+            "entity_label": "Anna Karenina",
+            "entity_class": "Book",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 13745,
+            "entity_label": "United States Department of State",
+            "entity_class": "Government Agency",
+            "score": 7.596843,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 10,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 7736,
+            "entity_label": "The Fairly Oddparents",
+            "entity_class": "Tv Show",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 3069,
+            "entity_label": "Anita Baker",
+            "entity_class": "Singer",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 10309,
+            "entity_label": "George Hamilton",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 3221,
+            "entity_label": "If Elfsborg",
+            "entity_class": "Sports Club",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 7952,
+            "entity_label": "Gilles Deleuze",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "11950": 1,
+        "4704": 2,
+        "8074": 3,
+        "3246": 4,
+        "6420": 5,
+        "11868": 6,
+        "5567": 7,
+        "12036": 8,
+        "3992": 9,
+        "3653": 10,
+        "8657": 11,
+        "7105": 12,
+        "3696": 13,
+        "9557": 14,
+        "13745": 15,
+        "7736": 16,
+        "3069": 17,
+        "10309": 18,
+        "3221": 19,
+        "7952": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Chicago Blues, relation=hasAthlete, tail=?)\n\nOntology summary:\n- Query relation: hasAthlete\n- Head entity: Chicago Blues\n- Head class: Music Genre\n- Relation domain: Sport\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=47, edges=65, paths=20\n- Head outgoing edges under target relation hasAthlete: 3\n- Key support nodes: Chicago Blues, David O. Russell, United States Department of State, If Elfsborg, Wiltshire, Anita Baker, Jackie Brown, 1994 Winter Olympics\n- Main auxiliary relations: hasWinner(20), hasEndowmentCurrency(5), hasImpersonatedCelebrities(4)\n\nFrequent relation path patterns:\n- hasAthlete -> hasWinner -> hasAthlete (count=14)\n- hasAthlete (count=3)\n- hasImpersonatedCelebrities -> hasAthlete (count=1)\n- hasReleaseMedium -> hasAthlete (count=1)\n- hasParticipatedIn -> hasAthlete (count=1)\n\nCandidates:\n1. Washington County [id=11950 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. James Denton [id=4704 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. June Allyson [id=8074 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Bob Newhart [id=3246 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Zach Galifianakis [id=6420 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Puppet [id=11868 | class=Puppet | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Since You Went Away [id=5567 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Kennebec County [id=12036 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Emilio Estefan [id=3992 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Kingdom of Italy [id=3653 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. W. H. Auden [id=8657 | class=Poet | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Trevor Howard [id=7105 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. David O. Russell [id=3696 | class=Person | type=1 | soft_type=1 | direct=1 | paths=6 | aux=0 | key=1]\n14. Anna Karenina [id=9557 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. United States Department of State [id=13745 | class=Government Agency | type=0 | soft_type=0 | direct=1 | paths=10 | aux=0 | key=1]\n16. The Fairly Oddparents [id=7736 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Anita Baker [id=3069 | class=Singer | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n18. George Hamilton [id=10309 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. If Elfsborg [id=3221 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n20. Gilles Deleuze [id=7952 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n"
+}

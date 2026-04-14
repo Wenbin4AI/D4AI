@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=New London, relation=performedBy, tail=?)
+
+Ontology summary:
+- Query relation: performedBy
+- Head entity: New London
+- Head class: City
+- Relation domain: Musical Instrument
+- Relation range: Musical Instrument
+- Domain check: not clearly matched
+- Tail entities of class 'Musical Instrument' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=42, edges=49, paths=20
+- Head outgoing edges under target relation performedBy: 21
+- Key support nodes: New London, Angela Lansbury, Houston Aeros, Algeria National Football Team, 2009 Tour De France, Colchester United F.c., Schulich School of Law, Bobby Wolff
+- Main auxiliary relations: hasColors(4), gdpNominal(3), hasPerformanceType(2)
+
+Frequent relation path patterns:
+- performedBy (count=20)
+
+Candidates:
+1. How to Train Your Dragon [id=2505 | class=Animated Movie Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Colchester United F.c. [id=12955 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Android [id=14476 | class=Operating System | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. 2009 Tour De France [id=14526 | class=Cycling Race | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Hudson County [id=5190 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Pancreatic Cancer [id=6980 | class=Disease | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. World Fantasy Award for Best Novel [id=10222 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Kajol [id=2882 | class=Actor/actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Schulich School of Law [id=9818 | class=Law School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Pierre Boulez [id=242 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Leander Paes [id=2747 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Montpelier [id=7124 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]
+13. Houston Aeros [id=13752 | class=Ice Hockey Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+14. Tennis Borussia Berlin [id=13506 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Algeria National Football Team [id=5904 | class=National Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+16. Cedar Rapids [id=5696 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Bobby Wolff [id=9065 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. 2006 Major League Baseball Season [id=11218 | class=Baseball Season | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Santa Cruz [id=4031 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Angela Lansbury [id=10646 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

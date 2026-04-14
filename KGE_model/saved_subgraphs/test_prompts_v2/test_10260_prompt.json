@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 6106,
+        "head_label": "Jim Steinman",
+        "head_class": "Songwriter",
+        "relation_id": 33,
+        "relation_label": "rent50Currency",
+        "gold_tail": 9034,
+        "gold_tail_label": "Karnataka",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 819,
+            "entity_label": "Imelda Staunton",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 10222,
+            "entity_label": "World Fantasy Award for Best Novel",
+            "entity_class": "Award",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 216,
+            "entity_label": "Bergen County",
+            "entity_class": "Location",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 2029,
+            "entity_label": "Uriah Heep",
+            "entity_class": "Rock Band",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 11173,
+            "entity_label": "Grammy Award for Best Boxed or Special Limited Edition Package",
+            "entity_class": "Award Category",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 6759,
+            "entity_label": "J. D. Salinger",
+            "entity_class": "Author",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 3031,
+            "entity_label": "Charlotte Gainsbourg",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 10060,
+            "entity_label": "Columbia",
+            "entity_class": "Record Label",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 268,
+            "entity_label": "Warner Bros.",
+            "entity_class": "Film Company",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 8662,
+            "entity_label": "Bucknell University",
+            "entity_class": "University",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 3502,
+            "entity_label": "100th United States Congress",
+            "entity_class": "Government Agency",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 14476,
+            "entity_label": "Android",
+            "entity_class": "Operating System",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 242,
+            "entity_label": "Pierre Boulez",
+            "entity_class": "Person",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 3056,
+            "entity_label": "Ryan Phillippe",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 13506,
+            "entity_label": "Tennis Borussia Berlin",
+            "entity_class": "Sports Club",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 1943,
+            "entity_label": "Jorge Luis Borges",
+            "entity_class": "Author",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 12402,
+            "entity_label": "Kanpur",
+            "entity_class": "Location",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 2505,
+            "entity_label": "How to Train Your Dragon",
+            "entity_class": "Animated Movie Series",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 9034,
+            "entity_label": "Karnataka",
+            "entity_class": "State",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 7124,
+            "entity_label": "Montpelier",
+            "entity_class": "City",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "819": 1,
+        "10222": 2,
+        "216": 3,
+        "2029": 4,
+        "11173": 5,
+        "6759": 6,
+        "3031": 7,
+        "10060": 8,
+        "268": 9,
+        "8662": 10,
+        "3502": 11,
+        "14476": 12,
+        "242": 13,
+        "3056": 14,
+        "13506": 15,
+        "1943": 16,
+        "12402": 17,
+        "2505": 18,
+        "9034": 19,
+        "7124": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Jim Steinman, relation=rent50Currency, tail=?)\n\nOntology summary:\n- Query relation: rent50Currency\n- Head entity: Jim Steinman\n- Head class: Songwriter\n- Relation domain: County\n- Relation range: Currency\n- Domain check: not clearly matched\n- Tail entities of class 'Currency' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=43, edges=48, paths=20\n- Head outgoing edges under target relation rent50Currency: 21\n- Key support nodes: Jim Steinman, Uriah Heep, World Fantasy Award for Best Novel, Warner Bros., Tennis Borussia Berlin, Pierre Boulez, Kanpur, Montpelier\n- Main auxiliary relations: hasPhoneNumber(5), countyPlace(4), hasPerformanceType(3)\n\nFrequent relation path patterns:\n- rent50Currency (count=20)\n\nCandidates:\n1. Imelda Staunton [id=819 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. World Fantasy Award for Best Novel [id=10222 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Bergen County [id=216 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Uriah Heep [id=2029 | class=Rock Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Grammy Award for Best Boxed or Special Limited Edition Package [id=11173 | class=Award Category | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. J. D. Salinger [id=6759 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Charlotte Gainsbourg [id=3031 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Columbia [id=10060 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Warner Bros. [id=268 | class=Film Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Bucknell University [id=8662 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. 100th United States Congress [id=3502 | class=Government Agency | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Android [id=14476 | class=Operating System | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Pierre Boulez [id=242 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n14. Ryan Phillippe [id=3056 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Tennis Borussia Berlin [id=13506 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n16. Jorge Luis Borges [id=1943 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Kanpur [id=12402 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. How to Train Your Dragon [id=2505 | class=Animated Movie Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Karnataka [id=9034 | class=State | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Montpelier [id=7124 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n"
+}

@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Band of Brothers, relation=hasEndowmentCurrency, tail=?)
+
+Ontology summary:
+- Query relation: hasEndowmentCurrency
+- Head entity: Band of Brothers
+- Head class: Tv Series
+- Relation domain: University
+- Relation range: Currency
+- Domain check: not clearly matched
+- Tail entities of class 'Currency' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=42, edges=50, paths=20
+- Head outgoing edges under target relation hasEndowmentCurrency: 23
+- Key support nodes: Band of Brothers, Memphis, Fc Dinamo Moscow, Bancroft Prize, Game of Thrones, Swindon Town F.c., Pittsburgh Panthers Football, Harold Rosson
+- Main auxiliary relations: hasRosterPosition(9), hasWriter(5), hasProfession(4)
+
+Frequent relation path patterns:
+- hasEndowmentCurrency (count=20)
+
+Candidates:
+1. Linda Ronstadt [id=1612 | class=Singer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Swindon Town F.c. [id=7493 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. York [id=10941 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Game of Thrones [id=6839 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Steubenville [id=13894 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Mark Gatiss [id=3033 | class=Screenwriter | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Calcium [id=9633 | class=Chemical Element | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Uefa [id=8313 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Pittsburgh Panthers Football [id=1270 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Fukuoka [id=3897 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Southern Baptist Convention Church [id=10644 | class=Church | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Ja Rule [id=2498 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Memphis [id=5108 | class=City/town | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. Octavia Spencer [id=1362 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Fc Dinamo Moscow [id=8408 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Merge Records [id=12289 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Harold Rosson [id=9270 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. David Rasche [id=8287 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Carl Jung [id=4876 | class=Psychologist | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Bancroft Prize [id=14468 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

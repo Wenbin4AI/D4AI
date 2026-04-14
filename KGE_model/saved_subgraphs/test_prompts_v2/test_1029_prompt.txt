@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Valencia, relation=hasDesignedFilmSets, tail=?)
+
+Ontology summary:
+- Query relation: hasDesignedFilmSets
+- Head entity: Valencia
+- Head class: City
+- Relation domain: Person
+- Relation range: Movie
+- Domain check: not clearly matched
+- Tail entities of class 'Movie' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=40, edges=48, paths=20
+- Head outgoing edges under target relation hasDesignedFilmSets: 17
+- Key support nodes: Valencia, Lewis County, The Terminator, Olivia De Havilland, Southern Soul, Political Hip Hop, The Mummy: Tomb of the Dragon Emperor, Emi
+- Main auxiliary relations: hasNetflixGenreTitle(4), hasMonthlyClimate(4), hasAthlete(3)
+
+Frequent relation path patterns:
+- hasDesignedFilmSets (count=17)
+- hasDesignedFilmSets -> hasDesignedFilmSets (count=3)
+
+Candidates:
+1. Ann Roth [id=3422 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Political Hip Hop [id=11818 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Alex Borstein [id=1341 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Southern Soul [id=14384 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+5. The Terminator [id=8089 | class=Franchise | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Kanagawa Prefecture [id=10943 | class=Prefecture | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Anjelica Huston [id=149 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Valencia [id=9861 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]
+9. Olivia De Havilland [id=9075 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. University of North Texas [id=127 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. William Pitt the Younger [id=1141 | class=Statesman | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Star Wars: Episode I – the Phantom Menace [id=2655 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. The Mummy: Tomb of the Dragon Emperor [id=1679 | class=Movie | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+14. Paris Hilton [id=8512 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. The Truman Show [id=7152 | class=Movie | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+16. Joseph Conrad [id=3283 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Emi [id=1931 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Peter Boyle [id=3938 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Rent [id=8021 | class=Play | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Lewis County [id=8266 | class=County | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]

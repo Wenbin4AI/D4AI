@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 3480,
+        "head_label": "Ryan Kavanaugh",
+        "head_class": "Producer",
+        "relation_id": 175,
+        "relation_label": "hasSibling",
+        "gold_tail": 14014,
+        "gold_tail_label": "St Helens",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 7842,
+            "entity_label": "Hardcore Hip Hop",
+            "entity_class": "Music Genre",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 13046,
+            "entity_label": "Conglomerate",
+            "entity_class": "Company",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 11294,
+            "entity_label": "Gena Rowlands",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 9604,
+            "entity_label": "Mickey Rourke",
+            "entity_class": "Actor",
+            "score": 5.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 1388,
+            "entity_label": "Black Hawk Down",
+            "entity_class": "Film",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 11306,
+            "entity_label": "Billy Bletcher",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 5049,
+            "entity_label": "Shohei Imamura",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 886,
+            "entity_label": "Bebe Neuwirth",
+            "entity_class": "Actress",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 6741,
+            "entity_label": "Central School of Speech and Drama",
+            "entity_class": "Organization",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 8424,
+            "entity_label": "Grammy Award for Best Rap Album",
+            "entity_class": "Award",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 696,
+            "entity_label": "Allentown",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 1283,
+            "entity_label": "Relativity Media",
+            "entity_class": "Company",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 4432,
+            "entity_label": "Paul Mccartney",
+            "entity_class": "Person",
+            "score": 8.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 3167,
+            "entity_label": "Tommy Lee",
+            "entity_class": "Musician and Drummer",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 8286,
+            "entity_label": "Gina Mckee",
+            "entity_class": "Person",
+            "score": 8.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 2139,
+            "entity_label": "Sindh",
+            "entity_class": "Administrativeregion",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 14064,
+            "entity_label": "Texas Blues",
+            "entity_class": "Music Genre",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 3451,
+            "entity_label": "Scottish People",
+            "entity_class": "Ethnic Group",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 14014,
+            "entity_label": "St Helens",
+            "entity_class": "地理位置",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 5723,
+            "entity_label": "Zachary Quinto",
+            "entity_class": "Actor",
+            "score": 6.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "7842": 1,
+        "13046": 2,
+        "11294": 3,
+        "9604": 4,
+        "1388": 5,
+        "11306": 6,
+        "5049": 7,
+        "886": 8,
+        "6741": 9,
+        "8424": 10,
+        "696": 11,
+        "1283": 12,
+        "4432": 13,
+        "3167": 14,
+        "8286": 15,
+        "2139": 16,
+        "14064": 17,
+        "3451": 18,
+        "14014": 19,
+        "5723": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Ryan Kavanaugh, relation=hasSibling, tail=?)\n\nOntology summary:\n- Query relation: hasSibling\n- Head entity: Ryan Kavanaugh\n- Head class: Producer\n- Relation domain: Person\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=43, edges=47, paths=20\n- Head outgoing edges under target relation hasSibling: 20\n- Key support nodes: Ryan Kavanaugh, Conglomerate, Central School of Speech and Drama, Texas Blues, Scottish People, Black Hawk Down, Relativity Media, Tommy Lee\n- Main auxiliary relations: hasBurialPlace(9), isInductedIntoHallOfFame(3), editedBy(3)\n\nFrequent relation path patterns:\n- hasSibling (count=20)\n\nCandidates:\n1. Hardcore Hip Hop [id=7842 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Conglomerate [id=13046 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Gena Rowlands [id=11294 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Mickey Rourke [id=9604 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n5. Black Hawk Down [id=1388 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Billy Bletcher [id=11306 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Shohei Imamura [id=5049 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Bebe Neuwirth [id=886 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Central School of Speech and Drama [id=6741 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Grammy Award for Best Rap Album [id=8424 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n11. Allentown [id=696 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Relativity Media [id=1283 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. Paul Mccartney [id=4432 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n14. Tommy Lee [id=3167 | class=Musician and Drummer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n15. Gina Mckee [id=8286 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n16. Sindh [id=2139 | class=Administrativeregion | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Texas Blues [id=14064 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Scottish People [id=3451 | class=Ethnic Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. St Helens [id=14014 | class=地理位置 | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Zachary Quinto [id=5723 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

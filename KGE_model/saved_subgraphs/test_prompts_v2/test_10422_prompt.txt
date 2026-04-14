@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Zagreb, relation=placeOfDeath, tail=?)
+
+Ontology summary:
+- Query relation: placeOfDeath
+- Head entity: Zagreb
+- Head class: City
+- Relation domain: Person
+- Relation range: City
+- Domain check: not clearly matched
+- Tail entities of class 'City' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=47, edges=50, paths=20
+- Head outgoing edges under target relation placeOfDeath: 20
+- Key support nodes: Zagreb, John Lee Hooker, Bryan Singer, Toni Morrison, 16th United States Congress, Allentown, Carolina Panthers, 111th United States Congress
+- Main auxiliary relations: hasNetflixGenreTitle(8), hasStudent(4), hasReligion(3)
+
+Frequent relation path patterns:
+- placeOfDeath (count=20)
+
+Candidates:
+1. Codemasters [id=10363 | class=Video Game Developer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Toni Morrison [id=4988 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. National Society of Film Critics Award for Best Director [id=1389 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Bryan Singer [id=12 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Legia Warsaw [id=10180 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Michael Stuhlbarg [id=3576 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Anthony Quayle [id=5419 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Pearl Jam [id=3995 | class=Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. 16th United States Congress [id=4733 | class=Governmentbody | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Thessaloniki [id=14367 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+11. Hope Davis [id=3496 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Ismaily Sc [id=5275 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+13. Allentown [id=696 | class=City | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+14. State College [id=7960 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+15. Rochester [id=12518 | class=City | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+16. South Africa National Association Football Team [id=8173 | class=National Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Carolina Panthers [id=938 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. 111th United States Congress [id=513 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Phil Ramone [id=5025 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. John Lee Hooker [id=130 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

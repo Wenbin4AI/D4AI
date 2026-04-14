@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 3014,
+        "head_label": "Daytime Emmy Award for Outstanding Children's Animated Program",
+        "head_class": "Award",
+        "relation_id": 82,
+        "relation_label": "hasReligion",
+        "gold_tail": 13697,
+        "gold_tail_label": "Philadelphia Union",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 10399,
+            "entity_label": "Nikolai Rimsky-korsakov",
+            "entity_class": "Musician",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 1847,
+            "entity_label": "Chandra Wilson",
+            "entity_class": "Person",
+            "score": 2.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 12755,
+            "entity_label": "Bordeaux",
+            "entity_class": "City",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 9800,
+            "entity_label": "Never Let Me Go",
+            "entity_class": "Movie",
+            "score": 2.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 6255,
+            "entity_label": "Octopussy",
+            "entity_class": "James Bond Movie",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 9210,
+            "entity_label": "City of London",
+            "entity_class": "City",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 10977,
+            "entity_label": "Premnath",
+            "entity_class": "Person",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 539,
+            "entity_label": "Erich Wolfgang Korngold",
+            "entity_class": "Composer",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 12042,
+            "entity_label": "Liga Deportiva Universitaria De Quito",
+            "entity_class": "Sports Club",
+            "score": 2.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 7680,
+            "entity_label": "Donaldus Milford Payne",
+            "entity_class": "Person",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 1643,
+            "entity_label": "Moonraker",
+            "entity_class": "Film",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 14171,
+            "entity_label": "Carmarthen",
+            "entity_class": "Town",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 9494,
+            "entity_label": "Rabbi",
+            "entity_class": "Rabbi",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 11263,
+            "entity_label": "Fleetwood Town F.c.",
+            "entity_class": "Football Club",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 1409,
+            "entity_label": "Lauren Bacall",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 1490,
+            "entity_label": "The Cable Guy",
+            "entity_class": "Movie",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 9306,
+            "entity_label": "Luton",
+            "entity_class": "City",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 5476,
+            "entity_label": "George Washington University",
+            "entity_class": "University",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 13697,
+            "entity_label": "Philadelphia Union",
+            "entity_class": "Sports Team",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 1333,
+            "entity_label": "Warlord",
+            "entity_class": "Person",
+            "score": 2.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "10399": 1,
+        "1847": 2,
+        "12755": 3,
+        "9800": 4,
+        "6255": 5,
+        "9210": 6,
+        "10977": 7,
+        "539": 8,
+        "12042": 9,
+        "7680": 10,
+        "1643": 11,
+        "14171": 12,
+        "9494": 13,
+        "11263": 14,
+        "1409": 15,
+        "1490": 16,
+        "9306": 17,
+        "5476": 18,
+        "13697": 19,
+        "1333": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Daytime Emmy Award for Outstanding Children's Animated Program, relation=hasReligion, tail=?)\n\nOntology summary:\n- Query relation: hasReligion\n- Head entity: Daytime Emmy Award for Outstanding Children's Animated Program\n- Head class: Award\n- Relation domain: Person\n- Relation range: Religion\n- Domain check: not clearly matched\n- Tail entities of class 'Religion' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=46, edges=49, paths=20\n- Head outgoing edges under target relation hasReligion: 3\n- Key support nodes: Daytime Emmy Award for Outstanding Children's Animated Program, Rabbi, The Bourne Supremacy, Old Dogs, Lauren Bacall, Philadelphia Union, Never Let Me Go, Chandra Wilson\n- Main auxiliary relations: foundIn(15), hasRosterPosition(4), hasCounty(3)\n\nFrequent relation path patterns:\n- hasReligion -> hasArtist -> foundIn (count=14)\n- hasReligion (count=3)\n- hasDistributed -> hasReligion (count=3)\n\nCandidates:\n1. Nikolai Rimsky-korsakov [id=10399 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n2. Chandra Wilson [id=1847 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n3. Bordeaux [id=12755 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n4. Never Let Me Go [id=9800 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n5. Octopussy [id=6255 | class=James Bond Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. City of London [id=9210 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n7. Premnath [id=10977 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n8. Erich Wolfgang Korngold [id=539 | class=Composer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n9. Liga Deportiva Universitaria De Quito [id=12042 | class=Sports Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n10. Donaldus Milford Payne [id=7680 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. Moonraker [id=1643 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n12. Carmarthen [id=14171 | class=Town | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Rabbi [id=9494 | class=Rabbi | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Fleetwood Town F.c. [id=11263 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Lauren Bacall [id=1409 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. The Cable Guy [id=1490 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n17. Luton [id=9306 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n18. George Washington University [id=5476 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n19. Philadelphia Union [id=13697 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Warlord [id=1333 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n"
+}

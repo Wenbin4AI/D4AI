@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 5617,
+        "head_label": "Sacramento",
+        "head_class": "City",
+        "relation_id": 7,
+        "relation_label": "hasNominees",
+        "gold_tail": 14111,
+        "gold_tail_label": "Thunder Bay",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 8821,
+            "entity_label": "Organisation of African, Caribbean and Pacific States",
+            "entity_class": "International Organization",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 2318,
+            "entity_label": "The Crying Game",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 14177,
+            "entity_label": "Christmas Music",
+            "entity_class": "Music Genre",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 3266,
+            "entity_label": "Star Trek Ii: the Wrath of Khan",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 13604,
+            "entity_label": "Royal Military Academy, Woolwich",
+            "entity_class": "Military Academy",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 13349,
+            "entity_label": "Rheumatoid Arthritis",
+            "entity_class": "Disease",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 12360,
+            "entity_label": "Christian",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 5699,
+            "entity_label": "Rob Schneider",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 10826,
+            "entity_label": "American Revolutionary War",
+            "entity_class": "Event",
+            "score": 4.380786,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 5,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 584,
+            "entity_label": "Rutger Hauer",
+            "entity_class": "Person",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 11734,
+            "entity_label": "Liberty Records",
+            "entity_class": "Record Label",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 10201,
+            "entity_label": "Hollyoaks",
+            "entity_class": "Tv Show",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 11775,
+            "entity_label": "Upper Austria",
+            "entity_class": "Location",
+            "score": 8.025352,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 6,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 1323,
+            "entity_label": "Juris Doctor",
+            "entity_class": "Academic Degree",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 3910,
+            "entity_label": "Old Dogs",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 12922,
+            "entity_label": "Fort Smith",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 10745,
+            "entity_label": "Butler County",
+            "entity_class": "Administrative Region",
+            "score": 3.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 6224,
+            "entity_label": "Ricardo Fuller",
+            "entity_class": "Athlete",
+            "score": 3.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 14111,
+            "entity_label": "Thunder Bay",
+            "entity_class": "City",
+            "score": 8.025352,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 6,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 2870,
+            "entity_label": "The Elephant Man",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "8821": 1,
+        "2318": 2,
+        "14177": 3,
+        "3266": 4,
+        "13604": 5,
+        "13349": 6,
+        "12360": 7,
+        "5699": 8,
+        "10826": 9,
+        "584": 10,
+        "11734": 11,
+        "10201": 12,
+        "11775": 13,
+        "1323": 14,
+        "3910": 15,
+        "12922": 16,
+        "10745": 17,
+        "6224": 18,
+        "14111": 19,
+        "2870": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Sacramento, relation=hasNominees, tail=?)\n\nOntology summary:\n- Query relation: hasNominees\n- Head entity: Sacramento\n- Head class: City\n- Relation domain: Award\n- Relation range: Movie\n- Domain check: not clearly matched\n- Tail entities of class 'Movie' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=49, edges=60, paths=20\n- Head outgoing edges under target relation hasNominees: 2\n- Key support nodes: Sacramento, Hope Springs, Upper Austria, Thunder Bay, American Revolutionary War, Butler County, Ricardo Fuller, Istanbul\n- Main auxiliary relations: hasDomesticTuition(11), hasImpersonatedCelebrities(11), foundIn(4)\n\nFrequent relation path patterns:\n- hasRosterPosition -> hasDomesticTuition -> hasNominees (count=9)\n- hasNominees -> hasImpersonatedCelebrities (count=6)\n- hasNominees (count=2)\n- hasNominees -> hasReleaseMedium (count=2)\n- hasArtist -> foundIn -> hasNominees (count=1)\n\nCandidates:\n1. Organisation of African, Caribbean and Pacific States [id=8821 | class=International Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. The Crying Game [id=2318 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Christmas Music [id=14177 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n4. Star Trek Ii: the Wrath of Khan [id=3266 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Royal Military Academy, Woolwich [id=13604 | class=Military Academy | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n6. Rheumatoid Arthritis [id=13349 | class=Disease | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n7. Christian [id=12360 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Rob Schneider [id=5699 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. American Revolutionary War [id=10826 | class=Event | type=0 | soft_type=0 | direct=0 | paths=5 | aux=1 | key=1]\n10. Rutger Hauer [id=584 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. Liberty Records [id=11734 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Hollyoaks [id=10201 | class=Tv Show | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Upper Austria [id=11775 | class=Location | type=0 | soft_type=0 | direct=1 | paths=3 | aux=6 | key=1]\n14. Juris Doctor [id=1323 | class=Academic Degree | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Old Dogs [id=3910 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n16. Fort Smith [id=12922 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Butler County [id=10745 | class=Administrative Region | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n18. Ricardo Fuller [id=6224 | class=Athlete | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n19. Thunder Bay [id=14111 | class=City | type=0 | soft_type=0 | direct=1 | paths=3 | aux=6 | key=1]\n20. The Elephant Man [id=2870 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n"
+}

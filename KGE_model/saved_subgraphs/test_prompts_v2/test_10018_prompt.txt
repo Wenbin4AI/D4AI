@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Denise Richards, relation=hasAdministrativeDivision, tail=?)
+
+Ontology summary:
+- Query relation: hasAdministrativeDivision
+- Head entity: Denise Richards
+- Head class: Actor
+- Relation domain: State
+- Relation range: Country
+- Domain check: not clearly matched
+- Tail entities of class 'Country' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=42, edges=50, paths=20
+- Head outgoing edges under target relation hasAdministrativeDivision: 20
+- Key support nodes: Denise Richards, British Indian, Robert B. Sherman, Joe Cocker, Cancer, Hollywood Squares, Northern Exposure, Liechtenstein
+- Main auxiliary relations: hasLocation(4), hasRosterPosition(3), hasMedals(3)
+
+Frequent relation path patterns:
+- hasAdministrativeDivision (count=20)
+
+Candidates:
+1. Paul Frees [id=13637 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Hollywood Squares [id=7623 | class=Tv Game Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. I Love You Phillip Morris [id=2717 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Cancer [id=171 | class=Disease | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Greek Orthodox Church [id=13428 | class=Religious Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Underground Hip Hop [id=14225 | class=Music Style | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Roy Orbison [id=4571 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Aik Fotboll [id=11311 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Northern Exposure [id=2425 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. The Village [id=5688 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Curse of the Golden Flower [id=5507 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Jonny Lee Miller [id=732 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. British Indian [id=11382 | class=Ethnicity | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. Larry Niven [id=4150 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Robert B. Sherman [id=2406 | class=Composer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Chess [id=13981 | class=Game | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Liechtenstein [id=2794 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Washington County [id=822 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Contemporary Hit Radio [id=14323 | class=Radio Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Joe Cocker [id=4529 | class=Singer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

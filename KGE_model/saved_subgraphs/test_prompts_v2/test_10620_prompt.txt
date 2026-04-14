@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Jamaica, relation=placeOfDeath, tail=?)
+
+Ontology summary:
+- Query relation: placeOfDeath
+- Head entity: Jamaica
+- Head class: Country
+- Relation domain: Person
+- Relation range: City
+- Domain check: not clearly matched
+- Tail entities of class 'City' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=45, edges=49, paths=20
+- Head outgoing edges under target relation placeOfDeath: 20
+- Key support nodes: Jamaica, Pas-de-calais, Blues, Mono County, How the West Was Won, Beloit College, All the King's Men, Tony Shalhoub
+- Main auxiliary relations: hasNetflixGenreTitle(6), hasReligion(6), hasAthlete(4)
+
+Frequent relation path patterns:
+- placeOfDeath (count=20)
+
+Candidates:
+1. Grand Teton National Park [id=14414 | class=National Park | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Blues [id=7160 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Suhasini Maniratnam [id=13858 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Pas-de-calais [id=13690 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. All the King's Men [id=11711 | class=Book | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Puerto Rico National Football Team [id=9539 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. John Larroquette [id=9154 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Broadcast Film Critics Association Award for Best Supporting Actress [id=2344 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Mono County [id=6578 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Gloucester [id=12484 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+11. Breaking Away [id=6460 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Tony Shalhoub [id=7741 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+13. San Bernardino [id=6554 | class=City | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+14. Maldives [id=10769 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+15. Bengaluru [id=11927 | class=City | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+16. Temple Grandin [id=1780 | class=Animal Behaviorist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. How the West Was Won [id=3044 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Beloit College [id=5730 | class=College | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. All Quiet on the Western Front [id=12546 | class=Novel | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Rochester [id=12518 | class=City | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]

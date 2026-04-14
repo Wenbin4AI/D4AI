@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=The Phantom, relation=hasReligion, tail=?)
+
+Ontology summary:
+- Query relation: hasReligion
+- Head entity: The Phantom
+- Head class: Character
+- Relation domain: Person
+- Relation range: Religion
+- Domain check: not clearly matched
+- Tail entities of class 'Religion' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=48, edges=52, paths=20
+- Head outgoing edges under target relation hasReligion: 3
+- Key support nodes: The Phantom, Bruce Sterling, Indiana State University, Dreamworks Animation, 113th United States Congress, University of Paris, Jennifer Coolidge, String Instrument
+- Main auxiliary relations: hasImpersonatedCelebrities(10), hasRosterPosition(4), hasCounty(3)
+
+Frequent relation path patterns:
+- hasImpersonatedCelebrities -> hasReligion (count=17)
+- hasReligion (count=3)
+
+Candidates:
+1. Thomas Dekker [id=11467 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+2. Real Murcia [id=13187 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+3. Ocala [id=11652 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+4. San Francisco Bay Area [id=2397 | class=Location | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+5. Michael Biehn [id=10937 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+6. Mexico National Football Team [id=10218 | class=Football Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+7. The Singing Detective [id=426 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+8. Transformers [id=3484 | class=Toy Series | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+9. Patrick O'neal [id=3649 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+10. Hot Fuzz [id=2695 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+11. James E. Reilly [id=3253 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+12. Bollingen Prize [id=14022 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+13. 113th United States Congress [id=471 | class=Governmental Body | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. Frederick [id=10485 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+15. University of Paris [id=12540 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. George Raft [id=413 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+17. Fred Macmurray [id=3536 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+18. Ziggy Marley [id=12542 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+19. Jennifer Coolidge [id=3842 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+20. Heather Locklear [id=8995 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]

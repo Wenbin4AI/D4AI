@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 14335,
+        "head_label": "Alpha Carotene (stereochemistry Specified)",
+        "head_class": "Chemical Compound",
+        "relation_id": 121,
+        "relation_label": "hasCurrentClub",
+        "gold_tail": 3507,
+        "gold_tail_label": "Sammy Cahn",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 4490,
+            "entity_label": "Peter Buck",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 6963,
+            "entity_label": "Dead Poets Society",
+            "entity_class": "Movie",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 1588,
+            "entity_label": "39th Academy Awards",
+            "entity_class": "Event",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 2687,
+            "entity_label": "Warner Bros. Records",
+            "entity_class": "Record Label",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 6704,
+            "entity_label": "Forgetting Sarah Marshall",
+            "entity_class": "Film/tv Series",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 4598,
+            "entity_label": "Mercury Records",
+            "entity_class": "Record Label",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 2426,
+            "entity_label": "Gary David Goldberg",
+            "entity_class": "Director",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 7490,
+            "entity_label": "Colorado Springs",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 14485,
+            "entity_label": "Heterosexuality",
+            "entity_class": "Orientation",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 13391,
+            "entity_label": "Fc Bayern Munich Ii",
+            "entity_class": "Football Club",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 7831,
+            "entity_label": "Chicken Little",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 1985,
+            "entity_label": "Johannesburg",
+            "entity_class": "City",
+            "score": 4.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 4887,
+            "entity_label": "Club Olimpia",
+            "entity_class": "Sports Club",
+            "score": 7.232868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 14348,
+            "entity_label": "Soviet Air Forces",
+            "entity_class": "Military Branch",
+            "score": 4.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 1707,
+            "entity_label": "Beauty and the Beast",
+            "entity_class": "Animated Movie",
+            "score": 6.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 14365,
+            "entity_label": "Democratic Unionist Party",
+            "entity_class": "Political Party",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 12453,
+            "entity_label": "Old Dominion University",
+            "entity_class": "University",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 4997,
+            "entity_label": "Iron Man 3",
+            "entity_class": "Movie",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 3507,
+            "entity_label": "Sammy Cahn",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 4982,
+            "entity_label": "Battle Royale",
+            "entity_class": "Video Game",
+            "score": 6.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "4490": 1,
+        "6963": 2,
+        "1588": 3,
+        "2687": 4,
+        "6704": 5,
+        "4598": 6,
+        "2426": 7,
+        "7490": 8,
+        "14485": 9,
+        "13391": 10,
+        "7831": 11,
+        "1985": 12,
+        "4887": 13,
+        "14348": 14,
+        "1707": 15,
+        "14365": 16,
+        "12453": 17,
+        "4997": 18,
+        "3507": 19,
+        "4982": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Alpha Carotene (stereochemistry Specified), relation=hasCurrentClub, tail=?)\n\nOntology summary:\n- Query relation: hasCurrentClub\n- Head entity: Alpha Carotene (stereochemistry Specified)\n- Head class: Chemical Compound\n- Relation domain: Sports Team\n- Relation range: Football Club\n- Domain check: not clearly matched\n- Tail entities of class 'Football Club' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=41, edges=50, paths=20\n- Head outgoing edges under target relation hasCurrentClub: 21\n- Key support nodes: Alpha Carotene (stereochemistry Specified), Club Olimpia, Beauty and the Beast, Dead Poets Society, Heterosexuality, Old Dominion University, Forgetting Sarah Marshall, Warner Bros. Records\n- Main auxiliary relations: hasRosterPosition(11), geographic_distribution(7), hasTaxonomyEntry(1)\n\nFrequent relation path patterns:\n- hasCurrentClub (count=20)\n\nCandidates:\n1. Peter Buck [id=4490 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Dead Poets Society [id=6963 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n3. 39th Academy Awards [id=1588 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Warner Bros. Records [id=2687 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n5. Forgetting Sarah Marshall [id=6704 | class=Film/tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Mercury Records [id=4598 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Gary David Goldberg [id=2426 | class=Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Colorado Springs [id=7490 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Heterosexuality [id=14485 | class=Orientation | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n10. Fc Bayern Munich Ii [id=13391 | class=Football Club | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Chicken Little [id=7831 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Johannesburg [id=1985 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]\n13. Club Olimpia [id=4887 | class=Sports Club | type=0 | soft_type=1 | direct=1 | paths=1 | aux=1 | key=1]\n14. Soviet Air Forces [id=14348 | class=Military Branch | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]\n15. Beauty and the Beast [id=1707 | class=Animated Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n16. Democratic Unionist Party [id=14365 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Old Dominion University [id=12453 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n18. Iron Man 3 [id=4997 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n19. Sammy Cahn [id=3507 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Battle Royale [id=4982 | class=Video Game | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n"
+}

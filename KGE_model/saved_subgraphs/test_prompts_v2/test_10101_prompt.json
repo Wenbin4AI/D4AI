@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 3056,
+        "head_label": "Ryan Phillippe",
+        "head_class": "Actor",
+        "relation_id": 31,
+        "relation_label": "hasGenre",
+        "gold_tail": 6389,
+        "gold_tail_label": "Robert Mitchum",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 898,
+            "entity_label": "Easy Rider",
+            "entity_class": "Film",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 3946,
+            "entity_label": "Johnson County",
+            "entity_class": "Geographical Location",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 3245,
+            "entity_label": "Chris Martin",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 428,
+            "entity_label": "The Hangover",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 6117,
+            "entity_label": "Kyoto",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 807,
+            "entity_label": "Patch Adams",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 14349,
+            "entity_label": "Dixieland Jazz",
+            "entity_class": "Music Genre",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 13929,
+            "entity_label": "Monrovia",
+            "entity_class": "Capital City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 2873,
+            "entity_label": "Monarch",
+            "entity_class": "General",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 6789,
+            "entity_label": "Graham Greene",
+            "entity_class": "Author",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 3539,
+            "entity_label": "Sunday, Bloody Sunday",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 9996,
+            "entity_label": "The Venture Bros.",
+            "entity_class": "Tv Show",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 13586,
+            "entity_label": "Plymouth",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 5499,
+            "entity_label": "East Orange",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 4318,
+            "entity_label": "Ernest Borgnine",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 6558,
+            "entity_label": "Jon Anderson",
+            "entity_class": "Music Artist",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 11938,
+            "entity_label": "Mercer County",
+            "entity_class": "Location",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 9654,
+            "entity_label": "Finnish",
+            "entity_class": "Language",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 6389,
+            "entity_label": "Robert Mitchum",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 5804,
+            "entity_label": "One Life to Live",
+            "entity_class": "Tv Show",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "898": 1,
+        "3946": 2,
+        "3245": 3,
+        "428": 4,
+        "6117": 5,
+        "807": 6,
+        "14349": 7,
+        "13929": 8,
+        "2873": 9,
+        "6789": 10,
+        "3539": 11,
+        "9996": 12,
+        "13586": 13,
+        "5499": 14,
+        "4318": 15,
+        "6558": 16,
+        "11938": 17,
+        "9654": 18,
+        "6389": 19,
+        "5804": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Ryan Phillippe, relation=hasGenre, tail=?)\n\nOntology summary:\n- Query relation: hasGenre\n- Head entity: Ryan Phillippe\n- Head class: Actor\n- Relation domain: Movie\n- Relation range: Genre\n- Domain check: not clearly matched\n- Tail entities of class 'Genre' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=26, edges=25, paths=20\n- Head outgoing edges under target relation hasGenre: 23\n- Key support nodes: Ryan Phillippe, Plymouth, Ernest Borgnine, One Life to Live, The Hangover, Johnson County, Monarch, Mercer County\n- Main auxiliary relations: hasWife(1)\n\nFrequent relation path patterns:\n- hasGenre (count=20)\n\nCandidates:\n1. Easy Rider [id=898 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Johnson County [id=3946 | class=Geographical Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Chris Martin [id=3245 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. The Hangover [id=428 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Kyoto [id=6117 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Patch Adams [id=807 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Dixieland Jazz [id=14349 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Monrovia [id=13929 | class=Capital City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Monarch [id=2873 | class=General | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Graham Greene [id=6789 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Sunday, Bloody Sunday [id=3539 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. The Venture Bros. [id=9996 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Plymouth [id=13586 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. East Orange [id=5499 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Ernest Borgnine [id=4318 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Jon Anderson [id=6558 | class=Music Artist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Mercer County [id=11938 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Finnish [id=9654 | class=Language | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Robert Mitchum [id=6389 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. One Life to Live [id=5804 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

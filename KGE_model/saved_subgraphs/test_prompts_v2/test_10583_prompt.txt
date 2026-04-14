@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Lois Smith, relation=hasSubject, tail=?)
+
+Ontology summary:
+- Query relation: hasSubject
+- Head entity: Lois Smith
+- Head class: Person
+- Relation domain: Event
+- Relation range: Movie
+- Domain check: not clearly matched
+- Tail entities of class 'Movie' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=41, edges=48, paths=20
+- Head outgoing edges under target relation hasSubject: 21
+- Key support nodes: Lois Smith, Modern Family, Edward Carfagno, Filmfare Award for Best Film, Scott Lobdell, Hampshire, 1990 Ncaa Division I Men's Basketball Tournament, Freetown
+- Main auxiliary relations: hasAthlete(10), hasNetflixGenreTitle(4), hasStudent(2)
+
+Frequent relation path patterns:
+- hasSubject (count=20)
+
+Candidates:
+1. Atlante F.c. [id=7109 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Freetown [id=14095 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+3. Governor-general [id=12490 | class=Government Position | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Punjabi [id=10040 | class=Ethnicity | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+5. Edward Carfagno [id=6641 | class=Art Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Taiwan [id=2394 | class=Location | type=0 | soft_type=0 | direct=1 | paths=0 | aux=2 | key=0]
+7. Georgetown [id=13663 | class=Geographic Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Comedian [id=967 | class=Profession | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Resident Evil: Apocalypse [id=9714 | class=Movie Title | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+10. Huntington [id=13673 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+11. Byzantine Empire [id=11046 | class=Historical Empire | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Hampshire [id=11585 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+13. Paranormal Activity [id=6308 | class=Movie | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+14. 1990 Ncaa Division I Men's Basketball Tournament [id=5621 | class=篮球锦标赛 | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+15. Filmfare Award for Best Film [id=4746 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+16. Rostov-on-don [id=13465 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. The Motorcycle Diaries [id=6801 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]
+18. Modern Family [id=8252 | class=Sitcom | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Kinshasa [id=13904 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Scott Lobdell [id=13853 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]

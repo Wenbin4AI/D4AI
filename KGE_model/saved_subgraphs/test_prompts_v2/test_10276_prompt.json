@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 6091,
+        "head_label": "Richard D. Zanuck",
+        "head_class": "Film Producer",
+        "relation_id": 88,
+        "relation_label": "hasInvolvedEntity",
+        "gold_tail": 7169,
+        "gold_tail_label": "Timbales",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 1061,
+            "entity_label": "Sissy Spacek",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 100,
+            "entity_label": "Roger Deakins",
+            "entity_class": "Cinematographer",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 12987,
+            "entity_label": "American Hockey League",
+            "entity_class": "Ice Hockey League",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 4085,
+            "entity_label": "The Beaver",
+            "entity_class": "Film",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 10264,
+            "entity_label": "Anthony Newley",
+            "entity_class": "Person",
+            "score": 3.232868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 792,
+            "entity_label": "Timbaland",
+            "entity_class": "Music Producer, Rapper",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 9266,
+            "entity_label": "Fidel Castro",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 8715,
+            "entity_label": "Allen Iverson",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 9540,
+            "entity_label": "Kyoto University",
+            "entity_class": "University",
+            "score": 5.360067,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 4,
+                "aux_support": 6,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 7544,
+            "entity_label": "Jamie Gangel",
+            "entity_class": "Person",
+            "score": 2.598612,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 2,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 1423,
+            "entity_label": "Gloria Stuart",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 1489,
+            "entity_label": "Mtv Movie Award for Best Comedic Performance",
+            "entity_class": "Award",
+            "score": 3.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 16,
+            "entity_label": "Danny Devito",
+            "entity_class": "Person",
+            "score": 8.757356,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 8719,
+            "entity_label": "Gregory Peck",
+            "entity_class": "Person",
+            "score": 2.598612,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 2,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 218,
+            "entity_label": "Conrad Buff Iv",
+            "entity_class": "Person",
+            "score": 8.757356,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 9045,
+            "entity_label": "Jeri Taylor",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 13492,
+            "entity_label": "2012 Sundance Film Festival",
+            "entity_class": "Event",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 5120,
+            "entity_label": "Lorenzo Music",
+            "entity_class": "Person",
+            "score": 3.638333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 7169,
+            "entity_label": "Timbales",
+            "entity_class": "Musical Instrument",
+            "score": 8.382027,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 9,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 8187,
+            "entity_label": "Long Beach",
+            "entity_class": "City",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "1061": 1,
+        "100": 2,
+        "12987": 3,
+        "4085": 4,
+        "10264": 5,
+        "792": 6,
+        "9266": 7,
+        "8715": 8,
+        "9540": 9,
+        "7544": 10,
+        "1423": 11,
+        "1489": 12,
+        "16": 13,
+        "8719": 14,
+        "218": 15,
+        "9045": 16,
+        "13492": 17,
+        "5120": 18,
+        "7169": 19,
+        "8187": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Richard D. Zanuck, relation=hasInvolvedEntity, tail=?)\n\nOntology summary:\n- Query relation: hasInvolvedEntity\n- Head entity: Richard D. Zanuck\n- Head class: Film Producer\n- Relation domain: Historical Event\n- Relation range: Country\n- Domain check: not clearly matched\n- Tail entities of class 'Country' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=27, edges=41, paths=20\n- Head outgoing edges under target relation hasInvolvedEntity: 7\n- Key support nodes: Richard D. Zanuck, Timbales, Danny Devito, Conrad Buff Iv, Kyoto University, The Beaver, Long Beach, Roger Deakins\n- Main auxiliary relations: originCountry(23), hasOfficialLanguage(5), distributorsInRegion(4)\n\nFrequent relation path patterns:\n- hasInvolvedEntity -> originCountry (count=13)\n- hasInvolvedEntity (count=7)\n\nCandidates:\n1. Sissy Spacek [id=1061 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n2. Roger Deakins [id=100 | class=Cinematographer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n3. American Hockey League [id=12987 | class=Ice Hockey League | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n4. The Beaver [id=4085 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n5. Anthony Newley [id=10264 | class=Person | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]\n6. Timbaland [id=792 | class=Music Producer, Rapper | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n7. Fidel Castro [id=9266 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Allen Iverson [id=8715 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n9. Kyoto University [id=9540 | class=University | type=0 | soft_type=0 | direct=0 | paths=4 | aux=6 | key=1]\n10. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=2 | key=0]\n11. Gloria Stuart [id=1423 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Mtv Movie Award for Best Comedic Performance [id=1489 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n13. Danny Devito [id=16 | class=Person | type=0 | soft_type=1 | direct=1 | paths=2 | aux=4 | key=1]\n14. Gregory Peck [id=8719 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=2 | key=0]\n15. Conrad Buff Iv [id=218 | class=Person | type=0 | soft_type=1 | direct=1 | paths=2 | aux=4 | key=1]\n16. Jeri Taylor [id=9045 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. 2012 Sundance Film Festival [id=13492 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Lorenzo Music [id=5120 | class=Person | type=0 | soft_type=1 | direct=0 | paths=1 | aux=2 | key=0]\n19. Timbales [id=7169 | class=Musical Instrument | type=0 | soft_type=0 | direct=1 | paths=3 | aux=9 | key=1]\n20. Long Beach [id=8187 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n"
+}

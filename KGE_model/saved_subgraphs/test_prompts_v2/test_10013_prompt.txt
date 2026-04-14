@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Enix, relation=hasStudent, tail=?)
+
+Ontology summary:
+- Query relation: hasStudent
+- Head entity: Enix
+- Head class: Company
+- Relation domain: University
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=37, edges=46, paths=20
+- Head outgoing edges under target relation hasStudent: 1
+- Key support nodes: Enix, Strategic Simulations, Seattle, Ecw Hardcore Tv, Brighton Rock, Allium Cepa, Syria National Football Team, Rotterdam
+- Main auxiliary relations: hasGenre(9), hasColors(4), hasDraftPickFromSchool(3)
+
+Frequent relation path patterns:
+- hasStudent -> hasOrigin -> hasGenre (count=3)
+- hasStudent -> hasColors (count=2)
+- hasStudent -> hasRuntime -> hasGenre (count=2)
+- hasStudent -> hasContributions -> hasGenre (count=2)
+- hasStudent -> nominatedFor -> hasGenre (count=2)
+
+Candidates:
+1. Fort Lauderdale [id=3627 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Jack Warner [id=6577 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+3. Lois Mcmaster Bujold [id=4777 | class=Author | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+4. Amjad Khan [id=13873 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+5. Ecw Hardcore Tv [id=14445 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=4 | aux=1 | key=1]
+6. Rotterdam [id=8906 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+7. Christopher Mcdonald [id=8462 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+8. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Shinya Tsukamoto [id=12439 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+10. Allium Cepa [id=7439 | class=Plant | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]
+11. Rebecca Eaton [id=12217 | class=Producer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Syria National Football Team [id=2814 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]
+13. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=6 | aux=9 | key=1]
+14. Dressed to Kill [id=1069 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]
+15. Brighton Rock [id=8928 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=4 | aux=2 | key=1]
+16. Winger [id=12315 | class=Position | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+17. Dio [id=13295 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+18. Ted Haworth [id=2537 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+19. Strategic Simulations [id=14500 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=6 | key=1]
+20. Samuel Vincent [id=14248 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]

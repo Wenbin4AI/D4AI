@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Yvelines, relation=hasEstimatedMortgages, tail=?)
+
+Ontology summary:
+- Query relation: hasEstimatedMortgages
+- Head entity: Yvelines
+- Head class: Province
+- Relation domain: City
+- Relation range: Government Agency
+- Domain check: not clearly matched
+- Tail entities of class 'Government Agency' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=52, edges=69, paths=20
+- Head outgoing edges under target relation hasEstimatedMortgages: 1
+- Key support nodes: Yvelines, The Bourne Supremacy, Inside Deep Throat, Systemic Lupus Erythematosus, The Lord of the Rings: the Fellowship of the Ring, University of Oregon, Relativity Media, Murder on the Orient Express
+- Main auxiliary relations: foundIn(11), hasDomesticTuition(10), hasRegularPerformanceRole(4)
+
+Frequent relation path patterns:
+- hasArtist -> foundIn -> hasEstimatedMortgages (count=10)
+- hasRosterPosition -> hasDomesticTuition -> hasEstimatedMortgages (count=6)
+- hasEstimatedMortgages (count=1)
+- hasEstimatedMortgages -> hasImpersonatedCelebrities (count=1)
+- hasEstimatedMortgages -> producedIn (count=1)
+
+Candidates:
+1. University of Pennsylvania [id=4403 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Staten Island [id=8952 | class=Location | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+3. The Killers [id=5345 | class=Musicgroup | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Murder on the Orient Express [id=2120 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+5. 2007 Major League Baseball Draft [id=8218 | class=Sports Draft | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+6. Yuma [id=8373 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. The Fly [id=11825 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Michael G. Wilson [id=3429 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Mtv [id=12193 | class=Television Network | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+10. Monster's Ball [id=738 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Mission: Impossible [id=4736 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Tim Blake Nelson [id=880 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+13. Inside Deep Throat [id=1129 | class=Film | type=0 | soft_type=0 | direct=0 | paths=7 | aux=0 | key=1]
+14. 2046 [id=6508 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+15. Relativity Media [id=1283 | class=Company | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]
+16. Fc St. Gallen [id=13078 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Sacha Baron Cohen [id=2549 | class=Actor/comedian | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+18. Unknown [id=907 | class=Unknown | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+19. Systemic Lupus Erythematosus [id=13277 | class=Disease | type=0 | soft_type=0 | direct=1 | paths=3 | aux=3 | key=1]
+20. Lake Michigan [id=11301 | class=Lake | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]

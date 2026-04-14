@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Strongman, relation=hasImpersonatedCelebrities, tail=?)
+
+Ontology summary:
+- Query relation: hasImpersonatedCelebrities
+- Head entity: Strongman
+- Head class: Athletic Event
+- Relation domain: Actor
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=42, edges=49, paths=20
+- Head outgoing edges under target relation hasImpersonatedCelebrities: 21
+- Key support nodes: Strongman, Independent Spirit Award for Best Supporting Female, Signs, Lorraine Bracco, Steve Jobs, Ricky Nelson, The Lion in Winter, Liberal Party of Australia
+- Main auxiliary relations: hasAthlete(7), hasReligion(5), hasReleaseMedium(3)
+
+Frequent relation path patterns:
+- hasImpersonatedCelebrities (count=20)
+
+Candidates:
+1. Newburgh [id=13876 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Independent Spirit Award for Best Supporting Female [id=3241 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Silver Medal [id=1059 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Liberal Party of Australia [id=14497 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+5. Bozeman [id=14170 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Live Action [id=10364 | class=Type of Production | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Alaska Time Zone [id=6220 | class=Time Zone | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. A Simple Plan [id=1735 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Signs [id=932 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Post-punk [id=2261 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Verve Records [id=10888 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Lorenz Hart [id=12703 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. Steve Jobs [id=8824 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=1 | key=1]
+14. Surrealism [id=10692 | class=Movement | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Ricky Nelson [id=2564 | class=Musician | type=0 | soft_type=1 | direct=1 | paths=1 | aux=1 | key=1]
+16. Sussex County [id=10693 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. The Lion in Winter [id=1692 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Ballet Shoes [id=6424 | class=Item | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. University of Calgary [id=11349 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Lorraine Bracco [id=1777 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]

@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=White, relation=hasGovernmentPosition, tail=?)
+
+Ontology summary:
+- Query relation: hasGovernmentPosition
+- Head entity: White
+- Head class: Color
+- Relation domain: Person
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=49, edges=49, paths=20
+- Head outgoing edges under target relation hasGovernmentPosition: 22
+- Key support nodes: White, Teri Garr, United States Navy, Barnard College, Infernal Affairs, Florida International University, Spyglass Media Group, Nepal
+- Main auxiliary relations: hasAthlete(7), hasImpersonatedCelebrities(7), hasNetflixGenreTitle(4)
+
+Frequent relation path patterns:
+- hasGovernmentPosition (count=20)
+
+Candidates:
+1. Short Film [id=10645 | class=Film Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Collingwood Football Club [id=13421 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+3. Talk to Me [id=1035 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Nepal [id=8339 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+5. Infernal Affairs [id=7222 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Pundit [id=6158 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+7. Poughkeepsie [id=922 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Green [id=7766 | class=Color | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Teri Garr [id=1832 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Avant-garde Music [id=11463 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+11. Mercer University [id=13453 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Florida International University [id=8741 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+13. Kuk Harrell [id=3346 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+14. Spyglass Media Group [id=7410 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+15. Walter Hill [id=11297 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+16. Aston Villa F.c. [id=4935 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. United States Navy [id=13490 | class=Government Agency | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Barnard College [id=12019 | class=College | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Die Hard with a Vengeance [id=8350 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Melvin Frank [id=12240 | class=Person | type=1 | soft_type=1 | direct=1 | paths=0 | aux=0 | key=0]

@@ -1,0 +1,62 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Buck Henry, relation=hasWife, tail=?)
+
+Ontology summary:
+- Query relation: hasWife
+- Head entity: Buck Henry
+- Head class: Person
+- Relation domain: Person
+- Relation range: Marriage
+- Domain check: matched
+- Tail entities of class 'Marriage' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=38, edges=56, paths=20
+- Head outgoing edges under target relation hasWife: 2
+- Key support nodes: Buck Henry, Hamer Bouazza, Dorothy Spencer, John Patrick Shanley, Albert Lee, Orlando Magic, Allium Cepa, Vitamin B12
+- Main auxiliary relations: hasLocalTuitionCurrency(27), capital(8), hasInternationalTuitionCurrency(5)
+
+Frequent relation path patterns:
+- hasWife -> capital -> hasLocalTuitionCurrency (count=15)
+- hasParticipantCountries -> hasGenre -> hasWife (count=3)
+- hasWife (count=2)
+
+Candidates:
+1. East Prussia [id=10263 | class=Historical Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Albany County [id=9867 | class=County | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=0]
+3. Greater London [id=12491 | class=Geographical Area | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Dauphin County [id=4091 | class=County | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]
+5. American Idol [id=9506 | class=Reality Show | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+6. John Stephenson [id=12879 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Shock Rock [id=13807 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. University of Southampton [id=3109 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Roland Anderson [id=9377 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]
+10. Tufts University [id=1604 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Brent Spiner [id=6688 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Daniel Nestor [id=8415 | class=Athlete | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+13. Hamer Bouazza [id=8950 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. Gary Moore [id=12508 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+15. Orlando Magic [id=5481 | class=Basketball Team | type=0 | soft_type=0 | direct=0 | paths=4 | aux=0 | key=1]
+16. Pink [id=1025 | class=Music Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Neal H. Moritz [id=1225 | class=Film Producer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+18. Kraft Foods Group [id=13768 | class=Company | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+19. Ukrainian Soviet Socialist Republic [id=13626 | class=Republic | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Vitamin B12 [id=13927 | class=Nutrient | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]

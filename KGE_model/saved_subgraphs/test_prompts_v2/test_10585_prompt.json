@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 13541,
+        "head_label": "Davidson County",
+        "head_class": "Administrative Region",
+        "relation_id": 129,
+        "relation_label": "hasCurrency",
+        "gold_tail": 2392,
+        "gold_tail_label": "End of Watch",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 5239,
+            "entity_label": "Toto",
+            "entity_class": "Band",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 4505,
+            "entity_label": "Jean Louis",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 199,
+            "entity_label": "Math Rock",
+            "entity_class": "Music Genre",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 11266,
+            "entity_label": "Wonder Woman",
+            "entity_class": "Superhero",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 9567,
+            "entity_label": "Dom Deluise",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 6894,
+            "entity_label": "Ottawa Senators",
+            "entity_class": "Sports Team",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 9769,
+            "entity_label": "Dennis Franz",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 10959,
+            "entity_label": "Dream Pop",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 8853,
+            "entity_label": "Keith Jarrett",
+            "entity_class": "Musician",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 9812,
+            "entity_label": "Donovan",
+            "entity_class": "Musician",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 1197,
+            "entity_label": "Drake",
+            "entity_class": "Singer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 10612,
+            "entity_label": "Sigmund Freud",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 10210,
+            "entity_label": "Cape Verde National Football Team",
+            "entity_class": "Football Team",
+            "score": 6.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 10791,
+            "entity_label": "Frankenstein",
+            "entity_class": "Fictional Character",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 8920,
+            "entity_label": "Fist of the North Star",
+            "entity_class": "Media Franchise",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 5095,
+            "entity_label": "Linz",
+            "entity_class": "Location",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 3244,
+            "entity_label": "Mary-kate Olsen",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 4233,
+            "entity_label": "Mamma Mia!",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 2392,
+            "entity_label": "End of Watch",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 13167,
+            "entity_label": "Decatur",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "5239": 1,
+        "4505": 2,
+        "199": 3,
+        "11266": 4,
+        "9567": 5,
+        "6894": 6,
+        "9769": 7,
+        "10959": 8,
+        "8853": 9,
+        "9812": 10,
+        "1197": 11,
+        "10612": 12,
+        "10210": 13,
+        "10791": 14,
+        "8920": 15,
+        "5095": 16,
+        "3244": 17,
+        "4233": 18,
+        "2392": 19,
+        "13167": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Davidson County, relation=hasCurrency, tail=?)\n\nOntology summary:\n- Query relation: hasCurrency\n- Head entity: Davidson County\n- Head class: Administrative Region\n- Relation domain: Company\n- Relation range: Currency\n- Domain check: not clearly matched\n- Tail entities of class 'Currency' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=46, edges=51, paths=20\n- Head outgoing edges under target relation hasCurrency: 18\n- Key support nodes: Davidson County, Cape Verde National Football Team, Fist of the North Star, Mamma Mia!, Ip Man, Decatur, Wonder Woman, Jean Louis\n- Main auxiliary relations: hasWriter(3), performedBy(3), hasRosterPosition(3)\n\nFrequent relation path patterns:\n- hasCurrency (count=17)\n- hasCurrency -> hasFriend (count=1)\n- hasCurrency -> hasPartner (count=1)\n- hasCurrency -> hasArtist -> foundIn (count=1)\n\nCandidates:\n1. Toto [id=5239 | class=Band | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Jean Louis [id=4505 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Math Rock [id=199 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Wonder Woman [id=11266 | class=Superhero | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Dom Deluise [id=9567 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n6. Ottawa Senators [id=6894 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Dennis Franz [id=9769 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Dream Pop [id=10959 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Keith Jarrett [id=8853 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Donovan [id=9812 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Drake [id=1197 | class=Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Sigmund Freud [id=10612 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Cape Verde National Football Team [id=10210 | class=Football Team | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n14. Frankenstein [id=10791 | class=Fictional Character | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Fist of the North Star [id=8920 | class=Media Franchise | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n16. Linz [id=5095 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Mary-kate Olsen [id=3244 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Mamma Mia! [id=4233 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. End of Watch [id=2392 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Decatur [id=13167 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

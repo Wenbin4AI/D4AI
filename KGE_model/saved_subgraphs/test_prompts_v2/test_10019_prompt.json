@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 2788,
+        "head_label": "Denise Richards",
+        "head_class": "Actor",
+        "relation_id": 117,
+        "relation_label": "hasRosterPosition",
+        "gold_tail": 13358,
+        "gold_tail_label": "Nazi Party",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 377,
+            "entity_label": "Saturn Award for Best Costume",
+            "entity_class": "Award",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 6388,
+            "entity_label": "Alianza Fútbol Club",
+            "entity_class": "Organization",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 8255,
+            "entity_label": "The Cosby Show",
+            "entity_class": "Sitcom",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 1143,
+            "entity_label": "Barton Fink",
+            "entity_class": "Film",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 9625,
+            "entity_label": "Varanasi",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 14091,
+            "entity_label": "Acid House",
+            "entity_class": "Music Genre",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 7975,
+            "entity_label": "Nathan Fillion",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 13562,
+            "entity_label": "Poliomyelitis",
+            "entity_class": "Disease",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 2406,
+            "entity_label": "Robert B. Sherman",
+            "entity_class": "Composer",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 887,
+            "entity_label": "Tony Award for Best Featured Actress in a Musical",
+            "entity_class": "Award",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 7309,
+            "entity_label": "14th Academy Awards",
+            "entity_class": "Award Event",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 4961,
+            "entity_label": "Buffalo Sabres",
+            "entity_class": "Ice Hockey Team",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 6698,
+            "entity_label": "Ethics",
+            "entity_class": "Concept",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 10514,
+            "entity_label": "Rockabilly",
+            "entity_class": "Music Genre",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 5687,
+            "entity_label": "Palmerston North",
+            "entity_class": "City",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 5842,
+            "entity_label": "Yui Horie",
+            "entity_class": "Voice Actress and Singer",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 11139,
+            "entity_label": "Cbs Schoolbreak Special",
+            "entity_class": "Tv Series",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 12631,
+            "entity_label": "Tanikella Bharani",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 13358,
+            "entity_label": "Nazi Party",
+            "entity_class": "Political Party",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 12249,
+            "entity_label": "Rayo Vallecano",
+            "entity_class": "Organization",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "377": 1,
+        "6388": 2,
+        "8255": 3,
+        "1143": 4,
+        "9625": 5,
+        "14091": 6,
+        "7975": 7,
+        "13562": 8,
+        "2406": 9,
+        "887": 10,
+        "7309": 11,
+        "4961": 12,
+        "6698": 13,
+        "10514": 14,
+        "5687": 15,
+        "5842": 16,
+        "11139": 17,
+        "12631": 18,
+        "13358": 19,
+        "12249": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Denise Richards, relation=hasRosterPosition, tail=?)\n\nOntology summary:\n- Query relation: hasRosterPosition\n- Head entity: Denise Richards\n- Head class: Actor\n- Relation domain: Sports Team\n- Relation range: Position in American Football\n- Domain check: not clearly matched\n- Tail entities of class 'Position in American Football' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=37, edges=47, paths=20\n- Head outgoing edges under target relation hasRosterPosition: 23\n- Key support nodes: Denise Richards, Barton Fink, Alianza Fútbol Club, Ethics, Robert B. Sherman, Cbs Schoolbreak Special, Tanikella Bharani, Varanasi\n- Main auxiliary relations: actedIn(3), hasDiscipline(3), hasBorder(2)\n\nFrequent relation path patterns:\n- hasRosterPosition (count=20)\n\nCandidates:\n1. Saturn Award for Best Costume [id=377 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Alianza Fútbol Club [id=6388 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. The Cosby Show [id=8255 | class=Sitcom | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Barton Fink [id=1143 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Varanasi [id=9625 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Acid House [id=14091 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Nathan Fillion [id=7975 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Poliomyelitis [id=13562 | class=Disease | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Robert B. Sherman [id=2406 | class=Composer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Tony Award for Best Featured Actress in a Musical [id=887 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. 14th Academy Awards [id=7309 | class=Award Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Buffalo Sabres [id=4961 | class=Ice Hockey Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Ethics [id=6698 | class=Concept | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n14. Rockabilly [id=10514 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Palmerston North [id=5687 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n16. Yui Horie [id=5842 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Cbs Schoolbreak Special [id=11139 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Tanikella Bharani [id=12631 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Nazi Party [id=13358 | class=Political Party | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Rayo Vallecano [id=12249 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n"
+}

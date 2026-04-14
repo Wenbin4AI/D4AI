@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 7998,
+        "head_label": "High Anxiety",
+        "head_class": "Movie",
+        "relation_id": 82,
+        "relation_label": "hasReligion",
+        "gold_tail": 9736,
+        "gold_tail_label": "Magic Knight Rayearth",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 14503,
+            "entity_label": "Modernism",
+            "entity_class": "Movement",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 3394,
+            "entity_label": "East Timor",
+            "entity_class": "Country",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 7256,
+            "entity_label": "Irene Cara",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 9511,
+            "entity_label": "Russell T Davies",
+            "entity_class": "Writer",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 1358,
+            "entity_label": "Comedy Rock",
+            "entity_class": "Music Group",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 13577,
+            "entity_label": "St. Louis Blues",
+            "entity_class": "Sports Team",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 7794,
+            "entity_label": "Shrek the Third",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 6304,
+            "entity_label": "1998 Ncaa Division I Men's Basketball Tournament",
+            "entity_class": "Event",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 14354,
+            "entity_label": "Contemporary Worship Music",
+            "entity_class": "Religion Music",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 8251,
+            "entity_label": "Carmine Coppola",
+            "entity_class": "Composer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 4499,
+            "entity_label": "The Royal Tenenbaums",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 2851,
+            "entity_label": "Huntington",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 4601,
+            "entity_label": "Charlie Kaufman",
+            "entity_class": "Screenwriter",
+            "score": 7.812309,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 7,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 10961,
+            "entity_label": "California State University, Los Angeles",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 10558,
+            "entity_label": "Bam Margera",
+            "entity_class": "Person",
+            "score": 7.786251,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 5,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 14441,
+            "entity_label": "Ballet Dancer",
+            "entity_class": "People",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 12540,
+            "entity_label": "University of Paris",
+            "entity_class": "University",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 4718,
+            "entity_label": "Norfolk County",
+            "entity_class": "County",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 9736,
+            "entity_label": "Magic Knight Rayearth",
+            "entity_class": "Anime/manga",
+            "score": 6.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 1791,
+            "entity_label": "New Order",
+            "entity_class": "Musical Groups",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "14503": 1,
+        "3394": 2,
+        "7256": 3,
+        "9511": 4,
+        "1358": 5,
+        "13577": 6,
+        "7794": 7,
+        "6304": 8,
+        "14354": 9,
+        "8251": 10,
+        "4499": 11,
+        "2851": 12,
+        "4601": 13,
+        "10961": 14,
+        "10558": 15,
+        "14441": 16,
+        "12540": 17,
+        "4718": 18,
+        "9736": 19,
+        "1791": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=High Anxiety, relation=hasReligion, tail=?)\n\nOntology summary:\n- Query relation: hasReligion\n- Head entity: High Anxiety\n- Head class: Movie\n- Relation domain: Person\n- Relation range: Religion\n- Domain check: not clearly matched\n- Tail entities of class 'Religion' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=39, edges=53, paths=20\n- Head outgoing edges under target relation hasReligion: 7\n- Key support nodes: High Anxiety, Charlie Kaufman, Bam Margera, New Order, Russell T Davies, Magic Knight Rayearth, Nursing, John Swasey\n- Main auxiliary relations: hasImpersonatedCelebrities(11), livingIn(4), hasRosterPosition(3)\n\nFrequent relation path patterns:\n- hasImpersonatedCelebrities -> hasReligion (count=9)\n- hasReligion (count=7)\n- hasReligion -> livingIn (count=4)\n\nCandidates:\n1. Modernism [id=14503 | class=Movement | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. East Timor [id=3394 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Irene Cara [id=7256 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Russell T Davies [id=9511 | class=Writer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n5. Comedy Rock [id=1358 | class=Music Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. St. Louis Blues [id=13577 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Shrek the Third [id=7794 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. 1998 Ncaa Division I Men's Basketball Tournament [id=6304 | class=Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Contemporary Worship Music [id=14354 | class=Religion Music | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n10. Carmine Coppola [id=8251 | class=Composer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. The Royal Tenenbaums [id=4499 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Huntington [id=2851 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Charlie Kaufman [id=4601 | class=Screenwriter | type=0 | soft_type=0 | direct=1 | paths=7 | aux=1 | key=1]\n14. California State University, Los Angeles [id=10961 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Bam Margera [id=10558 | class=Person | type=0 | soft_type=0 | direct=1 | paths=5 | aux=2 | key=1]\n16. Ballet Dancer [id=14441 | class=People | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. University of Paris [id=12540 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n18. Norfolk County [id=4718 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n19. Magic Knight Rayearth [id=9736 | class=Anime/manga | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]\n20. New Order [id=1791 | class=Musical Groups | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n"
+}

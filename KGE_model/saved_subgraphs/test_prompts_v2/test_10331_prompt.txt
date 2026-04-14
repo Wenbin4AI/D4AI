@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Old Dogs, relation=hasgniPerCapitaInPPPU SD, tail=?)
+
+Ontology summary:
+- Query relation: hasgniPerCapitaInPPPU SD
+- Head entity: Old Dogs
+- Head class: Movie
+- Relation domain: Country
+- Relation range: Currency
+- Domain check: not clearly matched
+- Tail entities of class 'Currency' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=40, edges=49, paths=20
+- Head outgoing edges under target relation hasgniPerCapitaInPPPU SD: 1
+- Key support nodes: Old Dogs, Kristin Scott Thomas, Cartoon Network, Juris Doctor, Augusta, Hillsborough County, Frost/nixon, University of New Mexico
+- Main auxiliary relations: hasNetflixGenreTitle(7), hasCountry(6), hasImpersonatedCelebrities(6)
+
+Frequent relation path patterns:
+- hasCountry -> hasgniPerCapitaInPPPU SD (count=4)
+- hasNetflixGenreTitle (count=4)
+- hasImpersonatedCelebrities -> hasgniPerCapitaInPPPU SD (count=3)
+- hasAthlete (count=2)
+- hasgniPerCapitaInPPPU SD (count=1)
+
+Candidates:
+1. Liv Tyler [id=1232 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Dermot Mulroney [id=5604 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+3. Haifa [id=13665 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+5. Insurgency in Khyber Pakhtunkhwa [id=10086 | class=Insurgency | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+6. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Hope Springs [id=3776 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Cynthia Watros [id=4016 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+10. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+11. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Andy Warhol [id=9793 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+13. Juris Doctor [id=1323 | class=Academic Degree | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+14. 56th Primetime Emmy Awards [id=1909 | class=Award Ceremony | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+15. Lili Taylor [id=5388 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+16. Garbage [id=348 | class=Band | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Foreigner [id=12527 | class=Band | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+18. Monty Python [id=12176 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+19. Kristin Scott Thomas [id=6765 | class=Person | type=0 | soft_type=0 | direct=1 | paths=8 | aux=1 | key=1]
+20. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]

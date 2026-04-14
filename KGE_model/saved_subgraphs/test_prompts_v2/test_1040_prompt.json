@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 10219,
+        "head_label": "The Cars",
+        "head_class": "Musical Group",
+        "relation_id": 123,
+        "relation_label": "hasWife",
+        "gold_tail": 9788,
+        "gold_tail_label": "Yale School of Drama",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 10222,
+            "entity_label": "World Fantasy Award for Best Novel",
+            "entity_class": "Award",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 10446,
+            "entity_label": "Evolution",
+            "entity_class": "Concept",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 9743,
+            "entity_label": "Randy Jackson",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 2166,
+            "entity_label": "Flea",
+            "entity_class": "Musician",
+            "score": 5.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 11898,
+            "entity_label": "Murfreesboro",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 9003,
+            "entity_label": "Samuel R. Delany",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 2951,
+            "entity_label": "Shakira",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 268,
+            "entity_label": "Warner Bros.",
+            "entity_class": "Film Company",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 7639,
+            "entity_label": "Bowling Green State University",
+            "entity_class": "University",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 1332,
+            "entity_label": "Chiang Kai-shek",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 12449,
+            "entity_label": "Grambling State University",
+            "entity_class": "Educational Institution",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 1943,
+            "entity_label": "Jorge Luis Borges",
+            "entity_class": "Author",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 5395,
+            "entity_label": "Michael Powell",
+            "entity_class": "Person",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 2505,
+            "entity_label": "How to Train Your Dragon",
+            "entity_class": "Animated Movie Series",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 6903,
+            "entity_label": "Richard Pryor",
+            "entity_class": "Person",
+            "score": 8.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 2407,
+            "entity_label": "Looney Tunes: Back in Action",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 1499,
+            "entity_label": "Green Lantern",
+            "entity_class": "Superhero",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 6759,
+            "entity_label": "J. D. Salinger",
+            "entity_class": "Author",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 9788,
+            "entity_label": "Yale School of Drama",
+            "entity_class": "School",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 3031,
+            "entity_label": "Charlotte Gainsbourg",
+            "entity_class": "Actor",
+            "score": 6.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "10222": 1,
+        "10446": 2,
+        "9743": 3,
+        "2166": 4,
+        "11898": 5,
+        "9003": 6,
+        "2951": 7,
+        "268": 8,
+        "7639": 9,
+        "1332": 10,
+        "12449": 11,
+        "1943": 12,
+        "5395": 13,
+        "2505": 14,
+        "6903": 15,
+        "2407": 16,
+        "1499": 17,
+        "6759": 18,
+        "9788": 19,
+        "3031": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=The Cars, relation=hasWife, tail=?)\n\nOntology summary:\n- Query relation: hasWife\n- Head entity: The Cars\n- Head class: Musical Group\n- Relation domain: Person\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=44, edges=49, paths=20\n- Head outgoing edges under target relation hasWife: 22\n- Key support nodes: The Cars, Charlotte Gainsbourg, Evolution, Bowling Green State University, Green Lantern, J. D. Salinger, Murfreesboro, Michael Powell\n- Main auxiliary relations: hasPrequel(5), hasPhoneNumber(4), hasGenre(2)\n\nFrequent relation path patterns:\n- hasWife (count=20)\n\nCandidates:\n1. World Fantasy Award for Best Novel [id=10222 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Evolution [id=10446 | class=Concept | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Randy Jackson [id=9743 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Flea [id=2166 | class=Musician | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n5. Murfreesboro [id=11898 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Samuel R. Delany [id=9003 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Shakira [id=2951 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Warner Bros. [id=268 | class=Film Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Bowling Green State University [id=7639 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Chiang Kai-shek [id=1332 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Grambling State University [id=12449 | class=Educational Institution | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Jorge Luis Borges [id=1943 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. Michael Powell [id=5395 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n14. How to Train Your Dragon [id=2505 | class=Animated Movie Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n15. Richard Pryor [id=6903 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n16. Looney Tunes: Back in Action [id=2407 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Green Lantern [id=1499 | class=Superhero | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. J. D. Salinger [id=6759 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Yale School of Drama [id=9788 | class=School | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Charlotte Gainsbourg [id=3031 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

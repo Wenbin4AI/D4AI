@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Walk the Line, relation=originCountry, tail=?)
+
+Ontology summary:
+- Query relation: originCountry
+- Head entity: Walk the Line
+- Head class: Movie
+- Relation domain: Tv Show
+- Relation range: Country
+- Domain check: not clearly matched
+- Tail entities of class 'Country' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=29, edges=45, paths=20
+- Head outgoing edges under target relation originCountry: 4
+- Key support nodes: Walk the Line, Lorenzo Music, The French Lieutenant's Woman, Merthyr Tydfil, Wilmington, Gregory Peck, Royal Medal, East River
+- Main auxiliary relations: hasOfficialLanguage(8), distributorsInRegion(2)
+
+Frequent relation path patterns:
+- originCountry -> originCountry (count=16)
+- originCountry (count=4)
+
+Candidates:
+1. Antony Sher [id=2418 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Gregory Peck [id=8719 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+3. Walk the Line [id=703 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]
+4. Wilmington [id=12122 | class=City | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]
+5. Hammersmith [id=8761 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+6. Folk Music [id=2862 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+7. Johor [id=13489 | class=State | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. From Dusk Till Dawn [id=4610 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Royal Medal [id=11862 | class=Award | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+10. Mtv Movie Award for Best Comedic Performance [id=1489 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+11. Presbyterianism [id=2357 | class=Religion | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Kyoto University [id=9540 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+13. Lorenzo Music [id=5120 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+14. American Hockey League [id=12987 | class=Ice Hockey League | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+15. Tyrol [id=13458 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. East River [id=10573 | class=Geographic Feature | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+18. Timbales [id=7169 | class=Musical Instrument | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+19. The French Lieutenant's Woman [id=2288 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+20. Merthyr Tydfil [id=14128 | class=Town | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

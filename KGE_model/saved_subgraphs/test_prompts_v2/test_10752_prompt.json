@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 800,
+        "head_label": "Businessperson",
+        "head_class": "Businessperson",
+        "relation_id": 110,
+        "relation_label": "producedPrograms",
+        "gold_tail": 10893,
+        "gold_tail_label": "Northampton Town F.c.",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 10330,
+            "entity_label": "Sepsis",
+            "entity_class": "Disease",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 9602,
+            "entity_label": "Faroe Islands",
+            "entity_class": "Region",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 7779,
+            "entity_label": "Red Hot Chili Peppers",
+            "entity_class": "Rock Band",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 10930,
+            "entity_label": "Gods and Monsters",
+            "entity_class": "Novel",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 565,
+            "entity_label": "Amanda Peet",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 5040,
+            "entity_label": "Shanghai Noon",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 2133,
+            "entity_label": "Matthew Morrison",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 13545,
+            "entity_label": "Gateshead",
+            "entity_class": "Town",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 6794,
+            "entity_label": "Wheeling",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 416,
+            "entity_label": "David Sanborn",
+            "entity_class": "Musician",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8656,
+            "entity_label": "University of New Mexico",
+            "entity_class": "University",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 4304,
+            "entity_label": "Academy Award for Best Animated Short Film",
+            "entity_class": "Award",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 5910,
+            "entity_label": "Tom Cruise",
+            "entity_class": "Actor",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 2456,
+            "entity_label": "Atheism",
+            "entity_class": "Philosophy",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 4108,
+            "entity_label": "Kill Bill Volume 1",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 11957,
+            "entity_label": "Dan Green",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 9973,
+            "entity_label": "Lo-fi Music",
+            "entity_class": "Music Genre",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 2886,
+            "entity_label": "Good Night, and Good Luck.",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 10893,
+            "entity_label": "Northampton Town F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 2493,
+            "entity_label": "Busta Rhymes",
+            "entity_class": "Musician",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "10330": 1,
+        "9602": 2,
+        "7779": 3,
+        "10930": 4,
+        "565": 5,
+        "5040": 6,
+        "2133": 7,
+        "13545": 8,
+        "6794": 9,
+        "416": 10,
+        "8656": 11,
+        "4304": 12,
+        "5910": 13,
+        "2456": 14,
+        "4108": 15,
+        "11957": 16,
+        "9973": 17,
+        "2886": 18,
+        "10893": 19,
+        "2493": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Businessperson, relation=producedPrograms, tail=?)\n\nOntology summary:\n- Query relation: producedPrograms\n- Head entity: Businessperson\n- Head class: Businessperson\n- Relation domain: Person\n- Relation range: Profession\n- Domain check: not clearly matched\n- Tail entities of class 'Profession' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=44, edges=48, paths=20\n- Head outgoing edges under target relation producedPrograms: 20\n- Key support nodes: Businessperson, Kill Bill Volume 1, Busta Rhymes, Gods and Monsters, Faroe Islands, Wheeling, Lo-fi Music, Good Night, and Good Luck.\n- Main auxiliary relations: hasNetflixGenreTitle(6), hasReligion(4), hasRegularPerformanceRole(4)\n\nFrequent relation path patterns:\n- producedPrograms (count=20)\n\nCandidates:\n1. Sepsis [id=10330 | class=Disease | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Faroe Islands [id=9602 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Red Hot Chili Peppers [id=7779 | class=Rock Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Gods and Monsters [id=10930 | class=Novel | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Amanda Peet [id=565 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Shanghai Noon [id=5040 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Matthew Morrison [id=2133 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Gateshead [id=13545 | class=Town | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Wheeling [id=6794 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. David Sanborn [id=416 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. University of New Mexico [id=8656 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Academy Award for Best Animated Short Film [id=4304 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Tom Cruise [id=5910 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n14. Atheism [id=2456 | class=Philosophy | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Kill Bill Volume 1 [id=4108 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Dan Green [id=11957 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Lo-fi Music [id=9973 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Good Night, and Good Luck. [id=2886 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Northampton Town F.c. [id=10893 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Busta Rhymes [id=2493 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

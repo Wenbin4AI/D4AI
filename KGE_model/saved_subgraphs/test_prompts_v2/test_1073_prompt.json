@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 13668,
+        "head_label": "Dilys Award",
+        "head_class": "Award",
+        "relation_id": 90,
+        "relation_label": "hasDistributor",
+        "gold_tail": 2347,
+        "gold_tail_label": "Brendan Fraser",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 4302,
+            "entity_label": "New Orleans Pelicans",
+            "entity_class": "Basketball Team",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 12048,
+            "entity_label": "Accra",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 13083,
+            "entity_label": "Wil Wheaton",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 14283,
+            "entity_label": "Mountaineering",
+            "entity_class": "Activity",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 11838,
+            "entity_label": "Draco Roses",
+            "entity_class": "Music Artist",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 849,
+            "entity_label": "Terence Stamp",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 12654,
+            "entity_label": "Mount Holyoke College",
+            "entity_class": "College/university",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 8535,
+            "entity_label": "Lancaster",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 641,
+            "entity_label": "Joaquin Phoenix",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 6655,
+            "entity_label": "Nick Cannon",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 11339,
+            "entity_label": "Minister",
+            "entity_class": "Politician",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 14010,
+            "entity_label": "Premier",
+            "entity_class": "政治人物",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 14149,
+            "entity_label": "Corporation",
+            "entity_class": "Company",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 4173,
+            "entity_label": "Lena Olin",
+            "entity_class": "Actress",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 6363,
+            "entity_label": "The Chronicles of Narnia: Prince Caspian",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 1942,
+            "entity_label": "Die Another Day",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 13768,
+            "entity_label": "Kraft Foods Group",
+            "entity_class": "Company",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 3398,
+            "entity_label": "Powers Boothe",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 2347,
+            "entity_label": "Brendan Fraser",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 6840,
+            "entity_label": "Legal Drama",
+            "entity_class": "Drama Subgenre",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "4302": 1,
+        "12048": 2,
+        "13083": 3,
+        "14283": 4,
+        "11838": 5,
+        "849": 6,
+        "12654": 7,
+        "8535": 8,
+        "641": 9,
+        "6655": 10,
+        "11339": 11,
+        "14010": 12,
+        "14149": 13,
+        "4173": 14,
+        "6363": 15,
+        "1942": 16,
+        "13768": 17,
+        "3398": 18,
+        "2347": 19,
+        "6840": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Dilys Award, relation=hasDistributor, tail=?)\n\nOntology summary:\n- Query relation: hasDistributor\n- Head entity: Dilys Award\n- Head class: Award\n- Relation domain: Movie\n- Relation range: Streaming Service\n- Domain check: not clearly matched\n- Tail entities of class 'Streaming Service' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=41, edges=49, paths=20\n- Head outgoing edges under target relation hasDistributor: 22\n- Key support nodes: Dilys Award, Corporation, The Chronicles of Narnia: Prince Caspian, Legal Drama, Mountaineering, Accra, Joaquin Phoenix, Kraft Foods Group\n- Main auxiliary relations: hasLocation(10), hasCrewMember(6), headquarteredIn(4)\n\nFrequent relation path patterns:\n- hasDistributor (count=20)\n\nCandidates:\n1. New Orleans Pelicans [id=4302 | class=Basketball Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Accra [id=12048 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Wil Wheaton [id=13083 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Mountaineering [id=14283 | class=Activity | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Draco Roses [id=11838 | class=Music Artist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Terence Stamp [id=849 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Mount Holyoke College [id=12654 | class=College/university | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Lancaster [id=8535 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Joaquin Phoenix [id=641 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Nick Cannon [id=6655 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Minister [id=11339 | class=Politician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Premier [id=14010 | class=政治人物 | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Corporation [id=14149 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Lena Olin [id=4173 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. The Chronicles of Narnia: Prince Caspian [id=6363 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Die Another Day [id=1942 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Kraft Foods Group [id=13768 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Powers Boothe [id=3398 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Brendan Fraser [id=2347 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Legal Drama [id=6840 | class=Drama Subgenre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

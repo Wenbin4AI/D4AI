@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 13752,
+        "head_label": "Houston Aeros",
+        "head_class": "Ice Hockey Team",
+        "relation_id": 183,
+        "relation_label": "hasCinematographer",
+        "gold_tail": 8619,
+        "gold_tail_label": "Tyrone Power",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 5388,
+            "entity_label": "Lili Taylor",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 7063,
+            "entity_label": "Polk County",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 11687,
+            "entity_label": "County Galway",
+            "entity_class": "County",
+            "score": 2.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 6765,
+            "entity_label": "Kristin Scott Thomas",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 11118,
+            "entity_label": "Superhero",
+            "entity_class": "Character Type",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 11345,
+            "entity_label": "Delta Blues",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 1114,
+            "entity_label": "Darryl F. Zanuck",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 4743,
+            "entity_label": "Natchitoches",
+            "entity_class": "City",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8982,
+            "entity_label": "Maaya Sakamoto",
+            "entity_class": "Voice Actress and Singer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 11568,
+            "entity_label": "Macaulay Culkin",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 1538,
+            "entity_label": "Franco Zeffirelli",
+            "entity_class": "Director",
+            "score": 8.619162,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 7,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 7544,
+            "entity_label": "Jamie Gangel",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 13809,
+            "entity_label": "Communist Party of the Soviet Union",
+            "entity_class": "Political Party",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 5245,
+            "entity_label": "Miniseries",
+            "entity_class": "Tv Format",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 5604,
+            "entity_label": "Dermot Mulroney",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 13295,
+            "entity_label": "Dio",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 8619,
+            "entity_label": "Tyrone Power",
+            "entity_class": "Actor",
+            "score": 6.918865,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 6,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 1480,
+            "entity_label": "University of Michigan",
+            "entity_class": "University",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "4994": 1,
+        "5388": 2,
+        "7063": 3,
+        "11687": 4,
+        "6765": 5,
+        "11118": 6,
+        "14037": 7,
+        "11345": 8,
+        "1114": 9,
+        "4743": 10,
+        "8982": 11,
+        "11568": 12,
+        "1538": 13,
+        "7544": 14,
+        "13809": 15,
+        "5245": 16,
+        "5604": 17,
+        "13295": 18,
+        "8619": 19,
+        "1480": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Houston Aeros, relation=hasCinematographer, tail=?)\n\nOntology summary:\n- Query relation: hasCinematographer\n- Head entity: Houston Aeros\n- Head class: Ice Hockey Team\n- Relation domain: Movie\n- Relation range: Cinematographer\n- Domain check: not clearly matched\n- Tail entities of class 'Cinematographer' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=34, edges=50, paths=20\n- Head outgoing edges under target relation hasCinematographer: 3\n- Key support nodes: Houston Aeros, Kathy Bates, Franco Zeffirelli, Tyrone Power, Communist Party of the Soviet Union, University of Tehran, University of Michigan, Karachi\n- Main auxiliary relations: hasNationality(12), hasColors(5), hasPhoneNumber(3)\n\nFrequent relation path patterns:\n- hasPerformanceType -> hasNationality -> hasCinematographer (count=10)\n- hasColors -> hasCinematographer (count=4)\n- hasCinematographer (count=3)\n- hasPerformanceType (count=1)\n- hasPrequel (count=1)\n\nCandidates:\n1. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Lili Taylor [id=5388 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Polk County [id=7063 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. County Galway [id=11687 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n5. Kristin Scott Thomas [id=6765 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Superhero [id=11118 | class=Character Type | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n7. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Darryl F. Zanuck [id=1114 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Natchitoches [id=4743 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Macaulay Culkin [id=11568 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Franco Zeffirelli [id=1538 | class=Director | type=0 | soft_type=1 | direct=1 | paths=7 | aux=0 | key=1]\n14. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Communist Party of the Soviet Union [id=13809 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n16. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Dermot Mulroney [id=5604 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Dio [id=13295 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Tyrone Power [id=8619 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=6 | aux=0 | key=1]\n20. University of Michigan [id=1480 | class=University | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n"
+}

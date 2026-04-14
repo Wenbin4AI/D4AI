@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 7105,
+        "head_label": "Trevor Howard",
+        "head_class": "Actor",
+        "relation_id": 80,
+        "relation_label": "plays",
+        "gold_tail": 7835,
+        "gold_tail_label": "Udo Kier",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 7298,
+            "entity_label": "Hikaru Utada",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 6286,
+            "entity_label": "Skeleton",
+            "entity_class": "Anatomy",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 4422,
+            "entity_label": "Richard Taylor",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 13170,
+            "entity_label": "Wood County",
+            "entity_class": "County",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 5306,
+            "entity_label": "Viking Metal",
+            "entity_class": "Music Genre",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 3060,
+            "entity_label": "Anne of the Thousand Days",
+            "entity_class": "Play",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 8970,
+            "entity_label": "Uganda",
+            "entity_class": "Country",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 7847,
+            "entity_label": "55th Golden Globe Awards",
+            "entity_class": "Awards Show",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 6301,
+            "entity_label": "Charlotte Gibson",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 4959,
+            "entity_label": "Buddy Film",
+            "entity_class": "Film Genre",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 2827,
+            "entity_label": "Montreal Alouettes",
+            "entity_class": "Sportsteam",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 1452,
+            "entity_label": "The Wire",
+            "entity_class": "Tv Show",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 7459,
+            "entity_label": "Andrew Lau",
+            "entity_class": "Director",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 12085,
+            "entity_label": "University of Groningen",
+            "entity_class": "University",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 10786,
+            "entity_label": "Saul Rubinek",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 6747,
+            "entity_label": "David Arnold",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 5130,
+            "entity_label": "Brentford F.c.",
+            "entity_class": "Football Club",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 5892,
+            "entity_label": "Hotel Transylvania",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 7835,
+            "entity_label": "Udo Kier",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 718,
+            "entity_label": "Ralph E. Winters",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "7298": 1,
+        "6286": 2,
+        "4422": 3,
+        "13170": 4,
+        "5306": 5,
+        "3060": 6,
+        "8970": 7,
+        "7847": 8,
+        "6301": 9,
+        "4959": 10,
+        "2827": 11,
+        "1452": 12,
+        "7459": 13,
+        "12085": 14,
+        "10786": 15,
+        "6747": 16,
+        "5130": 17,
+        "5892": 18,
+        "7835": 19,
+        "718": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Trevor Howard, relation=plays, tail=?)\n\nOntology summary:\n- Query relation: plays\n- Head entity: Trevor Howard\n- Head class: Actor\n- Relation domain: Sports Team\n- Relation range: Sport\n- Domain check: not clearly matched\n- Tail entities of class 'Sport' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=48, edges=49, paths=20\n- Head outgoing edges under target relation plays: 20\n- Key support nodes: Trevor Howard, Andrew Lau, Saul Rubinek, Ralph E. Winters, Wood County, Skeleton, Charlotte Gibson, Brentford F.c.\n- Main auxiliary relations: hasGovernmentPosition(22), hasCurrency(3), containsLocation(2)\n\nFrequent relation path patterns:\n- plays (count=20)\n\nCandidates:\n1. Hikaru Utada [id=7298 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Skeleton [id=6286 | class=Anatomy | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Richard Taylor [id=4422 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Wood County [id=13170 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Viking Metal [id=5306 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Anne of the Thousand Days [id=3060 | class=Play | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Uganda [id=8970 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. 55th Golden Globe Awards [id=7847 | class=Awards Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Charlotte Gibson [id=6301 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Buddy Film [id=4959 | class=Film Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Montreal Alouettes [id=2827 | class=Sportsteam | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. The Wire [id=1452 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Andrew Lau [id=7459 | class=Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. University of Groningen [id=12085 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Saul Rubinek [id=10786 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. David Arnold [id=6747 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Brentford F.c. [id=5130 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Hotel Transylvania [id=5892 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Udo Kier [id=7835 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Ralph E. Winters [id=718 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

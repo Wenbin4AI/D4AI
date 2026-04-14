@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Joan Allen, relation=hasReligion, tail=?)
+
+Ontology summary:
+- Query relation: hasReligion
+- Head entity: Joan Allen
+- Head class: Person
+- Relation domain: Person
+- Relation range: Religion
+- Domain check: matched
+- Tail entities of class 'Religion' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=41, edges=52, paths=20
+- Head outgoing edges under target relation hasReligion: 11
+- Key support nodes: Joan Allen, Shigeru Miyamoto, Catholic Church, 1924 Summer Olympics, Philadelphia Union, Get Shorty, Jeremy Piven, Family Guy
+- Main auxiliary relations: hasRosterPosition(9), hasFriend(6), hasCounty(5)
+
+Frequent relation path patterns:
+- hasReligion (count=10)
+- hasReligion -> hasFriend (count=6)
+- hasReligion -> hasArtist -> foundIn (count=2)
+- hasReligion -> livingIn (count=1)
+- hasReligion -> hasPartner (count=1)
+
+Candidates:
+1. Unknown [id=2250 | class=Unknown | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Family Guy [id=1203 | class=Animated Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Artificial Intelligence [id=3135 | class=Technology | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+4. Philadelphia Union [id=13697 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+5. Astro Boy [id=1935 | class=Manga Character | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+6. Grammy Award for Best Choral Performance [id=12175 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+7. Substance-related Disorder [id=14492 | class=Medical Condition | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+8. Orange Free State [id=13290 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Art Song [id=10910 | class=Singing Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Kiribati [id=3898 | class=Country | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+11. Barcelona Province [id=3197 | class=Geographic Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Get Shorty [id=6660 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]
+13. Shigeru Miyamoto [id=10696 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=6 | key=1]
+14. Jeremy Piven [id=5137 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]
+15. Catholic Church [id=12773 | class=Religious Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+16. Rachel Weisz [id=417 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Keith Jarrett [id=8853 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. California Institute of Technology [id=6998 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+19. Dewitt Clinton High School [id=3751 | class=School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. 1924 Summer Olympics [id=2203 | class=Olympic Games | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]

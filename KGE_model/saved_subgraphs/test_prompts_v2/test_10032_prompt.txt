@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Viola Davis, relation=hasNotablePeople, tail=?)
+
+Ontology summary:
+- Query relation: hasNotablePeople
+- Head entity: Viola Davis
+- Head class: Person
+- Relation domain: Disease
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=45, edges=58, paths=20
+- Head outgoing edges under target relation hasNotablePeople: 1
+- Key support nodes: Viola Davis, Jane's Addiction, Allium Cepa, Fish Tank, Russia National Football Team, Peter Hyams, Designated Hitter, Rick Kline
+- Main auxiliary relations: hasGenre(12), hasWinner(6), hasEndowmentCurrency(2)
+
+Frequent relation path patterns:
+- hasNotablePeople -> hasParticipantCountries -> hasGenre (count=9)
+- hasAthlete -> hasWinner -> hasNotablePeople (count=5)
+- hasRegularPerformanceRole -> influencedBy -> hasNotablePeople (count=2)
+- hasNotablePeople (count=1)
+- hasNotablePeople -> nominatedFor (count=1)
+
+Candidates:
+1. Washington County [id=2821 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+2. Alec Berg [id=9563 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+3. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=0]
+4. Dio [id=13295 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+5. Patti Smith [id=1903 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]
+6. Catherine Keener [id=30 | class=Actress | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+7. The Kingdom [id=4695 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+8. Crete [id=10940 | class=Island | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+9. Designated Hitter [id=7253 | class=Sport | type=0 | soft_type=0 | direct=0 | paths=3 | aux=1 | key=1]
+10. Elvis Presley [id=5169 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+11. Oklahoma County [id=9974 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+12. Gillian Anderson [id=775 | class=Actress | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. Rick Kline [id=9110 | class=Person | type=1 | soft_type=1 | direct=0 | paths=3 | aux=3 | key=1]
+14. Ryan Phillippe [id=3056 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+15. Jake Gyllenhaal [id=2391 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]
+16. 67th Golden Globe Awards [id=2001 | class=Event | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+17. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]
+18. Henry Gibson [id=11578 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]
+19. Jane's Addiction [id=6596 | class=Musical Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+20. Russia National Football Team [id=12771 | class=Football Team | type=0 | soft_type=0 | direct=0 | paths=4 | aux=3 | key=1]

@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 1207,
+        "head_label": "Yo-yo Ma",
+        "head_class": "Musician",
+        "relation_id": 59,
+        "relation_label": "hasSubject",
+        "gold_tail": 1085,
+        "gold_tail_label": "Willie Nelson",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 2841,
+            "entity_label": "Fremont County",
+            "entity_class": "County",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 267,
+            "entity_label": "Thomas Brodie-sangster",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 8003,
+            "entity_label": "Interview with the Vampire",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 13336,
+            "entity_label": "Norwich",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 9899,
+            "entity_label": "Sheena Easton",
+            "entity_class": "Musician",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 296,
+            "entity_label": "The Hours",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 2866,
+            "entity_label": "Gong",
+            "entity_class": "Musical Instrument",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 2479,
+            "entity_label": "Ned Beatty",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 7360,
+            "entity_label": "St. Louis County",
+            "entity_class": "Location",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 6736,
+            "entity_label": "The Godfather",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 4445,
+            "entity_label": "Haiti",
+            "entity_class": "Location",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 2144,
+            "entity_label": "Driving Miss Daisy",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 2234,
+            "entity_label": "Scrooged",
+            "entity_class": "Movie",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 2475,
+            "entity_label": "The Wolfman",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 1844,
+            "entity_label": "Slice of Life",
+            "entity_class": "Genre",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 3132,
+            "entity_label": "Master of Fine Arts",
+            "entity_class": "Degree",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 10516,
+            "entity_label": "Zodiac",
+            "entity_class": "Astrology Sign",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 611,
+            "entity_label": "North Carolina",
+            "entity_class": "Us State",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 1085,
+            "entity_label": "Willie Nelson",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 13487,
+            "entity_label": "Heriot-watt University",
+            "entity_class": "University",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "2841": 1,
+        "267": 2,
+        "8003": 3,
+        "13336": 4,
+        "9899": 5,
+        "296": 6,
+        "2866": 7,
+        "2479": 8,
+        "7360": 9,
+        "6736": 10,
+        "4445": 11,
+        "2144": 12,
+        "2234": 13,
+        "2475": 14,
+        "1844": 15,
+        "3132": 16,
+        "10516": 17,
+        "611": 18,
+        "1085": 19,
+        "13487": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Yo-yo Ma, relation=hasSubject, tail=?)\n\nOntology summary:\n- Query relation: hasSubject\n- Head entity: Yo-yo Ma\n- Head class: Musician\n- Relation domain: Event\n- Relation range: Movie\n- Domain check: not clearly matched\n- Tail entities of class 'Movie' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=40, edges=49, paths=20\n- Head outgoing edges under target relation hasSubject: 22\n- Key support nodes: Yo-yo Ma, Slice of Life, Heriot-watt University, Norwich, Thomas Brodie-sangster, St. Louis County, Zodiac, Scrooged\n- Main auxiliary relations: hasAthlete(13), hasBorder(5), hasAward(2)\n\nFrequent relation path patterns:\n- hasSubject (count=20)\n\nCandidates:\n1. Fremont County [id=2841 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Thomas Brodie-sangster [id=267 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Interview with the Vampire [id=8003 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Norwich [id=13336 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Sheena Easton [id=9899 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. The Hours [id=296 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Gong [id=2866 | class=Musical Instrument | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Ned Beatty [id=2479 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. St. Louis County [id=7360 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. The Godfather [id=6736 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Haiti [id=4445 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Driving Miss Daisy [id=2144 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Scrooged [id=2234 | class=Movie | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n14. The Wolfman [id=2475 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Slice of Life [id=1844 | class=Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Master of Fine Arts [id=3132 | class=Degree | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Zodiac [id=10516 | class=Astrology Sign | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. North Carolina [id=611 | class=Us State | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Willie Nelson [id=1085 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Heriot-watt University [id=13487 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

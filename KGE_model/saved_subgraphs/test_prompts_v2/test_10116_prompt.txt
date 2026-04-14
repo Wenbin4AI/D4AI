@@ -1,0 +1,62 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Lewis County, relation=operatingIncomeCurrency, tail=?)
+
+Ontology summary:
+- Query relation: operatingIncomeCurrency
+- Head entity: Lewis County
+- Head class: County
+- Relation domain: University
+- Relation range: Currency
+- Domain check: not clearly matched
+- Tail entities of class 'Currency' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=36, edges=53, paths=20
+- Head outgoing edges under target relation operatingIncomeCurrency: 1
+- Key support nodes: Lewis County, Mark Salling, Orry-kelly, Sony Music Entertainment Japan, Lili Taylor, Dial M for Murder, William B. Davis, Hotel
+- Main auxiliary relations: hasWinner(15), hasDesignedFilmSets(7), hasAthlete(2)
+
+Frequent relation path patterns:
+- hasAthlete -> hasWinner -> operatingIncomeCurrency (count=18)
+- operatingIncomeCurrency (count=1)
+- hasDesignedFilmSets -> operatingIncomeCurrency (count=1)
+
+Candidates:
+1. Stephen Rea [id=11113 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Macaulay Culkin [id=11568 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+3. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. University of Kent [id=9707 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+5. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+6. Litchfield County [id=3187 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Wuxia [id=13402 | class=Novel Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Jane Seymour [id=11318 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+10. Kelly Macdonald [id=1468 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Suicide [id=6541 | class=Social Issue | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Sex Comedy [id=11725 | class=Film/book Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+13. Orry-kelly [id=1855 | class=Costume Designer | type=0 | soft_type=0 | direct=0 | paths=8 | aux=0 | key=1]
+14. Pune [id=8637 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+15. Lili Taylor [id=5388 | class=Person | type=0 | soft_type=0 | direct=0 | paths=6 | aux=0 | key=1]
+16. The Shining [id=10926 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Olympiacos F.c. [id=12256 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+18. Rob Zombie [id=2181 | class=Music Artist | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+19. Dial M for Murder [id=6382 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=5 | aux=0 | key=1]
+20. Wild at Heart [id=9891 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]

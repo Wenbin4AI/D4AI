@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Chicago Blues, relation=hasAthlete, tail=?)
+
+Ontology summary:
+- Query relation: hasAthlete
+- Head entity: Chicago Blues
+- Head class: Music Genre
+- Relation domain: Sport
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=47, edges=65, paths=20
+- Head outgoing edges under target relation hasAthlete: 3
+- Key support nodes: Chicago Blues, David O. Russell, United States Department of State, If Elfsborg, Wiltshire, Anita Baker, Jackie Brown, 1994 Winter Olympics
+- Main auxiliary relations: hasWinner(20), hasEndowmentCurrency(5), hasImpersonatedCelebrities(4)
+
+Frequent relation path patterns:
+- hasAthlete -> hasWinner -> hasAthlete (count=14)
+- hasAthlete (count=3)
+- hasImpersonatedCelebrities -> hasAthlete (count=1)
+- hasReleaseMedium -> hasAthlete (count=1)
+- hasParticipatedIn -> hasAthlete (count=1)
+
+Candidates:
+1. Washington County [id=11950 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. James Denton [id=4704 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+3. June Allyson [id=8074 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Bob Newhart [id=3246 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+5. Zach Galifianakis [id=6420 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+6. Puppet [id=11868 | class=Puppet | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Since You Went Away [id=5567 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Kennebec County [id=12036 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Emilio Estefan [id=3992 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+10. Kingdom of Italy [id=3653 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. W. H. Auden [id=8657 | class=Poet | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Trevor Howard [id=7105 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. David O. Russell [id=3696 | class=Person | type=1 | soft_type=1 | direct=1 | paths=6 | aux=0 | key=1]
+14. Anna Karenina [id=9557 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+15. United States Department of State [id=13745 | class=Government Agency | type=0 | soft_type=0 | direct=1 | paths=10 | aux=0 | key=1]
+16. The Fairly Oddparents [id=7736 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Anita Baker [id=3069 | class=Singer | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+18. George Hamilton [id=10309 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+19. If Elfsborg [id=3221 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+20. Gilles Deleuze [id=7952 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]

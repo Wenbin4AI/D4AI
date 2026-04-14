@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 10736,
+        "head_label": "Steven Seagal",
+        "head_class": "Person",
+        "relation_id": 82,
+        "relation_label": "hasReligion",
+        "gold_tail": 14025,
+        "gold_tail_label": "Dover",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 1526,
+            "entity_label": "Absurdism",
+            "entity_class": "Movement",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 3848,
+            "entity_label": "The Bold and the Beautiful",
+            "entity_class": "Tv Show",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 3146,
+            "entity_label": "Chuck Berry",
+            "entity_class": "Musician",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 503,
+            "entity_label": "Wargames",
+            "entity_class": "Movie",
+            "score": 3.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 9012,
+            "entity_label": "University of Turin",
+            "entity_class": "University",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 7776,
+            "entity_label": "Last of the Summer Wine",
+            "entity_class": "Tv Show",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 13272,
+            "entity_label": "French Cuisine",
+            "entity_class": "Cuisine",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 11040,
+            "entity_label": "National Football League",
+            "entity_class": "Sports League",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 4636,
+            "entity_label": "Falklands War",
+            "entity_class": "Military Conflict",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 14346,
+            "entity_label": "19th Century",
+            "entity_class": "Century",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 2447,
+            "entity_label": "Albert Nobbs",
+            "entity_class": "Film",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 9074,
+            "entity_label": "Clark Gable",
+            "entity_class": "Actor",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 8067,
+            "entity_label": "Matt Lucas",
+            "entity_class": "Person",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 3659,
+            "entity_label": "Mindy Kaling",
+            "entity_class": "Actor",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 6042,
+            "entity_label": "Nathaniel Hawthorne",
+            "entity_class": "Author",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 7680,
+            "entity_label": "Donaldus Milford Payne",
+            "entity_class": "Person",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 3857,
+            "entity_label": "Marc Anthony",
+            "entity_class": "Person",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 1816,
+            "entity_label": "Urban Contemporary",
+            "entity_class": "Music Genre",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 14025,
+            "entity_label": "Dover",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 14042,
+            "entity_label": "Slade School of Fine Art",
+            "entity_class": "School",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "1526": 1,
+        "3848": 2,
+        "3146": 3,
+        "503": 4,
+        "9012": 5,
+        "7776": 6,
+        "13272": 7,
+        "11040": 8,
+        "4636": 9,
+        "14346": 10,
+        "2447": 11,
+        "9074": 12,
+        "8067": 13,
+        "3659": 14,
+        "6042": 15,
+        "7680": 16,
+        "3857": 17,
+        "1816": 18,
+        "14025": 19,
+        "14042": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Steven Seagal, relation=hasReligion, tail=?)\n\nOntology summary:\n- Query relation: hasReligion\n- Head entity: Steven Seagal\n- Head class: Person\n- Relation domain: Person\n- Relation range: Religion\n- Domain check: matched\n- Tail entities of class 'Religion' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=47, edges=53, paths=20\n- Head outgoing edges under target relation hasReligion: 4\n- Key support nodes: Steven Seagal, Matt Lucas, The Outer Limits, Tristar Pictures, Nathaniel Hawthorne, The Bold and the Beautiful, 88th United States Congress, Falklands War\n- Main auxiliary relations: foundIn(9), performedBy(7), hasRosterPosition(4)\n\nFrequent relation path patterns:\n- hasDesignedFilmSets -> hasReligion (count=7)\n- hasReligion -> hasArtist -> foundIn (count=7)\n- hasReligion (count=4)\n- hasReligion -> livingIn (count=2)\n\nCandidates:\n1. Absurdism [id=1526 | class=Movement | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. The Bold and the Beautiful [id=3848 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n3. Chuck Berry [id=3146 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n4. Wargames [id=503 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=2 | aux=1 | key=1]\n5. University of Turin [id=9012 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Last of the Summer Wine [id=7776 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n7. French Cuisine [id=13272 | class=Cuisine | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n8. National Football League [id=11040 | class=Sports League | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Falklands War [id=4636 | class=Military Conflict | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n10. 19th Century [id=14346 | class=Century | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. Albert Nobbs [id=2447 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Clark Gable [id=9074 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Matt Lucas [id=8067 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n14. Mindy Kaling [id=3659 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Nathaniel Hawthorne [id=6042 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Donaldus Milford Payne [id=7680 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n17. Marc Anthony [id=3857 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n18. Urban Contemporary [id=1816 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n19. Dover [id=14025 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Slade School of Fine Art [id=14042 | class=School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n"
+}

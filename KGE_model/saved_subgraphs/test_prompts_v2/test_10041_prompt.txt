@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Grammy Award for Best Choral Performance, relation=workedAt, tail=?)
+
+Ontology summary:
+- Query relation: workedAt
+- Head entity: Grammy Award for Best Choral Performance
+- Head class: Award
+- Relation domain: Person
+- Relation range: University
+- Domain check: not clearly matched
+- Tail entities of class 'University' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=49, edges=67, paths=20
+- Head outgoing edges under target relation workedAt: 1
+- Key support nodes: Grammy Award for Best Choral Performance, Igor Stravinsky, Gwar, Yoram Globus, Gorillaz, Frances Conroy, Substance-related Disorder, Kiribati
+- Main auxiliary relations: foundIn(14), hasFriend(6), hasDesignedFilmSets(5)
+
+Frequent relation path patterns:
+- hasArtist -> foundIn -> workedAt (count=13)
+- hasFriend -> workedAt (count=4)
+- workedAt (count=1)
+- workedAt -> hasDesignedFilmSets (count=1)
+- livingIn -> workedAt (count=1)
+
+Candidates:
+1. Cirque Du Freak: the Vampire's Assistant [id=11282 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Peter Boyle [id=3938 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+3. Sex and the City [id=4319 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Virgin Group [id=11667 | class=Company | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+5. Matt Chamberlain [id=7403 | class=Drummer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+6. Jason Biggs [id=1265 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Santa Fe Province [id=10964 | class=Province | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. 2046 [id=6508 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Anjelica Huston [id=149 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+10. Holy Roman Empire [id=1573 | class=Empire | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Parti Libéral Du Québec [id=12420 | class=Political Party | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Bucky Larson: Born to Be a Star [id=9638 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+13. Yoram Globus [id=6756 | class=Film Producer | type=0 | soft_type=0 | direct=0 | paths=7 | aux=0 | key=1]
+14. Men in Black 3 [id=2125 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+15. Frances Conroy [id=6587 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]
+16. Craig Thomas [id=1152 | class=Author | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Olivia De Havilland [id=9075 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+18. Lambeth [id=8391 | class=Location | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+19. Gwar [id=11344 | class=Music Group | type=0 | soft_type=0 | direct=1 | paths=6 | aux=1 | key=1]
+20. Gorillaz [id=2400 | class=Virtual Band | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]

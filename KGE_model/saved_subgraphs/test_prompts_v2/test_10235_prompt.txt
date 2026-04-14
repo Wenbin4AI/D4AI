@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Bill Evans, relation=hasRosterPosition, tail=?)
+
+Ontology summary:
+- Query relation: hasRosterPosition
+- Head entity: Bill Evans
+- Head class: Musician
+- Relation domain: Football Club
+- Relation range: Position
+- Domain check: not clearly matched
+- Tail entities of class 'Position' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=38, edges=45, paths=20
+- Head outgoing edges under target relation hasRosterPosition: 5
+- Key support nodes: Bill Evans, Timothy Olyphant, Theatre, Joel Grey, Aberystwyth University, Great Britain, Primary Colors, March of the Penguins
+- Main auxiliary relations: foundIn(15), hasHeadquartersLocation(2), influencedBy(2)
+
+Frequent relation path patterns:
+- hasArtist -> foundIn -> hasRosterPosition (count=15)
+- hasRosterPosition (count=5)
+
+Candidates:
+1. Padua [id=14083 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Theatre [id=5341 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=4 | aux=0 | key=1]
+3. Some Kind of Monster [id=743 | class=Movie Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Cynthia Watros [id=4016 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+5. University of Ibadan [id=8844 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+6. Set Dresser [id=4864 | class=Job Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Dinosaur [id=14355 | class=Animal | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. The Aristocrats [id=303 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Joel Grey [id=864 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]
+10. Iron [id=12171 | class=Substance | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+11. A Christmas Carol [id=1810 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. 13 Going on 30 [id=9747 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+13. Hispanic [id=13609 | class=Ethnicity | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. Munich [id=2376 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+15. Writers Guild of America Award for Best Adapted Screenplay [id=270 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Lierse S.k. [id=11719 | class=Sports Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Primary Colors [id=5700 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+18. March of the Penguins [id=11556 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+19. Hope Springs [id=3776 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Edmund Husserl [id=8137 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]

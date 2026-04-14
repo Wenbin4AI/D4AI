@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Saxony-anhalt, relation=plays, tail=?)
+
+Ontology summary:
+- Query relation: plays
+- Head entity: Saxony-anhalt
+- Head class: State
+- Relation domain: Sports Team
+- Relation range: Sport
+- Domain check: not clearly matched
+- Tail entities of class 'Sport' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=39, edges=52, paths=20
+- Head outgoing edges under target relation plays: 10
+- Key support nodes: Saxony-anhalt, Cool Jazz, Amanda Plummer, Alexandre Desplat, Fk Vojvodina, Lucerne, U.d. Leiria, Metro-goldwyn-mayer
+- Main auxiliary relations: hasEndowmentCurrency(6), hasGovernmentPosition(6), hasAthlete(5)
+
+Frequent relation path patterns:
+- plays (count=10)
+- hasWinner -> hasAthlete -> plays (count=10)
+
+Candidates:
+1. Bridget Fonda [id=3108 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Grammy Award for Best Melodic Rap Performance [id=4568 | class=Music Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+3. Polish Americans [id=10849 | class=Ethnicity | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Children of Men [id=9619 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Billy Ray Cyrus [id=61 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+6. Astrid Lindgren Memorial Award [id=10801 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Blaxploitation Film [id=14030 | class=Film Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Nigeria [id=1058 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. James Newton Howard [id=4161 | class=Composer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+10. Grammy Award for Best Reggae Album [id=12530 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Lagaan [id=4310 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Cape Verde [id=11006 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+13. Amanda Plummer [id=4113 | class=Person | type=0 | soft_type=0 | direct=1 | paths=5 | aux=0 | key=1]
+14. Claudia Cardinale [id=10682 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+15. Alexandre Desplat [id=10351 | class=Composer | type=0 | soft_type=0 | direct=1 | paths=5 | aux=0 | key=1]
+16. Resident Evil: Extinction [id=7953 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Carleton University [id=13387 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+18. Dragon Ball Z: Bojack Unbound [id=10359 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+19. Chinatown [id=6374 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Lucerne [id=14214 | class=City | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]

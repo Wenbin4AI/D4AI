@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Pavia, relation=hasSubject, tail=?)
+
+Ontology summary:
+- Query relation: hasSubject
+- Head entity: Pavia
+- Head class: Location
+- Relation domain: Event
+- Relation range: Movie
+- Domain check: not clearly matched
+- Tail entities of class 'Movie' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=39, edges=52, paths=20
+- Head outgoing edges under target relation hasSubject: 1
+- Key support nodes: Pavia, Indie Rock, Gothic Rock, Grammy Award for Best Jazz Vocal Album, Sire, Happy-go-lucky, The Mummy, Japanese People
+- Main auxiliary relations: hasCauseOfDeath(7), hasCapital(7), hasAthlete(3)
+
+Frequent relation path patterns:
+- hasCapital -> hasSubject (count=19)
+- hasSubject (count=1)
+
+Candidates:
+1. Florida State University [id=6673 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Sire [id=12383 | class=Recordlabel | type=0 | soft_type=0 | direct=0 | paths=4 | aux=0 | key=1]
+3. Illeana Douglas [id=10568 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Team America: World Police [id=6087 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+5. Beloved [id=11133 | class=Novel | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+6. Humboldt University of Berlin [id=13033 | class=Education | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Menlo Park [id=13261 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Andy Williams [id=4847 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Japanese People [id=10515 | class=Ethnic Group | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]
+10. Everett [id=9931 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Friday Night Lights [id=6044 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. The Artist [id=1179 | class=Film | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. Happy-go-lucky [id=4835 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=4 | aux=0 | key=1]
+14. Melbourne Victory Fc [id=11211 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+15. The Mummy [id=418 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=4 | aux=0 | key=1]
+16. Luxembourg [id=1269 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Primetime Emmy Award for Outstanding Supporting Actress in a Comedy Series [id=2369 | class=Award | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]
+18. The Green Mile [id=11713 | class=Book | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+19. Fred Thompson [id=9404 | class=Politician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. The Ten Commandments [id=1542 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]

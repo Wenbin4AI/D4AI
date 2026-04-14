@@ -1,0 +1,63 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Cardiff University, relation=hasReligion, tail=?)
+
+Ontology summary:
+- Query relation: hasReligion
+- Head entity: Cardiff University
+- Head class: University
+- Relation domain: Person
+- Relation range: Religion
+- Domain check: not clearly matched
+- Tail entities of class 'Religion' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=44, edges=50, paths=20
+- Head outgoing edges under target relation hasReligion: 12
+- Key support nodes: Cardiff University, The Fabulous Baker Boys, Larry the Cable Guy, Soul Surfer, Donaldus Milford Payne, Hayden Christensen, Grammy Award for Best Mexican/mexican-american Album, Days of Our Lives
+- Main auxiliary relations: hasRosterPosition(8), hasFriend(7), performedBy(4)
+
+Frequent relation path patterns:
+- hasReligion (count=12)
+- hasReligion -> hasFriend (count=6)
+- hasReligion -> livingIn (count=1)
+- hasDistributed -> hasReligion (count=1)
+
+Candidates:
+1. Conan O'brien [id=5732 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Hayden Christensen [id=9499 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Frank Skinner [id=12479 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+4. Donaldus Milford Payne [id=7680 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+5. Reform Party of Canada [id=14375 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Enrique Iglesias [id=10743 | class=Music Artist | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+7. John Dingell, Jr. [id=8326 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+8. Albert Brooks [id=1209 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Grammy Award for Best Mexican/mexican-american Album [id=10765 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Emilia-romagna [id=8993 | class=Region | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+11. Aldous Huxley [id=5761 | class=Author | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+12. Joseph C. Wright [id=2081 | class=People | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. The Fabulous Baker Boys [id=7660 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=2 | aux=5 | key=1]
+14. Nikolai Rimsky-korsakov [id=10399 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Larry the Cable Guy [id=10027 | class=Comedian | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+16. John Updike [id=6041 | class=Author | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+17. Days of Our Lives [id=3286 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Top Gun [id=78 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Spezia Calcio [id=13321 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Soul Surfer [id=2326 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]

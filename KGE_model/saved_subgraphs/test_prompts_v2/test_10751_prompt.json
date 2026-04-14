@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 5258,
+        "head_label": "Axis Powers",
+        "head_class": "Political Alliance",
+        "relation_id": 61,
+        "relation_label": "hasColors",
+        "gold_tail": 7246,
+        "gold_tail_label": "Sony Pictures",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 2943,
+            "entity_label": "Marg Helgenberger",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 1111,
+            "entity_label": "Lille Osc",
+            "entity_class": "Football Club",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 2747,
+            "entity_label": "Leander Paes",
+            "entity_class": "Person",
+            "score": 3.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 5258,
+            "entity_label": "Axis Powers",
+            "entity_class": "Political Alliance",
+            "score": 2.386294,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 5321,
+            "entity_label": "Chicago Hope",
+            "entity_class": "Tv Show",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 11138,
+            "entity_label": "Vfl Wolfsburg",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 12679,
+            "entity_label": "Estelle Harris",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 12955,
+            "entity_label": "Colchester United F.c.",
+            "entity_class": "Football Club",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 8750,
+            "entity_label": "Scooby-doo",
+            "entity_class": "Cartoon Character",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 3056,
+            "entity_label": "Ryan Phillippe",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 11485,
+            "entity_label": "Hebrew University of Jerusalem",
+            "entity_class": "University",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 12897,
+            "entity_label": "Akira Kamiya",
+            "entity_class": "Person",
+            "score": 3.649159,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 4839,
+            "entity_label": "Amy Ryan",
+            "entity_class": "Person",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 1838,
+            "entity_label": "The Kids Are All Right",
+            "entity_class": "Movie",
+            "score": 3.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 5245,
+            "entity_label": "Miniseries",
+            "entity_class": "Tv Format",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 6438,
+            "entity_label": "Mark Johnson",
+            "entity_class": "Record Producer",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 5387,
+            "entity_label": "Ian Mckellen",
+            "entity_class": "Person",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 7246,
+            "entity_label": "Sony Pictures",
+            "entity_class": "Film Studio",
+            "score": 6.772589,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 9220,
+            "entity_label": "Pina",
+            "entity_class": "Person",
+            "score": 3.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "2943": 1,
+        "1111": 2,
+        "14037": 3,
+        "2747": 4,
+        "5258": 5,
+        "5321": 6,
+        "11138": 7,
+        "12679": 8,
+        "12955": 9,
+        "8750": 10,
+        "3056": 11,
+        "11485": 12,
+        "12897": 13,
+        "4839": 14,
+        "1838": 15,
+        "5245": 16,
+        "6438": 17,
+        "5387": 18,
+        "7246": 19,
+        "9220": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Axis Powers, relation=hasColors, tail=?)\n\nOntology summary:\n- Query relation: hasColors\n- Head entity: Axis Powers\n- Head class: Political Alliance\n- Relation domain: University\n- Relation range: Color\n- Domain check: not clearly matched\n- Tail entities of class 'Color' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=35, edges=45, paths=20\n- Head outgoing edges under target relation hasColors: 1\n- Key support nodes: Axis Powers, Akira Kamiya, Sony Pictures, Leander Paes, Lille Osc, Pina, Colchester United F.c., Mark Johnson\n- Main auxiliary relations: hasGenre(7), hasPhoneNumber(3), hasRuntime(3)\n\nFrequent relation path patterns:\n- hasRuntime -> hasColors (count=6)\n- hasContributions -> hasColors (count=6)\n- hasRuntime -> hasGenre -> hasColors (count=3)\n- hasColors (count=1)\n- hasColors -> hasColors (count=1)\n\nCandidates:\n1. Marg Helgenberger [id=2943 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Lille Osc [id=1111 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n3. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Leander Paes [id=2747 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=1 | key=1]\n5. Axis Powers [id=5258 | class=Political Alliance | type=0 | soft_type=0 | direct=0 | paths=0 | aux=3 | key=1]\n6. Chicago Hope [id=5321 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n7. Vfl Wolfsburg [id=11138 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Estelle Harris [id=12679 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Colchester United F.c. [id=12955 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n10. Scooby-doo [id=8750 | class=Cartoon Character | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n11. Ryan Phillippe [id=3056 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Hebrew University of Jerusalem [id=11485 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n13. Akira Kamiya [id=12897 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=4 | key=1]\n14. Amy Ryan [id=4839 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. The Kids Are All Right [id=1838 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=2 | aux=1 | key=1]\n16. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Mark Johnson [id=6438 | class=Record Producer | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n18. Ian Mckellen [id=5387 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n19. Sony Pictures [id=7246 | class=Film Studio | type=0 | soft_type=0 | direct=1 | paths=3 | aux=1 | key=1]\n20. Pina [id=9220 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=1 | key=1]\n"
+}

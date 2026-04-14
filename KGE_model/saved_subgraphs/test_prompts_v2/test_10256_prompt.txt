@@ -1,0 +1,62 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Trisha Yearwood, relation=foundIn, tail=?)
+
+Ontology summary:
+- Query relation: foundIn
+- Head entity: Trisha Yearwood
+- Head class: Musician
+- Relation domain: Company
+- Relation range: City
+- Domain check: not clearly matched
+- Tail entities of class 'City' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=40, edges=50, paths=20
+- Head outgoing edges under target relation foundIn: 13
+- Key support nodes: Trisha Yearwood, Warlord, The Bourne Supremacy, Club Alianza Lima, Alyson Hannigan, Marketing, The Catholic University of America, Atlantic City
+- Main auxiliary relations: hasRosterPosition(4), hasArtist(3), hasDiet(3)
+
+Frequent relation path patterns:
+- foundIn (count=12)
+- foundIn -> hasArtist -> foundIn (count=7)
+- foundIn -> livingIn (count=1)
+
+Candidates:
+1. Bridget Jones's Diary [id=4323 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. The Catholic University of America [id=9442 | class=Educational Institution | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+3. Marcia Gay Harden [id=9608 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Marketing [id=2964 | class=Industry | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+5. Kingston [id=3000 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+6. Stand-up Comedy [id=13515 | class=Performing Arts | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Southampton [id=9694 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+8. Ian Fleming [id=3423 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Illustrator [id=1571 | class=Illustrator | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+10. 29th Academy Awards [id=2783 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Alton [id=13696 | class=Town | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. City of London [id=9210 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. Atlantic City [id=13382 | class=Location | type=0 | soft_type=1 | direct=1 | paths=2 | aux=0 | key=1]
+14. Ogden [id=11386 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+15. Club Alianza Lima [id=8942 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=3 | aux=1 | key=1]
+16. Alsace [id=12037 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+17. Nikolai Rimsky-korsakov [id=10399 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+18. Warlord [id=1333 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Restless [id=411 | class=Album | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Alyson Hannigan [id=2328 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]

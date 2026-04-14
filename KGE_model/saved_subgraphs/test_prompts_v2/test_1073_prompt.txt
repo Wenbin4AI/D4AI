@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Dilys Award, relation=hasDistributor, tail=?)
+
+Ontology summary:
+- Query relation: hasDistributor
+- Head entity: Dilys Award
+- Head class: Award
+- Relation domain: Movie
+- Relation range: Streaming Service
+- Domain check: not clearly matched
+- Tail entities of class 'Streaming Service' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=41, edges=49, paths=20
+- Head outgoing edges under target relation hasDistributor: 22
+- Key support nodes: Dilys Award, Corporation, The Chronicles of Narnia: Prince Caspian, Legal Drama, Mountaineering, Accra, Joaquin Phoenix, Kraft Foods Group
+- Main auxiliary relations: hasLocation(10), hasCrewMember(6), headquarteredIn(4)
+
+Frequent relation path patterns:
+- hasDistributor (count=20)
+
+Candidates:
+1. New Orleans Pelicans [id=4302 | class=Basketball Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Accra [id=12048 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Wil Wheaton [id=13083 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Mountaineering [id=14283 | class=Activity | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Draco Roses [id=11838 | class=Music Artist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Terence Stamp [id=849 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Mount Holyoke College [id=12654 | class=College/university | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Lancaster [id=8535 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Joaquin Phoenix [id=641 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Nick Cannon [id=6655 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Minister [id=11339 | class=Politician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Premier [id=14010 | class=政治人物 | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Corporation [id=14149 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. Lena Olin [id=4173 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. The Chronicles of Narnia: Prince Caspian [id=6363 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Die Another Day [id=1942 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Kraft Foods Group [id=13768 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Powers Boothe [id=3398 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Brendan Fraser [id=2347 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Legal Drama [id=6840 | class=Drama Subgenre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

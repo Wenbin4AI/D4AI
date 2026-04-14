@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=New Haven County, relation=hasReligion, tail=?)
+
+Ontology summary:
+- Query relation: hasReligion
+- Head entity: New Haven County
+- Head class: County
+- Relation domain: Person
+- Relation range: Religion
+- Domain check: not clearly matched
+- Tail entities of class 'Religion' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=46, edges=56, paths=20
+- Head outgoing edges under target relation hasReligion: 10
+- Key support nodes: New Haven County, Magical Girl Lyrical Nanoha, County Mayo, Sky One, Josh Schwartz, Bill Berry, Alsace, Gabriel Byrne
+- Main auxiliary relations: performedBy(10), hasImpersonatedCelebrities(8), hasCounty(2)
+
+Frequent relation path patterns:
+- hasReligion (count=10)
+- hasImpersonatedCelebrities -> hasReligion (count=10)
+
+Candidates:
+1. Robert Englund [id=12482 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Gautam Buddha [id=8103 | class=Religious Leader | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Trinidad and Tobago [id=4300 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Alsace [id=12037 | class=Location | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+5. Christoph Waltz [id=8459 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+6. Wargames [id=503 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Paul Sorvino [id=2487 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Jackass Number Two [id=10909 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. St. Louis Blues [id=13577 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Cleveland Cavaliers [id=10554 | class=Basketball Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Irene Cara [id=7256 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Sky One [id=12742 | class=Television Network | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]
+13. Magical Girl Lyrical Nanoha [id=7796 | class=Anime | type=0 | soft_type=0 | direct=1 | paths=5 | aux=0 | key=1]
+14. French [id=6454 | class=Language | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+15. Josh Schwartz [id=222 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+16. Malawi [id=4483 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. William Holden [id=6811 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+18. Mine [id=13864 | class=Mine | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+19. Bobby [id=874 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Bill Berry [id=7833 | class=Singer | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]

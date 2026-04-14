@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 10701,
+        "head_label": "Forest Green Rovers F.c.",
+        "head_class": "Football Club",
+        "relation_id": 61,
+        "relation_label": "hasColors",
+        "gold_tail": 1344,
+        "gold_tail_label": "Steven Levitan",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 7850,
+            "entity_label": "Devo",
+            "entity_class": "Band",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 5395,
+            "entity_label": "Michael Powell",
+            "entity_class": "Person",
+            "score": 2.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 4123,
+            "entity_label": "University of Edinburgh",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 2771,
+            "entity_label": "Frank Sinatra",
+            "entity_class": "Person",
+            "score": 2.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 8758,
+            "entity_label": "Dharmendra",
+            "entity_class": "Actor",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 10701,
+            "entity_label": "Forest Green Rovers F.c.",
+            "entity_class": "Football Club",
+            "score": 1.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 11222,
+            "entity_label": "Moncton",
+            "entity_class": "Location",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 10127,
+            "entity_label": "Angie Dickinson",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 4291,
+            "entity_label": "Tim Mcgraw",
+            "entity_class": "Singer",
+            "score": 2.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 12062,
+            "entity_label": "Jonathan Swift",
+            "entity_class": "Author",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 9054,
+            "entity_label": "Steven Bochco",
+            "entity_class": "Producer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 2407,
+            "entity_label": "Looney Tunes: Back in Action",
+            "entity_class": "Movie",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 7639,
+            "entity_label": "Bowling Green State University",
+            "entity_class": "University",
+            "score": 6.414157,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 4,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 11215,
+            "entity_label": "Lake Charles",
+            "entity_class": "City",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 6903,
+            "entity_label": "Richard Pryor",
+            "entity_class": "Person",
+            "score": 6.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 1198,
+            "entity_label": "Grammy Award for Best New Artist",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 2296,
+            "entity_label": "30 Rock",
+            "entity_class": "Tv Show",
+            "score": 2.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 3749,
+            "entity_label": "Jason Momoa",
+            "entity_class": "Actor",
+            "score": 2.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 1344,
+            "entity_label": "Steven Levitan",
+            "entity_class": "Television Producer",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 12449,
+            "entity_label": "Grambling State University",
+            "entity_class": "Educational Institution",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "7850": 1,
+        "5395": 2,
+        "4123": 3,
+        "2771": 4,
+        "8758": 5,
+        "10701": 6,
+        "11222": 7,
+        "10127": 8,
+        "4291": 9,
+        "12062": 10,
+        "9054": 11,
+        "2407": 12,
+        "7639": 13,
+        "11215": 14,
+        "6903": 15,
+        "1198": 16,
+        "2296": 17,
+        "3749": 18,
+        "1344": 19,
+        "12449": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Forest Green Rovers F.c., relation=hasColors, tail=?)\n\nOntology summary:\n- Query relation: hasColors\n- Head entity: Forest Green Rovers F.c.\n- Head class: Football Club\n- Relation domain: University\n- Relation range: Color\n- Domain check: not clearly matched\n- Tail entities of class 'Color' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=30, edges=48, paths=20\n- Head outgoing edges under target relation hasColors: 3\n- Key support nodes: Forest Green Rovers F.c., Richard Pryor, Steven Levitan, Bowling Green State University, Grambling State University, Frank Sinatra, Michael Powell, Tim Mcgraw\n- Main auxiliary relations: hasPerformanceType(3), hasCountry(2), foughtIn(2)\n\nFrequent relation path patterns:\n- hasColors -> hasColors (count=16)\n- hasColors (count=3)\n- hasVoiceActingLanguage -> spokenInCountries -> hasColors (count=1)\n\nCandidates:\n1. Devo [id=7850 | class=Band | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Michael Powell [id=5395 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n3. University of Edinburgh [id=4123 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Frank Sinatra [id=2771 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n5. Dharmendra [id=8758 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Forest Green Rovers F.c. [id=10701 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]\n7. Moncton [id=11222 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Angie Dickinson [id=10127 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Tim Mcgraw [id=4291 | class=Singer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n10. Jonathan Swift [id=12062 | class=Author | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. Steven Bochco [id=9054 | class=Producer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Looney Tunes: Back in Action [id=2407 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Bowling Green State University [id=7639 | class=University | type=0 | soft_type=0 | direct=1 | paths=4 | aux=0 | key=1]\n14. Lake Charles [id=11215 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Richard Pryor [id=6903 | class=Person | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n16. Grammy Award for Best New Artist [id=1198 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. 30 Rock [id=2296 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n18. Jason Momoa [id=3749 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n19. Steven Levitan [id=1344 | class=Television Producer | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n20. Grambling State University [id=12449 | class=Educational Institution | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n"
+}

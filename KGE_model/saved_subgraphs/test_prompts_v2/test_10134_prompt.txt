@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Fergie, relation=placeOfDeath, tail=?)
+
+Ontology summary:
+- Query relation: placeOfDeath
+- Head entity: Fergie
+- Head class: Person
+- Relation domain: Person
+- Relation range: City
+- Domain check: matched
+- Tail entities of class 'City' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=39, edges=50, paths=20
+- Head outgoing edges under target relation placeOfDeath: 7
+- Key support nodes: Fergie, Robert Taylor, Lasker-debakey Clinical Medical Research Award, Ian Holm, Elizabeth, Curtis Hanson, Vera Drake, Basingstoke
+- Main auxiliary relations: hasDesignedFilmSets(22), hasSubsidiary(4), editedBy(3)
+
+Frequent relation path patterns:
+- placeOfDeath -> hasDesignedFilmSets (count=13)
+- placeOfDeath (count=7)
+
+Candidates:
+1. Mike Mogis [id=5773 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+2. Ian Holm [id=5222 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]
+3. Federico Fellini [id=8292 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=0]
+4. New Mexico [id=5302 | class=Location | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+5. Norristown [id=3935 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+6. Jerry Bruckheimer [id=1099 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]
+7. Goya Award for Best Film [id=4426 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=0]
+8. Jenna Bush Hager [id=4166 | class=Television Personality | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=0]
+9. Elizabeth [id=9777 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]
+10. Vera Drake [id=1655 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=3 | aux=3 | key=1]
+11. George Kennedy [id=3926 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+12. Mangaluru [id=12838 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. Lasker-debakey Clinical Medical Research Award [id=14517 | class=Science Award | type=0 | soft_type=0 | direct=1 | paths=3 | aux=5 | key=1]
+14. Bowling Green [id=5252 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+15. Robert Taylor [id=3267 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=7 | key=1]
+16. Wally Wingert [id=13475 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+17. Manchester [id=8490 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+18. Rio De Janeiro [id=986 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+19. Basingstoke [id=4790 | class=Town | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+20. Curtis Hanson [id=7535 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=3 | key=1]

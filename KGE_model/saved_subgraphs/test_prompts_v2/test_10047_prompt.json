@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 1414,
+        "head_label": "Bobby Mcferrin",
+        "head_class": "Musician",
+        "relation_id": 108,
+        "relation_label": "hasEndowmentCurrency",
+        "gold_tail": 3028,
+        "gold_tail_label": "Slovenia",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 7806,
+            "entity_label": "Bill Condon",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 1589,
+            "entity_label": "Carrie Underwood",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 12773,
+            "entity_label": "Catholic Church",
+            "entity_class": "Religious Organization",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 7817,
+            "entity_label": "Malayalam",
+            "entity_class": "Language",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 6199,
+            "entity_label": "Fulham F.c.",
+            "entity_class": "Sportsteam",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 3540,
+            "entity_label": "Dunfermline Athletic F.c.",
+            "entity_class": "Football Club",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 11560,
+            "entity_label": "Yonkers",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 9800,
+            "entity_label": "Never Let Me Go",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 11168,
+            "entity_label": "Iraq National Football Team",
+            "entity_class": "National Football Team",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 14116,
+            "entity_label": "Shia Islam",
+            "entity_class": "Religion",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 12042,
+            "entity_label": "Liga Deportiva Universitaria De Quito",
+            "entity_class": "Sports Club",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 6470,
+            "entity_label": "Lon Chaney Jr.",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 3640,
+            "entity_label": "America's Got Talent",
+            "entity_class": "Tv Show",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 7467,
+            "entity_label": "Thailand",
+            "entity_class": "Country",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 10159,
+            "entity_label": "Martin Mull",
+            "entity_class": "Actor and Comedian",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 3530,
+            "entity_label": "Cupertino",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 9180,
+            "entity_label": "Kellie Martin",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 2203,
+            "entity_label": "1924 Summer Olympics",
+            "entity_class": "Olympic Games",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 3028,
+            "entity_label": "Slovenia",
+            "entity_class": "Country",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 1888,
+            "entity_label": "Anchorman: the Legend of Ron Burgundy",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "7806": 1,
+        "1589": 2,
+        "12773": 3,
+        "7817": 4,
+        "6199": 5,
+        "3540": 6,
+        "11560": 7,
+        "9800": 8,
+        "11168": 9,
+        "14116": 10,
+        "12042": 11,
+        "6470": 12,
+        "3640": 13,
+        "7467": 14,
+        "10159": 15,
+        "3530": 16,
+        "9180": 17,
+        "2203": 18,
+        "3028": 19,
+        "1888": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Bobby Mcferrin, relation=hasEndowmentCurrency, tail=?)\n\nOntology summary:\n- Query relation: hasEndowmentCurrency\n- Head entity: Bobby Mcferrin\n- Head class: Musician\n- Relation domain: University\n- Relation range: Currency\n- Domain check: not clearly matched\n- Tail entities of class 'Currency' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=47, edges=50, paths=20\n- Head outgoing edges under target relation hasEndowmentCurrency: 23\n- Key support nodes: Bobby Mcferrin, Anchorman: the Legend of Ron Burgundy, America's Got Talent, Malayalam, Carrie Underwood, Iraq National Football Team, Martin Mull, Kellie Martin\n- Main auxiliary relations: hasWriter(5), hasRosterPosition(5), hasProductionCompanies(3)\n\nFrequent relation path patterns:\n- hasEndowmentCurrency (count=20)\n\nCandidates:\n1. Bill Condon [id=7806 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Carrie Underwood [id=1589 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Catholic Church [id=12773 | class=Religious Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Malayalam [id=7817 | class=Language | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Fulham F.c. [id=6199 | class=Sportsteam | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Dunfermline Athletic F.c. [id=3540 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Yonkers [id=11560 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Never Let Me Go [id=9800 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Iraq National Football Team [id=11168 | class=National Football Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Shia Islam [id=14116 | class=Religion | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Liga Deportiva Universitaria De Quito [id=12042 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Lon Chaney Jr. [id=6470 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. America's Got Talent [id=3640 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n14. Thailand [id=7467 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Martin Mull [id=10159 | class=Actor and Comedian | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n16. Cupertino [id=3530 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Kellie Martin [id=9180 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. 1924 Summer Olympics [id=2203 | class=Olympic Games | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Slovenia [id=3028 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Anchorman: the Legend of Ron Burgundy [id=1888 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Foo Fighters, relation=hasWinner, tail=?)
+
+Ontology summary:
+- Query relation: hasWinner
+- Head entity: Foo Fighters
+- Head class: Music Band
+- Relation domain: Award
+- Relation range: Event
+- Domain check: not clearly matched
+- Tail entities of class 'Event' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=35, edges=47, paths=20
+- Head outgoing edges under target relation hasWinner: 17
+- Key support nodes: Foo Fighters, Tom Defalco, Ernest Rutherford, Shandong Taishan F.c., Weber State University, Tonino Guerra, Ira Gershwin, 44th Annual Grammy Awards
+- Main auxiliary relations: hasImpersonatedCelebrities(8), hasReligion(5), hasAthlete(5)
+
+Frequent relation path patterns:
+- hasWinner (count=17)
+- hasWinner -> hasImpersonatedCelebrities (count=3)
+
+Candidates:
+1. Angel [id=10920 | class=Angel | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Weber State University [id=5505 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]
+3. Middlesex County [id=5867 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. 44th Annual Grammy Awards [id=5491 | class=Award | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+5. Ira Gershwin [id=10751 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+6. Vermont [id=7125 | class=State | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Video Jockey [id=10918 | class=Tv Presenter | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Brazoria County [id=7668 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Shandong Taishan F.c. [id=12868 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+10. Idris Elba [id=12211 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Alexander the Great [id=11884 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+12. 11th United States Congress [id=9135 | class=Government Body | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]
+13. Tom Defalco [id=7347 | class=Comic Book Writer | type=0 | soft_type=0 | direct=1 | paths=3 | aux=4 | key=1]
+14. Qingdao [id=13003 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]
+15. Ernest Rutherford [id=2171 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=2 | key=1]
+16. Russell Crowe [id=166 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Cartoon Network [id=11671 | class=Television Network | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+18. Tonino Guerra [id=8291 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+19. Harry Warren [id=8053 | class=Music Composer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Lincoln University [id=3251 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=4 | key=1]

@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Ken Keeler, relation=hasParentGenre, tail=?)
+
+Ontology summary:
+- Query relation: hasParentGenre
+- Head entity: Ken Keeler
+- Head class: Writer
+- Relation domain: Music Genre
+- Relation range: Music Genre
+- Domain check: not clearly matched
+- Tail entities of class 'Music Genre' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=44, edges=61, paths=20
+- Head outgoing edges under target relation hasParentGenre: 1
+- Key support nodes: Ken Keeler, Timothy Olyphant, Motivational Speaking, High Point, 74th Academy Awards, Cannes, 2003 Nba Draft, Mecklenburg-western Pomerania
+- Main auxiliary relations: foundIn(20), performedBy(6), hasWriter(3)
+
+Frequent relation path patterns:
+- hasArtist -> foundIn -> hasParentGenre (count=19)
+- hasParentGenre (count=1)
+
+Candidates:
+1. Bachelor of Commerce [id=9460 | class=Degree | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+3. Somalia [id=11621 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Haifa [id=13665 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+5. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+6. Monty Python [id=12176 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. 2009 Toronto International Film Festival [id=10864 | class=Film Festival | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+10. Nashua [id=10262 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Costa Rica [id=9448 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Placekicker [id=937 | class=Position in American Football | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+13. Delta Blues [id=11345 | class=Music Genre | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+14. Dermot Mulroney [id=5604 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+15. High Point [id=12363 | class=City | type=0 | soft_type=0 | direct=0 | paths=7 | aux=0 | key=1]
+16. Ebbsfleet United F.c. [id=10052 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+18. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+19. Motivational Speaking [id=11661 | class=Activity | type=0 | soft_type=0 | direct=1 | paths=13 | aux=0 | key=1]
+20. Garage Rock [id=9653 | class=Rock Music | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]

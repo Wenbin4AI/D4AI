@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Asleep at the Wheel, relation=honoredFor, tail=?)
+
+Ontology summary:
+- Query relation: honoredFor
+- Head entity: Asleep at the Wheel
+- Head class: Music Group
+- Relation domain: Award Ceremony
+- Relation range: Movie
+- Domain check: not clearly matched
+- Tail entities of class 'Movie' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=44, edges=49, paths=20
+- Head outgoing edges under target relation honoredFor: 20
+- Key support nodes: Asleep at the Wheel, Pierre Boulez, Bangor, Queen, Alan Bergman, 100th United States Congress, Uriah Heep, Seattle
+- Main auxiliary relations: countyPlace(12), hasPerformanceType(4), hasGenre(3)
+
+Frequent relation path patterns:
+- honoredFor (count=20)
+
+Candidates:
+1. Tennis Borussia Berlin [id=13506 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Alan Bergman [id=5735 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+3. Tron: Legacy [id=2414 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+4. Queen [id=8718 | class=Music Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+5. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. San Diego State Aztecs Football [id=8429 | class=Football Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]
+7. The Happening [id=1063 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+8. Cuyahoga County [id=6409 | class=Administrative Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Yngwie Malmsteen [id=11983 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+10. State University of New York at Albany [id=4617 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]
+11. Flash Gordon [id=5753 | class=Movie Title | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Karnataka [id=9034 | class=State | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+13. Bangor [id=8626 | class=Town | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]
+14. Montpelier [id=7124 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]
+15. 100th United States Congress [id=3502 | class=Government Agency | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]
+16. Angie Dickinson [id=10127 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Pierre Boulez [id=242 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+18. Uriah Heep [id=2029 | class=Rock Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Coronation Street [id=9467 | class=Tv Show | type=0 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]
+20. The X Factor [id=7153 | class=Tv Show | type=0 | soft_type=1 | direct=1 | paths=1 | aux=1 | key=0]

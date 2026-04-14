@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Olivia Newton-john, relation=hasReligion, tail=?)
+
+Ontology summary:
+- Query relation: hasReligion
+- Head entity: Olivia Newton-john
+- Head class: Musician/actress
+- Relation domain: Person
+- Relation range: Religion
+- Domain check: not clearly matched
+- Tail entities of class 'Religion' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=44, edges=52, paths=20
+- Head outgoing edges under target relation hasReligion: 9
+- Key support nodes: Olivia Newton-john, Kingdom of Scotland, Kavala F.c., Happy Madison Productions, The Spy Who Came in From the Cold, Passaic, Madagascar 3: Europe's Most Wanted, Ypsilanti
+- Main auxiliary relations: hasImpersonatedCelebrities(8), hasCounty(3), hasHeadquartersLocation(2)
+
+Frequent relation path patterns:
+- hasImpersonatedCelebrities -> hasReligion (count=11)
+- hasReligion (count=9)
+
+Candidates:
+1. Tampa Bay Area [id=13830 | class=Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Province of Naples [id=12452 | class=Province | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Jayma Mays [id=4928 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+4. Ypsilanti [id=11076 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Sheila E. [id=2334 | class=Singer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+6. Rie Kugimiya [id=11497 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+7. John Heard [id=6022 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Ellen Barkin [id=9662 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Howl's Moving Castle [id=462 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. University of Adelaide [id=7669 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+11. Montclair State University [id=11197 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. All That Jazz [id=1072 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+13. Kingdom of Scotland [id=1412 | class=Kingdom | type=0 | soft_type=0 | direct=1 | paths=6 | aux=0 | key=1]
+14. David Byrne [id=1455 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+15. Passaic [id=8062 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Bobby [id=874 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Wendee Lee [id=3 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+18. Charleston [id=13117 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+19. Geology [id=782 | class=Field of Study | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Madagascar 3: Europe's Most Wanted [id=3574 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

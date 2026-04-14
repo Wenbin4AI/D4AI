@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 14516,
+        "head_label": "United National Party",
+        "head_class": "Political Party",
+        "relation_id": 233,
+        "relation_label": "hasArtist",
+        "gold_tail": 12737,
+        "gold_tail_label": "Ali",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 3690,
+            "entity_label": "Roger Bart",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 1241,
+            "entity_label": "Cowbell",
+            "entity_class": "Object",
+            "score": 4.034213,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 12678,
+            "entity_label": "Magdeburg",
+            "entity_class": "City",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 7935,
+            "entity_label": "Connecticut College",
+            "entity_class": "University",
+            "score": 4.257356,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 5568,
+            "entity_label": "University of Central Florida",
+            "entity_class": "University",
+            "score": 3.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 1152,
+            "entity_label": "Craig Thomas",
+            "entity_class": "Author",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 7443,
+            "entity_label": "The Muppet Movie",
+            "entity_class": "Movie",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 8356,
+            "entity_label": "Funkadelic",
+            "entity_class": "Music Group",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 8502,
+            "entity_label": "Tom Mccarthy",
+            "entity_class": "Director",
+            "score": 3.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 14082,
+            "entity_label": "Acadians",
+            "entity_class": "Ethnic Group",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 1.609438,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 4,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 4513,
+            "entity_label": "Cameron Diaz",
+            "entity_class": "Person",
+            "score": 2.193147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 7799,
+            "entity_label": "Igor Stravinsky",
+            "entity_class": "Person",
+            "score": 8.842306,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 9,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 14205,
+            "entity_label": "Art Dealer",
+            "entity_class": "Profession",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 8641,
+            "entity_label": "Jon Stone",
+            "entity_class": "Journalist",
+            "score": 7.119162,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 7,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 6224,
+            "entity_label": "Ricardo Fuller",
+            "entity_class": "Athlete",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 7651,
+            "entity_label": "Stephen J. Cannell",
+            "entity_class": "Person",
+            "score": 3.232868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 1632,
+            "entity_label": "San Pedro",
+            "entity_class": "City",
+            "score": 3.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 12737,
+            "entity_label": "Ali",
+            "entity_class": "Person",
+            "score": 8.534213,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 12473,
+            "entity_label": "Norwich",
+            "entity_class": "City",
+            "score": 4.257356,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "3690": 1,
+        "1241": 2,
+        "12678": 3,
+        "7935": 4,
+        "5568": 5,
+        "1152": 6,
+        "7443": 7,
+        "8356": 8,
+        "8502": 9,
+        "14082": 10,
+        "14037": 11,
+        "4513": 12,
+        "7799": 13,
+        "14205": 14,
+        "8641": 15,
+        "6224": 16,
+        "7651": 17,
+        "1632": 18,
+        "12737": 19,
+        "12473": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=United National Party, relation=hasArtist, tail=?)\n\nOntology summary:\n- Query relation: hasArtist\n- Head entity: United National Party\n- Head class: Political Party\n- Relation domain: Radio Station\n- Relation range: Band\n- Domain check: not clearly matched\n- Tail entities of class 'Band' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=38, edges=48, paths=20\n- Head outgoing edges under target relation hasArtist: 3\n- Key support nodes: United National Party, Igor Stravinsky, Jon Stone, Ali, Norwich, Cowbell, Connecticut College, San Pedro\n- Main auxiliary relations: hasImpersonatedCelebrities(14), hasReleaseMedium(6), hasFeaturedFilmLocations(6)\n\nFrequent relation path patterns:\n- hasArtist -> hasImpersonatedCelebrities (count=8)\n- hasArtist -> hasFeaturedFilmLocations (count=6)\n- hasArtist (count=3)\n- hasArtist -> hasReleaseMedium (count=3)\n\nCandidates:\n1. Roger Bart [id=3690 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n2. Cowbell [id=1241 | class=Object | type=0 | soft_type=0 | direct=0 | paths=2 | aux=3 | key=1]\n3. Magdeburg [id=12678 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n4. Connecticut College [id=7935 | class=University | type=0 | soft_type=0 | direct=0 | paths=2 | aux=4 | key=1]\n5. University of Central Florida [id=5568 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n6. Craig Thomas [id=1152 | class=Author | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n7. The Muppet Movie [id=7443 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n8. Funkadelic [id=8356 | class=Music Group | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n9. Tom Mccarthy [id=8502 | class=Director | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]\n10. Acadians [id=14082 | class=Ethnic Group | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n11. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=4 | key=0]\n12. Cameron Diaz [id=4513 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]\n13. Igor Stravinsky [id=7799 | class=Person | type=0 | soft_type=1 | direct=1 | paths=1 | aux=9 | key=1]\n14. Art Dealer [id=14205 | class=Profession | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n15. Jon Stone [id=8641 | class=Journalist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=7 | key=1]\n16. Ricardo Fuller [id=6224 | class=Athlete | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n17. Stephen J. Cannell [id=7651 | class=Person | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]\n18. San Pedro [id=1632 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n19. Ali [id=12737 | class=Person | type=0 | soft_type=1 | direct=1 | paths=2 | aux=3 | key=1]\n20. Norwich [id=12473 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=4 | key=1]\n"
+}

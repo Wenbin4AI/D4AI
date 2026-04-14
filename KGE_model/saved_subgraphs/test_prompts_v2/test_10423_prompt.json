@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 5644,
+        "head_label": "Cardiff University",
+        "head_class": "University",
+        "relation_id": 82,
+        "relation_label": "hasReligion",
+        "gold_tail": 13321,
+        "gold_tail_label": "Spezia Calcio",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 5732,
+            "entity_label": "Conan O'brien",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 9499,
+            "entity_label": "Hayden Christensen",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 12479,
+            "entity_label": "Frank Skinner",
+            "entity_class": "Person",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 7680,
+            "entity_label": "Donaldus Milford Payne",
+            "entity_class": "Person",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 14375,
+            "entity_label": "Reform Party of Canada",
+            "entity_class": "Political Party",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 10743,
+            "entity_label": "Enrique Iglesias",
+            "entity_class": "Music Artist",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 8326,
+            "entity_label": "John Dingell, Jr.",
+            "entity_class": "Person",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 1209,
+            "entity_label": "Albert Brooks",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 10765,
+            "entity_label": "Grammy Award for Best Mexican/mexican-american Album",
+            "entity_class": "Award",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 8993,
+            "entity_label": "Emilia-romagna",
+            "entity_class": "Region",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 5761,
+            "entity_label": "Aldous Huxley",
+            "entity_class": "Author",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 2081,
+            "entity_label": "Joseph C. Wright",
+            "entity_class": "People",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 7660,
+            "entity_label": "The Fabulous Baker Boys",
+            "entity_class": "Movie",
+            "score": 7.439678,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 5,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 10399,
+            "entity_label": "Nikolai Rimsky-korsakov",
+            "entity_class": "Musician",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 10027,
+            "entity_label": "Larry the Cable Guy",
+            "entity_class": "Comedian",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 6041,
+            "entity_label": "John Updike",
+            "entity_class": "Author",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 3286,
+            "entity_label": "Days of Our Lives",
+            "entity_class": "Tv Show",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 78,
+            "entity_label": "Top Gun",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 13321,
+            "entity_label": "Spezia Calcio",
+            "entity_class": "Football Club",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 2326,
+            "entity_label": "Soul Surfer",
+            "entity_class": "Film",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "5732": 1,
+        "9499": 2,
+        "12479": 3,
+        "7680": 4,
+        "14375": 5,
+        "10743": 6,
+        "8326": 7,
+        "1209": 8,
+        "10765": 9,
+        "8993": 10,
+        "5761": 11,
+        "2081": 12,
+        "7660": 13,
+        "10399": 14,
+        "10027": 15,
+        "6041": 16,
+        "3286": 17,
+        "78": 18,
+        "13321": 19,
+        "2326": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Cardiff University, relation=hasReligion, tail=?)\n\nOntology summary:\n- Query relation: hasReligion\n- Head entity: Cardiff University\n- Head class: University\n- Relation domain: Person\n- Relation range: Religion\n- Domain check: not clearly matched\n- Tail entities of class 'Religion' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=44, edges=50, paths=20\n- Head outgoing edges under target relation hasReligion: 12\n- Key support nodes: Cardiff University, The Fabulous Baker Boys, Larry the Cable Guy, Soul Surfer, Donaldus Milford Payne, Hayden Christensen, Grammy Award for Best Mexican/mexican-american Album, Days of Our Lives\n- Main auxiliary relations: hasRosterPosition(8), hasFriend(7), performedBy(4)\n\nFrequent relation path patterns:\n- hasReligion (count=12)\n- hasReligion -> hasFriend (count=6)\n- hasReligion -> livingIn (count=1)\n- hasDistributed -> hasReligion (count=1)\n\nCandidates:\n1. Conan O'brien [id=5732 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Hayden Christensen [id=9499 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Frank Skinner [id=12479 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n4. Donaldus Milford Payne [id=7680 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n5. Reform Party of Canada [id=14375 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Enrique Iglesias [id=10743 | class=Music Artist | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n7. John Dingell, Jr. [id=8326 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n8. Albert Brooks [id=1209 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Grammy Award for Best Mexican/mexican-american Album [id=10765 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Emilia-romagna [id=8993 | class=Region | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n11. Aldous Huxley [id=5761 | class=Author | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n12. Joseph C. Wright [id=2081 | class=People | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. The Fabulous Baker Boys [id=7660 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=2 | aux=5 | key=1]\n14. Nikolai Rimsky-korsakov [id=10399 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Larry the Cable Guy [id=10027 | class=Comedian | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n16. John Updike [id=6041 | class=Author | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n17. Days of Our Lives [id=3286 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Top Gun [id=78 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Spezia Calcio [id=13321 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Soul Surfer [id=2326 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n"
+}

@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Fantasy, relation=hasContributions, tail=?)
+
+Ontology summary:
+- Query relation: hasContributions
+- Head entity: Fantasy
+- Head class: Genre
+- Relation domain: Musician
+- Relation range: Musical Instrument
+- Domain check: not clearly matched
+- Tail entities of class 'Musical Instrument' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=39, edges=50, paths=20
+- Head outgoing edges under target relation hasContributions: 1
+- Key support nodes: Fantasy, Ryan Phillippe, University of St Andrews, Time in China, The Kingdom, Sammy Davis Jr., Howard Gordon, Mtv Video Music Award for Best Group
+- Main auxiliary relations: hasGenre(32), hasRuntime(4), hasColors(2)
+
+Frequent relation path patterns:
+- hasContributions -> hasGenre (count=19)
+- hasContributions (count=1)
+
+Candidates:
+1. Thomas Newman [id=6503 | class=Composer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+2. Channing Tatum [id=5634 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]
+3. Meet Joe Black [id=5553 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+4. Pulitzer Prize for Public Service [id=14029 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]
+5. Fantasy [id=1314 | class=Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=4 | key=1]
+6. Catherine Keener [id=30 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+7. Canoe Slalom [id=3296 | class=Sport | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+8. Chuck Connors [id=11769 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+9. The Kingdom [id=4695 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]
+10. Gwynedd [id=12852 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+11. Mandopop [id=13685 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+12. Tony Geiss [id=6862 | class=Writer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+13. University of St Andrews [id=11993 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=5 | key=1]
+14. Rebecca [id=1122 | class=Novel | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+15. Time in China [id=11576 | class=Time Zone | type=0 | soft_type=0 | direct=0 | paths=1 | aux=4 | key=1]
+16. Gillian Anderson [id=775 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+17. Howard Gordon [id=3312 | class=Producer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]
+18. Mtv Video Music Award for Best Group [id=8713 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]
+19. Ryan Phillippe [id=3056 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=20 | key=1]
+20. Sammy Davis Jr. [id=10128 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=4 | key=1]

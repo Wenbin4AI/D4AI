@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 14066,
+        "head_label": "Deva",
+        "head_class": "City",
+        "relation_id": 135,
+        "relation_label": "hasCountry",
+        "gold_tail": 2631,
+        "gold_tail_label": "Joshua Logan",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 6080,
+            "entity_label": "Rock Hudson",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 14246,
+            "entity_label": "Microsoft Windows",
+            "entity_class": "Software",
+            "score": 3.687639,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 5,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 743,
+            "entity_label": "Some Kind of Monster",
+            "entity_class": "Movie Title",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 11904,
+            "entity_label": "Keble College",
+            "entity_class": "College",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 8761,
+            "entity_label": "Hammersmith",
+            "entity_class": "Location",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 11047,
+            "entity_label": "Alexandre Trauner",
+            "entity_class": "Art Director",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 14355,
+            "entity_label": "Dinosaur",
+            "entity_class": "Animal",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 4864,
+            "entity_label": "Set Dresser",
+            "entity_class": "Job Title",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 7544,
+            "entity_label": "Jamie Gangel",
+            "entity_class": "Person",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 10246,
+            "entity_label": "Fayette County",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 13511,
+            "entity_label": "Shochiku",
+            "entity_class": "Company",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 12058,
+            "entity_label": "Nevada County",
+            "entity_class": "Location",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 11862,
+            "entity_label": "Royal Medal",
+            "entity_class": "Award",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 6071,
+            "entity_label": "Gothic Metal",
+            "entity_class": "Music Genre",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 3776,
+            "entity_label": "Hope Springs",
+            "entity_class": "Movie",
+            "score": 6.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 1810,
+            "entity_label": "A Christmas Carol",
+            "entity_class": "Book",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 100,
+            "entity_label": "Roger Deakins",
+            "entity_class": "Cinematographer",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 7428,
+            "entity_label": "Latin America",
+            "entity_class": "Region",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 2631,
+            "entity_label": "Joshua Logan",
+            "entity_class": "Person",
+            "score": 6.918865,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 6,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 476,
+            "entity_label": "Lufthansa",
+            "entity_class": "Airline",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "6080": 1,
+        "14246": 2,
+        "743": 3,
+        "11904": 4,
+        "8761": 5,
+        "11047": 6,
+        "14355": 7,
+        "4864": 8,
+        "7544": 9,
+        "10246": 10,
+        "13511": 11,
+        "12058": 12,
+        "11862": 13,
+        "6071": 14,
+        "3776": 15,
+        "1810": 16,
+        "100": 17,
+        "7428": 18,
+        "2631": 19,
+        "476": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Deva, relation=hasCountry, tail=?)\n\nOntology summary:\n- Query relation: hasCountry\n- Head entity: Deva\n- Head class: City\n- Relation domain: City\n- Relation range: Country\n- Domain check: matched\n- Tail entities of class 'Country' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=46, edges=59, paths=20\n- Head outgoing edges under target relation hasCountry: 5\n- Key support nodes: Deva, Joshua Logan, 48th Academy Awards, Microsoft Windows, Royal Medal, Hope Springs, U.s. Gold, Bubblegum Music\n- Main auxiliary relations: hasRegularPerformanceRole(13), hasDomesticTuition(11), influencedBy(5)\n\nFrequent relation path patterns:\n- influencedBy -> hasRegularPerformanceRole -> hasCountry (count=13)\n- hasCountry (count=5)\n- hasCountry -> originCountry (count=2)\n\nCandidates:\n1. Rock Hudson [id=6080 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Microsoft Windows [id=14246 | class=Software | type=0 | soft_type=0 | direct=0 | paths=5 | aux=0 | key=1]\n3. Some Kind of Monster [id=743 | class=Movie Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Keble College [id=11904 | class=College | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n5. Hammersmith [id=8761 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Alexandre Trauner [id=11047 | class=Art Director | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Dinosaur [id=14355 | class=Animal | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Set Dresser [id=4864 | class=Job Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n10. Fayette County [id=10246 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Shochiku [id=13511 | class=Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Nevada County [id=12058 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Royal Medal [id=11862 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n14. Gothic Metal [id=6071 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Hope Springs [id=3776 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n16. A Christmas Carol [id=1810 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Roger Deakins [id=100 | class=Cinematographer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n18. Latin America [id=7428 | class=Region | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Joshua Logan [id=2631 | class=Person | type=0 | soft_type=0 | direct=1 | paths=6 | aux=0 | key=1]\n20. Lufthansa [id=476 | class=Airline | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n"
+}

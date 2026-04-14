@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Democratic-republican Party, relation=hasGovernmentPosition, tail=?)
+
+Ontology summary:
+- Query relation: hasGovernmentPosition
+- Head entity: Democratic-republican Party
+- Head class: Political Party
+- Relation domain: Person
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=48, edges=48, paths=20
+- Head outgoing edges under target relation hasGovernmentPosition: 21
+- Key support nodes: Democratic-republican Party, Helena, Cook County, Lower Normandy, Transformers, Greystoke: the Legend of Tarzan, Lord of the Apes, The Transformers, Robin Wright
+- Main auxiliary relations: hasAthlete(7), hasNetflixGenreTitle(5), hasImpersonatedCelebrities(3)
+
+Frequent relation path patterns:
+- hasGovernmentPosition (count=20)
+
+Candidates:
+1. Sub Pop [id=11778 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Annie Lennox [id=7514 | class=Person | type=1 | soft_type=1 | direct=1 | paths=0 | aux=0 | key=0]
+3. Screwball Comedy Film [id=3884 | class=Film Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Robert L. Surtees [id=4593 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+5. Greystoke: the Legend of Tarzan, Lord of the Apes [id=11385 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Barnard College [id=12019 | class=College | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+7. Bsc Young Boys [id=7143 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. The Lord of the Rings: the Two Towers [id=1201 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Cook County [id=6132 | class=County Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Wake Forest Demon Deacons Men's Basketball [id=3534 | class=Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+11. Kagoshima [id=13060 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. The Transformers [id=7045 | class=Animated Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+13. Helena [id=12361 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+14. Robin Wright [id=409 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+15. Joely Richardson [id=12369 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+16. Golden Globe Award for Best Director [id=931 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Lower Normandy [id=10193 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Transformers [id=13730 | class=Toy Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Pirates of the Caribbean: at World's End [id=6919 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Pundit [id=6158 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]

@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Robert Montgomery, relation=hasCurrentRoster, tail=?)
+
+Ontology summary:
+- Query relation: hasCurrentRoster
+- Head entity: Robert Montgomery
+- Head class: Person
+- Relation domain: Sports Team
+- Relation range: Position
+- Domain check: not clearly matched
+- Tail entities of class 'Position' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=39, edges=45, paths=20
+- Head outgoing edges under target relation hasCurrentRoster: 21
+- Key support nodes: Robert Montgomery, Calabria, Steve Howe, A.s. Nancy-lorraine, History, Lena Horne, United States House of Representatives, Chris Nurse
+- Main auxiliary relations: hasBorder(6), hasAward(5), hasAthlete(4)
+
+Frequent relation path patterns:
+- hasCurrentRoster (count=20)
+
+Candidates:
+1. Hampshire [id=11585 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Lena Horne [id=4909 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Joe Morton [id=7315 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. History [id=13796 | class=Field of Study | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Haverhill [id=11438 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Kill Rock Stars [id=13928 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Shirley Knight [id=12347 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Florida State Seminoles Football [id=7170 | class=American Football Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. United States House of Representatives [id=2616 | class=Government Body | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Independent Record Label [id=11625 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Maccabi Tel Aviv B.c. [id=13973 | class=Basketball Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Jack Huston [id=430 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Calabria [id=11363 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. Cumberland [id=9814 | class=Geographic Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Steve Howe [id=6892 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Annie Lennox [id=7514 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Chris Nurse [id=7342 | class=Association Football Player | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Die Hard [id=2268 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Rockhampton [id=14360 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. A.s. Nancy-lorraine [id=11732 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

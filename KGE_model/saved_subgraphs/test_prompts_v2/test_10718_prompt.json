@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 6898,
+        "head_label": "Claremont Mckenna College",
+        "head_class": "University",
+        "relation_id": 75,
+        "relation_label": "performedBy",
+        "gold_tail": 12402,
+        "gold_tail_label": "Kanpur",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 823,
+            "entity_label": "Kazan",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 3056,
+            "entity_label": "Ryan Phillippe",
+            "entity_class": "Actor",
+            "score": 6.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 14173,
+            "entity_label": "Lake District",
+            "entity_class": "Geographical Area",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 10060,
+            "entity_label": "Columbia",
+            "entity_class": "Record Label",
+            "score": 6.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 268,
+            "entity_label": "Warner Bros.",
+            "entity_class": "Film Company",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 1463,
+            "entity_label": "Nac Breda",
+            "entity_class": "Football Club",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 7153,
+            "entity_label": "The X Factor",
+            "entity_class": "Tv Show",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 5913,
+            "entity_label": "Ray Romano",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 11173,
+            "entity_label": "Grammy Award for Best Boxed or Special Limited Edition Package",
+            "entity_class": "Award Category",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 4695,
+            "entity_label": "The Kingdom",
+            "entity_class": "Film",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 4031,
+            "entity_label": "Santa Cruz",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 11576,
+            "entity_label": "Time in China",
+            "entity_class": "Time Zone",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 1499,
+            "entity_label": "Green Lantern",
+            "entity_class": "Superhero",
+            "score": 8.205916,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 4,
+                "aux_support": 5,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 13543,
+            "entity_label": "Ronnie Screwvala",
+            "entity_class": "Person",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 1943,
+            "entity_label": "Jorge Luis Borges",
+            "entity_class": "Author",
+            "score": 7.034213,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 819,
+            "entity_label": "Imelda Staunton",
+            "entity_class": "Actor",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 5295,
+            "entity_label": "Rajesh Khanna",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 12402,
+            "entity_label": "Kanpur",
+            "entity_class": "Location",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 9034,
+            "entity_label": "Karnataka",
+            "entity_class": "State",
+            "score": 6.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "823": 1,
+        "3056": 2,
+        "14173": 3,
+        "10060": 4,
+        "268": 5,
+        "1463": 6,
+        "7153": 7,
+        "5913": 8,
+        "11173": 9,
+        "4695": 10,
+        "4031": 11,
+        "11576": 12,
+        "1499": 13,
+        "13543": 14,
+        "1943": 15,
+        "4994": 16,
+        "819": 17,
+        "5295": 18,
+        "12402": 19,
+        "9034": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Claremont Mckenna College, relation=performedBy, tail=?)\n\nOntology summary:\n- Query relation: performedBy\n- Head entity: Claremont Mckenna College\n- Head class: University\n- Relation domain: Musical Instrument\n- Relation range: Musical Instrument\n- Domain check: not clearly matched\n- Tail entities of class 'Musical Instrument' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=41, edges=49, paths=20\n- Head outgoing edges under target relation performedBy: 10\n- Key support nodes: Claremont Mckenna College, Green Lantern, Jorge Luis Borges, Ryan Phillippe, Karnataka, Columbia, Grammy Award for Best Boxed or Special Limited Edition Package, Rajesh Khanna\n- Main auxiliary relations: hasGenre(10), hasPhoneNumber(7), hasColors(7)\n\nFrequent relation path patterns:\n- performedBy (count=10)\n- performedBy -> hasColors (count=6)\n- performedBy -> hasGenre (count=4)\n\nCandidates:\n1. Kazan [id=823 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Ryan Phillippe [id=3056 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n3. Lake District [id=14173 | class=Geographical Area | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n4. Columbia [id=10060 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=2 | aux=2 | key=1]\n5. Warner Bros. [id=268 | class=Film Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Nac Breda [id=1463 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n7. The X Factor [id=7153 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n8. Ray Romano [id=5913 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Grammy Award for Best Boxed or Special Limited Edition Package [id=11173 | class=Award Category | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n10. The Kingdom [id=4695 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n11. Santa Cruz [id=4031 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Time in China [id=11576 | class=Time Zone | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n13. Green Lantern [id=1499 | class=Superhero | type=0 | soft_type=0 | direct=1 | paths=4 | aux=5 | key=1]\n14. Ronnie Screwvala [id=13543 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n15. Jorge Luis Borges [id=1943 | class=Author | type=0 | soft_type=0 | direct=1 | paths=2 | aux=3 | key=1]\n16. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Imelda Staunton [id=819 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n18. Rajesh Khanna [id=5295 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Kanpur [id=12402 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Karnataka [id=9034 | class=State | type=0 | soft_type=0 | direct=1 | paths=2 | aux=2 | key=1]\n"
+}

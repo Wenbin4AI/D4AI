@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Ed Harris, relation=hasTaxonomyEntry, tail=?)
+
+Ontology summary:
+- Query relation: hasTaxonomyEntry
+- Head entity: Ed Harris
+- Head class: Actor
+- Relation domain: Country
+- Relation range: Library Classification System
+- Domain check: not clearly matched
+- Tail entities of class 'Library Classification System' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=45, edges=50, paths=20
+- Head outgoing edges under target relation hasTaxonomyEntry: 21
+- Key support nodes: Ed Harris, Running Back, New Age, Into the Storm, Neuroscience, Hewlett-packard, The Philadelphia Story, Boulogne-billancourt
+- Main auxiliary relations: hasNetflixGenreTitle(8), hasBorder(4), hasAthlete(4)
+
+Frequent relation path patterns:
+- hasTaxonomyEntry (count=20)
+
+Candidates:
+1. Jefferson Parish [id=13518 | class=Geographical Area | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Hewlett-packard [id=2981 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Yokohama [id=10944 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Neuroscience [id=10923 | class=Field of Study | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Cameroon National Football Team [id=1400 | class=National Football Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. James Ingram [id=8895 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Interactive Advertising Bureau [id=14016 | class=组织机构 | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. The Stepford Wives [id=6309 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. The Philadelphia Story [id=2482 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Jule Styne [id=3506 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Topaz [id=6869 | class=Gemstone | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Pirates of the Caribbean: at World's End [id=6919 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Running Back [id=97 | class=Position in American Football | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. British Folk Rock [id=13932 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. New Age [id=6107 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Colgate University [id=8308 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Boulogne-billancourt [id=12116 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Musical Film [id=205 | class=Film Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Autoharp [id=1454 | class=Musical Instrument | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Into the Storm [id=7749 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

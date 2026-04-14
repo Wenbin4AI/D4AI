@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Northampton Town F.c., relation=hasReligion, tail=?)
+
+Ontology summary:
+- Query relation: hasReligion
+- Head entity: Northampton Town F.c.
+- Head class: Football Club
+- Relation domain: Person
+- Relation range: Religion
+- Domain check: not clearly matched
+- Tail entities of class 'Religion' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=45, edges=50, paths=20
+- Head outgoing edges under target relation hasReligion: 19
+- Key support nodes: Northampton Town F.c., Merv Griffin, Penang, Jacques Lacan, Rowan Atkinson, Stanford Cardinal Football, Taraji P. Henson, John Seale
+- Main auxiliary relations: hasCounty(7), director(3), hasRosterPosition(3)
+
+Frequent relation path patterns:
+- hasReligion (count=19)
+- hasImpersonatedCelebrities -> hasReligion (count=1)
+
+Candidates:
+1. Paul Sylbert [id=12650 | class=Art Director | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+2. Stanford Cardinal Football [id=9193 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Travel [id=12839 | class=Travel | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Rowan Atkinson [id=8285 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. 13th Academy Awards [id=7978 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Fc Schalke 04 [id=9057 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Curtis Institute of Music [id=11745 | class=Institute of Music | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Alsace [id=12037 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Taraji P. Henson [id=1104 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Kilkenny [id=1584 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Larenz Tate [id=107 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Sophie Thompson [id=1737 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Merv Griffin [id=12814 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. South Sudan [id=13434 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Penang [id=12391 | class=City-state | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Lou Grant [id=9269 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. John Seale [id=7047 | class=Cinematographer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Hamilton [id=14421 | class=Geography | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Thomas Edison [id=9969 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Jacques Lacan [id=7951 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 8135,
+        "head_label": "War of 1812",
+        "head_class": "Event",
+        "relation_id": 86,
+        "relation_label": "hasProductionCompanies",
+        "gold_tail": 1729,
+        "gold_tail_label": "Andy Samberg",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 3104,
+            "entity_label": "Mongolia",
+            "entity_class": "Country",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 13320,
+            "entity_label": "Pfc Cherno More Varna",
+            "entity_class": "Football Club",
+            "score": 1.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 9084,
+            "entity_label": "Lipid",
+            "entity_class": "Biochemistry",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 8628,
+            "entity_label": "Locus Award for Best Fantasy Novel",
+            "entity_class": "Award",
+            "score": 3.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 7651,
+            "entity_label": "Stephen J. Cannell",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 3892,
+            "entity_label": "Breaking and Entering",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 12435,
+            "entity_label": "Music Executive",
+            "entity_class": "Occupation",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 3902,
+            "entity_label": "Henry Bumstead",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 2364,
+            "entity_label": "Silent Hill",
+            "entity_class": "Video Game Series, Film Franchise",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 13274,
+            "entity_label": "Mobile Suit Gundam 00",
+            "entity_class": "Anime Series",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 7799,
+            "entity_label": "Igor Stravinsky",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 8954,
+            "entity_label": "Preston Sturges",
+            "entity_class": "Person",
+            "score": 4.380786,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 5,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 2237,
+            "entity_label": "Haskell Wexler",
+            "entity_class": "Cinematographer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 13537,
+            "entity_label": "Warrington",
+            "entity_class": "City",
+            "score": 3.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 4949,
+            "entity_label": "Ocad University",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 274,
+            "entity_label": "Australia",
+            "entity_class": "Country",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 721,
+            "entity_label": "Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Miniseries or Television Movie",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 1729,
+            "entity_label": "Andy Samberg",
+            "entity_class": "Actor",
+            "score": 7.512769,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 4,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 3567,
+            "entity_label": "59th Berlin International Film Festival",
+            "entity_class": "Film Festival",
+            "score": 3.414157,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 4,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "3104": 1,
+        "13320": 2,
+        "9084": 3,
+        "8628": 4,
+        "7651": 5,
+        "3892": 6,
+        "12435": 7,
+        "3902": 8,
+        "14037": 9,
+        "2364": 10,
+        "13274": 11,
+        "7799": 12,
+        "8954": 13,
+        "2237": 14,
+        "13537": 15,
+        "4949": 16,
+        "274": 17,
+        "721": 18,
+        "1729": 19,
+        "3567": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=War of 1812, relation=hasProductionCompanies, tail=?)\n\nOntology summary:\n- Query relation: hasProductionCompanies\n- Head entity: War of 1812\n- Head class: Event\n- Relation domain: Movie\n- Relation range: Film Studio\n- Domain check: not clearly matched\n- Tail entities of class 'Film Studio' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=49, edges=67, paths=20\n- Head outgoing edges under target relation hasProductionCompanies: 1\n- Key support nodes: War of 1812, Hope Springs, Andy Samberg, Preston Sturges, 59th Berlin International Film Festival, Locus Award for Best Fantasy Novel, Warrington, Travis Banton\n- Main auxiliary relations: hasDomesticTuition(15), hasRosterPosition(5), hasRegularPerformanceRole(4)\n\nFrequent relation path patterns:\n- hasRosterPosition -> hasDomesticTuition -> hasProductionCompanies (count=12)\n- hasFriend -> hasProductionCompanies (count=3)\n- influencedBy -> hasRegularPerformanceRole -> hasProductionCompanies (count=2)\n- hasProductionCompanies (count=1)\n- hasProductionCompanies -> hasImpersonatedCelebrities (count=1)\n\nCandidates:\n1. Mongolia [id=3104 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Pfc Cherno More Varna [id=13320 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]\n3. Lipid [id=9084 | class=Biochemistry | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Locus Award for Best Fantasy Novel [id=8628 | class=Award | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n5. Stephen J. Cannell [id=7651 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Breaking and Entering [id=3892 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Music Executive [id=12435 | class=Occupation | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Henry Bumstead [id=3902 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n10. Silent Hill [id=2364 | class=Video Game Series, Film Franchise | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Mobile Suit Gundam 00 [id=13274 | class=Anime Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Igor Stravinsky [id=7799 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Preston Sturges [id=8954 | class=Person | type=0 | soft_type=0 | direct=0 | paths=5 | aux=1 | key=1]\n14. Haskell Wexler [id=2237 | class=Cinematographer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Warrington [id=13537 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n16. Ocad University [id=4949 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Australia [id=274 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Miniseries or Television Movie [id=721 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Andy Samberg [id=1729 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=4 | aux=2 | key=1]\n20. 59th Berlin International Film Festival [id=3567 | class=Film Festival | type=0 | soft_type=0 | direct=0 | paths=4 | aux=0 | key=1]\n"
+}

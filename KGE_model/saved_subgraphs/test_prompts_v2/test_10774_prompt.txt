@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Jefferson County, relation=hasImpersonatedCelebrities, tail=?)
+
+Ontology summary:
+- Query relation: hasImpersonatedCelebrities
+- Head entity: Jefferson County
+- Head class: County
+- Relation domain: Actor
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=29, edges=47, paths=20
+- Head outgoing edges under target relation hasImpersonatedCelebrities: 14
+- Key support nodes: Jefferson County, Arthur Freed, Johnny English Reborn, Edward Woodward, Pennsylvania State University, Karlsruhe, Tupac Shakur, Lauren Tom
+- Main auxiliary relations: hasReleaseMedium(9), hasReligion(4), hasAthlete(4)
+
+Frequent relation path patterns:
+- hasImpersonatedCelebrities (count=14)
+- hasImpersonatedCelebrities -> hasImpersonatedCelebrities (count=6)
+
+Candidates:
+1. Ellen Pompeo [id=3092 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+2. Johnny English Reborn [id=3783 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=2 | aux=3 | key=1]
+3. Iowa State University [id=1466 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Edward Woodward [id=7425 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=2 | key=1]
+5. Ocean's Twelve [id=2270 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+6. Cam Clarke [id=12993 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+7. Candlelight Records [id=14473 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Jefferson County [id=10562 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=1]
+9. Tupac Shakur [id=8886 | class=Rapper | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]
+10. Michael Ironside [id=9537 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+11. Joshua Redman [id=1145 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]
+12. Lewis Black [id=9056 | class=Comedian | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+13. Arthur Freed [id=9682 | class=Person | type=1 | soft_type=1 | direct=1 | paths=6 | aux=3 | key=1]
+14. Computer Scientist [id=10802 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+15. Lauren Tom [id=2930 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=1 | key=1]
+16. Asteras Tripoli F.c. [id=7060 | class=Soccer Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Pennsylvania State University [id=4481 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+18. Karlsruhe [id=2619 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+19. Kingston University [id=6154 | class=Educational_institution | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Scatman Crothers [id=10685 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]

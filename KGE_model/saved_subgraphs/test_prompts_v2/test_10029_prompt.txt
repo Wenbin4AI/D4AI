@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Christmas Music, relation=hasRegularPerformanceRole, tail=?)
+
+Ontology summary:
+- Query relation: hasRegularPerformanceRole
+- Head entity: Christmas Music
+- Head class: Music Genre
+- Relation domain: Musical Instrument
+- Relation range: Musical Instrument
+- Domain check: not clearly matched
+- Tail entities of class 'Musical Instrument' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=45, edges=49, paths=20
+- Head outgoing edges under target relation hasRegularPerformanceRole: 20
+- Key support nodes: Christmas Music, Nick Cave, Jennifer Tilly, Audio Engineer, County Sligo, Shutter Island, Newell's Old Boys, Planet
+- Main auxiliary relations: hasSchoolType(4), performedBy(4), influencedBy(4)
+
+Frequent relation path patterns:
+- hasRegularPerformanceRole (count=20)
+
+Candidates:
+1. Sophie Thompson [id=1737 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Shutter Island [id=5990 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. University of Illinois at Chicago [id=2959 | class=Educational Institution | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. County Sligo [id=13124 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Michael Mann [id=2107 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Richard Culliton [id=316 | class=Writer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Katie Couric [id=7841 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. National Security [id=2093 | class=Concept | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Newell's Old Boys [id=13512 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. University of Windsor [id=2022 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. United States Presidential Election [id=9310 | class=Election | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Djembe [id=5207 | class=Musical Instrument | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. Nick Cave [id=433 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. Terre Haute [id=325 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Jennifer Tilly [id=2987 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Djibouti [id=8277 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Planet [id=14512 | class=Astronomical Object | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Mauritius [id=8791 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. General Hospital [id=1094 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Audio Engineer [id=5380 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

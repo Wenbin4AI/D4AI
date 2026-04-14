@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 9542,
+        "head_label": "Shamrock Rovers F.c.",
+        "head_class": "Football Club",
+        "relation_id": 114,
+        "relation_label": "hasSeasons",
+        "gold_tail": 3056,
+        "gold_tail_label": "Ryan Phillippe",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 9003,
+            "entity_label": "Samuel R. Delany",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 8429,
+            "entity_label": "San Diego State Aztecs Football",
+            "entity_class": "Football Team",
+            "score": 4.465736,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 8662,
+            "entity_label": "Bucknell University",
+            "entity_class": "University",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 3031,
+            "entity_label": "Charlotte Gainsbourg",
+            "entity_class": "Actor",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 2029,
+            "entity_label": "Uriah Heep",
+            "entity_class": "Rock Band",
+            "score": 3.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 1499,
+            "entity_label": "Green Lantern",
+            "entity_class": "Superhero",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 268,
+            "entity_label": "Warner Bros.",
+            "entity_class": "Film Company",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 12897,
+            "entity_label": "Akira Kamiya",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 10222,
+            "entity_label": "World Fantasy Award for Best Novel",
+            "entity_class": "Award",
+            "score": 3.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 12689,
+            "entity_label": "Andes",
+            "entity_class": "Mountain Range",
+            "score": 2.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 10127,
+            "entity_label": "Angie Dickinson",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 12439,
+            "entity_label": "Shinya Tsukamoto",
+            "entity_class": "Person",
+            "score": 3.232868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 7.437616,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 10,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 11576,
+            "entity_label": "Time in China",
+            "entity_class": "Time Zone",
+            "score": 2.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 5913,
+            "entity_label": "Ray Romano",
+            "entity_class": "Actor",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 348,
+            "entity_label": "Garbage",
+            "entity_class": "Band",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 11898,
+            "entity_label": "Murfreesboro",
+            "entity_class": "City",
+            "score": 3.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 4031,
+            "entity_label": "Santa Cruz",
+            "entity_class": "City",
+            "score": 3.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 3056,
+            "entity_label": "Ryan Phillippe",
+            "entity_class": "Actor",
+            "score": 11.736945,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 8,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 6981,
+            "entity_label": "Marcello Mastroianni",
+            "entity_class": "Actor",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "9003": 1,
+        "8429": 2,
+        "8662": 3,
+        "3031": 4,
+        "2029": 5,
+        "1499": 6,
+        "268": 7,
+        "12897": 8,
+        "10222": 9,
+        "12689": 10,
+        "10127": 11,
+        "12439": 12,
+        "4994": 13,
+        "11576": 14,
+        "5913": 15,
+        "348": 16,
+        "11898": 17,
+        "4031": 18,
+        "3056": 19,
+        "6981": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Shamrock Rovers F.c., relation=hasSeasons, tail=?)\n\nOntology summary:\n- Query relation: hasSeasons\n- Head entity: Shamrock Rovers F.c.\n- Head class: Football Club\n- Relation domain: Actor\n- Relation range: Actor\n- Domain check: not clearly matched\n- Tail entities of class 'Actor' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=44, edges=50, paths=20\n- Head outgoing edges under target relation hasSeasons: 2\n- Key support nodes: Shamrock Rovers F.c., Seattle, Ryan Phillippe, San Diego State Aztecs Football, World Fantasy Award for Best Novel, Murfreesboro, Santa Cruz, Uriah Heep\n- Main auxiliary relations: hasGenre(18), countyPlace(13), hasSport(4)\n\nFrequent relation path patterns:\n- hasSeasons -> countyPlace (count=12)\n- hasSeasons -> hasGenre (count=4)\n- hasSeasons (count=2)\n- hasSeasons -> hasColors (count=2)\n\nCandidates:\n1. Samuel R. Delany [id=9003 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n2. San Diego State Aztecs Football [id=8429 | class=Football Team | type=0 | soft_type=0 | direct=0 | paths=3 | aux=3 | key=1]\n3. Bucknell University [id=8662 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n4. Charlotte Gainsbourg [id=3031 | class=Actor | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Uriah Heep [id=2029 | class=Rock Band | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n6. Green Lantern [id=1499 | class=Superhero | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n7. Warner Bros. [id=268 | class=Film Company | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n8. Akira Kamiya [id=12897 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n9. World Fantasy Award for Best Novel [id=10222 | class=Award | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n10. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n11. Angie Dickinson [id=10127 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Shinya Tsukamoto [id=12439 | class=Person | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]\n13. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=10 | key=1]\n14. Time in China [id=11576 | class=Time Zone | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n15. Ray Romano [id=5913 | class=Actor | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n16. Garbage [id=348 | class=Band | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n17. Murfreesboro [id=11898 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n18. Santa Cruz [id=4031 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n19. Ryan Phillippe [id=3056 | class=Actor | type=1 | soft_type=1 | direct=1 | paths=1 | aux=8 | key=1]\n20. Marcello Mastroianni [id=6981 | class=Actor | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n"
+}

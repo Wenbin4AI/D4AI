@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Ryan Kavanaugh, relation=hasSibling, tail=?)
+
+Ontology summary:
+- Query relation: hasSibling
+- Head entity: Ryan Kavanaugh
+- Head class: Producer
+- Relation domain: Person
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=43, edges=47, paths=20
+- Head outgoing edges under target relation hasSibling: 20
+- Key support nodes: Ryan Kavanaugh, Conglomerate, Central School of Speech and Drama, Texas Blues, Scottish People, Black Hawk Down, Relativity Media, Tommy Lee
+- Main auxiliary relations: hasBurialPlace(9), isInductedIntoHallOfFame(3), editedBy(3)
+
+Frequent relation path patterns:
+- hasSibling (count=20)
+
+Candidates:
+1. Hardcore Hip Hop [id=7842 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Conglomerate [id=13046 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Gena Rowlands [id=11294 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+4. Mickey Rourke [id=9604 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+5. Black Hawk Down [id=1388 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Billy Bletcher [id=11306 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+7. Shohei Imamura [id=5049 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+8. Bebe Neuwirth [id=886 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Central School of Speech and Drama [id=6741 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Grammy Award for Best Rap Album [id=8424 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+11. Allentown [id=696 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Relativity Media [id=1283 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+13. Paul Mccartney [id=4432 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+14. Tommy Lee [id=3167 | class=Musician and Drummer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+15. Gina Mckee [id=8286 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+16. Sindh [id=2139 | class=Administrativeregion | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Texas Blues [id=14064 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Scottish People [id=3451 | class=Ethnic Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. St Helens [id=14014 | class=地理位置 | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Zachary Quinto [id=5723 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]

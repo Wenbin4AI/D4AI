@@ -1,0 +1,63 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Proto-punk, relation=hasReligion, tail=?)
+
+Ontology summary:
+- Query relation: hasReligion
+- Head entity: Proto-punk
+- Head class: Music Genre
+- Relation domain: Person
+- Relation range: Religion
+- Domain check: not clearly matched
+- Tail entities of class 'Religion' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=42, edges=49, paths=20
+- Head outgoing edges under target relation hasReligion: 15
+- Key support nodes: Proto-punk, David Walliams, Burlington, The Cure, George Frideric Handel, New London, Blackburn Rovers F.c., 2008 Ncaa Division I Men's Basketball Tournament
+- Main auxiliary relations: performedBy(9), hasRosterPosition(6), hasCounty(5)
+
+Frequent relation path patterns:
+- hasReligion (count=15)
+- hasRegularPerformanceRole (count=2)
+- hasReligion -> hasArtist -> foundIn (count=2)
+- hasReligion -> livingIn (count=1)
+
+Candidates:
+1. Math Rock [id=199 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. 2008 Ncaa Division I Men's Basketball Tournament [id=6522 | class=Basketball Tournament | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Laos [id=7752 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. New London [id=8023 | class=City | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+5. George Frideric Handel [id=5327 | class=Composer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Cree Summer [id=10324 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Stephen Baxter [id=10979 | class=Author | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+8. Michael Fassbender [id=8484 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Grammy Award for Best Dance/electronic Album [id=8050 | class=Music Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Terre Haute [id=325 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. David Byrne [id=1455 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Saturday Night's Main Event [id=10268 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. David Walliams [id=1878 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]
+14. Seoul Broadcasting System [id=14395 | class=Broadcasting Network | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Blackburn Rovers F.c. [id=10856 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]
+16. 2010: the Year We Make Contact [id=7666 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. The Savages [id=1228 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. The Cure [id=12756 | class=Music Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Thelonious Monk [id=2593 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Burlington [id=12173 | class=Location | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]

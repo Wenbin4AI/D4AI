@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 5749,
+        "head_label": "Burt Bacharach",
+        "head_class": "Person",
+        "relation_id": 125,
+        "relation_label": "hasAthlete",
+        "gold_tail": 2839,
+        "gold_tail_label": "Image Entertainment",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 3456,
+            "entity_label": "Honduras",
+            "entity_class": "Country",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 10698,
+            "entity_label": "Strasbourg",
+            "entity_class": "Location",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 7784,
+            "entity_label": "Martin Lawrence",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 9372,
+            "entity_label": "Solomon Islands",
+            "entity_class": "Country",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 11159,
+            "entity_label": "Cliff Richard",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 1536,
+            "entity_label": "Michael Gambon",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 2127,
+            "entity_label": "Lindsay Lohan",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 109,
+            "entity_label": "The Untouchables",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 4133,
+            "entity_label": "Matthew Mcconaughey",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 4244,
+            "entity_label": "Gene Kelly",
+            "entity_class": "Actor",
+            "score": 2.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 9650,
+            "entity_label": "1982 Cannes Film Festival",
+            "entity_class": "Film Festival",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 2050,
+            "entity_label": "Media",
+            "entity_class": "Media",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 4929,
+            "entity_label": "Get Him to the Greek",
+            "entity_class": "Film",
+            "score": 6.414157,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 4,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 9230,
+            "entity_label": "Club Universitario De Deportes",
+            "entity_class": "Football Club",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 7180,
+            "entity_label": "Orange County",
+            "entity_class": "County",
+            "score": 6.414157,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 4,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 10392,
+            "entity_label": "Julie Delpy",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 3017,
+            "entity_label": "Nick Mason",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 10440,
+            "entity_label": "Jeff Meckstroth",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 2839,
+            "entity_label": "Image Entertainment",
+            "entity_class": "Company",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 1909,
+            "entity_label": "56th Primetime Emmy Awards",
+            "entity_class": "Award Ceremony",
+            "score": 6.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "3456": 1,
+        "10698": 2,
+        "7784": 3,
+        "9372": 4,
+        "11159": 5,
+        "1536": 6,
+        "2127": 7,
+        "109": 8,
+        "4133": 9,
+        "4244": 10,
+        "9650": 11,
+        "2050": 12,
+        "4929": 13,
+        "9230": 14,
+        "7180": 15,
+        "10392": 16,
+        "3017": 17,
+        "10440": 18,
+        "2839": 19,
+        "1909": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Burt Bacharach, relation=hasAthlete, tail=?)\n\nOntology summary:\n- Query relation: hasAthlete\n- Head entity: Burt Bacharach\n- Head class: Person\n- Relation domain: Sport\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=35, edges=48, paths=20\n- Head outgoing edges under target relation hasAthlete: 8\n- Key support nodes: Burt Bacharach, The Prize, Get Him to the Greek, Orange County, 56th Primetime Emmy Awards, Solomon Islands, Strasbourg, Image Entertainment\n- Main auxiliary relations: hasEndowmentCurrency(13), hasImpersonatedCelebrities(3), plays(3)\n\nFrequent relation path patterns:\n- hasAthlete (count=8)\n- hasImpersonatedCelebrities -> hasAthlete (count=8)\n- hasReleaseMedium -> hasAthlete (count=4)\n\nCandidates:\n1. Honduras [id=3456 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Strasbourg [id=10698 | class=Location | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n3. Martin Lawrence [id=7784 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Solomon Islands [id=9372 | class=Country | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n5. Cliff Richard [id=11159 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Michael Gambon [id=1536 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Lindsay Lohan [id=2127 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. The Untouchables [id=109 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Matthew Mcconaughey [id=4133 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Gene Kelly [id=4244 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n11. 1982 Cannes Film Festival [id=9650 | class=Film Festival | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Media [id=2050 | class=Media | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Get Him to the Greek [id=4929 | class=Film | type=0 | soft_type=0 | direct=1 | paths=4 | aux=0 | key=1]\n14. Club Universitario De Deportes [id=9230 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Orange County [id=7180 | class=County | type=0 | soft_type=0 | direct=1 | paths=4 | aux=0 | key=1]\n16. Julie Delpy [id=10392 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Nick Mason [id=3017 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Jeff Meckstroth [id=10440 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Image Entertainment [id=2839 | class=Company | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n20. 56th Primetime Emmy Awards [id=1909 | class=Award Ceremony | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n"
+}

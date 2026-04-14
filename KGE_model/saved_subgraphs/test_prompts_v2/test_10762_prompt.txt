@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=John Denver, relation=hasGovernmentPosition, tail=?)
+
+Ontology summary:
+- Query relation: hasGovernmentPosition
+- Head entity: John Denver
+- Head class: Singer-songwriter
+- Relation domain: Person
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=46, edges=49, paths=20
+- Head outgoing edges under target relation hasGovernmentPosition: 20
+- Key support nodes: John Denver, Bill Mantlo, J. R. R. Tolkien, Macy Gray, Milan, Hannibal Rising, Farsley Celtic F.c., Marion County
+- Main auxiliary relations: hasImpersonatedCelebrities(6), hasAthlete(4), hasNetflixGenreTitle(4)
+
+Frequent relation path patterns:
+- hasGovernmentPosition (count=20)
+
+Candidates:
+1. Fort Smith [id=12922 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Chief Administrative Officer [id=8877 | class=Occupation | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+3. The Stepford Wives [id=6309 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Ontario [id=1694 | class=State | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+5. Marion County [id=12828 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Burt Bacharach [id=5749 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+7. The Haunting [id=5099 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. West Norwood Cemetery [id=14447 | class=Cemetery | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Bill Mantlo [id=6269 | class=Writer, Lawyer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Kyle Chandler [id=4758 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+11. Kabul [id=3101 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Bewitched [id=9669 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+13. J. R. R. Tolkien [id=350 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=3 | key=1]
+14. Christian [id=12360 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+15. Macy Gray [id=4711 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+16. Thunder Bay [id=14111 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Hannibal Rising [id=9504 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Farsley Celtic F.c. [id=13891 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Wandsworth [id=8366 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Milan [id=8675 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]

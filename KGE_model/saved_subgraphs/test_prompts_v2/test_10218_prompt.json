@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 14387,
+        "head_label": "County Mayo",
+        "head_class": "County",
+        "relation_id": 82,
+        "relation_label": "hasReligion",
+        "gold_tail": 7833,
+        "gold_tail_label": "Bill Berry",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 8509,
+            "entity_label": "Cheaper by the Dozen",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 13864,
+            "entity_label": "Mine",
+            "entity_class": "Mine",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 11043,
+            "entity_label": "Pinto Colvig",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 8459,
+            "entity_label": "Christoph Waltz",
+            "entity_class": "Person",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 7256,
+            "entity_label": "Irene Cara",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 13577,
+            "entity_label": "St. Louis Blues",
+            "entity_class": "Sports Team",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 11966,
+            "entity_label": "Rostock",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 12408,
+            "entity_label": "Mountain View",
+            "entity_class": "Location",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 793,
+            "entity_label": "Lute",
+            "entity_class": "Instrument",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 7796,
+            "entity_label": "Magical Girl Lyrical Nanoha",
+            "entity_class": "Anime",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 3219,
+            "entity_label": "Alan Turing",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 10661,
+            "entity_label": "David Fincher",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 12742,
+            "entity_label": "Sky One",
+            "entity_class": "Television Network",
+            "score": 6.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 1183,
+            "entity_label": "Budapest",
+            "entity_class": "City",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 10130,
+            "entity_label": "Battle of the Somme",
+            "entity_class": "Event",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 6811,
+            "entity_label": "William Holden",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 10554,
+            "entity_label": "Cleveland Cavaliers",
+            "entity_class": "Basketball Team",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 7974,
+            "entity_label": "Progressive Bluegrass",
+            "entity_class": "Music Genre",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 7833,
+            "entity_label": "Bill Berry",
+            "entity_class": "Singer",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 222,
+            "entity_label": "Josh Schwartz",
+            "entity_class": "Person",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "8509": 1,
+        "13864": 2,
+        "11043": 3,
+        "8459": 4,
+        "7256": 5,
+        "13577": 6,
+        "11966": 7,
+        "12408": 8,
+        "793": 9,
+        "7796": 10,
+        "3219": 11,
+        "10661": 12,
+        "12742": 13,
+        "1183": 14,
+        "10130": 15,
+        "6811": 16,
+        "10554": 17,
+        "7974": 18,
+        "7833": 19,
+        "222": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=County Mayo, relation=hasReligion, tail=?)\n\nOntology summary:\n- Query relation: hasReligion\n- Head entity: County Mayo\n- Head class: County\n- Relation domain: Person\n- Relation range: Religion\n- Domain check: not clearly matched\n- Tail entities of class 'Religion' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=43, edges=52, paths=20\n- Head outgoing edges under target relation hasReligion: 11\n- Key support nodes: County Mayo, New Haven County, Sky One, Josh Schwartz, Christoph Waltz, Mine, Battle of the Somme, Bill Berry\n- Main auxiliary relations: hasRosterPosition(7), hasCounty(4), hasImpersonatedCelebrities(4)\n\nFrequent relation path patterns:\n- hasReligion (count=11)\n- hasImpersonatedCelebrities -> hasReligion (count=8)\n- hasReligion -> livingIn (count=1)\n\nCandidates:\n1. Cheaper by the Dozen [id=8509 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Mine [id=13864 | class=Mine | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n3. Pinto Colvig [id=11043 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Christoph Waltz [id=8459 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n5. Irene Cara [id=7256 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n6. St. Louis Blues [id=13577 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n7. Rostock [id=11966 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Mountain View [id=12408 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Lute [id=793 | class=Instrument | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Magical Girl Lyrical Nanoha [id=7796 | class=Anime | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. Alan Turing [id=3219 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. David Fincher [id=10661 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Sky One [id=12742 | class=Television Network | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n14. Budapest [id=1183 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n15. Battle of the Somme [id=10130 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n16. William Holden [id=6811 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Cleveland Cavaliers [id=10554 | class=Basketball Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Progressive Bluegrass [id=7974 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n19. Bill Berry [id=7833 | class=Singer | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n20. Josh Schwartz [id=222 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n"
+}

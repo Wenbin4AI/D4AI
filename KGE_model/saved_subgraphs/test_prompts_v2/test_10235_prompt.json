@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 10596,
+        "head_label": "Bill Evans",
+        "head_class": "Musician",
+        "relation_id": 4,
+        "relation_label": "hasRosterPosition",
+        "gold_tail": 3776,
+        "gold_tail_label": "Hope Springs",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 14083,
+            "entity_label": "Padua",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 5341,
+            "entity_label": "Theatre",
+            "entity_class": "Organization",
+            "score": 3.414157,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 4,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 743,
+            "entity_label": "Some Kind of Monster",
+            "entity_class": "Movie Title",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 4016,
+            "entity_label": "Cynthia Watros",
+            "entity_class": "Actress",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 8844,
+            "entity_label": "University of Ibadan",
+            "entity_class": "University",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 4864,
+            "entity_label": "Set Dresser",
+            "entity_class": "Job Title",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 14355,
+            "entity_label": "Dinosaur",
+            "entity_class": "Animal",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 303,
+            "entity_label": "The Aristocrats",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 864,
+            "entity_label": "Joel Grey",
+            "entity_class": "Actor",
+            "score": 3.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 12171,
+            "entity_label": "Iron",
+            "entity_class": "Substance",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 1810,
+            "entity_label": "A Christmas Carol",
+            "entity_class": "Book",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 9747,
+            "entity_label": "13 Going on 30",
+            "entity_class": "Movie",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 13609,
+            "entity_label": "Hispanic",
+            "entity_class": "Ethnicity",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 2376,
+            "entity_label": "Munich",
+            "entity_class": "City",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 270,
+            "entity_label": "Writers Guild of America Award for Best Adapted Screenplay",
+            "entity_class": "Award",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 11719,
+            "entity_label": "Lierse S.k.",
+            "entity_class": "Sports Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 5700,
+            "entity_label": "Primary Colors",
+            "entity_class": "Movie",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 11556,
+            "entity_label": "March of the Penguins",
+            "entity_class": "Movie",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 3776,
+            "entity_label": "Hope Springs",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 8137,
+            "entity_label": "Edmund Husserl",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "14083": 1,
+        "5341": 2,
+        "743": 3,
+        "4016": 4,
+        "8844": 5,
+        "4864": 6,
+        "14355": 7,
+        "303": 8,
+        "864": 9,
+        "12171": 10,
+        "1810": 11,
+        "9747": 12,
+        "13609": 13,
+        "2376": 14,
+        "270": 15,
+        "11719": 16,
+        "5700": 17,
+        "11556": 18,
+        "3776": 19,
+        "8137": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Bill Evans, relation=hasRosterPosition, tail=?)\n\nOntology summary:\n- Query relation: hasRosterPosition\n- Head entity: Bill Evans\n- Head class: Musician\n- Relation domain: Football Club\n- Relation range: Position\n- Domain check: not clearly matched\n- Tail entities of class 'Position' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=38, edges=45, paths=20\n- Head outgoing edges under target relation hasRosterPosition: 5\n- Key support nodes: Bill Evans, Timothy Olyphant, Theatre, Joel Grey, Aberystwyth University, Great Britain, Primary Colors, March of the Penguins\n- Main auxiliary relations: foundIn(15), hasHeadquartersLocation(2), influencedBy(2)\n\nFrequent relation path patterns:\n- hasArtist -> foundIn -> hasRosterPosition (count=15)\n- hasRosterPosition (count=5)\n\nCandidates:\n1. Padua [id=14083 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Theatre [id=5341 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=4 | aux=0 | key=1]\n3. Some Kind of Monster [id=743 | class=Movie Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Cynthia Watros [id=4016 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n5. University of Ibadan [id=8844 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Set Dresser [id=4864 | class=Job Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Dinosaur [id=14355 | class=Animal | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. The Aristocrats [id=303 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Joel Grey [id=864 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n10. Iron [id=12171 | class=Substance | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. A Christmas Carol [id=1810 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. 13 Going on 30 [id=9747 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Hispanic [id=13609 | class=Ethnicity | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Munich [id=2376 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Writers Guild of America Award for Best Adapted Screenplay [id=270 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Lierse S.k. [id=11719 | class=Sports Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Primary Colors [id=5700 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n18. March of the Penguins [id=11556 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n19. Hope Springs [id=3776 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Edmund Husserl [id=8137 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n"
+}

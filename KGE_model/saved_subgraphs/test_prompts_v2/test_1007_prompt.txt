@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=John Milius, relation=hasSubsidiary, tail=?)
+
+Ontology summary:
+- Query relation: hasSubsidiary
+- Head entity: John Milius
+- Head class: Person
+- Relation domain: Company
+- Relation range: Company
+- Domain check: not clearly matched
+- Tail entities of class 'Company' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=36, edges=52, paths=20
+- Head outgoing edges under target relation hasSubsidiary: 2
+- Key support nodes: John Milius, Mtv Video Music Award for Best Male Video, Joplin, Goya Award for Best Film, Dennis Muren, Sarah Mclachlan, Joseph Cotten, The Hague
+- Main auxiliary relations: hasDesignedFilmSets(17), originCountry(6), hasMonthlyClimate(2)
+
+Frequent relation path patterns:
+- hasDesignedFilmSets -> hasSubsidiary (count=18)
+- hasSubsidiary (count=2)
+
+Candidates:
+1. Sidhique [id=13615 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Royal Medal [id=11862 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=0]
+3. Janet Jackson [id=3732 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Kyoto University [id=9540 | class=University | type=0 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]
+5. Edmonton Elks [id=13722 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+6. Xerez C.d. [id=13817 | class=Sports Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Mtv Movie Award for Best Comedic Performance [id=1489 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Martinique [id=8602 | class=Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Gregory Peck [id=8719 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+10. American Hockey League [id=12987 | class=Ice Hockey League | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+11. Merthyr Tydfil [id=14128 | class=Town | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Kamal Haasan [id=8972 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+13. Mtv Video Music Award for Best Male Video [id=3661 | class=Award | type=0 | soft_type=0 | direct=1 | paths=5 | aux=3 | key=1]
+14. Lorenzo Music [id=5120 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+15. Joplin [id=10972 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=5 | aux=0 | key=1]
+16. Roger Deakins [id=100 | class=Cinematographer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Wilmington [id=12122 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+18. Vittorio De Sica [id=11241 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+19. Joseph Cotten [id=10894 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=2 | aux=2 | key=1]
+20. Sarah Mclachlan [id=6832 | class=Singer | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]

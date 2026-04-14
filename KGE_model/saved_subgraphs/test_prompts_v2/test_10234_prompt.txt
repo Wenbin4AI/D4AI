@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Robert Ridgely, relation=producedPrograms, tail=?)
+
+Ontology summary:
+- Query relation: producedPrograms
+- Head entity: Robert Ridgely
+- Head class: Actor
+- Relation domain: Person
+- Relation range: Profession
+- Domain check: not clearly matched
+- Tail entities of class 'Profession' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=46, edges=50, paths=20
+- Head outgoing edges under target relation producedPrograms: 23
+- Key support nodes: Robert Ridgely, Jazz Piano, 17th United States Congress, Er, Fontana Records, Paul Giamatti, 1993 Grammy Awards, Dire Straits
+- Main auxiliary relations: hasNetflixGenreTitle(6), hasReligion(5), hasMonthlyClimate(3)
+
+Frequent relation path patterns:
+- producedPrograms (count=20)
+
+Candidates:
+1. Naples [id=11915 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Paul Giamatti [id=6700 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Milton Friedman [id=5515 | class=Economist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Fontana Records [id=11000 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. R. Charleroi S.c. [id=11348 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Kelly Rowland [id=2681 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Terry O'quinn [id=4259 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Jules White [id=13205 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. 1993 Grammy Awards [id=6589 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Battleground [id=3338 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Maury Chaykin [id=1456 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Danny Smith [id=3089 | class=Actor and Writer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Jazz Piano [id=7887 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. Madison [id=2443 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. 17th United States Congress [id=2473 | class=Government Agency | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Allentown [id=696 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Dire Straits [id=9356 | class=Rock Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Sikh [id=10039 | class=Religion | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Cheryl Hines [id=8951 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Er [id=6204 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

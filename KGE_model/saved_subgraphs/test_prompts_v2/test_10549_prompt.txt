@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Alan J. Pakula, relation=hasDomesticTuition, tail=?)
+
+Ontology summary:
+- Query relation: hasDomesticTuition
+- Head entity: Alan J. Pakula
+- Head class: Person
+- Relation domain: University
+- Relation range: Currency
+- Domain check: not clearly matched
+- Tail entities of class 'Currency' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=47, edges=50, paths=20
+- Head outgoing edges under target relation hasDomesticTuition: 23
+- Key support nodes: Alan J. Pakula, Ringo Starr, Remember the Titans, Santa Clara, 1991 Ncaa Division I Men's Basketball Tournament, Cheech Marin, Georgy Zhukov, Richard Price
+- Main auxiliary relations: hasRosterPosition(11), hasCounty(5), performedBy(2)
+
+Frequent relation path patterns:
+- hasDomesticTuition (count=20)
+
+Candidates:
+1. University of Florida [id=2704 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Cheech Marin [id=10626 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Clarence Brown [id=10410 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. 1991 Ncaa Division I Men's Basketball Tournament [id=8711 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. The Guess Who [id=8216 | class=Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. David Zucker [id=5121 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Pakistan Peoples Party [id=14539 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Haryana [id=8658 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Georgy Zhukov [id=9936 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Charleston [id=13117 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Star Wars: Episode Ii – Attack of the Clones [id=4630 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Kathy Griffin [id=1395 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Ringo Starr [id=6667 | class=Music Artist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. Joseph Heller [id=13015 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Remember the Titans [id=2835 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. University of the Witwatersrand [id=8744 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Richard Price [id=6764 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Grammy Award for Best Solo Rock Vocal Performance [id=6725 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. David Cronenberg [id=5622 | class=电影导演 | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Santa Clara [id=10633 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

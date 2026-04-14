@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 11192,
+        "head_label": "Olivia Newton-john",
+        "head_class": "Musician/actress",
+        "relation_id": 82,
+        "relation_label": "hasReligion",
+        "gold_tail": 782,
+        "gold_tail_label": "Geology",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 13830,
+            "entity_label": "Tampa Bay Area",
+            "entity_class": "Region",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 12452,
+            "entity_label": "Province of Naples",
+            "entity_class": "Province",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 4928,
+            "entity_label": "Jayma Mays",
+            "entity_class": "Actress",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 11076,
+            "entity_label": "Ypsilanti",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 2334,
+            "entity_label": "Sheila E.",
+            "entity_class": "Singer",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 11497,
+            "entity_label": "Rie Kugimiya",
+            "entity_class": "Person",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 6022,
+            "entity_label": "John Heard",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 9662,
+            "entity_label": "Ellen Barkin",
+            "entity_class": "Actress",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 462,
+            "entity_label": "Howl's Moving Castle",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 7669,
+            "entity_label": "University of Adelaide",
+            "entity_class": "University",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 11197,
+            "entity_label": "Montclair State University",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 1072,
+            "entity_label": "All That Jazz",
+            "entity_class": "Movie",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 1412,
+            "entity_label": "Kingdom of Scotland",
+            "entity_class": "Kingdom",
+            "score": 6.918865,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 6,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 1455,
+            "entity_label": "David Byrne",
+            "entity_class": "Musician",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 8062,
+            "entity_label": "Passaic",
+            "entity_class": "Location",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 874,
+            "entity_label": "Bobby",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 3,
+            "entity_label": "Wendee Lee",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 13117,
+            "entity_label": "Charleston",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 782,
+            "entity_label": "Geology",
+            "entity_class": "Field of Study",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 3574,
+            "entity_label": "Madagascar 3: Europe's Most Wanted",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "13830": 1,
+        "12452": 2,
+        "4928": 3,
+        "11076": 4,
+        "2334": 5,
+        "11497": 6,
+        "6022": 7,
+        "9662": 8,
+        "462": 9,
+        "7669": 10,
+        "11197": 11,
+        "1072": 12,
+        "1412": 13,
+        "1455": 14,
+        "8062": 15,
+        "874": 16,
+        "3": 17,
+        "13117": 18,
+        "782": 19,
+        "3574": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Olivia Newton-john, relation=hasReligion, tail=?)\n\nOntology summary:\n- Query relation: hasReligion\n- Head entity: Olivia Newton-john\n- Head class: Musician/actress\n- Relation domain: Person\n- Relation range: Religion\n- Domain check: not clearly matched\n- Tail entities of class 'Religion' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=44, edges=52, paths=20\n- Head outgoing edges under target relation hasReligion: 9\n- Key support nodes: Olivia Newton-john, Kingdom of Scotland, Kavala F.c., Happy Madison Productions, The Spy Who Came in From the Cold, Passaic, Madagascar 3: Europe's Most Wanted, Ypsilanti\n- Main auxiliary relations: hasImpersonatedCelebrities(8), hasCounty(3), hasHeadquartersLocation(2)\n\nFrequent relation path patterns:\n- hasImpersonatedCelebrities -> hasReligion (count=11)\n- hasReligion (count=9)\n\nCandidates:\n1. Tampa Bay Area [id=13830 | class=Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Province of Naples [id=12452 | class=Province | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Jayma Mays [id=4928 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n4. Ypsilanti [id=11076 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Sheila E. [id=2334 | class=Singer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Rie Kugimiya [id=11497 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n7. John Heard [id=6022 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Ellen Barkin [id=9662 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Howl's Moving Castle [id=462 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. University of Adelaide [id=7669 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. Montclair State University [id=11197 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. All That Jazz [id=1072 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Kingdom of Scotland [id=1412 | class=Kingdom | type=0 | soft_type=0 | direct=1 | paths=6 | aux=0 | key=1]\n14. David Byrne [id=1455 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Passaic [id=8062 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Bobby [id=874 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Wendee Lee [id=3 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n18. Charleston [id=13117 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n19. Geology [id=782 | class=Field of Study | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Madagascar 3: Europe's Most Wanted [id=3574 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

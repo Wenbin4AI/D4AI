@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 291,
+        "head_label": "Austin Powers: the Spy Who Shagged Me",
+        "head_class": "Movie",
+        "relation_id": 75,
+        "relation_label": "performedBy",
+        "gold_tail": 9851,
+        "gold_tail_label": "Wikimedia Foundation",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 9065,
+            "entity_label": "Bobby Wolff",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 7124,
+            "entity_label": "Montpelier",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 9818,
+            "entity_label": "Schulich School of Law",
+            "entity_class": "Law School",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 268,
+            "entity_label": "Warner Bros.",
+            "entity_class": "Film Company",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 13398,
+            "entity_label": "Champaign",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 10060,
+            "entity_label": "Columbia",
+            "entity_class": "Record Label",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 242,
+            "entity_label": "Pierre Boulez",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 823,
+            "entity_label": "Kazan",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 11898,
+            "entity_label": "Murfreesboro",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 5913,
+            "entity_label": "Ray Romano",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 6980,
+            "entity_label": "Pancreatic Cancer",
+            "entity_class": "Disease",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 819,
+            "entity_label": "Imelda Staunton",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 11173,
+            "entity_label": "Grammy Award for Best Boxed or Special Limited Edition Package",
+            "entity_class": "Award Category",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 2414,
+            "entity_label": "Tron: Legacy",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 10721,
+            "entity_label": "Folklore",
+            "entity_class": "Field of Study",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 3366,
+            "entity_label": "Cary Grant",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 11218,
+            "entity_label": "2006 Major League Baseball Season",
+            "entity_class": "Baseball Season",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 1943,
+            "entity_label": "Jorge Luis Borges",
+            "entity_class": "Author",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 9851,
+            "entity_label": "Wikimedia Foundation",
+            "entity_class": "Organization",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 1332,
+            "entity_label": "Chiang Kai-shek",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "9065": 1,
+        "7124": 2,
+        "9818": 3,
+        "268": 4,
+        "13398": 5,
+        "10060": 6,
+        "242": 7,
+        "823": 8,
+        "11898": 9,
+        "5913": 10,
+        "6980": 11,
+        "819": 12,
+        "11173": 13,
+        "2414": 14,
+        "10721": 15,
+        "3366": 16,
+        "11218": 17,
+        "1943": 18,
+        "9851": 19,
+        "1332": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Austin Powers: the Spy Who Shagged Me, relation=performedBy, tail=?)\n\nOntology summary:\n- Query relation: performedBy\n- Head entity: Austin Powers: the Spy Who Shagged Me\n- Head class: Movie\n- Relation domain: Musical Instrument\n- Relation range: Musical Instrument\n- Domain check: not clearly matched\n- Tail entities of class 'Musical Instrument' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=47, edges=49, paths=20\n- Head outgoing edges under target relation performedBy: 20\n- Key support nodes: Austin Powers: the Spy Who Shagged Me, Folklore, Chiang Kai-shek, Warner Bros., Montpelier, Murfreesboro, 2006 Major League Baseball Season, Grammy Award for Best Boxed or Special Limited Edition Package\n- Main auxiliary relations: hasPhoneNumber(5), hasPerformanceType(4), hasPrequel(2)\n\nFrequent relation path patterns:\n- performedBy (count=20)\n\nCandidates:\n1. Bobby Wolff [id=9065 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Montpelier [id=7124 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Schulich School of Law [id=9818 | class=Law School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Warner Bros. [id=268 | class=Film Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Champaign [id=13398 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Columbia [id=10060 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Pierre Boulez [id=242 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Kazan [id=823 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Murfreesboro [id=11898 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Ray Romano [id=5913 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Pancreatic Cancer [id=6980 | class=Disease | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Imelda Staunton [id=819 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Grammy Award for Best Boxed or Special Limited Edition Package [id=11173 | class=Award Category | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n14. Tron: Legacy [id=2414 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Folklore [id=10721 | class=Field of Study | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Cary Grant [id=3366 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. 2006 Major League Baseball Season [id=11218 | class=Baseball Season | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Jorge Luis Borges [id=1943 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Wikimedia Foundation [id=9851 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Chiang Kai-shek [id=1332 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

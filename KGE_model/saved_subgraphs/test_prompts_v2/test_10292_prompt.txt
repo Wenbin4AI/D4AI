@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Seattle, relation=hasGenre, tail=?)
+
+Ontology summary:
+- Query relation: hasGenre
+- Head entity: Seattle
+- Head class: City
+- Relation domain: Movie
+- Relation range: Genre
+- Domain check: not clearly matched
+- Tail entities of class 'Genre' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=29, edges=39, paths=20
+- Head outgoing edges under target relation hasGenre: 20
+- Key support nodes: Seattle, Dylan Mcdermott, Van Nuys, Jon Vitti, L-alanine, Jagathy Sreekumar, Marcel Proust, Bismarck
+- Main auxiliary relations: hasBorder(6), hasDraftPickFromSchool(4), hasMember(3)
+
+Frequent relation path patterns:
+- hasGenre (count=20)
+
+Candidates:
+1. First National [id=3812 | class=Bank | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Jon Vitti [id=7883 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Palmitic Acid [id=7082 | class=Chemical Compound | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Van Nuys [id=7605 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Bill Fagerbakke [id=9190 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Nc State Wolfpack Football [id=5896 | class=Athletic Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Burn Gorman [id=11019 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Austria National Association Football Team [id=11639 | class=National Football Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Jagathy Sreekumar [id=14148 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Steven Tyler [id=8060 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Alvin and the Chipmunks: the Squeakquel [id=5571 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Flagstaff [id=13456 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. L-alanine [id=9209 | class=Chemical Compound | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+14. Michael Caine [id=6989 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Bismarck [id=9090 | class=Politician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+16. Brookline [id=9581 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Marcel Proust [id=5339 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Kinsey [id=7384 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. 2k Games [id=13671 | class=Video Game Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Dylan Mcdermott [id=11601 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

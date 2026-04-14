@@ -1,0 +1,63 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=John Carpenter, relation=hasAwardWinner, tail=?)
+
+Ontology summary:
+- Query relation: hasAwardWinner
+- Head entity: John Carpenter
+- Head class: Director/composer
+- Relation domain: Person
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=56, edges=71, paths=20
+- Head outgoing edges under target relation hasAwardWinner: 1
+- Key support nodes: John Carpenter, Timothy Olyphant, Hereford United F.c., Deion Sanders, Antichrist, Alan J. Pakula, Ronald Harwood, The Messenger: the Story of Joan of Arc
+- Main auxiliary relations: foundIn(17), hasRegularPerformanceRole(9), hasDomesticTuition(5)
+
+Frequent relation path patterns:
+- hasArtist -> foundIn -> hasAwardWinner (count=14)
+- hasRosterPosition -> hasDomesticTuition -> hasAwardWinner (count=3)
+- influencedBy -> hasRegularPerformanceRole -> hasAwardWinner (count=2)
+- hasAwardWinner (count=1)
+
+Candidates:
+1. Industrial Engineering [id=9982 | class=Field of Study | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Stephen J. Cannell [id=7651 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+3. Max Fleischer [id=4455 | class=Animator, Film Director | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]
+4. Kim Kardashian [id=6745 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+5. Antichrist [id=1303 | class=Concept | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]
+6. George Cukor [id=6977 | class=Director | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]
+7. Jackie Cooper [id=621 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+8. Lombardy [id=10423 | class=Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+9. Achala Sachdev [id=12325 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+10. Timothy Olyphant [id=664 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=1]
+11. Timothy Dalton [id=5752 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+12. Limburg [id=10890 | class=Province | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+13. Ronald Harwood [id=10098 | class=Person | type=1 | soft_type=1 | direct=0 | paths=2 | aux=1 | key=1]
+14. Lounge Music [id=14247 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+15. Cameron Diaz [id=4513 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+16. Karl Malden [id=4012 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+17. Katrina Bowden [id=4435 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+18. Deion Sanders [id=5139 | class=Athlete | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]
+19. Hereford United F.c. [id=5885 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=4 | aux=0 | key=1]
+20. Igor Stravinsky [id=7799 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]

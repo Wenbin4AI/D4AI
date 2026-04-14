@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 7931,
+        "head_label": "Riga",
+        "head_class": "City",
+        "relation_id": 202,
+        "relation_label": "hasBurialPlace",
+        "gold_tail": 11148,
+        "gold_tail_label": "European Theater of World War I",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 5509,
+            "entity_label": "Epilepsy",
+            "entity_class": "Disease",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 1850,
+            "entity_label": "Phillips Exeter Academy",
+            "entity_class": "School",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 12098,
+            "entity_label": "West Yorkshire",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 4615,
+            "entity_label": "Worcester College",
+            "entity_class": "College",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 1940,
+            "entity_label": "Bouzouki",
+            "entity_class": "Musical Instrument",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 12583,
+            "entity_label": "Augsburg",
+            "entity_class": "City",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 3382,
+            "entity_label": "You Only Live Twice",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 5483,
+            "entity_label": "Toni Collette",
+            "entity_class": "Actress",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 9506,
+            "entity_label": "American Idol",
+            "entity_class": "Reality Show",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8145,
+            "entity_label": "Vincente Minnelli",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 11093,
+            "entity_label": "Valdosta",
+            "entity_class": "City",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 7020,
+            "entity_label": "Scientology",
+            "entity_class": "Religion",
+            "score": 7.847424,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 12,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 13584,
+            "entity_label": "Sandusky",
+            "entity_class": "City",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 10373,
+            "entity_label": "Melvin Van Peebles",
+            "entity_class": "Actor/director/writer",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 1603,
+            "entity_label": "The Matrix Revolutions",
+            "entity_class": "Film",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 11772,
+            "entity_label": "Jharkhand",
+            "entity_class": "Location",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 12274,
+            "entity_label": "Mike Mills",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 11148,
+            "entity_label": "European Theater of World War I",
+            "entity_class": "Military Theater",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 4757,
+            "entity_label": "Blue Velvet",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "5509": 1,
+        "1850": 2,
+        "12098": 3,
+        "4615": 4,
+        "1940": 5,
+        "12583": 6,
+        "3382": 7,
+        "5483": 8,
+        "9506": 9,
+        "14037": 10,
+        "8145": 11,
+        "11093": 12,
+        "7020": 13,
+        "13584": 14,
+        "10373": 15,
+        "1603": 16,
+        "11772": 17,
+        "12274": 18,
+        "11148": 19,
+        "4757": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Riga, relation=hasBurialPlace, tail=?)\n\nOntology summary:\n- Query relation: hasBurialPlace\n- Head entity: Riga\n- Head class: City\n- Relation domain: Person\n- Relation range: Location\n- Domain check: not clearly matched\n- Tail entities of class 'Location' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=37, edges=51, paths=20\n- Head outgoing edges under target relation hasBurialPlace: 9\n- Key support nodes: Riga, Scientology, Phillips Exeter Academy, Ashford, Melvin Van Peebles, Blue Velvet, Worcester College, Fred Willard\n- Main auxiliary relations: hasLocalTuitionCurrency(13), hasSeason(11), headquarteredIn(7)\n\nFrequent relation path patterns:\n- hasBurialPlace -> hasSeason -> hasLocalTuitionCurrency (count=11)\n- hasBurialPlace (count=9)\n\nCandidates:\n1. Epilepsy [id=5509 | class=Disease | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Phillips Exeter Academy [id=1850 | class=School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. West Yorkshire [id=12098 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Worcester College [id=4615 | class=College | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Bouzouki [id=1940 | class=Musical Instrument | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n6. Augsburg [id=12583 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. You Only Live Twice [id=3382 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Toni Collette [id=5483 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. American Idol [id=9506 | class=Reality Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Pontefract [id=14037 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Vincente Minnelli [id=8145 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Valdosta [id=11093 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Scientology [id=7020 | class=Religion | type=0 | soft_type=0 | direct=1 | paths=12 | aux=0 | key=1]\n14. Sandusky [id=13584 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Melvin Van Peebles [id=10373 | class=Actor/director/writer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. The Matrix Revolutions [id=1603 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Jharkhand [id=11772 | class=Location | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Mike Mills [id=12274 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n19. European Theater of World War I [id=11148 | class=Military Theater | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Blue Velvet [id=4757 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

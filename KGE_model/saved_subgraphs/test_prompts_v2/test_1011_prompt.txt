@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Westmoreland County, relation=hasRegularPerformanceRole, tail=?)
+
+Ontology summary:
+- Query relation: hasRegularPerformanceRole
+- Head entity: Westmoreland County
+- Head class: County
+- Relation domain: Musical Instrument
+- Relation range: Musical Instrument
+- Domain check: not clearly matched
+- Tail entities of class 'Musical Instrument' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=40, edges=50, paths=20
+- Head outgoing edges under target relation hasRegularPerformanceRole: 7
+- Key support nodes: Westmoreland County, Richard Culliton, Richard Hammond, Jon Stone, Art Dealer, Art Critic, United States Presidential Election, Audio Engineer
+- Main auxiliary relations: foundIn(12), hasArtist(7), hasSeasons(3)
+
+Frequent relation path patterns:
+- hasRegularPerformanceRole -> hasArtist -> foundIn (count=13)
+- hasRegularPerformanceRole (count=7)
+
+Candidates:
+1. Edward Herrmann [id=1476 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Katie Couric [id=7841 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Newell's Old Boys [id=13512 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Art Critic [id=14084 | class=Occupation | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Space Rock [id=2566 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]
+6. Roy Webb [id=4056 | class=Composer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Shutter Island [id=5990 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Apollo 13 [id=1996 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. David Zucker [id=5121 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+10. Rock Music [id=1374 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+11. Chicago Film Critics Association Award for Best Actor [id=2303 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Mauritius [id=8791 | class=Country | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+13. Richard Hammond [id=5150 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+14. Michael Mann [id=2107 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+15. Richard Culliton [id=316 | class=Writer | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+16. Pedophilia [id=3106 | class=Mental Disorder | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. United States Presidential Election [id=9310 | class=Election | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]
+18. Audio Engineer [id=5380 | class=Person | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]
+19. Terre Haute [id=325 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. University of Windsor [id=2022 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 257,
+        "head_label": "Submarine",
+        "head_class": "Film",
+        "relation_id": 105,
+        "relation_label": ":hasCostumeDesigner",
+        "gold_tail": 6193,
+        "gold_tail_label": "Afi",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 11609,
+            "entity_label": "Ryanair",
+            "entity_class": "Airline",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 12766,
+            "entity_label": "Eton College",
+            "entity_class": "School",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 2834,
+            "entity_label": "Dante Ferretti",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 10205,
+            "entity_label": "Jerry Stiller",
+            "entity_class": "Person",
+            "score": 8.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 4055,
+            "entity_label": "Myocardial Infarction",
+            "entity_class": "Medical Condition",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 2776,
+            "entity_label": "Lewis Gilbert",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 4493,
+            "entity_label": "Sara Haines",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 4341,
+            "entity_label": "The Lord of the Rings: the Return of the King",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 14282,
+            "entity_label": "Hartlepool",
+            "entity_class": "City",
+            "score": 5.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 12339,
+            "entity_label": "Frank Lloyd Wright",
+            "entity_class": "Architect",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 400,
+            "entity_label": "Into the West",
+            "entity_class": "Song",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 2036,
+            "entity_label": "Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Supporting Role",
+            "entity_class": "Award",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 10296,
+            "entity_label": "Trisha Krishnan",
+            "entity_class": "Person",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 8756,
+            "entity_label": "Eyes Wide Shut",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 4754,
+            "entity_label": "Sayaji Shinde",
+            "entity_class": "Person",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 1475,
+            "entity_label": "Bryan Cranston",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 6929,
+            "entity_label": "Robert Morley",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 8893,
+            "entity_label": "Click",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 6193,
+            "entity_label": "Afi",
+            "entity_class": "Organization",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 13056,
+            "entity_label": "Bob Kane",
+            "entity_class": "Person",
+            "score": 8.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "11609": 1,
+        "12766": 2,
+        "2834": 3,
+        "10205": 4,
+        "4055": 5,
+        "2776": 6,
+        "4493": 7,
+        "4341": 8,
+        "14282": 9,
+        "12339": 10,
+        "400": 11,
+        "2036": 12,
+        "10296": 13,
+        "8756": 14,
+        "4754": 15,
+        "1475": 16,
+        "6929": 17,
+        "8893": 18,
+        "6193": 19,
+        "13056": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Submarine, relation=:hasCostumeDesigner, tail=?)\n\nOntology summary:\n- Query relation: :hasCostumeDesigner\n- Head entity: Submarine\n- Head class: Film\n- Relation domain: Movie\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=41, edges=50, paths=20\n- Head outgoing edges under target relation :hasCostumeDesigner: 22\n- Key support nodes: Submarine, Trisha Krishnan, Robert Morley, Click, Myocardial Infarction, Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Supporting Role, Eton College, Eyes Wide Shut\n- Main auxiliary relations: placeOfDeath(6), hasDiscipline(3), nominated_for(3)\n\nFrequent relation path patterns:\n- :hasCostumeDesigner (count=20)\n\nCandidates:\n1. Ryanair [id=11609 | class=Airline | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Eton College [id=12766 | class=School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n3. Dante Ferretti [id=2834 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Jerry Stiller [id=10205 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n5. Myocardial Infarction [id=4055 | class=Medical Condition | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Lewis Gilbert [id=2776 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Sara Haines [id=4493 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. The Lord of the Rings: the Return of the King [id=4341 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Hartlepool [id=14282 | class=City | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n10. Frank Lloyd Wright [id=12339 | class=Architect | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n11. Into the West [id=400 | class=Song | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Supporting Role [id=2036 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. Trisha Krishnan [id=10296 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n14. Eyes Wide Shut [id=8756 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n15. Sayaji Shinde [id=4754 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n16. Bryan Cranston [id=1475 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Robert Morley [id=6929 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Click [id=8893 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Afi [id=6193 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Bob Kane [id=13056 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n"
+}

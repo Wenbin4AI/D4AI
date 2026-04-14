@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Manorama, relation=hasExecutiveProducer, tail=?)
+
+Ontology summary:
+- Query relation: hasExecutiveProducer
+- Head entity: Manorama
+- Head class: Newspaper
+- Relation domain: Movie
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=32, edges=41, paths=20
+- Head outgoing edges under target relation hasExecutiveProducer: 21
+- Key support nodes: Manorama, Sidhique, Columbia Law School, Wilmington, Kyoto University, Wellington College, Warren County, Culver City
+- Main auxiliary relations: originCountry(8), distributorsInRegion(6), hasOfficialLanguage(4)
+
+Frequent relation path patterns:
+- hasExecutiveProducer (count=20)
+
+Candidates:
+1. Allen Iverson [id=8715 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+2. Nelson Mandela [id=10269 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+3. Mtv Movie Award for Best Comedic Performance [id=1489 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]
+4. Allen Leech [id=1010 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+5. Anticipation [id=11429 | class=Concept | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+6. Culver City [id=4532 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+7. Janet Jackson [id=3732 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+8. Jeri Taylor [id=9045 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+9. Wilmington [id=12122 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+10. Warren County [id=8809 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+11. Anthony Newley [id=10264 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+12. Columbia Law School [id=7507 | class=Law School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+13. Sidhique [id=13615 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=1 | key=1]
+14. Wellington College [id=11067 | class=Educational Institution | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+15. Lorenzo Music [id=5120 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=1 | key=0]
+16. Conrad Buff Iv [id=218 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+17. Kyoto University [id=9540 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+18. Franklin County [id=9843 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+19. American Hockey League [id=12987 | class=Ice Hockey League | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Gregory Peck [id=8719 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=1 | key=0]

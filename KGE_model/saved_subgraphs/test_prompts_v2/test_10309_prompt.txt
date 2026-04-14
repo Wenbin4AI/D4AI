@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Eureka, relation=hasCreator, tail=?)
+
+Ontology summary:
+- Query relation: hasCreator
+- Head entity: Eureka
+- Head class: City
+- Relation domain: Tv Show
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=43, edges=60, paths=20
+- Head outgoing edges under target relation hasCreator: 1
+- Key support nodes: Eureka, Allium Cepa, Seattle, Andes, Russia National Football Team, Mexican Americans, Garbage, Tibet
+- Main auxiliary relations: hasGenre(20), memberOf(5), hasColors(4)
+
+Frequent relation path patterns:
+- hasGovernmentType -> hasGenre -> hasCreator (count=7)
+- hasGovernmentType -> hasGenre (count=6)
+- hasJurisdiction -> hasGenre -> hasCreator (count=4)
+- hasCreator (count=1)
+- hasGovernmentType (count=1)
+
+Candidates:
+1. Dressed to Kill [id=1069 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Allium Cepa [id=7439 | class=Plant | type=0 | soft_type=0 | direct=0 | paths=1 | aux=7 | key=1]
+3. Propaganda Film [id=14431 | class=Film Genre | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+4. Dio [id=13295 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+5. Garbage [id=348 | class=Band | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+6. Grammy Award for Producer of the Year, Non-classical [id=1622 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+7. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=1]
+8. Yarrow Shipbuilders Limited [id=13936 | class=Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Mexican Americans [id=11038 | class=Ethnic Group | type=0 | soft_type=0 | direct=0 | paths=3 | aux=1 | key=1]
+10. Unknown [id=4517 | class=Unknown | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+11. Dinner for Schmucks [id=4841 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=0]
+13. Rick Kline [id=9110 | class=Person | type=1 | soft_type=1 | direct=0 | paths=2 | aux=4 | key=1]
+14. Eureka [id=9019 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=3 | key=1]
+15. Shinya Tsukamoto [id=12439 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+16. Rebecca Eaton [id=12217 | class=Producer | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+17. Tibet [id=13748 | class=Region | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]
+18. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=4 | aux=0 | key=1]
+19. Russia National Football Team [id=12771 | class=Football Team | type=0 | soft_type=0 | direct=1 | paths=2 | aux=4 | key=1]
+20. Amjad Khan [id=13873 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]

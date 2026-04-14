@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Satellite Award for Best Adapted Screenplay, relation=hasReligion, tail=?)
+
+Ontology summary:
+- Query relation: hasReligion
+- Head entity: Satellite Award for Best Adapted Screenplay
+- Head class: Award
+- Relation domain: Person
+- Relation range: Religion
+- Domain check: not clearly matched
+- Tail entities of class 'Religion' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=43, edges=51, paths=20
+- Head outgoing edges under target relation hasReligion: 3
+- Key support nodes: Satellite Award for Best Adapted Screenplay, Starsky & Hutch, Pierce County, Timothy Olyphant, Cameron Diaz, Dakar, Dallas, Cannes
+- Main auxiliary relations: foundIn(16), influencedBy(6), hasWriter(5)
+
+Frequent relation path patterns:
+- hasReligion -> hasArtist -> foundIn (count=12)
+- hasReligion (count=3)
+- hasRegularPerformanceRole -> influencedBy -> hasReligion (count=2)
+- hasReligion -> hasFriend (count=1)
+- hasReligion -> hasPartner (count=1)
+
+Candidates:
+1. Airports Authority of India [id=14444 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Dallas [id=5445 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+3. Deven Verma [id=10319 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+4. Diarrhea [id=13090 | class=Disease | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+5. David Fincher [id=10661 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+6. Simon Baker [id=5026 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+7. Mumford [id=3594 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Pedophilia [id=3106 | class=Mental Disorder | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Art Critic [id=14084 | class=Occupation | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+10. Chengdu [id=1675 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+11. David Byrne [id=1455 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Paul Francis Webster [id=5888 | class=Songwriter | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+13. Starsky & Hutch [id=4616 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+14. World War Ii [id=220 | class=Event | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+15. Cannes [id=7855 | class=Place | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+16. The Bold and the Beautiful [id=3848 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Dena Higley [id=6949 | class=Writer/producer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+18. Cleveland [id=3825 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+19. Pierce County [id=11286 | class=Administrative Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+20. Dakar [id=13912 | class=City | type=0 | soft_type=0 | direct=0 | paths=4 | aux=2 | key=1]

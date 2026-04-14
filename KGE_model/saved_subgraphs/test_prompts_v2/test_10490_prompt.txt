@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Julie Walters, relation=hasgniPerCapitaInPPPU SD, tail=?)
+
+Ontology summary:
+- Query relation: hasgniPerCapitaInPPPU SD
+- Head entity: Julie Walters
+- Head class: Actor
+- Relation domain: Country
+- Relation range: Currency
+- Domain check: not clearly matched
+- Tail entities of class 'Currency' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=31, edges=41, paths=20
+- Head outgoing edges under target relation hasgniPerCapitaInPPPU SD: 1
+- Key support nodes: Julie Walters, Seattle, Ceelo Green, David Henrie, Kristin Scott Thomas, Exeter, Garbage, Rotterdam
+- Main auxiliary relations: memberOf(5), hasGenre(4), hasNetflixGenreTitle(4)
+
+Frequent relation path patterns:
+- hasStudent -> hasDraftPickFromSchool (count=3)
+- hasDistributed -> hasNetflixGenreTitle (count=3)
+- editedBy -> hasPeer (count=2)
+- hasgniPerCapitaInPPPU SD (count=1)
+- hasDistributed -> hasgniPerCapitaInPPPU SD (count=1)
+
+Candidates:
+1. Victoria University of Wellington [id=5503 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Lili Taylor [id=5388 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+3. William Lava [id=13292 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=0]
+5. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+6. Legion of Honour [id=12559 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Liv Tyler [id=1232 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Orry-kelly [id=1855 | class=Costume Designer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+10. Garage Rock [id=9653 | class=Rock Music | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+11. Foreigner [id=12527 | class=Band | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+13. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=3 | aux=2 | key=1]
+14. Placekicker [id=937 | class=Position in American Football | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+15. David Henrie [id=9995 | class=Person | type=0 | soft_type=0 | direct=0 | paths=4 | aux=1 | key=1]
+16. Dermot Mulroney [id=5604 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Rob Zombie [id=2181 | class=Music Artist | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+18. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+19. Kristin Scott Thomas [id=6765 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]
+20. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]

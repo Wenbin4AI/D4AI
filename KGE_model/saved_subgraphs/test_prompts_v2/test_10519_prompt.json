@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 2336,
+        "head_label": "Toronto Raptors",
+        "head_class": "Basketball Team",
+        "relation_id": 125,
+        "relation_label": "hasAthlete",
+        "gold_tail": 12527,
+        "gold_tail_label": "Foreigner",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 5703,
+            "entity_label": "Timothy Hutton",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 8298,
+            "entity_label": "Syd Barrett",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 8859,
+            "entity_label": "Betty White",
+            "entity_class": "Comedian",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 9183,
+            "entity_label": "Cardinal",
+            "entity_class": "Bird",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 3992,
+            "entity_label": "Emilio Estefan",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 8657,
+            "entity_label": "W. H. Auden",
+            "entity_class": "Poet",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 8994,
+            "entity_label": "Shasta County",
+            "entity_class": "Region",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 7105,
+            "entity_label": "Trevor Howard",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 3134,
+            "entity_label": "Malcolm X",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 1045,
+            "entity_label": "Fish Tank",
+            "entity_class": "Movie",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 10392,
+            "entity_label": "Julie Delpy",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 3696,
+            "entity_label": "David O. Russell",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 11159,
+            "entity_label": "Cliff Richard",
+            "entity_class": "Person",
+            "score": 7.147918,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 7780,
+            "entity_label": "Hank Azaria",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 3246,
+            "entity_label": "Bob Newhart",
+            "entity_class": "Person",
+            "score": 5.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 5268,
+            "entity_label": "Anna Faris",
+            "entity_class": "Actor",
+            "score": 2.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 10642,
+            "entity_label": "Robert Chartoff",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 10440,
+            "entity_label": "Jeff Meckstroth",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 12527,
+            "entity_label": "Foreigner",
+            "entity_class": "Band",
+            "score": 6.414157,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 4,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 9480,
+            "entity_label": "Gene Simmons",
+            "entity_class": "Person",
+            "score": 5.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "5703": 1,
+        "8298": 2,
+        "8859": 3,
+        "9183": 4,
+        "3992": 5,
+        "8657": 6,
+        "8994": 7,
+        "7105": 8,
+        "3134": 9,
+        "1045": 10,
+        "10392": 11,
+        "3696": 12,
+        "11159": 13,
+        "7780": 14,
+        "3246": 15,
+        "5268": 16,
+        "10642": 17,
+        "10440": 18,
+        "12527": 19,
+        "9480": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Toronto Raptors, relation=hasAthlete, tail=?)\n\nOntology summary:\n- Query relation: hasAthlete\n- Head entity: Toronto Raptors\n- Head class: Basketball Team\n- Relation domain: Sport\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=44, edges=52, paths=20\n- Head outgoing edges under target relation hasAthlete: 2\n- Key support nodes: Toronto Raptors, Cirque Du Freak: the Vampire's Assistant, Johnny Knoxville, Foreigner, Fish Tank, W. H. Auden, Betty White, Cliff Richard\n- Main auxiliary relations: hasEndowmentCurrency(13), hasWinner(7), hasImpersonatedCelebrities(4)\n\nFrequent relation path patterns:\n- hasImpersonatedCelebrities -> hasAthlete (count=18)\n- hasAthlete (count=2)\n\nCandidates:\n1. Timothy Hutton [id=5703 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n2. Syd Barrett [id=8298 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Betty White [id=8859 | class=Comedian | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n4. Cardinal [id=9183 | class=Bird | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Emilio Estefan [id=3992 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. W. H. Auden [id=8657 | class=Poet | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n7. Shasta County [id=8994 | class=Region | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n8. Trevor Howard [id=7105 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n9. Malcolm X [id=3134 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Fish Tank [id=1045 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n11. Julie Delpy [id=10392 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. David O. Russell [id=3696 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Cliff Richard [id=11159 | class=Person | type=1 | soft_type=1 | direct=0 | paths=2 | aux=0 | key=1]\n14. Hank Azaria [id=7780 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Bob Newhart [id=3246 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n16. Anna Faris [id=5268 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n17. Robert Chartoff [id=10642 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Jeff Meckstroth [id=10440 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Foreigner [id=12527 | class=Band | type=0 | soft_type=0 | direct=1 | paths=4 | aux=0 | key=1]\n20. Gene Simmons [id=9480 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n"
+}

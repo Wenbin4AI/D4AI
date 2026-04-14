@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 11122,
+        "head_label": "Political Thriller",
+        "head_class": "Book/film Genre",
+        "relation_id": 89,
+        "relation_label": "educatedAt",
+        "gold_tail": 3568,
+        "gold_tail_label": "Prescott",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 1306,
+            "entity_label": "Dyslexia",
+            "entity_class": "Disease",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 12439,
+            "entity_label": "Shinya Tsukamoto",
+            "entity_class": "Person",
+            "score": 6.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 4447,
+            "entity_label": "Exeter City F.c.",
+            "entity_class": "Sports Team",
+            "score": 6.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 7439,
+            "entity_label": "Allium Cepa",
+            "entity_class": "Plant",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 14489,
+            "entity_label": "Oneworld",
+            "entity_class": "Alliance",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 2537,
+            "entity_label": "Ted Haworth",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 7685,
+            "entity_label": "The Cult",
+            "entity_class": "Music Group",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 2548,
+            "entity_label": "Jay Roach",
+            "entity_class": "Director",
+            "score": 6.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 12689,
+            "entity_label": "Andes",
+            "entity_class": "Mountain Range",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8080,
+            "entity_label": "Acr Siena 1904",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 3439,
+            "entity_label": "Conga",
+            "entity_class": "Dance",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 11571,
+            "entity_label": "Fairfield University",
+            "entity_class": "University",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 3627,
+            "entity_label": "Fort Lauderdale",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 13873,
+            "entity_label": "Amjad Khan",
+            "entity_class": "Person",
+            "score": 8.205916,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 4,
+                "aux_support": 5,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 11929,
+            "entity_label": "Barrister",
+            "entity_class": "Profession",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 14500,
+            "entity_label": "Strategic Simulations",
+            "entity_class": "Company",
+            "score": 6.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 12185,
+            "entity_label": "Louis Delluc Prize",
+            "entity_class": "Award",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 3568,
+            "entity_label": "Prescott",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 338,
+            "entity_label": "Robots",
+            "entity_class": "Technology",
+            "score": 7.465736,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "1306": 1,
+        "12439": 2,
+        "4994": 3,
+        "4447": 4,
+        "7439": 5,
+        "14489": 6,
+        "2537": 7,
+        "7685": 8,
+        "2548": 9,
+        "12689": 10,
+        "8080": 11,
+        "3439": 12,
+        "11571": 13,
+        "3627": 14,
+        "13873": 15,
+        "11929": 16,
+        "14500": 17,
+        "12185": 18,
+        "3568": 19,
+        "338": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Political Thriller, relation=educatedAt, tail=?)\n\nOntology summary:\n- Query relation: educatedAt\n- Head entity: Political Thriller\n- Head class: Book/film Genre\n- Relation domain: Academic Degree\n- Relation range: University\n- Domain check: not clearly matched\n- Tail entities of class 'University' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=39, edges=48, paths=20\n- Head outgoing edges under target relation educatedAt: 12\n- Key support nodes: Political Thriller, Amjad Khan, Robots, Shinya Tsukamoto, Exeter City F.c., Jay Roach, Strategic Simulations, Allium Cepa\n- Main auxiliary relations: hasGenre(16), hasColors(10), hasPeer(7)\n\nFrequent relation path patterns:\n- educatedAt (count=12)\n- educatedAt -> hasColors (count=7)\n- educatedAt -> hasGenre (count=1)\n\nCandidates:\n1. Dyslexia [id=1306 | class=Disease | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Shinya Tsukamoto [id=12439 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n3. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Exeter City F.c. [id=4447 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n5. Allium Cepa [id=7439 | class=Plant | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n6. Oneworld [id=14489 | class=Alliance | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n7. Ted Haworth [id=2537 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. The Cult [id=7685 | class=Music Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Jay Roach [id=2548 | class=Director | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]\n10. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n11. Acr Siena 1904 [id=8080 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Conga [id=3439 | class=Dance | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Fairfield University [id=11571 | class=University | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n14. Fort Lauderdale [id=3627 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Amjad Khan [id=13873 | class=Person | type=0 | soft_type=0 | direct=1 | paths=4 | aux=5 | key=1]\n16. Barrister [id=11929 | class=Profession | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Strategic Simulations [id=14500 | class=Company | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]\n18. Louis Delluc Prize [id=12185 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n19. Prescott [id=3568 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Robots [id=338 | class=Technology | type=0 | soft_type=0 | direct=1 | paths=3 | aux=3 | key=1]\n"
+}

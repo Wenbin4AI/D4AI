@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 2116,
+        "head_label": "Satellite Award for Best Adapted Screenplay",
+        "head_class": "Award",
+        "relation_id": 82,
+        "relation_label": "hasReligion",
+        "gold_tail": 11286,
+        "gold_tail_label": "Pierce County",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 14444,
+            "entity_label": "Airports Authority of India",
+            "entity_class": "Organization",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 5445,
+            "entity_label": "Dallas",
+            "entity_class": "City",
+            "score": 2.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 10319,
+            "entity_label": "Deven Verma",
+            "entity_class": "Actor",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 13090,
+            "entity_label": "Diarrhea",
+            "entity_class": "Disease",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 10661,
+            "entity_label": "David Fincher",
+            "entity_class": "Person",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 5026,
+            "entity_label": "Simon Baker",
+            "entity_class": "Person",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 3594,
+            "entity_label": "Mumford",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 3106,
+            "entity_label": "Pedophilia",
+            "entity_class": "Mental Disorder",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 14084,
+            "entity_label": "Art Critic",
+            "entity_class": "Occupation",
+            "score": 2.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 1675,
+            "entity_label": "Chengdu",
+            "entity_class": "City",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 1455,
+            "entity_label": "David Byrne",
+            "entity_class": "Musician",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 5888,
+            "entity_label": "Paul Francis Webster",
+            "entity_class": "Songwriter",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 4616,
+            "entity_label": "Starsky & Hutch",
+            "entity_class": "Tv Series",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 220,
+            "entity_label": "World War Ii",
+            "entity_class": "Event",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 7855,
+            "entity_label": "Cannes",
+            "entity_class": "Place",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 3848,
+            "entity_label": "The Bold and the Beautiful",
+            "entity_class": "Tv Show",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 6949,
+            "entity_label": "Dena Higley",
+            "entity_class": "Writer/producer",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 3825,
+            "entity_label": "Cleveland",
+            "entity_class": "City",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 11286,
+            "entity_label": "Pierce County",
+            "entity_class": "Administrative Region",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 13912,
+            "entity_label": "Dakar",
+            "entity_class": "City",
+            "score": 4.512769,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 4,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "14444": 1,
+        "5445": 2,
+        "10319": 3,
+        "13090": 4,
+        "10661": 5,
+        "5026": 6,
+        "3594": 7,
+        "3106": 8,
+        "14084": 9,
+        "1675": 10,
+        "1455": 11,
+        "5888": 12,
+        "4616": 13,
+        "220": 14,
+        "7855": 15,
+        "3848": 16,
+        "6949": 17,
+        "3825": 18,
+        "11286": 19,
+        "13912": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Satellite Award for Best Adapted Screenplay, relation=hasReligion, tail=?)\n\nOntology summary:\n- Query relation: hasReligion\n- Head entity: Satellite Award for Best Adapted Screenplay\n- Head class: Award\n- Relation domain: Person\n- Relation range: Religion\n- Domain check: not clearly matched\n- Tail entities of class 'Religion' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=43, edges=51, paths=20\n- Head outgoing edges under target relation hasReligion: 3\n- Key support nodes: Satellite Award for Best Adapted Screenplay, Starsky & Hutch, Pierce County, Timothy Olyphant, Cameron Diaz, Dakar, Dallas, Cannes\n- Main auxiliary relations: foundIn(16), influencedBy(6), hasWriter(5)\n\nFrequent relation path patterns:\n- hasReligion -> hasArtist -> foundIn (count=12)\n- hasReligion (count=3)\n- hasRegularPerformanceRole -> influencedBy -> hasReligion (count=2)\n- hasReligion -> hasFriend (count=1)\n- hasReligion -> hasPartner (count=1)\n\nCandidates:\n1. Airports Authority of India [id=14444 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Dallas [id=5445 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n3. Deven Verma [id=10319 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n4. Diarrhea [id=13090 | class=Disease | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n5. David Fincher [id=10661 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Simon Baker [id=5026 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n7. Mumford [id=3594 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Pedophilia [id=3106 | class=Mental Disorder | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Art Critic [id=14084 | class=Occupation | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n10. Chengdu [id=1675 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. David Byrne [id=1455 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Paul Francis Webster [id=5888 | class=Songwriter | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Starsky & Hutch [id=4616 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n14. World War Ii [id=220 | class=Event | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Cannes [id=7855 | class=Place | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n16. The Bold and the Beautiful [id=3848 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Dena Higley [id=6949 | class=Writer/producer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n18. Cleveland [id=3825 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n19. Pierce County [id=11286 | class=Administrative Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Dakar [id=13912 | class=City | type=0 | soft_type=0 | direct=0 | paths=4 | aux=2 | key=1]\n"
+}

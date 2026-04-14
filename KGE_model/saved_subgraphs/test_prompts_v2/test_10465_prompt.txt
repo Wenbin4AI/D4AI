@@ -1,0 +1,63 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Uriah Heep, relation=hasSport, tail=?)
+
+Ontology summary:
+- Query relation: hasSport
+- Head entity: Uriah Heep
+- Head class: Rock Band
+- Relation domain: Event
+- Relation range: Sport
+- Domain check: not clearly matched
+- Tail entities of class 'Sport' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=44, edges=49, paths=20
+- Head outgoing edges under target relation hasSport: 2
+- Key support nodes: Uriah Heep, Warner Bros., Green Lantern, Sidney Sheldon, San Diego State Aztecs Football, Tohoku Rakuten Golden Eagles, Rangers F.c., A Midsummer Night's Dream
+- Main auxiliary relations: hasGenre(7), countyPlace(4), hasPhoneNumber(3)
+
+Frequent relation path patterns:
+- countyPlace -> hasSport (count=16)
+- hasSport (count=2)
+- hasSport -> hasGenre (count=1)
+- hasSport -> containsCountry (count=1)
+
+Candidates:
+1. Waukegan [id=8272 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+2. Nac Breda [id=1463 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+3. Kamloops [id=13427 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+4. Hapoel Tel Aviv F.c. [id=7165 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]
+5. All the President's Men [id=7719 | class=Book/film Title | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+6. Hannah Arendt [id=8123 | class=Philosopher | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+7. Ghost [id=7641 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+8. Mona Marshall [id=12516 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+9. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=0]
+10. Collateral [id=4578 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+11. Panama City [id=14358 | class=Location | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+12. Porter County [id=10847 | class=Location | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+13. Sidney Sheldon [id=8693 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=4 | key=1]
+14. Cholera [id=14147 | class=Disease | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+15. Rangers F.c. [id=6062 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=4 | key=1]
+16. Steve Coogan [id=8880 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+17. Sedona [id=12723 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+18. Calvados [id=13985 | class=Alcoholic Beverage | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+19. Tohoku Rakuten Golden Eagles [id=13450 | class=Baseball Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+20. A Midsummer Night's Dream [id=2499 | class=Play | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]

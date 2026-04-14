@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 3303,
+        "head_label": "Contemporary R&b",
+        "head_class": "Music Genre",
+        "relation_id": 23,
+        "relation_label": "memberOf",
+        "gold_tail": 5287,
+        "gold_tail_label": "Dresden",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 8852,
+            "entity_label": "Letters From Iwo Jima",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 3452,
+            "entity_label": "Hammond Organ",
+            "entity_class": "Musical Instrument",
+            "score": 6.83148,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 5,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 11345,
+            "entity_label": "Delta Blues",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 10543,
+            "entity_label": "My Neighbor Totoro",
+            "entity_class": "Animated Film",
+            "score": 6.985631,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 6,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 3053,
+            "entity_label": "The World's Fastest Indian",
+            "entity_class": "Movie",
+            "score": 6.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 8982,
+            "entity_label": "Maaya Sakamoto",
+            "entity_class": "Voice Actress and Singer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 4810,
+            "entity_label": "Danubio F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 13397,
+            "entity_label": "Cleveland State University",
+            "entity_class": "University",
+            "score": 6.83148,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 5,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 12176,
+            "entity_label": "Monty Python",
+            "entity_class": "Organization",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 5029,
+            "entity_label": "Exeter",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 13034,
+            "entity_label": "Chinese Communist Party",
+            "entity_class": "Politics",
+            "score": 5.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 12521,
+            "entity_label": "Howard Morris",
+            "entity_class": "Actor",
+            "score": 9.938784,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 9,
+                "aux_support": 11,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 13478,
+            "entity_label": "Hiroshima Prefecture",
+            "entity_class": "Prefecture",
+            "score": 5.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 13443,
+            "entity_label": "Ac Arles",
+            "entity_class": "City",
+            "score": 7.119162,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 7,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 5245,
+            "entity_label": "Miniseries",
+            "entity_class": "Tv Format",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 4353,
+            "entity_label": "Mississippi",
+            "entity_class": "Location",
+            "score": 6.649159,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 14434,
+            "entity_label": "Television Special",
+            "entity_class": "Tv Genre",
+            "score": 6.649159,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 5287,
+            "entity_label": "Dresden",
+            "entity_class": "City",
+            "score": 5.649159,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 4,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 9839,
+            "entity_label": "Wallace Shawn",
+            "entity_class": "Person",
+            "score": 7.119162,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 7,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "8852": 1,
+        "3452": 2,
+        "11345": 3,
+        "10543": 4,
+        "3053": 5,
+        "14037": 6,
+        "8982": 7,
+        "4810": 8,
+        "13397": 9,
+        "12176": 10,
+        "5029": 11,
+        "13034": 12,
+        "12521": 13,
+        "13478": 14,
+        "13443": 15,
+        "5245": 16,
+        "4353": 17,
+        "14434": 18,
+        "5287": 19,
+        "9839": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Contemporary R&b, relation=memberOf, tail=?)\n\nOntology summary:\n- Query relation: memberOf\n- Head entity: Contemporary R&b\n- Head class: Music Genre\n- Relation domain: Country\n- Relation range: International Organization\n- Domain check: not clearly matched\n- Tail entities of class 'International Organization' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=14, edges=44, paths=20\n- Head outgoing edges under target relation memberOf: 12\n- Key support nodes: Contemporary R&b, Howard Morris, The World's Fastest Indian, My Neighbor Totoro, Hammond Organ, Ac Arles, Wallace Shawn, Mississippi\n- Main auxiliary relations: hasArtDirector(31), hasRuntime(1)\n\nFrequent relation path patterns:\n- memberOf (count=12)\n- memberOf -> hasArtDirector (count=8)\n\nCandidates:\n1. Letters From Iwo Jima [id=8852 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Hammond Organ [id=3452 | class=Musical Instrument | type=0 | soft_type=0 | direct=1 | paths=1 | aux=5 | key=1]\n3. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. My Neighbor Totoro [id=10543 | class=Animated Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=6 | key=1]\n5. The World's Fastest Indian [id=3053 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n6. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Danubio F.c. [id=4810 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Cleveland State University [id=13397 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=5 | key=1]\n10. Monty Python [id=12176 | class=Organization | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Chinese Communist Party [id=13034 | class=Politics | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=0]\n13. Howard Morris [id=12521 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=9 | aux=11 | key=1]\n14. Hiroshima Prefecture [id=13478 | class=Prefecture | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=0]\n15. Ac Arles [id=13443 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=7 | key=1]\n16. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Mississippi [id=4353 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=4 | key=1]\n18. Television Special [id=14434 | class=Tv Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=4 | key=1]\n19. Dresden [id=5287 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=4 | key=0]\n20. Wallace Shawn [id=9839 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=7 | key=1]\n"
+}

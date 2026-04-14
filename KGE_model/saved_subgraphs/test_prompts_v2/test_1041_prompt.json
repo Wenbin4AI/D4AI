@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 4008,
+        "head_label": "Thomas & Friends",
+        "head_class": "Animated Series",
+        "relation_id": 168,
+        "relation_label": "hasMemberStates",
+        "gold_tail": 1274,
+        "gold_tail_label": "Richard Griffiths",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 4357,
+            "entity_label": "Runaway Jury",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 14194,
+            "entity_label": "Southern Lord Records",
+            "entity_class": "Record Label",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 12104,
+            "entity_label": "Survivor",
+            "entity_class": "Song",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 10774,
+            "entity_label": "Lee J. Cobb",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 3082,
+            "entity_label": "Chicago Cubs",
+            "entity_class": "Baseball Team",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 295,
+            "entity_label": "Neve Campbell",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 465,
+            "entity_label": "Jaws 3-d",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 12139,
+            "entity_label": "Thom Yorke",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 10990,
+            "entity_label": "Midway Games",
+            "entity_class": "Video Game Company",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 11157,
+            "entity_label": "Al Franken",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 6749,
+            "entity_label": "Bleach: Memories of Nobody",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 3570,
+            "entity_label": "D'angelo",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 1302,
+            "entity_label": "Bulgaria",
+            "entity_class": "Country",
+            "score": 8.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 1338,
+            "entity_label": "Michael Nesmith",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 11905,
+            "entity_label": "Adolph Deutsch",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 530,
+            "entity_label": "Jimmy Buffett",
+            "entity_class": "Musician",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 11309,
+            "entity_label": "Sodium",
+            "entity_class": "Chemical Element",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 12039,
+            "entity_label": "Nike",
+            "entity_class": "Organization",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 1274,
+            "entity_label": "Richard Griffiths",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 6407,
+            "entity_label": "Hugo Award for Best Novelette",
+            "entity_class": "Award",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "4357": 1,
+        "14194": 2,
+        "12104": 3,
+        "10774": 4,
+        "3082": 5,
+        "295": 6,
+        "465": 7,
+        "12139": 8,
+        "10990": 9,
+        "11157": 10,
+        "6749": 11,
+        "3570": 12,
+        "1302": 13,
+        "1338": 14,
+        "11905": 15,
+        "530": 16,
+        "11309": 17,
+        "12039": 18,
+        "1274": 19,
+        "6407": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Thomas & Friends, relation=hasMemberStates, tail=?)\n\nOntology summary:\n- Query relation: hasMemberStates\n- Head entity: Thomas & Friends\n- Head class: Animated Series\n- Relation domain: Organization\n- Relation range: Country\n- Domain check: not clearly matched\n- Tail entities of class 'Country' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=42, edges=48, paths=20\n- Head outgoing edges under target relation hasMemberStates: 21\n- Key support nodes: Thomas & Friends, Adolph Deutsch, Hugo Award for Best Novelette, Lee J. Cobb, Southern Lord Records, Midway Games, Sodium, Nike\n- Main auxiliary relations: hasNetflixGenreTitle(6), editedBy(5), hasNotablePeople(5)\n\nFrequent relation path patterns:\n- hasMemberStates (count=20)\n\nCandidates:\n1. Runaway Jury [id=4357 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Southern Lord Records [id=14194 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Survivor [id=12104 | class=Song | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Lee J. Cobb [id=10774 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Chicago Cubs [id=3082 | class=Baseball Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Neve Campbell [id=295 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Jaws 3-d [id=465 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Thom Yorke [id=12139 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Midway Games [id=10990 | class=Video Game Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Al Franken [id=11157 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Bleach: Memories of Nobody [id=6749 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. D'angelo [id=3570 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. Bulgaria [id=1302 | class=Country | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n14. Michael Nesmith [id=1338 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Adolph Deutsch [id=11905 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Jimmy Buffett [id=530 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Sodium [id=11309 | class=Chemical Element | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Nike [id=12039 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Richard Griffiths [id=1274 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Hugo Award for Best Novelette [id=6407 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

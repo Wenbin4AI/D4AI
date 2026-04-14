@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 13324,
+        "head_label": "Suva",
+        "head_class": "City",
+        "relation_id": 1,
+        "relation_label": "actedIn",
+        "gold_tail": 6908,
+        "gold_tail_label": "Tom Petty and the Heartbreakers",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 11088,
+            "entity_label": "David Banner",
+            "entity_class": "Comic Book Character",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 9910,
+            "entity_label": "Madagascar",
+            "entity_class": "Country",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 4158,
+            "entity_label": "Wurlitzer Electric Piano",
+            "entity_class": "Musical Instrument",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 4241,
+            "entity_label": "Robert Ridgely",
+            "entity_class": "Actor",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 5388,
+            "entity_label": "Lili Taylor",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 5805,
+            "entity_label": "The Shipping News",
+            "entity_class": "Book",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 9762,
+            "entity_label": "Chicago Metropolitan Area",
+            "entity_class": "Region",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 11205,
+            "entity_label": "University of Padua",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 2607,
+            "entity_label": "Brooklyn",
+            "entity_class": "City",
+            "score": 3.687639,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 5,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 7544,
+            "entity_label": "Jamie Gangel",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 4101,
+            "entity_label": "1993 Ncaa Division I Men's Basketball Tournament",
+            "entity_class": "Sports Event",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 5604,
+            "entity_label": "Dermot Mulroney",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 12242,
+            "entity_label": "Ronald Reagan",
+            "entity_class": "Person",
+            "score": 8.619162,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 7,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 6765,
+            "entity_label": "Kristin Scott Thomas",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 322,
+            "entity_label": "Vincent Pastore",
+            "entity_class": "Actor",
+            "score": 6.147918,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 8489,
+            "entity_label": "24: Redemption",
+            "entity_class": "Tv Movie",
+            "score": 1.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 673,
+            "entity_label": "Robert Carlock",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 6908,
+            "entity_label": "Tom Petty and the Heartbreakers",
+            "entity_class": "Music Band",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 3056,
+            "entity_label": "Ryan Phillippe",
+            "entity_class": "Actor",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "11088": 1,
+        "9910": 2,
+        "4158": 3,
+        "4241": 4,
+        "5388": 5,
+        "5805": 6,
+        "9762": 7,
+        "11205": 8,
+        "2607": 9,
+        "7544": 10,
+        "4101": 11,
+        "5604": 12,
+        "12242": 13,
+        "6765": 14,
+        "322": 15,
+        "14037": 16,
+        "8489": 17,
+        "673": 18,
+        "6908": 19,
+        "3056": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Suva, relation=actedIn, tail=?)\n\nOntology summary:\n- Query relation: actedIn\n- Head entity: Suva\n- Head class: City\n- Relation domain: Tv Show\n- Relation range: Actor\n- Domain check: not clearly matched\n- Tail entities of class 'Actor' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=35, edges=48, paths=20\n- Head outgoing edges under target relation actedIn: 3\n- Key support nodes: Suva, Acr Siena 1904, Ronald Reagan, Brooklyn, Peyton Place, Mtv Movie Award for Best Dance Sequence, Raymond Chow, Dressed to Kill\n- Main auxiliary relations: hasGenre(8), placeOfDeath(6), hasInvolvedEntity(2)\n\nFrequent relation path patterns:\n- hasGovernmentType -> hasGenre -> actedIn (count=10)\n- hasCreator -> hasGenre -> actedIn (count=4)\n- actedIn (count=3)\n- placeOfDeath -> producedIn -> actedIn (count=3)\n\nCandidates:\n1. David Banner [id=11088 | class=Comic Book Character | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Madagascar [id=9910 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n3. Wurlitzer Electric Piano [id=4158 | class=Musical Instrument | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n4. Robert Ridgely [id=4241 | class=Actor | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Lili Taylor [id=5388 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. The Shipping News [id=5805 | class=Book | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n7. Chicago Metropolitan Area [id=9762 | class=Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. University of Padua [id=11205 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Brooklyn [id=2607 | class=City | type=0 | soft_type=0 | direct=0 | paths=5 | aux=0 | key=1]\n10. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. 1993 Ncaa Division I Men's Basketball Tournament [id=4101 | class=Sports Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Dermot Mulroney [id=5604 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Ronald Reagan [id=12242 | class=Person | type=0 | soft_type=1 | direct=1 | paths=7 | aux=0 | key=1]\n14. Kristin Scott Thomas [id=6765 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Vincent Pastore [id=322 | class=Actor | type=1 | soft_type=1 | direct=0 | paths=2 | aux=0 | key=0]\n16. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. 24: Redemption [id=8489 | class=Tv Movie | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]\n18. Robert Carlock [id=673 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Tom Petty and the Heartbreakers [id=6908 | class=Music Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Ryan Phillippe [id=3056 | class=Actor | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n"
+}

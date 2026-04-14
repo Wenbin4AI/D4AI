@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 8213,
+        "head_label": "Martin Luther King Jr.",
+        "head_class": "Activist",
+        "relation_id": 105,
+        "relation_label": ":hasCostumeDesigner",
+        "gold_tail": 13352,
+        "gold_tail_label": "Matt Frewer",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 7078,
+            "entity_label": "Manisaspor",
+            "entity_class": "Sports Team",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 2011,
+            "entity_label": "Addams Family Values",
+            "entity_class": "Film",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 11503,
+            "entity_label": "Amrish Puri",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 5800,
+            "entity_label": "The Wrestler",
+            "entity_class": "Movie",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 6312,
+            "entity_label": "Walter Brennan",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 6788,
+            "entity_label": "Neil Jordan",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 9196,
+            "entity_label": "George Sanders",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 2343,
+            "entity_label": "Grammy Award for Best Country Song",
+            "entity_class": "Award",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 6656,
+            "entity_label": "San Francisco Art Institute",
+            "entity_class": "School",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 1721,
+            "entity_label": "Leigh Harline",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 3856,
+            "entity_label": "Freestyle Music",
+            "entity_class": "Music Genre",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 4204,
+            "entity_label": "Stephen Frears",
+            "entity_class": "Director",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 4493,
+            "entity_label": "Sara Haines",
+            "entity_class": "Person",
+            "score": 8.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 2834,
+            "entity_label": "Dante Ferretti",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 13324,
+            "entity_label": "Suva",
+            "entity_class": "City",
+            "score": 7.638333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 654,
+            "entity_label": "The Boondocks",
+            "entity_class": "Tv Series",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 441,
+            "entity_label": "20th Century Studios",
+            "entity_class": "Film Studio",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 1105,
+            "entity_label": "Mick Jagger",
+            "entity_class": "Musician",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 13352,
+            "entity_label": "Matt Frewer",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 14139,
+            "entity_label": "Stax Records",
+            "entity_class": "Record Label",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "7078": 1,
+        "2011": 2,
+        "11503": 3,
+        "5800": 4,
+        "6312": 5,
+        "6788": 6,
+        "9196": 7,
+        "2343": 8,
+        "6656": 9,
+        "1721": 10,
+        "3856": 11,
+        "4204": 12,
+        "4493": 13,
+        "2834": 14,
+        "13324": 15,
+        "654": 16,
+        "441": 17,
+        "1105": 18,
+        "13352": 19,
+        "14139": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Martin Luther King Jr., relation=:hasCostumeDesigner, tail=?)\n\nOntology summary:\n- Query relation: :hasCostumeDesigner\n- Head entity: Martin Luther King Jr.\n- Head class: Activist\n- Relation domain: Movie\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=45, edges=50, paths=20\n- Head outgoing edges under target relation :hasCostumeDesigner: 22\n- Key support nodes: Martin Luther King Jr., Addams Family Values, Stax Records, San Francisco Art Institute, 20th Century Studios, The Wrestler, Suva, Mick Jagger\n- Main auxiliary relations: hasInvolvedEntity(10), placeOfDeath(3), nominated_for(3)\n\nFrequent relation path patterns:\n- :hasCostumeDesigner (count=20)\n\nCandidates:\n1. Manisaspor [id=7078 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Addams Family Values [id=2011 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Amrish Puri [id=11503 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. The Wrestler [id=5800 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n5. Walter Brennan [id=6312 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Neil Jordan [id=6788 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. George Sanders [id=9196 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Grammy Award for Best Country Song [id=2343 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. San Francisco Art Institute [id=6656 | class=School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Leigh Harline [id=1721 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Freestyle Music [id=3856 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Stephen Frears [id=4204 | class=Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. Sara Haines [id=4493 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n14. Dante Ferretti [id=2834 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Suva [id=13324 | class=City | type=0 | soft_type=1 | direct=1 | paths=1 | aux=2 | key=1]\n16. The Boondocks [id=654 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. 20th Century Studios [id=441 | class=Film Studio | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Mick Jagger [id=1105 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Matt Frewer [id=13352 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Stax Records [id=14139 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n"
+}

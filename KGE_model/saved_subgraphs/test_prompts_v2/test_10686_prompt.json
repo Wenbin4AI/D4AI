@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 11590,
+        "head_label": "Buck Henry",
+        "head_class": "Person",
+        "relation_id": 85,
+        "relation_label": "hasWife",
+        "gold_tail": 13626,
+        "gold_tail_label": "Ukrainian Soviet Socialist Republic",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 10263,
+            "entity_label": "East Prussia",
+            "entity_class": "Historical Region",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 9867,
+            "entity_label": "Albany County",
+            "entity_class": "County",
+            "score": 2.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 12491,
+            "entity_label": "Greater London",
+            "entity_class": "Geographical Area",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 4091,
+            "entity_label": "Dauphin County",
+            "entity_class": "County",
+            "score": 3.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 9506,
+            "entity_label": "American Idol",
+            "entity_class": "Reality Show",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 12879,
+            "entity_label": "John Stephenson",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 13807,
+            "entity_label": "Shock Rock",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 3109,
+            "entity_label": "University of Southampton",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 9377,
+            "entity_label": "Roland Anderson",
+            "entity_class": "Person",
+            "score": 1.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 1604,
+            "entity_label": "Tufts University",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 6688,
+            "entity_label": "Brent Spiner",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 8415,
+            "entity_label": "Daniel Nestor",
+            "entity_class": "Athlete",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 8950,
+            "entity_label": "Hamer Bouazza",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 12508,
+            "entity_label": "Gary Moore",
+            "entity_class": "Musician",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 5481,
+            "entity_label": "Orlando Magic",
+            "entity_class": "Basketball Team",
+            "score": 3.414157,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 4,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 1025,
+            "entity_label": "Pink",
+            "entity_class": "Music Group",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 1225,
+            "entity_label": "Neal H. Moritz",
+            "entity_class": "Film Producer",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 13768,
+            "entity_label": "Kraft Foods Group",
+            "entity_class": "Company",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 13626,
+            "entity_label": "Ukrainian Soviet Socialist Republic",
+            "entity_class": "Republic",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 13927,
+            "entity_label": "Vitamin B12",
+            "entity_class": "Nutrient",
+            "score": 3.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "10263": 1,
+        "9867": 2,
+        "12491": 3,
+        "4091": 4,
+        "9506": 5,
+        "12879": 6,
+        "13807": 7,
+        "3109": 8,
+        "9377": 9,
+        "1604": 10,
+        "6688": 11,
+        "8415": 12,
+        "8950": 13,
+        "12508": 14,
+        "5481": 15,
+        "1025": 16,
+        "1225": 17,
+        "13768": 18,
+        "13626": 19,
+        "13927": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Buck Henry, relation=hasWife, tail=?)\n\nOntology summary:\n- Query relation: hasWife\n- Head entity: Buck Henry\n- Head class: Person\n- Relation domain: Person\n- Relation range: Marriage\n- Domain check: matched\n- Tail entities of class 'Marriage' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=38, edges=56, paths=20\n- Head outgoing edges under target relation hasWife: 2\n- Key support nodes: Buck Henry, Hamer Bouazza, Dorothy Spencer, John Patrick Shanley, Albert Lee, Orlando Magic, Allium Cepa, Vitamin B12\n- Main auxiliary relations: hasLocalTuitionCurrency(27), capital(8), hasInternationalTuitionCurrency(5)\n\nFrequent relation path patterns:\n- hasWife -> capital -> hasLocalTuitionCurrency (count=15)\n- hasParticipantCountries -> hasGenre -> hasWife (count=3)\n- hasWife (count=2)\n\nCandidates:\n1. East Prussia [id=10263 | class=Historical Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Albany County [id=9867 | class=County | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=0]\n3. Greater London [id=12491 | class=Geographical Area | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Dauphin County [id=4091 | class=County | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n5. American Idol [id=9506 | class=Reality Show | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. John Stephenson [id=12879 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Shock Rock [id=13807 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. University of Southampton [id=3109 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Roland Anderson [id=9377 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]\n10. Tufts University [id=1604 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Brent Spiner [id=6688 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Daniel Nestor [id=8415 | class=Athlete | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Hamer Bouazza [id=8950 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Gary Moore [id=12508 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Orlando Magic [id=5481 | class=Basketball Team | type=0 | soft_type=0 | direct=0 | paths=4 | aux=0 | key=1]\n16. Pink [id=1025 | class=Music Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Neal H. Moritz [id=1225 | class=Film Producer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n18. Kraft Foods Group [id=13768 | class=Company | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n19. Ukrainian Soviet Socialist Republic [id=13626 | class=Republic | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Vitamin B12 [id=13927 | class=Nutrient | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n"
+}

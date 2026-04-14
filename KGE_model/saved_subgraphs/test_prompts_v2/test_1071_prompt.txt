@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Frost/nixon, relation=hasNetflixGenreTitle, tail=?)
+
+Ontology summary:
+- Query relation: hasNetflixGenreTitle
+- Head entity: Frost/nixon
+- Head class: Movie
+- Relation domain: Genre
+- Relation range: Movie
+- Domain check: not clearly matched
+- Tail entities of class 'Movie' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=24, edges=37, paths=20
+- Head outgoing edges under target relation hasNetflixGenreTitle: 12
+- Key support nodes: Frost/nixon, Dermot Mulroney, Martin Short, Christophe Beck, Monty Python, 1. Fsv Mainz 05, Another Year, Studio City
+- Main auxiliary relations: hasImpersonatedCelebrities(8), hasFilmFormat(4), hasCauseOfDeath(1)
+
+Frequent relation path patterns:
+- hasNetflixGenreTitle (count=12)
+- hasImpersonatedCelebrities -> hasNetflixGenreTitle (count=8)
+
+Candidates:
+1. Detroit Lions [id=7363 | class=American Football Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Monty Python [id=12176 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+3. Darryl F. Zanuck [id=1114 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Somalia [id=11621 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+5. Working Girl [id=5311 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+6. Vancouver [id=866 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Lost in Space [id=10619 | class=Tv Show | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+8. Morgan Freeman [id=2937 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Studio City [id=8451 | class=Place | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Placekicker [id=937 | class=Position in American Football | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Margot Kidder [id=7941 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+12. The Pursuit of Happyness [id=5977 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. Dermot Mulroney [id=5604 | class=Person | type=0 | soft_type=0 | direct=1 | paths=6 | aux=1 | key=1]
+14. Tess [id=9618 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+15. Martin Short [id=3967 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]
+16. The Lost Weekend [id=5005 | class=Film | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+17. Insurgency in Khyber Pakhtunkhwa [id=10086 | class=Insurgency | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]
+19. Ebbsfleet United F.c. [id=10052 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=0]
+20. Christophe Beck [id=13417 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]

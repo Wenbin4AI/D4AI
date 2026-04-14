@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 13473,
+        "head_label": "Haskell",
+        "head_class": "Programming Language",
+        "relation_id": 45,
+        "relation_label": "hasFriend",
+        "gold_tail": 10743,
+        "gold_tail_label": "Enrique Iglesias",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 7305,
+            "entity_label": "Dylan Baker",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 12268,
+            "entity_label": "Ray Wise",
+            "entity_class": "Actor",
+            "score": 6.841066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 12008,
+            "entity_label": "Scott Mcneil",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 12479,
+            "entity_label": "Frank Skinner",
+            "entity_class": "Person",
+            "score": 10.232868,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 2584,
+            "entity_label": "Bolero",
+            "entity_class": "Music Piece",
+            "score": 6.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 5868,
+            "entity_label": "Ciara",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 7416,
+            "entity_label": "Justin Spitzer",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 7660,
+            "entity_label": "The Fabulous Baker Boys",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 8993,
+            "entity_label": "Emilia-romagna",
+            "entity_class": "Region",
+            "score": 6.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 8453,
+            "entity_label": "Jessica Lange",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 12814,
+            "entity_label": "Merv Griffin",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 13999,
+            "entity_label": "Midwest Hip Hop",
+            "entity_class": "Music Genre",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 2606,
+            "entity_label": "Harvey Keitel",
+            "entity_class": "Person",
+            "score": 11.246531,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 9949,
+            "entity_label": "Aya Hisakawa",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 6052,
+            "entity_label": "Adam West",
+            "entity_class": "Person",
+            "score": 11.246531,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 1627,
+            "entity_label": "Sonny Rollins",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 4470,
+            "entity_label": "Contemporary Christian Music",
+            "entity_class": "Music Genre",
+            "score": 6.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 3717,
+            "entity_label": "Lake Forest",
+            "entity_class": "City",
+            "score": 6.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 10743,
+            "entity_label": "Enrique Iglesias",
+            "entity_class": "Music Artist",
+            "score": 4.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 8326,
+            "entity_label": "John Dingell, Jr.",
+            "entity_class": "Person",
+            "score": 10.841066,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "7305": 1,
+        "12268": 2,
+        "12008": 3,
+        "12479": 4,
+        "2584": 5,
+        "5868": 6,
+        "7416": 7,
+        "7660": 8,
+        "8993": 9,
+        "8453": 10,
+        "12814": 11,
+        "13999": 12,
+        "2606": 13,
+        "9949": 14,
+        "6052": 15,
+        "1627": 16,
+        "4470": 17,
+        "3717": 18,
+        "10743": 19,
+        "8326": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Haskell, relation=hasFriend, tail=?)\n\nOntology summary:\n- Query relation: hasFriend\n- Head entity: Haskell\n- Head class: Programming Language\n- Relation domain: Person\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=25, edges=49, paths=20\n- Head outgoing edges under target relation hasFriend: 12\n- Key support nodes: Haskell, Harvey Keitel, Adam West, Emilia-romagna, Contemporary Christian Music, Lake Forest, Bolero, John Dingell, Jr.\n- Main auxiliary relations: livingIn(8), hasRosterPosition(4), hasProgram(3)\n\nFrequent relation path patterns:\n- hasFriend (count=12)\n- hasFriend -> livingIn (count=8)\n\nCandidates:\n1. Dylan Baker [id=7305 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n2. Ray Wise [id=12268 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=2 | aux=1 | key=0]\n3. Scott Mcneil [id=12008 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Frank Skinner [id=12479 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=1 | key=1]\n5. Bolero [id=2584 | class=Music Piece | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]\n6. Ciara [id=5868 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Justin Spitzer [id=7416 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. The Fabulous Baker Boys [id=7660 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Emilia-romagna [id=8993 | class=Region | type=0 | soft_type=0 | direct=1 | paths=2 | aux=2 | key=1]\n10. Jessica Lange [id=8453 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Merv Griffin [id=12814 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Midwest Hip Hop [id=13999 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n13. Harvey Keitel [id=2606 | class=Person | type=1 | soft_type=1 | direct=1 | paths=2 | aux=2 | key=1]\n14. Aya Hisakawa [id=9949 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Adam West [id=6052 | class=Person | type=1 | soft_type=1 | direct=1 | paths=2 | aux=2 | key=1]\n16. Sonny Rollins [id=1627 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Contemporary Christian Music [id=4470 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=2 | aux=2 | key=1]\n18. Lake Forest [id=3717 | class=City | type=0 | soft_type=0 | direct=1 | paths=2 | aux=2 | key=1]\n19. Enrique Iglesias [id=10743 | class=Music Artist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]\n20. John Dingell, Jr. [id=8326 | class=Person | type=1 | soft_type=1 | direct=1 | paths=2 | aux=1 | key=1]\n"
+}

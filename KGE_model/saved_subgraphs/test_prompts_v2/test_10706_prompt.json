@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 1196,
+        "head_label": "George Lucas",
+        "head_class": "Director",
+        "relation_id": 225,
+        "relation_label": "hasInternationalTuitionCurrency",
+        "gold_tail": 4397,
+        "gold_tail_label": "John Patrick Shanley",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 12559,
+            "entity_label": "Legion of Honour",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 6009,
+            "entity_label": "Β-carotene",
+            "entity_class": "Chemical Compound",
+            "score": 3.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 5604,
+            "entity_label": "Dermot Mulroney",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 1221,
+            "entity_label": "Albert Lee",
+            "entity_class": "Musician",
+            "score": 3.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 8982,
+            "entity_label": "Maaya Sakamoto",
+            "entity_class": "Voice Actress and Singer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 11345,
+            "entity_label": "Delta Blues",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 937,
+            "entity_label": "Placekicker",
+            "entity_class": "Position in American Football",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 3602,
+            "entity_label": "Brian May",
+            "entity_class": "Guitarist",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 6765,
+            "entity_label": "Kristin Scott Thomas",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 9448,
+            "entity_label": "Costa Rica",
+            "entity_class": "Country",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 13665,
+            "entity_label": "Haifa",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 8188,
+            "entity_label": "Dorothy Spencer",
+            "entity_class": "Person",
+            "score": 9.22145,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 6,
+                "aux_support": 9,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 12433,
+            "entity_label": "Spartanburg County",
+            "entity_class": "Geographical Area",
+            "score": 8.360067,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 4,
+                "aux_support": 6,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 5029,
+            "entity_label": "Exeter",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 8797,
+            "entity_label": "University of Marburg",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 5245,
+            "entity_label": "Miniseries",
+            "entity_class": "Tv Format",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 4397,
+            "entity_label": "John Patrick Shanley",
+            "entity_class": "Person",
+            "score": 8.493598,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 4,
+                "aux_support": 7,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 5481,
+            "entity_label": "Orlando Magic",
+            "entity_class": "Basketball Team",
+            "score": 4.871201,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 5,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "12559": 1,
+        "6009": 2,
+        "5604": 3,
+        "1221": 4,
+        "8982": 5,
+        "11345": 6,
+        "937": 7,
+        "3602": 8,
+        "14037": 9,
+        "6765": 10,
+        "9448": 11,
+        "13665": 12,
+        "8188": 13,
+        "4994": 14,
+        "12433": 15,
+        "5029": 16,
+        "8797": 17,
+        "5245": 18,
+        "4397": 19,
+        "5481": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=George Lucas, relation=hasInternationalTuitionCurrency, tail=?)\n\nOntology summary:\n- Query relation: hasInternationalTuitionCurrency\n- Head entity: George Lucas\n- Head class: Director\n- Relation domain: University\n- Relation range: Currency\n- Domain check: not clearly matched\n- Tail entities of class 'Currency' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=19, edges=43, paths=20\n- Head outgoing edges under target relation hasInternationalTuitionCurrency: 3\n- Key support nodes: George Lucas, Dorothy Spencer, Spartanburg County, John Patrick Shanley, Orlando Magic, Albert Lee, Β-carotene, Keith Andrews\n- Main auxiliary relations: hasLocalTuitionCurrency(16), capital(10), hasCapital(8)\n\nFrequent relation path patterns:\n- hasInternationalTuitionCurrency -> hasCapital (count=8)\n- hasInternationalTuitionCurrency -> hasLocalTuitionCurrency (count=4)\n- hasInternationalTuitionCurrency (count=3)\n- capital (count=3)\n- capital -> hasLocalTuitionCurrency -> hasInternationalTuitionCurrency (count=2)\n\nCandidates:\n1. Legion of Honour [id=12559 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Β-carotene [id=6009 | class=Chemical Compound | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]\n3. Dermot Mulroney [id=5604 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Albert Lee [id=1221 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n5. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Placekicker [id=937 | class=Position in American Football | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Brian May [id=3602 | class=Guitarist | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Kristin Scott Thomas [id=6765 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Costa Rica [id=9448 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Haifa [id=13665 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Dorothy Spencer [id=8188 | class=Person | type=0 | soft_type=0 | direct=1 | paths=6 | aux=9 | key=1]\n14. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Spartanburg County [id=12433 | class=Geographical Area | type=0 | soft_type=0 | direct=1 | paths=4 | aux=6 | key=1]\n16. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. University of Marburg [id=8797 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. John Patrick Shanley [id=4397 | class=Person | type=0 | soft_type=0 | direct=1 | paths=4 | aux=7 | key=1]\n20. Orlando Magic [id=5481 | class=Basketball Team | type=0 | soft_type=0 | direct=0 | paths=3 | aux=5 | key=1]\n"
+}

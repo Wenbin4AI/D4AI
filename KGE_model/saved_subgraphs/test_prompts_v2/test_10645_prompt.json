@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 14521,
+        "head_label": "Vice President of the United States",
+        "head_class": "Government Position",
+        "relation_id": 125,
+        "relation_label": "hasAthlete",
+        "gold_tail": 7661,
+        "gold_tail_label": "Welling United F.c.",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 7397,
+            "entity_label": "The Lives of a Bengal Lancer",
+            "entity_class": "Film",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 8994,
+            "entity_label": "Shasta County",
+            "entity_class": "Region",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 1598,
+            "entity_label": "The Iron Lady",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 5268,
+            "entity_label": "Anna Faris",
+            "entity_class": "Actor",
+            "score": 6.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 3134,
+            "entity_label": "Malcolm X",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 8859,
+            "entity_label": "Betty White",
+            "entity_class": "Comedian",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 7322,
+            "entity_label": "French Third Republic",
+            "entity_class": "Government",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 1536,
+            "entity_label": "Michael Gambon",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 9517,
+            "entity_label": "Honduras National Football Team",
+            "entity_class": "Football Team",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 11597,
+            "entity_label": "Villarreal Cf",
+            "entity_class": "Organization",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 2043,
+            "entity_label": "T. Rajendar",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 3246,
+            "entity_label": "Bob Newhart",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 11159,
+            "entity_label": "Cliff Richard",
+            "entity_class": "Person",
+            "score": 10.147918,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 3017,
+            "entity_label": "Nick Mason",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 3992,
+            "entity_label": "Emilio Estefan",
+            "entity_class": "Person",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 7784,
+            "entity_label": "Martin Lawrence",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 560,
+            "entity_label": "Usc Trojans Football",
+            "entity_class": "Sports Team",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 4463,
+            "entity_label": "Michelangelo Antonioni",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 7661,
+            "entity_label": "Welling United F.c.",
+            "entity_class": "Sports Club",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 10392,
+            "entity_label": "Julie Delpy",
+            "entity_class": "Actor",
+            "score": 7.914157,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 4,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "7397": 1,
+        "8994": 2,
+        "1598": 3,
+        "5268": 4,
+        "3134": 5,
+        "8859": 6,
+        "7322": 7,
+        "1536": 8,
+        "9517": 9,
+        "11597": 10,
+        "2043": 11,
+        "3246": 12,
+        "11159": 13,
+        "3017": 14,
+        "3992": 15,
+        "7784": 16,
+        "560": 17,
+        "4463": 18,
+        "7661": 19,
+        "10392": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Vice President of the United States, relation=hasAthlete, tail=?)\n\nOntology summary:\n- Query relation: hasAthlete\n- Head entity: Vice President of the United States\n- Head class: Government Position\n- Relation domain: Sport\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=48, edges=53, paths=20\n- Head outgoing edges under target relation hasAthlete: 12\n- Key support nodes: Vice President of the United States, Julie Delpy, Tony Longo, Cliff Richard, Shasta County, Tristar Pictures, Honduras National Football Team, Usc Trojans Football\n- Main auxiliary relations: hasEndowmentCurrency(12), hasWinner(8), hasDesignedFilmSets(4)\n\nFrequent relation path patterns:\n- hasAthlete (count=12)\n- hasDesignedFilmSets -> hasAthlete (count=6)\n- hasImpersonatedCelebrities -> hasAthlete (count=2)\n\nCandidates:\n1. The Lives of a Bengal Lancer [id=7397 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n2. Shasta County [id=8994 | class=Region | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n3. The Iron Lady [id=1598 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Anna Faris [id=5268 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n5. Malcolm X [id=3134 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Betty White [id=8859 | class=Comedian | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. French Third Republic [id=7322 | class=Government | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Michael Gambon [id=1536 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n9. Honduras National Football Team [id=9517 | class=Football Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Villarreal Cf [id=11597 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. T. Rajendar [id=2043 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Bob Newhart [id=3246 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Cliff Richard [id=11159 | class=Person | type=1 | soft_type=1 | direct=1 | paths=2 | aux=0 | key=1]\n14. Nick Mason [id=3017 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Emilio Estefan [id=3992 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n16. Martin Lawrence [id=7784 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Usc Trojans Football [id=560 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Michelangelo Antonioni [id=4463 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Welling United F.c. [id=7661 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Julie Delpy [id=10392 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=4 | aux=0 | key=1]\n"
+}

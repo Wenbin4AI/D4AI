@@ -1,0 +1,63 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=William Kiernan, relation=hasRosterPosition, tail=?)
+
+Ontology summary:
+- Query relation: hasRosterPosition
+- Head entity: William Kiernan
+- Head class: Person
+- Relation domain: Football Club
+- Relation range: Position
+- Domain check: not clearly matched
+- Tail entities of class 'Position' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=36, edges=44, paths=20
+- Head outgoing edges under target relation hasRosterPosition: 3
+- Key support nodes: William Kiernan, Universal Records, Timothy Olyphant, Cynthia Watros, Hope Springs, Dinosaur, Shochiku, Newfoundland
+- Main auxiliary relations: foundIn(10), hasDomesticTuition(9), hasArtist(2)
+
+Frequent relation path patterns:
+- hasArtist -> foundIn -> hasRosterPosition (count=7)
+- hasFriend -> hasRosterPosition (count=5)
+- hasPartner -> hasRosterPosition (count=5)
+- hasRosterPosition (count=3)
+
+Candidates:
+1. Harry Andrews [id=12009 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Arthur Rankin Jr. [id=1782 | class=Director and Producer | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+3. Alan J. Pakula [id=12677 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Cynthia Watros [id=4016 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=5 | aux=0 | key=1]
+5. Set Dresser [id=4864 | class=Job Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+6. Butch Hartman [id=11871 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Glitch [id=14072 | class=Music Subgenre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Primary Colors [id=5700 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Shochiku [id=13511 | class=Company | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+10. Fayette County [id=10246 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Alexandre Trauner [id=11047 | class=Art Director | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. A Christmas Carol [id=1810 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+13. Hope Springs [id=3776 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]
+14. The Aristocrats [id=303 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+15. Padua [id=14083 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+16. Writers Guild of America Award for Best Adapted Screenplay [id=270 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Newfoundland [id=5404 | class=Region | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+18. David Mandel [id=6722 | class=Television Writer | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+19. Some Kind of Monster [id=743 | class=Movie Title | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Dinosaur [id=14355 | class=Animal | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]

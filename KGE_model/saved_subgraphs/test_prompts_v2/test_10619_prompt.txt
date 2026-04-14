@@ -1,0 +1,63 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Mark Moses, relation=hasNetflixGenreTitle, tail=?)
+
+Ontology summary:
+- Query relation: hasNetflixGenreTitle
+- Head entity: Mark Moses
+- Head class: Actor
+- Relation domain: Genre
+- Relation range: Movie
+- Domain check: not clearly matched
+- Tail entities of class 'Movie' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=28, edges=34, paths=20
+- Head outgoing edges under target relation hasNetflixGenreTitle: 9
+- Key support nodes: Mark Moses, Darryl F. Zanuck, Bipasha Basu, Mtv Video Music Award for Best Visual Effects, New York Yankees, Oracle, New York Film Critics Circle Award for Best Film, Detroit Lions
+- Main auxiliary relations: hasFilmFormat(8), hasTaxonomyEntry(3), hasAppearanceType(2)
+
+Frequent relation path patterns:
+- hasNetflixGenreTitle (count=9)
+- hasNetflixGenreTitle -> hasFilmFormat (count=8)
+- hasCauseOfDeath -> hasTaxonomyEntry -> hasNetflixGenreTitle (count=2)
+- hasNetflixGenreTitle -> hasAppearance (count=1)
+
+Candidates:
+1. Vancouver [id=866 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Oracle [id=11221 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+3. Occidental College [id=8284 | class=University | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]
+4. New York Yankees [id=1432 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+5. Tess [id=9618 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+6. Maggie Roswell [id=11997 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+7. The Lost Weekend [id=5005 | class=Film | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+8. Picket Fences [id=4370 | class=Tv Show | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+9. New York Film Critics Circle Award for Best Film [id=8083 | class=Film Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+10. Ebbsfleet United F.c. [id=10052 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+11. Lost in Space [id=10619 | class=Tv Show | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+12. King of the Hill [id=5310 | class=Tv Show | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]
+13. Darryl F. Zanuck [id=1114 | class=Person | type=0 | soft_type=0 | direct=1 | paths=6 | aux=6 | key=1]
+14. Bradford City A.f.c. [id=2913 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+15. Bipasha Basu [id=9751 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+16. Code Geass Lelouch of the Rebellion [id=12767 | class=Tv Show | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+17. Detroit Lions [id=7363 | class=American Football Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+18. Peng Dehuai [id=13357 | class=Politician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+19. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Mtv Video Music Award for Best Visual Effects [id=2399 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]

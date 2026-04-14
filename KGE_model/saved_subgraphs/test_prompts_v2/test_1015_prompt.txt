@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Shane, relation=hasAward, tail=?)
+
+Ontology summary:
+- Query relation: hasAward
+- Head entity: Shane
+- Head class: Person
+- Relation domain: Movie
+- Relation range: Award
+- Domain check: not clearly matched
+- Tail entities of class 'Award' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=51, edges=55, paths=20
+- Head outgoing edges under target relation hasAward: 1
+- Key support nodes: Shane, Seattle, Cairns, Allan Holdsworth, At&t, Garbage, Red Hot Chili Peppers, Topeka
+- Main auxiliary relations: hasGenre(15), hasAthlete(5), hasNetflixGenreTitle(4)
+
+Frequent relation path patterns:
+- editedBy -> hasGenre (count=13)
+- hasAthlete -> hasWinner -> hasAward (count=3)
+- hasAward (count=1)
+- editedBy (count=1)
+- hasAward -> isInRankedList -> hasStudent (count=1)
+
+Candidates:
+1. Washington County [id=2821 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+2. Nac Breda [id=1463 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+3. County Durham [id=11918 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+4. Topeka [id=4821 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]
+5. Ecw Hardcore Tv [id=14445 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+6. Patti Smith [id=1903 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+7. Dressed to Kill [id=1069 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+8. 38th Academy Awards [id=9617 | class=Awards | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+9. Mexican Americans [id=11038 | class=Ethnic Group | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+10. Rebecca Eaton [id=12217 | class=Producer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+11. Dinner for Schmucks [id=4841 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+12. Dio [id=13295 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+13. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=14 | key=1]
+14. International Cricket Council [id=13276 | class=Sports Organization | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+15. Grammy Award for Best Chamber Music Performance [id=3638 | class=Award | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+16. Oklahoma County [id=9974 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+17. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+18. Rotterdam [id=8906 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+19. Cairns [id=9444 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+20. Garbage [id=348 | class=Band | type=0 | soft_type=0 | direct=0 | paths=2 | aux=1 | key=1]

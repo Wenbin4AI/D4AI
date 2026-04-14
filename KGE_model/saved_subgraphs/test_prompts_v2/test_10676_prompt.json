@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 9890,
+        "head_label": "Govinda",
+        "head_class": "Person",
+        "relation_id": 82,
+        "relation_label": "hasReligion",
+        "gold_tail": 9281,
+        "gold_tail_label": "The Gambia",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 1455,
+            "entity_label": "David Byrne",
+            "entity_class": "Musician",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 8410,
+            "entity_label": "Tara Reid",
+            "entity_class": "Actor",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 8042,
+            "entity_label": "Les Fradkin",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 7305,
+            "entity_label": "Dylan Baker",
+            "entity_class": "Actor",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 12093,
+            "entity_label": "Cercle Brugge K.s.v.",
+            "entity_class": "Football Club",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 2156,
+            "entity_label": "Karan Johar",
+            "entity_class": "Director",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 12711,
+            "entity_label": "Ankara",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 13917,
+            "entity_label": "Silver Star",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 14295,
+            "entity_label": "Villarreal Cf B",
+            "entity_class": "Football Club",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 10665,
+            "entity_label": "The Way We Were",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 7262,
+            "entity_label": "Henry King",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 4169,
+            "entity_label": "Robert Duvall",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 95,
+            "entity_label": "Ohio",
+            "entity_class": "State",
+            "score": 7.257356,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 6535,
+            "entity_label": "Alameda County",
+            "entity_class": "County",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 7954,
+            "entity_label": "Peter Berg",
+            "entity_class": "Person",
+            "score": 6.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 11502,
+            "entity_label": "Upper Canada College",
+            "entity_class": "Educational Institution",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 13315,
+            "entity_label": "Billings",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 14119,
+            "entity_label": "Geelong Football Club",
+            "entity_class": "Sports Club",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 9281,
+            "entity_label": "The Gambia",
+            "entity_class": "Country",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 2563,
+            "entity_label": "Judi Dench",
+            "entity_class": "Actress",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "1455": 1,
+        "8410": 2,
+        "8042": 3,
+        "7305": 4,
+        "12093": 5,
+        "2156": 6,
+        "12711": 7,
+        "13917": 8,
+        "14295": 9,
+        "10665": 10,
+        "7262": 11,
+        "4169": 12,
+        "95": 13,
+        "6535": 14,
+        "7954": 15,
+        "11502": 16,
+        "13315": 17,
+        "14119": 18,
+        "9281": 19,
+        "2563": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Govinda, relation=hasReligion, tail=?)\n\nOntology summary:\n- Query relation: hasReligion\n- Head entity: Govinda\n- Head class: Person\n- Relation domain: Person\n- Relation range: Religion\n- Domain check: matched\n- Tail entities of class 'Religion' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=44, edges=49, paths=20\n- Head outgoing edges under target relation hasReligion: 18\n- Key support nodes: Govinda, Ohio, Judi Dench, Peter Berg, Villarreal Cf B, Dylan Baker, Billings, Tara Reid\n- Main auxiliary relations: hasRosterPosition(5), hasFriend(4), performedBy(4)\n\nFrequent relation path patterns:\n- hasReligion (count=18)\n- hasReligion -> livingIn (count=2)\n\nCandidates:\n1. David Byrne [id=1455 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Tara Reid [id=8410 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n3. Les Fradkin [id=8042 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Dylan Baker [id=7305 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n5. Cercle Brugge K.s.v. [id=12093 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Karan Johar [id=2156 | class=Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Ankara [id=12711 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Silver Star [id=13917 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Villarreal Cf B [id=14295 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. The Way We Were [id=10665 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Henry King [id=7262 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Robert Duvall [id=4169 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Ohio [id=95 | class=State | type=0 | soft_type=0 | direct=1 | paths=2 | aux=4 | key=1]\n14. Alameda County [id=6535 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Peter Berg [id=7954 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=2 | key=1]\n16. Upper Canada College [id=11502 | class=Educational Institution | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Billings [id=13315 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Geelong Football Club [id=14119 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. The Gambia [id=9281 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Judi Dench [id=2563 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n"
+}

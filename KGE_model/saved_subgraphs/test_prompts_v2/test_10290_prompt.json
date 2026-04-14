@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 3762,
+        "head_label": "Calendar Girls",
+        "head_class": "Movie",
+        "relation_id": 108,
+        "relation_label": "hasEndowmentCurrency",
+        "gold_tail": 1018,
+        "gold_tail_label": "The English Patient",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 722,
+            "entity_label": "Robert Smigel",
+            "entity_class": "Actor, Writer",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 10313,
+            "entity_label": "Orange County",
+            "entity_class": "County",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 9241,
+            "entity_label": "Mobile Suit Gundam Seed Destiny",
+            "entity_class": "Anime Series",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 1091,
+            "entity_label": "1998 Winter Olympics",
+            "entity_class": "Event",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 11077,
+            "entity_label": "Schenectady",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 3024,
+            "entity_label": "Garret Dillahunt",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 12791,
+            "entity_label": "Wong Jing",
+            "entity_class": "Director",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 8358,
+            "entity_label": "Speed Metal",
+            "entity_class": "Music Genre",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 4588,
+            "entity_label": "Laura Carmichael",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 7163,
+            "entity_label": "Fc Ingolstadt 04",
+            "entity_class": "Football Club",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8645,
+            "entity_label": "Klaas-jan Huntelaar",
+            "entity_class": "Athlete",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 13242,
+            "entity_label": "Cook Islands",
+            "entity_class": "Area",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 5907,
+            "entity_label": "Disc Jockey",
+            "entity_class": "Dj",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 3244,
+            "entity_label": "Mary-kate Olsen",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 11381,
+            "entity_label": "Robert F. Mcgowan",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 5456,
+            "entity_label": "15 Minutes",
+            "entity_class": "Film",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 6027,
+            "entity_label": "Uzbekistan",
+            "entity_class": "Country",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 8710,
+            "entity_label": "John Adams",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 1018,
+            "entity_label": "The English Patient",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 1437,
+            "entity_label": "Central Time Zone",
+            "entity_class": "Time Zone",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "722": 1,
+        "10313": 2,
+        "9241": 3,
+        "1091": 4,
+        "11077": 5,
+        "3024": 6,
+        "12791": 7,
+        "8358": 8,
+        "4588": 9,
+        "7163": 10,
+        "8645": 11,
+        "13242": 12,
+        "5907": 13,
+        "3244": 14,
+        "11381": 15,
+        "5456": 16,
+        "6027": 17,
+        "8710": 18,
+        "1018": 19,
+        "1437": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Calendar Girls, relation=hasEndowmentCurrency, tail=?)\n\nOntology summary:\n- Query relation: hasEndowmentCurrency\n- Head entity: Calendar Girls\n- Head class: Movie\n- Relation domain: University\n- Relation range: Currency\n- Domain check: not clearly matched\n- Tail entities of class 'Currency' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=42, edges=50, paths=20\n- Head outgoing edges under target relation hasEndowmentCurrency: 20\n- Key support nodes: Calendar Girls, Disc Jockey, Robert F. Mcgowan, Central Time Zone, 1998 Winter Olympics, Orange County, Laura Carmichael, Uzbekistan\n- Main auxiliary relations: hasCountry(7), hasWriter(5), hasSchoolType(5)\n\nFrequent relation path patterns:\n- hasEndowmentCurrency (count=20)\n\nCandidates:\n1. Robert Smigel [id=722 | class=Actor, Writer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Orange County [id=10313 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Mobile Suit Gundam Seed Destiny [id=9241 | class=Anime Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. 1998 Winter Olympics [id=1091 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Schenectady [id=11077 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Garret Dillahunt [id=3024 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Wong Jing [id=12791 | class=Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Speed Metal [id=8358 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Laura Carmichael [id=4588 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Fc Ingolstadt 04 [id=7163 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Klaas-jan Huntelaar [id=8645 | class=Athlete | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Cook Islands [id=13242 | class=Area | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Disc Jockey [id=5907 | class=Dj | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Mary-kate Olsen [id=3244 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Robert F. Mcgowan [id=11381 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. 15 Minutes [id=5456 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Uzbekistan [id=6027 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. John Adams [id=8710 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. The English Patient [id=1018 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Central Time Zone [id=1437 | class=Time Zone | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

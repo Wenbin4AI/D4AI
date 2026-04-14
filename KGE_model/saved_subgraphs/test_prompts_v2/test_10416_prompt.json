@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 12959,
+        "head_label": "American Academy of Arts and Letters",
+        "head_class": "Academic Institution",
+        "relation_id": 114,
+        "relation_label": "hasSeasons",
+        "gold_tail": 10222,
+        "gold_tail_label": "World Fantasy Award for Best Novel",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 1332,
+            "entity_label": "Chiang Kai-shek",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 2381,
+            "entity_label": "Molly Parker",
+            "entity_class": "Actor",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 11038,
+            "entity_label": "Mexican Americans",
+            "entity_class": "Ethnic Group",
+            "score": 2.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 819,
+            "entity_label": "Imelda Staunton",
+            "entity_class": "Actor",
+            "score": 6.232868,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 12439,
+            "entity_label": "Shinya Tsukamoto",
+            "entity_class": "Person",
+            "score": 4.232868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 12689,
+            "entity_label": "Andes",
+            "entity_class": "Mountain Range",
+            "score": 2.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 1499,
+            "entity_label": "Green Lantern",
+            "entity_class": "Superhero",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 2029,
+            "entity_label": "Uriah Heep",
+            "entity_class": "Rock Band",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 3031,
+            "entity_label": "Charlotte Gainsbourg",
+            "entity_class": "Actor",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 348,
+            "entity_label": "Garbage",
+            "entity_class": "Band",
+            "score": 2.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 268,
+            "entity_label": "Warner Bros.",
+            "entity_class": "Film Company",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 7253,
+            "entity_label": "Designated Hitter",
+            "entity_class": "Sport",
+            "score": 3.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 8.212868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 12,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 7439,
+            "entity_label": "Allium Cepa",
+            "entity_class": "Plant",
+            "score": 3.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 3056,
+            "entity_label": "Ryan Phillippe",
+            "entity_class": "Actor",
+            "score": 6.232868,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 2505,
+            "entity_label": "How to Train Your Dragon",
+            "entity_class": "Animated Movie Series",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 6981,
+            "entity_label": "Marcello Mastroianni",
+            "entity_class": "Actor",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 8429,
+            "entity_label": "San Diego State Aztecs Football",
+            "entity_class": "Football Team",
+            "score": 4.465736,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 10222,
+            "entity_label": "World Fantasy Award for Best Novel",
+            "entity_class": "Award",
+            "score": 7.950504,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 9,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 5913,
+            "entity_label": "Ray Romano",
+            "entity_class": "Actor",
+            "score": 6.232868,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "1332": 1,
+        "2381": 2,
+        "11038": 3,
+        "819": 4,
+        "12439": 5,
+        "12689": 6,
+        "1499": 7,
+        "2029": 8,
+        "3031": 9,
+        "348": 10,
+        "268": 11,
+        "7253": 12,
+        "4994": 13,
+        "7439": 14,
+        "3056": 15,
+        "2505": 16,
+        "6981": 17,
+        "8429": 18,
+        "10222": 19,
+        "5913": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=American Academy of Arts and Letters, relation=hasSeasons, tail=?)\n\nOntology summary:\n- Query relation: hasSeasons\n- Head entity: American Academy of Arts and Letters\n- Head class: Academic Institution\n- Relation domain: Actor\n- Relation range: Actor\n- Domain check: not clearly matched\n- Tail entities of class 'Actor' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=43, edges=49, paths=20\n- Head outgoing edges under target relation hasSeasons: 2\n- Key support nodes: American Academy of Arts and Letters, Seattle, World Fantasy Award for Best Novel, San Diego State Aztecs Football, Garbage, Allium Cepa, Andes, Shinya Tsukamoto\n- Main auxiliary relations: hasGenre(15), hasColors(8), countyPlace(6)\n\nFrequent relation path patterns:\n- hasSeasons -> hasGenre (count=6)\n- hasSeasons -> hasColors (count=6)\n- hasSeasons -> countyPlace (count=6)\n- hasSeasons (count=2)\n\nCandidates:\n1. Chiang Kai-shek [id=1332 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n2. Molly Parker [id=2381 | class=Actor | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Mexican Americans [id=11038 | class=Ethnic Group | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n4. Imelda Staunton [id=819 | class=Actor | type=1 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]\n5. Shinya Tsukamoto [id=12439 | class=Person | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=1]\n6. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n7. Green Lantern [id=1499 | class=Superhero | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n8. Uriah Heep [id=2029 | class=Rock Band | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n9. Charlotte Gainsbourg [id=3031 | class=Actor | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Garbage [id=348 | class=Band | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n11. Warner Bros. [id=268 | class=Film Company | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n12. Designated Hitter [id=7253 | class=Sport | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]\n13. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=1 | paths=2 | aux=12 | key=1]\n14. Allium Cepa [id=7439 | class=Plant | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n15. Ryan Phillippe [id=3056 | class=Actor | type=1 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]\n16. How to Train Your Dragon [id=2505 | class=Animated Movie Series | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n17. Marcello Mastroianni [id=6981 | class=Actor | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. San Diego State Aztecs Football [id=8429 | class=Football Team | type=0 | soft_type=0 | direct=0 | paths=3 | aux=3 | key=1]\n19. World Fantasy Award for Best Novel [id=10222 | class=Award | type=0 | soft_type=0 | direct=1 | paths=2 | aux=9 | key=1]\n20. Ray Romano [id=5913 | class=Actor | type=1 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]\n"
+}

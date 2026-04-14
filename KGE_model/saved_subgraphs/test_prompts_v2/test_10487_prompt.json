@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 9008,
+        "head_label": "Colm Feore",
+        "head_class": "Person",
+        "relation_id": 133,
+        "relation_label": "hasCountry",
+        "gold_tail": 7763,
+        "gold_tail_label": "Forest Lawn Memorial Park",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 561,
+            "entity_label": "Halfback",
+            "entity_class": "Sports Position",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 7,
+            "entity_label": "Naveen Andrews",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 7611,
+            "entity_label": "Georgia Bulldogs Football",
+            "entity_class": "Sports Team",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 13106,
+            "entity_label": "Kirkcaldy",
+            "entity_class": "City",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 9008,
+            "entity_label": "Colm Feore",
+            "entity_class": "Person",
+            "score": 2.098612,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 4894,
+            "entity_label": "Tim Van Patten",
+            "entity_class": "Director",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 7986,
+            "entity_label": "Jackie Brown",
+            "entity_class": "Film",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 2278,
+            "entity_label": "Dystopia",
+            "entity_class": "Literary Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 890,
+            "entity_label": "Malta",
+            "entity_class": "Country",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 9160,
+            "entity_label": "Bedtime Stories",
+            "entity_class": "Movie",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 2053,
+            "entity_label": "Nicole Kidman",
+            "entity_class": "People",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 3334,
+            "entity_label": "Bicentennial Man",
+            "entity_class": "Film",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 5838,
+            "entity_label": "Catch Me If You Can",
+            "entity_class": "Movie Title",
+            "score": 7.593829,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 6,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 11494,
+            "entity_label": "Gertrude Stein",
+            "entity_class": "Person",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 14113,
+            "entity_label": "Legislator",
+            "entity_class": "Occupation",
+            "score": 7.439678,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 5,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 11066,
+            "entity_label": "Cooper Union",
+            "entity_class": "University",
+            "score": 1.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 11680,
+            "entity_label": "University of Leeds",
+            "entity_class": "University",
+            "score": 4.178054,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 12633,
+            "entity_label": "Lake Erie",
+            "entity_class": "Lake",
+            "score": 3.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 7763,
+            "entity_label": "Forest Lawn Memorial Park",
+            "entity_class": "Location",
+            "score": 7.147918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 3209,
+            "entity_label": "Joshua Jackson",
+            "entity_class": "Actor",
+            "score": 6.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "561": 1,
+        "7": 2,
+        "7611": 3,
+        "13106": 4,
+        "9008": 5,
+        "4894": 6,
+        "7986": 7,
+        "2278": 8,
+        "890": 9,
+        "9160": 10,
+        "2053": 11,
+        "3334": 12,
+        "5838": 13,
+        "11494": 14,
+        "14113": 15,
+        "11066": 16,
+        "11680": 17,
+        "12633": 18,
+        "7763": 19,
+        "3209": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Colm Feore, relation=hasCountry, tail=?)\n\nOntology summary:\n- Query relation: hasCountry\n- Head entity: Colm Feore\n- Head class: Person\n- Relation domain: City\n- Relation range: Country\n- Domain check: not clearly matched\n- Tail entities of class 'Country' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=41, edges=49, paths=20\n- Head outgoing edges under target relation hasCountry: 6\n- Key support nodes: Colm Feore, Legislator, Catch Me If You Can, Joshua Jackson, Kirkcaldy, University of Leeds, Forest Lawn Memorial Park, Lake Erie\n- Main auxiliary relations: hasImpersonatedCelebrities(18), hasAthlete(5), hasStudent(3)\n\nFrequent relation path patterns:\n- hasCountry -> hasImpersonatedCelebrities (count=12)\n- hasCountry (count=6)\n- hasImpersonatedCelebrities -> hasCountry (count=2)\n\nCandidates:\n1. Halfback [id=561 | class=Sports Position | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Naveen Andrews [id=7 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Georgia Bulldogs Football [id=7611 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n4. Kirkcaldy [id=13106 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n5. Colm Feore [id=9008 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=1]\n6. Tim Van Patten [id=4894 | class=Director | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n7. Jackie Brown [id=7986 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n8. Dystopia [id=2278 | class=Literary Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Malta [id=890 | class=Country | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Bedtime Stories [id=9160 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n11. Nicole Kidman [id=2053 | class=People | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n12. Bicentennial Man [id=3334 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n13. Catch Me If You Can [id=5838 | class=Movie Title | type=0 | soft_type=0 | direct=1 | paths=2 | aux=6 | key=1]\n14. Gertrude Stein [id=11494 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n15. Legislator [id=14113 | class=Occupation | type=0 | soft_type=0 | direct=1 | paths=2 | aux=5 | key=1]\n16. Cooper Union [id=11066 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=1]\n17. University of Leeds [id=11680 | class=University | type=0 | soft_type=0 | direct=0 | paths=3 | aux=2 | key=1]\n18. Lake Erie [id=12633 | class=Lake | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n19. Forest Lawn Memorial Park [id=7763 | class=Location | type=0 | soft_type=1 | direct=1 | paths=2 | aux=0 | key=1]\n20. Joshua Jackson [id=3209 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n"
+}

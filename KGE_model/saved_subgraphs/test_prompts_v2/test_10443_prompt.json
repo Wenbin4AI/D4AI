@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 1781,
+        "head_label": "Julia Ormond",
+        "head_class": "Actress",
+        "relation_id": 170,
+        "relation_label": "playsFor",
+        "gold_tail": 1779,
+        "gold_tail_label": "Dick Van Dyke",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 5315,
+            "entity_label": "The Great Gatsby",
+            "entity_class": "Book",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 2097,
+            "entity_label": "Grammy Award for Best Male Rock Vocal Performance",
+            "entity_class": "Award",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 1924,
+            "entity_label": "University College London",
+            "entity_class": "University",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 9799,
+            "entity_label": "A.c. Chievoverona",
+            "entity_class": "Sports Team",
+            "score": 5.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 4798,
+            "entity_label": "Borat",
+            "entity_class": "Movie Character",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 8553,
+            "entity_label": "Boarding School",
+            "entity_class": "Boarding School",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 11327,
+            "entity_label": "And the Band Played on",
+            "entity_class": "Film",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 1208,
+            "entity_label": "Chris Botti",
+            "entity_class": "Musician",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 4107,
+            "entity_label": "Mark Burnett",
+            "entity_class": "Producer",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 1667,
+            "entity_label": "Robot Chicken",
+            "entity_class": "Tv Show",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 2112,
+            "entity_label": "Cavalier",
+            "entity_class": "Historical Group",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 1686,
+            "entity_label": "Jessica Biel",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 9503,
+            "entity_label": "Tony Scott",
+            "entity_class": "Director",
+            "score": 6.649159,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 2571,
+            "entity_label": "Cynthia Nixon",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 1246,
+            "entity_label": "Minnesota Twins",
+            "entity_class": "Sports Team",
+            "score": 6.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 7689,
+            "entity_label": "Dell Inc.",
+            "entity_class": "Company",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 7485,
+            "entity_label": "Bonnie and Clyde",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 9345,
+            "entity_label": "Butler County",
+            "entity_class": "Administrative Region",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 1779,
+            "entity_label": "Dick Van Dyke",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 6112,
+            "entity_label": "Hulk",
+            "entity_class": "Fictional Character",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "5315": 1,
+        "2097": 2,
+        "1924": 3,
+        "9799": 4,
+        "4798": 5,
+        "8553": 6,
+        "11327": 7,
+        "1208": 8,
+        "4107": 9,
+        "1667": 10,
+        "2112": 11,
+        "1686": 12,
+        "9503": 13,
+        "2571": 14,
+        "1246": 15,
+        "7689": 16,
+        "7485": 17,
+        "9345": 18,
+        "1779": 19,
+        "6112": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Julia Ormond, relation=playsFor, tail=?)\n\nOntology summary:\n- Query relation: playsFor\n- Head entity: Julia Ormond\n- Head class: Actress\n- Relation domain: Person\n- Relation range: Football Club\n- Domain check: not clearly matched\n- Tail entities of class 'Football Club' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=32, edges=36, paths=20\n- Head outgoing edges under target relation playsFor: 23\n- Key support nodes: Julia Ormond, Grammy Award for Best Male Rock Vocal Performance, Mark Burnett, Bonnie and Clyde, Butler County, Borat, Hulk, Jessica Biel\n- Main auxiliary relations: containsCountry(2), hasBorder(2), hasMember(2)\n\nFrequent relation path patterns:\n- playsFor (count=20)\n\nCandidates:\n1. The Great Gatsby [id=5315 | class=Book | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Grammy Award for Best Male Rock Vocal Performance [id=2097 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. University College London [id=1924 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. A.c. Chievoverona [id=9799 | class=Sports Team | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n5. Borat [id=4798 | class=Movie Character | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Boarding School [id=8553 | class=Boarding School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. And the Band Played on [id=11327 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Chris Botti [id=1208 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Mark Burnett [id=4107 | class=Producer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Robot Chicken [id=1667 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Cavalier [id=2112 | class=Historical Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Jessica Biel [id=1686 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. Tony Scott [id=9503 | class=Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=4 | key=1]\n14. Cynthia Nixon [id=2571 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Minnesota Twins [id=1246 | class=Sports Team | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n16. Dell Inc. [id=7689 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Bonnie and Clyde [id=7485 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Butler County [id=9345 | class=Administrative Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Dick Van Dyke [id=1779 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Hulk [id=6112 | class=Fictional Character | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n"
+}

@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Point Guard, relation=hasReligion, tail=?)
+
+Ontology summary:
+- Query relation: hasReligion
+- Head entity: Point Guard
+- Head class: Basketball Position
+- Relation domain: Person
+- Relation range: Religion
+- Domain check: not clearly matched
+- Tail entities of class 'Religion' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=44, edges=55, paths=20
+- Head outgoing edges under target relation hasReligion: 6
+- Key support nodes: Point Guard, Sky One, 4ad, Roger Moore, Sam Rockwell, Jay Leno, War Film, Hook
+- Main auxiliary relations: hasImpersonatedCelebrities(15), hasNetflixGenreTitle(2), hasStudent(2)
+
+Frequent relation path patterns:
+- hasImpersonatedCelebrities -> hasReligion (count=14)
+- hasReligion (count=6)
+
+Candidates:
+1. Music [id=8400 | class=Music | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Music Video Director [id=6479 | class=Profession | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+3. Bill Berry [id=7833 | class=Singer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+4. Civil Engineer [id=10465 | class=Engineer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+5. Centurion [id=1507 | class=Historical Rank | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+6. James K. Polk [id=9483 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+7. Nigeria National Football Team [id=10942 | class=Football Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Greater Manchester [id=14068 | class=Metropolitan County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. 4ad [id=9841 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]
+10. Second Polish Republic [id=2286 | class=Historical Period | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+11. Conan O'brien [id=5732 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Alsace [id=12037 | class=Location | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+13. Sky One [id=12742 | class=Television Network | type=0 | soft_type=0 | direct=1 | paths=4 | aux=0 | key=1]
+14. Mobile [id=13146 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+15. First Crusade [id=10816 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Le Havre Ac [id=10922 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Andre Jacquemetton [id=8652 | class=Writer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+18. St. Louis Blues [id=13577 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+19. Anne Baxter [id=8665 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. An Inconvenient Truth [id=5127 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]

@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 2202,
+        "head_label": "1994 Grammy Awards",
+        "head_class": "Award Ceremony",
+        "relation_id": 82,
+        "relation_label": "hasReligion",
+        "gold_tail": 2303,
+        "gold_tail_label": "Chicago Film Critics Association Award for Best Actor",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 95,
+            "entity_label": "Ohio",
+            "entity_class": "State",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 5355,
+            "entity_label": "Jacob Vargas",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 12547,
+            "entity_label": "Roots: the Next Generations",
+            "entity_class": "Tv Series",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 6515,
+            "entity_label": "Daniel Handler",
+            "entity_class": "Author",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 9009,
+            "entity_label": "Palm Beach County",
+            "entity_class": "Administrative Region",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 3825,
+            "entity_label": "Cleveland",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 12063,
+            "entity_label": "Salsa",
+            "entity_class": "Dance Style",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 4902,
+            "entity_label": "San Luis Obispo",
+            "entity_class": "Place",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 13836,
+            "entity_label": "Dunfermline",
+            "entity_class": "Town",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 113,
+            "entity_label": "Richard Day",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 567,
+            "entity_label": "Epistemology",
+            "entity_class": "Philosophical Concept",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 8658,
+            "entity_label": "Haryana",
+            "entity_class": "Location",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 1996,
+            "entity_label": "Apollo 13",
+            "entity_class": "Film",
+            "score": 6.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 3837,
+            "entity_label": "Norman Blake",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 4056,
+            "entity_label": "Roy Webb",
+            "entity_class": "Composer",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 4749,
+            "entity_label": "Universal Records",
+            "entity_class": "Record Label",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 5102,
+            "entity_label": "Chelmsford",
+            "entity_class": "City/town",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 11912,
+            "entity_label": "Lincoln",
+            "entity_class": "President",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 2303,
+            "entity_label": "Chicago Film Critics Association Award for Best Actor",
+            "entity_class": "Award",
+            "score": 7.034213,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 7369,
+            "entity_label": "Hugo Award for Best Professional Artist",
+            "entity_class": "Awards",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "95": 1,
+        "5355": 2,
+        "12547": 3,
+        "6515": 4,
+        "9009": 5,
+        "3825": 6,
+        "12063": 7,
+        "4902": 8,
+        "13836": 9,
+        "113": 10,
+        "567": 11,
+        "8658": 12,
+        "1996": 13,
+        "3837": 14,
+        "4056": 15,
+        "4749": 16,
+        "5102": 17,
+        "11912": 18,
+        "2303": 19,
+        "7369": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=1994 Grammy Awards, relation=hasReligion, tail=?)\n\nOntology summary:\n- Query relation: hasReligion\n- Head entity: 1994 Grammy Awards\n- Head class: Award Ceremony\n- Relation domain: Person\n- Relation range: Religion\n- Domain check: not clearly matched\n- Tail entities of class 'Religion' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=41, edges=51, paths=20\n- Head outgoing edges under target relation hasReligion: 17\n- Key support nodes: 1994 Grammy Awards, Chicago Film Critics Association Award for Best Actor, Daniel Handler, Apollo 13, Hugo Award for Best Professional Artist, Jacob Vargas, Dunfermline, Chelmsford\n- Main auxiliary relations: hasRosterPosition(5), hasMajor(3), hasProfession(2)\n\nFrequent relation path patterns:\n- hasReligion (count=17)\n- hasReligion -> livingIn (count=2)\n- hasImpersonatedCelebrities -> hasReligion (count=1)\n\nCandidates:\n1. Ohio [id=95 | class=State | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Jacob Vargas [id=5355 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Roots: the Next Generations [id=12547 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Daniel Handler [id=6515 | class=Author | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n5. Palm Beach County [id=9009 | class=Administrative Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n6. Cleveland [id=3825 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Salsa [id=12063 | class=Dance Style | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. San Luis Obispo [id=4902 | class=Place | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Dunfermline [id=13836 | class=Town | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Richard Day [id=113 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Epistemology [id=567 | class=Philosophical Concept | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Haryana [id=8658 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Apollo 13 [id=1996 | class=Film | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]\n14. Norman Blake [id=3837 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Roy Webb [id=4056 | class=Composer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n16. Universal Records [id=4749 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Chelmsford [id=5102 | class=City/town | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Lincoln [id=11912 | class=President | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Chicago Film Critics Association Award for Best Actor [id=2303 | class=Award | type=0 | soft_type=0 | direct=1 | paths=2 | aux=3 | key=1]\n20. Hugo Award for Best Professional Artist [id=7369 | class=Awards | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n"
+}

@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 11959,
+        "head_label": "Citadel Broadcasting",
+        "head_class": "Broadcasting Company",
+        "relation_id": 30,
+        "relation_label": "hasAward",
+        "gold_tail": 12689,
+        "gold_tail_label": "Andes",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 1805,
+            "entity_label": "23rd United States Congress",
+            "entity_class": "Governmental Body",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 8300,
+            "entity_label": "Blockbuster",
+            "entity_class": "Video Rental Chain",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 11038,
+            "entity_label": "Mexican Americans",
+            "entity_class": "Ethnic Group",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 11352,
+            "entity_label": "James Hetfield",
+            "entity_class": "Musician",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 14248,
+            "entity_label": "Samuel Vincent",
+            "entity_class": "Person",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 8906,
+            "entity_label": "Rotterdam",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 11918,
+            "entity_label": "County Durham",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 8330,
+            "entity_label": "Walt Disney Imagineering",
+            "entity_class": "Company",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 338,
+            "entity_label": "Robots",
+            "entity_class": "Technology",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 4841,
+            "entity_label": "Dinner for Schmucks",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8928,
+            "entity_label": "Brighton Rock",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 1069,
+            "entity_label": "Dressed to Kill",
+            "entity_class": "Movie",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 12439,
+            "entity_label": "Shinya Tsukamoto",
+            "entity_class": "Person",
+            "score": 3.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 8123,
+            "entity_label": "Hannah Arendt",
+            "entity_class": "Philosopher",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 4695,
+            "entity_label": "The Kingdom",
+            "entity_class": "Film",
+            "score": 3.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 116,
+            "entity_label": "Acf Fiorentina",
+            "entity_class": "Sports Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 13295,
+            "entity_label": "Dio",
+            "entity_class": "Person",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 1678,
+            "entity_label": "Brigitte Nielsen",
+            "entity_class": "Actress, Model, Wrestler",
+            "score": 1.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 12689,
+            "entity_label": "Andes",
+            "entity_class": "Mountain Range",
+            "score": 7.871201,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 5,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 348,
+            "entity_label": "Garbage",
+            "entity_class": "Band",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "1805": 1,
+        "8300": 2,
+        "11038": 3,
+        "11352": 4,
+        "14248": 5,
+        "8906": 6,
+        "11918": 7,
+        "8330": 8,
+        "338": 9,
+        "4841": 10,
+        "8928": 11,
+        "1069": 12,
+        "12439": 13,
+        "8123": 14,
+        "4695": 15,
+        "116": 16,
+        "13295": 17,
+        "1678": 18,
+        "12689": 19,
+        "348": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Citadel Broadcasting, relation=hasAward, tail=?)\n\nOntology summary:\n- Query relation: hasAward\n- Head entity: Citadel Broadcasting\n- Head class: Broadcasting Company\n- Relation domain: Movie\n- Relation range: Award\n- Domain check: not clearly matched\n- Tail entities of class 'Award' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=53, edges=62, paths=20\n- Head outgoing edges under target relation hasAward: 1\n- Key support nodes: Citadel Broadcasting, Andes, 2004 Nfl Draft, The Kingdom, Shinya Tsukamoto, John Logan, Olympia, Garbage\n- Main auxiliary relations: hasGenre(7), hasImpersonatedCelebrities(7), hasWinner(6)\n\nFrequent relation path patterns:\n- hasImpersonatedCelebrities -> hasAward (count=6)\n- hasAthlete -> hasWinner -> hasAward (count=5)\n- hasReleaseMedium -> hasAward (count=3)\n- hasAward -> hasGenre (count=2)\n- hasAward (count=1)\n\nCandidates:\n1. 23rd United States Congress [id=1805 | class=Governmental Body | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Blockbuster [id=8300 | class=Video Rental Chain | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n3. Mexican Americans [id=11038 | class=Ethnic Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. James Hetfield [id=11352 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n5. Samuel Vincent [id=14248 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Rotterdam [id=8906 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. County Durham [id=11918 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Walt Disney Imagineering [id=8330 | class=Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Robots [id=338 | class=Technology | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n10. Dinner for Schmucks [id=4841 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Brighton Rock [id=8928 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Dressed to Kill [id=1069 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Shinya Tsukamoto [id=12439 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n14. Hannah Arendt [id=8123 | class=Philosopher | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. The Kingdom [id=4695 | class=Film | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n16. Acf Fiorentina [id=116 | class=Sports Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Dio [id=13295 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n18. Brigitte Nielsen [id=1678 | class=Actress, Model, Wrestler | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]\n19. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=1 | paths=3 | aux=5 | key=1]\n20. Garbage [id=348 | class=Band | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n"
+}

@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Islamic Studies, relation=hasStudent, tail=?)
+
+Ontology summary:
+- Query relation: hasStudent
+- Head entity: Islamic Studies
+- Head class: Academic Discipline
+- Relation domain: University
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=39, edges=50, paths=20
+- Head outgoing edges under target relation hasStudent: 1
+- Key support nodes: Islamic Studies, Dio, Seattle, Shinya Tsukamoto, Pillow Talk, Plovdiv, Fc Chornomorets Odesa, Jimmy Buffett
+- Main auxiliary relations: hasGenre(18), hasColors(4), hasNutrient(4)
+
+Frequent relation path patterns:
+- hasStudent -> nominatedFor -> hasGenre (count=8)
+- hasStudent -> hasParticipantCountries -> hasGenre (count=4)
+- hasNutrient -> hasStudent (count=2)
+- hasStudent (count=1)
+- hasStudent -> hasColors (count=1)
+
+Candidates:
+1. Christopher Mcdonald [id=8462 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+2. Samuel Vincent [id=14248 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+3. Russia National Football Team [id=12771 | class=Football Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+4. Amjad Khan [id=13873 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+5. Grammy Award for Best Chamber Music Performance [id=3638 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]
+6. Blockbuster [id=8300 | class=Video Rental Chain | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+7. Brighton Rock [id=8928 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+8. Kidult [id=14122 | class=Subculture | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+9. Plovdiv [id=14252 | class=Location | type=0 | soft_type=0 | direct=0 | paths=1 | aux=5 | key=1]
+10. Rotterdam [id=8906 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+11. Dressed to Kill [id=1069 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+12. Garbage [id=348 | class=Band | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+13. Shinya Tsukamoto [id=12439 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=6 | key=1]
+14. Designated Hitter [id=7253 | class=Sport | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+15. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=10 | key=1]
+16. The White Ribbon [id=2177 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+17. Pillow Talk [id=9994 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]
+18. Franz Kafka [id=4643 | class=Author | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]
+19. Dio [id=13295 | class=Person | type=1 | soft_type=1 | direct=1 | paths=3 | aux=4 | key=1]
+20. Henry Hathaway [id=8733 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]

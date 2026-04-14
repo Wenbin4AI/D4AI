@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Rent, relation=hasDesignedFilmSets, tail=?)
+
+Ontology summary:
+- Query relation: hasDesignedFilmSets
+- Head entity: Rent
+- Head class: Play
+- Relation domain: Person
+- Relation range: Movie
+- Domain check: not clearly matched
+- Tail entities of class 'Movie' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=38, edges=48, paths=20
+- Head outgoing edges under target relation hasDesignedFilmSets: 6
+- Key support nodes: Rent, Jerry Bruckheimer, Peter Boyle, Locus Award for Best First Novel, Canton Vaud, Fist of the North Star, Abilene Christian University, Anjelica Huston
+- Main auxiliary relations: hasMonthlyClimate(5), hasStudent(4), hasNetflixGenreTitle(3)
+
+Frequent relation path patterns:
+- hasDesignedFilmSets -> hasDesignedFilmSets (count=14)
+- hasDesignedFilmSets (count=6)
+
+Candidates:
+1. Park County [id=14228 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. The Truman Show [id=7152 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]
+3. Curtis Hanson [id=7535 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+4. Vera Drake [id=1655 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]
+5. Russian Soviet Federative Socialist Republic [id=13071 | class=Country/historical State | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]
+6. Kingdom of Bulgaria [id=2894 | class=Country | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+7. Bromley [id=7970 | class=District | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+8. Rent [id=8021 | class=Play | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]
+9. Locus Award for Best First Novel [id=11296 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Michael Kamen [id=9127 | class=Composer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+11. Tim Armstrong [id=6330 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+12. Anjelica Huston [id=149 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+13. Abilene Christian University [id=11405 | class=University | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]
+14. Slapstick [id=7043 | class=Comedy Genre | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]
+15. Fist of the North Star [id=12896 | class=Media Franchise | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+16. Trent Jones [id=6690 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+17. Jerry Bruckheimer [id=1099 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Star Wars: Episode I – the Phantom Menace [id=2655 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+19. Peter Boyle [id=3938 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+20. Canton Vaud [id=11411 | class=Canton | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]

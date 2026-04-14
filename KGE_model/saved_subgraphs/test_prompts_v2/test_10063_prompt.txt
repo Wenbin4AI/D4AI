@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Heart of Midlothian F.c., relation=hasCategory, tail=?)
+
+Ontology summary:
+- Query relation: hasCategory
+- Head entity: Heart of Midlothian F.c.
+- Head class: Football Club
+- Relation domain: City
+- Relation range: Unknown
+- Domain check: not clearly matched
+
+Local subgraph summary:
+- Local subgraph: nodes=43, edges=49, paths=20
+- Head outgoing edges under target relation hasCategory: 6
+- Key support nodes: Heart of Midlothian F.c., Sean Lennon, The People Vs. Larry Flynt, Tuba, Mako, Anthropology, Kate Walsh, Night at the Museum: Battle of the Smithsonian
+- Main auxiliary relations: hasImpersonatedCelebrities(10), hasDesignedFilmSets(9), hasNetflixGenreTitle(6)
+
+Frequent relation path patterns:
+- hasCategory -> hasDesignedFilmSets (count=8)
+- hasCategory (count=6)
+- hasCategory -> hasImpersonatedCelebrities (count=6)
+
+Candidates:
+1. Tps Turku [id=14305 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Wigan [id=14163 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Rebecca Romijn [id=9303 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+4. Night at the Museum: Battle of the Smithsonian [id=4211 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Anastasia [id=4971 | class=Princess | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+6. Swedes [id=7510 | class=Nationality | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+7. Heart of Midlothian F.c. [id=6259 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]
+8. Italy National Association Football Team [id=4217 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Mako [id=11630 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=2 | aux=3 | key=1]
+10. Achala Sachdev [id=12325 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+11. The Shield [id=1828 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+12. Kirkcaldy [id=13106 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+13. Sean Lennon [id=2957 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=8 | key=1]
+14. Josh Hartnett [id=6450 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+15. The People Vs. Larry Flynt [id=2516 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=2 | aux=5 | key=1]
+16. The Doors [id=5964 | class=Rock Band | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+17. Anthropology [id=2089 | class=Academic Discipline | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]
+18. Kate Walsh [id=5533 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]
+19. Industrial Engineering [id=9982 | class=Field of Study | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+20. Tuba [id=9132 | class=Musical Instrument | type=0 | soft_type=0 | direct=1 | paths=1 | aux=4 | key=1]

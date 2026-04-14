@@ -1,0 +1,62 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Akira Kamiya, relation=hasReligion, tail=?)
+
+Ontology summary:
+- Query relation: hasReligion
+- Head entity: Akira Kamiya
+- Head class: Person
+- Relation domain: State
+- Relation range: Religion
+- Domain check: not clearly matched
+- Tail entities of class 'Religion' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=45, edges=54, paths=20
+- Head outgoing edges under target relation hasReligion: 14
+- Key support nodes: Akira Kamiya, Lille Osc, Mark Johnson, Citv, Frank Sinatra, Ramsey County, Steven Levitan, Rotherham
+- Main auxiliary relations: hasPrequel(6), hasColors(5), gdpNominal(3)
+
+Frequent relation path patterns:
+- hasReligion (count=14)
+- hasColors -> hasReligion (count=5)
+- hasGenre -> hasReligion (count=1)
+
+Candidates:
+1. University of Arizona [id=4029 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+2. Ramsey County [id=10283 | class=County | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+3. Akira Kamiya [id=12897 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=3 | key=1]
+4. Citv [id=14370 | class=Tv Channel | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+5. Bill Melendez [id=5036 | class=Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+6. Emile Kuri [id=7595 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Lille Osc [id=1111 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=1]
+8. Leander Paes [id=2747 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+9. Steven Levitan [id=1344 | class=Television Producer | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]
+10. Jon Bon Jovi [id=198 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Forest Green Rovers F.c. [id=10701 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+12. Champaign [id=13398 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Frank Sinatra [id=2771 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]
+14. Ben Harper [id=7862 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. John Amos [id=7452 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+16. Moncton [id=11222 | class=Location | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+17. Rotherham [id=12270 | class=Town | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Lake Charles [id=11215 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Cincinnati Bengals [id=1898 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Mark Johnson [id=6438 | class=Record Producer | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]

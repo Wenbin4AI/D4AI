@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Glee: the 3d Concert Movie, relation=hasExecutiveProducer, tail=?)
+
+Ontology summary:
+- Query relation: hasExecutiveProducer
+- Head entity: Glee: the 3d Concert Movie
+- Head class: Movie
+- Relation domain: Movie
+- Relation range: Person
+- Domain check: matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=39, edges=47, paths=20
+- Head outgoing edges under target relation hasExecutiveProducer: 19
+- Key support nodes: Glee: the 3d Concert Movie, Nelson Mandela, Johor, Being There, Allen Iverson, Correspondent, Folk Music, Michael Piller
+- Main auxiliary relations: originCountry(13), hasOfficialLanguage(8), :hasCostumeDesigner(3)
+
+Frequent relation path patterns:
+- hasExecutiveProducer (count=19)
+- hasExecutiveProducer -> originCountry (count=1)
+
+Candidates:
+1. Sidhique [id=13615 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+2. Gregory Peck [id=8719 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+3. Grammy Award for Best Contemporary Blues Album [id=6100 | class=Music Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]
+4. Jamie Gangel [id=7544 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+5. Kyoto University [id=9540 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=5 | key=0]
+6. Being There [id=3678 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+7. Royal Medal [id=11862 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]
+8. Danny Devito [id=16 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+9. Joseph Cotten [id=10894 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=2 | key=1]
+10. Johor [id=13489 | class=State | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+11. Janet Jackson [id=3732 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+12. Correspondent [id=3511 | class=Journalist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+13. Nelson Mandela [id=10269 | class=Person | type=1 | soft_type=1 | direct=1 | paths=2 | aux=2 | key=1]
+14. Folk Music [id=2862 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+15. Allen Iverson [id=8715 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=2 | key=1]
+16. Lorenzo Music [id=5120 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+17. Michael Piller [id=11090 | class=Producer | type=0 | soft_type=1 | direct=1 | paths=1 | aux=1 | key=1]
+18. Wilmington [id=12122 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+19. Roger Deakins [id=100 | class=Cinematographer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Fidel Castro [id=9266 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]

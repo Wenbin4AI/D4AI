@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 521,
+        "head_label": "White",
+        "head_class": "Color",
+        "relation_id": 179,
+        "relation_label": "hasGovernmentPosition",
+        "gold_tail": 8350,
+        "gold_tail_label": "Die Hard with a Vengeance",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 10645,
+            "entity_label": "Short Film",
+            "entity_class": "Film Genre",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 13421,
+            "entity_label": "Collingwood Football Club",
+            "entity_class": "Sports Club",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 1035,
+            "entity_label": "Talk to Me",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 8339,
+            "entity_label": "Nepal",
+            "entity_class": "Country",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 7222,
+            "entity_label": "Infernal Affairs",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 6158,
+            "entity_label": "Pundit",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 922,
+            "entity_label": "Poughkeepsie",
+            "entity_class": "Location",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 7766,
+            "entity_label": "Green",
+            "entity_class": "Color",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 1832,
+            "entity_label": "Teri Garr",
+            "entity_class": "Actress",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 11463,
+            "entity_label": "Avant-garde Music",
+            "entity_class": "Music Genre",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 13453,
+            "entity_label": "Mercer University",
+            "entity_class": "University",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 8741,
+            "entity_label": "Florida International University",
+            "entity_class": "University",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 3346,
+            "entity_label": "Kuk Harrell",
+            "entity_class": "Person",
+            "score": 8.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 7410,
+            "entity_label": "Spyglass Media Group",
+            "entity_class": "Organization",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 11297,
+            "entity_label": "Walter Hill",
+            "entity_class": "Person",
+            "score": 8.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 4935,
+            "entity_label": "Aston Villa F.c.",
+            "entity_class": "Football Club",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 13490,
+            "entity_label": "United States Navy",
+            "entity_class": "Government Agency",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 12019,
+            "entity_label": "Barnard College",
+            "entity_class": "College",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 8350,
+            "entity_label": "Die Hard with a Vengeance",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 12240,
+            "entity_label": "Melvin Frank",
+            "entity_class": "Person",
+            "score": 7.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "10645": 1,
+        "13421": 2,
+        "1035": 3,
+        "8339": 4,
+        "7222": 5,
+        "6158": 6,
+        "922": 7,
+        "7766": 8,
+        "1832": 9,
+        "11463": 10,
+        "13453": 11,
+        "8741": 12,
+        "3346": 13,
+        "7410": 14,
+        "11297": 15,
+        "4935": 16,
+        "13490": 17,
+        "12019": 18,
+        "8350": 19,
+        "12240": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=White, relation=hasGovernmentPosition, tail=?)\n\nOntology summary:\n- Query relation: hasGovernmentPosition\n- Head entity: White\n- Head class: Color\n- Relation domain: Person\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=49, edges=49, paths=20\n- Head outgoing edges under target relation hasGovernmentPosition: 22\n- Key support nodes: White, Teri Garr, United States Navy, Barnard College, Infernal Affairs, Florida International University, Spyglass Media Group, Nepal\n- Main auxiliary relations: hasAthlete(7), hasImpersonatedCelebrities(7), hasNetflixGenreTitle(4)\n\nFrequent relation path patterns:\n- hasGovernmentPosition (count=20)\n\nCandidates:\n1. Short Film [id=10645 | class=Film Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Collingwood Football Club [id=13421 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n3. Talk to Me [id=1035 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Nepal [id=8339 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n5. Infernal Affairs [id=7222 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Pundit [id=6158 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Poughkeepsie [id=922 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Green [id=7766 | class=Color | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Teri Garr [id=1832 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Avant-garde Music [id=11463 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n11. Mercer University [id=13453 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Florida International University [id=8741 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. Kuk Harrell [id=3346 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n14. Spyglass Media Group [id=7410 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n15. Walter Hill [id=11297 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n16. Aston Villa F.c. [id=4935 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. United States Navy [id=13490 | class=Government Agency | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Barnard College [id=12019 | class=College | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Die Hard with a Vengeance [id=8350 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Melvin Frank [id=12240 | class=Person | type=1 | soft_type=1 | direct=1 | paths=0 | aux=0 | key=0]\n"
+}

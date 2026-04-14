@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 1666,
+        "head_label": "Liam Ohayon",
+        "head_class": "Person",
+        "relation_id": 47,
+        "relation_label": "hasWinner",
+        "gold_tail": 7029,
+        "gold_tail_label": "Suffolk County",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 4656,
+            "entity_label": "Bob Balaban",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 6244,
+            "entity_label": "Chester City F.c.",
+            "entity_class": "Football Club",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 12410,
+            "entity_label": "Edge of Darkness",
+            "entity_class": "Movie/tv Show",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 13485,
+            "entity_label": "Kate Greenaway Medal",
+            "entity_class": "Award",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 9634,
+            "entity_label": "Lloyd Kaufman",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 7808,
+            "entity_label": "Any Given Sunday",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 12136,
+            "entity_label": "Kaa Gent",
+            "entity_class": "Sports Team",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 1357,
+            "entity_label": "Robert De Niro",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 14263,
+            "entity_label": "Unknown",
+            "entity_class": "Unknown",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 4408,
+            "entity_label": "Decatur",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 7760,
+            "entity_label": "Sydney Pollack",
+            "entity_class": "Director",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 1092,
+            "entity_label": "Pier Paolo Pasolini",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 13239,
+            "entity_label": "Placer County",
+            "entity_class": "County",
+            "score": 6.918865,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 6,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 2654,
+            "entity_label": "Tom Jones",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 10168,
+            "entity_label": "Mauritania",
+            "entity_class": "Country",
+            "score": 6.687639,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 5,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 3350,
+            "entity_label": "Elizabeth Daily",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 8341,
+            "entity_label": "Prakash Raj",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 6155,
+            "entity_label": "Myrna Loy",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 7029,
+            "entity_label": "Suffolk County",
+            "entity_class": "County",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 10617,
+            "entity_label": "Cerebral Hemorrhage",
+            "entity_class": "Medical Condition",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "4656": 1,
+        "6244": 2,
+        "12410": 3,
+        "13485": 4,
+        "9634": 5,
+        "7808": 6,
+        "12136": 7,
+        "1357": 8,
+        "14263": 9,
+        "4408": 10,
+        "7760": 11,
+        "1092": 12,
+        "13239": 13,
+        "2654": 14,
+        "10168": 15,
+        "3350": 16,
+        "8341": 17,
+        "6155": 18,
+        "7029": 19,
+        "10617": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Liam Ohayon, relation=hasWinner, tail=?)\n\nOntology summary:\n- Query relation: hasWinner\n- Head entity: Liam Ohayon\n- Head class: Person\n- Relation domain: Award\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=27, edges=49, paths=20\n- Head outgoing edges under target relation hasWinner: 11\n- Key support nodes: Liam Ohayon, Placer County, Cerebral Hemorrhage, Mauritania, Unknown, Albert Lee, Kate Greenaway Medal, Dorothy Spencer\n- Main auxiliary relations: hasLocalTuitionCurrency(15), capital(12), hasInternationalTuitionCurrency(9)\n\nFrequent relation path patterns:\n- hasWinner (count=11)\n- hasWinner -> capital -> hasLocalTuitionCurrency (count=9)\n\nCandidates:\n1. Bob Balaban [id=4656 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n2. Chester City F.c. [id=6244 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Edge of Darkness [id=12410 | class=Movie/tv Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Kate Greenaway Medal [id=13485 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Lloyd Kaufman [id=9634 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Any Given Sunday [id=7808 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Kaa Gent [id=12136 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Robert De Niro [id=1357 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n9. Unknown [id=14263 | class=Unknown | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Decatur [id=4408 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Sydney Pollack [id=7760 | class=Director | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Pier Paolo Pasolini [id=1092 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Placer County [id=13239 | class=County | type=0 | soft_type=0 | direct=1 | paths=6 | aux=0 | key=1]\n14. Tom Jones [id=2654 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Mauritania [id=10168 | class=Country | type=0 | soft_type=0 | direct=1 | paths=5 | aux=0 | key=1]\n16. Elizabeth Daily [id=3350 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Prakash Raj [id=8341 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Myrna Loy [id=6155 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Suffolk County [id=7029 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Cerebral Hemorrhage [id=10617 | class=Medical Condition | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

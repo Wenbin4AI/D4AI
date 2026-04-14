@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 2175,
+        "head_label": "Steve Gerber",
+        "head_class": "Person",
+        "relation_id": 87,
+        "relation_label": "hasAdministrative",
+        "gold_tail": 273,
+        "gold_tail_label": "Ohio State University",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 5346,
+            "entity_label": "Afc Wimbledon",
+            "entity_class": "Sportsteam",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 10647,
+            "entity_label": "Thrash Metal",
+            "entity_class": "Music Genre",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 8826,
+            "entity_label": "Udinese Calcio",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 12310,
+            "entity_label": "The Temptations",
+            "entity_class": "Music Group",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 5029,
+            "entity_label": "Exeter",
+            "entity_class": "City",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 11636,
+            "entity_label": "Orix Buffaloes",
+            "entity_class": "Baseball Team",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 2386,
+            "entity_label": "University of California, Davis",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 14185,
+            "entity_label": "Sexploitation Film",
+            "entity_class": "Film Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 786,
+            "entity_label": "110th United States Congress",
+            "entity_class": "Government Organization",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 6884,
+            "entity_label": "Jared Leto",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 11420,
+            "entity_label": "Greater St. Louis",
+            "entity_class": "Location",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 3406,
+            "entity_label": "Ian James Corlett",
+            "entity_class": "Actor",
+            "score": 8.062075,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 14,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 13665,
+            "entity_label": "Haifa",
+            "entity_class": "City",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 2900,
+            "entity_label": "Glen Cove",
+            "entity_class": "City",
+            "score": 6.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 13137,
+            "entity_label": "Caper Story",
+            "entity_class": "Story",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 10019,
+            "entity_label": "South Shields",
+            "entity_class": "Location",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 273,
+            "entity_label": "Ohio State University",
+            "entity_class": "University",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 9691,
+            "entity_label": "Tacoma",
+            "entity_class": "Location",
+            "score": 6.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "5346": 1,
+        "10647": 2,
+        "8826": 3,
+        "12310": 4,
+        "5029": 5,
+        "11636": 6,
+        "2386": 7,
+        "14185": 8,
+        "786": 9,
+        "4994": 10,
+        "6884": 11,
+        "11420": 12,
+        "3406": 13,
+        "13665": 14,
+        "2900": 15,
+        "13137": 16,
+        "10019": 17,
+        "14037": 18,
+        "273": 19,
+        "9691": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Steve Gerber, relation=hasAdministrative, tail=?)\n\nOntology summary:\n- Query relation: hasAdministrative\n- Head entity: Steve Gerber\n- Head class: Person\n- Relation domain: Country\n- Relation range: County\n- Domain check: not clearly matched\n- Tail entities of class 'County' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=44, edges=62, paths=20\n- Head outgoing edges under target relation hasAdministrative: 7\n- Key support nodes: Steve Gerber, Ian James Corlett, Ashford, Glen Cove, Tacoma, The Temptations, Thrash Metal, Ohio State University\n- Main auxiliary relations: adminType(21), hasLocalTuitionCurrency(14), headquarteredIn(4)\n\nFrequent relation path patterns:\n- hasSeason -> hasLocalTuitionCurrency -> hasAdministrative (count=13)\n- hasAdministrative (count=7)\n\nCandidates:\n1. Afc Wimbledon [id=5346 | class=Sportsteam | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Thrash Metal [id=10647 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Udinese Calcio [id=8826 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. The Temptations [id=12310 | class=Music Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Exeter [id=5029 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Orix Buffaloes [id=11636 | class=Baseball Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. University of California, Davis [id=2386 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Sexploitation Film [id=14185 | class=Film Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. 110th United States Congress [id=786 | class=Government Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Seattle [id=4994 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Jared Leto [id=6884 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Greater St. Louis [id=11420 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Ian James Corlett [id=3406 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=14 | aux=0 | key=1]\n14. Haifa [id=13665 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Glen Cove [id=2900 | class=City | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n16. Caper Story [id=13137 | class=Story | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. South Shields [id=10019 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Pontefract [id=14037 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Ohio State University [id=273 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Tacoma [id=9691 | class=Location | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 7952,
+        "head_label": "Gilles Deleuze",
+        "head_class": "Person",
+        "relation_id": 10,
+        "relation_label": "hasWinner",
+        "gold_tail": 8751,
+        "gold_tail_label": "One Tree Hill",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 11082,
+            "entity_label": "Pas Giannina F.c.",
+            "entity_class": "Football Club",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 6187,
+            "entity_label": "Empire of Japan",
+            "entity_class": "Country",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 13880,
+            "entity_label": "Utv",
+            "entity_class": "Sports Team",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 12240,
+            "entity_label": "Melvin Frank",
+            "entity_class": "Person",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 7539,
+            "entity_label": "High Fidelity",
+            "entity_class": "Film",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 4066,
+            "entity_label": "Leslie David Baker",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 11585,
+            "entity_label": "Hampshire",
+            "entity_class": "Location",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 9603,
+            "entity_label": "Bowed String Instrument",
+            "entity_class": "String Instrument",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 5558,
+            "entity_label": "Emilio Estevez",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 3520,
+            "entity_label": "The Descendants",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 1026,
+            "entity_label": "Bai Ling",
+            "entity_class": "Actress",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 10503,
+            "entity_label": "Harrogate",
+            "entity_class": "Town",
+            "score": 4.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 11455,
+            "entity_label": "17th Screen Actors Guild Awards",
+            "entity_class": "Awards",
+            "score": 6.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 5253,
+            "entity_label": "Dl-proline",
+            "entity_class": "Chemical Compound",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 2805,
+            "entity_label": "John Slattery",
+            "entity_class": "Actor",
+            "score": 6.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 11234,
+            "entity_label": "Philosophy of Science",
+            "entity_class": "Field of Study",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 14388,
+            "entity_label": "Townsville",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 13487,
+            "entity_label": "Heriot-watt University",
+            "entity_class": "University",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 8751,
+            "entity_label": "One Tree Hill",
+            "entity_class": "Tv Show",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 10224,
+            "entity_label": "Northwestern University Pritzker School of Law",
+            "entity_class": "Law School",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "11082": 1,
+        "6187": 2,
+        "13880": 3,
+        "12240": 4,
+        "7539": 5,
+        "4066": 6,
+        "11585": 7,
+        "9603": 8,
+        "5558": 9,
+        "3520": 10,
+        "1026": 11,
+        "10503": 12,
+        "11455": 13,
+        "5253": 14,
+        "2805": 15,
+        "11234": 16,
+        "14388": 17,
+        "13487": 18,
+        "8751": 19,
+        "10224": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Gilles Deleuze, relation=hasWinner, tail=?)\n\nOntology summary:\n- Query relation: hasWinner\n- Head entity: Gilles Deleuze\n- Head class: Person\n- Relation domain: Award\n- Relation range: Event\n- Domain check: not clearly matched\n- Tail entities of class 'Event' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=45, edges=50, paths=20\n- Head outgoing edges under target relation hasWinner: 22\n- Key support nodes: Gilles Deleuze, Emilio Estevez, Townsville, Heriot-watt University, Northwestern University Pritzker School of Law, Melvin Frank, John Slattery, High Fidelity\n- Main auxiliary relations: hasAthlete(9), hasImpersonatedCelebrities(7), hasReleaseMedium(3)\n\nFrequent relation path patterns:\n- hasWinner (count=20)\n\nCandidates:\n1. Pas Giannina F.c. [id=11082 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Empire of Japan [id=6187 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n3. Utv [id=13880 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Melvin Frank [id=12240 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n5. High Fidelity [id=7539 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Leslie David Baker [id=4066 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Hampshire [id=11585 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Bowed String Instrument [id=9603 | class=String Instrument | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Emilio Estevez [id=5558 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. The Descendants [id=3520 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Bai Ling [id=1026 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Harrogate [id=10503 | class=Town | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]\n13. 17th Screen Actors Guild Awards [id=11455 | class=Awards | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n14. Dl-proline [id=5253 | class=Chemical Compound | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. John Slattery [id=2805 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n16. Philosophy of Science [id=11234 | class=Field of Study | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Townsville [id=14388 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Heriot-watt University [id=13487 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. One Tree Hill [id=8751 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Northwestern University Pritzker School of Law [id=10224 | class=Law School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n"
+}

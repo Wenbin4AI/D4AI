@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Cache County, relation=hasCauseOfDeath, tail=?)
+
+Ontology summary:
+- Query relation: hasCauseOfDeath
+- Head entity: Cache County
+- Head class: Administrative Region
+- Relation domain: Disease
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=34, edges=49, paths=20
+- Head outgoing edges under target relation hasCauseOfDeath: 10
+- Key support nodes: Cache County, 39th Academy Awards, Iron Man 3, Soviet Air Forces, Johannesburg, King of the Hill, Democratic Unionist Party, Seven Psychopaths
+- Main auxiliary relations: geographic_distribution(12), hasCurrentClub(8), hasTaxonomyEntry(6)
+
+Frequent relation path patterns:
+- hasCauseOfDeath (count=10)
+- hasCauseOfDeath -> geographic_distribution (count=10)
+
+Candidates:
+1. Reprise Records [id=5360 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+2. Johannesburg [id=1985 | class=City | type=0 | soft_type=0 | direct=1 | paths=2 | aux=4 | key=1]
+3. Spike Jonze [id=809 | class=Director | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+4. Taylor Lautner [id=4692 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=3 | key=1]
+5. Old Dominion University [id=12453 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+6. Ed Harris [id=394 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+7. Peter Macnicol [id=3551 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+8. Tom and Jerry [id=12190 | class=Cartoon | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+9. Democratic Unionist Party [id=14365 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]
+10. Daniel Roebuck [id=9010 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+11. Virginia [id=1234 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]
+12. Katie Holmes [id=2614 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]
+13. Iron Man 3 [id=4997 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=4 | aux=7 | key=1]
+14. Evan Rachel Wood [id=784 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]
+15. 39th Academy Awards [id=1588 | class=Event | type=0 | soft_type=0 | direct=1 | paths=4 | aux=6 | key=1]
+16. Ming-na Wen [id=7555 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+17. King of the Hill [id=5310 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+18. Melbourne [id=7724 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Seven Psychopaths [id=1404 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+20. Soviet Air Forces [id=14348 | class=Military Branch | type=0 | soft_type=0 | direct=1 | paths=4 | aux=5 | key=1]

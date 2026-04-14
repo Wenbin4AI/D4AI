@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 3300,
+        "head_label": "Mean Girls",
+        "head_class": "Movie",
+        "relation_id": 135,
+        "relation_label": "hasCountry",
+        "gold_tail": 14083,
+        "gold_tail_label": "Padua",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 6169,
+            "entity_label": "Jorma Taccone",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 2360,
+            "entity_label": "Tara Strong",
+            "entity_class": "Voice Actress",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 3776,
+            "entity_label": "Hope Springs",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 13884,
+            "entity_label": "Liberal National Party of Queensland",
+            "entity_class": "Political Party",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 12058,
+            "entity_label": "Nevada County",
+            "entity_class": "Location",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 7892,
+            "entity_label": "Morris County",
+            "entity_class": "Geographic Region",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 5817,
+            "entity_label": "Why We Fight",
+            "entity_class": "Film",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 743,
+            "entity_label": "Some Kind of Monster",
+            "entity_class": "Movie Title",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 14191,
+            "entity_label": "Wood County",
+            "entity_class": "County",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 13511,
+            "entity_label": "Shochiku",
+            "entity_class": "Company",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 4016,
+            "entity_label": "Cynthia Watros",
+            "entity_class": "Actress",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 8761,
+            "entity_label": "Hammersmith",
+            "entity_class": "Location",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 7280,
+            "entity_label": "George Lopez",
+            "entity_class": "Comedian",
+            "score": 7.847424,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 12,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 6302,
+            "entity_label": "Mecca",
+            "entity_class": "Location",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 4864,
+            "entity_label": "Set Dresser",
+            "entity_class": "Job Title",
+            "score": 6.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 864,
+            "entity_label": "Joel Grey",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 805,
+            "entity_label": "The Lord of the Rings: the Fellowship of the Ring",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 622,
+            "entity_label": "Switzerland",
+            "entity_class": "Country",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 14083,
+            "entity_label": "Padua",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 14246,
+            "entity_label": "Microsoft Windows",
+            "entity_class": "Software",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "6169": 1,
+        "2360": 2,
+        "3776": 3,
+        "13884": 4,
+        "12058": 5,
+        "7892": 6,
+        "5817": 7,
+        "743": 8,
+        "14191": 9,
+        "13511": 10,
+        "4016": 11,
+        "8761": 12,
+        "7280": 13,
+        "6302": 14,
+        "4864": 15,
+        "864": 16,
+        "805": 17,
+        "622": 18,
+        "14083": 19,
+        "14246": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Mean Girls, relation=hasCountry, tail=?)\n\nOntology summary:\n- Query relation: hasCountry\n- Head entity: Mean Girls\n- Head class: Movie\n- Relation domain: City\n- Relation range: Country\n- Domain check: not clearly matched\n- Tail entities of class 'Country' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=33, edges=44, paths=20\n- Head outgoing edges under target relation hasCountry: 8\n- Key support nodes: Mean Girls, George Lopez, The Lord of the Rings: the Fellowship of the Ring, Microsoft Windows, Set Dresser, Liberal National Party of Queensland, Tara Strong, Wood County\n- Main auxiliary relations: hasDomesticTuition(17), hasRosterPosition(12), hasOfficialLanguage(2)\n\nFrequent relation path patterns:\n- hasCountry -> hasDomesticTuition -> hasRosterPosition (count=11)\n- hasCountry (count=8)\n- hasCountry -> hasAppearance (count=1)\n\nCandidates:\n1. Jorma Taccone [id=6169 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Tara Strong [id=2360 | class=Voice Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Hope Springs [id=3776 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Liberal National Party of Queensland [id=13884 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Nevada County [id=12058 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Morris County [id=7892 | class=Geographic Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Why We Fight [id=5817 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Some Kind of Monster [id=743 | class=Movie Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Wood County [id=14191 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Shochiku [id=13511 | class=Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Cynthia Watros [id=4016 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Hammersmith [id=8761 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. George Lopez [id=7280 | class=Comedian | type=0 | soft_type=0 | direct=1 | paths=12 | aux=0 | key=1]\n14. Mecca [id=6302 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Set Dresser [id=4864 | class=Job Title | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]\n16. Joel Grey [id=864 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. The Lord of the Rings: the Fellowship of the Ring [id=805 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Switzerland [id=622 | class=Country | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Padua [id=14083 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Microsoft Windows [id=14246 | class=Software | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n"
+}

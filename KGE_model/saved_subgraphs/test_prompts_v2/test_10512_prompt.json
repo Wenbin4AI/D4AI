@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 13087,
+        "head_label": "Paducah",
+        "head_class": "City",
+        "relation_id": 39,
+        "relation_label": "placeOfDeath",
+        "gold_tail": 9459,
+        "gold_tail_label": "Harrow School",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 12937,
+            "entity_label": "Chiapas",
+            "entity_class": "State",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 1626,
+            "entity_label": "Soprano Saxophone",
+            "entity_class": "Instrument",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 7960,
+            "entity_label": "State College",
+            "entity_class": "City",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 4840,
+            "entity_label": "Maxis",
+            "entity_class": "Company",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 297,
+            "entity_label": "Elizabeth Page",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 5561,
+            "entity_label": "Winston-salem",
+            "entity_class": "City",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 9342,
+            "entity_label": "Augusta",
+            "entity_class": "City",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 12680,
+            "entity_label": "Newfoundland Standard Time",
+            "entity_class": "Time Zone",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 5110,
+            "entity_label": "N. T. Rama Rao",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 13265,
+            "entity_label": "Avignon",
+            "entity_class": "City",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 7880,
+            "entity_label": "Paul Mazursky",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 2325,
+            "entity_label": "Bill Paxton",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 10028,
+            "entity_label": "Catania",
+            "entity_class": "City",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 4548,
+            "entity_label": "Savannah Guthrie",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 14367,
+            "entity_label": "Thessaloniki",
+            "entity_class": "City",
+            "score": 8.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 6618,
+            "entity_label": "Chisago County",
+            "entity_class": "Geographical Region",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 565,
+            "entity_label": "Amanda Peet",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 4807,
+            "entity_label": "Lana Turner",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 9459,
+            "entity_label": "Harrow School",
+            "entity_class": "School",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 3101,
+            "entity_label": "Kabul",
+            "entity_class": "City",
+            "score": 8.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "12937": 1,
+        "1626": 2,
+        "7960": 3,
+        "4840": 4,
+        "297": 5,
+        "5561": 6,
+        "9342": 7,
+        "12680": 8,
+        "5110": 9,
+        "13265": 10,
+        "7880": 11,
+        "2325": 12,
+        "10028": 13,
+        "4548": 14,
+        "14367": 15,
+        "6618": 16,
+        "565": 17,
+        "4807": 18,
+        "9459": 19,
+        "3101": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Paducah, relation=placeOfDeath, tail=?)\n\nOntology summary:\n- Query relation: placeOfDeath\n- Head entity: Paducah\n- Head class: City\n- Relation domain: Person\n- Relation range: City\n- Domain check: not clearly matched\n- Tail entities of class 'City' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=47, edges=48, paths=20\n- Head outgoing edges under target relation placeOfDeath: 20\n- Key support nodes: Paducah, Maxis, Soprano Saxophone, N. T. Rama Rao, Amanda Peet, Lana Turner, Catania, Elizabeth Page\n- Main auxiliary relations: hasReligion(6), hasNetflixGenreTitle(4), hasAthlete(3)\n\nFrequent relation path patterns:\n- placeOfDeath (count=20)\n\nCandidates:\n1. Chiapas [id=12937 | class=State | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Soprano Saxophone [id=1626 | class=Instrument | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. State College [id=7960 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Maxis [id=4840 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Elizabeth Page [id=297 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Winston-salem [id=5561 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Augusta [id=9342 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Newfoundland Standard Time [id=12680 | class=Time Zone | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. N. T. Rama Rao [id=5110 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Avignon [id=13265 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Paul Mazursky [id=7880 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Bill Paxton [id=2325 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. Catania [id=10028 | class=City | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n14. Savannah Guthrie [id=4548 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n15. Thessaloniki [id=14367 | class=City | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n16. Chisago County [id=6618 | class=Geographical Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Amanda Peet [id=565 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Lana Turner [id=4807 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Harrow School [id=9459 | class=School | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Kabul [id=3101 | class=City | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n"
+}

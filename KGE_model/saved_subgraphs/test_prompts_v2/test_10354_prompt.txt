@@ -1,0 +1,63 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Rounder Records, relation=hasAthlete, tail=?)
+
+Ontology summary:
+- Query relation: hasAthlete
+- Head entity: Rounder Records
+- Head class: Record Label
+- Relation domain: Sport
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=44, edges=61, paths=20
+- Head outgoing edges under target relation hasAthlete: 2
+- Key support nodes: Rounder Records, Cliff Richard, Keith Richards, Fish Tank, Edward G. Boyle, Third Baseman, My-hime, Steve Schirripa
+- Main auxiliary relations: hasWinner(16), hasEndowmentCurrency(6), plays(4)
+
+Frequent relation path patterns:
+- hasAthlete -> hasWinner -> hasAthlete (count=13)
+- hasImpersonatedCelebrities -> hasAthlete (count=3)
+- hasAthlete (count=2)
+- hasReleaseMedium -> hasAthlete (count=2)
+
+Candidates:
+1. 56th Primetime Emmy Awards [id=1909 | class=Award Ceremony | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Syd Barrett [id=8298 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+3. Prison Break [id=8363 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Robert Chartoff [id=10642 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+5. My-hime [id=11810 | class=Anime | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+6. Timothy Hutton [id=5703 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+7. Media [id=2050 | class=Media | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Club Universitario De Deportes [id=9230 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Gilles Deleuze [id=7952 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+10. Anna Faris [id=5268 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+11. Foreigner [id=12527 | class=Band | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Julie Delpy [id=10392 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. Cliff Richard [id=11159 | class=Person | type=1 | soft_type=1 | direct=1 | paths=9 | aux=0 | key=1]
+14. Trevor Howard [id=7105 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+15. Matthew Mcconaughey [id=4133 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+16. Shasta County [id=8994 | class=Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Fish Tank [id=1045 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=6 | aux=0 | key=1]
+18. Third Baseman [id=10151 | class=Position | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+19. Keith Richards [id=2541 | class=Singer/musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+20. Gene Simmons [id=9480 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]

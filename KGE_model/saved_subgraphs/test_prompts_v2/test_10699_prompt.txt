@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Tabla, relation=hasSubject, tail=?)
+
+Ontology summary:
+- Query relation: hasSubject
+- Head entity: Tabla
+- Head class: Musical Instrument
+- Relation domain: Event
+- Relation range: Movie
+- Domain check: not clearly matched
+- Tail entities of class 'Movie' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=40, edges=47, paths=20
+- Head outgoing edges under target relation hasSubject: 23
+- Key support nodes: Tabla, The Life and Death of Peter Sellers, Milk, Middlesex, Tombstone, Kellogg School of Management, Christian Hardcore, Sharon Stone
+- Main auxiliary relations: hasAthlete(10), hasBorder(7), hasAward(4)
+
+Frequent relation path patterns:
+- hasSubject (count=20)
+
+Candidates:
+1. El Paso County [id=14017 | class=地理位置 | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Kellogg School of Management [id=7619 | class=Educational Institution | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. British Folk Rock [id=13932 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Middlesex [id=13013 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Greenwich Mean Time [id=5054 | class=Time Zone | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. The Ten Commandments [id=1542 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+7. Phosphorus [id=7440 | class=Chemical Element | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Laura [id=3721 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Christian Hardcore [id=14078 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. The Day After Tomorrow [id=1486 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+11. Balliol College [id=13141 | class=College | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. The Glenn Miller Story [id=11112 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. The Life and Death of Peter Sellers [id=4129 | class=Movie | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+14. Grindhouse [id=660 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+15. Tombstone [id=7477 | class=Movie | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+16. Pope [id=13890 | class=Religious Leader | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. Sharon Stone [id=8164 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Unix [id=13062 | class=Operating System | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. In the Name of the Father [id=833 | class=Film | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+20. Milk [id=2878 | class=Product | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

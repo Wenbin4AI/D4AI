@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 7225,
+        "head_label": "John Noble",
+        "head_class": "Person",
+        "relation_id": 31,
+        "relation_label": "hasGenre",
+        "gold_tail": 2853,
+        "gold_tail_label": "Stephen Harper",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 10949,
+            "entity_label": "Lima",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 4814,
+            "entity_label": "Alastair Reynolds",
+            "entity_class": "Person",
+            "score": 6.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 4332,
+            "entity_label": "Burlington",
+            "entity_class": "Location",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 10851,
+            "entity_label": "Rajasthan",
+            "entity_class": "Region",
+            "score": 7.034213,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 552,
+            "entity_label": "Lost in Translation",
+            "entity_class": "Film",
+            "score": 4.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 7225,
+            "entity_label": "John Noble",
+            "entity_class": "Person",
+            "score": 1.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 12558,
+            "entity_label": "Charles Bukowski",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 6831,
+            "entity_label": "Pulitzer Prize for Fiction",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 8724,
+            "entity_label": "Milk",
+            "entity_class": "Food Item",
+            "score": 6.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 1.098612,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 2,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 11147,
+            "entity_label": "Marburg",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 7568,
+            "entity_label": "Lawrence Gordon",
+            "entity_class": "Producer",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 3535,
+            "entity_label": "Leukemia",
+            "entity_class": "Disease",
+            "score": 7.688879,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 13305,
+            "entity_label": "Croydon",
+            "entity_class": "Geographical Location",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 2998,
+            "entity_label": "Primetime Emmy Award for Outstanding Lead Actor in a Miniseries or a Movie",
+            "entity_class": "Award",
+            "score": 7.465736,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 10383,
+            "entity_label": "Mississippi State University",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 14528,
+            "entity_label": "Infectious Disease",
+            "entity_class": "Disease",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 3432,
+            "entity_label": "Western Kentucky University",
+            "entity_class": "University",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 2853,
+            "entity_label": "Stephen Harper",
+            "entity_class": "Person",
+            "score": 7.593829,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 6,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 8742,
+            "entity_label": "Drug Overdose",
+            "entity_class": "Illness/disorder",
+            "score": 7.257356,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "10949": 1,
+        "4814": 2,
+        "4332": 3,
+        "10851": 4,
+        "552": 5,
+        "7225": 6,
+        "12558": 7,
+        "6831": 8,
+        "8724": 9,
+        "4994": 10,
+        "11147": 11,
+        "7568": 12,
+        "3535": 13,
+        "13305": 14,
+        "2998": 15,
+        "10383": 16,
+        "14528": 17,
+        "3432": 18,
+        "2853": 19,
+        "8742": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=John Noble, relation=hasGenre, tail=?)\n\nOntology summary:\n- Query relation: hasGenre\n- Head entity: John Noble\n- Head class: Person\n- Relation domain: Movie\n- Relation range: Genre\n- Domain check: not clearly matched\n- Tail entities of class 'Genre' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=23, edges=46, paths=20\n- Head outgoing edges under target relation hasGenre: 12\n- Key support nodes: John Noble, Primetime Emmy Award for Outstanding Lead Actor in a Miniseries or a Movie, Drug Overdose, Rajasthan, Leukemia, Stephen Harper, Alastair Reynolds, Western Kentucky University\n- Main auxiliary relations: hasColors(8), hasDraftPickFromSchool(4), isRecurringEvent(4)\n\nFrequent relation path patterns:\n- hasGenre (count=12)\n- hasGenre -> isRecurringEvent (count=4)\n- hasGenre -> hasGenre (count=4)\n\nCandidates:\n1. Lima [id=10949 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Alastair Reynolds [id=4814 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=2 | key=1]\n3. Burlington [id=4332 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n4. Rajasthan [id=10851 | class=Region | type=0 | soft_type=0 | direct=1 | paths=2 | aux=3 | key=1]\n5. Lost in Translation [id=552 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]\n6. John Noble [id=7225 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]\n7. Charles Bukowski [id=12558 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Pulitzer Prize for Fiction [id=6831 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Milk [id=8724 | class=Food Item | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n10. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=0]\n11. Marburg [id=11147 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Lawrence Gordon [id=7568 | class=Producer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Leukemia [id=3535 | class=Disease | type=0 | soft_type=0 | direct=1 | paths=3 | aux=4 | key=1]\n14. Croydon [id=13305 | class=Geographical Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Primetime Emmy Award for Outstanding Lead Actor in a Miniseries or a Movie [id=2998 | class=Award | type=0 | soft_type=0 | direct=1 | paths=3 | aux=3 | key=1]\n16. Mississippi State University [id=10383 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Infectious Disease [id=14528 | class=Disease | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n18. Western Kentucky University [id=3432 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n19. Stephen Harper [id=2853 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=6 | key=1]\n20. Drug Overdose [id=8742 | class=Illness/disorder | type=0 | soft_type=0 | direct=1 | paths=2 | aux=4 | key=1]\n"
+}

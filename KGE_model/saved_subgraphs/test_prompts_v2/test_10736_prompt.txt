@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Jon Stone, relation=foundIn, tail=?)
+
+Ontology summary:
+- Query relation: foundIn
+- Head entity: Jon Stone
+- Head class: Journalist
+- Relation domain: Company
+- Relation range: City
+- Domain check: not clearly matched
+- Tail entities of class 'City' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=45, edges=48, paths=20
+- Head outgoing edges under target relation foundIn: 20
+- Key support nodes: Jon Stone, Bruce Timm, A.c. Ajaccio, Saxophone, University of Melbourne, Sierra Nevada, Venice, Jeffrey Jones
+- Main auxiliary relations: hasRosterPosition(6), hasMember(3), hasCounty(3)
+
+Frequent relation path patterns:
+- foundIn (count=20)
+
+Candidates:
+1. Cheaper by the Dozen [id=8509 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Bruce Timm [id=9870 | class=Animator and Producer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]
+3. Six-day War [id=12693 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. University of Melbourne [id=7266 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]
+5. Jeffrey Jones [id=5154 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Port Arthur [id=13252 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+7. Picture Book [id=14040 | class=Book | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Bulworth [id=148 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Brazil [id=449 | class=Country | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+10. University of Florida [id=2704 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]
+11. Mine [id=13864 | class=Mine | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Ki Sung-yueng [id=12951 | class=Football Player | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+13. Venice [id=10213 | class=City | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+14. Jimmy Carter [id=11007 | class=Politician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+15. Bandung City [id=11510 | class=City | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+16. An Education [id=4487 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. A.c. Ajaccio [id=3850 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Saxophone [id=2085 | class=Musical Instrument | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Charlie Sheen [id=8646 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Sierra Nevada [id=13777 | class=Location | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]

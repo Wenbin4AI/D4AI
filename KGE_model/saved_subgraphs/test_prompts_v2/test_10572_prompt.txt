@@ -1,0 +1,62 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=88th United States Congress, relation=isInductedIntoHallOfFame, tail=?)
+
+Ontology summary:
+- Query relation: isInductedIntoHallOfFame
+- Head entity: 88th United States Congress
+- Head class: Government Body
+- Relation domain: Hall of Fame
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=49, edges=68, paths=20
+- Head outgoing edges under target relation isInductedIntoHallOfFame: 1
+- Key support nodes: 88th United States Congress, Delta Blues, World Trade Center, Salt Lake County, David Dhawan, Bryan Ferry, Universal Music Group Nashville, Cam Clarke
+- Main auxiliary relations: hasWinner(18), hasImpersonatedCelebrities(6), hasReligion(4)
+
+Frequent relation path patterns:
+- hasAthlete -> hasWinner -> isInductedIntoHallOfFame (count=18)
+- isInductedIntoHallOfFame (count=1)
+- hasCountry -> isInductedIntoHallOfFame (count=1)
+
+Candidates:
+1. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Scott Glenn [id=12084 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+3. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Jamie Gangel [id=7544 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+5. Denise Richards [id=2788 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+6. Sofia [id=10729 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Danubio F.c. [id=4810 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. Sonny Rollins [id=1627 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+10. Robert Clohessy [id=429 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+11. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Larenz Tate [id=107 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+13. Dermot Mulroney [id=5604 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+14. Mila Kunis [id=4684 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+15. Dio [id=13295 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+16. Verona [id=10468 | class=Town | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Lucy Lawless [id=12890 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+18. Christopher Lloyd [id=9418 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+19. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=20 | aux=0 | key=1]
+20. Lili Taylor [id=5388 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]

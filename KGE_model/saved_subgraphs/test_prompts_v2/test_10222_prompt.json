@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 13655,
+        "head_label": "Crossover Thrash",
+        "head_class": "Music Genre",
+        "relation_id": 204,
+        "relation_label": "hasCurrentRoster",
+        "gold_tail": 1844,
+        "gold_tail_label": "Slice of Life",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 634,
+            "entity_label": "Edwin B. Willis",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 11461,
+            "entity_label": "Common-law Marriage",
+            "entity_class": "Legal Concept",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 12982,
+            "entity_label": "Austrian Empire",
+            "entity_class": "Empire",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 1445,
+            "entity_label": "Berlin",
+            "entity_class": "City",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 13702,
+            "entity_label": "Cranston",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 9993,
+            "entity_label": "Harlan Ellison",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 7636,
+            "entity_label": "Apocalypto",
+            "entity_class": "Film",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 3252,
+            "entity_label": "The Graduate",
+            "entity_class": "Film",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 12416,
+            "entity_label": "Loyola Law School",
+            "entity_class": "Law School",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 2123,
+            "entity_label": "Songwriter",
+            "entity_class": "Profession",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 6919,
+            "entity_label": "Pirates of the Caribbean: at World's End",
+            "entity_class": "Film",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 8339,
+            "entity_label": "Nepal",
+            "entity_class": "Country",
+            "score": 4.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 13275,
+            "entity_label": "Rafael Nadal",
+            "entity_class": "Tennis Player",
+            "score": 6.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 13839,
+            "entity_label": "Chief of Police",
+            "entity_class": "Position",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 1060,
+            "entity_label": "Academy Award for Best Cinematography",
+            "entity_class": "Award",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 8327,
+            "entity_label": "Jackass: the Movie",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 7056,
+            "entity_label": "Forrest Gump",
+            "entity_class": "Character",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 13959,
+            "entity_label": "Laguardia Airport",
+            "entity_class": "Airport",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 1844,
+            "entity_label": "Slice of Life",
+            "entity_class": "Genre",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 6265,
+            "entity_label": "The Proposal",
+            "entity_class": "Movie",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "634": 1,
+        "11461": 2,
+        "12982": 3,
+        "1445": 4,
+        "13702": 5,
+        "9993": 6,
+        "7636": 7,
+        "3252": 8,
+        "12416": 9,
+        "2123": 10,
+        "6919": 11,
+        "8339": 12,
+        "13275": 13,
+        "13839": 14,
+        "1060": 15,
+        "8327": 16,
+        "7056": 17,
+        "13959": 18,
+        "1844": 19,
+        "6265": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Crossover Thrash, relation=hasCurrentRoster, tail=?)\n\nOntology summary:\n- Query relation: hasCurrentRoster\n- Head entity: Crossover Thrash\n- Head class: Music Genre\n- Relation domain: Sports Team\n- Relation range: Position\n- Domain check: not clearly matched\n- Tail entities of class 'Position' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=41, edges=47, paths=20\n- Head outgoing edges under target relation hasCurrentRoster: 19\n- Key support nodes: Crossover Thrash, Rafael Nadal, Forrest Gump, The Proposal, Berlin, Common-law Marriage, Laguardia Airport, Loyola Law School\n- Main auxiliary relations: hasAthlete(8), hasImpersonatedCelebrities(6), hasNetflixGenreTitle(4)\n\nFrequent relation path patterns:\n- hasCurrentRoster (count=19)\n- hasCurrentRoster -> hasNomination (count=1)\n\nCandidates:\n1. Edwin B. Willis [id=634 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Common-law Marriage [id=11461 | class=Legal Concept | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n3. Austrian Empire [id=12982 | class=Empire | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Berlin [id=1445 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n5. Cranston [id=13702 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Harlan Ellison [id=9993 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Apocalypto [id=7636 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. The Graduate [id=3252 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Loyola Law School [id=12416 | class=Law School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n10. Songwriter [id=2123 | class=Profession | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Pirates of the Caribbean: at World's End [id=6919 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Nepal [id=8339 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]\n13. Rafael Nadal [id=13275 | class=Tennis Player | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]\n14. Chief of Police [id=13839 | class=Position | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Academy Award for Best Cinematography [id=1060 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n16. Jackass: the Movie [id=8327 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Forrest Gump [id=7056 | class=Character | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n18. Laguardia Airport [id=13959 | class=Airport | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Slice of Life [id=1844 | class=Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. The Proposal [id=6265 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n"
+}

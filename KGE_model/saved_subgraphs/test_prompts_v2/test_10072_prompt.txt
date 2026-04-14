@@ -1,0 +1,61 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Syracuse Orange Football, relation=hasAthlete, tail=?)
+
+Ontology summary:
+- Query relation: hasAthlete
+- Head entity: Syracuse Orange Football
+- Head class: Football Team
+- Relation domain: Sport
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=55, edges=56, paths=20
+- Head outgoing edges under target relation hasAthlete: 10
+- Key support nodes: Syracuse Orange Football, Battle of the Somme, Holy Cross Cemetery, Hellboy, Abraham Lincoln, Lounge Music, Holland Taylor, A.s. Roma
+- Main auxiliary relations: hasRegularPerformanceRole(7), influencedBy(7), hasEndowmentCurrency(6)
+
+Frequent relation path patterns:
+- hasAthlete (count=10)
+- hasRegularPerformanceRole -> influencedBy -> hasAthlete (count=10)
+
+Candidates:
+1. Equatorial Guinea National Association Football Team [id=10333 | class=Football Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+2. Philip Roth [id=5062 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Anna Faris [id=5268 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]
+4. A.s. Roma [id=3559 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. W. H. Auden [id=8657 | class=Poet | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+6. Aisne [id=1926 | class=Province | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Trevor Howard [id=7105 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+8. George Hamilton [id=10309 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+9. Samurai [id=14466 | class=Historical Occupation | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Carlsbad [id=9676 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. T. Rajendar [id=2043 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+12. The Rose [id=5945 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Malcolm X [id=3134 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+14. Psychiatry [id=7997 | class=Field of Study | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Bob Newhart [id=3246 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]
+16. Amber Riley [id=2134 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+17. Hank Azaria [id=7780 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+18. David O. Russell [id=3696 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+19. Protestantism [id=795 | class=Religion | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+20. Neil Ross [id=12366 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]

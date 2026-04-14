@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Federalist Party, relation=hasGovernmentPosition, tail=?)
+
+Ontology summary:
+- Query relation: hasGovernmentPosition
+- Head entity: Federalist Party
+- Head class: Political Party
+- Relation domain: Person
+- Relation range: Person
+- Domain check: not clearly matched
+- Tail entities of class 'Person' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=48, edges=49, paths=20
+- Head outgoing edges under target relation hasGovernmentPosition: 22
+- Key support nodes: Federalist Party, Robin Wright, Helena, Mark Twain, Coalition Wars, The Mars Volta, Transformers, Saskatchewan
+- Main auxiliary relations: hasAthlete(9), hasNetflixGenreTitle(6), hasImpersonatedCelebrities(3)
+
+Frequent relation path patterns:
+- hasGovernmentPosition (count=20)
+
+Candidates:
+1. Monster Cap [id=3822 | class=Game Card | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Mark Twain [id=3704 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. Microprose [id=10382 | class=Video Game Developer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Robin Wright [id=409 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Saskatchewan [id=9030 | class=Province | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Public Health [id=12080 | class=Public Health | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. Scream 3 [id=1003 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. Coimbatore District [id=13834 | class=District | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Coalition Wars [id=12390 | class=Wars | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Pundit [id=6158 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+11. Tarrant County [id=9430 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Superman Ii: the Richard Donner Cut [id=3582 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+13. Helena [id=12361 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]
+14. Minot [id=6787 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+15. Tom Selleck [id=11260 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]
+16. Screwball Comedy Film [id=3884 | class=Film Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. The Mars Volta [id=9559 | class=Music Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Transformers [id=13730 | class=Toy Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Sam Wood [id=10488 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+20. Sam Shepard [id=3715 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]

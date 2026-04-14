@@ -1,0 +1,64 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=The Host, relation=hasAward, tail=?)
+
+Ontology summary:
+- Query relation: hasAward
+- Head entity: The Host
+- Head class: Movie
+- Relation domain: Movie
+- Relation range: Award
+- Domain check: matched
+- Tail entities of class 'Award' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=35, edges=45, paths=20
+- Head outgoing edges under target relation hasAward: 1
+- Key support nodes: The Host, Vincent Van Gogh, Lille Osc, S.c. Braga, The Doors, Michael Moriarty, Chicago Fire Fc, Tabriz
+- Main auxiliary relations: hasGenre(14), nominatedFor(4), containsCountry(4)
+
+Frequent relation path patterns:
+- hasAward -> nominatedFor -> hasGenre (count=6)
+- editedBy -> hasGenre (count=5)
+- hasAward -> isInRankedList -> hasStudent (count=2)
+- hasAward (count=1)
+- hasAward -> containsCountry (count=1)
+
+Candidates:
+1. Blockbuster [id=8300 | class=Video Rental Chain | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+2. Chicago Fire Fc [id=12698 | class=Sports Club | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]
+3. Evolution [id=8507 | class=Biological Process | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+4. Michael Moriarty [id=4858 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=2 | aux=4 | key=1]
+5. Airline [id=1407 | class=Industry | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]
+6. Brigitte Nielsen [id=1678 | class=Actress, Model, Wrestler | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+7. Rebecca Eaton [id=12217 | class=Producer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+8. Houston Rockets [id=2172 | class=Basketball Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+9. X-men [id=35 | class=Comic Book Team | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]
+10. Rotterdam [id=8906 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+11. Garbage [id=348 | class=Band | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+12. Amjad Khan [id=13873 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+13. Lille Osc [id=1111 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=2 | aux=13 | key=1]
+14. Maharashtra [id=11757 | class=State | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]
+15. Grammy Award for Best Chamber Music Performance [id=3638 | class=Award | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]
+16. Mexican Americans [id=11038 | class=Ethnic Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+17. Tabriz [id=11326 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=1 | key=1]
+18. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]
+19. Vincent Van Gogh [id=10640 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=4 | key=1]
+20. S.c. Braga [id=8545 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=3 | aux=3 | key=1]

@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 13653,
+        "head_label": "Mahesh Manjrekar",
+        "head_class": "Person",
+        "relation_id": 176,
+        "relation_label": "hasTeam",
+        "gold_tail": 4777,
+        "gold_tail_label": "Lois Mcmaster Bujold",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 13873,
+            "entity_label": "Amjad Khan",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 12799,
+            "entity_label": "Sikkim",
+            "entity_class": "Region",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 3543,
+            "entity_label": "Paterson",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 14053,
+            "entity_label": "Sri Lankan Tamils",
+            "entity_class": "Ethnic Group",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 3627,
+            "entity_label": "Fort Lauderdale",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 1.791759,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 5,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 338,
+            "entity_label": "Robots",
+            "entity_class": "Technology",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 12935,
+            "entity_label": "Parma",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 6145,
+            "entity_label": "French Polynesia",
+            "entity_class": "Area",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 11929,
+            "entity_label": "Barrister",
+            "entity_class": "Profession",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 12602,
+            "entity_label": "Kent County",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 4447,
+            "entity_label": "Exeter City F.c.",
+            "entity_class": "Sports Team",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 7393,
+            "entity_label": "Hip House",
+            "entity_class": "Music Genre",
+            "score": 7.596843,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 10,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 2814,
+            "entity_label": "Syria National Football Team",
+            "entity_class": "Sports Team",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 11895,
+            "entity_label": "Celtic Rock",
+            "entity_class": "Music Genre",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 3522,
+            "entity_label": "Syracuse",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 2548,
+            "entity_label": "Jay Roach",
+            "entity_class": "Director",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 12439,
+            "entity_label": "Shinya Tsukamoto",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 4777,
+            "entity_label": "Lois Mcmaster Bujold",
+            "entity_class": "Author",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 2674,
+            "entity_label": "Defenseman",
+            "entity_class": "Position",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "13873": 1,
+        "12799": 2,
+        "3543": 3,
+        "14053": 4,
+        "3627": 5,
+        "4994": 6,
+        "338": 7,
+        "12935": 8,
+        "6145": 9,
+        "11929": 10,
+        "12602": 11,
+        "4447": 12,
+        "7393": 13,
+        "2814": 14,
+        "11895": 15,
+        "3522": 16,
+        "2548": 17,
+        "12439": 18,
+        "4777": 19,
+        "2674": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Mahesh Manjrekar, relation=hasTeam, tail=?)\n\nOntology summary:\n- Query relation: hasTeam\n- Head entity: Mahesh Manjrekar\n- Head class: Person\n- Relation domain: Sports Event\n- Relation range: Sports Team\n- Domain check: not clearly matched\n- Tail entities of class 'Sports Team' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=40, edges=53, paths=20\n- Head outgoing edges under target relation hasTeam: 11\n- Key support nodes: Mahesh Manjrekar, Hip House, Celtic Rock, Defenseman, Sri Lankan Tamils, Sikkim, French Polynesia, Jay Roach\n- Main auxiliary relations: hasGenre(11), estimated_budget_currency(9), hasPeer(4)\n\nFrequent relation path patterns:\n- hasTeam (count=11)\n- estimated_budget_currency -> hasTeam (count=9)\n\nCandidates:\n1. Amjad Khan [id=13873 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Sikkim [id=12799 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n3. Paterson [id=3543 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Sri Lankan Tamils [id=14053 | class=Ethnic Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n5. Fort Lauderdale [id=3627 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=5 | key=0]\n7. Robots [id=338 | class=Technology | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Parma [id=12935 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. French Polynesia [id=6145 | class=Area | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n10. Barrister [id=11929 | class=Profession | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Kent County [id=12602 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Exeter City F.c. [id=4447 | class=Sports Team | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Hip House [id=7393 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=10 | aux=0 | key=1]\n14. Syria National Football Team [id=2814 | class=Sports Team | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Celtic Rock [id=11895 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n16. Syracuse [id=3522 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Jay Roach [id=2548 | class=Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Shinya Tsukamoto [id=12439 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Lois Mcmaster Bujold [id=4777 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Defenseman [id=2674 | class=Position | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n"
+}

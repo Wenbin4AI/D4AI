@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 7068,
+        "head_label": "American Wedding",
+        "head_class": "Film",
+        "relation_id": 176,
+        "relation_label": "hasTeam",
+        "gold_tail": 532,
+        "gold_tail_label": "Salt Lake City",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 10161,
+            "entity_label": "Cagliari Calcio",
+            "entity_class": "Football Club",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 2664,
+            "entity_label": "Lenny Kravitz",
+            "entity_class": "Musician",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 2548,
+            "entity_label": "Jay Roach",
+            "entity_class": "Director",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 3543,
+            "entity_label": "Paterson",
+            "entity_class": "City",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 7393,
+            "entity_label": "Hip House",
+            "entity_class": "Music Genre",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 8923,
+            "entity_label": "Allen Covert",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 338,
+            "entity_label": "Robots",
+            "entity_class": "Technology",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 11929,
+            "entity_label": "Barrister",
+            "entity_class": "Profession",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 9897,
+            "entity_label": "Vince Grella",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 4447,
+            "entity_label": "Exeter City F.c.",
+            "entity_class": "Sports Team",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 4414,
+            "entity_label": "Popcap Games",
+            "entity_class": "Company",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 12799,
+            "entity_label": "Sikkim",
+            "entity_class": "Region",
+            "score": 4.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 3432,
+            "entity_label": "Western Kentucky University",
+            "entity_class": "University",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 2814,
+            "entity_label": "Syria National Football Team",
+            "entity_class": "Sports Team",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 552,
+            "entity_label": "Lost in Translation",
+            "entity_class": "Film",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 5981,
+            "entity_label": "David Robb",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 11895,
+            "entity_label": "Celtic Rock",
+            "entity_class": "Music Genre",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 1306,
+            "entity_label": "Dyslexia",
+            "entity_class": "Disease",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 532,
+            "entity_label": "Salt Lake City",
+            "entity_class": "Place",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 3522,
+            "entity_label": "Syracuse",
+            "entity_class": "City",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "10161": 1,
+        "2664": 2,
+        "2548": 3,
+        "3543": 4,
+        "7393": 5,
+        "8923": 6,
+        "338": 7,
+        "11929": 8,
+        "9897": 9,
+        "4447": 10,
+        "4414": 11,
+        "12799": 12,
+        "3432": 13,
+        "2814": 14,
+        "552": 15,
+        "5981": 16,
+        "11895": 17,
+        "1306": 18,
+        "532": 19,
+        "3522": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=American Wedding, relation=hasTeam, tail=?)\n\nOntology summary:\n- Query relation: hasTeam\n- Head entity: American Wedding\n- Head class: Film\n- Relation domain: Sports Event\n- Relation range: Sports Team\n- Domain check: not clearly matched\n- Tail entities of class 'Sports Team' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=40, edges=46, paths=20\n- Head outgoing edges under target relation hasTeam: 20\n- Key support nodes: American Wedding, Vince Grella, Celtic Rock, Syracuse, Western Kentucky University, Lost in Translation, Paterson, Dyslexia\n- Main auxiliary relations: hasGenre(7), hasColors(5), hasPeer(5)\n\nFrequent relation path patterns:\n- hasTeam (count=20)\n\nCandidates:\n1. Cagliari Calcio [id=10161 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Lenny Kravitz [id=2664 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n3. Jay Roach [id=2548 | class=Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Paterson [id=3543 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n5. Hip House [id=7393 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Allen Covert [id=8923 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Robots [id=338 | class=Technology | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Barrister [id=11929 | class=Profession | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Vince Grella [id=9897 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Exeter City F.c. [id=4447 | class=Sports Team | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Popcap Games [id=4414 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Sikkim [id=12799 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]\n13. Western Kentucky University [id=3432 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n14. Syria National Football Team [id=2814 | class=Sports Team | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Lost in Translation [id=552 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n16. David Robb [id=5981 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Celtic Rock [id=11895 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Dyslexia [id=1306 | class=Disease | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Salt Lake City [id=532 | class=Place | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Syracuse [id=3522 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n"
+}

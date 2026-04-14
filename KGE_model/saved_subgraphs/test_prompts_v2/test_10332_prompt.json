@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 5601,
+        "head_label": "Iron Sky",
+        "head_class": "Movie Title",
+        "relation_id": 134,
+        "relation_label": "hasMemberRole",
+        "gold_tail": 8967,
+        "gold_tail_label": "Industrial Metal",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 13306,
+            "entity_label": "Mansfield Town F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 9117,
+            "entity_label": "Santa Barbara County",
+            "entity_class": "County",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 4897,
+            "entity_label": "The Messenger",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 13708,
+            "entity_label": "Fc Vorskla Poltava",
+            "entity_class": "Football Club",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 7255,
+            "entity_label": "Mtv Video Music Award for Best Editing",
+            "entity_class": "Award",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 11862,
+            "entity_label": "Royal Medal",
+            "entity_class": "Award",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 2,
+            "entity_label": "Mighty Morphin Power Rangers",
+            "entity_class": "Tv Series",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 14320,
+            "entity_label": "Supreme Court of Canada",
+            "entity_class": "Court",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 11925,
+            "entity_label": "Bounce Tv",
+            "entity_class": "Television Network",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 3871,
+            "entity_label": "Annabeth Gish",
+            "entity_class": "Actor",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 9731,
+            "entity_label": "Robert E. Lee",
+            "entity_class": "Historical Figure",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 13757,
+            "entity_label": "Traffic Collision",
+            "entity_class": "Event Type",
+            "score": 3.414157,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 4,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 7544,
+            "entity_label": "Jamie Gangel",
+            "entity_class": "Person",
+            "score": 6.649159,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 7667,
+            "entity_label": "Fort Bend County",
+            "entity_class": "County",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 13627,
+            "entity_label": "State of Mexico",
+            "entity_class": "State",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 2640,
+            "entity_label": "Bobsleigh",
+            "entity_class": "Sport",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 11808,
+            "entity_label": "Finland National Football Team",
+            "entity_class": "Sports Team",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 1111,
+            "entity_label": "Lille Osc",
+            "entity_class": "Football Club",
+            "score": 5.023595,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 4,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 8967,
+            "entity_label": "Industrial Metal",
+            "entity_class": "Thing",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 137,
+            "entity_label": "Keith Urban",
+            "entity_class": "Musician",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "13306": 1,
+        "9117": 2,
+        "4897": 3,
+        "13708": 4,
+        "7255": 5,
+        "11862": 6,
+        "2": 7,
+        "14320": 8,
+        "11925": 9,
+        "3871": 10,
+        "9731": 11,
+        "13757": 12,
+        "7544": 13,
+        "7667": 14,
+        "13627": 15,
+        "2640": 16,
+        "11808": 17,
+        "1111": 18,
+        "8967": 19,
+        "137": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Iron Sky, relation=hasMemberRole, tail=?)\n\nOntology summary:\n- Query relation: hasMemberRole\n- Head entity: Iron Sky\n- Head class: Movie Title\n- Relation domain: Musician\n- Relation range: Musical Instrument\n- Domain check: not clearly matched\n- Tail entities of class 'Musical Instrument' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=38, edges=46, paths=20\n- Head outgoing edges under target relation hasMemberRole: 9\n- Key support nodes: Iron Sky, Fc Vorskla Poltava, Jamie Gangel, Lille Osc, Traffic Collision, State of Mexico, Keith Urban, Santa Barbara County\n- Main auxiliary relations: spokenInCountries(19), hasDomesticTuition(8), hasRosterPosition(4)\n\nFrequent relation path patterns:\n- hasMemberRole (count=9)\n- hasMemberRole -> spokenInCountries (count=4)\n- hasMemberRole -> hasDomesticTuition -> hasRosterPosition (count=4)\n- hasMemberRole -> originCountry (count=2)\n- hasMemberRole -> hasAppearance (count=1)\n\nCandidates:\n1. Mansfield Town F.c. [id=13306 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Santa Barbara County [id=9117 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. The Messenger [id=4897 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Fc Vorskla Poltava [id=13708 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n5. Mtv Video Music Award for Best Editing [id=7255 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n6. Royal Medal [id=11862 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n7. Mighty Morphin Power Rangers [id=2 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Supreme Court of Canada [id=14320 | class=Court | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Bounce Tv [id=11925 | class=Television Network | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Annabeth Gish [id=3871 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n11. Robert E. Lee [id=9731 | class=Historical Figure | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Traffic Collision [id=13757 | class=Event Type | type=0 | soft_type=0 | direct=0 | paths=4 | aux=0 | key=1]\n13. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=4 | key=1]\n14. Fort Bend County [id=7667 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n15. State of Mexico [id=13627 | class=State | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n16. Bobsleigh [id=2640 | class=Sport | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Finland National Football Team [id=11808 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Lille Osc [id=1111 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=4 | aux=4 | key=1]\n19. Industrial Metal [id=8967 | class=Thing | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Keith Urban [id=137 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n"
+}

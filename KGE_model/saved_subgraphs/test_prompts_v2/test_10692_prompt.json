@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 10893,
+        "head_label": "Northampton Town F.c.",
+        "head_class": "Football Club",
+        "relation_id": 82,
+        "relation_label": "hasReligion",
+        "gold_tail": 9969,
+        "gold_tail_label": "Thomas Edison",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 12650,
+            "entity_label": "Paul Sylbert",
+            "entity_class": "Art Director",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 9193,
+            "entity_label": "Stanford Cardinal Football",
+            "entity_class": "Organization",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 12839,
+            "entity_label": "Travel",
+            "entity_class": "Travel",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 8285,
+            "entity_label": "Rowan Atkinson",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 7978,
+            "entity_label": "13th Academy Awards",
+            "entity_class": "Event",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 9057,
+            "entity_label": "Fc Schalke 04",
+            "entity_class": "Football Club",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 11745,
+            "entity_label": "Curtis Institute of Music",
+            "entity_class": "Institute of Music",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 12037,
+            "entity_label": "Alsace",
+            "entity_class": "Location",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 1104,
+            "entity_label": "Taraji P. Henson",
+            "entity_class": "Actress",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 1584,
+            "entity_label": "Kilkenny",
+            "entity_class": "Location",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 107,
+            "entity_label": "Larenz Tate",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 1737,
+            "entity_label": "Sophie Thompson",
+            "entity_class": "Actor",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 12814,
+            "entity_label": "Merv Griffin",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 13434,
+            "entity_label": "South Sudan",
+            "entity_class": "Country",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 12391,
+            "entity_label": "Penang",
+            "entity_class": "City-state",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 9269,
+            "entity_label": "Lou Grant",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 7047,
+            "entity_label": "John Seale",
+            "entity_class": "Cinematographer",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 14421,
+            "entity_label": "Hamilton",
+            "entity_class": "Geography",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 9969,
+            "entity_label": "Thomas Edison",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 7951,
+            "entity_label": "Jacques Lacan",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "12650": 1,
+        "9193": 2,
+        "12839": 3,
+        "8285": 4,
+        "7978": 5,
+        "9057": 6,
+        "11745": 7,
+        "12037": 8,
+        "1104": 9,
+        "1584": 10,
+        "107": 11,
+        "1737": 12,
+        "12814": 13,
+        "13434": 14,
+        "12391": 15,
+        "9269": 16,
+        "7047": 17,
+        "14421": 18,
+        "9969": 19,
+        "7951": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Northampton Town F.c., relation=hasReligion, tail=?)\n\nOntology summary:\n- Query relation: hasReligion\n- Head entity: Northampton Town F.c.\n- Head class: Football Club\n- Relation domain: Person\n- Relation range: Religion\n- Domain check: not clearly matched\n- Tail entities of class 'Religion' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=45, edges=50, paths=20\n- Head outgoing edges under target relation hasReligion: 19\n- Key support nodes: Northampton Town F.c., Merv Griffin, Penang, Jacques Lacan, Rowan Atkinson, Stanford Cardinal Football, Taraji P. Henson, John Seale\n- Main auxiliary relations: hasCounty(7), director(3), hasRosterPosition(3)\n\nFrequent relation path patterns:\n- hasReligion (count=19)\n- hasImpersonatedCelebrities -> hasReligion (count=1)\n\nCandidates:\n1. Paul Sylbert [id=12650 | class=Art Director | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n2. Stanford Cardinal Football [id=9193 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Travel [id=12839 | class=Travel | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Rowan Atkinson [id=8285 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. 13th Academy Awards [id=7978 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Fc Schalke 04 [id=9057 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Curtis Institute of Music [id=11745 | class=Institute of Music | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Alsace [id=12037 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Taraji P. Henson [id=1104 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Kilkenny [id=1584 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Larenz Tate [id=107 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Sophie Thompson [id=1737 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Merv Griffin [id=12814 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. South Sudan [id=13434 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Penang [id=12391 | class=City-state | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Lou Grant [id=9269 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. John Seale [id=7047 | class=Cinematographer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Hamilton [id=14421 | class=Geography | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Thomas Edison [id=9969 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Jacques Lacan [id=7951 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+}

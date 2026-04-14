@@ -1,0 +1,60 @@
+You are given a knowledge graph link prediction ranking task.
+
+Your task is to rank the numbered candidate tail entities for the query (head, relation, ?).
+
+You must follow these rules strictly:
+1. Only rank the numbered candidates listed below.
+2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.
+3. Prefer candidates whose class matches the expected relation range.
+4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.
+5. Output only the ranking of candidate numbers in descending likelihood.
+6. Do not explain your reasoning.
+7. Do not output entity names.
+8. Do not output anything except one Python-style list of candidate numbers.
+9. Do not omit any number and do not repeat any number.
+
+Expected output format:
+[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+Query:
+(head=Chihuahua, relation=hasEndowmentCurrency, tail=?)
+
+Ontology summary:
+- Query relation: hasEndowmentCurrency
+- Head entity: Chihuahua
+- Head class: Dog Breed
+- Relation domain: University
+- Relation range: Currency
+- Domain check: not clearly matched
+- Tail entities of class 'Currency' should be preferred.
+
+Local subgraph summary:
+- Local subgraph: nodes=48, edges=50, paths=20
+- Head outgoing edges under target relation hasEndowmentCurrency: 22
+- Key support nodes: Chihuahua, Metro Detroit, Swan Hunter, Mixed-sex Education, Anti-war Movement, Assassination, Episcopal Church, The Color Purple
+- Main auxiliary relations: influencedBy(5), hasRosterPosition(4), hasWriter(4)
+
+Frequent relation path patterns:
+- hasEndowmentCurrency (count=20)
+
+Candidates:
+1. Michigan Wolverines Football [id=9466 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+2. Assassination [id=12498 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+3. San Diego [id=6680 | class=Place | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+4. Anti-war Movement [id=12057 | class=Movement | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+5. Abraham Lincoln [id=13415 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+6. Erotica [id=9355 | class=Literary Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+7. The Jacket [id=7573 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+8. California [id=1044 | class=State | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+9. Episcopal Church [id=9081 | class=Church | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+10. Kingston [id=3000 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+11. Bass [id=597 | class=Drum | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+12. Sydney Olympic Fc [id=11308 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+13. Metro Detroit [id=11710 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+14. Grammy Award for Best Musical Theater Album [id=3210 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+15. Swan Hunter [id=14438 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+16. Bryn Mawr College [id=6812 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]
+17. The Color Purple [id=9519 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+18. Mauritius [id=8791 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]
+19. Terre Haute [id=325 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]
+20. Mixed-sex Education [id=1749 | class=Concept | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]

@@ -1,0 +1,358 @@
+{
+    "query": {
+        "head_id": 879,
+        "head_label": "Jewish People",
+        "head_class": "Ethnic Group",
+        "relation_id": 149,
+        "relation_label": "hasNotablePeople",
+        "gold_tail": 12689,
+        "gold_tail_label": "Andes",
+        "gold_candidate_rank_index": 19
+    },
+    "candidate_limit": 20,
+    "selected_candidates": [
+        {
+            "rank_index": 1,
+            "entity_id": 1903,
+            "entity_label": "Patti Smith",
+            "entity_class": "Musician",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 9963,
+            "entity_label": "Rainer Werner Fassbinder",
+            "entity_class": "Person",
+            "score": 5.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 3638,
+            "entity_label": "Grammy Award for Best Chamber Music Performance",
+            "entity_class": "Award",
+            "score": 3.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 248,
+            "entity_label": "Peter Morgan",
+            "entity_class": "Person",
+            "score": 6.232868,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 7816,
+            "entity_label": "Meena",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 4695,
+            "entity_label": "The Kingdom",
+            "entity_class": "Film",
+            "score": 3.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 3056,
+            "entity_label": "Ryan Phillippe",
+            "entity_class": "Actor",
+            "score": 2.193147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 1200,
+            "entity_label": "University of Allahabad",
+            "entity_class": "University",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 14248,
+            "entity_label": "Samuel Vincent",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 8300,
+            "entity_label": "Blockbuster",
+            "entity_class": "Video Rental Chain",
+            "score": 3.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 4891,
+            "entity_label": "New York Law School",
+            "entity_class": "Law School",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 4517,
+            "entity_label": "Unknown",
+            "entity_class": "Unknown",
+            "score": 4.034213,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 12439,
+            "entity_label": "Shinya Tsukamoto",
+            "entity_class": "Person",
+            "score": 8.757356,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 3.985631,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 6,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 13295,
+            "entity_label": "Dio",
+            "entity_class": "Person",
+            "score": 7.638333,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 14252,
+            "entity_label": "Plovdiv",
+            "entity_class": "Location",
+            "score": 2.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 11401,
+            "entity_label": "Jonathan Pryce",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 11290,
+            "entity_label": "Bob Clark",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 12689,
+            "entity_label": "Andes",
+            "entity_class": "Mountain Range",
+            "score": 7.236945,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 8,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 9563,
+            "entity_label": "Alec Berg",
+            "entity_class": "Person",
+            "score": 6.232868,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        }
+    ],
+    "candidate_id_to_rank_index": {
+        "1903": 1,
+        "9963": 2,
+        "3638": 3,
+        "248": 4,
+        "7816": 5,
+        "4695": 6,
+        "3056": 7,
+        "1200": 8,
+        "14248": 9,
+        "8300": 10,
+        "4891": 11,
+        "4517": 12,
+        "12439": 13,
+        "4994": 14,
+        "13295": 15,
+        "14252": 16,
+        "11401": 17,
+        "11290": 18,
+        "12689": 19,
+        "9563": 20
+    },
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Jewish People, relation=hasNotablePeople, tail=?)\n\nOntology summary:\n- Query relation: hasNotablePeople\n- Head entity: Jewish People\n- Head class: Ethnic Group\n- Relation domain: Disease\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=51, edges=58, paths=20\n- Head outgoing edges under target relation hasNotablePeople: 1\n- Key support nodes: Jewish People, Andes, Seattle, Democratic Unionist Party, Shinya Tsukamoto, Unknown, The Kingdom, Blockbuster\n- Main auxiliary relations: hasGenre(17), hasTaxonomyEntry(5), hasImpersonatedCelebrities(3)\n\nFrequent relation path patterns:\n- hasNotablePeople -> hasContributions -> hasGenre (count=5)\n- hasNotablePeople -> hasGenre (count=4)\n- hasCauseOfDeath -> hasTaxonomyEntry -> hasNotablePeople (count=4)\n- hasNotablePeople (count=1)\n- hasNotablePeople -> hasRuntime (count=1)\n\nCandidates:\n1. Patti Smith [id=1903 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n2. Rainer Werner Fassbinder [id=9963 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n3. Grammy Award for Best Chamber Music Performance [id=3638 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n4. Peter Morgan [id=248 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]\n5. Meena [id=7816 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. The Kingdom [id=4695 | class=Film | type=0 | soft_type=0 | direct=0 | paths=2 | aux=1 | key=1]\n7. Ryan Phillippe [id=3056 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]\n8. University of Allahabad [id=1200 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n9. Samuel Vincent [id=14248 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Blockbuster [id=8300 | class=Video Rental Chain | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]\n11. New York Law School [id=4891 | class=Law School | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n12. Unknown [id=4517 | class=Unknown | type=0 | soft_type=0 | direct=0 | paths=2 | aux=3 | key=1]\n13. Shinya Tsukamoto [id=12439 | class=Person | type=1 | soft_type=1 | direct=0 | paths=2 | aux=4 | key=1]\n14. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=6 | key=1]\n15. Dio [id=13295 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=2 | key=1]\n16. Plovdiv [id=14252 | class=Location | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=0]\n17. Jonathan Pryce [id=11401 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Bob Clark [id=11290 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=1 | paths=1 | aux=8 | key=1]\n20. Alec Berg [id=9563 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]\n"
+}
