@@ -91,7 +91,7 @@ def sample_triples(triples: List[Tuple[int, int, int]], n: int = 10):
 
 def build_tail_candidates(true_tail_id: int,
                           entity_dict: Dict,
-                          num_candidates: int = 10) -> List[str]:
+                          num_candidates: int = 20) -> List[str]:
     
     all_entity_ids = list(entity_dict.keys())
     
@@ -195,51 +195,62 @@ def predict_for_triple(triple: Tuple[int, int, int],
     relation = relation_dict[r_id]
     true_tail = entity_dict[t_id]["label"]
     
-    # 🆕 构建候选集合
-    candidates = build_tail_candidates(t_id, entity_dict, num_candidates=10)
+    # 构建20个候选
+    candidates = build_tail_candidates(t_id, entity_dict, num_candidates=20)
     
     prompt = build_prompt(head, relation, candidates)
-    # print(prompt)
-    
     result = query_llm(prompt)
-    
+
+    pred_index = extract_selected_index(result)
+
+    predicted_tail = None
+    is_hit = 0
+
+    if pred_index is not None and 0 <= pred_index < len(candidates):
+        predicted_tail = candidates[pred_index]
+        if predicted_tail == true_tail:
+            is_hit = 1
+
     return {
         "triple": (head, relation, true_tail),
         "candidates": candidates,
-        "llm_prediction": result
+        "llm_prediction": result,
+        "pred_index": pred_index,
+        "predicted_tail": predicted_tail,
+        "is_hit": is_hit
     }
 
-def compute_hit_at_1(results: List[Dict]) -> float:
-    hit = 0
-    total = len(results)
+# def compute_hit_at_1(results: List[Dict]) -> float:
+#     hit = 0
+#     total = len(results)
 
-    for item in results:
-        true_tail = item["triple"][2]
-        candidates = item["candidates"]
-        llm_output = item["llm_prediction"]
+#     for item in results:
+#         true_tail = item["triple"][2]
+#         candidates = item["candidates"]
+#         llm_output = item["llm_prediction"]
 
-        pred_index = extract_selected_index(llm_output)
+#         pred_index = extract_selected_index(llm_output)
 
-        # 输出结果
-        print("Original Triple:", item["triple"])
-        print("candidates:", item["candidates"])
-        print("LLM Prediction:", pred_index)
-        print("=" * 50)
+#         # 输出结果
+#         print("Original Triple:", item["triple"])
+#         print("candidates:", item["candidates"])
+#         print("LLM Prediction:", pred_index)
+#         print("=" * 50)
 
-        if pred_index is None:
-            continue
+#         if pred_index is None:
+#             continue
 
-        # 防止 index 越界
-        if 0 <= pred_index < len(candidates):
-            predicted_tail = candidates[pred_index]
+#         # 防止 index 越界
+#         if 0 <= pred_index < len(candidates):
+#             predicted_tail = candidates[pred_index]
 
-            if predicted_tail == true_tail:
-                hit += 1
+#             if predicted_tail == true_tail:
+#                 hit += 1
 
-    if total == 0:
-        return 0.0
+#     if total == 0:
+#         return 0.0
 
-    return hit / total
+#     return hit / total
 
 ############################################
 # 8️⃣ 主流程
@@ -249,7 +260,7 @@ def main():
     
     entity_path = "/home/wenbin.guo/RAG/data/FB15k-237/entity.json"
     relation_path = "/home/wenbin.guo/RAG/data/FB15k-237/relation.json"
-    triple_path = "/home/wenbin.guo/RAG/data/FB15k-237/train2id.txt"  # 修改为你的三元组文件
+    triple_path = "/home/wenbin.guo/RAG/data/FB15k-237/test2id.txt"   # 建议评测时改成 test2id.txt
     
     # 加载数据
     entity_list = load_json(entity_path)
@@ -259,24 +270,34 @@ def main():
     entity_dict = build_entity_dict(entity_list)
     relation_dict = build_relation_dict(relation_list)
     
-    # 抽取10个样本
-    sampled_triples = sample_triples(triples, 2000)
+    # 抽样
+    sampled_triples = sample_triples(triples, 500)
     
     results = []
+    hit_count = 0
     
-    for triple in tqdm(sampled_triples, desc="Evaluating", ncols=100):
+    for idx, triple in enumerate(tqdm(sampled_triples, desc="Evaluating", ncols=100), start=1):
         prediction = predict_for_triple(triple, entity_dict, relation_dict)
         results.append(prediction)
+
+        hit_count += prediction["is_hit"]
+
+        # 每50个展示一次阶段结果
+        if idx % 50 == 0:
+            current_hit1 = hit_count / idx
+            print(f"\n===== Processed {idx} samples =====")
+            print(f"Current Hit@1: {current_hit1:.4f}")
+
+            # 额外展示最近1条预测结果
+            print("Last Triple:", prediction["triple"])
+            print("Pred Index:", prediction["pred_index"])
+            print("Pred Tail:", prediction["predicted_tail"])
+            print("True Tail:", prediction["triple"][2])
+            print("Hit:", prediction["is_hit"])
+            print("=" * 60)
     
-    # 输出结果
-    # for item in results:
-    #     print("Original Triple:", item["triple"])
-    #     print("candidates:", item["candidates"])
-    #     print("LLM Prediction:", item["llm_prediction"])
-    #     print("=" * 50)
-    
-    hit1 = compute_hit_at_1(results)
-    print(f"\nHit@1: {hit1:.4f}")
+    final_hit1 = hit_count / len(results) if results else 0.0
+    print(f"\nFinal Hit@1: {final_hit1:.4f}")
 
 
 if __name__ == "__main__":
