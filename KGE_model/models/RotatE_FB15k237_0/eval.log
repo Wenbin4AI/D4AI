@@ -27,3 +27,6 @@
 2026-04-20 16:32:15 INFO     Start saving subgraphs for valid from index 0 (total=17535)
 2026-04-20 16:32:52 INFO     Saved subgraphs for valid queries: 0/17535
 2026-04-20 17:12:03 INFO     Saved subgraphs for valid queries: 100/17535
+2026-04-20 17:47:58 INFO     Saved subgraphs for valid queries: 200/17535
+2026-04-20 18:29:34 INFO     Saved subgraphs for valid queries: 300/17535
+2026-04-20 19:09:09 INFO     Saved subgraphs for valid queries: 400/17535
