@@ -13,15 +13,15 @@
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 5680,
-            "entity_label": "Gap Inc.",
-            "entity_class": "Company",
-            "score": 4.039721,
+            "entity_id": 2415,
+            "entity_label": "Edward Kitsis",
+            "entity_class": "Producer",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -29,31 +29,31 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 4902,
-            "entity_label": "San Luis Obispo",
-            "entity_class": "Place",
-            "score": 5.039721,
+            "entity_id": 249,
+            "entity_label": "London",
+            "entity_class": "Location",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 3,
-            "entity_id": 2901,
-            "entity_label": "Ohio University",
-            "entity_class": "University",
-            "score": 4.039721,
+            "entity_id": 9927,
+            "entity_label": "Rick Rubin",
+            "entity_class": "Record Producer",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -61,25 +61,25 @@
         },
         {
             "rank_index": 4,
-            "entity_id": 5738,
-            "entity_label": "Infernal Affairs Iii",
-            "entity_class": "Film Series",
-            "score": 5.039721,
+            "entity_id": 9410,
+            "entity_label": "Kenan Thompson",
+            "entity_class": "Actor",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 5,
-            "entity_id": 570,
-            "entity_label": "Bass Guitar",
-            "entity_class": "Musical Instrument",
+            "entity_id": 9760,
+            "entity_label": "Westminster",
+            "entity_class": "Location",
             "score": 5.039721,
             "features": {
                 "type_match": 0,
@@ -93,31 +93,31 @@
         },
         {
             "rank_index": 6,
-            "entity_id": 10672,
-            "entity_label": "Carlos Ruiz",
-            "entity_class": "Person",
-            "score": 4.039721,
+            "entity_id": 13365,
+            "entity_label": "Robert Young",
+            "entity_class": "Actor",
+            "score": 5.039721,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
                 "path_count": 1,
                 "aux_support": 0,
-                "key": 0
+                "key": 1
             },
             "is_gold": 0
         },
         {
             "rank_index": 7,
-            "entity_id": 6692,
-            "entity_label": "Marvel Comics",
-            "entity_class": "Company",
-            "score": 4.039721,
+            "entity_id": 2695,
+            "entity_label": "Hot Fuzz",
+            "entity_class": "Movie",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -141,31 +141,31 @@
         },
         {
             "rank_index": 9,
-            "entity_id": 4233,
-            "entity_label": "Mamma Mia!",
-            "entity_class": "Movie",
-            "score": 5.039721,
+            "entity_id": 2806,
+            "entity_label": "Boston",
+            "entity_class": "City",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 10,
-            "entity_id": 14438,
-            "entity_label": "Swan Hunter",
-            "entity_class": "Company",
-            "score": 4.039721,
+            "entity_id": 3106,
+            "entity_label": "Pedophilia",
+            "entity_class": "Mental Disorder",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -173,15 +173,15 @@
         },
         {
             "rank_index": 11,
-            "entity_id": 13707,
-            "entity_label": "Indian National Congress",
-            "entity_class": "Political Party",
-            "score": 4.039721,
+            "entity_id": 8803,
+            "entity_label": "Ryan Reynolds",
+            "entity_class": "Person",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -189,15 +189,15 @@
         },
         {
             "rank_index": 12,
-            "entity_id": 13894,
-            "entity_label": "Steubenville",
-            "entity_class": "City",
-            "score": 4.039721,
+            "entity_id": 3473,
+            "entity_label": "Robin Thicke",
+            "entity_class": "Person",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -205,31 +205,31 @@
         },
         {
             "rank_index": 13,
-            "entity_id": 9760,
-            "entity_label": "Westminster",
-            "entity_class": "Location",
-            "score": 5.039721,
+            "entity_id": 12744,
+            "entity_label": "Primal Fear",
+            "entity_class": "Musical Group",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 14,
-            "entity_id": 9102,
-            "entity_label": "Alfie",
-            "entity_class": "Person",
-            "score": 4.039721,
+            "entity_id": 9519,
+            "entity_label": "The Color Purple",
+            "entity_class": "Film",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -237,25 +237,25 @@
         },
         {
             "rank_index": 15,
-            "entity_id": 8752,
-            "entity_label": "Jodie Foster",
-            "entity_class": "Actor",
-            "score": 5.039721,
+            "entity_id": 7266,
+            "entity_label": "University of Melbourne",
+            "entity_class": "University",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 16,
-            "entity_id": 13100,
-            "entity_label": "Skopje",
-            "entity_class": "City",
+            "entity_id": 2901,
+            "entity_label": "Ohio University",
+            "entity_class": "University",
             "score": 4.039721,
             "features": {
                 "type_match": 0,
@@ -285,17 +285,17 @@
         },
         {
             "rank_index": 18,
-            "entity_id": 3484,
-            "entity_label": "Transformers",
-            "entity_class": "Toy Series",
-            "score": 5.039721,
+            "entity_id": 6692,
+            "entity_label": "Marvel Comics",
+            "entity_class": "Company",
+            "score": 4.039721,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
                 "path_count": 1,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
@@ -317,42 +317,42 @@
         },
         {
             "rank_index": 20,
-            "entity_id": 13365,
-            "entity_label": "Robert Young",
-            "entity_class": "Actor",
-            "score": 5.039721,
+            "entity_id": 5680,
+            "entity_label": "Gap Inc.",
+            "entity_class": "Company",
+            "score": 4.039721,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
                 "path_count": 1,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "5680": 1,
-        "4902": 2,
-        "2901": 3,
-        "5738": 4,
-        "570": 5,
-        "10672": 6,
-        "6692": 7,
+        "2415": 1,
+        "249": 2,
+        "9927": 3,
+        "9410": 4,
+        "9760": 5,
+        "13365": 6,
+        "2695": 7,
         "8658": 8,
-        "4233": 9,
-        "14438": 10,
-        "13707": 11,
-        "13894": 12,
-        "9760": 13,
-        "9102": 14,
-        "8752": 15,
-        "13100": 16,
+        "2806": 9,
+        "3106": 10,
+        "8803": 11,
+        "3473": 12,
+        "12744": 13,
+        "9519": 14,
+        "7266": 15,
+        "2901": 16,
         "14012": 17,
-        "3484": 18,
+        "6692": 18,
         "10596": 19,
-        "13365": 20
+        "5680": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Central Coast Mariners Fc, relation=hasEndowmentCurrency, tail=?)\n\nOntology summary:\n- Query relation: hasEndowmentCurrency\n- Head entity: Central Coast Mariners Fc\n- Head class: Football Club\n- Relation domain: University\n- Relation range: Currency\n- Domain check: not clearly matched\n- Tail entities of class 'Currency' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=50, edges=50, paths=20\n- Head outgoing edges under target relation hasEndowmentCurrency: 22\n- Key support nodes: Central Coast Mariners Fc, Westminster, Jodie Foster, Robert Young, Infernal Affairs Iii, San Luis Obispo, Mamma Mia!, Sutton Coldfield\n- Main auxiliary relations: hasCounty(5), hasNetWorthCurrency(3), hasWriter(3)\n\nFrequent relation path patterns:\n- hasEndowmentCurrency (count=20)\n\nCandidates:\n1. Gap Inc. [id=5680 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. San Luis Obispo [id=4902 | class=Place | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Ohio University [id=2901 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Infernal Affairs Iii [id=5738 | class=Film Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Bass Guitar [id=570 | class=Musical Instrument | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Carlos Ruiz [id=10672 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Marvel Comics [id=6692 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Haryana [id=8658 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Mamma Mia! [id=4233 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Swan Hunter [id=14438 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Indian National Congress [id=13707 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Steubenville [id=13894 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Westminster [id=9760 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Alfie [id=9102 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Jodie Foster [id=8752 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Skopje [id=13100 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Sutton Coldfield [id=14012 | class=地理位置 | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Transformers [id=3484 | class=Toy Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Bill Evans [id=10596 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Robert Young [id=13365 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Central Coast Mariners Fc, relation=hasEndowmentCurrency, tail=?)\n\nOntology summary:\n- Query relation: hasEndowmentCurrency\n- Head entity: Central Coast Mariners Fc\n- Head class: Football Club\n- Relation domain: University\n- Relation range: Currency\n- Domain check: not clearly matched\n- Tail entities of class 'Currency' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=50, edges=50, paths=20\n- Head outgoing edges under target relation hasEndowmentCurrency: 22\n- Key support nodes: Central Coast Mariners Fc, Westminster, Jodie Foster, Robert Young, Infernal Affairs Iii, San Luis Obispo, Mamma Mia!, Sutton Coldfield\n- Main auxiliary relations: hasCounty(5), hasNetWorthCurrency(3), hasWriter(3)\n\nFrequent relation path patterns:\n- hasEndowmentCurrency (count=20)\n\nCandidates:\n1. Edward Kitsis [id=2415 | class=Producer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. London [id=249 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Rick Rubin [id=9927 | class=Record Producer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Kenan Thompson [id=9410 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Westminster [id=9760 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Robert Young [id=13365 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n7. Hot Fuzz [id=2695 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Haryana [id=8658 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Boston [id=2806 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Pedophilia [id=3106 | class=Mental Disorder | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Ryan Reynolds [id=8803 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Robin Thicke [id=3473 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Primal Fear [id=12744 | class=Musical Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. The Color Purple [id=9519 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. University of Melbourne [id=7266 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Ohio University [id=2901 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Sutton Coldfield [id=14012 | class=地理位置 | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Marvel Comics [id=6692 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n19. Bill Evans [id=10596 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Gap Inc. [id=5680 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n"
 }

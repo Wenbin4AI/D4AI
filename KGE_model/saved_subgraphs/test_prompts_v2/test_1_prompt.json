@@ -7,15 +7,15 @@
         "relation_label": "symptoms",
         "gold_tail": 331,
         "gold_tail_label": "Poland",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 4
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 9689,
-            "entity_label": "Wales National Association Football Team",
-            "entity_class": "National Football Team",
+            "entity_id": 7440,
+            "entity_label": "Phosphorus",
+            "entity_class": "Chemical Element",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -29,25 +29,9 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 13102,
-            "entity_label": "Ian Mcneice",
-            "entity_class": "Person",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 6200,
-            "entity_label": "Gloucester County",
-            "entity_class": "County",
+            "entity_id": 9050,
+            "entity_label": "Scottsdale",
+            "entity_class": "City",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -60,26 +44,42 @@
             "is_gold": 0
         },
         {
-            "rank_index": 4,
-            "entity_id": 3828,
-            "entity_label": "Goodfellas",
-            "entity_class": "Movie",
-            "score": 5.039721,
+            "rank_index": 3,
+            "entity_id": 3780,
+            "entity_label": "Swimming",
+            "entity_class": "Verb",
+            "score": 7.119162,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
-                "path_count": 1,
+                "path_count": 7,
                 "aux_support": 0,
                 "key": 1
             },
             "is_gold": 0
         },
         {
+            "rank_index": 4,
+            "entity_id": 331,
+            "entity_label": "Poland",
+            "entity_class": "Country",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
             "rank_index": 5,
-            "entity_id": 1534,
-            "entity_label": "Richard Rorty",
-            "entity_class": "Philosopher",
+            "entity_id": 13053,
+            "entity_label": "Masako Nozawa",
+            "entity_class": "Person",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -93,9 +93,9 @@
         },
         {
             "rank_index": 6,
-            "entity_id": 144,
-            "entity_label": "Stephen Colbert",
-            "entity_class": "Actor",
+            "entity_id": 4420,
+            "entity_label": "Edward Vii",
+            "entity_class": "King",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -109,9 +109,9 @@
         },
         {
             "rank_index": 7,
-            "entity_id": 7514,
-            "entity_label": "Annie Lennox",
-            "entity_class": "Person",
+            "entity_id": 10975,
+            "entity_label": "Nuclear Blast",
+            "entity_class": "Record Label",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -141,9 +141,9 @@
         },
         {
             "rank_index": 9,
-            "entity_id": 3796,
-            "entity_label": "Kentucky",
-            "entity_class": "State",
+            "entity_id": 1462,
+            "entity_label": "Darbuka",
+            "entity_class": "Musical Instrument",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -157,9 +157,9 @@
         },
         {
             "rank_index": 10,
-            "entity_id": 1026,
-            "entity_label": "Bai Ling",
-            "entity_class": "Actress",
+            "entity_id": 14151,
+            "entity_label": "Crewe",
+            "entity_class": "Location",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -173,15 +173,15 @@
         },
         {
             "rank_index": 11,
-            "entity_id": 9050,
-            "entity_label": "Scottsdale",
-            "entity_class": "City",
-            "score": 0.0,
+            "entity_id": 13102,
+            "entity_label": "Ian Mcneice",
+            "entity_class": "Person",
+            "score": 1.039721,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 0,
+                "path_count": 1,
                 "aux_support": 0,
                 "key": 0
             },
@@ -189,9 +189,9 @@
         },
         {
             "rank_index": 12,
-            "entity_id": 5940,
-            "entity_label": "Leslie Nielsen",
-            "entity_class": "Actor",
+            "entity_id": 7214,
+            "entity_label": "Red State",
+            "entity_class": "Movie",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -205,25 +205,25 @@
         },
         {
             "rank_index": 13,
-            "entity_id": 12983,
-            "entity_label": "Sk Slavia Prague",
-            "entity_class": "Football Club",
-            "score": 7.295837,
+            "entity_id": 2712,
+            "entity_label": "Oud",
+            "entity_class": "Instrument",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 8,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 14,
-            "entity_id": 12231,
-            "entity_label": "Fauquier County",
-            "entity_class": "County",
+            "entity_id": 12227,
+            "entity_label": "Ukrainians",
+            "entity_class": "Ethnic Group",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -237,25 +237,25 @@
         },
         {
             "rank_index": 15,
-            "entity_id": 3780,
-            "entity_label": "Swimming",
-            "entity_class": "Verb",
-            "score": 7.119162,
+            "entity_id": 8327,
+            "entity_label": "Jackass: the Movie",
+            "entity_class": "Movie",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 7,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 16,
-            "entity_id": 14055,
-            "entity_label": "Johnson County",
-            "entity_class": "Geographical Location",
+            "entity_id": 9814,
+            "entity_label": "Cumberland",
+            "entity_class": "Geographic Region",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -269,9 +269,9 @@
         },
         {
             "rank_index": 17,
-            "entity_id": 1519,
-            "entity_label": "Paul Dano",
-            "entity_class": "Actor",
+            "entity_id": 2699,
+            "entity_label": "Reds",
+            "entity_class": "Movie",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -285,9 +285,9 @@
         },
         {
             "rank_index": 18,
-            "entity_id": 3408,
-            "entity_label": "Pennsylvania",
-            "entity_class": "State",
+            "entity_id": 9689,
+            "entity_label": "Wales National Association Football Team",
+            "entity_class": "National Football Team",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -301,58 +301,58 @@
         },
         {
             "rank_index": 19,
-            "entity_id": 331,
-            "entity_label": "Poland",
-            "entity_class": "Country",
-            "score": 4.039721,
+            "entity_id": 7993,
+            "entity_label": "Zach Braff",
+            "entity_class": "Person",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
-            "is_gold": 1
+            "is_gold": 0
         },
         {
             "rank_index": 20,
-            "entity_id": 562,
-            "entity_label": "Chris Lebenzon",
-            "entity_class": "Person",
-            "score": 5.647918,
+            "entity_id": 4095,
+            "entity_label": "Des Moines",
+            "entity_class": "City",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 2,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "9689": 1,
-        "13102": 2,
-        "6200": 3,
-        "3828": 4,
-        "1534": 5,
-        "144": 6,
-        "7514": 7,
+        "7440": 1,
+        "9050": 2,
+        "3780": 3,
+        "331": 4,
+        "13053": 5,
+        "4420": 6,
+        "10975": 7,
         "614": 8,
-        "3796": 9,
-        "1026": 10,
-        "9050": 11,
-        "5940": 12,
-        "12983": 13,
-        "12231": 14,
-        "3780": 15,
-        "14055": 16,
-        "1519": 17,
-        "3408": 18,
-        "331": 19,
-        "562": 20
+        "1462": 9,
+        "14151": 10,
+        "13102": 11,
+        "7214": 12,
+        "2712": 13,
+        "12227": 14,
+        "8327": 15,
+        "9814": 16,
+        "2699": 17,
+        "9689": 18,
+        "7993": 19,
+        "4095": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Paisley, relation=symptoms, tail=?)\n\nOntology summary:\n- Query relation: symptoms\n- Head entity: Paisley\n- Head class: Location\n- Relation domain: Symptom\n- Relation range: Disease\n- Domain check: not clearly matched\n- Tail entities of class 'Disease' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=39, edges=57, paths=20\n- Head outgoing edges under target relation symptoms: 5\n- Key support nodes: Paisley, Sk Slavia Prague, Swimming, Chris Lebenzon, Essex County, King of the Hill, Fashion Institute of Technology, Daniel Roebuck\n- Main auxiliary relations: hasRosterPosition(13), hasCurrentClub(7), hasTaxonomyEntry(5)\n\nFrequent relation path patterns:\n- hasRosterPosition -> symptoms (count=13)\n- symptoms (count=5)\n- hasAppearance -> symptoms (count=2)\n\nCandidates:\n1. Wales National Association Football Team [id=9689 | class=National Football Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Ian Mcneice [id=13102 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n3. Gloucester County [id=6200 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Goodfellas [id=3828 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Richard Rorty [id=1534 | class=Philosopher | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Stephen Colbert [id=144 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Annie Lennox [id=7514 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Devin Townsend [id=614 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Kentucky [id=3796 | class=State | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Bai Ling [id=1026 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Scottsdale [id=9050 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Leslie Nielsen [id=5940 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Sk Slavia Prague [id=12983 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=8 | aux=0 | key=1]\n14. Fauquier County [id=12231 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Swimming [id=3780 | class=Verb | type=0 | soft_type=0 | direct=1 | paths=7 | aux=0 | key=1]\n16. Johnson County [id=14055 | class=Geographical Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Paul Dano [id=1519 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Pennsylvania [id=3408 | class=State | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Poland [id=331 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Chris Lebenzon [id=562 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Paisley, relation=symptoms, tail=?)\n\nOntology summary:\n- Query relation: symptoms\n- Head entity: Paisley\n- Head class: Location\n- Relation domain: Symptom\n- Relation range: Disease\n- Domain check: not clearly matched\n- Tail entities of class 'Disease' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=39, edges=57, paths=20\n- Head outgoing edges under target relation symptoms: 5\n- Key support nodes: Paisley, Sk Slavia Prague, Swimming, Chris Lebenzon, Essex County, King of the Hill, Fashion Institute of Technology, Daniel Roebuck\n- Main auxiliary relations: hasRosterPosition(13), hasCurrentClub(7), hasTaxonomyEntry(5)\n\nFrequent relation path patterns:\n- hasRosterPosition -> symptoms (count=13)\n- symptoms (count=5)\n- hasAppearance -> symptoms (count=2)\n\nCandidates:\n1. Phosphorus [id=7440 | class=Chemical Element | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Scottsdale [id=9050 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Swimming [id=3780 | class=Verb | type=0 | soft_type=0 | direct=1 | paths=7 | aux=0 | key=1]\n4. Poland [id=331 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n5. Masako Nozawa [id=13053 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Edward Vii [id=4420 | class=King | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Nuclear Blast [id=10975 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Devin Townsend [id=614 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Darbuka [id=1462 | class=Musical Instrument | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Crewe [id=14151 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Ian Mcneice [id=13102 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n12. Red State [id=7214 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Oud [id=2712 | class=Instrument | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Ukrainians [id=12227 | class=Ethnic Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Jackass: the Movie [id=8327 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Cumberland [id=9814 | class=Geographic Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Reds [id=2699 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Wales National Association Football Team [id=9689 | class=National Football Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Zach Braff [id=7993 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Des Moines [id=4095 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

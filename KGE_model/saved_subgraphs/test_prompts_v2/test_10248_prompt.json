@@ -7,15 +7,15 @@
         "relation_label": "hasCounty",
         "gold_tail": 13094,
         "gold_tail_label": "Al Ittihad Fc",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 20
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 6136,
-            "entity_label": "Christopher Sabat",
-            "entity_class": "Person",
+            "entity_id": 1530,
+            "entity_label": "Tobey Maguire",
+            "entity_class": "Actor",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -29,182 +29,22 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 7797,
-            "entity_label": "Bee Gees",
-            "entity_class": "Music Group",
-            "score": 5.039721,
+            "entity_id": 5958,
+            "entity_label": "The Cabin in the Woods",
+            "entity_class": "Movie",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 3,
-            "entity_id": 14287,
-            "entity_label": "Maidstone",
-            "entity_class": "Town",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 5518,
-            "entity_label": "The Jackson 5",
-            "entity_class": "Music Group",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 14037,
-            "entity_label": "Pontefract",
-            "entity_class": "City",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 9702,
-            "entity_label": "Fukushima Prefecture",
-            "entity_class": "Prefecture",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 10184,
-            "entity_label": "Sc Cambuur",
-            "entity_class": "Football Club",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 13826,
-            "entity_label": "Crimea",
-            "entity_class": "Peninsula",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 11276,
-            "entity_label": "Liberty University",
-            "entity_class": "Organization",
-            "score": 4.119162,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 7,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 13665,
-            "entity_label": "Haifa",
-            "entity_class": "City",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 10744,
-            "entity_label": "Dead Man",
-            "entity_class": "Film",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 5029,
-            "entity_label": "Exeter",
-            "entity_class": "City",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
             "entity_id": 5835,
             "entity_label": "Dog Day Afternoon",
             "entity_class": "Movie Title",
@@ -220,9 +60,169 @@
             "is_gold": 0
         },
         {
+            "rank_index": 4,
+            "entity_id": 9460,
+            "entity_label": "Bachelor of Commerce",
+            "entity_class": "Degree",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 2223,
+            "entity_label": "William Travilla",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 13665,
+            "entity_label": "Haifa",
+            "entity_class": "City",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 6532,
+            "entity_label": "Park Chu-young",
+            "entity_class": "Footballer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 12767,
+            "entity_label": "Code Geass Lelouch of the Rebellion",
+            "entity_class": "Tv Show",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 2603,
+            "entity_label": "It's Complicated",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 2937,
+            "entity_label": "Morgan Freeman",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 5604,
+            "entity_label": "Dermot Mulroney",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 14287,
+            "entity_label": "Maidstone",
+            "entity_class": "Town",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 8982,
+            "entity_label": "Maaya Sakamoto",
+            "entity_class": "Voice Actress and Singer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
             "rank_index": 14,
-            "entity_id": 4994,
-            "entity_label": "Seattle",
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
             "entity_class": "City",
             "score": 1.5,
             "features": {
@@ -237,22 +237,38 @@
         },
         {
             "rank_index": 15,
-            "entity_id": 13234,
-            "entity_label": "Sketch Comedy",
-            "entity_class": "Comedy Genre",
-            "score": 5.039721,
+            "entity_id": 12176,
+            "entity_label": "Monty Python",
+            "entity_class": "Organization",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 16,
+            "entity_id": 11186,
+            "entity_label": "Arif Mardin",
+            "entity_class": "Music Producer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
             "entity_id": 4269,
             "entity_label": "Carly Simon",
             "entity_class": "Person",
@@ -268,23 +284,23 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 499,
-            "entity_label": "Bafta Award for Best Sound",
-            "entity_class": "Award",
-            "score": 4.119162,
+            "rank_index": 18,
+            "entity_id": 5029,
+            "entity_label": "Exeter",
+            "entity_class": "City",
+            "score": 1.5,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 0,
+                "soft_type_match": 1,
                 "direct": 0,
-                "path_count": 7,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 18,
+            "rank_index": 19,
             "entity_id": 11092,
             "entity_label": "Heidelberg",
             "entity_class": "City",
@@ -300,7 +316,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 20,
             "entity_id": 13094,
             "entity_label": "Al Ittihad Fc",
             "entity_class": "Football Club",
@@ -314,45 +330,29 @@
                 "key": 0
             },
             "is_gold": 1
-        },
-        {
-            "rank_index": 20,
-            "entity_id": 12956,
-            "entity_label": "Charlie Adler",
-            "entity_class": "Voice Actor",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "6136": 1,
-        "7797": 2,
-        "14287": 3,
-        "5518": 4,
-        "14037": 5,
-        "9702": 6,
-        "10184": 7,
-        "13826": 8,
-        "11276": 9,
-        "13665": 10,
-        "10744": 11,
-        "5029": 12,
-        "5835": 13,
-        "4994": 14,
-        "13234": 15,
-        "4269": 16,
-        "499": 17,
-        "11092": 18,
-        "13094": 19,
-        "12956": 20
+        "1530": 1,
+        "5958": 2,
+        "5835": 3,
+        "9460": 4,
+        "2223": 5,
+        "13665": 6,
+        "6532": 7,
+        "12767": 8,
+        "2603": 9,
+        "2937": 10,
+        "5604": 11,
+        "14287": 12,
+        "8982": 13,
+        "14037": 14,
+        "12176": 15,
+        "11186": 16,
+        "4269": 17,
+        "5029": 18,
+        "11092": 19,
+        "13094": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Charles Rosher, relation=hasCounty, tail=?)\n\nOntology summary:\n- Query relation: hasCounty\n- Head entity: Charles Rosher\n- Head class: Person\n- Relation domain: City\n- Relation range: County\n- Domain check: not clearly matched\n- Tail entities of class 'County' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=31, edges=42, paths=20\n- Head outgoing edges under target relation hasCounty: 6\n- Key support nodes: Charles Rosher, The Outer Limits, Liberty University, Bafta Award for Best Sound, 113th United States Congress, Dog Day Afternoon, Sketch Comedy, Charlie Adler\n- Main auxiliary relations: foundIn(15), hasRosterPosition(1), hasProgram(1)\n\nFrequent relation path patterns:\n- hasArtist -> foundIn -> hasCounty (count=14)\n- hasCounty (count=6)\n\nCandidates:\n1. Christopher Sabat [id=6136 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Bee Gees [id=7797 | class=Music Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Maidstone [id=14287 | class=Town | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. The Jackson 5 [id=5518 | class=Music Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Pontefract [id=14037 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Fukushima Prefecture [id=9702 | class=Prefecture | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Sc Cambuur [id=10184 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Crimea [id=13826 | class=Peninsula | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Liberty University [id=11276 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=7 | aux=0 | key=1]\n10. Haifa [id=13665 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Dead Man [id=10744 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Exeter [id=5029 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Dog Day Afternoon [id=5835 | class=Movie Title | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Seattle [id=4994 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Sketch Comedy [id=13234 | class=Comedy Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Carly Simon [id=4269 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Bafta Award for Best Sound [id=499 | class=Award | type=0 | soft_type=0 | direct=0 | paths=7 | aux=0 | key=1]\n18. Heidelberg [id=11092 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Al Ittihad Fc [id=13094 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Charlie Adler [id=12956 | class=Voice Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Charles Rosher, relation=hasCounty, tail=?)\n\nOntology summary:\n- Query relation: hasCounty\n- Head entity: Charles Rosher\n- Head class: Person\n- Relation domain: City\n- Relation range: County\n- Domain check: not clearly matched\n- Tail entities of class 'County' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=31, edges=42, paths=20\n- Head outgoing edges under target relation hasCounty: 6\n- Key support nodes: Charles Rosher, The Outer Limits, Liberty University, Bafta Award for Best Sound, 113th United States Congress, Dog Day Afternoon, Sketch Comedy, Charlie Adler\n- Main auxiliary relations: foundIn(15), hasRosterPosition(1), hasProgram(1)\n\nFrequent relation path patterns:\n- hasArtist -> foundIn -> hasCounty (count=14)\n- hasCounty (count=6)\n\nCandidates:\n1. Tobey Maguire [id=1530 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. The Cabin in the Woods [id=5958 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Dog Day Afternoon [id=5835 | class=Movie Title | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n4. Bachelor of Commerce [id=9460 | class=Degree | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. William Travilla [id=2223 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Haifa [id=13665 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Park Chu-young [id=6532 | class=Footballer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Code Geass Lelouch of the Rebellion [id=12767 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. It's Complicated [id=2603 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Morgan Freeman [id=2937 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Dermot Mulroney [id=5604 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Maidstone [id=14287 | class=Town | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Pontefract [id=14037 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Monty Python [id=12176 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Arif Mardin [id=11186 | class=Music Producer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Carly Simon [id=4269 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Exeter [id=5029 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Heidelberg [id=11092 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n20. Al Ittihad Fc [id=13094 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n"
 }

@@ -7,28 +7,12 @@
         "relation_label": "hasGovernmentPosition",
         "gold_tail": 3779,
         "gold_tail_label": "Chris Thile",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 7
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 9892,
-            "entity_label": "Guatemala City",
-            "entity_class": "City",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
             "entity_id": 870,
             "entity_label": "John Oliver",
             "entity_class": "Comedian",
@@ -44,39 +28,23 @@
             "is_gold": 0
         },
         {
-            "rank_index": 3,
-            "entity_id": 8098,
-            "entity_label": "Mortal Kombat: Annihilation",
-            "entity_class": "Movie",
-            "score": 3.687639,
+            "rank_index": 2,
+            "entity_id": 3996,
+            "entity_label": "University of Pennsylvania Law School",
+            "entity_class": "Law School",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 5,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 4,
-            "entity_id": 9394,
-            "entity_label": "Southern Illinois University Carbondale",
-            "entity_class": "University",
-            "score": 6.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
+            "rank_index": 3,
             "entity_id": 1841,
             "entity_label": "Yolanda Adams",
             "entity_class": "Person",
@@ -92,215 +60,55 @@
             "is_gold": 0
         },
         {
-            "rank_index": 6,
-            "entity_id": 12795,
-            "entity_label": "Electroclash",
-            "entity_class": "Music Genre",
-            "score": 3.746531,
+            "rank_index": 4,
+            "entity_id": 1299,
+            "entity_label": "Easton",
+            "entity_class": "City",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
-                "aux_support": 2,
-                "key": 1
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 8078,
+            "entity_label": "Lilo & Stitch",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 1295,
+            "entity_label": "Melancholia",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 7,
-            "entity_id": 11825,
-            "entity_label": "The Fly",
-            "entity_class": "Movie",
-            "score": 2.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 13277,
-            "entity_label": "Systemic Lupus Erythematosus",
-            "entity_class": "Disease",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 3463,
-            "entity_label": "Vince Gilligan",
-            "entity_class": "Television Producer and Screenwriter",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 4275,
-            "entity_label": "Rod Taylor",
-            "entity_class": "Actor",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 9539,
-            "entity_label": "Puerto Rico National Football Team",
-            "entity_class": "Sports Team",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 2681,
-            "entity_label": "Kelly Rowland",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 10111,
-            "entity_label": "Graham Chapman",
-            "entity_class": "Person",
-            "score": 8.539721,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 8373,
-            "entity_label": "Yuma",
-            "entity_class": "City",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 6654,
-            "entity_label": "Joan Crawford",
-            "entity_class": "Person",
-            "score": 6.232868,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 13963,
-            "entity_label": "Tecmo",
-            "entity_class": "Company",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
-            "entity_id": 8218,
-            "entity_label": "2007 Major League Baseball Draft",
-            "entity_class": "Sports Draft",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 1070,
-            "entity_label": "Viola Davis",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
             "entity_id": 3779,
             "entity_label": "Chris Thile",
             "entity_class": "Musician",
@@ -316,43 +124,235 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 13750,
-            "entity_label": "Gimnasia Y Esgrima La Plata",
-            "entity_class": "Sports Club",
-            "score": 6.138333,
+            "rank_index": 8,
+            "entity_id": 3463,
+            "entity_label": "Vince Gilligan",
+            "entity_class": "Television Producer and Screenwriter",
+            "score": 5.039721,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
                 "path_count": 1,
-                "aux_support": 2,
+                "aux_support": 0,
                 "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 11825,
+            "entity_label": "The Fly",
+            "entity_class": "Movie",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 13913,
+            "entity_label": "Metropolis Records",
+            "entity_class": "Record Label",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 10873,
+            "entity_label": "Unknown",
+            "entity_class": "Unknown",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 8801,
+            "entity_label": "The Outer Limits",
+            "entity_class": "Tv Series",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 8760,
+            "entity_label": "Uk Film Council",
+            "entity_class": "Organization",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 13963,
+            "entity_label": "Tecmo",
+            "entity_class": "Company",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 2366,
+            "entity_label": "Bryan Ferry",
+            "entity_class": "Musician",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 9539,
+            "entity_label": "Puerto Rico National Football Team",
+            "entity_class": "Sports Team",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 1215,
+            "entity_label": "Rick Wakeman",
+            "entity_class": "Musician",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 13958,
+            "entity_label": "Chrono Crusade",
+            "entity_class": "Anime",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 10570,
+            "entity_label": "Chamber Music",
+            "entity_class": "Music",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 5275,
+            "entity_label": "Ismaily Sc",
+            "entity_class": "Sports Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "9892": 1,
-        "870": 2,
-        "8098": 3,
-        "9394": 4,
-        "1841": 5,
-        "12795": 6,
-        "11825": 7,
-        "13277": 8,
-        "3463": 9,
-        "4275": 10,
-        "9539": 11,
-        "2681": 12,
-        "10111": 13,
-        "8373": 14,
-        "6654": 15,
-        "13963": 16,
-        "8218": 17,
-        "1070": 18,
-        "3779": 19,
-        "13750": 20
+        "870": 1,
+        "3996": 2,
+        "1841": 3,
+        "1299": 4,
+        "8078": 5,
+        "1295": 6,
+        "3779": 7,
+        "3463": 8,
+        "11825": 9,
+        "13913": 10,
+        "10873": 11,
+        "8801": 12,
+        "8760": 13,
+        "13963": 14,
+        "2366": 15,
+        "9539": 16,
+        "1215": 17,
+        "13958": 18,
+        "10570": 19,
+        "5275": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Charlotte Gibson, relation=hasGovernmentPosition, tail=?)\n\nOntology summary:\n- Query relation: hasGovernmentPosition\n- Head entity: Charlotte Gibson\n- Head class: Person\n- Relation domain: Person\n- Relation range: Person\n- Domain check: matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=47, edges=55, paths=20\n- Head outgoing edges under target relation hasGovernmentPosition: 10\n- Key support nodes: Charlotte Gibson, Igor Stravinsky, Mortal Kombat: Annihilation, Gimnasia Y Esgrima La Plata, Southern Illinois University Carbondale, Electroclash, The Fly, John Oliver\n- Main auxiliary relations: foundIn(10), hasArtist(5), hasReleaseMedium(5)\n\nFrequent relation path patterns:\n- hasGovernmentPosition (count=9)\n- hasGovernmentPosition -> foundIn -> hasArtist (count=5)\n- hasGovernmentPosition -> hasImpersonatedCelebrities (count=2)\n- hasGovernmentPosition -> hasReleaseMedium (count=2)\n- hasGovernmentPosition -> hasCountry (count=2)\n\nCandidates:\n1. Guatemala City [id=9892 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. John Oliver [id=870 | class=Comedian | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Mortal Kombat: Annihilation [id=8098 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=5 | aux=0 | key=1]\n4. Southern Illinois University Carbondale [id=9394 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n5. Yolanda Adams [id=1841 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Electroclash [id=12795 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n7. The Fly [id=11825 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n8. Systemic Lupus Erythematosus [id=13277 | class=Disease | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Vince Gilligan [id=3463 | class=Television Producer and Screenwriter | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Rod Taylor [id=4275 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Puerto Rico National Football Team [id=9539 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Kelly Rowland [id=2681 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Graham Chapman [id=10111 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n14. Yuma [id=8373 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Joan Crawford [id=6654 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]\n16. Tecmo [id=13963 | class=Company | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n17. 2007 Major League Baseball Draft [id=8218 | class=Sports Draft | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Viola Davis [id=1070 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Chris Thile [id=3779 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Gimnasia Y Esgrima La Plata [id=13750 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Charlotte Gibson, relation=hasGovernmentPosition, tail=?)\n\nOntology summary:\n- Query relation: hasGovernmentPosition\n- Head entity: Charlotte Gibson\n- Head class: Person\n- Relation domain: Person\n- Relation range: Person\n- Domain check: matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=47, edges=55, paths=20\n- Head outgoing edges under target relation hasGovernmentPosition: 10\n- Key support nodes: Charlotte Gibson, Igor Stravinsky, Mortal Kombat: Annihilation, Gimnasia Y Esgrima La Plata, Southern Illinois University Carbondale, Electroclash, The Fly, John Oliver\n- Main auxiliary relations: foundIn(10), hasArtist(5), hasReleaseMedium(5)\n\nFrequent relation path patterns:\n- hasGovernmentPosition (count=9)\n- hasGovernmentPosition -> foundIn -> hasArtist (count=5)\n- hasGovernmentPosition -> hasImpersonatedCelebrities (count=2)\n- hasGovernmentPosition -> hasReleaseMedium (count=2)\n- hasGovernmentPosition -> hasCountry (count=2)\n\nCandidates:\n1. John Oliver [id=870 | class=Comedian | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n2. University of Pennsylvania Law School [id=3996 | class=Law School | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Yolanda Adams [id=1841 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Easton [id=1299 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Lilo & Stitch [id=8078 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Melancholia [id=1295 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Chris Thile [id=3779 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Vince Gilligan [id=3463 | class=Television Producer and Screenwriter | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n9. The Fly [id=11825 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n10. Metropolis Records [id=13913 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Unknown [id=10873 | class=Unknown | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. The Outer Limits [id=8801 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Uk Film Council [id=8760 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Tecmo [id=13963 | class=Company | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n15. Bryan Ferry [id=2366 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Puerto Rico National Football Team [id=9539 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Rick Wakeman [id=1215 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Chrono Crusade [id=13958 | class=Anime | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Chamber Music [id=10570 | class=Music | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Ismaily Sc [id=5275 | class=Sports Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

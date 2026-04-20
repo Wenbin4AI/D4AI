@@ -7,76 +7,12 @@
         "relation_label": "hasGovernmentPosition",
         "gold_tail": 9726,
         "gold_tail_label": "Napoleonic Wars",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 4
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 4387,
-            "entity_label": "Shrek 2",
-            "entity_class": "Movie",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
-            "entity_id": 7981,
-            "entity_label": "Johnnie to",
-            "entity_class": "Film Director",
-            "score": 6.649159,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 4,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 1174,
-            "entity_label": "Clint Eastwood",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 9207,
-            "entity_label": "Salman Khan",
-            "entity_class": "Person",
-            "score": 8.539721,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
             "entity_id": 1540,
             "entity_label": "The Exorcist",
             "entity_class": "Movie",
@@ -92,167 +28,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 6,
-            "entity_id": 634,
-            "entity_label": "Edwin B. Willis",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 5706,
-            "entity_label": "St. Mirren F.c.",
-            "entity_class": "Football Club",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 10989,
-            "entity_label": "Primetime Emmy Award for Outstanding Animated Program",
-            "entity_class": "Award",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 12480,
-            "entity_label": "Choreography",
-            "entity_class": "Dance",
-            "score": 6.649159,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 4,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 8481,
-            "entity_label": "Golden Satellite Awards 2004",
-            "entity_class": "Award",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 7342,
-            "entity_label": "Chris Nurse",
-            "entity_class": "Association Football Player",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 13730,
-            "entity_label": "Transformers",
-            "entity_class": "Toy Series",
-            "score": 5.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 6158,
-            "entity_label": "Pundit",
-            "entity_class": "Person",
-            "score": 10.232868,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 4198,
-            "entity_label": "Matt Stone",
-            "entity_class": "Television Producer",
-            "score": 5.426015,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 3,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 851,
-            "entity_label": "Ray Milland",
-            "entity_class": "Person",
-            "score": 9.539721,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
+            "rank_index": 2,
             "entity_id": 12438,
             "entity_label": "Racine",
             "entity_class": "Location",
@@ -268,39 +44,23 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 13834,
-            "entity_label": "Coimbatore District",
-            "entity_class": "District",
-            "score": 6.426015,
+            "rank_index": 3,
+            "entity_id": 1304,
+            "entity_label": "Turkey",
+            "entity_class": "Country",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 3,
-                "key": 1
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 1890,
-            "entity_label": "Animal House",
-            "entity_class": "Movie",
-            "score": 6.426015,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 3,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
+            "rank_index": 4,
             "entity_id": 9726,
             "entity_label": "Napoleonic Wars",
             "entity_class": "Historical Event",
@@ -316,43 +76,283 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 12706,
-            "entity_label": "Caravaggio",
-            "entity_class": "Person",
-            "score": 8.539721,
+            "rank_index": 5,
+            "entity_id": 7325,
+            "entity_label": "Joan Collins",
+            "entity_class": "Actress",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 10989,
+            "entity_label": "Primetime Emmy Award for Outstanding Animated Program",
+            "entity_class": "Award",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 1,
                 "path_count": 1,
                 "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 3582,
+            "entity_label": "Superman Ii: the Richard Donner Cut",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 8481,
+            "entity_label": "Golden Satellite Awards 2004",
+            "entity_class": "Award",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 13834,
+            "entity_label": "Coimbatore District",
+            "entity_class": "District",
+            "score": 6.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 9373,
+            "entity_label": "David Hyde Pierce",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 1578,
+            "entity_label": "Kansas State University",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 851,
+            "entity_label": "Ray Milland",
+            "entity_class": "Person",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 5706,
+            "entity_label": "St. Mirren F.c.",
+            "entity_class": "Football Club",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 1003,
+            "entity_label": "Scream 3",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 6993,
+            "entity_label": "Americas",
+            "entity_class": "Continent",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 14376,
+            "entity_label": "Lockheed Corporation",
+            "entity_class": "Aerospace Manufacturer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 14108,
+            "entity_label": "Bulgarian",
+            "entity_class": "Ethnicity/language",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 13874,
+            "entity_label": "Mansfield",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 12878,
+            "entity_label": "Tony Gaudio",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 1890,
+            "entity_label": "Animal House",
+            "entity_class": "Movie",
+            "score": 6.426015,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 3,
+                "key": 1
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "4387": 1,
-        "7981": 2,
-        "1174": 3,
-        "9207": 4,
-        "1540": 5,
-        "634": 6,
-        "5706": 7,
-        "10989": 8,
-        "12480": 9,
-        "8481": 10,
-        "7342": 11,
-        "13730": 12,
-        "6158": 13,
-        "4198": 14,
-        "851": 15,
-        "12438": 16,
-        "13834": 17,
-        "1890": 18,
-        "9726": 19,
-        "12706": 20
+        "1540": 1,
+        "12438": 2,
+        "1304": 3,
+        "9726": 4,
+        "7325": 5,
+        "10989": 6,
+        "3582": 7,
+        "8481": 8,
+        "13834": 9,
+        "9373": 10,
+        "1578": 11,
+        "851": 12,
+        "5706": 13,
+        "1003": 14,
+        "6993": 15,
+        "14376": 16,
+        "14108": 17,
+        "13874": 18,
+        "12878": 19,
+        "1890": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Grammy Award for Song of the Year, relation=hasGovernmentPosition, tail=?)\n\nOntology summary:\n- Query relation: hasGovernmentPosition\n- Head entity: Grammy Award for Song of the Year\n- Head class: Award\n- Relation domain: Person\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=38, edges=50, paths=20\n- Head outgoing edges under target relation hasGovernmentPosition: 22\n- Key support nodes: Grammy Award for Song of the Year, Golden Satellite Awards 2004, The Exorcist, Coimbatore District, Johnnie to, Pundit, Animal House, Ray Milland\n- Main auxiliary relations: hasReleaseMedium(11), hasImpersonatedCelebrities(4), hasNetflixGenreTitle(3)\n\nFrequent relation path patterns:\n- hasGovernmentPosition (count=20)\n\nCandidates:\n1. Shrek 2 [id=4387 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Johnnie to [id=7981 | class=Film Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=4 | key=1]\n3. Clint Eastwood [id=1174 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Salman Khan [id=9207 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n5. The Exorcist [id=1540 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n6. Edwin B. Willis [id=634 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. St. Mirren F.c. [id=5706 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Primetime Emmy Award for Outstanding Animated Program [id=10989 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Choreography [id=12480 | class=Dance | type=0 | soft_type=0 | direct=1 | paths=1 | aux=4 | key=1]\n10. Golden Satellite Awards 2004 [id=8481 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n11. Chris Nurse [id=7342 | class=Association Football Player | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Transformers [id=13730 | class=Toy Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n13. Pundit [id=6158 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=1 | key=1]\n14. Matt Stone [id=4198 | class=Television Producer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=0]\n15. Ray Milland [id=851 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n16. Racine [id=12438 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Coimbatore District [id=13834 | class=District | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n18. Animal House [id=1890 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n19. Napoleonic Wars [id=9726 | class=Historical Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Caravaggio [id=12706 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Grammy Award for Song of the Year, relation=hasGovernmentPosition, tail=?)\n\nOntology summary:\n- Query relation: hasGovernmentPosition\n- Head entity: Grammy Award for Song of the Year\n- Head class: Award\n- Relation domain: Person\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=38, edges=50, paths=20\n- Head outgoing edges under target relation hasGovernmentPosition: 22\n- Key support nodes: Grammy Award for Song of the Year, Golden Satellite Awards 2004, The Exorcist, Coimbatore District, Johnnie to, Pundit, Animal House, Ray Milland\n- Main auxiliary relations: hasReleaseMedium(11), hasImpersonatedCelebrities(4), hasNetflixGenreTitle(3)\n\nFrequent relation path patterns:\n- hasGovernmentPosition (count=20)\n\nCandidates:\n1. The Exorcist [id=1540 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n2. Racine [id=12438 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n3. Turkey [id=1304 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Napoleonic Wars [id=9726 | class=Historical Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Joan Collins [id=7325 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Primetime Emmy Award for Outstanding Animated Program [id=10989 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Superman Ii: the Richard Donner Cut [id=3582 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Golden Satellite Awards 2004 [id=8481 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n9. Coimbatore District [id=13834 | class=District | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n10. David Hyde Pierce [id=9373 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Kansas State University [id=1578 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Ray Milland [id=851 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n13. St. Mirren F.c. [id=5706 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n14. Scream 3 [id=1003 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Americas [id=6993 | class=Continent | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Lockheed Corporation [id=14376 | class=Aerospace Manufacturer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Bulgarian [id=14108 | class=Ethnicity/language | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Mansfield [id=13874 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Tony Gaudio [id=12878 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Animal House [id=1890 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n"
 }

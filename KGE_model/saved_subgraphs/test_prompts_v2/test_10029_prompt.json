@@ -7,195 +7,19 @@
         "relation_label": "hasRegularPerformanceRole",
         "gold_tail": 1094,
         "gold_tail_label": "General Hospital",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 5
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 1737,
-            "entity_label": "Sophie Thompson",
-            "entity_class": "Actor",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
-            "entity_id": 5990,
-            "entity_label": "Shutter Island",
-            "entity_class": "Movie",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 2959,
-            "entity_label": "University of Illinois at Chicago",
-            "entity_class": "Educational Institution",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 13124,
-            "entity_label": "County Sligo",
-            "entity_class": "County",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 2107,
-            "entity_label": "Michael Mann",
-            "entity_class": "Person",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 316,
-            "entity_label": "Richard Culliton",
-            "entity_class": "Writer",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 7841,
-            "entity_label": "Katie Couric",
-            "entity_class": "Person",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 2093,
-            "entity_label": "National Security",
-            "entity_class": "Concept",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 13512,
-            "entity_label": "Newell's Old Boys",
-            "entity_class": "Sports Team",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 2022,
-            "entity_label": "University of Windsor",
+            "entity_id": 12337,
+            "entity_label": "National Autonomous University of Mexico",
             "entity_class": "University",
-            "score": 4.039721,
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 9310,
-            "entity_label": "United States Presidential Election",
-            "entity_class": "Election",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 5207,
-            "entity_label": "Djembe",
-            "entity_class": "Musical Instrument",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -204,103 +28,55 @@
             "is_gold": 0
         },
         {
-            "rank_index": 13,
-            "entity_id": 433,
-            "entity_label": "Nick Cave",
-            "entity_class": "Person",
-            "score": 5.039721,
+            "rank_index": 2,
+            "entity_id": 10466,
+            "entity_label": "The Pirate Movie",
+            "entity_class": "Movie",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 325,
-            "entity_label": "Terre Haute",
-            "entity_class": "City",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 15,
-            "entity_id": 2987,
-            "entity_label": "Jennifer Tilly",
-            "entity_class": "Actress",
-            "score": 5.039721,
+            "rank_index": 3,
+            "entity_id": 2593,
+            "entity_label": "Thelonious Monk",
+            "entity_class": "Musician",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 8277,
-            "entity_label": "Djibouti",
-            "entity_class": "Country",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 14512,
-            "entity_label": "Planet",
-            "entity_class": "Astronomical Object",
-            "score": 5.039721,
+            "rank_index": 4,
+            "entity_id": 1996,
+            "entity_label": "Apollo 13",
+            "entity_class": "Film",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 8791,
-            "entity_label": "Mauritius",
-            "entity_class": "Country",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
+            "rank_index": 5,
             "entity_id": 1094,
             "entity_label": "General Hospital",
             "entity_class": "Tv Series",
@@ -316,7 +92,215 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
+            "rank_index": 6,
+            "entity_id": 5990,
+            "entity_label": "Shutter Island",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 13124,
+            "entity_label": "County Sligo",
+            "entity_class": "County",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 1374,
+            "entity_label": "Rock Music",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 3019,
+            "entity_label": "Annie",
+            "entity_class": "Musical",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 14084,
+            "entity_label": "Art Critic",
+            "entity_class": "Occupation",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 6400,
+            "entity_label": "The Diary of Anne Frank",
+            "entity_class": "Book",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 7369,
+            "entity_label": "Hugo Award for Best Professional Artist",
+            "entity_class": "Awards",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 9547,
+            "entity_label": "Religion",
+            "entity_class": "Religion",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 5150,
+            "entity_label": "Richard Hammond",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 5610,
+            "entity_label": "Bifa Award for Best British Independent Film",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 3825,
+            "entity_label": "Cleveland",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 2566,
+            "entity_label": "Space Rock",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 433,
+            "entity_label": "Nick Cave",
+            "entity_class": "Person",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
             "entity_id": 5380,
             "entity_label": "Audio Engineer",
             "entity_class": "Person",
@@ -330,29 +314,45 @@
                 "key": 1
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 8277,
+            "entity_label": "Djibouti",
+            "entity_class": "Country",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "1737": 1,
-        "5990": 2,
-        "2959": 3,
-        "13124": 4,
-        "2107": 5,
-        "316": 6,
-        "7841": 7,
-        "2093": 8,
-        "13512": 9,
-        "2022": 10,
-        "9310": 11,
-        "5207": 12,
-        "433": 13,
-        "325": 14,
-        "2987": 15,
-        "8277": 16,
-        "14512": 17,
-        "8791": 18,
-        "1094": 19,
-        "5380": 20
+        "12337": 1,
+        "10466": 2,
+        "2593": 3,
+        "1996": 4,
+        "1094": 5,
+        "5990": 6,
+        "13124": 7,
+        "1374": 8,
+        "3019": 9,
+        "14084": 10,
+        "6400": 11,
+        "7369": 12,
+        "9547": 13,
+        "5150": 14,
+        "5610": 15,
+        "3825": 16,
+        "2566": 17,
+        "433": 18,
+        "5380": 19,
+        "8277": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Christmas Music, relation=hasRegularPerformanceRole, tail=?)\n\nOntology summary:\n- Query relation: hasRegularPerformanceRole\n- Head entity: Christmas Music\n- Head class: Music Genre\n- Relation domain: Musical Instrument\n- Relation range: Musical Instrument\n- Domain check: not clearly matched\n- Tail entities of class 'Musical Instrument' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=45, edges=49, paths=20\n- Head outgoing edges under target relation hasRegularPerformanceRole: 20\n- Key support nodes: Christmas Music, Nick Cave, Jennifer Tilly, Audio Engineer, County Sligo, Shutter Island, Newell's Old Boys, Planet\n- Main auxiliary relations: hasSchoolType(4), performedBy(4), influencedBy(4)\n\nFrequent relation path patterns:\n- hasRegularPerformanceRole (count=20)\n\nCandidates:\n1. Sophie Thompson [id=1737 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Shutter Island [id=5990 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. University of Illinois at Chicago [id=2959 | class=Educational Institution | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. County Sligo [id=13124 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Michael Mann [id=2107 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Richard Culliton [id=316 | class=Writer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Katie Couric [id=7841 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. National Security [id=2093 | class=Concept | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Newell's Old Boys [id=13512 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. University of Windsor [id=2022 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. United States Presidential Election [id=9310 | class=Election | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Djembe [id=5207 | class=Musical Instrument | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Nick Cave [id=433 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Terre Haute [id=325 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Jennifer Tilly [id=2987 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Djibouti [id=8277 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Planet [id=14512 | class=Astronomical Object | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Mauritius [id=8791 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. General Hospital [id=1094 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Audio Engineer [id=5380 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Christmas Music, relation=hasRegularPerformanceRole, tail=?)\n\nOntology summary:\n- Query relation: hasRegularPerformanceRole\n- Head entity: Christmas Music\n- Head class: Music Genre\n- Relation domain: Musical Instrument\n- Relation range: Musical Instrument\n- Domain check: not clearly matched\n- Tail entities of class 'Musical Instrument' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=45, edges=49, paths=20\n- Head outgoing edges under target relation hasRegularPerformanceRole: 20\n- Key support nodes: Christmas Music, Nick Cave, Jennifer Tilly, Audio Engineer, County Sligo, Shutter Island, Newell's Old Boys, Planet\n- Main auxiliary relations: hasSchoolType(4), performedBy(4), influencedBy(4)\n\nFrequent relation path patterns:\n- hasRegularPerformanceRole (count=20)\n\nCandidates:\n1. National Autonomous University of Mexico [id=12337 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. The Pirate Movie [id=10466 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Thelonious Monk [id=2593 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Apollo 13 [id=1996 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. General Hospital [id=1094 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Shutter Island [id=5990 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n7. County Sligo [id=13124 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n8. Rock Music [id=1374 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Annie [id=3019 | class=Musical | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Art Critic [id=14084 | class=Occupation | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. The Diary of Anne Frank [id=6400 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Hugo Award for Best Professional Artist [id=7369 | class=Awards | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Religion [id=9547 | class=Religion | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Richard Hammond [id=5150 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Bifa Award for Best British Independent Film [id=5610 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Cleveland [id=3825 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Space Rock [id=2566 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Nick Cave [id=433 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Audio Engineer [id=5380 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Djibouti [id=8277 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n"
 }

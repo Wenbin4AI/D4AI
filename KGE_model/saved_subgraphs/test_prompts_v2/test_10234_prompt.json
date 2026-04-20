@@ -7,44 +7,12 @@
         "relation_label": "producedPrograms",
         "gold_tail": 8951,
         "gold_tail_label": "Cheryl Hines",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 9
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 11915,
-            "entity_label": "Naples",
-            "entity_class": "City",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
-            "entity_id": 6700,
-            "entity_label": "Paul Giamatti",
-            "entity_class": "Actor",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
             "entity_id": 5515,
             "entity_label": "Milton Friedman",
             "entity_class": "Economist",
@@ -60,215 +28,23 @@
             "is_gold": 0
         },
         {
-            "rank_index": 4,
-            "entity_id": 11000,
-            "entity_label": "Fontana Records",
-            "entity_class": "Record Label",
-            "score": 5.039721,
+            "rank_index": 2,
+            "entity_id": 8812,
+            "entity_label": "Creative Writing",
+            "entity_class": "Literature",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 11348,
-            "entity_label": "R. Charleroi S.c.",
-            "entity_class": "Sports Team",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 2681,
-            "entity_label": "Kelly Rowland",
-            "entity_class": "Person",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 7,
-            "entity_id": 4259,
-            "entity_label": "Terry O'quinn",
-            "entity_class": "Actor",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 13205,
-            "entity_label": "Jules White",
-            "entity_class": "Person",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 6589,
-            "entity_label": "1993 Grammy Awards",
-            "entity_class": "Event",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 3338,
-            "entity_label": "Battleground",
-            "entity_class": "Location",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 1456,
-            "entity_label": "Maury Chaykin",
-            "entity_class": "Actor",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 3089,
-            "entity_label": "Danny Smith",
-            "entity_class": "Actor and Writer",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 7887,
-            "entity_label": "Jazz Piano",
-            "entity_class": "Music Genre",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 2443,
-            "entity_label": "Madison",
-            "entity_class": "City",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 2473,
-            "entity_label": "17th United States Congress",
-            "entity_class": "Government Agency",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 696,
-            "entity_label": "Allentown",
-            "entity_class": "City",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
+            "rank_index": 3,
             "entity_id": 9356,
             "entity_label": "Dire Straits",
             "entity_class": "Rock Band",
@@ -284,10 +60,42 @@
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 10039,
-            "entity_label": "Sikh",
-            "entity_class": "Religion",
+            "rank_index": 4,
+            "entity_id": 3015,
+            "entity_label": "Sucrose",
+            "entity_class": "Chemical Compound",
+            "score": 3.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 10033,
+            "entity_label": "Grammy Award for Best Contemporary Folk Album",
+            "entity_class": "Music Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 7887,
+            "entity_label": "Jazz Piano",
+            "entity_class": "Music Genre",
             "score": 5.039721,
             "features": {
                 "type_match": 0,
@@ -300,7 +108,39 @@
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 7,
+            "entity_id": 10538,
+            "entity_label": "Gwinnett County",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 7741,
+            "entity_label": "Tony Shalhoub",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
             "entity_id": 8951,
             "entity_label": "Cheryl Hines",
             "entity_class": "Person",
@@ -316,7 +156,39 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
+            "rank_index": 10,
+            "entity_id": 13484,
+            "entity_label": "Xl Recordings",
+            "entity_class": "Company",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 2742,
+            "entity_label": "Kid Rock",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
             "entity_id": 6204,
             "entity_label": "Er",
             "entity_class": "Tv Series",
@@ -330,29 +202,157 @@
                 "key": 1
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 13694,
+            "entity_label": "County Tyrone",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 11915,
+            "entity_label": "Naples",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 5381,
+            "entity_label": "Panionios F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 12734,
+            "entity_label": "Telugu",
+            "entity_class": "Language",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 8805,
+            "entity_label": "William Chang",
+            "entity_class": "Composer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 7313,
+            "entity_label": "Lahore",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 696,
+            "entity_label": "Allentown",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 6700,
+            "entity_label": "Paul Giamatti",
+            "entity_class": "Actor",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "11915": 1,
-        "6700": 2,
-        "5515": 3,
-        "11000": 4,
-        "11348": 5,
-        "2681": 6,
-        "4259": 7,
-        "13205": 8,
-        "6589": 9,
-        "3338": 10,
-        "1456": 11,
-        "3089": 12,
-        "7887": 13,
-        "2443": 14,
-        "2473": 15,
-        "696": 16,
-        "9356": 17,
-        "10039": 18,
-        "8951": 19,
-        "6204": 20
+        "5515": 1,
+        "8812": 2,
+        "9356": 3,
+        "3015": 4,
+        "10033": 5,
+        "7887": 6,
+        "10538": 7,
+        "7741": 8,
+        "8951": 9,
+        "13484": 10,
+        "2742": 11,
+        "6204": 12,
+        "13694": 13,
+        "11915": 14,
+        "5381": 15,
+        "12734": 16,
+        "8805": 17,
+        "7313": 18,
+        "696": 19,
+        "6700": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Robert Ridgely, relation=producedPrograms, tail=?)\n\nOntology summary:\n- Query relation: producedPrograms\n- Head entity: Robert Ridgely\n- Head class: Actor\n- Relation domain: Person\n- Relation range: Profession\n- Domain check: not clearly matched\n- Tail entities of class 'Profession' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=46, edges=50, paths=20\n- Head outgoing edges under target relation producedPrograms: 23\n- Key support nodes: Robert Ridgely, Jazz Piano, 17th United States Congress, Er, Fontana Records, Paul Giamatti, 1993 Grammy Awards, Dire Straits\n- Main auxiliary relations: hasNetflixGenreTitle(6), hasReligion(5), hasMonthlyClimate(3)\n\nFrequent relation path patterns:\n- producedPrograms (count=20)\n\nCandidates:\n1. Naples [id=11915 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Paul Giamatti [id=6700 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Milton Friedman [id=5515 | class=Economist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Fontana Records [id=11000 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. R. Charleroi S.c. [id=11348 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Kelly Rowland [id=2681 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Terry O'quinn [id=4259 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Jules White [id=13205 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. 1993 Grammy Awards [id=6589 | class=Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Battleground [id=3338 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Maury Chaykin [id=1456 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Danny Smith [id=3089 | class=Actor and Writer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Jazz Piano [id=7887 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Madison [id=2443 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. 17th United States Congress [id=2473 | class=Government Agency | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Allentown [id=696 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Dire Straits [id=9356 | class=Rock Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Sikh [id=10039 | class=Religion | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Cheryl Hines [id=8951 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Er [id=6204 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Robert Ridgely, relation=producedPrograms, tail=?)\n\nOntology summary:\n- Query relation: producedPrograms\n- Head entity: Robert Ridgely\n- Head class: Actor\n- Relation domain: Person\n- Relation range: Profession\n- Domain check: not clearly matched\n- Tail entities of class 'Profession' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=46, edges=50, paths=20\n- Head outgoing edges under target relation producedPrograms: 23\n- Key support nodes: Robert Ridgely, Jazz Piano, 17th United States Congress, Er, Fontana Records, Paul Giamatti, 1993 Grammy Awards, Dire Straits\n- Main auxiliary relations: hasNetflixGenreTitle(6), hasReligion(5), hasMonthlyClimate(3)\n\nFrequent relation path patterns:\n- producedPrograms (count=20)\n\nCandidates:\n1. Milton Friedman [id=5515 | class=Economist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Creative Writing [id=8812 | class=Literature | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Dire Straits [id=9356 | class=Rock Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n4. Sucrose [id=3015 | class=Chemical Compound | type=0 | soft_type=0 | direct=1 | paths=0 | aux=0 | key=0]\n5. Grammy Award for Best Contemporary Folk Album [id=10033 | class=Music Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Jazz Piano [id=7887 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n7. Gwinnett County [id=10538 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Tony Shalhoub [id=7741 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Cheryl Hines [id=8951 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Xl Recordings [id=13484 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Kid Rock [id=2742 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Er [id=6204 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. County Tyrone [id=13694 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Naples [id=11915 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Panionios F.c. [id=5381 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Telugu [id=12734 | class=Language | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. William Chang [id=8805 | class=Composer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Lahore [id=7313 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Allentown [id=696 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Paul Giamatti [id=6700 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
 }

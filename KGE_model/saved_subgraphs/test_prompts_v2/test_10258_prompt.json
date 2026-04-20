@@ -7,21 +7,21 @@
         "relation_label": "placeOfDeath",
         "gold_tail": 961,
         "gold_tail_label": "Nevada",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 16
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 8177,
-            "entity_label": "Mtv Video Music Award for Best Dance Video",
-            "entity_class": "Award Category",
-            "score": 4.039721,
+            "entity_id": 13218,
+            "entity_label": "Modern Period",
+            "entity_class": "Timeperiod",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -29,31 +29,31 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 1164,
-            "entity_label": "Austria",
-            "entity_class": "Country",
-            "score": 5.039721,
+            "entity_id": 328,
+            "entity_label": "1992 Winter Olympics",
+            "entity_class": "Event",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 3,
-            "entity_id": 13360,
-            "entity_label": "Jonas Brothers World Tour 2009",
-            "entity_class": "Concert Tour",
-            "score": 4.039721,
+            "entity_id": 6754,
+            "entity_label": "Jamey Sheridan",
+            "entity_class": "Actor",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -61,134 +61,6 @@
         },
         {
             "rank_index": 4,
-            "entity_id": 80,
-            "entity_label": "Philip Seymour Hoffman",
-            "entity_class": "Actor",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 13887,
-            "entity_label": "Excelsior Rotterdam",
-            "entity_class": "Sports Team",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 2384,
-            "entity_label": "Sweden National Association Football Team",
-            "entity_class": "National Football Team",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 10785,
-            "entity_label": "Grammy Award for Best Metal Performance",
-            "entity_class": "Award Category",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 9259,
-            "entity_label": "Frasier",
-            "entity_class": "Tv Show",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 9300,
-            "entity_label": "San Joaquin County",
-            "entity_class": "County",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 5768,
-            "entity_label": "American Kennel Club",
-            "entity_class": "Dog Breed Organization",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 6690,
-            "entity_label": "Trent Jones",
-            "entity_class": "Person",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
             "entity_id": 13971,
             "entity_label": "Human Rights",
             "entity_class": "Concept",
@@ -204,14 +76,46 @@
             "is_gold": 0
         },
         {
-            "rank_index": 13,
-            "entity_id": 8682,
-            "entity_label": "Adelaide",
-            "entity_class": "City",
-            "score": 8.539721,
+            "rank_index": 5,
+            "entity_id": 13988,
+            "entity_label": "Major League Baseball All-star Game",
+            "entity_class": "Event",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 10679,
+            "entity_label": "The Lord of the Rings",
+            "entity_class": "Book Series",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 2384,
+            "entity_label": "Sweden National Association Football Team",
+            "entity_class": "National Football Team",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 1,
                 "path_count": 1,
                 "aux_support": 0,
@@ -220,7 +124,39 @@
             "is_gold": 0
         },
         {
-            "rank_index": 14,
+            "rank_index": 8,
+            "entity_id": 3160,
+            "entity_label": "Long Island",
+            "entity_class": "Geographical Area",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 8177,
+            "entity_label": "Mtv Video Music Award for Best Dance Video",
+            "entity_class": "Award Category",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
             "entity_id": 8887,
             "entity_label": "St Albans",
             "entity_class": "City",
@@ -236,26 +172,74 @@
             "is_gold": 0
         },
         {
-            "rank_index": 15,
-            "entity_id": 8147,
-            "entity_label": "San Juan",
-            "entity_class": "Location",
-            "score": 6.539721,
+            "rank_index": 11,
+            "entity_id": 6392,
+            "entity_label": "Kymx",
+            "entity_class": "Radio Station",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 16,
-            "entity_id": 1834,
-            "entity_label": "Banjo",
-            "entity_class": "Musical Instrument",
+            "rank_index": 12,
+            "entity_id": 1141,
+            "entity_label": "William Pitt the Younger",
+            "entity_class": "Statesman",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 10332,
+            "entity_label": "Kay Alden",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 584,
+            "entity_label": "Rutger Hauer",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 5768,
+            "entity_label": "American Kennel Club",
+            "entity_class": "Dog Breed Organization",
             "score": 4.039721,
             "features": {
                 "type_match": 0,
@@ -268,39 +252,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 3922,
-            "entity_label": "Valkyrie",
-            "entity_class": "Mythological Figure",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 3635,
-            "entity_label": "Pyrus",
-            "entity_class": "Biological Classification",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
+            "rank_index": 16,
             "entity_id": 961,
             "entity_label": "Nevada",
             "entity_class": "State",
@@ -316,10 +268,42 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 808,
-            "entity_label": "Steve Oedekerk",
-            "entity_class": "Actor",
+            "rank_index": 17,
+            "entity_id": 12272,
+            "entity_label": "The U",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 7503,
+            "entity_label": "The Gathering Storm",
+            "entity_class": "Book",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 9300,
+            "entity_label": "San Joaquin County",
+            "entity_class": "County",
             "score": 5.039721,
             "features": {
                 "type_match": 0,
@@ -330,29 +314,45 @@
                 "key": 1
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 3479,
+            "entity_label": "The Fighter",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "8177": 1,
-        "1164": 2,
-        "13360": 3,
-        "80": 4,
-        "13887": 5,
-        "2384": 6,
-        "10785": 7,
-        "9259": 8,
-        "9300": 9,
-        "5768": 10,
-        "6690": 11,
-        "13971": 12,
-        "8682": 13,
-        "8887": 14,
-        "8147": 15,
-        "1834": 16,
-        "3922": 17,
-        "3635": 18,
-        "961": 19,
-        "808": 20
+        "13218": 1,
+        "328": 2,
+        "6754": 3,
+        "13971": 4,
+        "13988": 5,
+        "10679": 6,
+        "2384": 7,
+        "3160": 8,
+        "8177": 9,
+        "8887": 10,
+        "6392": 11,
+        "1141": 12,
+        "10332": 13,
+        "584": 14,
+        "5768": 15,
+        "961": 16,
+        "12272": 17,
+        "7503": 18,
+        "9300": 19,
+        "3479": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Black-and-white, relation=placeOfDeath, tail=?)\n\nOntology summary:\n- Query relation: placeOfDeath\n- Head entity: Black-and-white\n- Head class: Color\n- Relation domain: Person\n- Relation range: City\n- Domain check: not clearly matched\n- Tail entities of class 'City' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=44, edges=49, paths=20\n- Head outgoing edges under target relation placeOfDeath: 21\n- Key support nodes: Black-and-white, Steve Oedekerk, San Juan, Philip Seymour Hoffman, Austria, San Joaquin County, Valkyrie, Pyrus\n- Main auxiliary relations: hasNetflixGenreTitle(5), hasMonthlyClimate(4), isInductedIntoHallOfFame(3)\n\nFrequent relation path patterns:\n- placeOfDeath (count=20)\n\nCandidates:\n1. Mtv Video Music Award for Best Dance Video [id=8177 | class=Award Category | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Austria [id=1164 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Jonas Brothers World Tour 2009 [id=13360 | class=Concert Tour | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Philip Seymour Hoffman [id=80 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Excelsior Rotterdam [id=13887 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Sweden National Association Football Team [id=2384 | class=National Football Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Grammy Award for Best Metal Performance [id=10785 | class=Award Category | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Frasier [id=9259 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. San Joaquin County [id=9300 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. American Kennel Club [id=5768 | class=Dog Breed Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Trent Jones [id=6690 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Human Rights [id=13971 | class=Concept | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. Adelaide [id=8682 | class=City | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n14. St Albans [id=8887 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. San Juan [id=8147 | class=Location | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n16. Banjo [id=1834 | class=Musical Instrument | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Valkyrie [id=3922 | class=Mythological Figure | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Pyrus [id=3635 | class=Biological Classification | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Nevada [id=961 | class=State | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Steve Oedekerk [id=808 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Black-and-white, relation=placeOfDeath, tail=?)\n\nOntology summary:\n- Query relation: placeOfDeath\n- Head entity: Black-and-white\n- Head class: Color\n- Relation domain: Person\n- Relation range: City\n- Domain check: not clearly matched\n- Tail entities of class 'City' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=44, edges=49, paths=20\n- Head outgoing edges under target relation placeOfDeath: 21\n- Key support nodes: Black-and-white, Steve Oedekerk, San Juan, Philip Seymour Hoffman, Austria, San Joaquin County, Valkyrie, Pyrus\n- Main auxiliary relations: hasNetflixGenreTitle(5), hasMonthlyClimate(4), isInductedIntoHallOfFame(3)\n\nFrequent relation path patterns:\n- placeOfDeath (count=20)\n\nCandidates:\n1. Modern Period [id=13218 | class=Timeperiod | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. 1992 Winter Olympics [id=328 | class=Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Jamey Sheridan [id=6754 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Human Rights [id=13971 | class=Concept | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Major League Baseball All-star Game [id=13988 | class=Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. The Lord of the Rings [id=10679 | class=Book Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Sweden National Association Football Team [id=2384 | class=National Football Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Long Island [id=3160 | class=Geographical Area | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Mtv Video Music Award for Best Dance Video [id=8177 | class=Award Category | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n10. St Albans [id=8887 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Kymx [id=6392 | class=Radio Station | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. William Pitt the Younger [id=1141 | class=Statesman | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Kay Alden [id=10332 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Rutger Hauer [id=584 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. American Kennel Club [id=5768 | class=Dog Breed Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n16. Nevada [id=961 | class=State | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. The U [id=12272 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. The Gathering Storm [id=7503 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. San Joaquin County [id=9300 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. The Fighter [id=3479 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

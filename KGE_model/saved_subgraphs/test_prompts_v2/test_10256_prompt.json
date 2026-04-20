@@ -7,204 +7,12 @@
         "relation_label": "foundIn",
         "gold_tail": 411,
         "gold_tail_label": "Restless",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 6
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 4323,
-            "entity_label": "Bridget Jones's Diary",
-            "entity_class": "Film",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
-            "entity_id": 9442,
-            "entity_label": "The Catholic University of America",
-            "entity_class": "Educational Institution",
-            "score": 5.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 9608,
-            "entity_label": "Marcia Gay Harden",
-            "entity_class": "Actor",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 2964,
-            "entity_label": "Marketing",
-            "entity_class": "Industry",
-            "score": 5.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 3000,
-            "entity_label": "Kingston",
-            "entity_class": "City",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 13515,
-            "entity_label": "Stand-up Comedy",
-            "entity_class": "Performing Arts",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 9694,
-            "entity_label": "Southampton",
-            "entity_class": "Location",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 3423,
-            "entity_label": "Ian Fleming",
-            "entity_class": "Person",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 1571,
-            "entity_label": "Illustrator",
-            "entity_class": "Illustrator",
-            "score": 5.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 2783,
-            "entity_label": "29th Academy Awards",
-            "entity_class": "Award",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 13696,
-            "entity_label": "Alton",
-            "entity_class": "Town",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 9210,
-            "entity_label": "City of London",
-            "entity_class": "City",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
             "entity_id": 13382,
             "entity_label": "Atlantic City",
             "entity_class": "Location",
@@ -220,58 +28,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 14,
-            "entity_id": 11386,
-            "entity_label": "Ogden",
-            "entity_class": "City",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 8942,
-            "entity_label": "Club Alianza Lima",
-            "entity_class": "Sports Team",
-            "score": 6.772589,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 3,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 12037,
-            "entity_label": "Alsace",
-            "entity_class": "Location",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
-            "entity_id": 10399,
-            "entity_label": "Nikolai Rimsky-korsakov",
-            "entity_class": "Musician",
+            "rank_index": 2,
+            "entity_id": 1571,
+            "entity_label": "Illustrator",
+            "entity_class": "Illustrator",
             "score": 5.647918,
             "features": {
                 "type_match": 0,
@@ -284,23 +44,55 @@
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 1333,
-            "entity_label": "Warlord",
-            "entity_class": "Person",
-            "score": 5.039721,
+            "rank_index": 3,
+            "entity_id": 2783,
+            "entity_label": "29th Academy Awards",
+            "entity_class": "Award",
+            "score": 4.039721,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
                 "path_count": 1,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 4,
+            "entity_id": 12932,
+            "entity_label": "University of Michigan Law School",
+            "entity_class": "Law School",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 10772,
+            "entity_label": "Enrico Fermi",
+            "entity_class": "Physicist",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
             "entity_id": 411,
             "entity_label": "Restless",
             "entity_class": "Album",
@@ -316,43 +108,251 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 2328,
-            "entity_label": "Alyson Hannigan",
-            "entity_class": "Actress",
-            "score": 6.341066,
+            "rank_index": 7,
+            "entity_id": 9442,
+            "entity_label": "The Catholic University of America",
+            "entity_class": "Educational Institution",
+            "score": 5.647918,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
                 "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 6449,
+            "entity_label": "Critics' Choice Movie Award for Best Actor",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 10206,
+            "entity_label": "Pirate",
+            "entity_class": "Pirate",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 3286,
+            "entity_label": "Days of Our Lives",
+            "entity_class": "Tv Show",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 6137,
+            "entity_label": "Rich Man, Poor Man",
+            "entity_class": "Tv Series",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 8942,
+            "entity_label": "Club Alianza Lima",
+            "entity_class": "Sports Team",
+            "score": 6.772589,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
                 "aux_support": 1,
                 "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 6303,
+            "entity_label": "East Africa Time",
+            "entity_class": "Time Zone",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 3000,
+            "entity_label": "Kingston",
+            "entity_class": "City",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 12684,
+            "entity_label": "Armenian Apostolic Church",
+            "entity_class": "Church",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 10910,
+            "entity_label": "Art Song",
+            "entity_class": "Singing Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 12702,
+            "entity_label": "Somerset County",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 6524,
+            "entity_label": "Patrick Gallagher",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 4323,
+            "entity_label": "Bridget Jones's Diary",
+            "entity_class": "Film",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 13696,
+            "entity_label": "Alton",
+            "entity_class": "Town",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "4323": 1,
-        "9442": 2,
-        "9608": 3,
-        "2964": 4,
-        "3000": 5,
-        "13515": 6,
-        "9694": 7,
-        "3423": 8,
-        "1571": 9,
-        "2783": 10,
-        "13696": 11,
-        "9210": 12,
-        "13382": 13,
-        "11386": 14,
-        "8942": 15,
-        "12037": 16,
-        "10399": 17,
-        "1333": 18,
-        "411": 19,
-        "2328": 20
+        "13382": 1,
+        "1571": 2,
+        "2783": 3,
+        "12932": 4,
+        "10772": 5,
+        "411": 6,
+        "9442": 7,
+        "6449": 8,
+        "10206": 9,
+        "3286": 10,
+        "6137": 11,
+        "8942": 12,
+        "6303": 13,
+        "3000": 14,
+        "12684": 15,
+        "10910": 16,
+        "12702": 17,
+        "6524": 18,
+        "4323": 19,
+        "13696": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Trisha Yearwood, relation=foundIn, tail=?)\n\nOntology summary:\n- Query relation: foundIn\n- Head entity: Trisha Yearwood\n- Head class: Musician\n- Relation domain: Company\n- Relation range: City\n- Domain check: not clearly matched\n- Tail entities of class 'City' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=40, edges=50, paths=20\n- Head outgoing edges under target relation foundIn: 13\n- Key support nodes: Trisha Yearwood, Warlord, The Bourne Supremacy, Club Alianza Lima, Alyson Hannigan, Marketing, The Catholic University of America, Atlantic City\n- Main auxiliary relations: hasRosterPosition(4), hasArtist(3), hasDiet(3)\n\nFrequent relation path patterns:\n- foundIn (count=12)\n- foundIn -> hasArtist -> foundIn (count=7)\n- foundIn -> livingIn (count=1)\n\nCandidates:\n1. Bridget Jones's Diary [id=4323 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. The Catholic University of America [id=9442 | class=Educational Institution | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n3. Marcia Gay Harden [id=9608 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Marketing [id=2964 | class=Industry | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n5. Kingston [id=3000 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Stand-up Comedy [id=13515 | class=Performing Arts | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Southampton [id=9694 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Ian Fleming [id=3423 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Illustrator [id=1571 | class=Illustrator | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n10. 29th Academy Awards [id=2783 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Alton [id=13696 | class=Town | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. City of London [id=9210 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Atlantic City [id=13382 | class=Location | type=0 | soft_type=1 | direct=1 | paths=2 | aux=0 | key=1]\n14. Ogden [id=11386 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Club Alianza Lima [id=8942 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=3 | aux=1 | key=1]\n16. Alsace [id=12037 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Nikolai Rimsky-korsakov [id=10399 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n18. Warlord [id=1333 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Restless [id=411 | class=Album | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Alyson Hannigan [id=2328 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Trisha Yearwood, relation=foundIn, tail=?)\n\nOntology summary:\n- Query relation: foundIn\n- Head entity: Trisha Yearwood\n- Head class: Musician\n- Relation domain: Company\n- Relation range: City\n- Domain check: not clearly matched\n- Tail entities of class 'City' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=40, edges=50, paths=20\n- Head outgoing edges under target relation foundIn: 13\n- Key support nodes: Trisha Yearwood, Warlord, The Bourne Supremacy, Club Alianza Lima, Alyson Hannigan, Marketing, The Catholic University of America, Atlantic City\n- Main auxiliary relations: hasRosterPosition(4), hasArtist(3), hasDiet(3)\n\nFrequent relation path patterns:\n- foundIn (count=12)\n- foundIn -> hasArtist -> foundIn (count=7)\n- foundIn -> livingIn (count=1)\n\nCandidates:\n1. Atlantic City [id=13382 | class=Location | type=0 | soft_type=1 | direct=1 | paths=2 | aux=0 | key=1]\n2. Illustrator [id=1571 | class=Illustrator | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n3. 29th Academy Awards [id=2783 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. University of Michigan Law School [id=12932 | class=Law School | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Enrico Fermi [id=10772 | class=Physicist | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Restless [id=411 | class=Album | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. The Catholic University of America [id=9442 | class=Educational Institution | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n8. Critics' Choice Movie Award for Best Actor [id=6449 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Pirate [id=10206 | class=Pirate | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Days of Our Lives [id=3286 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Rich Man, Poor Man [id=6137 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Club Alianza Lima [id=8942 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=3 | aux=1 | key=1]\n13. East Africa Time [id=6303 | class=Time Zone | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Kingston [id=3000 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Armenian Apostolic Church [id=12684 | class=Church | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Art Song [id=10910 | class=Singing Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Somerset County [id=12702 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Patrick Gallagher [id=6524 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Bridget Jones's Diary [id=4323 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Alton [id=13696 | class=Town | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

@@ -7,7 +7,7 @@
         "relation_label": "hasCauseOfDeath",
         "gold_tail": 1985,
         "gold_tail_label": "Johannesburg",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 14
     },
     "candidate_limit": 20,
     "selected_candidates": [
@@ -29,134 +29,6 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 14103,
-            "entity_label": "Nunavut",
-            "entity_class": "Region",
-            "score": 6.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 7555,
-            "entity_label": "Ming-na Wen",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 809,
-            "entity_label": "Spike Jonze",
-            "entity_class": "Director",
-            "score": 7.638333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 9010,
-            "entity_label": "Daniel Roebuck",
-            "entity_class": "Actor",
-            "score": 4.232868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 394,
-            "entity_label": "Ed Harris",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 784,
-            "entity_label": "Evan Rachel Wood",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 12190,
-            "entity_label": "Tom and Jerry",
-            "entity_class": "Cartoon",
-            "score": 0.693147,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 14348,
-            "entity_label": "Soviet Air Forces",
-            "entity_class": "Military Branch",
-            "score": 4.871201,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 3,
-                "aux_support": 5,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
             "entity_id": 6076,
             "entity_label": "Freestyle Skiing",
             "entity_class": "Sport",
@@ -172,23 +44,71 @@
             "is_gold": 0
         },
         {
-            "rank_index": 11,
-            "entity_id": 10415,
-            "entity_label": "Bernalillo County",
-            "entity_class": "County",
-            "score": 0.693147,
+            "rank_index": 3,
+            "entity_id": 7490,
+            "entity_label": "Colorado Springs",
+            "entity_class": "City",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
-                "aux_support": 1,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 12,
+            "rank_index": 4,
+            "entity_id": 12688,
+            "entity_label": "Atlantic Canada",
+            "entity_class": "Region",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 4162,
+            "entity_label": "Washboard",
+            "entity_class": "Tool",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 12034,
+            "entity_label": "German Cuisine",
+            "entity_class": "Cuisine",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
             "entity_id": 3551,
             "entity_label": "Peter Macnicol",
             "entity_class": "Actor",
@@ -204,7 +124,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 13,
+            "rank_index": 8,
             "entity_id": 4785,
             "entity_label": "Kate Bush",
             "entity_class": "Person",
@@ -220,62 +140,30 @@
             "is_gold": 0
         },
         {
-            "rank_index": 14,
-            "entity_id": 5310,
-            "entity_label": "King of the Hill",
-            "entity_class": "Tv Show",
-            "score": 1.732868,
+            "rank_index": 9,
+            "entity_id": 10415,
+            "entity_label": "Bernalillo County",
+            "entity_class": "County",
+            "score": 0.693147,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
                 "aux_support": 1,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 15,
-            "entity_id": 4997,
-            "entity_label": "Iron Man 3",
-            "entity_class": "Movie",
-            "score": 8.382027,
+            "rank_index": 10,
+            "entity_id": 5449,
+            "entity_label": "36th Academy Awards",
+            "entity_class": "Award Event",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 3,
-                "aux_support": 9,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 13691,
-            "entity_label": "Pre-code Hollywood",
-            "entity_class": "Era",
-            "score": 1.098612,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 2,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
-            "entity_id": 11498,
-            "entity_label": "Robbie Keane",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -284,23 +172,55 @@
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 14335,
-            "entity_label": "Alpha Carotene (stereochemistry Specified)",
-            "entity_class": "Chemical Compound",
-            "score": 4.257356,
+            "rank_index": 11,
+            "entity_id": 9010,
+            "entity_label": "Daniel Roebuck",
+            "entity_class": "Actor",
+            "score": 4.232868,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 0,
+                "soft_type_match": 1,
                 "direct": 0,
-                "path_count": 2,
-                "aux_support": 4,
+                "path_count": 1,
+                "aux_support": 1,
                 "key": 1
             },
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 12,
+            "entity_id": 5360,
+            "entity_label": "Reprise Records",
+            "entity_class": "Record Label",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 9351,
+            "entity_label": "Twin Peaks",
+            "entity_class": "Tv Series",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
             "entity_id": 1985,
             "entity_label": "Johannesburg",
             "entity_class": "City",
@@ -316,7 +236,71 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
+            "rank_index": 15,
+            "entity_id": 14335,
+            "entity_label": "Alpha Carotene (stereochemistry Specified)",
+            "entity_class": "Chemical Compound",
+            "score": 4.257356,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 4997,
+            "entity_label": "Iron Man 3",
+            "entity_class": "Movie",
+            "score": 8.382027,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 9,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 1748,
+            "entity_label": "University of Dhaka",
+            "entity_class": "Educational Institution",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 4982,
+            "entity_label": "Battle Royale",
+            "entity_class": "Video Game",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
             "entity_id": 6963,
             "entity_label": "Dead Poets Society",
             "entity_class": "Movie",
@@ -330,29 +314,45 @@
                 "key": 1
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 13922,
+            "entity_label": "Golf",
+            "entity_class": "Sport",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
         "12453": 1,
-        "14103": 2,
-        "7555": 3,
-        "809": 4,
-        "9010": 5,
-        "394": 6,
-        "784": 7,
-        "12190": 8,
-        "14348": 9,
-        "6076": 10,
-        "10415": 11,
-        "3551": 12,
-        "4785": 13,
-        "5310": 14,
-        "4997": 15,
-        "13691": 16,
-        "11498": 17,
-        "14335": 18,
-        "1985": 19,
-        "6963": 20
+        "6076": 2,
+        "7490": 3,
+        "12688": 4,
+        "4162": 5,
+        "12034": 6,
+        "3551": 7,
+        "4785": 8,
+        "10415": 9,
+        "5449": 10,
+        "9010": 11,
+        "5360": 12,
+        "9351": 13,
+        "1985": 14,
+        "14335": 15,
+        "4997": 16,
+        "1748": 17,
+        "4982": 18,
+        "6963": 19,
+        "13922": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Jennifer Hudson, relation=hasCauseOfDeath, tail=?)\n\nOntology summary:\n- Query relation: hasCauseOfDeath\n- Head entity: Jennifer Hudson\n- Head class: Actor\n- Relation domain: Disease\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=37, edges=49, paths=20\n- Head outgoing edges under target relation hasCauseOfDeath: 5\n- Key support nodes: Jennifer Hudson, Iron Man 3, Johannesburg, Dead Poets Society, Soviet Air Forces, Kate Bush, Alpha Carotene (stereochemistry Specified), Nunavut\n- Main auxiliary relations: geographic_distribution(18), hasCurrentClub(9), hasRosterPosition(8)\n\nFrequent relation path patterns:\n- hasCauseOfDeath -> geographic_distribution (count=15)\n- hasCauseOfDeath (count=5)\n\nCandidates:\n1. Old Dominion University [id=12453 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n2. Nunavut [id=14103 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n3. Ming-na Wen [id=7555 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Spike Jonze [id=809 | class=Director | type=0 | soft_type=1 | direct=1 | paths=1 | aux=2 | key=1]\n5. Daniel Roebuck [id=9010 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=1]\n6. Ed Harris [id=394 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Evan Rachel Wood [id=784 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Tom and Jerry [id=12190 | class=Cartoon | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n9. Soviet Air Forces [id=14348 | class=Military Branch | type=0 | soft_type=0 | direct=0 | paths=3 | aux=5 | key=1]\n10. Freestyle Skiing [id=6076 | class=Sport | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n11. Bernalillo County [id=10415 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n12. Peter Macnicol [id=3551 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]\n13. Kate Bush [id=4785 | class=Person | type=1 | soft_type=1 | direct=0 | paths=3 | aux=6 | key=1]\n14. King of the Hill [id=5310 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n15. Iron Man 3 [id=4997 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=3 | aux=9 | key=1]\n16. Pre-code Hollywood [id=13691 | class=Era | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=0]\n17. Robbie Keane [id=11498 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Alpha Carotene (stereochemistry Specified) [id=14335 | class=Chemical Compound | type=0 | soft_type=0 | direct=0 | paths=2 | aux=4 | key=1]\n19. Johannesburg [id=1985 | class=City | type=0 | soft_type=0 | direct=1 | paths=2 | aux=8 | key=1]\n20. Dead Poets Society [id=6963 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=2 | aux=7 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Jennifer Hudson, relation=hasCauseOfDeath, tail=?)\n\nOntology summary:\n- Query relation: hasCauseOfDeath\n- Head entity: Jennifer Hudson\n- Head class: Actor\n- Relation domain: Disease\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=37, edges=49, paths=20\n- Head outgoing edges under target relation hasCauseOfDeath: 5\n- Key support nodes: Jennifer Hudson, Iron Man 3, Johannesburg, Dead Poets Society, Soviet Air Forces, Kate Bush, Alpha Carotene (stereochemistry Specified), Nunavut\n- Main auxiliary relations: geographic_distribution(18), hasCurrentClub(9), hasRosterPosition(8)\n\nFrequent relation path patterns:\n- hasCauseOfDeath -> geographic_distribution (count=15)\n- hasCauseOfDeath (count=5)\n\nCandidates:\n1. Old Dominion University [id=12453 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n2. Freestyle Skiing [id=6076 | class=Sport | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n3. Colorado Springs [id=7490 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Atlantic Canada [id=12688 | class=Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Washboard [id=4162 | class=Tool | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. German Cuisine [id=12034 | class=Cuisine | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Peter Macnicol [id=3551 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]\n8. Kate Bush [id=4785 | class=Person | type=1 | soft_type=1 | direct=0 | paths=3 | aux=6 | key=1]\n9. Bernalillo County [id=10415 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n10. 36th Academy Awards [id=5449 | class=Award Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Daniel Roebuck [id=9010 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=1]\n12. Reprise Records [id=5360 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Twin Peaks [id=9351 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Johannesburg [id=1985 | class=City | type=0 | soft_type=0 | direct=1 | paths=2 | aux=8 | key=1]\n15. Alpha Carotene (stereochemistry Specified) [id=14335 | class=Chemical Compound | type=0 | soft_type=0 | direct=0 | paths=2 | aux=4 | key=1]\n16. Iron Man 3 [id=4997 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=3 | aux=9 | key=1]\n17. University of Dhaka [id=1748 | class=Educational Institution | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n18. Battle Royale [id=4982 | class=Video Game | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n19. Dead Poets Society [id=6963 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=2 | aux=7 | key=1]\n20. Golf [id=13922 | class=Sport | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

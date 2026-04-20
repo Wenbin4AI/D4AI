@@ -7,30 +7,30 @@
         "relation_label": "hasArtist",
         "gold_tail": 12473,
         "gold_tail_label": "Norwich",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 1
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 11171,
-            "entity_label": "Spongebob Squarepants",
-            "entity_class": "Animated Series",
-            "score": 0.0,
+            "entity_id": 12473,
+            "entity_label": "Norwich",
+            "entity_class": "City",
+            "score": 6.138333,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
             },
-            "is_gold": 0
+            "is_gold": 1
         },
         {
             "rank_index": 2,
-            "entity_id": 4513,
-            "entity_label": "Cameron Diaz",
+            "entity_id": 6900,
+            "entity_label": "Peter David",
             "entity_class": "Person",
             "score": 1.5,
             "features": {
@@ -45,22 +45,6 @@
         },
         {
             "rank_index": 3,
-            "entity_id": 8356,
-            "entity_label": "Funkadelic",
-            "entity_class": "Music Group",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
             "entity_id": 7799,
             "entity_label": "Igor Stravinsky",
             "entity_class": "Person",
@@ -76,14 +60,30 @@
             "is_gold": 0
         },
         {
-            "rank_index": 5,
-            "entity_id": 11075,
-            "entity_label": "Daniel Haller",
-            "entity_class": "Person",
-            "score": 1.5,
+            "rank_index": 4,
+            "entity_id": 5216,
+            "entity_label": "Michael Lerner",
+            "entity_class": "Actor",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 2077,
+            "entity_label": "Epic Records",
+            "entity_class": "Record Label",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -93,9 +93,9 @@
         },
         {
             "rank_index": 6,
-            "entity_id": 2506,
-            "entity_label": "Wayne Shorter",
-            "entity_class": "Musician",
+            "entity_id": 11154,
+            "entity_label": "Thomas Lennon",
+            "entity_class": "Person",
             "score": 1.5,
             "features": {
                 "type_match": 0,
@@ -109,13 +109,13 @@
         },
         {
             "rank_index": 7,
-            "entity_id": 8641,
-            "entity_label": "Jon Stone",
-            "entity_class": "Journalist",
-            "score": 0.0,
+            "entity_id": 3429,
+            "entity_label": "Michael G. Wilson",
+            "entity_class": "Person",
+            "score": 1.5,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 0,
+                "soft_type_match": 1,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -125,9 +125,9 @@
         },
         {
             "rank_index": 8,
-            "entity_id": 8801,
-            "entity_label": "The Outer Limits",
-            "entity_class": "Tv Series",
+            "entity_id": 3438,
+            "entity_label": "Norwich City F.c.",
+            "entity_class": "Football Club",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -141,13 +141,13 @@
         },
         {
             "rank_index": 9,
-            "entity_id": 7318,
-            "entity_label": "Paul Reubens",
-            "entity_class": "Person",
-            "score": 1.5,
+            "entity_id": 9313,
+            "entity_label": "Charles Baudelaire",
+            "entity_class": "Poet",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -157,13 +157,13 @@
         },
         {
             "rank_index": 10,
-            "entity_id": 12737,
-            "entity_label": "Ali",
-            "entity_class": "Person",
-            "score": 1.5,
+            "entity_id": 3737,
+            "entity_label": "University of Hamburg",
+            "entity_class": "University",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -173,9 +173,9 @@
         },
         {
             "rank_index": 11,
-            "entity_id": 8098,
-            "entity_label": "Mortal Kombat: Annihilation",
-            "entity_class": "Movie",
+            "entity_id": 11001,
+            "entity_label": "Ida Lupino",
+            "entity_class": "Actor",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -189,8 +189,8 @@
         },
         {
             "rank_index": 12,
-            "entity_id": 6900,
-            "entity_label": "Peter David",
+            "entity_id": 512,
+            "entity_label": "Daniel Inouye",
             "entity_class": "Person",
             "score": 1.5,
             "features": {
@@ -221,8 +221,8 @@
         },
         {
             "rank_index": 14,
-            "entity_id": 3429,
-            "entity_label": "Michael G. Wilson",
+            "entity_id": 4513,
+            "entity_label": "Cameron Diaz",
             "entity_class": "Person",
             "score": 1.5,
             "features": {
@@ -237,25 +237,25 @@
         },
         {
             "rank_index": 15,
-            "entity_id": 664,
-            "entity_label": "Timothy Olyphant",
-            "entity_class": "Actor",
-            "score": 4.812309,
+            "entity_id": 11301,
+            "entity_label": "Lake Michigan",
+            "entity_class": "Lake",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 7,
-                "aux_support": 1,
-                "key": 1
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 16,
-            "entity_id": 14205,
-            "entity_label": "Art Dealer",
-            "entity_class": "Profession",
+            "entity_id": 8098,
+            "entity_label": "Mortal Kombat: Annihilation",
+            "entity_class": "Movie",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -269,8 +269,8 @@
         },
         {
             "rank_index": 17,
-            "entity_id": 512,
-            "entity_label": "Daniel Inouye",
+            "entity_id": 11075,
+            "entity_label": "Daniel Haller",
             "entity_class": "Person",
             "score": 1.5,
             "features": {
@@ -285,13 +285,13 @@
         },
         {
             "rank_index": 18,
-            "entity_id": 11154,
-            "entity_label": "Thomas Lennon",
-            "entity_class": "Person",
-            "score": 1.5,
+            "entity_id": 4999,
+            "entity_label": "Club Universidad De Chile",
+            "entity_class": "Sports Club",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -301,58 +301,58 @@
         },
         {
             "rank_index": 19,
-            "entity_id": 12473,
-            "entity_label": "Norwich",
-            "entity_class": "City",
-            "score": 6.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 1
-        },
-        {
-            "rank_index": 20,
-            "entity_id": 1241,
-            "entity_label": "Cowbell",
-            "entity_class": "Object",
-            "score": 3.772589,
+            "entity_id": 11393,
+            "entity_label": "Andy Hallett",
+            "entity_class": "Actor",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 3,
-                "aux_support": 1,
-                "key": 1
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 12012,
+            "entity_label": "Williamsport",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "11171": 1,
-        "4513": 2,
-        "8356": 3,
-        "7799": 4,
-        "11075": 5,
-        "2506": 6,
-        "8641": 7,
-        "8801": 8,
-        "7318": 9,
-        "12737": 10,
-        "8098": 11,
-        "6900": 12,
+        "12473": 1,
+        "6900": 2,
+        "7799": 3,
+        "5216": 4,
+        "2077": 5,
+        "11154": 6,
+        "3429": 7,
+        "3438": 8,
+        "9313": 9,
+        "3737": 10,
+        "11001": 11,
+        "512": 12,
         "8502": 13,
-        "3429": 14,
-        "664": 15,
-        "14205": 16,
-        "512": 17,
-        "11154": 18,
-        "12473": 19,
-        "1241": 20
+        "4513": 14,
+        "11301": 15,
+        "8098": 16,
+        "11075": 17,
+        "4999": 18,
+        "11393": 19,
+        "12012": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Matthew Lillard, relation=hasArtist, tail=?)\n\nOntology summary:\n- Query relation: hasArtist\n- Head entity: Matthew Lillard\n- Head class: Person\n- Relation domain: Radio Station\n- Relation range: Band\n- Domain check: not clearly matched\n- Tail entities of class 'Band' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=45, edges=60, paths=20\n- Head outgoing edges under target relation hasArtist: 2\n- Key support nodes: Matthew Lillard, Alan J. Pakula, Tom Mccarthy, Timothy Olyphant, Norwich, Cowbell, University of California College of the Law, San Francisco, Training Day\n- Main auxiliary relations: hasDomesticTuition(20), hasImpersonatedCelebrities(5), foundIn(4)\n\nFrequent relation path patterns:\n- hasRosterPosition -> hasDomesticTuition -> hasArtist (count=15)\n- hasArtist -> hasImpersonatedCelebrities (count=3)\n- hasArtist (count=2)\n\nCandidates:\n1. Spongebob Squarepants [id=11171 | class=Animated Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Cameron Diaz [id=4513 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Funkadelic [id=8356 | class=Music Group | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Igor Stravinsky [id=7799 | class=Person | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]\n5. Daniel Haller [id=11075 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Wayne Shorter [id=2506 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Jon Stone [id=8641 | class=Journalist | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. The Outer Limits [id=8801 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Paul Reubens [id=7318 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Ali [id=12737 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Mortal Kombat: Annihilation [id=8098 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Peter David [id=6900 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Tom Mccarthy [id=8502 | class=Director | type=0 | soft_type=0 | direct=1 | paths=8 | aux=1 | key=1]\n14. Michael G. Wilson [id=3429 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Timothy Olyphant [id=664 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=7 | aux=1 | key=1]\n16. Art Dealer [id=14205 | class=Profession | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Daniel Inouye [id=512 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Thomas Lennon [id=11154 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Norwich [id=12473 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n20. Cowbell [id=1241 | class=Object | type=0 | soft_type=0 | direct=0 | paths=3 | aux=1 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Matthew Lillard, relation=hasArtist, tail=?)\n\nOntology summary:\n- Query relation: hasArtist\n- Head entity: Matthew Lillard\n- Head class: Person\n- Relation domain: Radio Station\n- Relation range: Band\n- Domain check: not clearly matched\n- Tail entities of class 'Band' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=45, edges=60, paths=20\n- Head outgoing edges under target relation hasArtist: 2\n- Key support nodes: Matthew Lillard, Alan J. Pakula, Tom Mccarthy, Timothy Olyphant, Norwich, Cowbell, University of California College of the Law, San Francisco, Training Day\n- Main auxiliary relations: hasDomesticTuition(20), hasImpersonatedCelebrities(5), foundIn(4)\n\nFrequent relation path patterns:\n- hasRosterPosition -> hasDomesticTuition -> hasArtist (count=15)\n- hasArtist -> hasImpersonatedCelebrities (count=3)\n- hasArtist (count=2)\n\nCandidates:\n1. Norwich [id=12473 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n2. Peter David [id=6900 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Igor Stravinsky [id=7799 | class=Person | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]\n4. Michael Lerner [id=5216 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Epic Records [id=2077 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Thomas Lennon [id=11154 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Michael G. Wilson [id=3429 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Norwich City F.c. [id=3438 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Charles Baudelaire [id=9313 | class=Poet | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. University of Hamburg [id=3737 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Ida Lupino [id=11001 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Daniel Inouye [id=512 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Tom Mccarthy [id=8502 | class=Director | type=0 | soft_type=0 | direct=1 | paths=8 | aux=1 | key=1]\n14. Cameron Diaz [id=4513 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Lake Michigan [id=11301 | class=Lake | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Mortal Kombat: Annihilation [id=8098 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Daniel Haller [id=11075 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Club Universidad De Chile [id=4999 | class=Sports Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Andy Hallett [id=11393 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Williamsport [id=12012 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

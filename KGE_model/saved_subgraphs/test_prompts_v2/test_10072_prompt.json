@@ -7,15 +7,15 @@
         "relation_label": "hasAthlete",
         "gold_tail": 795,
         "gold_tail_label": "Protestantism",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 8
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 10333,
-            "entity_label": "Equatorial Guinea National Association Football Team",
-            "entity_class": "Football Team",
+            "entity_id": 7949,
+            "entity_label": "Melodic Death Metal",
+            "entity_class": "Music Genre",
             "score": 1.039721,
             "features": {
                 "type_match": 0,
@@ -29,182 +29,6 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 5062,
-            "entity_label": "Philip Roth",
-            "entity_class": "Author",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 5268,
-            "entity_label": "Anna Faris",
-            "entity_class": "Actor",
-            "score": 2.539721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 3559,
-            "entity_label": "A.s. Roma",
-            "entity_class": "Football Club",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 8657,
-            "entity_label": "W. H. Auden",
-            "entity_class": "Poet",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 1926,
-            "entity_label": "Aisne",
-            "entity_class": "Province",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 7105,
-            "entity_label": "Trevor Howard",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 10309,
-            "entity_label": "George Hamilton",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 14466,
-            "entity_label": "Samurai",
-            "entity_class": "Historical Occupation",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 9676,
-            "entity_label": "Carlsbad",
-            "entity_class": "City",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 2043,
-            "entity_label": "T. Rajendar",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 5945,
-            "entity_label": "The Rose",
-            "entity_class": "Movie",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
             "entity_id": 3134,
             "entity_label": "Malcolm X",
             "entity_class": "Person",
@@ -220,41 +44,9 @@
             "is_gold": 0
         },
         {
-            "rank_index": 14,
-            "entity_id": 7997,
-            "entity_label": "Psychiatry",
-            "entity_class": "Field of Study",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 3246,
-            "entity_label": "Bob Newhart",
-            "entity_class": "Person",
-            "score": 5.539721,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 2134,
-            "entity_label": "Amber Riley",
+            "rank_index": 3,
+            "entity_id": 7105,
+            "entity_label": "Trevor Howard",
             "entity_class": "Actor",
             "score": 1.5,
             "features": {
@@ -268,14 +60,14 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 7780,
-            "entity_label": "Hank Azaria",
-            "entity_class": "Person",
-            "score": 4.5,
+            "rank_index": 4,
+            "entity_id": 9557,
+            "entity_label": "Anna Karenina",
+            "entity_class": "Book",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -284,14 +76,14 @@
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 3696,
-            "entity_label": "David O. Russell",
-            "entity_class": "Person",
-            "score": 4.5,
+            "rank_index": 5,
+            "entity_id": 9143,
+            "entity_label": "Coming to America",
+            "entity_class": "Movie",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -300,7 +92,39 @@
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 6,
+            "entity_id": 5268,
+            "entity_label": "Anna Faris",
+            "entity_class": "Actor",
+            "score": 2.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 3559,
+            "entity_label": "A.s. Roma",
+            "entity_class": "Football Club",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
             "entity_id": 795,
             "entity_label": "Protestantism",
             "entity_class": "Religion",
@@ -316,7 +140,119 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
+            "rank_index": 9,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 1926,
+            "entity_label": "Aisne",
+            "entity_class": "Province",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 13632,
+            "entity_label": "Taito",
+            "entity_class": "District",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 3561,
+            "entity_label": "Brandon",
+            "entity_class": "City",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 5574,
+            "entity_label": "Inverness Caledonian Thistle F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 8657,
+            "entity_label": "W. H. Auden",
+            "entity_class": "Poet",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 5062,
+            "entity_label": "Philip Roth",
+            "entity_class": "Author",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
             "entity_id": 12366,
             "entity_label": "Neil Ross",
             "entity_class": "Person",
@@ -330,29 +266,93 @@
                 "key": 0
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 3523,
+            "entity_label": "The Good Wife",
+            "entity_class": "Tv Show",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 12527,
+            "entity_label": "Foreigner",
+            "entity_class": "Band",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 4908,
+            "entity_label": "Special Tony Award",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 7322,
+            "entity_label": "French Third Republic",
+            "entity_class": "Government",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "10333": 1,
-        "5062": 2,
-        "5268": 3,
-        "3559": 4,
-        "8657": 5,
-        "1926": 6,
-        "7105": 7,
-        "10309": 8,
-        "14466": 9,
-        "9676": 10,
-        "2043": 11,
-        "5945": 12,
-        "3134": 13,
-        "7997": 14,
-        "3246": 15,
-        "2134": 16,
-        "7780": 17,
-        "3696": 18,
-        "795": 19,
-        "12366": 20
+        "7949": 1,
+        "3134": 2,
+        "7105": 3,
+        "9557": 4,
+        "9143": 5,
+        "5268": 6,
+        "3559": 7,
+        "795": 8,
+        "14037": 9,
+        "1926": 10,
+        "13632": 11,
+        "3561": 12,
+        "5574": 13,
+        "8657": 14,
+        "5062": 15,
+        "12366": 16,
+        "3523": 17,
+        "12527": 18,
+        "4908": 19,
+        "7322": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Syracuse Orange Football, relation=hasAthlete, tail=?)\n\nOntology summary:\n- Query relation: hasAthlete\n- Head entity: Syracuse Orange Football\n- Head class: Football Team\n- Relation domain: Sport\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=55, edges=56, paths=20\n- Head outgoing edges under target relation hasAthlete: 10\n- Key support nodes: Syracuse Orange Football, Battle of the Somme, Holy Cross Cemetery, Hellboy, Abraham Lincoln, Lounge Music, Holland Taylor, A.s. Roma\n- Main auxiliary relations: hasRegularPerformanceRole(7), influencedBy(7), hasEndowmentCurrency(6)\n\nFrequent relation path patterns:\n- hasAthlete (count=10)\n- hasRegularPerformanceRole -> influencedBy -> hasAthlete (count=10)\n\nCandidates:\n1. Equatorial Guinea National Association Football Team [id=10333 | class=Football Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n2. Philip Roth [id=5062 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Anna Faris [id=5268 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n4. A.s. Roma [id=3559 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. W. H. Auden [id=8657 | class=Poet | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n6. Aisne [id=1926 | class=Province | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Trevor Howard [id=7105 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. George Hamilton [id=10309 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n9. Samurai [id=14466 | class=Historical Occupation | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Carlsbad [id=9676 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. T. Rajendar [id=2043 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. The Rose [id=5945 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Malcolm X [id=3134 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n14. Psychiatry [id=7997 | class=Field of Study | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Bob Newhart [id=3246 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n16. Amber Riley [id=2134 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Hank Azaria [id=7780 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. David O. Russell [id=3696 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Protestantism [id=795 | class=Religion | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Neil Ross [id=12366 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Syracuse Orange Football, relation=hasAthlete, tail=?)\n\nOntology summary:\n- Query relation: hasAthlete\n- Head entity: Syracuse Orange Football\n- Head class: Football Team\n- Relation domain: Sport\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=55, edges=56, paths=20\n- Head outgoing edges under target relation hasAthlete: 10\n- Key support nodes: Syracuse Orange Football, Battle of the Somme, Holy Cross Cemetery, Hellboy, Abraham Lincoln, Lounge Music, Holland Taylor, A.s. Roma\n- Main auxiliary relations: hasRegularPerformanceRole(7), influencedBy(7), hasEndowmentCurrency(6)\n\nFrequent relation path patterns:\n- hasAthlete (count=10)\n- hasRegularPerformanceRole -> influencedBy -> hasAthlete (count=10)\n\nCandidates:\n1. Melodic Death Metal [id=7949 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n2. Malcolm X [id=3134 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n3. Trevor Howard [id=7105 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Anna Karenina [id=9557 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Coming to America [id=9143 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Anna Faris [id=5268 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n7. A.s. Roma [id=3559 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n8. Protestantism [id=795 | class=Religion | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Aisne [id=1926 | class=Province | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Taito [id=13632 | class=District | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Brandon [id=3561 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Inverness Caledonian Thistle F.c. [id=5574 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. W. H. Auden [id=8657 | class=Poet | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Philip Roth [id=5062 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Neil Ross [id=12366 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n17. The Good Wife [id=3523 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Foreigner [id=12527 | class=Band | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Special Tony Award [id=4908 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. French Third Republic [id=7322 | class=Government | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n"
 }

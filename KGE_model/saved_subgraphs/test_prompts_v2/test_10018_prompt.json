@@ -7,21 +7,21 @@
         "relation_label": "hasAdministrativeDivision",
         "gold_tail": 14323,
         "gold_tail_label": "Contemporary Hit Radio",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 5
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 13637,
-            "entity_label": "Paul Frees",
-            "entity_class": "Person",
-            "score": 4.039721,
+            "entity_id": 4860,
+            "entity_label": "Vladimir Horowitz",
+            "entity_class": "Pianist",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -29,31 +29,31 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 7623,
-            "entity_label": "Hollywood Squares",
-            "entity_class": "Tv Game Show",
-            "score": 5.039721,
+            "entity_id": 4245,
+            "entity_label": "An American in Paris",
+            "entity_class": "Movie",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 3,
-            "entity_id": 2717,
-            "entity_label": "I Love You Phillip Morris",
-            "entity_class": "Movie",
-            "score": 4.039721,
+            "entity_id": 9495,
+            "entity_label": "Joan Blondell",
+            "entity_class": "Actress",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -61,246 +61,22 @@
         },
         {
             "rank_index": 4,
-            "entity_id": 171,
-            "entity_label": "Cancer",
-            "entity_class": "Disease",
-            "score": 5.039721,
+            "entity_id": 3412,
+            "entity_label": "Philadelphia Eagles",
+            "entity_class": "Sports Team",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 5,
-            "entity_id": 13428,
-            "entity_label": "Greek Orthodox Church",
-            "entity_class": "Religious Organization",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 14225,
-            "entity_label": "Underground Hip Hop",
-            "entity_class": "Music Style",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 4571,
-            "entity_label": "Roy Orbison",
-            "entity_class": "Person",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 11311,
-            "entity_label": "Aik Fotboll",
-            "entity_class": "Football Club",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 2425,
-            "entity_label": "Northern Exposure",
-            "entity_class": "Tv Show",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 5688,
-            "entity_label": "The Village",
-            "entity_class": "Movie",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 5507,
-            "entity_label": "Curse of the Golden Flower",
-            "entity_class": "Movie",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 732,
-            "entity_label": "Jonny Lee Miller",
-            "entity_class": "Actor",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 11382,
-            "entity_label": "British Indian",
-            "entity_class": "Ethnicity",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 4150,
-            "entity_label": "Larry Niven",
-            "entity_class": "Author",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 2406,
-            "entity_label": "Robert B. Sherman",
-            "entity_class": "Composer",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 13981,
-            "entity_label": "Chess",
-            "entity_class": "Game",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
-            "entity_id": 2794,
-            "entity_label": "Liechtenstein",
-            "entity_class": "Location",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 822,
-            "entity_label": "Washington County",
-            "entity_class": "County",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
             "entity_id": 14323,
             "entity_label": "Contemporary Hit Radio",
             "entity_class": "Radio Format",
@@ -316,10 +92,10 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 4529,
-            "entity_label": "Joe Cocker",
-            "entity_class": "Singer",
+            "rank_index": 6,
+            "entity_id": 7623,
+            "entity_label": "Hollywood Squares",
+            "entity_class": "Tv Game Show",
             "score": 5.039721,
             "features": {
                 "type_match": 0,
@@ -330,29 +106,253 @@
                 "key": 1
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 14225,
+            "entity_label": "Underground Hip Hop",
+            "entity_class": "Music Style",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 2634,
+            "entity_label": "Jurassic Park",
+            "entity_class": "Work",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 6493,
+            "entity_label": "Live Free or Die Hard",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 2833,
+            "entity_label": "Dominic West",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 2558,
+            "entity_label": "Fred Zinnemann",
+            "entity_class": "Director",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 2899,
+            "entity_label": "Acclaim Entertainment",
+            "entity_class": "Company",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 9987,
+            "entity_label": "The Lord of the Rings",
+            "entity_class": "Book Series",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 13823,
+            "entity_label": "Freebsd",
+            "entity_class": "Operating System",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 13428,
+            "entity_label": "Greek Orthodox Church",
+            "entity_class": "Religious Organization",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 4571,
+            "entity_label": "Roy Orbison",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 4800,
+            "entity_label": "Google",
+            "entity_class": "Company",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 12249,
+            "entity_label": "Rayo Vallecano",
+            "entity_class": "Organization",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 2794,
+            "entity_label": "Liechtenstein",
+            "entity_class": "Location",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 12731,
+            "entity_label": "Que Viva El Amor De Chaves",
+            "entity_class": "Tv Show Episode",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "13637": 1,
-        "7623": 2,
-        "2717": 3,
-        "171": 4,
-        "13428": 5,
-        "14225": 6,
-        "4571": 7,
-        "11311": 8,
-        "2425": 9,
-        "5688": 10,
-        "5507": 11,
-        "732": 12,
-        "11382": 13,
-        "4150": 14,
-        "2406": 15,
-        "13981": 16,
-        "2794": 17,
-        "822": 18,
-        "14323": 19,
-        "4529": 20
+        "4860": 1,
+        "4245": 2,
+        "9495": 3,
+        "3412": 4,
+        "14323": 5,
+        "7623": 6,
+        "14225": 7,
+        "2634": 8,
+        "6493": 9,
+        "2833": 10,
+        "2558": 11,
+        "2899": 12,
+        "9987": 13,
+        "13823": 14,
+        "13428": 15,
+        "4571": 16,
+        "4800": 17,
+        "12249": 18,
+        "2794": 19,
+        "12731": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Denise Richards, relation=hasAdministrativeDivision, tail=?)\n\nOntology summary:\n- Query relation: hasAdministrativeDivision\n- Head entity: Denise Richards\n- Head class: Actor\n- Relation domain: State\n- Relation range: Country\n- Domain check: not clearly matched\n- Tail entities of class 'Country' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=42, edges=50, paths=20\n- Head outgoing edges under target relation hasAdministrativeDivision: 20\n- Key support nodes: Denise Richards, British Indian, Robert B. Sherman, Joe Cocker, Cancer, Hollywood Squares, Northern Exposure, Liechtenstein\n- Main auxiliary relations: hasLocation(4), hasRosterPosition(3), hasMedals(3)\n\nFrequent relation path patterns:\n- hasAdministrativeDivision (count=20)\n\nCandidates:\n1. Paul Frees [id=13637 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Hollywood Squares [id=7623 | class=Tv Game Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. I Love You Phillip Morris [id=2717 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Cancer [id=171 | class=Disease | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Greek Orthodox Church [id=13428 | class=Religious Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Underground Hip Hop [id=14225 | class=Music Style | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Roy Orbison [id=4571 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Aik Fotboll [id=11311 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Northern Exposure [id=2425 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. The Village [id=5688 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Curse of the Golden Flower [id=5507 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Jonny Lee Miller [id=732 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. British Indian [id=11382 | class=Ethnicity | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Larry Niven [id=4150 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Robert B. Sherman [id=2406 | class=Composer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Chess [id=13981 | class=Game | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Liechtenstein [id=2794 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Washington County [id=822 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Contemporary Hit Radio [id=14323 | class=Radio Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Joe Cocker [id=4529 | class=Singer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Denise Richards, relation=hasAdministrativeDivision, tail=?)\n\nOntology summary:\n- Query relation: hasAdministrativeDivision\n- Head entity: Denise Richards\n- Head class: Actor\n- Relation domain: State\n- Relation range: Country\n- Domain check: not clearly matched\n- Tail entities of class 'Country' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=42, edges=50, paths=20\n- Head outgoing edges under target relation hasAdministrativeDivision: 20\n- Key support nodes: Denise Richards, British Indian, Robert B. Sherman, Joe Cocker, Cancer, Hollywood Squares, Northern Exposure, Liechtenstein\n- Main auxiliary relations: hasLocation(4), hasRosterPosition(3), hasMedals(3)\n\nFrequent relation path patterns:\n- hasAdministrativeDivision (count=20)\n\nCandidates:\n1. Vladimir Horowitz [id=4860 | class=Pianist | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. An American in Paris [id=4245 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Joan Blondell [id=9495 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Philadelphia Eagles [id=3412 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Contemporary Hit Radio [id=14323 | class=Radio Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Hollywood Squares [id=7623 | class=Tv Game Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n7. Underground Hip Hop [id=14225 | class=Music Style | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Jurassic Park [id=2634 | class=Work | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Live Free or Die Hard [id=6493 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Dominic West [id=2833 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Fred Zinnemann [id=2558 | class=Director | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Acclaim Entertainment [id=2899 | class=Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. The Lord of the Rings [id=9987 | class=Book Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Freebsd [id=13823 | class=Operating System | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Greek Orthodox Church [id=13428 | class=Religious Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Roy Orbison [id=4571 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Google [id=4800 | class=Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Rayo Vallecano [id=12249 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Liechtenstein [id=2794 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Que Viva El Amor De Chaves [id=12731 | class=Tv Show Episode | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

@@ -7,15 +7,31 @@
         "relation_label": "hasCauseOfDeath",
         "gold_tail": 4598,
         "gold_tail_label": "Mercury Records",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 1
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 1985,
-            "entity_label": "Johannesburg",
-            "entity_class": "City",
+            "entity_id": 4598,
+            "entity_label": "Mercury Records",
+            "entity_class": "Record Label",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 10697,
+            "entity_label": "Osaka",
+            "entity_class": "Location",
             "score": 0.693147,
             "features": {
                 "type_match": 0,
@@ -28,30 +44,14 @@
             "is_gold": 0
         },
         {
-            "rank_index": 2,
-            "entity_id": 4709,
-            "entity_label": "Master of Science",
-            "entity_class": "Academic Degree",
-            "score": 6.138333,
+            "rank_index": 3,
+            "entity_id": 14335,
+            "entity_label": "Alpha Carotene (stereochemistry Specified)",
+            "entity_class": "Chemical Compound",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 784,
-            "entity_label": "Evan Rachel Wood",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -61,61 +61,61 @@
         },
         {
             "rank_index": 4,
-            "entity_id": 14485,
-            "entity_label": "Heterosexuality",
-            "entity_class": "Orientation",
-            "score": 6.83148,
+            "entity_id": 8052,
+            "entity_label": "Leo Mccarey",
+            "entity_class": "Film Director",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 2849,
+            "entity_label": "Yorkshire Terrier",
+            "entity_class": "Dog Breed",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 4382,
+            "entity_label": "The Life Aquatic with Steve Zissou",
+            "entity_class": "Movie",
+            "score": 7.439678,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
-                "path_count": 1,
+                "path_count": 2,
                 "aux_support": 5,
                 "key": 1
             },
             "is_gold": 0
         },
         {
-            "rank_index": 5,
-            "entity_id": 6963,
-            "entity_label": "Dead Poets Society",
-            "entity_class": "Movie",
-            "score": 4.034213,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 3,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 7724,
-            "entity_label": "Melbourne",
-            "entity_class": "City",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
             "rank_index": 7,
-            "entity_id": 1862,
-            "entity_label": "Ryan Kwanten",
-            "entity_class": "Actor",
-            "score": 1.5,
+            "entity_id": 7831,
+            "entity_label": "Chicken Little",
+            "entity_class": "Movie",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -125,61 +125,29 @@
         },
         {
             "rank_index": 8,
-            "entity_id": 746,
-            "entity_label": "Pirates of the Caribbean: the Curse of the Black Pearl",
-            "entity_class": "Movie Title",
-            "score": 1.098612,
+            "entity_id": 13691,
+            "entity_label": "Pre-code Hollywood",
+            "entity_class": "Era",
+            "score": 0.693147,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
-                "aux_support": 2,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 14348,
-            "entity_label": "Soviet Air Forces",
-            "entity_class": "Military Branch",
-            "score": 4.871201,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 3,
-                "aux_support": 5,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 9766,
-            "entity_label": "Angela's Ashes",
-            "entity_class": "Book",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
                 "aux_support": 1,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 11,
-            "entity_id": 7450,
-            "entity_label": "Max Casella",
-            "entity_class": "Actor",
-            "score": 1.5,
+            "rank_index": 9,
+            "entity_id": 12034,
+            "entity_label": "German Cuisine",
+            "entity_class": "Cuisine",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -188,23 +156,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 12,
-            "entity_id": 9010,
-            "entity_label": "Daniel Roebuck",
-            "entity_class": "Actor",
-            "score": 3.232868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
+            "rank_index": 10,
             "entity_id": 1707,
             "entity_label": "Beauty and the Beast",
             "entity_class": "Animated Movie",
@@ -220,46 +172,94 @@
             "is_gold": 0
         },
         {
-            "rank_index": 14,
-            "entity_id": 5310,
-            "entity_label": "King of the Hill",
-            "entity_class": "Tv Show",
-            "score": 1.732868,
+            "rank_index": 11,
+            "entity_id": 784,
+            "entity_label": "Evan Rachel Wood",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 746,
+            "entity_label": "Pirates of the Caribbean: the Curse of the Black Pearl",
+            "entity_class": "Movie Title",
+            "score": 1.098612,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
+                "path_count": 0,
+                "aux_support": 2,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 6090,
+            "entity_label": "Inxs",
+            "entity_class": "Music Group",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 9351,
+            "entity_label": "Twin Peaks",
+            "entity_class": "Tv Series",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 15,
-            "entity_id": 809,
-            "entity_label": "Spike Jonze",
-            "entity_class": "Director",
-            "score": 7.926015,
+            "entity_id": 6803,
+            "entity_label": "Blues Rock",
+            "entity_class": "Music Genre",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 3,
-                "key": 1
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 16,
-            "entity_id": 4878,
-            "entity_label": "Isaac Stern",
-            "entity_class": "Musician",
-            "score": 1.5,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -285,74 +285,74 @@
         },
         {
             "rank_index": 18,
-            "entity_id": 4997,
-            "entity_label": "Iron Man 3",
-            "entity_class": "Movie",
-            "score": 4.465736,
+            "entity_id": 11844,
+            "entity_label": "Saint Louis University",
+            "entity_class": "University",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 3,
-                "aux_support": 3,
-                "key": 1
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 19,
-            "entity_id": 4598,
-            "entity_label": "Mercury Records",
-            "entity_class": "Record Label",
-            "score": 4.039721,
+            "entity_id": 14348,
+            "entity_label": "Soviet Air Forces",
+            "entity_class": "Military Branch",
+            "score": 4.871201,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 5,
+                "key": 1
             },
-            "is_gold": 1
+            "is_gold": 0
         },
         {
             "rank_index": 20,
-            "entity_id": 4382,
-            "entity_label": "The Life Aquatic with Steve Zissou",
-            "entity_class": "Movie",
-            "score": 7.439678,
+            "entity_id": 809,
+            "entity_label": "Spike Jonze",
+            "entity_class": "Director",
+            "score": 7.926015,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 0,
+                "soft_type_match": 1,
                 "direct": 1,
-                "path_count": 2,
-                "aux_support": 5,
+                "path_count": 1,
+                "aux_support": 3,
                 "key": 1
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "1985": 1,
-        "4709": 2,
-        "784": 3,
-        "14485": 4,
-        "6963": 5,
-        "7724": 6,
-        "1862": 7,
-        "746": 8,
-        "14348": 9,
-        "9766": 10,
-        "7450": 11,
-        "9010": 12,
-        "1707": 13,
-        "5310": 14,
-        "809": 15,
-        "4878": 16,
+        "4598": 1,
+        "10697": 2,
+        "14335": 3,
+        "8052": 4,
+        "2849": 5,
+        "4382": 6,
+        "7831": 7,
+        "13691": 8,
+        "12034": 9,
+        "1707": 10,
+        "784": 11,
+        "746": 12,
+        "6090": 13,
+        "9351": 14,
+        "6803": 15,
+        "14037": 16,
         "4490": 17,
-        "4997": 18,
-        "4598": 19,
-        "4382": 20
+        "11844": 18,
+        "14348": 19,
+        "809": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Richard Kind, relation=hasCauseOfDeath, tail=?)\n\nOntology summary:\n- Query relation: hasCauseOfDeath\n- Head entity: Richard Kind\n- Head class: Person\n- Relation domain: Disease\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=37, edges=49, paths=20\n- Head outgoing edges under target relation hasCauseOfDeath: 7\n- Key support nodes: Richard Kind, Beauty and the Beast, The Life Aquatic with Steve Zissou, Heterosexuality, Soviet Air Forces, Iron Man 3, Washboard, Master of Science\n- Main auxiliary relations: geographic_distribution(17), hasCurrentClub(14), hasRosterPosition(5)\n\nFrequent relation path patterns:\n- hasCauseOfDeath -> geographic_distribution (count=13)\n- hasCauseOfDeath (count=6)\n- hasCauseOfDeath -> hasAppearance (count=1)\n\nCandidates:\n1. Johannesburg [id=1985 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n2. Master of Science [id=4709 | class=Academic Degree | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n3. Evan Rachel Wood [id=784 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Heterosexuality [id=14485 | class=Orientation | type=0 | soft_type=0 | direct=1 | paths=1 | aux=5 | key=1]\n5. Dead Poets Society [id=6963 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=2 | aux=3 | key=1]\n6. Melbourne [id=7724 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n7. Ryan Kwanten [id=1862 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Pirates of the Caribbean: the Curse of the Black Pearl [id=746 | class=Movie Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=0]\n9. Soviet Air Forces [id=14348 | class=Military Branch | type=0 | soft_type=0 | direct=0 | paths=3 | aux=5 | key=1]\n10. Angela's Ashes [id=9766 | class=Book | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n11. Max Casella [id=7450 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Daniel Roebuck [id=9010 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]\n13. Beauty and the Beast [id=1707 | class=Animated Movie | type=0 | soft_type=0 | direct=1 | paths=2 | aux=10 | key=1]\n14. King of the Hill [id=5310 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n15. Spike Jonze [id=809 | class=Director | type=0 | soft_type=1 | direct=1 | paths=1 | aux=3 | key=1]\n16. Isaac Stern [id=4878 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Peter Buck [id=4490 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Iron Man 3 [id=4997 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=3 | aux=3 | key=1]\n19. Mercury Records [id=4598 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. The Life Aquatic with Steve Zissou [id=4382 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=2 | aux=5 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Richard Kind, relation=hasCauseOfDeath, tail=?)\n\nOntology summary:\n- Query relation: hasCauseOfDeath\n- Head entity: Richard Kind\n- Head class: Person\n- Relation domain: Disease\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=37, edges=49, paths=20\n- Head outgoing edges under target relation hasCauseOfDeath: 7\n- Key support nodes: Richard Kind, Beauty and the Beast, The Life Aquatic with Steve Zissou, Heterosexuality, Soviet Air Forces, Iron Man 3, Washboard, Master of Science\n- Main auxiliary relations: geographic_distribution(17), hasCurrentClub(14), hasRosterPosition(5)\n\nFrequent relation path patterns:\n- hasCauseOfDeath -> geographic_distribution (count=13)\n- hasCauseOfDeath (count=6)\n- hasCauseOfDeath -> hasAppearance (count=1)\n\nCandidates:\n1. Mercury Records [id=4598 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Osaka [id=10697 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n3. Alpha Carotene (stereochemistry Specified) [id=14335 | class=Chemical Compound | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Leo Mccarey [id=8052 | class=Film Director | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Yorkshire Terrier [id=2849 | class=Dog Breed | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. The Life Aquatic with Steve Zissou [id=4382 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=2 | aux=5 | key=1]\n7. Chicken Little [id=7831 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Pre-code Hollywood [id=13691 | class=Era | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n9. German Cuisine [id=12034 | class=Cuisine | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Beauty and the Beast [id=1707 | class=Animated Movie | type=0 | soft_type=0 | direct=1 | paths=2 | aux=10 | key=1]\n11. Evan Rachel Wood [id=784 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Pirates of the Caribbean: the Curse of the Black Pearl [id=746 | class=Movie Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=0]\n13. Inxs [id=6090 | class=Music Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Twin Peaks [id=9351 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Blues Rock [id=6803 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Peter Buck [id=4490 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Saint Louis University [id=11844 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Soviet Air Forces [id=14348 | class=Military Branch | type=0 | soft_type=0 | direct=0 | paths=3 | aux=5 | key=1]\n20. Spike Jonze [id=809 | class=Director | type=0 | soft_type=1 | direct=1 | paths=1 | aux=3 | key=1]\n"
 }

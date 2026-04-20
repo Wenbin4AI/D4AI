@@ -7,108 +7,12 @@
         "relation_label": "hasGovernmentPosition",
         "gold_tail": 6422,
         "gold_tail_label": "Diane Lane",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 5
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 13958,
-            "entity_label": "Chrono Crusade",
-            "entity_class": "Anime",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
-            "entity_id": 12125,
-            "entity_label": "Kitsap County",
-            "entity_class": "Administrative Region",
-            "score": 6.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 10330,
-            "entity_label": "Sepsis",
-            "entity_class": "Disease",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 11840,
-            "entity_label": "Tom Berenger",
-            "entity_class": "Actor",
-            "score": 6.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 2904,
-            "entity_label": "Westwood Village Memorial Park Cemetery",
-            "entity_class": "Cemetery",
-            "score": 5.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 12681,
-            "entity_label": "Constantine",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
             "entity_id": 14440,
             "entity_label": "Brompton Cemetery",
             "entity_class": "Cemetery",
@@ -124,10 +28,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 8,
-            "entity_id": 14229,
-            "entity_label": "Strongman",
-            "entity_class": "Athletic Event",
+            "rank_index": 2,
+            "entity_id": 8726,
+            "entity_label": "Adult Contemporary Music",
+            "entity_class": "Music Genre",
             "score": 4.039721,
             "features": {
                 "type_match": 0,
@@ -140,30 +44,14 @@
             "is_gold": 0
         },
         {
-            "rank_index": 9,
-            "entity_id": 13754,
-            "entity_label": "Dirty Rap",
-            "entity_class": "Music Genre",
-            "score": 5.732868,
+            "rank_index": 3,
+            "entity_id": 1291,
+            "entity_label": "Aidan Quinn",
+            "entity_class": "Actor",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 12400,
-            "entity_label": "Kristine Sutherland",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -172,135 +60,23 @@
             "is_gold": 0
         },
         {
-            "rank_index": 11,
-            "entity_id": 12965,
-            "entity_label": "Robert Schumann",
-            "entity_class": "Composer",
-            "score": 4.039721,
+            "rank_index": 4,
+            "entity_id": 12125,
+            "entity_label": "Kitsap County",
+            "entity_class": "Administrative Region",
+            "score": 6.138333,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
                 "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 13230,
-            "entity_label": "Leuven",
-            "entity_class": "City",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
+                "aux_support": 2,
                 "key": 1
             },
             "is_gold": 0
         },
         {
-            "rank_index": 13,
-            "entity_id": 5323,
-            "entity_label": "University of New Orleans",
-            "entity_class": "University",
-            "score": 6.649159,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 4,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 4438,
-            "entity_label": "Tangled",
-            "entity_class": "Movie",
-            "score": 4.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 14170,
-            "entity_label": "Bozeman",
-            "entity_class": "City",
-            "score": 6.426015,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 3,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 6937,
-            "entity_label": "Political Film",
-            "entity_class": "Genre",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
-            "entity_id": 12207,
-            "entity_label": "West Indies Cricket Team",
-            "entity_class": "International Cricket Team",
-            "score": 5.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 2769,
-            "entity_label": "Shooting Sport",
-            "entity_class": "Sport",
-            "score": 5.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
+            "rank_index": 5,
             "entity_id": 6422,
             "entity_label": "Diane Lane",
             "entity_class": "Actress",
@@ -316,10 +92,202 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 2564,
-            "entity_label": "Ricky Nelson",
-            "entity_class": "Musician",
+            "rank_index": 6,
+            "entity_id": 10041,
+            "entity_label": "National Taiwan University",
+            "entity_class": "University",
+            "score": 1.098612,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 2,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 4416,
+            "entity_label": "Luc Besson",
+            "entity_class": "Director",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 2456,
+            "entity_label": "Atheism",
+            "entity_class": "Philosophy",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 8540,
+            "entity_label": "Crimean Astrophysical Observatory",
+            "entity_class": "Observatory",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 11443,
+            "entity_label": "Late Show with David Letterman",
+            "entity_class": "Tv Show",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 1287,
+            "entity_label": "Appalachian Dulcimer",
+            "entity_class": "Musical Instrument",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 1567,
+            "entity_label": "Lehigh University",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 6424,
+            "entity_label": "Ballet Shoes",
+            "entity_class": "Item",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 5460,
+            "entity_label": "Saturn Award for the Best Actor",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 5910,
+            "entity_label": "Tom Cruise",
+            "entity_class": "Actor",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 11840,
+            "entity_label": "Tom Berenger",
+            "entity_class": "Actor",
+            "score": 6.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 12400,
+            "entity_label": "Kristine Sutherland",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 14170,
+            "entity_label": "Bozeman",
+            "entity_class": "City",
             "score": 6.426015,
             "features": {
                 "type_match": 0,
@@ -330,29 +298,61 @@
                 "key": 1
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 13230,
+            "entity_label": "Leuven",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 11615,
+            "entity_label": "Belarus National Football Team",
+            "entity_class": "National Sports Team",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "13958": 1,
-        "12125": 2,
-        "10330": 3,
-        "11840": 4,
-        "2904": 5,
-        "12681": 6,
-        "14440": 7,
-        "14229": 8,
-        "13754": 9,
-        "12400": 10,
-        "12965": 11,
-        "13230": 12,
-        "5323": 13,
-        "4438": 14,
-        "14170": 15,
-        "6937": 16,
-        "12207": 17,
-        "2769": 18,
-        "6422": 19,
-        "2564": 20
+        "14440": 1,
+        "8726": 2,
+        "1291": 3,
+        "12125": 4,
+        "6422": 5,
+        "10041": 6,
+        "4416": 7,
+        "2456": 8,
+        "8540": 9,
+        "11443": 10,
+        "1287": 11,
+        "1567": 12,
+        "6424": 13,
+        "5460": 14,
+        "5910": 15,
+        "11840": 16,
+        "12400": 17,
+        "14170": 18,
+        "13230": 19,
+        "11615": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Beitar Jerusalem F.c., relation=hasGovernmentPosition, tail=?)\n\nOntology summary:\n- Query relation: hasGovernmentPosition\n- Head entity: Beitar Jerusalem F.c.\n- Head class: Sports Team\n- Relation domain: Person\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=39, edges=47, paths=20\n- Head outgoing edges under target relation hasGovernmentPosition: 20\n- Key support nodes: Beitar Jerusalem F.c., Bozeman, Tom Berenger, Kitsap County, Dirty Rap, Ricky Nelson, University of New Orleans, Leuven\n- Main auxiliary relations: hasImpersonatedCelebrities(14), hasAthlete(4), hasReligion(3)\n\nFrequent relation path patterns:\n- hasGovernmentPosition (count=20)\n\nCandidates:\n1. Chrono Crusade [id=13958 | class=Anime | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Kitsap County [id=12125 | class=Administrative Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n3. Sepsis [id=10330 | class=Disease | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Tom Berenger [id=11840 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n5. Westwood Village Memorial Park Cemetery [id=2904 | class=Cemetery | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=0]\n6. Constantine [id=12681 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Brompton Cemetery [id=14440 | class=Cemetery | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Strongman [id=14229 | class=Athletic Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Dirty Rap [id=13754 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n10. Kristine Sutherland [id=12400 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Robert Schumann [id=12965 | class=Composer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Leuven [id=13230 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. University of New Orleans [id=5323 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=4 | key=1]\n14. Tangled [id=4438 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]\n15. Bozeman [id=14170 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n16. Political Film [id=6937 | class=Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. West Indies Cricket Team [id=12207 | class=International Cricket Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n18. Shooting Sport [id=2769 | class=Sport | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n19. Diane Lane [id=6422 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Ricky Nelson [id=2564 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Beitar Jerusalem F.c., relation=hasGovernmentPosition, tail=?)\n\nOntology summary:\n- Query relation: hasGovernmentPosition\n- Head entity: Beitar Jerusalem F.c.\n- Head class: Sports Team\n- Relation domain: Person\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=39, edges=47, paths=20\n- Head outgoing edges under target relation hasGovernmentPosition: 20\n- Key support nodes: Beitar Jerusalem F.c., Bozeman, Tom Berenger, Kitsap County, Dirty Rap, Ricky Nelson, University of New Orleans, Leuven\n- Main auxiliary relations: hasImpersonatedCelebrities(14), hasAthlete(4), hasReligion(3)\n\nFrequent relation path patterns:\n- hasGovernmentPosition (count=20)\n\nCandidates:\n1. Brompton Cemetery [id=14440 | class=Cemetery | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Adult Contemporary Music [id=8726 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n3. Aidan Quinn [id=1291 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Kitsap County [id=12125 | class=Administrative Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n5. Diane Lane [id=6422 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. National Taiwan University [id=10041 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=0]\n7. Luc Besson [id=4416 | class=Director | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Atheism [id=2456 | class=Philosophy | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Crimean Astrophysical Observatory [id=8540 | class=Observatory | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Late Show with David Letterman [id=11443 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Appalachian Dulcimer [id=1287 | class=Musical Instrument | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Lehigh University [id=1567 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Ballet Shoes [id=6424 | class=Item | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n14. Saturn Award for the Best Actor [id=5460 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Tom Cruise [id=5910 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n16. Tom Berenger [id=11840 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n17. Kristine Sutherland [id=12400 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Bozeman [id=14170 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n19. Leuven [id=13230 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Belarus National Football Team [id=11615 | class=National Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n"
 }

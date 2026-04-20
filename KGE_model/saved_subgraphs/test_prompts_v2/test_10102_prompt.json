@@ -7,21 +7,21 @@
         "relation_label": "hasAthlete",
         "gold_tail": 1804,
         "gold_tail_label": "Carbohydrate",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 17
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 9557,
-            "entity_label": "Anna Karenina",
-            "entity_class": "Book",
-            "score": 4.039721,
+            "entity_id": 10309,
+            "entity_label": "George Hamilton",
+            "entity_class": "Actor",
+            "score": 1.5,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -29,6 +29,22 @@
         },
         {
             "rank_index": 2,
+            "entity_id": 4908,
+            "entity_label": "Special Tony Award",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
             "entity_id": 12754,
             "entity_label": "Gironde",
             "entity_class": "Province",
@@ -44,71 +60,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 3,
-            "entity_id": 4043,
-            "entity_label": "Canoe Sprint",
-            "entity_class": "Sport",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
             "rank_index": 4,
-            "entity_id": 1926,
-            "entity_label": "Aisne",
-            "entity_class": "Province",
-            "score": 5.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 10440,
-            "entity_label": "Jeff Meckstroth",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 4133,
-            "entity_label": "Matthew Mcconaughey",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
             "entity_id": 1948,
             "entity_label": "The Wharton School",
             "entity_class": "School",
@@ -124,103 +76,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 8,
-            "entity_id": 3105,
-            "entity_label": "Kenny Rogers",
-            "entity_class": "Musician",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 3523,
-            "entity_label": "The Good Wife",
-            "entity_class": "Tv Show",
-            "score": 5.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 3696,
-            "entity_label": "David O. Russell",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 11810,
-            "entity_label": "My-hime",
-            "entity_class": "Anime",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 11159,
-            "entity_label": "Cliff Richard",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 3134,
-            "entity_label": "Malcolm X",
-            "entity_class": "Person",
-            "score": 9.539721,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
+            "rank_index": 5,
             "entity_id": 3017,
             "entity_label": "Nick Mason",
             "entity_class": "Person",
@@ -236,14 +92,62 @@
             "is_gold": 0
         },
         {
-            "rank_index": 15,
-            "entity_id": 7105,
-            "entity_label": "Trevor Howard",
-            "entity_class": "Actor",
-            "score": 7.147918,
+            "rank_index": 6,
+            "entity_id": 2168,
+            "entity_label": "Inception",
+            "entity_class": "Movie",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 10440,
+            "entity_label": "Jeff Meckstroth",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
                 "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 9742,
+            "entity_label": "World Trade Center",
+            "entity_class": "Building",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 1926,
+            "entity_label": "Aisne",
+            "entity_class": "Province",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 1,
                 "path_count": 2,
                 "aux_support": 0,
@@ -252,7 +156,23 @@
             "is_gold": 0
         },
         {
-            "rank_index": 16,
+            "rank_index": 10,
+            "entity_id": 1045,
+            "entity_label": "Fish Tank",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
             "entity_id": 8787,
             "entity_label": "Queens Park Rangers F.c.",
             "entity_class": "Football Club",
@@ -268,25 +188,25 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 11597,
-            "entity_label": "Villarreal Cf",
-            "entity_class": "Organization",
-            "score": 5.039721,
+            "rank_index": 12,
+            "entity_id": 1536,
+            "entity_label": "Michael Gambon",
+            "entity_class": "Actor",
+            "score": 1.5,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 7780,
-            "entity_label": "Hank Azaria",
+            "rank_index": 13,
+            "entity_id": 4133,
+            "entity_label": "Matthew Mcconaughey",
             "entity_class": "Person",
             "score": 4.5,
             "features": {
@@ -300,7 +220,55 @@
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 14,
+            "entity_id": 12998,
+            "entity_label": "Central Coast Mariners Fc",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 11810,
+            "entity_label": "My-hime",
+            "entity_class": "Anime",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 3523,
+            "entity_label": "The Good Wife",
+            "entity_class": "Tv Show",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
             "entity_id": 1804,
             "entity_label": "Carbohydrate",
             "entity_class": "Biochemical Compound",
@@ -316,43 +284,75 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 9676,
-            "entity_label": "Carlsbad",
-            "entity_class": "City",
-            "score": 6.079442,
+            "rank_index": 18,
+            "entity_id": 3696,
+            "entity_label": "David O. Russell",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 795,
+            "entity_label": "Protestantism",
+            "entity_class": "Religion",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 3,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 10907,
+            "entity_label": "35th Canadian Parliament",
+            "entity_class": "Government Institution",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "9557": 1,
-        "12754": 2,
-        "4043": 3,
-        "1926": 4,
-        "10440": 5,
-        "4133": 6,
-        "1948": 7,
-        "3105": 8,
-        "3523": 9,
-        "3696": 10,
-        "11810": 11,
-        "11159": 12,
-        "3134": 13,
-        "3017": 14,
-        "7105": 15,
-        "8787": 16,
-        "11597": 17,
-        "7780": 18,
-        "1804": 19,
-        "9676": 20
+        "10309": 1,
+        "4908": 2,
+        "12754": 3,
+        "1948": 4,
+        "3017": 5,
+        "2168": 6,
+        "10440": 7,
+        "9742": 8,
+        "1926": 9,
+        "1045": 10,
+        "8787": 11,
+        "1536": 12,
+        "4133": 13,
+        "12998": 14,
+        "11810": 15,
+        "3523": 16,
+        "1804": 17,
+        "3696": 18,
+        "795": 19,
+        "10907": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=The Elephant Man, relation=hasAthlete, tail=?)\n\nOntology summary:\n- Query relation: hasAthlete\n- Head entity: The Elephant Man\n- Head class: Movie\n- Relation domain: Sport\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=46, edges=52, paths=20\n- Head outgoing edges under target relation hasAthlete: 14\n- Key support nodes: The Elephant Man, Noah Taylor, Carlsbad, Aisne, Gironde, Trevor Howard, The Good Wife, Jefferson County\n- Main auxiliary relations: hasEndowmentCurrency(11), hasWinner(9), hasImpersonatedCelebrities(5)\n\nFrequent relation path patterns:\n- hasAthlete (count=14)\n- hasImpersonatedCelebrities -> hasAthlete (count=6)\n\nCandidates:\n1. Anna Karenina [id=9557 | class=Book | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Gironde [id=12754 | class=Province | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n3. Canoe Sprint [id=4043 | class=Sport | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Aisne [id=1926 | class=Province | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n5. Jeff Meckstroth [id=10440 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Matthew Mcconaughey [id=4133 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. The Wharton School [id=1948 | class=School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Kenny Rogers [id=3105 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. The Good Wife [id=3523 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n10. David O. Russell [id=3696 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. My-hime [id=11810 | class=Anime | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Cliff Richard [id=11159 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Malcolm X [id=3134 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n14. Nick Mason [id=3017 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Trevor Howard [id=7105 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=2 | aux=0 | key=1]\n16. Queens Park Rangers F.c. [id=8787 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Villarreal Cf [id=11597 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Hank Azaria [id=7780 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Carbohydrate [id=1804 | class=Biochemical Compound | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Carlsbad [id=9676 | class=City | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=The Elephant Man, relation=hasAthlete, tail=?)\n\nOntology summary:\n- Query relation: hasAthlete\n- Head entity: The Elephant Man\n- Head class: Movie\n- Relation domain: Sport\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=46, edges=52, paths=20\n- Head outgoing edges under target relation hasAthlete: 14\n- Key support nodes: The Elephant Man, Noah Taylor, Carlsbad, Aisne, Gironde, Trevor Howard, The Good Wife, Jefferson County\n- Main auxiliary relations: hasEndowmentCurrency(11), hasWinner(9), hasImpersonatedCelebrities(5)\n\nFrequent relation path patterns:\n- hasAthlete (count=14)\n- hasImpersonatedCelebrities -> hasAthlete (count=6)\n\nCandidates:\n1. George Hamilton [id=10309 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n2. Special Tony Award [id=4908 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Gironde [id=12754 | class=Province | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n4. The Wharton School [id=1948 | class=School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n5. Nick Mason [id=3017 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Inception [id=2168 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Jeff Meckstroth [id=10440 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. World Trade Center [id=9742 | class=Building | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Aisne [id=1926 | class=Province | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n10. Fish Tank [id=1045 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Queens Park Rangers F.c. [id=8787 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Michael Gambon [id=1536 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Matthew Mcconaughey [id=4133 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n14. Central Coast Mariners Fc [id=12998 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. My-hime [id=11810 | class=Anime | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n16. The Good Wife [id=3523 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n17. Carbohydrate [id=1804 | class=Biochemical Compound | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n18. David O. Russell [id=3696 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Protestantism [id=795 | class=Religion | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. 35th Canadian Parliament [id=10907 | class=Government Institution | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

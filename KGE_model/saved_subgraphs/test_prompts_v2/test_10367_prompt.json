@@ -7,15 +7,15 @@
         "relation_label": "hasRosterPosition",
         "gold_tail": 13353,
         "gold_tail_label": "Uk Garage",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 5
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 6169,
-            "entity_label": "Jorma Taccone",
-            "entity_class": "Person",
+            "entity_id": 11490,
+            "entity_label": "Warwickshire",
+            "entity_class": "County",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -29,54 +29,6 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 912,
-            "entity_label": "72nd Academy Awards",
-            "entity_class": "Academy Awards",
-            "score": 2.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 3776,
-            "entity_label": "Hope Springs",
-            "entity_class": "Movie",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 14072,
-            "entity_label": "Glitch",
-            "entity_class": "Music Subgenre",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
             "entity_id": 14246,
             "entity_label": "Microsoft Windows",
             "entity_class": "Software",
@@ -92,169 +44,9 @@
             "is_gold": 0
         },
         {
-            "rank_index": 6,
-            "entity_id": 2376,
-            "entity_label": "Munich",
-            "entity_class": "City",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 1782,
-            "entity_label": "Arthur Rankin Jr.",
-            "entity_class": "Director and Producer",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 743,
-            "entity_label": "Some Kind of Monster",
-            "entity_class": "Movie Title",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 12171,
-            "entity_label": "Iron",
-            "entity_class": "Substance",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 3103,
-            "entity_label": "Research",
-            "entity_class": "Field of Study",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 13511,
-            "entity_label": "Shochiku",
-            "entity_class": "Company",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 864,
-            "entity_label": "Joel Grey",
-            "entity_class": "Actor",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 12009,
-            "entity_label": "Harry Andrews",
-            "entity_class": "Person",
-            "score": 7.847424,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 12,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 5817,
-            "entity_label": "Why We Fight",
-            "entity_class": "Film",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 5700,
-            "entity_label": "Primary Colors",
-            "entity_class": "Movie",
-            "score": 5.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 805,
-            "entity_label": "The Lord of the Rings: the Fellowship of the Ring",
+            "rank_index": 3,
+            "entity_id": 303,
+            "entity_label": "The Aristocrats",
             "entity_class": "Movie",
             "score": 0.0,
             "features": {
@@ -268,25 +60,9 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 8811,
-            "entity_label": "Southend United F.c.",
-            "entity_class": "Football Club",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 12677,
-            "entity_label": "Alan J. Pakula",
+            "rank_index": 4,
+            "entity_id": 3343,
+            "entity_label": "Clive Owen",
             "entity_class": "Person",
             "score": 0.0,
             "features": {
@@ -300,7 +76,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 5,
             "entity_id": 13353,
             "entity_label": "Uk Garage",
             "entity_class": "Music Genre",
@@ -316,7 +92,103 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
+            "rank_index": 6,
+            "entity_id": 4465,
+            "entity_label": "Platoon",
+            "entity_class": "Film",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 864,
+            "entity_label": "Joel Grey",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 12677,
+            "entity_label": "Alan J. Pakula",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 3103,
+            "entity_label": "Research",
+            "entity_class": "Field of Study",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 5817,
+            "entity_label": "Why We Fight",
+            "entity_class": "Film",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8743,
+            "entity_label": "Lenny Bruce",
+            "entity_class": "Comedian",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
             "entity_id": 4864,
             "entity_label": "Set Dresser",
             "entity_class": "Job Title",
@@ -330,29 +202,157 @@
                 "key": 1
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 10246,
+            "entity_label": "Fayette County",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 912,
+            "entity_label": "72nd Academy Awards",
+            "entity_class": "Academy Awards",
+            "score": 2.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 7280,
+            "entity_label": "George Lopez",
+            "entity_class": "Comedian",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 2590,
+            "entity_label": "New Castle County",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 9830,
+            "entity_label": "Cambridge United F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 8137,
+            "entity_label": "Edmund Husserl",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 2376,
+            "entity_label": "Munich",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 11871,
+            "entity_label": "Butch Hartman",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "6169": 1,
-        "912": 2,
-        "3776": 3,
-        "14072": 4,
-        "14246": 5,
-        "2376": 6,
-        "1782": 7,
-        "743": 8,
-        "12171": 9,
-        "3103": 10,
-        "13511": 11,
-        "864": 12,
-        "12009": 13,
-        "5817": 14,
-        "5700": 15,
-        "805": 16,
-        "8811": 17,
-        "12677": 18,
-        "13353": 19,
-        "4864": 20
+        "11490": 1,
+        "14246": 2,
+        "303": 3,
+        "3343": 4,
+        "13353": 5,
+        "4465": 6,
+        "864": 7,
+        "12677": 8,
+        "3103": 9,
+        "5817": 10,
+        "8743": 11,
+        "4864": 12,
+        "10246": 13,
+        "912": 14,
+        "7280": 15,
+        "2590": 16,
+        "9830": 17,
+        "8137": 18,
+        "2376": 19,
+        "11871": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Dunfermline Athletic F.c., relation=hasRosterPosition, tail=?)\n\nOntology summary:\n- Query relation: hasRosterPosition\n- Head entity: Dunfermline Athletic F.c.\n- Head class: Football Club\n- Relation domain: Football Club\n- Relation range: Position\n- Domain check: matched\n- Tail entities of class 'Position' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=35, edges=49, paths=20\n- Head outgoing edges under target relation hasRosterPosition: 5\n- Key support nodes: Dunfermline Athletic F.c., Harry Andrews, Legion of Honour, Jackie Cooper, John Carpenter, Primary Colors, Set Dresser, Glitch\n- Main auxiliary relations: hasEndowmentCurrency(12), hasDomesticTuition(3), hasRegularPerformanceRole(2)\n\nFrequent relation path patterns:\n- hasWriter -> hasEndowmentCurrency -> hasRosterPosition (count=11)\n- hasRosterPosition (count=5)\n- influencedBy -> hasRegularPerformanceRole -> hasRosterPosition (count=4)\n\nCandidates:\n1. Jorma Taccone [id=6169 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. 72nd Academy Awards [id=912 | class=Academy Awards | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n3. Hope Springs [id=3776 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Glitch [id=14072 | class=Music Subgenre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Microsoft Windows [id=14246 | class=Software | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Munich [id=2376 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Arthur Rankin Jr. [id=1782 | class=Director and Producer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Some Kind of Monster [id=743 | class=Movie Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Iron [id=12171 | class=Substance | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n10. Research [id=3103 | class=Field of Study | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Shochiku [id=13511 | class=Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Joel Grey [id=864 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Harry Andrews [id=12009 | class=Person | type=0 | soft_type=0 | direct=1 | paths=12 | aux=0 | key=1]\n14. Why We Fight [id=5817 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Primary Colors [id=5700 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n16. The Lord of the Rings: the Fellowship of the Ring [id=805 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Southend United F.c. [id=8811 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n18. Alan J. Pakula [id=12677 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Uk Garage [id=13353 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Set Dresser [id=4864 | class=Job Title | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Dunfermline Athletic F.c., relation=hasRosterPosition, tail=?)\n\nOntology summary:\n- Query relation: hasRosterPosition\n- Head entity: Dunfermline Athletic F.c.\n- Head class: Football Club\n- Relation domain: Football Club\n- Relation range: Position\n- Domain check: matched\n- Tail entities of class 'Position' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=35, edges=49, paths=20\n- Head outgoing edges under target relation hasRosterPosition: 5\n- Key support nodes: Dunfermline Athletic F.c., Harry Andrews, Legion of Honour, Jackie Cooper, John Carpenter, Primary Colors, Set Dresser, Glitch\n- Main auxiliary relations: hasEndowmentCurrency(12), hasDomesticTuition(3), hasRegularPerformanceRole(2)\n\nFrequent relation path patterns:\n- hasWriter -> hasEndowmentCurrency -> hasRosterPosition (count=11)\n- hasRosterPosition (count=5)\n- influencedBy -> hasRegularPerformanceRole -> hasRosterPosition (count=4)\n\nCandidates:\n1. Warwickshire [id=11490 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Microsoft Windows [id=14246 | class=Software | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. The Aristocrats [id=303 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Clive Owen [id=3343 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Uk Garage [id=13353 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Platoon [id=4465 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Joel Grey [id=864 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Alan J. Pakula [id=12677 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Research [id=3103 | class=Field of Study | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Why We Fight [id=5817 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Lenny Bruce [id=8743 | class=Comedian | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Set Dresser [id=4864 | class=Job Title | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. Fayette County [id=10246 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. 72nd Academy Awards [id=912 | class=Academy Awards | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n15. George Lopez [id=7280 | class=Comedian | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. New Castle County [id=2590 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Cambridge United F.c. [id=9830 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Edmund Husserl [id=8137 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Munich [id=2376 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Butch Hartman [id=11871 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

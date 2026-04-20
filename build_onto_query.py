@@ -221,11 +221,6 @@ def select_candidates_with_single_gold(
     candidate_limit=20,
     random_seed=42
 ):
-    """
-    返回:
-    - selected_infos: 长度为 candidate_limit，且只包含一个 gold_tail
-    - gold_tail 必须在其中
-    """
     if gold_tail is None:
         raise ValueError("Subgraph missing gold_tail; cannot enforce exactly one true candidate.")
 
@@ -248,7 +243,6 @@ def select_candidates_with_single_gold(
         )
         all_infos.append(info)
 
-    # gold
     gold_info = None
     negatives = []
     for info in all_infos:
@@ -260,21 +254,20 @@ def select_candidates_with_single_gold(
     if gold_info is None:
         raise ValueError(f"gold_tail={gold_tail} not found in candidate_tails")
 
-    # 负样本按“迷惑性”排序：越高越优先
-    negatives.sort(key=lambda x: x["score"], reverse=True)
-
-    # 如果不足19个，直接报错
     if len(negatives) < candidate_limit - 1:
         raise ValueError(
             f"Not enough negative candidates: need {candidate_limit - 1}, got {len(negatives)}"
         )
 
-    selected_negatives = negatives[:candidate_limit - 1]
+    rng = random.Random(random_seed)
 
+    # 随机选 19 个负样本
+    selected_negatives = rng.sample(negatives, candidate_limit - 1)
+
+    # 加入 gold
     selected = [gold_info] + selected_negatives
 
-    # 为了避免 gold 永远在第1个位置，打乱顺序
-    rng = random.Random(random_seed)
+    # 再随机打乱 20 个候选的顺序
     rng.shuffle(selected)
 
     return selected
@@ -481,12 +474,15 @@ Candidates:
 # =========================
 def process_one_file(subgraph_path, entity_map, relation_map, output_dir, candidate_limit=20, random_seed=42):
     subgraph = load_json(subgraph_path)
+
+    file_seed = random_seed + abs(hash(os.path.basename(subgraph_path))) % 1000000
+
     result = build_prompt(
         subgraph=subgraph,
         entity_map=entity_map,
         relation_map=relation_map,
         candidate_limit=candidate_limit,
-        random_seed=random_seed
+        random_seed=file_seed
     )
 
     filename = os.path.basename(subgraph_path)

@@ -7,21 +7,21 @@
         "relation_label": "hasWinner",
         "gold_tail": 11471,
         "gold_tail_label": "Bailiwick of Guernsey",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 4
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 3462,
-            "entity_label": "Kim Manners",
-            "entity_class": "Director",
-            "score": 4.039721,
+            "entity_id": 3621,
+            "entity_label": "Happy Together",
+            "entity_class": "Tv Show",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -29,31 +29,31 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 6754,
-            "entity_label": "Jamey Sheridan",
-            "entity_class": "Actor",
-            "score": 6.138333,
+            "entity_id": 3895,
+            "entity_label": "Southern University",
+            "entity_class": "University",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 3,
-            "entity_id": 4200,
-            "entity_label": "Noah Taylor",
-            "entity_class": "Actor",
-            "score": 4.039721,
+            "entity_id": 6281,
+            "entity_label": "Puerto Rico",
+            "entity_class": "Location",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -61,246 +61,6 @@
         },
         {
             "rank_index": 4,
-            "entity_id": 1459,
-            "entity_label": "Stevie Wonder",
-            "entity_class": "Musician",
-            "score": 6.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 12478,
-            "entity_label": "Northeastern University",
-            "entity_class": "University",
-            "score": 5.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 6696,
-            "entity_label": "Miami Dolphins",
-            "entity_class": "Sports Team",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 14199,
-            "entity_label": "This Tv",
-            "entity_class": "Tv Network",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 5235,
-            "entity_label": "Mark Mothersbaugh",
-            "entity_class": "Musician",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 7648,
-            "entity_label": "Austin Pendleton",
-            "entity_class": "Actor",
-            "score": 6.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 10860,
-            "entity_label": "Newport",
-            "entity_class": "City",
-            "score": 4.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 10129,
-            "entity_label": "Johnny Mercer",
-            "entity_class": "Person",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 7872,
-            "entity_label": "Academy Award for Best Story",
-            "entity_class": "Award Category",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 12272,
-            "entity_label": "The U",
-            "entity_class": "University",
-            "score": 6.426015,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 3,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 10920,
-            "entity_label": "Angel",
-            "entity_class": "Angel",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 13112,
-            "entity_label": "Freeform",
-            "entity_class": "Tv Network",
-            "score": 6.426015,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 3,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 14453,
-            "entity_label": "Statistician",
-            "entity_class": "Profession",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
-            "entity_id": 13504,
-            "entity_label": "Tamworth F.c.",
-            "entity_class": "Football Club",
-            "score": 5.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 1145,
-            "entity_label": "Joshua Redman",
-            "entity_class": "Musician",
-            "score": 5.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
             "entity_id": 11471,
             "entity_label": "Bailiwick of Guernsey",
             "entity_class": "Crown Dependency",
@@ -316,10 +76,250 @@
             "is_gold": 1
         },
         {
+            "rank_index": 5,
+            "entity_id": 10129,
+            "entity_label": "Johnny Mercer",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 5083,
+            "entity_label": "Ron Carter",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 7771,
+            "entity_label": "Royal Academy of Arts",
+            "entity_class": "Art School",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 5707,
+            "entity_label": "United States Air Force Academy",
+            "entity_class": "Military Academy",
+            "score": 3.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 8887,
+            "entity_label": "St Albans",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 7872,
+            "entity_label": "Academy Award for Best Story",
+            "entity_class": "Award Category",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 3814,
+            "entity_label": "Avex Trax",
+            "entity_class": "Record Label",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 1323,
+            "entity_label": "Juris Doctor",
+            "entity_class": "Academic Degree",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 5561,
+            "entity_label": "Winston-salem",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 824,
+            "entity_label": "Rubin Kazan",
+            "entity_class": "Football Club",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 5636,
+            "entity_label": "Lord Byron",
+            "entity_class": "Person",
+            "score": 3.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 6331,
+            "entity_label": "Fullmetal Alchemist the Movie: Conqueror of Shamballa",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 1636,
+            "entity_label": "Transfiguration Church, Krolevets",
+            "entity_class": "Church",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 14199,
+            "entity_label": "This Tv",
+            "entity_class": "Tv Network",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 8647,
+            "entity_label": "Joel Schumacher",
+            "entity_class": "Film Director",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
             "rank_index": 20,
-            "entity_id": 13661,
-            "entity_label": "Vitamin B6",
-            "entity_class": "Vitamin",
+            "entity_id": 13112,
+            "entity_label": "Freeform",
+            "entity_class": "Tv Network",
             "score": 6.426015,
             "features": {
                 "type_match": 0,
@@ -333,26 +333,26 @@
         }
     ],
     "candidate_id_to_rank_index": {
-        "3462": 1,
-        "6754": 2,
-        "4200": 3,
-        "1459": 4,
-        "12478": 5,
-        "6696": 6,
-        "14199": 7,
-        "5235": 8,
-        "7648": 9,
-        "10860": 10,
-        "10129": 11,
-        "7872": 12,
-        "12272": 13,
-        "10920": 14,
-        "13112": 15,
-        "14453": 16,
-        "13504": 17,
-        "1145": 18,
-        "11471": 19,
-        "13661": 20
+        "3621": 1,
+        "3895": 2,
+        "6281": 3,
+        "11471": 4,
+        "10129": 5,
+        "5083": 6,
+        "7771": 7,
+        "5707": 8,
+        "8887": 9,
+        "7872": 10,
+        "3814": 11,
+        "1323": 12,
+        "5561": 13,
+        "824": 14,
+        "5636": 15,
+        "6331": 16,
+        "1636": 17,
+        "14199": 18,
+        "8647": 19,
+        "13112": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Villarreal Cf, relation=hasWinner, tail=?)\n\nOntology summary:\n- Query relation: hasWinner\n- Head entity: Villarreal Cf\n- Head class: Organization\n- Relation domain: Award\n- Relation range: Event\n- Domain check: not clearly matched\n- Tail entities of class 'Event' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=41, edges=50, paths=20\n- Head outgoing edges under target relation hasWinner: 22\n- Key support nodes: Villarreal Cf, Academy Award for Best Story, The U, Stevie Wonder, Jamey Sheridan, Austin Pendleton, Tamworth F.c., Freeform\n- Main auxiliary relations: hasReleaseMedium(11), hasImpersonatedCelebrities(5), hasAthlete(4)\n\nFrequent relation path patterns:\n- hasWinner (count=20)\n\nCandidates:\n1. Kim Manners [id=3462 | class=Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Jamey Sheridan [id=6754 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n3. Noah Taylor [id=4200 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Stevie Wonder [id=1459 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n5. Northeastern University [id=12478 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=0]\n6. Miami Dolphins [id=6696 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. This Tv [id=14199 | class=Tv Network | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Mark Mothersbaugh [id=5235 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Austin Pendleton [id=7648 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n10. Newport [id=10860 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]\n11. Johnny Mercer [id=10129 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Academy Award for Best Story [id=7872 | class=Award Category | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. The U [id=12272 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n14. Angel [id=10920 | class=Angel | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n15. Freeform [id=13112 | class=Tv Network | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n16. Statistician [id=14453 | class=Profession | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Tamworth F.c. [id=13504 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n18. Joshua Redman [id=1145 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=0]\n19. Bailiwick of Guernsey [id=11471 | class=Crown Dependency | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Vitamin B6 [id=13661 | class=Vitamin | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Villarreal Cf, relation=hasWinner, tail=?)\n\nOntology summary:\n- Query relation: hasWinner\n- Head entity: Villarreal Cf\n- Head class: Organization\n- Relation domain: Award\n- Relation range: Event\n- Domain check: not clearly matched\n- Tail entities of class 'Event' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=41, edges=50, paths=20\n- Head outgoing edges under target relation hasWinner: 22\n- Key support nodes: Villarreal Cf, Academy Award for Best Story, The U, Stevie Wonder, Jamey Sheridan, Austin Pendleton, Tamworth F.c., Freeform\n- Main auxiliary relations: hasReleaseMedium(11), hasImpersonatedCelebrities(5), hasAthlete(4)\n\nFrequent relation path patterns:\n- hasWinner (count=20)\n\nCandidates:\n1. Happy Together [id=3621 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Southern University [id=3895 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Puerto Rico [id=6281 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Bailiwick of Guernsey [id=11471 | class=Crown Dependency | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Johnny Mercer [id=10129 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n6. Ron Carter [id=5083 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Royal Academy of Arts [id=7771 | class=Art School | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. United States Air Force Academy [id=5707 | class=Military Academy | type=0 | soft_type=0 | direct=1 | paths=0 | aux=0 | key=0]\n9. St Albans [id=8887 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n10. Academy Award for Best Story [id=7872 | class=Award Category | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n11. Avex Trax [id=3814 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Juris Doctor [id=1323 | class=Academic Degree | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Winston-salem [id=5561 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Rubin Kazan [id=824 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n15. Lord Byron [id=5636 | class=Person | type=0 | soft_type=0 | direct=1 | paths=0 | aux=0 | key=0]\n16. Fullmetal Alchemist the Movie: Conqueror of Shamballa [id=6331 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Transfiguration Church, Krolevets [id=1636 | class=Church | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. This Tv [id=14199 | class=Tv Network | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n19. Joel Schumacher [id=8647 | class=Film Director | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n20. Freeform [id=13112 | class=Tv Network | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n"
 }

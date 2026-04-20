@@ -7,44 +7,12 @@
         "relation_label": "hasStudent",
         "gold_tail": 8123,
         "gold_tail_label": "Hannah Arendt",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 9
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 1463,
-            "entity_label": "Nac Breda",
-            "entity_class": "Football Club",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
-            "entity_id": 12689,
-            "entity_label": "Andes",
-            "entity_class": "Mountain Range",
-            "score": 3.772589,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 3,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
             "entity_id": 9883,
             "entity_label": "Brighton",
             "entity_class": "City",
@@ -60,7 +28,23 @@
             "is_gold": 0
         },
         {
-            "rank_index": 4,
+            "rank_index": 2,
+            "entity_id": 2716,
+            "entity_label": "The Jackal",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
             "entity_id": 13564,
             "entity_label": "Gary Cole",
             "entity_class": "Person",
@@ -76,16 +60,32 @@
             "is_gold": 0
         },
         {
-            "rank_index": 5,
-            "entity_id": 11352,
-            "entity_label": "James Hetfield",
-            "entity_class": "Musician",
-            "score": 2.539721,
+            "rank_index": 4,
+            "entity_id": 116,
+            "entity_label": "Acf Fiorentina",
+            "entity_class": "Sports Club",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 2377,
+            "entity_label": "Gone with the Wind",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -93,182 +93,6 @@
         },
         {
             "rank_index": 6,
-            "entity_id": 8462,
-            "entity_label": "Christopher Mcdonald",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 7439,
-            "entity_label": "Allium Cepa",
-            "entity_class": "Plant",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 11576,
-            "entity_label": "Time in China",
-            "entity_class": "Time Zone",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 3638,
-            "entity_label": "Grammy Award for Best Chamber Music Performance",
-            "entity_class": "Award",
-            "score": 3.341066,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 4777,
-            "entity_label": "Lois Mcmaster Bujold",
-            "entity_class": "Author",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 2674,
-            "entity_label": "Defenseman",
-            "entity_class": "Position",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 8429,
-            "entity_label": "San Diego State Aztecs Football",
-            "entity_class": "Football Team",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 12439,
-            "entity_label": "Shinya Tsukamoto",
-            "entity_class": "Person",
-            "score": 5.539721,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 2891,
-            "entity_label": "Ethan Hawke",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 13295,
-            "entity_label": "Dio",
-            "entity_class": "Person",
-            "score": 5.539721,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 3277,
-            "entity_label": "Raiders of the Lost Ark",
-            "entity_class": "Film",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
             "entity_id": 348,
             "entity_label": "Garbage",
             "entity_class": "Band",
@@ -284,23 +108,39 @@
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 11038,
-            "entity_label": "Mexican Americans",
-            "entity_class": "Ethnic Group",
-            "score": 2.647918,
+            "rank_index": 7,
+            "entity_id": 5648,
+            "entity_label": "44th Academy Awards",
+            "entity_class": "Event",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 8,
+            "entity_id": 13295,
+            "entity_label": "Dio",
+            "entity_class": "Person",
+            "score": 5.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
             "entity_id": 8123,
             "entity_label": "Hannah Arendt",
             "entity_class": "Philosopher",
@@ -316,14 +156,174 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 2222,
-            "entity_label": "Kevin Costner",
+            "rank_index": 10,
+            "entity_id": 234,
+            "entity_label": "Seeking a Friend for the End of the World",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 11038,
+            "entity_label": "Mexican Americans",
+            "entity_class": "Ethnic Group",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 8579,
+            "entity_label": "Theofanis Gekas",
+            "entity_class": "Athlete",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 11576,
+            "entity_label": "Time in China",
+            "entity_class": "Time Zone",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 7439,
+            "entity_label": "Allium Cepa",
+            "entity_class": "Plant",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 12439,
+            "entity_label": "Shinya Tsukamoto",
             "entity_class": "Person",
-            "score": 4.5,
+            "score": 5.539721,
             "features": {
                 "type_match": 1,
                 "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 11352,
+            "entity_label": "James Hetfield",
+            "entity_class": "Musician",
+            "score": 2.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 2821,
+            "entity_label": "Washington County",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 5737,
+            "entity_label": "Network",
+            "entity_class": "Organization",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 3627,
+            "entity_label": "Fort Lauderdale",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 11918,
+            "entity_label": "County Durham",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -333,26 +333,26 @@
         }
     ],
     "candidate_id_to_rank_index": {
-        "1463": 1,
-        "12689": 2,
-        "9883": 3,
-        "13564": 4,
-        "11352": 5,
-        "8462": 6,
-        "7439": 7,
-        "11576": 8,
-        "3638": 9,
-        "4777": 10,
-        "2674": 11,
-        "8429": 12,
-        "12439": 13,
-        "2891": 14,
-        "13295": 15,
-        "3277": 16,
-        "348": 17,
-        "11038": 18,
-        "8123": 19,
-        "2222": 20
+        "9883": 1,
+        "2716": 2,
+        "13564": 3,
+        "116": 4,
+        "2377": 5,
+        "348": 6,
+        "5648": 7,
+        "13295": 8,
+        "8123": 9,
+        "234": 10,
+        "11038": 11,
+        "8579": 12,
+        "11576": 13,
+        "7439": 14,
+        "12439": 15,
+        "11352": 16,
+        "2821": 17,
+        "5737": 18,
+        "3627": 19,
+        "11918": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Bill Payne, relation=hasStudent, tail=?)\n\nOntology summary:\n- Query relation: hasStudent\n- Head entity: Bill Payne\n- Head class: Musician\n- Relation domain: University\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=57, edges=63, paths=20\n- Head outgoing edges under target relation hasStudent: 1\n- Key support nodes: Bill Payne, George Hamilton, Andes, Jimmy Fallon, Hannah Arendt, The Doors, Garbage, Homicide\n- Main auxiliary relations: hasWinner(10), memberOf(6), hasReligion(4)\n\nFrequent relation path patterns:\n- hasAthlete -> hasWinner -> hasStudent (count=14)\n- hasReligion -> influencedBy -> hasStudent (count=3)\n- hasStudent (count=1)\n- hasAward (count=1)\n- hasStudent -> nominatedFor (count=1)\n\nCandidates:\n1. Nac Breda [id=1463 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n2. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=3 | aux=1 | key=1]\n3. Brighton [id=9883 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n4. Gary Cole [id=13564 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. James Hetfield [id=11352 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n6. Christopher Mcdonald [id=8462 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Allium Cepa [id=7439 | class=Plant | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n8. Time in China [id=11576 | class=Time Zone | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n9. Grammy Award for Best Chamber Music Performance [id=3638 | class=Award | type=0 | soft_type=0 | direct=0 | paths=2 | aux=1 | key=1]\n10. Lois Mcmaster Bujold [id=4777 | class=Author | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Defenseman [id=2674 | class=Position | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n12. San Diego State Aztecs Football [id=8429 | class=Football Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n13. Shinya Tsukamoto [id=12439 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n14. Ethan Hawke [id=2891 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Dio [id=13295 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n16. Raiders of the Lost Ark [id=3277 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n17. Garbage [id=348 | class=Band | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n18. Mexican Americans [id=11038 | class=Ethnic Group | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n19. Hannah Arendt [id=8123 | class=Philosopher | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n20. Kevin Costner [id=2222 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Bill Payne, relation=hasStudent, tail=?)\n\nOntology summary:\n- Query relation: hasStudent\n- Head entity: Bill Payne\n- Head class: Musician\n- Relation domain: University\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=57, edges=63, paths=20\n- Head outgoing edges under target relation hasStudent: 1\n- Key support nodes: Bill Payne, George Hamilton, Andes, Jimmy Fallon, Hannah Arendt, The Doors, Garbage, Homicide\n- Main auxiliary relations: hasWinner(10), memberOf(6), hasReligion(4)\n\nFrequent relation path patterns:\n- hasAthlete -> hasWinner -> hasStudent (count=14)\n- hasReligion -> influencedBy -> hasStudent (count=3)\n- hasStudent (count=1)\n- hasAward (count=1)\n- hasStudent -> nominatedFor (count=1)\n\nCandidates:\n1. Brighton [id=9883 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n2. The Jackal [id=2716 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Gary Cole [id=13564 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Acf Fiorentina [id=116 | class=Sports Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Gone with the Wind [id=2377 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Garbage [id=348 | class=Band | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n7. 44th Academy Awards [id=5648 | class=Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Dio [id=13295 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n9. Hannah Arendt [id=8123 | class=Philosopher | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n10. Seeking a Friend for the End of the World [id=234 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Mexican Americans [id=11038 | class=Ethnic Group | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n12. Theofanis Gekas [id=8579 | class=Athlete | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Time in China [id=11576 | class=Time Zone | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n14. Allium Cepa [id=7439 | class=Plant | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Shinya Tsukamoto [id=12439 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n16. James Hetfield [id=11352 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n17. Washington County [id=2821 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Network [id=5737 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Fort Lauderdale [id=3627 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. County Durham [id=11918 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

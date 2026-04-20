@@ -7,28 +7,12 @@
         "relation_label": "hasFriend",
         "gold_tail": 11222,
         "gold_tail_label": "Moncton",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 4
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 9082,
-            "entity_label": "Dino De Laurentiis",
-            "entity_class": "Producer",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
             "entity_id": 3366,
             "entity_label": "Cary Grant",
             "entity_class": "Person",
@@ -44,16 +28,32 @@
             "is_gold": 0
         },
         {
-            "rank_index": 3,
-            "entity_id": 5913,
-            "entity_label": "Ray Romano",
-            "entity_class": "Actor",
-            "score": 2.539721,
+            "rank_index": 2,
+            "entity_id": 8429,
+            "entity_label": "San Diego State Aztecs Football",
+            "entity_class": "Football Team",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 6409,
+            "entity_label": "Cuyahoga County",
+            "entity_class": "Administrative Region",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -61,246 +61,6 @@
         },
         {
             "rank_index": 4,
-            "entity_id": 7544,
-            "entity_label": "Jamie Gangel",
-            "entity_class": "Person",
-            "score": 5.193147,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 11118,
-            "entity_label": "Superhero",
-            "entity_class": "Character Type",
-            "score": 3.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 262,
-            "entity_label": "Patricia Arquette",
-            "entity_class": "Actor",
-            "score": 2.539721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 819,
-            "entity_label": "Imelda Staunton",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 10454,
-            "entity_label": "Soundgarden",
-            "entity_class": "Band",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 2249,
-            "entity_label": "Jules Bass",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 4031,
-            "entity_label": "Santa Cruz",
-            "entity_class": "City",
-            "score": 2.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 268,
-            "entity_label": "Warner Bros.",
-            "entity_class": "Film Company",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 9663,
-            "entity_label": "Grammy Award for Best Contemporary Instrumental Album",
-            "entity_class": "Award Category",
-            "score": 3.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 1332,
-            "entity_label": "Chiang Kai-shek",
-            "entity_class": "Person",
-            "score": 5.539721,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 7875,
-            "entity_label": "Jamiroquai",
-            "entity_class": "Music Group",
-            "score": 2.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 9003,
-            "entity_label": "Samuel R. Delany",
-            "entity_class": "Person",
-            "score": 5.539721,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 10119,
-            "entity_label": "Dundee F.c.",
-            "entity_class": "Football Club",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
-            "entity_id": 5049,
-            "entity_label": "Shohei Imamura",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 4994,
-            "entity_label": "Seattle",
-            "entity_class": "City",
-            "score": 3.341066,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
             "entity_id": 11222,
             "entity_label": "Moncton",
             "entity_class": "Location",
@@ -316,43 +76,283 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 3056,
-            "entity_label": "Ryan Phillippe",
+            "rank_index": 5,
+            "entity_id": 10454,
+            "entity_label": "Soundgarden",
+            "entity_class": "Band",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 13678,
+            "entity_label": "Tulane University Law School",
+            "entity_class": "Law School",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 11413,
+            "entity_label": "Lieutenant",
+            "entity_class": "Military Rank",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 262,
+            "entity_label": "Patricia Arquette",
             "entity_class": "Actor",
-            "score": 5.272589,
+            "score": 2.539721,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 1,
                 "direct": 0,
-                "path_count": 3,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 2505,
+            "entity_label": "How to Train Your Dragon",
+            "entity_class": "Animated Movie Series",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 9003,
+            "entity_label": "Samuel R. Delany",
+            "entity_class": "Person",
+            "score": 5.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 11576,
+            "entity_label": "Time in China",
+            "entity_class": "Time Zone",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 1332,
+            "entity_label": "Chiang Kai-shek",
+            "entity_class": "Person",
+            "score": 5.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 7544,
+            "entity_label": "Jamie Gangel",
+            "entity_class": "Person",
+            "score": 5.193147,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 3502,
+            "entity_label": "100th United States Congress",
+            "entity_class": "Government Agency",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 10283,
+            "entity_label": "Ramsey County",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 6759,
+            "entity_label": "J. D. Salinger",
+            "entity_class": "Author",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 9663,
+            "entity_label": "Grammy Award for Best Contemporary Instrumental Album",
+            "entity_class": "Award Category",
+            "score": 3.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
                 "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 2882,
+            "entity_label": "Kajol",
+            "entity_class": "Actor/actress",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 5245,
+            "entity_label": "Miniseries",
+            "entity_class": "Tv Format",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 10060,
+            "entity_label": "Columbia",
+            "entity_class": "Record Label",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "9082": 1,
-        "3366": 2,
-        "5913": 3,
-        "7544": 4,
-        "11118": 5,
-        "262": 6,
-        "819": 7,
-        "10454": 8,
-        "2249": 9,
-        "4031": 10,
-        "268": 11,
-        "9663": 12,
-        "1332": 13,
-        "7875": 14,
-        "9003": 15,
-        "10119": 16,
-        "5049": 17,
-        "4994": 18,
-        "11222": 19,
-        "3056": 20
+        "3366": 1,
+        "8429": 2,
+        "6409": 3,
+        "11222": 4,
+        "10454": 5,
+        "13678": 6,
+        "11413": 7,
+        "262": 8,
+        "2505": 9,
+        "9003": 10,
+        "11576": 11,
+        "1332": 12,
+        "7544": 13,
+        "3502": 14,
+        "10283": 15,
+        "6759": 16,
+        "9663": 17,
+        "2882": 18,
+        "5245": 19,
+        "10060": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Machete, relation=hasFriend, tail=?)\n\nOntology summary:\n- Query relation: hasFriend\n- Head entity: Machete\n- Head class: Film\n- Relation domain: Person\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=41, edges=45, paths=20\n- Head outgoing edges under target relation hasFriend: 1\n- Key support nodes: Machete, Moncton, Kathy Bates, Ryan Phillippe, University of Michigan, Seattle, Jamiroquai, Santa Cruz\n- Main auxiliary relations: hasNationality(14), hasGenre(7), hasRiskFactors(3)\n\nFrequent relation path patterns:\n- hasFriend -> hasPhoneNumber -> hasNationality (count=7)\n- hasRiskFactors (count=3)\n- hasFriend -> hasPerformanceType -> hasNationality (count=3)\n- hasFriend -> hasPrequel (count=2)\n- hasFriend -> hasReligion (count=2)\n\nCandidates:\n1. Dino De Laurentiis [id=9082 | class=Producer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n2. Cary Grant [id=3366 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Ray Romano [id=5913 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n4. Jamie Gangel [id=7544 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]\n5. Superhero [id=11118 | class=Character Type | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n6. Patricia Arquette [id=262 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n7. Imelda Staunton [id=819 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Soundgarden [id=10454 | class=Band | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n9. Jules Bass [id=2249 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Santa Cruz [id=4031 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n11. Warner Bros. [id=268 | class=Film Company | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n12. Grammy Award for Best Contemporary Instrumental Album [id=9663 | class=Award Category | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n13. Chiang Kai-shek [id=1332 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n14. Jamiroquai [id=7875 | class=Music Group | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n15. Samuel R. Delany [id=9003 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n16. Dundee F.c. [id=10119 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n17. Shohei Imamura [id=5049 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=1 | key=1]\n19. Moncton [id=11222 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=4 | key=1]\n20. Ryan Phillippe [id=3056 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=3 | aux=1 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Machete, relation=hasFriend, tail=?)\n\nOntology summary:\n- Query relation: hasFriend\n- Head entity: Machete\n- Head class: Film\n- Relation domain: Person\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=41, edges=45, paths=20\n- Head outgoing edges under target relation hasFriend: 1\n- Key support nodes: Machete, Moncton, Kathy Bates, Ryan Phillippe, University of Michigan, Seattle, Jamiroquai, Santa Cruz\n- Main auxiliary relations: hasNationality(14), hasGenre(7), hasRiskFactors(3)\n\nFrequent relation path patterns:\n- hasFriend -> hasPhoneNumber -> hasNationality (count=7)\n- hasRiskFactors (count=3)\n- hasFriend -> hasPerformanceType -> hasNationality (count=3)\n- hasFriend -> hasPrequel (count=2)\n- hasFriend -> hasReligion (count=2)\n\nCandidates:\n1. Cary Grant [id=3366 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n2. San Diego State Aztecs Football [id=8429 | class=Football Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Cuyahoga County [id=6409 | class=Administrative Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Moncton [id=11222 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=4 | key=1]\n5. Soundgarden [id=10454 | class=Band | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Tulane University Law School [id=13678 | class=Law School | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Lieutenant [id=11413 | class=Military Rank | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Patricia Arquette [id=262 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n9. How to Train Your Dragon [id=2505 | class=Animated Movie Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Samuel R. Delany [id=9003 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n11. Time in China [id=11576 | class=Time Zone | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Chiang Kai-shek [id=1332 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n13. Jamie Gangel [id=7544 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]\n14. 100th United States Congress [id=3502 | class=Government Agency | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Ramsey County [id=10283 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. J. D. Salinger [id=6759 | class=Author | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Grammy Award for Best Contemporary Instrumental Album [id=9663 | class=Award Category | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n18. Kajol [id=2882 | class=Actor/actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Columbia [id=10060 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

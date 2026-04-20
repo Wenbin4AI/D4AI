@@ -417,6 +417,12 @@ def parse_args(args=None):
     parser.add_argument('--subgraph_max_key_nodes', type=int, default=10,
                         help='max number of key nodes used for expansion')
 
+    # ===== 新增：断点续跑 =====
+    parser.add_argument('--subgraph_start_idx', type=int, default=0,
+                        help='start index for subgraph generation, e.g. 20464')
+    parser.add_argument('--skip_existing_subgraph', action='store_true',
+                        help='skip subgraph json if the target file already exists')
+
     return parser.parse_args(args)
 
 
@@ -742,7 +748,24 @@ def save_subgraphs_for_queries(
     split_output_dir = os.path.join(args.subgraph_output_dir, split_name)
     os.makedirs(split_output_dir, exist_ok=True)
 
-    for idx, (h, r, t) in enumerate(triples):
+    start_idx = max(0, args.subgraph_start_idx)
+
+    logging.info(
+        'Start saving subgraphs for %s from index %d (total=%d)',
+        split_name, start_idx, len(triples)
+    )
+
+    for idx in range(start_idx, len(triples)):
+        h, r, t = triples[idx]
+
+        output_path = os.path.join(split_output_dir, f'{split_name}_{idx}.json')
+
+        # 已存在就跳过
+        if args.skip_existing_subgraph and os.path.exists(output_path):
+            if idx % 100 == 0:
+                logging.info('Skip existing subgraph: %s', output_path)
+            continue
+
         candidate_tails = get_topk_candidate_tails(
             model=model,
             query_h=h,
@@ -767,7 +790,10 @@ def save_subgraphs_for_queries(
             max_key_nodes=args.subgraph_max_key_nodes,
         )
         subgraph['gold_tail'] = t
-        save_query_subgraph(subgraph, split_output_dir, f'{split_name}_{idx}')
+
+        # 直接按完整路径保存，避免重复拼接文件名
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(subgraph, f, indent=2, ensure_ascii=False)
 
         if idx % 100 == 0:
             logging.info('Saved subgraphs for %s queries: %d/%d', split_name, idx, len(triples))

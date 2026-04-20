@@ -7,252 +7,12 @@
         "relation_label": "adminType",
         "gold_tail": 6564,
         "gold_tail_label": "Rose Mcgowan",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 2
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 8587,
-            "entity_label": "North Atlantic Treaty Organization",
-            "entity_class": "International Organization",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
-            "entity_id": 14034,
-            "entity_label": "Venu Madhav",
-            "entity_class": "Person",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 13671,
-            "entity_label": "2k Games",
-            "entity_class": "Video Game Company",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 4493,
-            "entity_label": "Sara Haines",
-            "entity_class": "Person",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 6189,
-            "entity_label": "Clint Black",
-            "entity_class": "Musician",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 6390,
-            "entity_label": "Ryan's Daughter",
-            "entity_class": "Movie",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 7193,
-            "entity_label": "Deborah Ann Woll",
-            "entity_class": "Actress",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 14203,
-            "entity_label": "Spartanburg",
-            "entity_class": "City",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 5591,
-            "entity_label": "Evanston",
-            "entity_class": "City",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 3337,
-            "entity_label": "Racewalking",
-            "entity_class": "Race Walking",
-            "score": 3.079442,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 3,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 2343,
-            "entity_label": "Grammy Award for Best Country Song",
-            "entity_class": "Award",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 1475,
-            "entity_label": "Bryan Cranston",
-            "entity_class": "Person",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 1565,
-            "entity_label": "New York Film Critics Circle Award for Best Actor",
-            "entity_class": "Award",
-            "score": 6.079442,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 3,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 11519,
-            "entity_label": "Second Boer War",
-            "entity_class": "War",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 9700,
-            "entity_label": "Philip K. Dick",
-            "entity_class": "Author",
-            "score": 6.079442,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 3,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
             "entity_id": 9375,
             "entity_label": "Oliver Twist",
             "entity_class": "Fictional Character",
@@ -268,39 +28,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 615,
-            "entity_label": "Artistic Gymnastics",
-            "entity_class": "Sport",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 14404,
-            "entity_label": "Scottish National Party",
-            "entity_class": "Political Party",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
+            "rank_index": 2,
             "entity_id": 6564,
             "entity_label": "Rose Mcgowan",
             "entity_class": "Person",
@@ -316,43 +44,315 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 11210,
-            "entity_label": "Showtime",
-            "entity_class": "Tv Network",
-            "score": 5.039721,
+            "rank_index": 3,
+            "entity_id": 1565,
+            "entity_label": "New York Film Critics Circle Award for Best Actor",
+            "entity_class": "Award",
+            "score": 6.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 4624,
+            "entity_label": "Hal Pereira",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 12886,
+            "entity_label": "Agriculture",
+            "entity_class": "Field",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 10021,
+            "entity_label": "Fc Erzgebirge Aue",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 5591,
+            "entity_label": "Evanston",
+            "entity_class": "City",
+            "score": 4.039721,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
                 "path_count": 1,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 6939,
+            "entity_label": "L-isoleucine",
+            "entity_class": "Amino Acid",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 9485,
+            "entity_label": "Lubbock",
+            "entity_class": "Geographicallocation",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 8412,
+            "entity_label": "Miley Cyrus",
+            "entity_class": "Singer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8153,
+            "entity_label": "Pace University",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 11519,
+            "entity_label": "Second Boer War",
+            "entity_class": "War",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 10876,
+            "entity_label": "Boris Karloff",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 14203,
+            "entity_label": "Spartanburg",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 14282,
+            "entity_label": "Hartlepool",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 3846,
+            "entity_label": "A Dangerous Method",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 2343,
+            "entity_label": "Grammy Award for Best Country Song",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 6334,
+            "entity_label": "Ashley Tisdale",
+            "entity_class": "Actress",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 5808,
+            "entity_label": "Tampa",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 11544,
+            "entity_label": "Waddy Wachtel",
+            "entity_class": "Musician",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "8587": 1,
-        "14034": 2,
-        "13671": 3,
-        "4493": 4,
-        "6189": 5,
-        "6390": 6,
-        "7193": 7,
-        "14203": 8,
-        "5591": 9,
-        "3337": 10,
-        "2343": 11,
-        "1475": 12,
-        "1565": 13,
-        "11519": 14,
-        "9700": 15,
-        "9375": 16,
-        "615": 17,
-        "14404": 18,
-        "6564": 19,
-        "11210": 20
+        "9375": 1,
+        "6564": 2,
+        "1565": 3,
+        "4624": 4,
+        "12886": 5,
+        "10021": 6,
+        "5591": 7,
+        "6939": 8,
+        "9485": 9,
+        "8412": 10,
+        "8153": 11,
+        "11519": 12,
+        "10876": 13,
+        "14203": 14,
+        "14282": 15,
+        "3846": 16,
+        "2343": 17,
+        "6334": 18,
+        "5808": 19,
+        "11544": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Ohio State University, relation=adminType, tail=?)\n\nOntology summary:\n- Query relation: adminType\n- Head entity: Ohio State University\n- Head class: University\n- Relation domain: Country\n- Relation range: Unknown\n- Domain check: not clearly matched\n\nLocal subgraph summary:\n- Local subgraph: nodes=37, edges=49, paths=20\n- Head outgoing edges under target relation adminType: 13\n- Key support nodes: Ohio State University, New York Film Critics Circle Award for Best Actor, Philip K. Dick, Prescott, Venu Madhav, Allium Cepa, Racewalking, Showtime\n- Main auxiliary relations: hasGenre(8), hasGovernmentType(7), hasInvolvedEntity(4)\n\nFrequent relation path patterns:\n- adminType (count=12)\n- adminType -> hasGovernmentType -> hasGenre (count=8)\n\nCandidates:\n1. North Atlantic Treaty Organization [id=8587 | class=International Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Venu Madhav [id=14034 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. 2k Games [id=13671 | class=Video Game Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Sara Haines [id=4493 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Clint Black [id=6189 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n6. Ryan's Daughter [id=6390 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n7. Deborah Ann Woll [id=7193 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Spartanburg [id=14203 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Evanston [id=5591 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n10. Racewalking [id=3337 | class=Race Walking | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n11. Grammy Award for Best Country Song [id=2343 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Bryan Cranston [id=1475 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. New York Film Critics Circle Award for Best Actor [id=1565 | class=Award | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n14. Second Boer War [id=11519 | class=War | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Philip K. Dick [id=9700 | class=Author | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n16. Oliver Twist [id=9375 | class=Fictional Character | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Artistic Gymnastics [id=615 | class=Sport | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n18. Scottish National Party [id=14404 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n19. Rose Mcgowan [id=6564 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Showtime [id=11210 | class=Tv Network | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Ohio State University, relation=adminType, tail=?)\n\nOntology summary:\n- Query relation: adminType\n- Head entity: Ohio State University\n- Head class: University\n- Relation domain: Country\n- Relation range: Unknown\n- Domain check: not clearly matched\n\nLocal subgraph summary:\n- Local subgraph: nodes=37, edges=49, paths=20\n- Head outgoing edges under target relation adminType: 13\n- Key support nodes: Ohio State University, New York Film Critics Circle Award for Best Actor, Philip K. Dick, Prescott, Venu Madhav, Allium Cepa, Racewalking, Showtime\n- Main auxiliary relations: hasGenre(8), hasGovernmentType(7), hasInvolvedEntity(4)\n\nFrequent relation path patterns:\n- adminType (count=12)\n- adminType -> hasGovernmentType -> hasGenre (count=8)\n\nCandidates:\n1. Oliver Twist [id=9375 | class=Fictional Character | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Rose Mcgowan [id=6564 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. New York Film Critics Circle Award for Best Actor [id=1565 | class=Award | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n4. Hal Pereira [id=4624 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Agriculture [id=12886 | class=Field | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Fc Erzgebirge Aue [id=10021 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Evanston [id=5591 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. L-isoleucine [id=6939 | class=Amino Acid | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Lubbock [id=9485 | class=Geographicallocation | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Miley Cyrus [id=8412 | class=Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Pace University [id=8153 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Second Boer War [id=11519 | class=War | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Boris Karloff [id=10876 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Spartanburg [id=14203 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Hartlepool [id=14282 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. A Dangerous Method [id=3846 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Grammy Award for Best Country Song [id=2343 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Ashley Tisdale [id=6334 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Tampa [id=5808 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Waddy Wachtel [id=11544 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

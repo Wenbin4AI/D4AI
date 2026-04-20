@@ -7,23 +7,23 @@
         "relation_label": "hasCreator",
         "gold_tail": 12689,
         "gold_tail_label": "Andes",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 3
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 10491,
-            "entity_label": "Rang De Basanti",
-            "entity_class": "Movie",
-            "score": 1.0,
+            "entity_id": 2222,
+            "entity_label": "Kevin Costner",
+            "entity_class": "Person",
+            "score": 4.5,
             "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
+                "type_match": 1,
+                "soft_type_match": 1,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
@@ -45,262 +45,6 @@
         },
         {
             "rank_index": 3,
-            "entity_id": 4994,
-            "entity_label": "Seattle",
-            "entity_class": "City",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 9110,
-            "entity_label": "Rick Kline",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 4517,
-            "entity_label": "Unknown",
-            "entity_class": "Unknown",
-            "score": 4.178054,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 3,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 14252,
-            "entity_label": "Plovdiv",
-            "entity_class": "Location",
-            "score": 2.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 12217,
-            "entity_label": "Rebecca Eaton",
-            "entity_class": "Producer",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 13872,
-            "entity_label": "Alexandria",
-            "entity_class": "City",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 1096,
-            "entity_label": "Steve Jordan",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 348,
-            "entity_label": "Garbage",
-            "entity_class": "Band",
-            "score": 3.079442,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 3,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 13936,
-            "entity_label": "Yarrow Shipbuilders Limited",
-            "entity_class": "Company",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 8300,
-            "entity_label": "Blockbuster",
-            "entity_class": "Video Rental Chain",
-            "score": 3.426015,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 3,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 12439,
-            "entity_label": "Shinya Tsukamoto",
-            "entity_class": "Person",
-            "score": 8.757356,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 4,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 3638,
-            "entity_label": "Grammy Award for Best Chamber Music Performance",
-            "entity_class": "Award",
-            "score": 3.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 13295,
-            "entity_label": "Dio",
-            "entity_class": "Person",
-            "score": 7.638333,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 4695,
-            "entity_label": "The Kingdom",
-            "entity_class": "Film",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
-            "entity_id": 2586,
-            "entity_label": "Josh Griffith",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 13543,
-            "entity_label": "Ronnie Screwvala",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
             "entity_id": 12689,
             "entity_label": "Andes",
             "entity_class": "Mountain Range",
@@ -316,9 +60,9 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 2222,
-            "entity_label": "Kevin Costner",
+            "rank_index": 4,
+            "entity_id": 1096,
+            "entity_label": "Steve Jordan",
             "entity_class": "Person",
             "score": 4.5,
             "features": {
@@ -330,29 +74,285 @@
                 "key": 0
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 1463,
+            "entity_label": "Nac Breda",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 8906,
+            "entity_label": "Rotterdam",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 3235,
+            "entity_label": "Jill Scott",
+            "entity_class": "Musician/actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 11576,
+            "entity_label": "Time in China",
+            "entity_class": "Time Zone",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 10491,
+            "entity_label": "Rang De Basanti",
+            "entity_class": "Movie",
+            "score": 1.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 7253,
+            "entity_label": "Designated Hitter",
+            "entity_class": "Sport",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 4695,
+            "entity_label": "The Kingdom",
+            "entity_class": "Film",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 8132,
+            "entity_label": "Oleic Acid",
+            "entity_class": "Chemical Compound",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 12439,
+            "entity_label": "Shinya Tsukamoto",
+            "entity_class": "Person",
+            "score": 8.757356,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 4841,
+            "entity_label": "Dinner for Schmucks",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 11918,
+            "entity_label": "County Durham",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 9994,
+            "entity_label": "Pillow Talk",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 13295,
+            "entity_label": "Dio",
+            "entity_class": "Person",
+            "score": 7.638333,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 7154,
+            "entity_label": "Becket",
+            "entity_class": "Play",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 4965,
+            "entity_label": "Tehran",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "10491": 1,
+        "2222": 1,
         "11590": 2,
-        "4994": 3,
-        "9110": 4,
-        "4517": 5,
-        "14252": 6,
-        "12217": 7,
-        "13872": 8,
-        "1096": 9,
-        "348": 10,
-        "13936": 11,
-        "8300": 12,
-        "12439": 13,
-        "3638": 14,
-        "13295": 15,
-        "4695": 16,
-        "2586": 17,
-        "13543": 18,
-        "12689": 19,
-        "2222": 20
+        "12689": 3,
+        "1096": 4,
+        "1463": 5,
+        "8906": 6,
+        "3235": 7,
+        "11576": 8,
+        "10491": 9,
+        "7253": 10,
+        "4695": 11,
+        "14037": 12,
+        "8132": 13,
+        "12439": 14,
+        "4841": 15,
+        "11918": 16,
+        "9994": 17,
+        "13295": 18,
+        "7154": 19,
+        "4965": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Rang De Basanti, relation=hasCreator, tail=?)\n\nOntology summary:\n- Query relation: hasCreator\n- Head entity: Rang De Basanti\n- Head class: Movie\n- Relation domain: Tv Show\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=44, edges=58, paths=20\n- Head outgoing edges under target relation hasCreator: 1\n- Key support nodes: Rang De Basanti, Andes, Garbage, Unknown, Norwich, Popeye, Shinya Tsukamoto, Grammy Award for Best Chamber Music Performance\n- Main auxiliary relations: hasFeaturedFilmLocations(11), hasGenre(10), memberOf(4)\n\nFrequent relation path patterns:\n- hasFeaturedFilmLocations -> hasCreator (count=12)\n- hasCreator -> hasGenre (count=4)\n- hasCreator (count=1)\n- hasCreator -> hasRuntime (count=1)\n- hasCreator -> hasParticipantCountries (count=1)\n\nCandidates:\n1. Rang De Basanti [id=10491 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]\n2. Buck Henry [id=11590 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n4. Rick Kline [id=9110 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Unknown [id=4517 | class=Unknown | type=0 | soft_type=0 | direct=0 | paths=3 | aux=2 | key=1]\n6. Plovdiv [id=14252 | class=Location | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=0]\n7. Rebecca Eaton [id=12217 | class=Producer | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Alexandria [id=13872 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n9. Steve Jordan [id=1096 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Garbage [id=348 | class=Band | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n11. Yarrow Shipbuilders Limited [id=13936 | class=Company | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n12. Blockbuster [id=8300 | class=Video Rental Chain | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]\n13. Shinya Tsukamoto [id=12439 | class=Person | type=1 | soft_type=1 | direct=0 | paths=2 | aux=4 | key=1]\n14. Grammy Award for Best Chamber Music Performance [id=3638 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n15. Dio [id=13295 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=2 | key=1]\n16. The Kingdom [id=4695 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n17. Josh Griffith [id=2586 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Ronnie Screwvala [id=13543 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=1 | paths=4 | aux=8 | key=1]\n20. Kevin Costner [id=2222 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Rang De Basanti, relation=hasCreator, tail=?)\n\nOntology summary:\n- Query relation: hasCreator\n- Head entity: Rang De Basanti\n- Head class: Movie\n- Relation domain: Tv Show\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=44, edges=58, paths=20\n- Head outgoing edges under target relation hasCreator: 1\n- Key support nodes: Rang De Basanti, Andes, Garbage, Unknown, Norwich, Popeye, Shinya Tsukamoto, Grammy Award for Best Chamber Music Performance\n- Main auxiliary relations: hasFeaturedFilmLocations(11), hasGenre(10), memberOf(4)\n\nFrequent relation path patterns:\n- hasFeaturedFilmLocations -> hasCreator (count=12)\n- hasCreator -> hasGenre (count=4)\n- hasCreator (count=1)\n- hasCreator -> hasRuntime (count=1)\n- hasCreator -> hasParticipantCountries (count=1)\n\nCandidates:\n1. Kevin Costner [id=2222 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n2. Buck Henry [id=11590 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=1 | paths=4 | aux=8 | key=1]\n4. Steve Jordan [id=1096 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Nac Breda [id=1463 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Rotterdam [id=8906 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Jill Scott [id=3235 | class=Musician/actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Time in China [id=11576 | class=Time Zone | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Rang De Basanti [id=10491 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]\n10. Designated Hitter [id=7253 | class=Sport | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. The Kingdom [id=4695 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n12. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Oleic Acid [id=8132 | class=Chemical Compound | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Shinya Tsukamoto [id=12439 | class=Person | type=1 | soft_type=1 | direct=0 | paths=2 | aux=4 | key=1]\n15. Dinner for Schmucks [id=4841 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. County Durham [id=11918 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Pillow Talk [id=9994 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Dio [id=13295 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=2 | key=1]\n19. Becket [id=7154 | class=Play | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Tehran [id=4965 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

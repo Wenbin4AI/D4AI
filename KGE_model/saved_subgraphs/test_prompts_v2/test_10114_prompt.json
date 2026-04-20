@@ -7,21 +7,21 @@
         "relation_label": "hasImpersonatedCelebrities",
         "gold_tail": 7734,
         "gold_tail_label": "27th Academy Awards",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 8
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 3257,
-            "entity_label": "War Film",
-            "entity_class": "War Film",
-            "score": 4.039721,
+            "entity_id": 10341,
+            "entity_label": "Paul Oakenfold",
+            "entity_class": "Musician",
+            "score": 1.5,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -29,118 +29,6 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 6260,
-            "entity_label": "Neal Mcdonough",
-            "entity_class": "Actor",
-            "score": 5.539721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 13559,
-            "entity_label": "Magic Johnson",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 10512,
-            "entity_label": "Tony Curtis",
-            "entity_class": "Actor",
-            "score": 5.539721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 4352,
-            "entity_label": "Hancock",
-            "entity_class": "Movie",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 11771,
-            "entity_label": "Tress Macneille",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 9258,
-            "entity_label": "Manobala",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 1458,
-            "entity_label": "La Jolla",
-            "entity_class": "Location",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
             "entity_id": 14232,
             "entity_label": "Bengali Hindus",
             "entity_class": "Ethnic Group",
@@ -156,39 +44,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 10,
-            "entity_id": 3937,
-            "entity_label": "Stargate",
-            "entity_class": "Movie/franchise",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 6281,
-            "entity_label": "Puerto Rico",
-            "entity_class": "Location",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
+            "rank_index": 3,
             "entity_id": 1830,
             "entity_label": "Rowing",
             "entity_class": "Sport",
@@ -204,55 +60,23 @@
             "is_gold": 0
         },
         {
-            "rank_index": 13,
-            "entity_id": 166,
-            "entity_label": "Russell Crowe",
-            "entity_class": "Person",
-            "score": 8.539721,
+            "rank_index": 4,
+            "entity_id": 10860,
+            "entity_label": "Newport",
+            "entity_class": "City",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 14,
-            "entity_id": 7145,
-            "entity_label": "Superman Ii",
-            "entity_class": "Movie",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 12211,
-            "entity_label": "Idris Elba",
-            "entity_class": "Actor",
-            "score": 6.539721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
+            "rank_index": 5,
             "entity_id": 5867,
             "entity_label": "Middlesex County",
             "entity_class": "County",
@@ -268,14 +92,30 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 13892,
-            "entity_label": "United States Coast Guard",
-            "entity_class": "Military Branch",
-            "score": 5.039721,
+            "rank_index": 6,
+            "entity_id": 6281,
+            "entity_label": "Puerto Rico",
+            "entity_class": "Location",
+            "score": 4.039721,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 12211,
+            "entity_label": "Idris Elba",
+            "entity_class": "Actor",
+            "score": 6.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
                 "direct": 1,
                 "path_count": 1,
                 "aux_support": 0,
@@ -284,23 +124,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 353,
-            "entity_label": "Mcgill University",
-            "entity_class": "Organization",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
+            "rank_index": 8,
             "entity_id": 7734,
             "entity_label": "27th Academy Awards",
             "entity_class": "Award Ceremony",
@@ -316,43 +140,219 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 4407,
-            "entity_label": "Kelsey Grammer",
-            "entity_class": "Actor",
-            "score": 6.539721,
+            "rank_index": 9,
+            "entity_id": 13559,
+            "entity_label": "Magic Johnson",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 7625,
+            "entity_label": "Harry Connick Jr.",
+            "entity_class": "Musician",
+            "score": 1.5,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 353,
+            "entity_label": "Mcgill University",
+            "entity_class": "Organization",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 1,
                 "path_count": 1,
                 "aux_support": 0,
                 "key": 1
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 5260,
+            "entity_label": "Fiddler on the Roof",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 1764,
+            "entity_label": "Gettysburg College",
+            "entity_class": "College",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 11771,
+            "entity_label": "Tress Macneille",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 14212,
+            "entity_label": "Goya Award for Best Spanish Language Foreign Film",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 10512,
+            "entity_label": "Tony Curtis",
+            "entity_class": "Actor",
+            "score": 5.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 14508,
+            "entity_label": "New York State Senate",
+            "entity_class": "Government Body",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 3937,
+            "entity_label": "Stargate",
+            "entity_class": "Movie/franchise",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 2904,
+            "entity_label": "Westwood Village Memorial Park Cemetery",
+            "entity_class": "Cemetery",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 6260,
+            "entity_label": "Neal Mcdonough",
+            "entity_class": "Actor",
+            "score": 5.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "3257": 1,
-        "6260": 2,
-        "13559": 3,
-        "10512": 4,
-        "4352": 5,
-        "11771": 6,
-        "9258": 7,
-        "1458": 8,
-        "14232": 9,
-        "3937": 10,
-        "6281": 11,
-        "1830": 12,
-        "166": 13,
-        "7145": 14,
-        "12211": 15,
-        "5867": 16,
-        "13892": 17,
-        "353": 18,
-        "7734": 19,
-        "4407": 20
+        "10341": 1,
+        "14232": 2,
+        "1830": 3,
+        "10860": 4,
+        "5867": 5,
+        "6281": 6,
+        "12211": 7,
+        "7734": 8,
+        "13559": 9,
+        "7625": 10,
+        "353": 11,
+        "5260": 12,
+        "1764": 13,
+        "11771": 14,
+        "14212": 15,
+        "10512": 16,
+        "14508": 17,
+        "3937": 18,
+        "2904": 19,
+        "6260": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Vermont, relation=hasImpersonatedCelebrities, tail=?)\n\nOntology summary:\n- Query relation: hasImpersonatedCelebrities\n- Head entity: Vermont\n- Head class: State\n- Relation domain: Actor\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=46, edges=50, paths=20\n- Head outgoing edges under target relation hasImpersonatedCelebrities: 20\n- Key support nodes: Vermont, Bengali Hindus, Idris Elba, Kelsey Grammer, United States Coast Guard, Mcgill University, Hancock, Rowing\n- Main auxiliary relations: hasReligion(5), hasAthlete(3), hasRegularPerformanceRole(2)\n\nFrequent relation path patterns:\n- hasImpersonatedCelebrities (count=20)\n\nCandidates:\n1. War Film [id=3257 | class=War Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Neal Mcdonough [id=6260 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n3. Magic Johnson [id=13559 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Tony Curtis [id=10512 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n5. Hancock [id=4352 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Tress Macneille [id=11771 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Manobala [id=9258 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. La Jolla [id=1458 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Bengali Hindus [id=14232 | class=Ethnic Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Stargate [id=3937 | class=Movie/franchise | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n11. Puerto Rico [id=6281 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Rowing [id=1830 | class=Sport | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. Russell Crowe [id=166 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n14. Superman Ii [id=7145 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n15. Idris Elba [id=12211 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n16. Middlesex County [id=5867 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. United States Coast Guard [id=13892 | class=Military Branch | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Mcgill University [id=353 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. 27th Academy Awards [id=7734 | class=Award Ceremony | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Kelsey Grammer [id=4407 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Vermont, relation=hasImpersonatedCelebrities, tail=?)\n\nOntology summary:\n- Query relation: hasImpersonatedCelebrities\n- Head entity: Vermont\n- Head class: State\n- Relation domain: Actor\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=46, edges=50, paths=20\n- Head outgoing edges under target relation hasImpersonatedCelebrities: 20\n- Key support nodes: Vermont, Bengali Hindus, Idris Elba, Kelsey Grammer, United States Coast Guard, Mcgill University, Hancock, Rowing\n- Main auxiliary relations: hasReligion(5), hasAthlete(3), hasRegularPerformanceRole(2)\n\nFrequent relation path patterns:\n- hasImpersonatedCelebrities (count=20)\n\nCandidates:\n1. Paul Oakenfold [id=10341 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n2. Bengali Hindus [id=14232 | class=Ethnic Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Rowing [id=1830 | class=Sport | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n4. Newport [id=10860 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Middlesex County [id=5867 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n6. Puerto Rico [id=6281 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Idris Elba [id=12211 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n8. 27th Academy Awards [id=7734 | class=Award Ceremony | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Magic Johnson [id=13559 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Harry Connick Jr. [id=7625 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Mcgill University [id=353 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n12. Fiddler on the Roof [id=5260 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Gettysburg College [id=1764 | class=College | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Tress Macneille [id=11771 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Goya Award for Best Spanish Language Foreign Film [id=14212 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Tony Curtis [id=10512 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n17. New York State Senate [id=14508 | class=Government Body | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Stargate [id=3937 | class=Movie/franchise | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Westwood Village Memorial Park Cemetery [id=2904 | class=Cemetery | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Neal Mcdonough [id=6260 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n"
 }

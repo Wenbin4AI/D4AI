@@ -7,15 +7,15 @@
         "relation_label": "editedBy",
         "gold_tail": 4994,
         "gold_tail_label": "Seattle",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 2
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 12609,
-            "entity_label": "Morristown",
-            "entity_class": "City",
+            "entity_id": 12771,
+            "entity_label": "Russia National Football Team",
+            "entity_class": "Football Team",
             "score": 1.732868,
             "features": {
                 "type_match": 0,
@@ -29,6 +29,70 @@
         },
         {
             "rank_index": 2,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 9.520853,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 5,
+                "aux_support": 16,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 5913,
+            "entity_label": "Ray Romano",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 1277,
+            "entity_label": "Horn",
+            "entity_class": "Musical Instrument",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 14500,
+            "entity_label": "Strategic Simulations",
+            "entity_class": "Company",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
             "entity_id": 2000,
             "entity_label": "Al Green",
             "entity_class": "Person",
@@ -44,110 +108,30 @@
             "is_gold": 0
         },
         {
-            "rank_index": 3,
-            "entity_id": 338,
-            "entity_label": "Robots",
-            "entity_class": "Technology",
-            "score": 2.732868,
+            "rank_index": 7,
+            "entity_id": 9034,
+            "entity_label": "Karnataka",
+            "entity_class": "State",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 5055,
-            "entity_label": "John Adams",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 2548,
-            "entity_label": "Jay Roach",
-            "entity_class": "Director",
-            "score": 4.232868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 3627,
-            "entity_label": "Fort Lauderdale",
-            "entity_class": "City",
-            "score": 2.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 8429,
-            "entity_label": "San Diego State Aztecs Football",
-            "entity_class": "Football Team",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
                 "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 8,
-            "entity_id": 12496,
-            "entity_label": "Librarian",
-            "entity_class": "Occupation",
-            "score": 1.732868,
+            "entity_id": 5245,
+            "entity_label": "Miniseries",
+            "entity_class": "Tv Format",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 10127,
-            "entity_label": "Angie Dickinson",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -156,26 +140,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 10,
-            "entity_id": 348,
-            "entity_label": "Garbage",
-            "entity_class": "Band",
-            "score": 2.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 12771,
-            "entity_label": "Russia National Football Team",
-            "entity_class": "Football Team",
+            "rank_index": 9,
+            "entity_id": 12689,
+            "entity_label": "Andes",
+            "entity_class": "Mountain Range",
             "score": 1.732868,
             "features": {
                 "type_match": 0,
@@ -183,6 +151,38 @@
                 "direct": 0,
                 "path_count": 1,
                 "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 4695,
+            "entity_label": "The Kingdom",
+            "entity_class": "Film",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 7950,
+            "entity_label": "Tom Fontana",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
@@ -205,25 +205,25 @@
         },
         {
             "rank_index": 13,
-            "entity_id": 12439,
-            "entity_label": "Shinya Tsukamoto",
-            "entity_class": "Person",
-            "score": 7.638333,
+            "entity_id": 2548,
+            "entity_label": "Jay Roach",
+            "entity_class": "Director",
+            "score": 4.232868,
             "features": {
-                "type_match": 1,
+                "type_match": 0,
                 "soft_type_match": 1,
                 "direct": 0,
                 "path_count": 1,
-                "aux_support": 2,
+                "aux_support": 1,
                 "key": 1
             },
             "is_gold": 0
         },
         {
             "rank_index": 14,
-            "entity_id": 7439,
-            "entity_label": "Allium Cepa",
-            "entity_class": "Plant",
+            "entity_id": 348,
+            "entity_label": "Garbage",
+            "entity_class": "Band",
             "score": 2.732868,
             "features": {
                 "type_match": 0,
@@ -237,25 +237,73 @@
         },
         {
             "rank_index": 15,
-            "entity_id": 13295,
-            "entity_label": "Dio",
-            "entity_class": "Person",
-            "score": 7.638333,
+            "entity_id": 11898,
+            "entity_label": "Murfreesboro",
+            "entity_class": "City",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 16,
-            "entity_id": 12689,
-            "entity_label": "Andes",
-            "entity_class": "Mountain Range",
+            "entity_id": 8662,
+            "entity_label": "Bucknell University",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 268,
+            "entity_label": "Warner Bros.",
+            "entity_class": "Film Company",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 1499,
+            "entity_label": "Green Lantern",
+            "entity_class": "Superhero",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 8429,
+            "entity_label": "San Diego State Aztecs Football",
+            "entity_class": "Football Team",
             "score": 1.732868,
             "features": {
                 "type_match": 0,
@@ -268,91 +316,43 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 1332,
-            "entity_label": "Chiang Kai-shek",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 7950,
-            "entity_label": "Tom Fontana",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
-            "entity_id": 4994,
-            "entity_label": "Seattle",
-            "entity_class": "City",
-            "score": 9.520853,
+            "rank_index": 20,
+            "entity_id": 3056,
+            "entity_label": "Ryan Phillippe",
+            "entity_class": "Actor",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 5,
-                "aux_support": 16,
-                "key": 1
-            },
-            "is_gold": 1
-        },
-        {
-            "rank_index": 20,
-            "entity_id": 13873,
-            "entity_label": "Amjad Khan",
-            "entity_class": "Person",
-            "score": 6.232868,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
                 "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
+                "path_count": 0,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "12609": 1,
-        "2000": 2,
-        "338": 3,
-        "5055": 4,
-        "2548": 5,
-        "3627": 6,
-        "8429": 7,
-        "12496": 8,
-        "10127": 9,
-        "348": 10,
-        "12771": 11,
+        "12771": 1,
+        "4994": 2,
+        "5913": 3,
+        "1277": 4,
+        "14500": 5,
+        "2000": 6,
+        "9034": 7,
+        "5245": 8,
+        "12689": 9,
+        "4695": 10,
+        "7950": 11,
         "2674": 12,
-        "12439": 13,
-        "7439": 14,
-        "13295": 15,
-        "12689": 16,
-        "1332": 17,
-        "7950": 18,
-        "4994": 19,
-        "13873": 20
+        "2548": 13,
+        "348": 14,
+        "11898": 15,
+        "8662": 16,
+        "268": 17,
+        "1499": 18,
+        "8429": 19,
+        "3056": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Mary J. Blige, relation=editedBy, tail=?)\n\nOntology summary:\n- Query relation: editedBy\n- Head entity: Mary J. Blige\n- Head class: Singer\n- Relation domain: Movie\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=48, edges=53, paths=20\n- Head outgoing edges under target relation editedBy: 1\n- Key support nodes: Mary J. Blige, Seattle, Allium Cepa, Shinya Tsukamoto, Garbage, Jay Roach, Fort Lauderdale, Defenseman\n- Main auxiliary relations: hasGenre(28), hasPeer(4), hasImpersonatedCelebrities(4)\n\nFrequent relation path patterns:\n- editedBy -> hasGenre (count=14)\n- hasImpersonatedCelebrities -> editedBy (count=4)\n- editedBy (count=1)\n- editedBy -> hasColors (count=1)\n\nCandidates:\n1. Morristown [id=12609 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n2. Al Green [id=2000 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Robots [id=338 | class=Technology | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n4. John Adams [id=5055 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Jay Roach [id=2548 | class=Director | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=1]\n6. Fort Lauderdale [id=3627 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n7. San Diego State Aztecs Football [id=8429 | class=Football Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n8. Librarian [id=12496 | class=Occupation | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n9. Angie Dickinson [id=10127 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Garbage [id=348 | class=Band | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n11. Russia National Football Team [id=12771 | class=Football Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n12. Defenseman [id=2674 | class=Position | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n13. Shinya Tsukamoto [id=12439 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=2 | key=1]\n14. Allium Cepa [id=7439 | class=Plant | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n15. Dio [id=13295 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=2 | key=1]\n16. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n17. Chiang Kai-shek [id=1332 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Tom Fontana [id=7950 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=1 | paths=5 | aux=16 | key=1]\n20. Amjad Khan [id=13873 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Mary J. Blige, relation=editedBy, tail=?)\n\nOntology summary:\n- Query relation: editedBy\n- Head entity: Mary J. Blige\n- Head class: Singer\n- Relation domain: Movie\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=48, edges=53, paths=20\n- Head outgoing edges under target relation editedBy: 1\n- Key support nodes: Mary J. Blige, Seattle, Allium Cepa, Shinya Tsukamoto, Garbage, Jay Roach, Fort Lauderdale, Defenseman\n- Main auxiliary relations: hasGenre(28), hasPeer(4), hasImpersonatedCelebrities(4)\n\nFrequent relation path patterns:\n- editedBy -> hasGenre (count=14)\n- hasImpersonatedCelebrities -> editedBy (count=4)\n- editedBy (count=1)\n- editedBy -> hasColors (count=1)\n\nCandidates:\n1. Russia National Football Team [id=12771 | class=Football Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n2. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=1 | paths=5 | aux=16 | key=1]\n3. Ray Romano [id=5913 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Horn [id=1277 | class=Musical Instrument | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Strategic Simulations [id=14500 | class=Company | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n6. Al Green [id=2000 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Karnataka [id=9034 | class=State | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n10. The Kingdom [id=4695 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Tom Fontana [id=7950 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Defenseman [id=2674 | class=Position | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n13. Jay Roach [id=2548 | class=Director | type=0 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=1]\n14. Garbage [id=348 | class=Band | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n15. Murfreesboro [id=11898 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Bucknell University [id=8662 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Warner Bros. [id=268 | class=Film Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Green Lantern [id=1499 | class=Superhero | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. San Diego State Aztecs Football [id=8429 | class=Football Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n20. Ryan Phillippe [id=3056 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

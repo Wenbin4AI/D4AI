@@ -7,15 +7,15 @@
         "relation_label": "hasCategory",
         "gold_tail": 9982,
         "gold_tail_label": "Industrial Engineering",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 4
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 14305,
-            "entity_label": "Tps Turku",
-            "entity_class": "Football Club",
+            "entity_id": 7651,
+            "entity_label": "Stephen J. Cannell",
+            "entity_class": "Person",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -29,105 +29,9 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 14163,
-            "entity_label": "Wigan",
-            "entity_class": "City",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 9303,
-            "entity_label": "Rebecca Romijn",
-            "entity_class": "Person",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 4211,
-            "entity_label": "Night at the Museum: Battle of the Smithsonian",
-            "entity_class": "Movie",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 4971,
-            "entity_label": "Anastasia",
-            "entity_class": "Princess",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 7510,
-            "entity_label": "Swedes",
-            "entity_class": "Nationality",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 6259,
-            "entity_label": "Heart of Midlothian F.c.",
+            "entity_id": 11064,
+            "entity_label": "Changchun Yatai F.c.",
             "entity_class": "Football Club",
-            "score": 1.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 4217,
-            "entity_label": "Italy National Association Football Team",
-            "entity_class": "Sports Team",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -140,39 +44,39 @@
             "is_gold": 0
         },
         {
-            "rank_index": 9,
-            "entity_id": 11630,
-            "entity_label": "Mako",
-            "entity_class": "Actor",
-            "score": 4.034213,
+            "rank_index": 3,
+            "entity_id": 6647,
+            "entity_label": "Rugby Union",
+            "entity_class": "Sport",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
-                "aux_support": 3,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 12325,
-            "entity_label": "Achala Sachdev",
-            "entity_class": "Person",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
+                "path_count": 0,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 11,
+            "rank_index": 4,
+            "entity_id": 9982,
+            "entity_label": "Industrial Engineering",
+            "entity_class": "Field of Study",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 5,
             "entity_id": 1828,
             "entity_label": "The Shield",
             "entity_class": "Tv Show",
@@ -188,7 +92,151 @@
             "is_gold": 0
         },
         {
+            "rank_index": 6,
+            "entity_id": 3910,
+            "entity_label": "Old Dogs",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 2395,
+            "entity_label": "1994 Winter Olympics",
+            "entity_class": "Event",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 7510,
+            "entity_label": "Swedes",
+            "entity_class": "Nationality",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 14318,
+            "entity_label": "Columnist",
+            "entity_class": "Occupation",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 2140,
+            "entity_label": "Star Wars: Episode Vi – Return of the Jedi",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 4211,
+            "entity_label": "Night at the Museum: Battle of the Smithsonian",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
             "rank_index": 12,
+            "entity_id": 6259,
+            "entity_label": "Heart of Midlothian F.c.",
+            "entity_class": "Football Club",
+            "score": 1.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 2089,
+            "entity_label": "Anthropology",
+            "entity_class": "Academic Discipline",
+            "score": 3.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 827,
+            "entity_label": "Bubblegum Music",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
             "entity_id": 13106,
             "entity_label": "Kirkcaldy",
             "entity_class": "City",
@@ -204,82 +252,34 @@
             "is_gold": 0
         },
         {
-            "rank_index": 13,
-            "entity_id": 2957,
-            "entity_label": "Sean Lennon",
-            "entity_class": "Person",
-            "score": 7.845143,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 2,
-                "aux_support": 8,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 6450,
-            "entity_label": "Josh Hartnett",
-            "entity_class": "Person",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 2516,
-            "entity_label": "The People Vs. Larry Flynt",
-            "entity_class": "Movie",
-            "score": 7.439678,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 2,
-                "aux_support": 5,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
             "rank_index": 16,
-            "entity_id": 5964,
-            "entity_label": "The Doors",
-            "entity_class": "Rock Band",
-            "score": 0.693147,
+            "entity_id": 10371,
+            "entity_label": "Johann Wolfgang Von Goethe",
+            "entity_class": "Writer/poet",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
-                "aux_support": 1,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 17,
-            "entity_id": 2089,
-            "entity_label": "Anthropology",
-            "entity_class": "Academic Discipline",
-            "score": 3.746531,
+            "entity_id": 4224,
+            "entity_label": "Russian Empire",
+            "entity_class": "Empire",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
-                "aux_support": 2,
-                "key": 1
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
@@ -301,9 +301,9 @@
         },
         {
             "rank_index": 19,
-            "entity_id": 9982,
-            "entity_label": "Industrial Engineering",
-            "entity_class": "Field of Study",
+            "entity_id": 14163,
+            "entity_label": "Wigan",
+            "entity_class": "City",
             "score": 5.039721,
             "features": {
                 "type_match": 0,
@@ -313,46 +313,46 @@
                 "aux_support": 0,
                 "key": 1
             },
-            "is_gold": 1
+            "is_gold": 0
         },
         {
             "rank_index": 20,
-            "entity_id": 9132,
-            "entity_label": "Tuba",
-            "entity_class": "Musical Instrument",
-            "score": 6.649159,
+            "entity_id": 6307,
+            "entity_label": "Polyunsaturated Fat",
+            "entity_class": "Chemical",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 4,
-                "key": 1
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "14305": 1,
-        "14163": 2,
-        "9303": 3,
-        "4211": 4,
-        "4971": 5,
-        "7510": 6,
-        "6259": 7,
-        "4217": 8,
-        "11630": 9,
-        "12325": 10,
-        "1828": 11,
-        "13106": 12,
-        "2957": 13,
-        "6450": 14,
-        "2516": 15,
-        "5964": 16,
-        "2089": 17,
+        "7651": 1,
+        "11064": 2,
+        "6647": 3,
+        "9982": 4,
+        "1828": 5,
+        "3910": 6,
+        "2395": 7,
+        "7510": 8,
+        "14318": 9,
+        "2140": 10,
+        "4211": 11,
+        "6259": 12,
+        "2089": 13,
+        "827": 14,
+        "13106": 15,
+        "10371": 16,
+        "4224": 17,
         "5533": 18,
-        "9982": 19,
-        "9132": 20
+        "14163": 19,
+        "6307": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Heart of Midlothian F.c., relation=hasCategory, tail=?)\n\nOntology summary:\n- Query relation: hasCategory\n- Head entity: Heart of Midlothian F.c.\n- Head class: Football Club\n- Relation domain: City\n- Relation range: Unknown\n- Domain check: not clearly matched\n\nLocal subgraph summary:\n- Local subgraph: nodes=43, edges=49, paths=20\n- Head outgoing edges under target relation hasCategory: 6\n- Key support nodes: Heart of Midlothian F.c., Sean Lennon, The People Vs. Larry Flynt, Tuba, Mako, Anthropology, Kate Walsh, Night at the Museum: Battle of the Smithsonian\n- Main auxiliary relations: hasImpersonatedCelebrities(10), hasDesignedFilmSets(9), hasNetflixGenreTitle(6)\n\nFrequent relation path patterns:\n- hasCategory -> hasDesignedFilmSets (count=8)\n- hasCategory (count=6)\n- hasCategory -> hasImpersonatedCelebrities (count=6)\n\nCandidates:\n1. Tps Turku [id=14305 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Wigan [id=14163 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Rebecca Romijn [id=9303 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n4. Night at the Museum: Battle of the Smithsonian [id=4211 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Anastasia [id=4971 | class=Princess | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n6. Swedes [id=7510 | class=Nationality | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n7. Heart of Midlothian F.c. [id=6259 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]\n8. Italy National Association Football Team [id=4217 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Mako [id=11630 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=2 | aux=3 | key=1]\n10. Achala Sachdev [id=12325 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n11. The Shield [id=1828 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n12. Kirkcaldy [id=13106 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n13. Sean Lennon [id=2957 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=8 | key=1]\n14. Josh Hartnett [id=6450 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n15. The People Vs. Larry Flynt [id=2516 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=2 | aux=5 | key=1]\n16. The Doors [id=5964 | class=Rock Band | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n17. Anthropology [id=2089 | class=Academic Discipline | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n18. Kate Walsh [id=5533 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n19. Industrial Engineering [id=9982 | class=Field of Study | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Tuba [id=9132 | class=Musical Instrument | type=0 | soft_type=0 | direct=1 | paths=1 | aux=4 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Heart of Midlothian F.c., relation=hasCategory, tail=?)\n\nOntology summary:\n- Query relation: hasCategory\n- Head entity: Heart of Midlothian F.c.\n- Head class: Football Club\n- Relation domain: City\n- Relation range: Unknown\n- Domain check: not clearly matched\n\nLocal subgraph summary:\n- Local subgraph: nodes=43, edges=49, paths=20\n- Head outgoing edges under target relation hasCategory: 6\n- Key support nodes: Heart of Midlothian F.c., Sean Lennon, The People Vs. Larry Flynt, Tuba, Mako, Anthropology, Kate Walsh, Night at the Museum: Battle of the Smithsonian\n- Main auxiliary relations: hasImpersonatedCelebrities(10), hasDesignedFilmSets(9), hasNetflixGenreTitle(6)\n\nFrequent relation path patterns:\n- hasCategory -> hasDesignedFilmSets (count=8)\n- hasCategory (count=6)\n- hasCategory -> hasImpersonatedCelebrities (count=6)\n\nCandidates:\n1. Stephen J. Cannell [id=7651 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Changchun Yatai F.c. [id=11064 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Rugby Union [id=6647 | class=Sport | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Industrial Engineering [id=9982 | class=Field of Study | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. The Shield [id=1828 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n6. Old Dogs [id=3910 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. 1994 Winter Olympics [id=2395 | class=Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Swedes [id=7510 | class=Nationality | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n9. Columnist [id=14318 | class=Occupation | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Star Wars: Episode Vi – Return of the Jedi [id=2140 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Night at the Museum: Battle of the Smithsonian [id=4211 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n12. Heart of Midlothian F.c. [id=6259 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]\n13. Anthropology [id=2089 | class=Academic Discipline | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n14. Bubblegum Music [id=827 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Kirkcaldy [id=13106 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n16. Johann Wolfgang Von Goethe [id=10371 | class=Writer/poet | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Russian Empire [id=4224 | class=Empire | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Kate Walsh [id=5533 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n19. Wigan [id=14163 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Polyunsaturated Fat [id=6307 | class=Chemical | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

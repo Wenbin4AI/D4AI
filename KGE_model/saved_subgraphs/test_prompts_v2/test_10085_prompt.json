@@ -7,220 +7,12 @@
         "relation_label": "hasPrequel",
         "gold_tail": 11118,
         "gold_tail_label": "Superhero",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 15
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 5079,
-            "entity_label": "Operation Barbarossa",
-            "entity_class": "Historical Event",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
-            "entity_id": 3776,
-            "entity_label": "Hope Springs",
-            "entity_class": "Movie",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 9001,
-            "entity_label": "Pfc Lokomotiv Plovdiv",
-            "entity_class": "Sports Team",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 3700,
-            "entity_label": "Waltz with Bashir",
-            "entity_class": "Movie",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 1439,
-            "entity_label": "X-men: First Class",
-            "entity_class": "Movie",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 10502,
-            "entity_label": "Dave Goelz",
-            "entity_class": "Person",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 12897,
-            "entity_label": "Akira Kamiya",
-            "entity_class": "Person",
-            "score": 1.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 10481,
-            "entity_label": "Eastern Front",
-            "entity_class": "Military Conflict",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 6382,
-            "entity_label": "Dial M for Murder",
-            "entity_class": "Movie",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 14037,
-            "entity_label": "Pontefract",
-            "entity_class": "City",
-            "score": 1.386294,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 3,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 12318,
-            "entity_label": "Irish Folk Music",
-            "entity_class": "Music Genre",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 4761,
-            "entity_label": "David Benioff",
-            "entity_class": "Person",
-            "score": 3.341066,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 857,
-            "entity_label": "106th United States Congress",
-            "entity_class": "Organization",
-            "score": 7.107304,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 4,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
             "entity_id": 7473,
             "entity_label": "Gillian Welch",
             "entity_class": "Person",
@@ -236,39 +28,55 @@
             "is_gold": 0
         },
         {
-            "rank_index": 15,
-            "entity_id": 9663,
-            "entity_label": "Grammy Award for Best Contemporary Instrumental Album",
-            "entity_class": "Award Category",
-            "score": 6.414157,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 4,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 3056,
-            "entity_label": "Ryan Phillippe",
-            "entity_class": "Actor",
-            "score": 1.0,
+            "rank_index": 2,
+            "entity_id": 11318,
+            "entity_label": "Jane Seymour",
+            "entity_class": "Actress",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 17,
+            "rank_index": 3,
+            "entity_id": 1855,
+            "entity_label": "Orry-kelly",
+            "entity_class": "Costume Designer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 2788,
+            "entity_label": "Denise Richards",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
             "entity_id": 805,
             "entity_label": "The Lord of the Rings: the Fellowship of the Ring",
             "entity_class": "Movie",
@@ -284,14 +92,14 @@
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 11072,
-            "entity_label": "The Treasure of the Sierra Madre",
-            "entity_class": "Movie",
-            "score": 4.5,
+            "rank_index": 6,
+            "entity_id": 4864,
+            "entity_label": "Set Dresser",
+            "entity_class": "Job Title",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -300,7 +108,135 @@
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 7,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 1.386294,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 3,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 4761,
+            "entity_label": "David Benioff",
+            "entity_class": "Person",
+            "score": 3.341066,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 6106,
+            "entity_label": "Jim Steinman",
+            "entity_class": "Songwriter",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 11301,
+            "entity_label": "Lake Michigan",
+            "entity_class": "Lake",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 9663,
+            "entity_label": "Grammy Award for Best Contemporary Instrumental Album",
+            "entity_class": "Award Category",
+            "score": 6.414157,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 4,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 12256,
+            "entity_label": "Olympiacos F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 9001,
+            "entity_label": "Pfc Lokomotiv Plovdiv",
+            "entity_class": "Sports Team",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 12897,
+            "entity_label": "Akira Kamiya",
+            "entity_class": "Person",
+            "score": 1.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
             "entity_id": 11118,
             "entity_label": "Superhero",
             "entity_class": "Character Type",
@@ -316,43 +252,107 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 2944,
-            "entity_label": "Carrie Preston",
-            "entity_class": "Actor",
-            "score": 5.039721,
+            "rank_index": 16,
+            "entity_id": 4754,
+            "entity_label": "Sayaji Shinde",
+            "entity_class": "Person",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 8982,
+            "entity_label": "Maaya Sakamoto",
+            "entity_class": "Voice Actress and Singer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 10732,
+            "entity_label": "Anthony Head",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 7797,
+            "entity_label": "Bee Gees",
+            "entity_class": "Music Group",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 2982,
+            "entity_label": "Sales",
+            "entity_class": "Business Operation",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "5079": 1,
-        "3776": 2,
-        "9001": 3,
-        "3700": 4,
-        "1439": 5,
-        "10502": 6,
-        "12897": 7,
-        "10481": 8,
-        "6382": 9,
-        "14037": 10,
-        "12318": 11,
-        "4761": 12,
-        "857": 13,
-        "7473": 14,
-        "9663": 15,
-        "3056": 16,
-        "805": 17,
-        "11072": 18,
-        "11118": 19,
-        "2944": 20
+        "7473": 1,
+        "11318": 2,
+        "1855": 3,
+        "2788": 4,
+        "805": 5,
+        "4864": 6,
+        "14037": 7,
+        "4761": 8,
+        "6106": 9,
+        "11301": 10,
+        "9663": 11,
+        "12256": 12,
+        "9001": 13,
+        "12897": 14,
+        "11118": 15,
+        "4754": 16,
+        "8982": 17,
+        "10732": 18,
+        "7797": 19,
+        "2982": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Mark Johnson, relation=hasPrequel, tail=?)\n\nOntology summary:\n- Query relation: hasPrequel\n- Head entity: Mark Johnson\n- Head class: Record Producer\n- Relation domain: Movie\n- Relation range: Movie\n- Domain check: not clearly matched\n- Tail entities of class 'Movie' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=32, edges=46, paths=20\n- Head outgoing edges under target relation hasPrequel: 4\n- Key support nodes: Mark Johnson, Ryan Phillippe, Lille Osc, Grammy Award for Best Contemporary Instrumental Album, Superhero, 106th United States Congress, Akira Kamiya, Gillian Welch\n- Main auxiliary relations: hasGenre(4), hasBorder(3), hasCreator(3)\n\nFrequent relation path patterns:\n- hasColors -> hasPrequel (count=9)\n- countyPlace -> hasPrequel (count=7)\n- hasPrequel (count=4)\n\nCandidates:\n1. Operation Barbarossa [id=5079 | class=Historical Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Hope Springs [id=3776 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Pfc Lokomotiv Plovdiv [id=9001 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n4. Waltz with Bashir [id=3700 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. X-men: First Class [id=1439 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Dave Goelz [id=10502 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n7. Akira Kamiya [id=12897 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]\n8. Eastern Front [id=10481 | class=Military Conflict | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Dial M for Murder [id=6382 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=3 | key=0]\n11. Irish Folk Music [id=12318 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. David Benioff [id=4761 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=1 | key=1]\n13. 106th United States Congress [id=857 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=4 | aux=1 | key=1]\n14. Gillian Welch [id=7473 | class=Person | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n15. Grammy Award for Best Contemporary Instrumental Album [id=9663 | class=Award Category | type=0 | soft_type=0 | direct=1 | paths=4 | aux=0 | key=1]\n16. Ryan Phillippe [id=3056 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]\n17. The Lord of the Rings: the Fellowship of the Ring [id=805 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. The Treasure of the Sierra Madre [id=11072 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Superhero [id=11118 | class=Character Type | type=0 | soft_type=0 | direct=1 | paths=4 | aux=1 | key=1]\n20. Carrie Preston [id=2944 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Mark Johnson, relation=hasPrequel, tail=?)\n\nOntology summary:\n- Query relation: hasPrequel\n- Head entity: Mark Johnson\n- Head class: Record Producer\n- Relation domain: Movie\n- Relation range: Movie\n- Domain check: not clearly matched\n- Tail entities of class 'Movie' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=32, edges=46, paths=20\n- Head outgoing edges under target relation hasPrequel: 4\n- Key support nodes: Mark Johnson, Ryan Phillippe, Lille Osc, Grammy Award for Best Contemporary Instrumental Album, Superhero, 106th United States Congress, Akira Kamiya, Gillian Welch\n- Main auxiliary relations: hasGenre(4), hasBorder(3), hasCreator(3)\n\nFrequent relation path patterns:\n- hasColors -> hasPrequel (count=9)\n- countyPlace -> hasPrequel (count=7)\n- hasPrequel (count=4)\n\nCandidates:\n1. Gillian Welch [id=7473 | class=Person | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n2. Jane Seymour [id=11318 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Orry-kelly [id=1855 | class=Costume Designer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Denise Richards [id=2788 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. The Lord of the Rings: the Fellowship of the Ring [id=805 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Set Dresser [id=4864 | class=Job Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=3 | key=0]\n8. David Benioff [id=4761 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=1 | key=1]\n9. Jim Steinman [id=6106 | class=Songwriter | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Lake Michigan [id=11301 | class=Lake | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Grammy Award for Best Contemporary Instrumental Album [id=9663 | class=Award Category | type=0 | soft_type=0 | direct=1 | paths=4 | aux=0 | key=1]\n12. Olympiacos F.c. [id=12256 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Pfc Lokomotiv Plovdiv [id=9001 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n14. Akira Kamiya [id=12897 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]\n15. Superhero [id=11118 | class=Character Type | type=0 | soft_type=0 | direct=1 | paths=4 | aux=1 | key=1]\n16. Sayaji Shinde [id=4754 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Anthony Head [id=10732 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Bee Gees [id=7797 | class=Music Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Sales [id=2982 | class=Business Operation | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

@@ -7,15 +7,15 @@
         "relation_label": "operatingIncomeCurrency",
         "gold_tail": 7089,
         "gold_tail_label": "Sonoma County",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 6
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 13402,
-            "entity_label": "Wuxia",
-            "entity_class": "Novel Genre",
+            "entity_id": 6773,
+            "entity_label": "Jonny Greenwood",
+            "entity_class": "Person",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -29,16 +29,16 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 5245,
-            "entity_label": "Miniseries",
-            "entity_class": "Tv Format",
-            "score": 3.079442,
+            "entity_id": 11345,
+            "entity_label": "Delta Blues",
+            "entity_class": "Music Genre",
+            "score": 3.746531,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 3,
-                "aux_support": 0,
+                "path_count": 2,
+                "aux_support": 2,
                 "key": 1
             },
             "is_gold": 0
@@ -61,134 +61,22 @@
         },
         {
             "rank_index": 4,
-            "entity_id": 8982,
-            "entity_label": "Maaya Sakamoto",
-            "entity_class": "Voice Actress and Singer",
-            "score": 3.746531,
+            "entity_id": 12176,
+            "entity_label": "Monty Python",
+            "entity_class": "Organization",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
-                "aux_support": 2,
-                "key": 1
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 5,
-            "entity_id": 11568,
-            "entity_label": "Macaulay Culkin",
-            "entity_class": "Person",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 8637,
-            "entity_label": "Pune",
-            "entity_class": "City",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 1855,
-            "entity_label": "Orry-kelly",
-            "entity_class": "Costume Designer",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 6541,
-            "entity_label": "Suicide",
-            "entity_class": "Social Issue",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 5029,
-            "entity_label": "Exeter",
-            "entity_class": "City",
-            "score": 1.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 9707,
-            "entity_label": "University of Kent",
-            "entity_class": "University",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 3187,
-            "entity_label": "Litchfield County",
-            "entity_class": "County",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
             "entity_id": 14037,
             "entity_label": "Pontefract",
             "entity_class": "City",
@@ -204,103 +92,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 13,
-            "entity_id": 11318,
-            "entity_label": "Jane Seymour",
-            "entity_class": "Actress",
-            "score": 5.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 6093,
-            "entity_label": "Kingdom of Great Britain",
-            "entity_class": "Country",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 4994,
-            "entity_label": "Seattle",
-            "entity_class": "City",
-            "score": 4.107304,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 4,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 2181,
-            "entity_label": "Rob Zombie",
-            "entity_class": "Music Artist",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
-            "entity_id": 5388,
-            "entity_label": "Lili Taylor",
-            "entity_class": "Person",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 10926,
-            "entity_label": "The Shining",
-            "entity_class": "Film",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
+            "rank_index": 6,
             "entity_id": 7089,
             "entity_label": "Sonoma County",
             "entity_class": "County",
@@ -316,43 +108,251 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 11345,
-            "entity_label": "Delta Blues",
-            "entity_class": "Music Genre",
-            "score": 3.746531,
+            "rank_index": 7,
+            "entity_id": 8637,
+            "entity_label": "Pune",
+            "entity_class": "City",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
-                "aux_support": 2,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 13086,
+            "entity_label": "Psychologist",
+            "entity_class": "Occupation",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 8325,
+            "entity_label": "Cf Pachuca",
+            "entity_class": "Sports Team",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 10729,
+            "entity_label": "Sofia",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 7544,
+            "entity_label": "Jamie Gangel",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 5388,
+            "entity_label": "Lili Taylor",
+            "entity_class": "Person",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 4870,
+            "entity_label": "Hairspray",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 6986,
+            "entity_label": "Frank Welker",
+            "entity_class": "Voice Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 6382,
+            "entity_label": "Dial M for Murder",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 4.107304,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 4,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 4864,
+            "entity_label": "Set Dresser",
+            "entity_class": "Job Title",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 11568,
+            "entity_label": "Macaulay Culkin",
+            "entity_class": "Person",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 4810,
+            "entity_label": "Danubio F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 11318,
+            "entity_label": "Jane Seymour",
+            "entity_class": "Actress",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
                 "key": 1
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "13402": 1,
-        "5245": 2,
+        "6773": 1,
+        "11345": 2,
         "12256": 3,
-        "8982": 4,
-        "11568": 5,
-        "8637": 6,
-        "1855": 7,
-        "6541": 8,
-        "5029": 9,
-        "9707": 10,
-        "3187": 11,
-        "14037": 12,
-        "11318": 13,
-        "6093": 14,
-        "4994": 15,
-        "2181": 16,
-        "5388": 17,
-        "10926": 18,
-        "7089": 19,
-        "11345": 20
+        "12176": 4,
+        "14037": 5,
+        "7089": 6,
+        "8637": 7,
+        "13086": 8,
+        "8325": 9,
+        "10729": 10,
+        "7544": 11,
+        "5388": 12,
+        "4870": 13,
+        "6986": 14,
+        "6382": 15,
+        "4994": 16,
+        "4864": 17,
+        "11568": 18,
+        "4810": 19,
+        "11318": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Nobel Prize in Physics, relation=operatingIncomeCurrency, tail=?)\n\nOntology summary:\n- Query relation: operatingIncomeCurrency\n- Head entity: Nobel Prize in Physics\n- Head class: Award\n- Relation domain: University\n- Relation range: Currency\n- Domain check: not clearly matched\n- Tail entities of class 'Currency' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=38, edges=46, paths=20\n- Head outgoing edges under target relation operatingIncomeCurrency: 2\n- Key support nodes: Nobel Prize in Physics, Country Rock, Delta Blues, Seattle, Jamie Foxx, Miniseries, Jane Seymour, Maaya Sakamoto\n- Main auxiliary relations: hasNetflixGenreTitle(6), hasEthnicity(4), hasMonthlyClimate(3)\n\nFrequent relation path patterns:\n- operatingIncomeCurrency (count=2)\n- hasReleaseMedium -> hasDesignedFilmSets -> operatingIncomeCurrency (count=2)\n- hasReleaseMedium -> operatingIncomeCurrency (count=1)\n- operatingIncomeCurrency -> distributorsInRegion (count=1)\n- isInductedIntoHallOfFame (count=1)\n\nCandidates:\n1. Wuxia [id=13402 | class=Novel Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n3. Olympiacos F.c. [id=12256 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n5. Macaulay Culkin [id=11568 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Pune [id=8637 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Orry-kelly [id=1855 | class=Costume Designer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Suicide [id=6541 | class=Social Issue | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]\n10. University of Kent [id=9707 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Litchfield County [id=3187 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Jane Seymour [id=11318 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n14. Kingdom of Great Britain [id=6093 | class=Country | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=4 | aux=1 | key=1]\n16. Rob Zombie [id=2181 | class=Music Artist | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Lili Taylor [id=5388 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n18. The Shining [id=10926 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n19. Sonoma County [id=7089 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Nobel Prize in Physics, relation=operatingIncomeCurrency, tail=?)\n\nOntology summary:\n- Query relation: operatingIncomeCurrency\n- Head entity: Nobel Prize in Physics\n- Head class: Award\n- Relation domain: University\n- Relation range: Currency\n- Domain check: not clearly matched\n- Tail entities of class 'Currency' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=38, edges=46, paths=20\n- Head outgoing edges under target relation operatingIncomeCurrency: 2\n- Key support nodes: Nobel Prize in Physics, Country Rock, Delta Blues, Seattle, Jamie Foxx, Miniseries, Jane Seymour, Maaya Sakamoto\n- Main auxiliary relations: hasNetflixGenreTitle(6), hasEthnicity(4), hasMonthlyClimate(3)\n\nFrequent relation path patterns:\n- operatingIncomeCurrency (count=2)\n- hasReleaseMedium -> hasDesignedFilmSets -> operatingIncomeCurrency (count=2)\n- hasReleaseMedium -> operatingIncomeCurrency (count=1)\n- operatingIncomeCurrency -> distributorsInRegion (count=1)\n- isInductedIntoHallOfFame (count=1)\n\nCandidates:\n1. Jonny Greenwood [id=6773 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n3. Olympiacos F.c. [id=12256 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Monty Python [id=12176 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Sonoma County [id=7089 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Pune [id=8637 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Psychologist [id=13086 | class=Occupation | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Cf Pachuca [id=8325 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Sofia [id=10729 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Lili Taylor [id=5388 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Hairspray [id=4870 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Frank Welker [id=6986 | class=Voice Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Dial M for Murder [id=6382 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=4 | aux=1 | key=1]\n17. Set Dresser [id=4864 | class=Job Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Macaulay Culkin [id=11568 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n19. Danubio F.c. [id=4810 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Jane Seymour [id=11318 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n"
 }

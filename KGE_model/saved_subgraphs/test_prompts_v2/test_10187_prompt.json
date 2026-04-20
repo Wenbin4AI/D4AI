@@ -7,63 +7,15 @@
         "relation_label": "isInRankedList",
         "gold_tail": 13043,
         "gold_tail_label": "New Jersey Devils",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 18
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 3723,
-            "entity_label": "Everyone Says I Love You",
-            "entity_class": "Movie",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
-            "entity_id": 8310,
-            "entity_label": "Dan Curtis",
-            "entity_class": "Director",
-            "score": 1.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 9673,
-            "entity_label": "Shoegaze",
-            "entity_class": "Music Genre",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 3317,
-            "entity_label": "Swarthmore College",
-            "entity_class": "College",
+            "entity_id": 14145,
+            "entity_label": "Internal Medicine",
+            "entity_class": "Medical Specialty",
             "score": 2.647918,
             "features": {
                 "type_match": 0,
@@ -76,167 +28,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 5,
-            "entity_id": 10225,
-            "entity_label": "Greenwich",
-            "entity_class": "Location",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 1323,
-            "entity_label": "Juris Doctor",
-            "entity_class": "Academic Degree",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 14037,
-            "entity_label": "Pontefract",
-            "entity_class": "City",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 2140,
-            "entity_label": "Star Wars: Episode Vi – Return of the Jedi",
-            "entity_class": "Movie",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 2742,
-            "entity_label": "Kid Rock",
-            "entity_class": "Person",
-            "score": 1.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 4823,
-            "entity_label": "The Trouble with Harry",
-            "entity_class": "Movie",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 14473,
-            "entity_label": "Candlelight Records",
-            "entity_class": "Record Label",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 3910,
-            "entity_label": "Old Dogs",
-            "entity_class": "Movie",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 12699,
-            "entity_label": "Latin Grammy Award for Song of the Year",
-            "entity_class": "Award Category",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 13580,
-            "entity_label": "Burgundy",
-            "entity_class": "Region",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
+            "rank_index": 2,
             "entity_id": 5526,
             "entity_label": "Arterial Hypertension",
             "entity_class": "Disease",
@@ -252,10 +44,218 @@
             "is_gold": 0
         },
         {
+            "rank_index": 3,
+            "entity_id": 3550,
+            "entity_label": "Orlando Pirates F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 13277,
+            "entity_label": "Systemic Lupus Erythematosus",
+            "entity_class": "Disease",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 11416,
+            "entity_label": "It",
+            "entity_class": "Book",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 5825,
+            "entity_label": "Ska",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 6508,
+            "entity_label": "2046",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 10225,
+            "entity_label": "Greenwich",
+            "entity_class": "Location",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 940,
+            "entity_label": "Eva Longoria",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 6828,
+            "entity_label": "Badminton",
+            "entity_class": "Sport",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8663,
+            "entity_label": "Red Bank",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 9002,
+            "entity_label": "Gibraltar",
+            "entity_class": "Geographical Entity",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 9770,
+            "entity_label": "Sv Wacker Burghausen",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 3723,
+            "entity_label": "Everyone Says I Love You",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 6352,
+            "entity_label": "62nd Golden Globe Awards",
+            "entity_class": "Awards Ceremony",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
             "rank_index": 16,
-            "entity_id": 11283,
-            "entity_label": "Criminology",
-            "entity_class": "Field of Study",
+            "entity_id": 13265,
+            "entity_label": "Avignon",
+            "entity_class": "City",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -269,15 +269,15 @@
         },
         {
             "rank_index": 17,
-            "entity_id": 4416,
-            "entity_label": "Luc Besson",
-            "entity_class": "Director",
-            "score": 1.039721,
+            "entity_id": 8439,
+            "entity_label": "Douglas Coupland",
+            "entity_class": "Author",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -285,22 +285,6 @@
         },
         {
             "rank_index": 18,
-            "entity_id": 5464,
-            "entity_label": "Union of South Africa",
-            "entity_class": "Historical Region",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
             "entity_id": 13043,
             "entity_label": "New Jersey Devils",
             "entity_class": "Ice Hockey Team",
@@ -316,43 +300,59 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 14145,
-            "entity_label": "Internal Medicine",
-            "entity_class": "Medical Specialty",
-            "score": 2.647918,
+            "rank_index": 19,
+            "entity_id": 5968,
+            "entity_label": "You Don't Mess with the Zohan",
+            "entity_class": "Film",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 2722,
+            "entity_label": "2012 Summer Olympics",
+            "entity_class": "Event",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "3723": 1,
-        "8310": 2,
-        "9673": 3,
-        "3317": 4,
-        "10225": 5,
-        "1323": 6,
-        "14037": 7,
-        "2140": 8,
-        "2742": 9,
-        "4823": 10,
-        "14473": 11,
-        "3910": 12,
-        "12699": 13,
-        "13580": 14,
-        "5526": 15,
-        "11283": 16,
-        "4416": 17,
-        "5464": 18,
-        "13043": 19,
-        "14145": 20
+        "14145": 1,
+        "5526": 2,
+        "3550": 3,
+        "13277": 4,
+        "11416": 5,
+        "5825": 6,
+        "6508": 7,
+        "10225": 8,
+        "940": 9,
+        "6828": 10,
+        "8663": 11,
+        "9002": 12,
+        "9770": 13,
+        "3723": 14,
+        "6352": 15,
+        "13265": 16,
+        "8439": 17,
+        "13043": 18,
+        "5968": 19,
+        "2722": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Syracuse, relation=isInRankedList, tail=?)\n\nOntology summary:\n- Query relation: isInRankedList\n- Head entity: Syracuse\n- Head class: City\n- Relation domain: Company\n- Relation range: Organization\n- Domain check: not clearly matched\n- Tail entities of class 'Organization' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=51, edges=58, paths=20\n- Head outgoing edges under target relation isInRankedList: 2\n- Key support nodes: Syracuse, Latin Grammy Award for Song of the Year, New Jersey Devils, Fish Tank, Bobby Mcferrin, Villarreal Cf, Arterial Hypertension, Internal Medicine\n- Main auxiliary relations: hasWinner(21), hasAthlete(10), hasEndowmentCurrency(8)\n\nFrequent relation path patterns:\n- isInRankedList -> hasAthlete -> hasWinner (count=17)\n- isInRankedList (count=2)\n- isInRankedList -> hasRegularPerformanceRole -> influencedBy (count=1)\n\nCandidates:\n1. Everyone Says I Love You [id=3723 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Dan Curtis [id=8310 | class=Director | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]\n3. Shoegaze [id=9673 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n4. Swarthmore College [id=3317 | class=College | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n5. Greenwich [id=10225 | class=Location | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Juris Doctor [id=1323 | class=Academic Degree | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n7. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Star Wars: Episode Vi – Return of the Jedi [id=2140 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Kid Rock [id=2742 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=0]\n10. The Trouble with Harry [id=4823 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. Candlelight Records [id=14473 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Old Dogs [id=3910 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Latin Grammy Award for Song of the Year [id=12699 | class=Award Category | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Burgundy [id=13580 | class=Region | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Arterial Hypertension [id=5526 | class=Disease | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n16. Criminology [id=11283 | class=Field of Study | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Luc Besson [id=4416 | class=Director | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n18. Union of South Africa [id=5464 | class=Historical Region | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n19. New Jersey Devils [id=13043 | class=Ice Hockey Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Internal Medicine [id=14145 | class=Medical Specialty | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Syracuse, relation=isInRankedList, tail=?)\n\nOntology summary:\n- Query relation: isInRankedList\n- Head entity: Syracuse\n- Head class: City\n- Relation domain: Company\n- Relation range: Organization\n- Domain check: not clearly matched\n- Tail entities of class 'Organization' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=51, edges=58, paths=20\n- Head outgoing edges under target relation isInRankedList: 2\n- Key support nodes: Syracuse, Latin Grammy Award for Song of the Year, New Jersey Devils, Fish Tank, Bobby Mcferrin, Villarreal Cf, Arterial Hypertension, Internal Medicine\n- Main auxiliary relations: hasWinner(21), hasAthlete(10), hasEndowmentCurrency(8)\n\nFrequent relation path patterns:\n- isInRankedList -> hasAthlete -> hasWinner (count=17)\n- isInRankedList (count=2)\n- isInRankedList -> hasRegularPerformanceRole -> influencedBy (count=1)\n\nCandidates:\n1. Internal Medicine [id=14145 | class=Medical Specialty | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n2. Arterial Hypertension [id=5526 | class=Disease | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n3. Orlando Pirates F.c. [id=3550 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Systemic Lupus Erythematosus [id=13277 | class=Disease | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. It [id=11416 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Ska [id=5825 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. 2046 [id=6508 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Greenwich [id=10225 | class=Location | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n9. Eva Longoria [id=940 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Badminton [id=6828 | class=Sport | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Red Bank [id=8663 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Gibraltar [id=9002 | class=Geographical Entity | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Sv Wacker Burghausen [id=9770 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Everyone Says I Love You [id=3723 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. 62nd Golden Globe Awards [id=6352 | class=Awards Ceremony | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Avignon [id=13265 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Douglas Coupland [id=8439 | class=Author | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. New Jersey Devils [id=13043 | class=Ice Hockey Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. You Don't Mess with the Zohan [id=5968 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. 2012 Summer Olympics [id=2722 | class=Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

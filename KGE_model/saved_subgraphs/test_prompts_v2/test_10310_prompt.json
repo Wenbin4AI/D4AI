@@ -7,44 +7,12 @@
         "relation_label": "hasContributions",
         "gold_tail": 3056,
         "gold_tail_label": "Ryan Phillippe",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 5
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 6503,
-            "entity_label": "Thomas Newman",
-            "entity_class": "Composer",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
-            "entity_id": 5634,
-            "entity_label": "Channing Tatum",
-            "entity_class": "Person",
-            "score": 3.426015,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 3,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
             "entity_id": 5553,
             "entity_label": "Meet Joe Black",
             "entity_class": "Movie",
@@ -60,23 +28,71 @@
             "is_gold": 0
         },
         {
-            "rank_index": 4,
-            "entity_id": 14029,
-            "entity_label": "Pulitzer Prize for Public Service",
-            "entity_class": "Award",
-            "score": 3.426015,
+            "rank_index": 2,
+            "entity_id": 11993,
+            "entity_label": "University of St Andrews",
+            "entity_class": "University",
+            "score": 3.83148,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 1,
-                "aux_support": 3,
+                "aux_support": 5,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 10128,
+            "entity_label": "Sammy Davis Jr.",
+            "entity_class": "Person",
+            "score": 3.649159,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 4,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 8713,
+            "entity_label": "Mtv Video Music Award for Best Group",
+            "entity_class": "Award",
+            "score": 3.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
                 "key": 1
             },
             "is_gold": 0
         },
         {
             "rank_index": 5,
+            "entity_id": 3056,
+            "entity_label": "Ryan Phillippe",
+            "entity_class": "Actor",
+            "score": 8.084243,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 20,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 6,
             "entity_id": 1314,
             "entity_label": "Fantasy",
             "entity_class": "Genre",
@@ -88,22 +104,6 @@
                 "path_count": 0,
                 "aux_support": 4,
                 "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 30,
-            "entity_label": "Catherine Keener",
-            "entity_class": "Actress",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
             },
             "is_gold": 0
         },
@@ -125,54 +125,22 @@
         },
         {
             "rank_index": 8,
-            "entity_id": 11769,
-            "entity_label": "Chuck Connors",
-            "entity_class": "Person",
-            "score": 1.732868,
+            "entity_id": 4651,
+            "entity_label": "Sean Astin",
+            "entity_class": "Actor",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
+                "path_count": 0,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 9,
-            "entity_id": 4695,
-            "entity_label": "The Kingdom",
-            "entity_class": "Film",
-            "score": 3.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 12852,
-            "entity_label": "Gwynedd",
-            "entity_class": "County",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
             "entity_id": 13685,
             "entity_label": "Mandopop",
             "entity_class": "Music Genre",
@@ -188,74 +156,170 @@
             "is_gold": 0
         },
         {
-            "rank_index": 12,
-            "entity_id": 6862,
-            "entity_label": "Tony Geiss",
-            "entity_class": "Writer",
-            "score": 1.732868,
+            "rank_index": 10,
+            "entity_id": 2611,
+            "entity_label": "Pet Shop Boys",
+            "entity_class": "Music Group",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 7017,
+            "entity_label": "Kerala",
+            "entity_class": "Location",
+            "score": 1.098612,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 2,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 6389,
+            "entity_label": "Robert Mitchum",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 13,
-            "entity_id": 11993,
-            "entity_label": "University of St Andrews",
-            "entity_class": "University",
-            "score": 3.83148,
+            "entity_id": 5634,
+            "entity_label": "Channing Tatum",
+            "entity_class": "Person",
+            "score": 3.426015,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 1,
-                "aux_support": 5,
+                "aux_support": 3,
                 "key": 1
             },
             "is_gold": 0
         },
         {
             "rank_index": 14,
-            "entity_id": 1122,
-            "entity_label": "Rebecca",
-            "entity_class": "Novel",
-            "score": 1.732868,
+            "entity_id": 8662,
+            "entity_label": "Bucknell University",
+            "entity_class": "University",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
+                "path_count": 0,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 15,
-            "entity_id": 11576,
-            "entity_label": "Time in China",
-            "entity_class": "Time Zone",
-            "score": 3.649159,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 0.693147,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
-                "aux_support": 4,
-                "key": 1
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 16,
-            "entity_id": 775,
-            "entity_label": "Gillian Anderson",
-            "entity_class": "Actress",
+            "entity_id": 6040,
+            "entity_label": "Gillingham F.c.",
+            "entity_class": "Sports Team",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 12263,
+            "entity_label": "Amarillo",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 5055,
+            "entity_label": "John Adams",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 1552,
+            "entity_label": "Eritrea",
+            "entity_class": "Country",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 11769,
+            "entity_label": "Chuck Connors",
+            "entity_class": "Person",
             "score": 1.732868,
             "features": {
                 "type_match": 0,
@@ -266,93 +330,29 @@
                 "key": 0
             },
             "is_gold": 0
-        },
-        {
-            "rank_index": 17,
-            "entity_id": 3312,
-            "entity_label": "Howard Gordon",
-            "entity_class": "Producer",
-            "score": 3.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 8713,
-            "entity_label": "Mtv Video Music Award for Best Group",
-            "entity_class": "Award",
-            "score": 3.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
-            "entity_id": 3056,
-            "entity_label": "Ryan Phillippe",
-            "entity_class": "Actor",
-            "score": 8.084243,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 20,
-                "key": 1
-            },
-            "is_gold": 1
-        },
-        {
-            "rank_index": 20,
-            "entity_id": 10128,
-            "entity_label": "Sammy Davis Jr.",
-            "entity_class": "Person",
-            "score": 3.649159,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 4,
-                "key": 1
-            },
-            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "6503": 1,
-        "5634": 2,
-        "5553": 3,
-        "14029": 4,
-        "1314": 5,
-        "30": 6,
+        "5553": 1,
+        "11993": 2,
+        "10128": 3,
+        "8713": 4,
+        "3056": 5,
+        "1314": 6,
         "3296": 7,
-        "11769": 8,
-        "4695": 9,
-        "12852": 10,
-        "13685": 11,
-        "6862": 12,
-        "11993": 13,
-        "1122": 14,
-        "11576": 15,
-        "775": 16,
-        "3312": 17,
-        "8713": 18,
-        "3056": 19,
-        "10128": 20
+        "4651": 8,
+        "13685": 9,
+        "2611": 10,
+        "7017": 11,
+        "6389": 12,
+        "5634": 13,
+        "8662": 14,
+        "14037": 15,
+        "6040": 16,
+        "12263": 17,
+        "5055": 18,
+        "1552": 19,
+        "11769": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Fantasy, relation=hasContributions, tail=?)\n\nOntology summary:\n- Query relation: hasContributions\n- Head entity: Fantasy\n- Head class: Genre\n- Relation domain: Musician\n- Relation range: Musical Instrument\n- Domain check: not clearly matched\n- Tail entities of class 'Musical Instrument' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=39, edges=50, paths=20\n- Head outgoing edges under target relation hasContributions: 1\n- Key support nodes: Fantasy, Ryan Phillippe, University of St Andrews, Time in China, The Kingdom, Sammy Davis Jr., Howard Gordon, Mtv Video Music Award for Best Group\n- Main auxiliary relations: hasGenre(32), hasRuntime(4), hasColors(2)\n\nFrequent relation path patterns:\n- hasContributions -> hasGenre (count=19)\n- hasContributions (count=1)\n\nCandidates:\n1. Thomas Newman [id=6503 | class=Composer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n2. Channing Tatum [id=5634 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]\n3. Meet Joe Black [id=5553 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n4. Pulitzer Prize for Public Service [id=14029 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]\n5. Fantasy [id=1314 | class=Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=4 | key=1]\n6. Catherine Keener [id=30 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n7. Canoe Slalom [id=3296 | class=Sport | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n8. Chuck Connors [id=11769 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n9. The Kingdom [id=4695 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n10. Gwynedd [id=12852 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n11. Mandopop [id=13685 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n12. Tony Geiss [id=6862 | class=Writer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n13. University of St Andrews [id=11993 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=5 | key=1]\n14. Rebecca [id=1122 | class=Novel | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n15. Time in China [id=11576 | class=Time Zone | type=0 | soft_type=0 | direct=0 | paths=1 | aux=4 | key=1]\n16. Gillian Anderson [id=775 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n17. Howard Gordon [id=3312 | class=Producer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n18. Mtv Video Music Award for Best Group [id=8713 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n19. Ryan Phillippe [id=3056 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=20 | key=1]\n20. Sammy Davis Jr. [id=10128 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=4 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Fantasy, relation=hasContributions, tail=?)\n\nOntology summary:\n- Query relation: hasContributions\n- Head entity: Fantasy\n- Head class: Genre\n- Relation domain: Musician\n- Relation range: Musical Instrument\n- Domain check: not clearly matched\n- Tail entities of class 'Musical Instrument' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=39, edges=50, paths=20\n- Head outgoing edges under target relation hasContributions: 1\n- Key support nodes: Fantasy, Ryan Phillippe, University of St Andrews, Time in China, The Kingdom, Sammy Davis Jr., Howard Gordon, Mtv Video Music Award for Best Group\n- Main auxiliary relations: hasGenre(32), hasRuntime(4), hasColors(2)\n\nFrequent relation path patterns:\n- hasContributions -> hasGenre (count=19)\n- hasContributions (count=1)\n\nCandidates:\n1. Meet Joe Black [id=5553 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n2. University of St Andrews [id=11993 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=5 | key=1]\n3. Sammy Davis Jr. [id=10128 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=4 | key=1]\n4. Mtv Video Music Award for Best Group [id=8713 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n5. Ryan Phillippe [id=3056 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=20 | key=1]\n6. Fantasy [id=1314 | class=Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=4 | key=1]\n7. Canoe Slalom [id=3296 | class=Sport | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n8. Sean Astin [id=4651 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Mandopop [id=13685 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n10. Pet Shop Boys [id=2611 | class=Music Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Kerala [id=7017 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=0]\n12. Robert Mitchum [id=6389 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Channing Tatum [id=5634 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]\n14. Bucknell University [id=8662 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n16. Gillingham F.c. [id=6040 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Amarillo [id=12263 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. John Adams [id=5055 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Eritrea [id=1552 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Chuck Connors [id=11769 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n"
 }

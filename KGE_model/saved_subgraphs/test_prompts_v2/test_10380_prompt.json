@@ -7,19 +7,19 @@
         "relation_label": "hasAthlete",
         "gold_tail": 8624,
         "gold_tail_label": "Cliff Robertson",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 15
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 6420,
-            "entity_label": "Zach Galifianakis",
-            "entity_class": "Actor",
-            "score": 1.5,
+            "entity_id": 7040,
+            "entity_label": "Pride & Prejudice",
+            "entity_class": "Novel",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -29,15 +29,15 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 11097,
-            "entity_label": "Paul Winfield",
-            "entity_class": "Actor",
-            "score": 5.539721,
+            "entity_id": 12549,
+            "entity_label": "Flathead County",
+            "entity_class": "County",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -45,70 +45,6 @@
         },
         {
             "rank_index": 3,
-            "entity_id": 3246,
-            "entity_label": "Bob Newhart",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 3221,
-            "entity_label": "If Elfsborg",
-            "entity_class": "Sports Club",
-            "score": 5.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 13347,
-            "entity_label": "Green Party of the United States",
-            "entity_class": "Political Party",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 3992,
-            "entity_label": "Emilio Estefan",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
             "entity_id": 3545,
             "entity_label": "Hogan Sheffer",
             "entity_class": "Writer",
@@ -124,7 +60,55 @@
             "is_gold": 0
         },
         {
-            "rank_index": 8,
+            "rank_index": 4,
+            "entity_id": 7322,
+            "entity_label": "French Third Republic",
+            "entity_class": "Government",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 4195,
+            "entity_label": "James Woods",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 8657,
+            "entity_label": "W. H. Auden",
+            "entity_class": "Poet",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
             "entity_id": 10309,
             "entity_label": "George Hamilton",
             "entity_class": "Actor",
@@ -140,71 +124,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 9,
-            "entity_id": 7133,
-            "entity_label": "Lebanon",
-            "entity_class": "Location",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 4704,
-            "entity_label": "James Denton",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 8182,
-            "entity_label": "Claremont Graduate University",
-            "entity_class": "University",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 10537,
-            "entity_label": "Harris County",
-            "entity_class": "County",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
+            "rank_index": 8,
             "entity_id": 7952,
             "entity_label": "Gilles Deleuze",
             "entity_class": "Person",
@@ -220,14 +140,94 @@
             "is_gold": 0
         },
         {
-            "rank_index": 14,
-            "entity_id": 3696,
-            "entity_label": "David O. Russell",
-            "entity_class": "Person",
-            "score": 4.5,
+            "rank_index": 9,
+            "entity_id": 5812,
+            "entity_label": "Milwaukee",
+            "entity_class": "Location",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 3221,
+            "entity_label": "If Elfsborg",
+            "entity_class": "Sports Club",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 9557,
+            "entity_label": "Anna Karenina",
+            "entity_class": "Book",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 2670,
+            "entity_label": "Close Encounters of the Third Kind",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 1954,
+            "entity_label": "Art History",
+            "entity_class": "Field of Study",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 1501,
+            "entity_label": "Academy Award for Best Film Editing",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -237,70 +237,6 @@
         },
         {
             "rank_index": 15,
-            "entity_id": 3804,
-            "entity_label": "(e)-phytonadione",
-            "entity_class": "Chemical Compound",
-            "score": 6.414157,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 4,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 2054,
-            "entity_label": "Cumulus Media",
-            "entity_class": "Company",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
-            "entity_id": 11868,
-            "entity_label": "Puppet",
-            "entity_class": "Puppet",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 5567,
-            "entity_label": "Since You Went Away",
-            "entity_class": "Movie",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
             "entity_id": 8624,
             "entity_label": "Cliff Robertson",
             "entity_class": "Person",
@@ -316,43 +252,107 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 1937,
-            "entity_label": "Brave",
-            "entity_class": "Film",
-            "score": 6.079442,
+            "rank_index": 16,
+            "entity_id": 14533,
+            "entity_label": "Association Football Manager",
+            "entity_class": "Occupation",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 5567,
+            "entity_label": "Since You Went Away",
+            "entity_class": "Movie",
+            "score": 5.039721,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
-                "path_count": 3,
+                "path_count": 1,
                 "aux_support": 0,
                 "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 3992,
+            "entity_label": "Emilio Estefan",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 12555,
+            "entity_label": "Linux",
+            "entity_class": "Operating System",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 7856,
+            "entity_label": "The Lady",
+            "entity_class": "Film",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "6420": 1,
-        "11097": 2,
-        "3246": 3,
-        "3221": 4,
-        "13347": 5,
-        "3992": 6,
-        "3545": 7,
-        "10309": 8,
-        "7133": 9,
-        "4704": 10,
-        "8182": 11,
-        "10537": 12,
-        "7952": 13,
-        "3696": 14,
-        "3804": 15,
-        "2054": 16,
-        "11868": 17,
-        "5567": 18,
-        "8624": 19,
-        "1937": 20
+        "7040": 1,
+        "12549": 2,
+        "3545": 3,
+        "7322": 4,
+        "4195": 5,
+        "8657": 6,
+        "10309": 7,
+        "7952": 8,
+        "5812": 9,
+        "3221": 10,
+        "9557": 11,
+        "2670": 12,
+        "1954": 13,
+        "1501": 14,
+        "8624": 15,
+        "14533": 16,
+        "5567": 17,
+        "3992": 18,
+        "12555": 19,
+        "7856": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Susan Sarandon, relation=hasAthlete, tail=?)\n\nOntology summary:\n- Query relation: hasAthlete\n- Head entity: Susan Sarandon\n- Head class: Person\n- Relation domain: Sport\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=48, edges=54, paths=20\n- Head outgoing edges under target relation hasAthlete: 14\n- Key support nodes: Susan Sarandon, (e)-phytonadione, Brave, Alexander Golitzen, If Elfsborg, Lebanon, Puppet, Since You Went Away\n- Main auxiliary relations: hasWinner(22), hasImpersonatedCelebrities(5), hasNetflixGenreTitle(2)\n\nFrequent relation path patterns:\n- hasAthlete (count=14)\n- hasImpersonatedCelebrities -> hasAthlete (count=6)\n\nCandidates:\n1. Zach Galifianakis [id=6420 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n2. Paul Winfield [id=11097 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n3. Bob Newhart [id=3246 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. If Elfsborg [id=3221 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n5. Green Party of the United States [id=13347 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Emilio Estefan [id=3992 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Hogan Sheffer [id=3545 | class=Writer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. George Hamilton [id=10309 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n9. Lebanon [id=7133 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. James Denton [id=4704 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Claremont Graduate University [id=8182 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Harris County [id=10537 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. Gilles Deleuze [id=7952 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n14. David O. Russell [id=3696 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. (e)-phytonadione [id=3804 | class=Chemical Compound | type=0 | soft_type=0 | direct=1 | paths=4 | aux=0 | key=1]\n16. Cumulus Media [id=2054 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Puppet [id=11868 | class=Puppet | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Since You Went Away [id=5567 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Cliff Robertson [id=8624 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n20. Brave [id=1937 | class=Film | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Susan Sarandon, relation=hasAthlete, tail=?)\n\nOntology summary:\n- Query relation: hasAthlete\n- Head entity: Susan Sarandon\n- Head class: Person\n- Relation domain: Sport\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=48, edges=54, paths=20\n- Head outgoing edges under target relation hasAthlete: 14\n- Key support nodes: Susan Sarandon, (e)-phytonadione, Brave, Alexander Golitzen, If Elfsborg, Lebanon, Puppet, Since You Went Away\n- Main auxiliary relations: hasWinner(22), hasImpersonatedCelebrities(5), hasNetflixGenreTitle(2)\n\nFrequent relation path patterns:\n- hasAthlete (count=14)\n- hasImpersonatedCelebrities -> hasAthlete (count=6)\n\nCandidates:\n1. Pride & Prejudice [id=7040 | class=Novel | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Flathead County [id=12549 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Hogan Sheffer [id=3545 | class=Writer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. French Third Republic [id=7322 | class=Government | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. James Woods [id=4195 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. W. H. Auden [id=8657 | class=Poet | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. George Hamilton [id=10309 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Gilles Deleuze [id=7952 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n9. Milwaukee [id=5812 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. If Elfsborg [id=3221 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n11. Anna Karenina [id=9557 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Close Encounters of the Third Kind [id=2670 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Art History [id=1954 | class=Field of Study | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Academy Award for Best Film Editing [id=1501 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Cliff Robertson [id=8624 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n16. Association Football Manager [id=14533 | class=Occupation | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Since You Went Away [id=5567 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Emilio Estefan [id=3992 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Linux [id=12555 | class=Operating System | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. The Lady [id=7856 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

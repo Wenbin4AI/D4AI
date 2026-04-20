@@ -7,15 +7,15 @@
         "relation_label": "hasBorder",
         "gold_tail": 14037,
         "gold_tail_label": "Pontefract",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 8
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 3602,
-            "entity_label": "Brian May",
-            "entity_class": "Guitarist",
+            "entity_id": 5491,
+            "entity_label": "44th Annual Grammy Awards",
+            "entity_class": "Award",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -29,13 +29,13 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 2978,
-            "entity_label": "North Macedonia",
-            "entity_class": "Country",
-            "score": 1.5,
+            "entity_id": 3019,
+            "entity_label": "Annie",
+            "entity_class": "Musical",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -45,134 +45,6 @@
         },
         {
             "rank_index": 3,
-            "entity_id": 13942,
-            "entity_label": "Ctv Television Network",
-            "entity_class": "Television Network",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 9448,
-            "entity_label": "Costa Rica",
-            "entity_class": "Country",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 5245,
-            "entity_label": "Miniseries",
-            "entity_class": "Tv Format",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 3253,
-            "entity_label": "James E. Reilly",
-            "entity_class": "Person",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 7799,
-            "entity_label": "Igor Stravinsky",
-            "entity_class": "Person",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 5388,
-            "entity_label": "Lili Taylor",
-            "entity_class": "Person",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 10729,
-            "entity_label": "Sofia",
-            "entity_class": "City",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 4810,
-            "entity_label": "Danubio F.c.",
-            "entity_class": "Football Club",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
             "entity_id": 9995,
             "entity_label": "David Henrie",
             "entity_class": "Person",
@@ -188,10 +60,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 12,
-            "entity_id": 8982,
-            "entity_label": "Maaya Sakamoto",
-            "entity_class": "Voice Actress and Singer",
+            "rank_index": 4,
+            "entity_id": 5958,
+            "entity_label": "The Cabin in the Woods",
+            "entity_class": "Movie",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -204,42 +76,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 13,
-            "entity_id": 3098,
-            "entity_label": "Allegheny County",
-            "entity_class": "County",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 11345,
-            "entity_label": "Delta Blues",
-            "entity_class": "Music Genre",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 6686,
-            "entity_label": "Decatur",
-            "entity_class": "City",
+            "rank_index": 5,
+            "entity_id": 9448,
+            "entity_label": "Costa Rica",
+            "entity_class": "Country",
             "score": 1.5,
             "features": {
                 "type_match": 0,
@@ -252,10 +92,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 16,
-            "entity_id": 6765,
-            "entity_label": "Kristin Scott Thomas",
-            "entity_class": "Person",
+            "rank_index": 6,
+            "entity_id": 10687,
+            "entity_label": "New York Islanders",
+            "entity_class": "Sports Team",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -268,39 +108,23 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 9839,
-            "entity_label": "Wallace Shawn",
-            "entity_class": "Person",
-            "score": 1.039721,
+            "rank_index": 7,
+            "entity_id": 5835,
+            "entity_label": "Dog Day Afternoon",
+            "entity_class": "Movie Title",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 9940,
-            "entity_label": "World Fantasy Award for Best Short Fiction",
-            "entity_class": "Award",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
+            "rank_index": 8,
             "entity_id": 14037,
             "entity_label": "Pontefract",
             "entity_class": "City",
@@ -316,14 +140,190 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 5029,
-            "entity_label": "Exeter",
-            "entity_class": "City",
-            "score": 1.5,
+            "rank_index": 9,
+            "entity_id": 9839,
+            "entity_label": "Wallace Shawn",
+            "entity_class": "Person",
+            "score": 1.039721,
             "features": {
                 "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 14081,
+            "entity_label": "Royal Victorian Order",
+            "entity_class": "Order",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 3928,
+            "entity_label": "All the King's Men",
+            "entity_class": "Book",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 9557,
+            "entity_label": "Anna Karenina",
+            "entity_class": "Book",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 13942,
+            "entity_label": "Ctv Television Network",
+            "entity_class": "Television Network",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 1202,
+            "entity_label": "20th Television",
+            "entity_class": "Television Network/company",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 3602,
+            "entity_label": "Brian May",
+            "entity_class": "Guitarist",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 13680,
+            "entity_label": "Cornell Law School",
+            "entity_class": "Law School",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 3098,
+            "entity_label": "Allegheny County",
+            "entity_class": "County",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
                 "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 3606,
+            "entity_label": "Afc Bournemouth",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 13234,
+            "entity_label": "Sketch Comedy",
+            "entity_class": "Comedy Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 10959,
+            "entity_label": "Dream Pop",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -333,26 +333,26 @@
         }
     ],
     "candidate_id_to_rank_index": {
-        "3602": 1,
-        "2978": 2,
-        "13942": 3,
-        "9448": 4,
-        "5245": 5,
-        "3253": 6,
-        "7799": 7,
-        "5388": 8,
-        "10729": 9,
-        "4810": 10,
-        "9995": 11,
-        "8982": 12,
-        "3098": 13,
-        "11345": 14,
-        "6686": 15,
-        "6765": 16,
-        "9839": 17,
-        "9940": 18,
-        "14037": 19,
-        "5029": 20
+        "5491": 1,
+        "3019": 2,
+        "9995": 3,
+        "5958": 4,
+        "9448": 5,
+        "10687": 6,
+        "5835": 7,
+        "14037": 8,
+        "9839": 9,
+        "14081": 10,
+        "3928": 11,
+        "9557": 12,
+        "13942": 13,
+        "1202": 14,
+        "3602": 15,
+        "13680": 16,
+        "3098": 17,
+        "3606": 18,
+        "13234": 19,
+        "10959": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Lyndon B. Johnson, relation=hasBorder, tail=?)\n\nOntology summary:\n- Query relation: hasBorder\n- Head entity: Lyndon B. Johnson\n- Head class: Person\n- Relation domain: County\n- Relation range: County\n- Domain check: not clearly matched\n- Tail entities of class 'County' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=36, edges=55, paths=20\n- Head outgoing edges under target relation hasBorder: 1\n- Key support nodes: Lyndon B. Johnson, Pontefract, Jorge Luis Borges, Ronnie Screwvala, Metalcore, Brian Geraghty, The Dresser, Jean Passanante\n- Main auxiliary relations: memberOf(9), hasGenre(6), hasDomesticTuition(6)\n\nFrequent relation path patterns:\n- nominatedFor -> hasGenre -> hasBorder (count=6)\n- nominatedFor -> hasDomesticTuition -> hasBorder (count=5)\n- nominatedFor -> hasPrequel -> hasBorder (count=3)\n- hasBorder (count=1)\n- hasWife -> hasBorder (count=1)\n\nCandidates:\n1. Brian May [id=3602 | class=Guitarist | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. North Macedonia [id=2978 | class=Country | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Ctv Television Network [id=13942 | class=Television Network | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Costa Rica [id=9448 | class=Country | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. James E. Reilly [id=3253 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Igor Stravinsky [id=7799 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Lili Taylor [id=5388 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Sofia [id=10729 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Danubio F.c. [id=4810 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. David Henrie [id=9995 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Allegheny County [id=3098 | class=County | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n14. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Decatur [id=6686 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n16. Kristin Scott Thomas [id=6765 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Wallace Shawn [id=9839 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n18. World Fantasy Award for Best Short Fiction [id=9940 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n19. Pontefract [id=14037 | class=City | type=0 | soft_type=1 | direct=1 | paths=18 | aux=0 | key=1]\n20. Exeter [id=5029 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Lyndon B. Johnson, relation=hasBorder, tail=?)\n\nOntology summary:\n- Query relation: hasBorder\n- Head entity: Lyndon B. Johnson\n- Head class: Person\n- Relation domain: County\n- Relation range: County\n- Domain check: not clearly matched\n- Tail entities of class 'County' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=36, edges=55, paths=20\n- Head outgoing edges under target relation hasBorder: 1\n- Key support nodes: Lyndon B. Johnson, Pontefract, Jorge Luis Borges, Ronnie Screwvala, Metalcore, Brian Geraghty, The Dresser, Jean Passanante\n- Main auxiliary relations: memberOf(9), hasGenre(6), hasDomesticTuition(6)\n\nFrequent relation path patterns:\n- nominatedFor -> hasGenre -> hasBorder (count=6)\n- nominatedFor -> hasDomesticTuition -> hasBorder (count=5)\n- nominatedFor -> hasPrequel -> hasBorder (count=3)\n- hasBorder (count=1)\n- hasWife -> hasBorder (count=1)\n\nCandidates:\n1. 44th Annual Grammy Awards [id=5491 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Annie [id=3019 | class=Musical | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. David Henrie [id=9995 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. The Cabin in the Woods [id=5958 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Costa Rica [id=9448 | class=Country | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. New York Islanders [id=10687 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Dog Day Afternoon [id=5835 | class=Movie Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Pontefract [id=14037 | class=City | type=0 | soft_type=1 | direct=1 | paths=18 | aux=0 | key=1]\n9. Wallace Shawn [id=9839 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n10. Royal Victorian Order [id=14081 | class=Order | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. All the King's Men [id=3928 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Anna Karenina [id=9557 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Ctv Television Network [id=13942 | class=Television Network | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. 20th Television [id=1202 | class=Television Network/company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Brian May [id=3602 | class=Guitarist | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Cornell Law School [id=13680 | class=Law School | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Allegheny County [id=3098 | class=County | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Afc Bournemouth [id=3606 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Sketch Comedy [id=13234 | class=Comedy Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Dream Pop [id=10959 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

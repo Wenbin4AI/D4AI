@@ -7,21 +7,21 @@
         "relation_label": "hasGenre",
         "gold_tail": 10073,
         "gold_tail_label": "Sabah",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 4
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 68,
-            "entity_label": "Argentina",
-            "entity_class": "Country",
-            "score": 4.039721,
+            "entity_id": 12719,
+            "entity_label": "Swingman",
+            "entity_class": "Basketball Position",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -29,31 +29,31 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 9719,
-            "entity_label": "Scott Baio",
+            "entity_id": 10186,
+            "entity_label": "Joseph R. Gannascoli",
             "entity_class": "Actor",
-            "score": 5.732868,
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 3,
-            "entity_id": 1924,
-            "entity_label": "University College London",
-            "entity_class": "University",
-            "score": 4.039721,
+            "entity_id": 13900,
+            "entity_label": "Carolina Hurricanes",
+            "entity_class": "Sports Team",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -61,246 +61,6 @@
         },
         {
             "rank_index": 4,
-            "entity_id": 1413,
-            "entity_label": "Electorate of Saxony",
-            "entity_class": "Electorate",
-            "score": 5.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 4644,
-            "entity_label": "West Virginia University",
-            "entity_class": "University",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 11404,
-            "entity_label": "Eastern Europe",
-            "entity_class": "Region",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 7501,
-            "entity_label": "Panic! at the Disco",
-            "entity_class": "Music Group",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 13148,
-            "entity_label": "Fc Midtjylland",
-            "entity_class": "Football Club",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 2005,
-            "entity_label": "Louis Gossett Jr.",
-            "entity_class": "Person",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 7505,
-            "entity_label": "Stark County",
-            "entity_class": "County",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 4830,
-            "entity_label": "Cumbria",
-            "entity_class": "County",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 553,
-            "entity_label": "Gandhi",
-            "entity_class": "Person",
-            "score": 4.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 4462,
-            "entity_label": "Jon Favreau",
-            "entity_class": "Person",
-            "score": 6.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 1969,
-            "entity_label": "Jack White",
-            "entity_class": "Musician",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 3400,
-            "entity_label": "Francis Ford Coppola",
-            "entity_class": "Director",
-            "score": 6.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 976,
-            "entity_label": "Leicester",
-            "entity_class": "City",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
-            "entity_id": 3399,
-            "entity_label": "Jenny Agutter",
-            "entity_class": "Actress",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 12096,
-            "entity_label": "Picardy",
-            "entity_class": "Region",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
             "entity_id": 10073,
             "entity_label": "Sabah",
             "entity_class": "Location",
@@ -316,10 +76,234 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 11424,
-            "entity_label": "Loughborough University",
+            "rank_index": 5,
+            "entity_id": 7295,
+            "entity_label": "National and Kapodistrian University of Athens",
             "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 2702,
+            "entity_label": "Travis Barker",
+            "entity_class": "Musician",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 8615,
+            "entity_label": "Jane Lynch",
+            "entity_class": "Actor",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 2850,
+            "entity_label": "Sarah Polley",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 2409,
+            "entity_label": "Zoolander",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 392,
+            "entity_label": "Robert Rodriguez",
+            "entity_class": "Film Director",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 11338,
+            "entity_label": "Bebe Winans",
+            "entity_class": "Musician",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 9719,
+            "entity_label": "Scott Baio",
+            "entity_class": "Actor",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 1413,
+            "entity_label": "Electorate of Saxony",
+            "entity_class": "Electorate",
+            "score": 5.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 4843,
+            "entity_label": "Freiburg Im Breisgau",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 1520,
+            "entity_label": "Critics' Choice Movie Award for Best Animated Feature",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 12769,
+            "entity_label": "Middlesex University",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 2856,
+            "entity_label": "The Cleveland Show",
+            "entity_class": "Work",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 3399,
+            "entity_label": "Jenny Agutter",
+            "entity_class": "Actress",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 4462,
+            "entity_label": "Jon Favreau",
+            "entity_class": "Person",
             "score": 6.138333,
             "features": {
                 "type_match": 0,
@@ -330,29 +314,45 @@
                 "key": 1
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 11404,
+            "entity_label": "Eastern Europe",
+            "entity_class": "Region",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "68": 1,
-        "9719": 2,
-        "1924": 3,
-        "1413": 4,
-        "4644": 5,
-        "11404": 6,
-        "7501": 7,
-        "13148": 8,
-        "2005": 9,
-        "7505": 10,
-        "4830": 11,
-        "553": 12,
-        "4462": 13,
-        "1969": 14,
-        "3400": 15,
-        "976": 16,
-        "3399": 17,
-        "12096": 18,
-        "10073": 19,
-        "11424": 20
+        "12719": 1,
+        "10186": 2,
+        "13900": 3,
+        "10073": 4,
+        "7295": 5,
+        "2702": 6,
+        "8615": 7,
+        "2850": 8,
+        "2409": 9,
+        "392": 10,
+        "11338": 11,
+        "9719": 12,
+        "1413": 13,
+        "4843": 14,
+        "1520": 15,
+        "12769": 16,
+        "2856": 17,
+        "3399": 18,
+        "4462": 19,
+        "11404": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Allium Cepa, relation=hasGenre, tail=?)\n\nOntology summary:\n- Query relation: hasGenre\n- Head entity: Allium Cepa\n- Head class: Plant\n- Relation domain: Movie\n- Relation range: Genre\n- Domain check: not clearly matched\n- Tail entities of class 'Genre' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=32, edges=50, paths=20\n- Head outgoing edges under target relation hasGenre: 21\n- Key support nodes: Allium Cepa, Jon Favreau, Louis Gossett Jr., Jenny Agutter, Picardy, West Virginia University, Electorate of Saxony, Francis Ford Coppola\n- Main auxiliary relations: hasDraftPickFromSchool(8), hasMember(6), hasPhoneNumber(4)\n\nFrequent relation path patterns:\n- hasGenre (count=20)\n\nCandidates:\n1. Argentina [id=68 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Scott Baio [id=9719 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n3. University College London [id=1924 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Electorate of Saxony [id=1413 | class=Electorate | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n5. West Virginia University [id=4644 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Eastern Europe [id=11404 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Panic! at the Disco [id=7501 | class=Music Group | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Fc Midtjylland [id=13148 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Louis Gossett Jr. [id=2005 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Stark County [id=7505 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Cumbria [id=4830 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Gandhi [id=553 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]\n13. Jon Favreau [id=4462 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n14. Jack White [id=1969 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Francis Ford Coppola [id=3400 | class=Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n16. Leicester [id=976 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Jenny Agutter [id=3399 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Picardy [id=12096 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Sabah [id=10073 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Loughborough University [id=11424 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Allium Cepa, relation=hasGenre, tail=?)\n\nOntology summary:\n- Query relation: hasGenre\n- Head entity: Allium Cepa\n- Head class: Plant\n- Relation domain: Movie\n- Relation range: Genre\n- Domain check: not clearly matched\n- Tail entities of class 'Genre' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=32, edges=50, paths=20\n- Head outgoing edges under target relation hasGenre: 21\n- Key support nodes: Allium Cepa, Jon Favreau, Louis Gossett Jr., Jenny Agutter, Picardy, West Virginia University, Electorate of Saxony, Francis Ford Coppola\n- Main auxiliary relations: hasDraftPickFromSchool(8), hasMember(6), hasPhoneNumber(4)\n\nFrequent relation path patterns:\n- hasGenre (count=20)\n\nCandidates:\n1. Swingman [id=12719 | class=Basketball Position | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Joseph R. Gannascoli [id=10186 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Carolina Hurricanes [id=13900 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Sabah [id=10073 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. National and Kapodistrian University of Athens [id=7295 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Travis Barker [id=2702 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Jane Lynch [id=8615 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n8. Sarah Polley [id=2850 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Zoolander [id=2409 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Robert Rodriguez [id=392 | class=Film Director | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Bebe Winans [id=11338 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Scott Baio [id=9719 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n13. Electorate of Saxony [id=1413 | class=Electorate | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n14. Freiburg Im Breisgau [id=4843 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Critics' Choice Movie Award for Best Animated Feature [id=1520 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Middlesex University [id=12769 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. The Cleveland Show [id=2856 | class=Work | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Jenny Agutter [id=3399 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Jon Favreau [id=4462 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n20. Eastern Europe [id=11404 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n"
 }

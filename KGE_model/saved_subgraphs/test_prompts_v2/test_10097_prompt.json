@@ -7,99 +7,19 @@
         "relation_label": "hasSubject",
         "gold_tail": 10592,
         "gold_tail_label": "Tours Fc.",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 11
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 9287,
-            "entity_label": "Ted Kennedy",
-            "entity_class": "Person",
-            "score": 4.039721,
+            "entity_id": 10975,
+            "entity_label": "Nuclear Blast",
+            "entity_class": "Record Label",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
-            "entity_id": 6455,
-            "entity_label": "Charles De Gaulle",
-            "entity_class": "Person",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 5065,
-            "entity_label": "Sylvester Stallone",
-            "entity_class": "Actor",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 4378,
-            "entity_label": "John Wayne",
-            "entity_class": "Film Actor",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 5659,
-            "entity_label": "Nirvana",
-            "entity_class": "Band",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 6087,
-            "entity_label": "Team America: World Police",
-            "entity_class": "Movie",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -108,7 +28,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 7,
+            "rank_index": 2,
             "entity_id": 9393,
             "entity_label": "Macy's, Inc.",
             "entity_class": "Company",
@@ -124,71 +44,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 8,
-            "entity_id": 10504,
-            "entity_label": "Motor Car",
-            "entity_class": "Vehicle",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 2103,
-            "entity_label": "Christopher Guest",
-            "entity_class": "Person",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 4437,
-            "entity_label": "Midnight Cowboy",
-            "entity_class": "Movie",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 144,
-            "entity_label": "Stephen Colbert",
-            "entity_class": "Actor",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
+            "rank_index": 3,
             "entity_id": 9055,
             "entity_label": "New Haven",
             "entity_class": "City",
@@ -204,58 +60,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 13,
-            "entity_id": 7244,
-            "entity_label": "The Rescuers",
-            "entity_class": "Movie",
-            "score": 8.539721,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 11753,
-            "entity_label": "Hot Springs",
-            "entity_class": "City",
-            "score": 4.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 1350,
-            "entity_label": "Spartacus",
+            "rank_index": 4,
+            "entity_id": 9287,
+            "entity_label": "Ted Kennedy",
             "entity_class": "Person",
-            "score": 6.426015,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 3,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 7837,
-            "entity_label": "Joe Berlinger",
-            "entity_class": "Director",
             "score": 4.039721,
             "features": {
                 "type_match": 0,
@@ -268,23 +76,71 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 6932,
-            "entity_label": "Jonathan Forte",
+            "rank_index": 5,
+            "entity_id": 4437,
+            "entity_label": "Midnight Cowboy",
+            "entity_class": "Movie",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 14381,
+            "entity_label": "Miami Metropolitan Area",
+            "entity_class": "Region",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 5065,
+            "entity_label": "Sylvester Stallone",
             "entity_class": "Actor",
-            "score": 5.039721,
+            "score": 4.039721,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
                 "path_count": 1,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 18,
+            "rank_index": 8,
+            "entity_id": 97,
+            "entity_label": "Running Back",
+            "entity_class": "Position in American Football",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
             "entity_id": 4732,
             "entity_label": "William Shakespeare",
             "entity_class": "Person",
@@ -300,7 +156,23 @@
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 10,
+            "entity_id": 7837,
+            "entity_label": "Joe Berlinger",
+            "entity_class": "Director",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
             "entity_id": 10592,
             "entity_label": "Tours Fc.",
             "entity_class": "Football Club",
@@ -316,7 +188,87 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
+            "rank_index": 12,
+            "entity_id": 4673,
+            "entity_label": "Lima",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 6822,
+            "entity_label": "Mario Van Peebles",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 9737,
+            "entity_label": "Escondido",
+            "entity_class": "Location",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 11256,
+            "entity_label": "Kuomintang",
+            "entity_class": "Political Party",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 6739,
+            "entity_label": "Arizona State Sun Devils Football",
+            "entity_class": "Sports Team",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
             "entity_id": 3628,
             "entity_label": "Nas",
             "entity_class": "Rapper/singer",
@@ -330,29 +282,77 @@
                 "key": 1
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 3822,
+            "entity_label": "Monster Cap",
+            "entity_class": "Game Card",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 5826,
+            "entity_label": "The Clash",
+            "entity_class": "Band",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 650,
+            "entity_label": "Jerry Nelson",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "9287": 1,
-        "6455": 2,
-        "5065": 3,
-        "4378": 4,
-        "5659": 5,
-        "6087": 6,
-        "9393": 7,
-        "10504": 8,
-        "2103": 9,
-        "4437": 10,
-        "144": 11,
-        "9055": 12,
-        "7244": 13,
-        "11753": 14,
-        "1350": 15,
-        "7837": 16,
-        "6932": 17,
-        "4732": 18,
-        "10592": 19,
-        "3628": 20
+        "10975": 1,
+        "9393": 2,
+        "9055": 3,
+        "9287": 4,
+        "4437": 5,
+        "14381": 6,
+        "5065": 7,
+        "97": 8,
+        "4732": 9,
+        "7837": 10,
+        "10592": 11,
+        "4673": 12,
+        "6822": 13,
+        "9737": 14,
+        "11256": 15,
+        "6739": 16,
+        "3628": 17,
+        "3822": 18,
+        "5826": 19,
+        "650": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=French Revolution, relation=hasSubject, tail=?)\n\nOntology summary:\n- Query relation: hasSubject\n- Head entity: French Revolution\n- Head class: Historical Event\n- Relation domain: Event\n- Relation range: Movie\n- Domain check: not clearly matched\n- Tail entities of class 'Movie' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=40, edges=46, paths=20\n- Head outgoing edges under target relation hasSubject: 21\n- Key support nodes: French Revolution, Spartacus, John Wayne, Nas, Charles De Gaulle, Christopher Guest, Jonathan Forte, William Shakespeare\n- Main auxiliary relations: hasNetflixGenreTitle(6), hasCauseOfDeath(4), hasAthlete(3)\n\nFrequent relation path patterns:\n- hasSubject (count=20)\n\nCandidates:\n1. Ted Kennedy [id=9287 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Charles De Gaulle [id=6455 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Sylvester Stallone [id=5065 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. John Wayne [id=4378 | class=Film Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Nirvana [id=5659 | class=Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Team America: World Police [id=6087 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Macy's, Inc. [id=9393 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Motor Car [id=10504 | class=Vehicle | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Christopher Guest [id=2103 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Midnight Cowboy [id=4437 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Stephen Colbert [id=144 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. New Haven [id=9055 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. The Rescuers [id=7244 | class=Movie | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n14. Hot Springs [id=11753 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=0]\n15. Spartacus [id=1350 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n16. Joe Berlinger [id=7837 | class=Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Jonathan Forte [id=6932 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. William Shakespeare [id=4732 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Tours Fc. [id=10592 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Nas [id=3628 | class=Rapper/singer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=French Revolution, relation=hasSubject, tail=?)\n\nOntology summary:\n- Query relation: hasSubject\n- Head entity: French Revolution\n- Head class: Historical Event\n- Relation domain: Event\n- Relation range: Movie\n- Domain check: not clearly matched\n- Tail entities of class 'Movie' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=40, edges=46, paths=20\n- Head outgoing edges under target relation hasSubject: 21\n- Key support nodes: French Revolution, Spartacus, John Wayne, Nas, Charles De Gaulle, Christopher Guest, Jonathan Forte, William Shakespeare\n- Main auxiliary relations: hasNetflixGenreTitle(6), hasCauseOfDeath(4), hasAthlete(3)\n\nFrequent relation path patterns:\n- hasSubject (count=20)\n\nCandidates:\n1. Nuclear Blast [id=10975 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Macy's, Inc. [id=9393 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n3. New Haven [id=9055 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n4. Ted Kennedy [id=9287 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n5. Midnight Cowboy [id=4437 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Miami Metropolitan Area [id=14381 | class=Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Sylvester Stallone [id=5065 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Running Back [id=97 | class=Position in American Football | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. William Shakespeare [id=4732 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Joe Berlinger [id=7837 | class=Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Tours Fc. [id=10592 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Lima [id=4673 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Mario Van Peebles [id=6822 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Escondido [id=9737 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Kuomintang [id=11256 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n16. Arizona State Sun Devils Football [id=6739 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Nas [id=3628 | class=Rapper/singer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n18. Monster Cap [id=3822 | class=Game Card | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. The Clash [id=5826 | class=Band | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Jerry Nelson [id=650 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

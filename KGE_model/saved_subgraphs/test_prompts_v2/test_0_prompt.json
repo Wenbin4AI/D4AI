@@ -7,15 +7,15 @@
         "relation_label": "memberOf",
         "gold_tail": 13397,
         "gold_tail_label": "Cleveland State University",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 3
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 5245,
-            "entity_label": "Miniseries",
-            "entity_class": "Tv Format",
+            "entity_id": 12040,
+            "entity_label": "Rickey Henderson",
+            "entity_class": "Baseball Player",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -29,25 +29,9 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 12521,
-            "entity_label": "Howard Morris",
-            "entity_class": "Actor",
-            "score": 6.985631,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 6,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 14037,
-            "entity_label": "Pontefract",
-            "entity_class": "City",
+            "entity_id": 5388,
+            "entity_label": "Lili Taylor",
+            "entity_class": "Person",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -60,39 +44,23 @@
             "is_gold": 0
         },
         {
-            "rank_index": 4,
-            "entity_id": 5287,
-            "entity_label": "Dresden",
-            "entity_class": "City",
-            "score": 7.119162,
+            "rank_index": 3,
+            "entity_id": 13397,
+            "entity_label": "Cleveland State University",
+            "entity_class": "University",
+            "score": 6.649159,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
                 "path_count": 1,
-                "aux_support": 7,
+                "aux_support": 4,
                 "key": 1
             },
-            "is_gold": 0
+            "is_gold": 1
         },
         {
-            "rank_index": 5,
-            "entity_id": 13478,
-            "entity_label": "Hiroshima Prefecture",
-            "entity_class": "Prefecture",
-            "score": 5.426015,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 3,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
+            "rank_index": 4,
             "entity_id": 11155,
             "entity_label": "Fc Zorya Luhansk",
             "entity_class": "Organization",
@@ -108,10 +76,42 @@
             "is_gold": 0
         },
         {
+            "rank_index": 5,
+            "entity_id": 4353,
+            "entity_label": "Mississippi",
+            "entity_class": "Location",
+            "score": 5.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 2937,
+            "entity_label": "Morgan Freeman",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
             "rank_index": 7,
-            "entity_id": 11345,
-            "entity_label": "Delta Blues",
-            "entity_class": "Music Genre",
+            "entity_id": 1990,
+            "entity_label": "Academy Award for Best Visual Effects",
+            "entity_class": "Award",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -141,29 +141,29 @@
         },
         {
             "rank_index": 9,
-            "entity_id": 13034,
-            "entity_label": "Chinese Communist Party",
-            "entity_class": "Politics",
-            "score": 6.985631,
+            "entity_id": 8232,
+            "entity_label": "Gilbert Gottfried",
+            "entity_class": "Actor/comedian",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 6,
-                "key": 1
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 10,
-            "entity_id": 12176,
-            "entity_label": "Monty Python",
-            "entity_class": "Organization",
-            "score": 1.5,
+            "entity_id": 4016,
+            "entity_label": "Cynthia Watros",
+            "entity_class": "Actress",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -173,9 +173,9 @@
         },
         {
             "rank_index": 11,
-            "entity_id": 5029,
-            "entity_label": "Exeter",
-            "entity_class": "City",
+            "entity_id": 3602,
+            "entity_label": "Brian May",
+            "entity_class": "Guitarist",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -189,38 +189,22 @@
         },
         {
             "rank_index": 12,
-            "entity_id": 4353,
-            "entity_label": "Mississippi",
-            "entity_class": "Location",
-            "score": 5.138333,
+            "entity_id": 13443,
+            "entity_label": "Ac Arles",
+            "entity_class": "City",
+            "score": 7.236945,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
                 "path_count": 1,
-                "aux_support": 2,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 10543,
-            "entity_label": "My Neighbor Totoro",
-            "entity_class": "Animated Film",
-            "score": 9.938784,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 9,
-                "aux_support": 11,
+                "aux_support": 8,
                 "key": 1
             },
             "is_gold": 0
         },
         {
-            "rank_index": 14,
+            "rank_index": 13,
             "entity_id": 3053,
             "entity_label": "The World's Fastest Indian",
             "entity_class": "Movie",
@@ -236,26 +220,42 @@
             "is_gold": 0
         },
         {
-            "rank_index": 15,
-            "entity_id": 9839,
-            "entity_label": "Wallace Shawn",
+            "rank_index": 14,
+            "entity_id": 1114,
+            "entity_label": "Darryl F. Zanuck",
             "entity_class": "Person",
-            "score": 7.342306,
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 9,
-                "key": 1
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 4241,
+            "entity_label": "Robert Ridgely",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 16,
-            "entity_id": 8982,
-            "entity_label": "Maaya Sakamoto",
-            "entity_class": "Voice Actress and Singer",
+            "entity_id": 10086,
+            "entity_label": "Insurgency in Khyber Pakhtunkhwa",
+            "entity_class": "Insurgency",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -269,90 +269,90 @@
         },
         {
             "rank_index": 17,
-            "entity_id": 3452,
-            "entity_label": "Hammond Organ",
-            "entity_class": "Musical Instrument",
-            "score": 6.83148,
+            "entity_id": 10543,
+            "entity_label": "My Neighbor Totoro",
+            "entity_class": "Animated Film",
+            "score": 9.938784,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
-                "path_count": 1,
-                "aux_support": 5,
+                "path_count": 9,
+                "aux_support": 11,
                 "key": 1
             },
             "is_gold": 0
         },
         {
             "rank_index": 18,
-            "entity_id": 14434,
-            "entity_label": "Television Special",
-            "entity_class": "Tv Genre",
-            "score": 6.83148,
+            "entity_id": 3776,
+            "entity_label": "Hope Springs",
+            "entity_class": "Movie",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 5,
-                "key": 1
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 19,
-            "entity_id": 13397,
-            "entity_label": "Cleveland State University",
-            "entity_class": "University",
-            "score": 6.649159,
+            "entity_id": 12521,
+            "entity_label": "Howard Morris",
+            "entity_class": "Actor",
+            "score": 6.985631,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
                 "path_count": 1,
-                "aux_support": 4,
+                "aux_support": 6,
                 "key": 1
             },
-            "is_gold": 1
+            "is_gold": 0
         },
         {
             "rank_index": 20,
-            "entity_id": 13443,
-            "entity_label": "Ac Arles",
-            "entity_class": "City",
-            "score": 7.236945,
+            "entity_id": 8982,
+            "entity_label": "Maaya Sakamoto",
+            "entity_class": "Voice Actress and Singer",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 8,
-                "key": 1
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "5245": 1,
-        "12521": 2,
-        "14037": 3,
-        "5287": 4,
-        "13478": 5,
-        "11155": 6,
-        "11345": 7,
+        "12040": 1,
+        "5388": 2,
+        "13397": 3,
+        "11155": 4,
+        "4353": 5,
+        "2937": 6,
+        "1990": 7,
         "4810": 8,
-        "13034": 9,
-        "12176": 10,
-        "5029": 11,
-        "4353": 12,
-        "10543": 13,
-        "3053": 14,
-        "9839": 15,
-        "8982": 16,
-        "3452": 17,
-        "14434": 18,
-        "13397": 19,
-        "13443": 20
+        "8232": 9,
+        "4016": 10,
+        "3602": 11,
+        "13443": 12,
+        "3053": 13,
+        "1114": 14,
+        "4241": 15,
+        "10086": 16,
+        "10543": 17,
+        "3776": 18,
+        "12521": 19,
+        "8982": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=The Queen, relation=memberOf, tail=?)\n\nOntology summary:\n- Query relation: memberOf\n- Head entity: The Queen\n- Head class: Person\n- Relation domain: Country\n- Relation range: International Organization\n- Domain check: not clearly matched\n- Tail entities of class 'International Organization' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=14, edges=46, paths=20\n- Head outgoing edges under target relation memberOf: 12\n- Key support nodes: The Queen, My Neighbor Totoro, Hammond Organ, Howard Morris, Chinese Communist Party, Television Special, Wallace Shawn, Dresden\n- Main auxiliary relations: hasArtDirector(33), containsCountry(1)\n\nFrequent relation path patterns:\n- memberOf (count=12)\n- memberOf -> hasArtDirector (count=8)\n\nCandidates:\n1. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Howard Morris [id=12521 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=6 | key=1]\n3. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Dresden [id=5287 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=7 | key=1]\n5. Hiroshima Prefecture [id=13478 | class=Prefecture | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=0]\n6. Fc Zorya Luhansk [id=11155 | class=Organization | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Danubio F.c. [id=4810 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Chinese Communist Party [id=13034 | class=Politics | type=0 | soft_type=0 | direct=1 | paths=1 | aux=6 | key=1]\n10. Monty Python [id=12176 | class=Organization | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Mississippi [id=4353 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=0]\n13. My Neighbor Totoro [id=10543 | class=Animated Film | type=0 | soft_type=0 | direct=1 | paths=9 | aux=11 | key=1]\n14. The World's Fastest Indian [id=3053 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Wallace Shawn [id=9839 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=9 | key=1]\n16. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Hammond Organ [id=3452 | class=Musical Instrument | type=0 | soft_type=0 | direct=1 | paths=1 | aux=5 | key=1]\n18. Television Special [id=14434 | class=Tv Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=5 | key=1]\n19. Cleveland State University [id=13397 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=4 | key=1]\n20. Ac Arles [id=13443 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=8 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=The Queen, relation=memberOf, tail=?)\n\nOntology summary:\n- Query relation: memberOf\n- Head entity: The Queen\n- Head class: Person\n- Relation domain: Country\n- Relation range: International Organization\n- Domain check: not clearly matched\n- Tail entities of class 'International Organization' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=14, edges=46, paths=20\n- Head outgoing edges under target relation memberOf: 12\n- Key support nodes: The Queen, My Neighbor Totoro, Hammond Organ, Howard Morris, Chinese Communist Party, Television Special, Wallace Shawn, Dresden\n- Main auxiliary relations: hasArtDirector(33), containsCountry(1)\n\nFrequent relation path patterns:\n- memberOf (count=12)\n- memberOf -> hasArtDirector (count=8)\n\nCandidates:\n1. Rickey Henderson [id=12040 | class=Baseball Player | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Lili Taylor [id=5388 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Cleveland State University [id=13397 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=4 | key=1]\n4. Fc Zorya Luhansk [id=11155 | class=Organization | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Mississippi [id=4353 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=0]\n6. Morgan Freeman [id=2937 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Academy Award for Best Visual Effects [id=1990 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Danubio F.c. [id=4810 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Gilbert Gottfried [id=8232 | class=Actor/comedian | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Cynthia Watros [id=4016 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Brian May [id=3602 | class=Guitarist | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Ac Arles [id=13443 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=8 | key=1]\n13. The World's Fastest Indian [id=3053 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n14. Darryl F. Zanuck [id=1114 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Robert Ridgely [id=4241 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Insurgency in Khyber Pakhtunkhwa [id=10086 | class=Insurgency | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. My Neighbor Totoro [id=10543 | class=Animated Film | type=0 | soft_type=0 | direct=1 | paths=9 | aux=11 | key=1]\n18. Hope Springs [id=3776 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Howard Morris [id=12521 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=6 | key=1]\n20. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

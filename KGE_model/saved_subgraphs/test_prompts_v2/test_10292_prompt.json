@@ -7,21 +7,21 @@
         "relation_label": "hasGenre",
         "gold_tail": 13671,
         "gold_tail_label": "2k Games",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 7
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 3812,
-            "entity_label": "First National",
-            "entity_class": "Bank",
-            "score": 4.039721,
+            "entity_id": 10401,
+            "entity_label": "Tarzan",
+            "entity_class": "Fictional Character",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -29,230 +29,6 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 7883,
-            "entity_label": "Jon Vitti",
-            "entity_class": "Person",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 7082,
-            "entity_label": "Palmitic Acid",
-            "entity_class": "Chemical Compound",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 7605,
-            "entity_label": "Van Nuys",
-            "entity_class": "Location",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 9190,
-            "entity_label": "Bill Fagerbakke",
-            "entity_class": "Person",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 5896,
-            "entity_label": "Nc State Wolfpack Football",
-            "entity_class": "Athletic Team",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 11019,
-            "entity_label": "Burn Gorman",
-            "entity_class": "Person",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 11639,
-            "entity_label": "Austria National Association Football Team",
-            "entity_class": "National Football Team",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 14148,
-            "entity_label": "Jagathy Sreekumar",
-            "entity_class": "Person",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 8060,
-            "entity_label": "Steven Tyler",
-            "entity_class": "Person",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 5571,
-            "entity_label": "Alvin and the Chipmunks: the Squeakquel",
-            "entity_class": "Movie",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 13456,
-            "entity_label": "Flagstaff",
-            "entity_class": "City",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 9209,
-            "entity_label": "L-alanine",
-            "entity_class": "Chemical Compound",
-            "score": 6.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 6989,
-            "entity_label": "Michael Caine",
-            "entity_class": "Actor",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 9090,
-            "entity_label": "Bismarck",
-            "entity_class": "Politician",
-            "score": 6.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
             "entity_id": 9581,
             "entity_label": "Brookline",
             "entity_class": "City",
@@ -268,39 +44,71 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 5339,
-            "entity_label": "Marcel Proust",
-            "entity_class": "Author",
-            "score": 5.039721,
+            "rank_index": 3,
+            "entity_id": 3471,
+            "entity_label": "Jim O'rourke",
+            "entity_class": "Person",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 7384,
-            "entity_label": "Kinsey",
-            "entity_class": "Movie",
-            "score": 5.039721,
+            "rank_index": 4,
+            "entity_id": 11189,
+            "entity_label": "Poole",
+            "entity_class": "City",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 5,
+            "entity_id": 233,
+            "entity_label": "42nd Annual Grammy Awards",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 4392,
+            "entity_label": "Penn State Nittany Lions Football",
+            "entity_class": "Sports Team",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
             "entity_id": 13671,
             "entity_label": "2k Games",
             "entity_class": "Video Game Company",
@@ -316,7 +124,103 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
+            "rank_index": 8,
+            "entity_id": 12424,
+            "entity_label": "Ira Steven Behr",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 11473,
+            "entity_label": "Theravāda",
+            "entity_class": "School of Buddhism",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 11762,
+            "entity_label": "Epsom",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8353,
+            "entity_label": "Burt Lancaster",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 11639,
+            "entity_label": "Austria National Association Football Team",
+            "entity_class": "National Football Team",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 7384,
+            "entity_label": "Kinsey",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
             "entity_id": 11601,
             "entity_label": "Dylan Mcdermott",
             "entity_class": "Actor",
@@ -330,29 +234,125 @@
                 "key": 1
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 8060,
+            "entity_label": "Steven Tyler",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 5020,
+            "entity_label": "The Devil Wears Prada",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 3609,
+            "entity_label": "Epitaph Records",
+            "entity_class": "Record Label",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 475,
+            "entity_label": "Unknown",
+            "entity_class": "Unknown",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 1947,
+            "entity_label": "Rhinestone",
+            "entity_class": "Rhinestone",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 12096,
+            "entity_label": "Picardy",
+            "entity_class": "Region",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "3812": 1,
-        "7883": 2,
-        "7082": 3,
-        "7605": 4,
-        "9190": 5,
-        "5896": 6,
-        "11019": 7,
-        "11639": 8,
-        "14148": 9,
-        "8060": 10,
-        "5571": 11,
-        "13456": 12,
-        "9209": 13,
-        "6989": 14,
-        "9090": 15,
-        "9581": 16,
-        "5339": 17,
-        "7384": 18,
-        "13671": 19,
-        "11601": 20
+        "10401": 1,
+        "9581": 2,
+        "3471": 3,
+        "11189": 4,
+        "233": 5,
+        "4392": 6,
+        "13671": 7,
+        "12424": 8,
+        "11473": 9,
+        "11762": 10,
+        "8353": 11,
+        "11639": 12,
+        "7384": 13,
+        "11601": 14,
+        "8060": 15,
+        "5020": 16,
+        "3609": 17,
+        "475": 18,
+        "1947": 19,
+        "12096": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Seattle, relation=hasGenre, tail=?)\n\nOntology summary:\n- Query relation: hasGenre\n- Head entity: Seattle\n- Head class: City\n- Relation domain: Movie\n- Relation range: Genre\n- Domain check: not clearly matched\n- Tail entities of class 'Genre' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=29, edges=39, paths=20\n- Head outgoing edges under target relation hasGenre: 20\n- Key support nodes: Seattle, Dylan Mcdermott, Van Nuys, Jon Vitti, L-alanine, Jagathy Sreekumar, Marcel Proust, Bismarck\n- Main auxiliary relations: hasBorder(6), hasDraftPickFromSchool(4), hasMember(3)\n\nFrequent relation path patterns:\n- hasGenre (count=20)\n\nCandidates:\n1. First National [id=3812 | class=Bank | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Jon Vitti [id=7883 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Palmitic Acid [id=7082 | class=Chemical Compound | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Van Nuys [id=7605 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Bill Fagerbakke [id=9190 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Nc State Wolfpack Football [id=5896 | class=Athletic Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Burn Gorman [id=11019 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Austria National Association Football Team [id=11639 | class=National Football Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Jagathy Sreekumar [id=14148 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Steven Tyler [id=8060 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Alvin and the Chipmunks: the Squeakquel [id=5571 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Flagstaff [id=13456 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. L-alanine [id=9209 | class=Chemical Compound | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n14. Michael Caine [id=6989 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Bismarck [id=9090 | class=Politician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n16. Brookline [id=9581 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Marcel Proust [id=5339 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Kinsey [id=7384 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. 2k Games [id=13671 | class=Video Game Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Dylan Mcdermott [id=11601 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Seattle, relation=hasGenre, tail=?)\n\nOntology summary:\n- Query relation: hasGenre\n- Head entity: Seattle\n- Head class: City\n- Relation domain: Movie\n- Relation range: Genre\n- Domain check: not clearly matched\n- Tail entities of class 'Genre' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=29, edges=39, paths=20\n- Head outgoing edges under target relation hasGenre: 20\n- Key support nodes: Seattle, Dylan Mcdermott, Van Nuys, Jon Vitti, L-alanine, Jagathy Sreekumar, Marcel Proust, Bismarck\n- Main auxiliary relations: hasBorder(6), hasDraftPickFromSchool(4), hasMember(3)\n\nFrequent relation path patterns:\n- hasGenre (count=20)\n\nCandidates:\n1. Tarzan [id=10401 | class=Fictional Character | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Brookline [id=9581 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n3. Jim O'rourke [id=3471 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Poole [id=11189 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. 42nd Annual Grammy Awards [id=233 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Penn State Nittany Lions Football [id=4392 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. 2k Games [id=13671 | class=Video Game Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Ira Steven Behr [id=12424 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Theravāda [id=11473 | class=School of Buddhism | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Epsom [id=11762 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Burt Lancaster [id=8353 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Austria National Association Football Team [id=11639 | class=National Football Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Kinsey [id=7384 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Dylan Mcdermott [id=11601 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n15. Steven Tyler [id=8060 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n16. The Devil Wears Prada [id=5020 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Epitaph Records [id=3609 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Unknown [id=475 | class=Unknown | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Rhinestone [id=1947 | class=Rhinestone | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Picardy [id=12096 | class=Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

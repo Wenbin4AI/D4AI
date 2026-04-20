@@ -7,140 +7,12 @@
         "relation_label": "isInductedIntoHallOfFame",
         "gold_tail": 11345,
         "gold_tail_label": "Delta Blues",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 6
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 5245,
-            "entity_label": "Miniseries",
-            "entity_class": "Tv Format",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
-            "entity_id": 12084,
-            "entity_label": "Scott Glenn",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 7797,
-            "entity_label": "Bee Gees",
-            "entity_class": "Music Group",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 5388,
-            "entity_label": "Lili Taylor",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 11576,
-            "entity_label": "Time in China",
-            "entity_class": "Time Zone",
-            "score": 4.380786,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 5,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 9418,
-            "entity_label": "Christopher Lloyd",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 2788,
-            "entity_label": "Denise Richards",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 10729,
-            "entity_label": "Sofia",
-            "entity_class": "City",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
             "entity_id": 9995,
             "entity_label": "David Henrie",
             "entity_class": "Person",
@@ -156,30 +28,14 @@
             "is_gold": 0
         },
         {
-            "rank_index": 10,
-            "entity_id": 8982,
-            "entity_label": "Maaya Sakamoto",
-            "entity_class": "Voice Actress and Singer",
-            "score": 2.732868,
+            "rank_index": 2,
+            "entity_id": 10086,
+            "entity_label": "Insurgency in Khyber Pakhtunkhwa",
+            "entity_class": "Insurgency",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 12527,
-            "entity_label": "Foreigner",
-            "entity_class": "Band",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -188,31 +44,15 @@
             "is_gold": 0
         },
         {
-            "rank_index": 12,
-            "entity_id": 4994,
-            "entity_label": "Seattle",
+            "rank_index": 3,
+            "entity_id": 5029,
+            "entity_label": "Exeter",
             "entity_class": "City",
-            "score": 3.746531,
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 5604,
-            "entity_label": "Dermot Mulroney",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
                 "key": 0
@@ -220,31 +60,15 @@
             "is_gold": 0
         },
         {
-            "rank_index": 14,
-            "entity_id": 1855,
-            "entity_label": "Orry-kelly",
-            "entity_class": "Costume Designer",
-            "score": 3.341066,
+            "rank_index": 4,
+            "entity_id": 4810,
+            "entity_label": "Danubio F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 7544,
-            "entity_label": "Jamie Gangel",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
                 "key": 0
@@ -252,14 +76,14 @@
             "is_gold": 0
         },
         {
-            "rank_index": 16,
-            "entity_id": 5518,
-            "entity_label": "The Jackson 5",
-            "entity_class": "Music Group",
-            "score": 1.5,
+            "rank_index": 5,
+            "entity_id": 11814,
+            "entity_label": "Sioux City",
+            "entity_class": "City",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -268,39 +92,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 2937,
-            "entity_label": "Morgan Freeman",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 6765,
-            "entity_label": "Kristin Scott Thomas",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
+            "rank_index": 6,
             "entity_id": 11345,
             "entity_label": "Delta Blues",
             "entity_class": "Music Genre",
@@ -316,9 +108,25 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 1114,
-            "entity_label": "Darryl F. Zanuck",
+            "rank_index": 7,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 3.746531,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 6765,
+            "entity_label": "Kristin Scott Thomas",
             "entity_class": "Person",
             "score": 4.5,
             "features": {
@@ -330,29 +138,221 @@
                 "key": 0
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 7797,
+            "entity_label": "Bee Gees",
+            "entity_class": "Music Group",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 12084,
+            "entity_label": "Scott Glenn",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8083,
+            "entity_label": "New York Film Critics Circle Award for Best Film",
+            "entity_class": "Film Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 10729,
+            "entity_label": "Sofia",
+            "entity_class": "City",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 9448,
+            "entity_label": "Costa Rica",
+            "entity_class": "Country",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 10052,
+            "entity_label": "Ebbsfleet United F.c.",
+            "entity_class": "Football Club",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 13234,
+            "entity_label": "Sketch Comedy",
+            "entity_class": "Comedy Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 5388,
+            "entity_label": "Lili Taylor",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 13665,
+            "entity_label": "Haifa",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 8982,
+            "entity_label": "Maaya Sakamoto",
+            "entity_class": "Voice Actress and Singer",
+            "score": 2.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 937,
+            "entity_label": "Placekicker",
+            "entity_class": "Position in American Football",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 1985,
+            "entity_label": "Johannesburg",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "5245": 1,
-        "12084": 2,
-        "7797": 3,
-        "5388": 4,
-        "11576": 5,
-        "9418": 6,
-        "2788": 7,
-        "10729": 8,
-        "9995": 9,
-        "8982": 10,
-        "12527": 11,
-        "4994": 12,
-        "5604": 13,
-        "1855": 14,
-        "7544": 15,
-        "5518": 16,
-        "2937": 17,
-        "6765": 18,
-        "11345": 19,
-        "1114": 20
+        "9995": 1,
+        "10086": 2,
+        "5029": 3,
+        "4810": 4,
+        "11814": 5,
+        "11345": 6,
+        "4994": 7,
+        "6765": 8,
+        "7797": 9,
+        "12084": 10,
+        "8083": 11,
+        "10729": 12,
+        "9448": 13,
+        "10052": 14,
+        "13234": 15,
+        "5388": 16,
+        "13665": 17,
+        "8982": 18,
+        "937": 19,
+        "1985": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Abilene Christian University, relation=isInductedIntoHallOfFame, tail=?)\n\nOntology summary:\n- Query relation: isInductedIntoHallOfFame\n- Head entity: Abilene Christian University\n- Head class: University\n- Relation domain: Hall of Fame\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=41, edges=51, paths=20\n- Head outgoing edges under target relation isInductedIntoHallOfFame: 1\n- Key support nodes: Abilene Christian University, Delta Blues, Time in China, University of North Texas, Seattle, Fort Lauderdale, Bengali, Orry-kelly\n- Main auxiliary relations: hasGenre(10), hasEthnicity(10), hasDesignedFilmSets(3)\n\nFrequent relation path patterns:\n- hasPrograms -> hasDesignedFilmSets -> isInductedIntoHallOfFame (count=3)\n- isInductedIntoHallOfFame -> hasEthnicity (count=2)\n- hasStudent -> isInRankedList -> isInductedIntoHallOfFame (count=2)\n- isInductedIntoHallOfFame -> hasEthnicity -> hasPeer (count=2)\n- isInductedIntoHallOfFame -> hasEthnicity -> hasRuntime (count=2)\n\nCandidates:\n1. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n2. Scott Glenn [id=12084 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Bee Gees [id=7797 | class=Music Group | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Lili Taylor [id=5388 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Time in China [id=11576 | class=Time Zone | type=0 | soft_type=0 | direct=0 | paths=5 | aux=1 | key=1]\n6. Christopher Lloyd [id=9418 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Denise Richards [id=2788 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Sofia [id=10729 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n9. David Henrie [id=9995 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n11. Foreigner [id=12527 | class=Band | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n13. Dermot Mulroney [id=5604 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n14. Orry-kelly [id=1855 | class=Costume Designer | type=0 | soft_type=0 | direct=0 | paths=2 | aux=1 | key=1]\n15. Jamie Gangel [id=7544 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n16. The Jackson 5 [id=5518 | class=Music Group | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Morgan Freeman [id=2937 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Kristin Scott Thomas [id=6765 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=6 | aux=3 | key=1]\n20. Darryl F. Zanuck [id=1114 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Abilene Christian University, relation=isInductedIntoHallOfFame, tail=?)\n\nOntology summary:\n- Query relation: isInductedIntoHallOfFame\n- Head entity: Abilene Christian University\n- Head class: University\n- Relation domain: Hall of Fame\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=41, edges=51, paths=20\n- Head outgoing edges under target relation isInductedIntoHallOfFame: 1\n- Key support nodes: Abilene Christian University, Delta Blues, Time in China, University of North Texas, Seattle, Fort Lauderdale, Bengali, Orry-kelly\n- Main auxiliary relations: hasGenre(10), hasEthnicity(10), hasDesignedFilmSets(3)\n\nFrequent relation path patterns:\n- hasPrograms -> hasDesignedFilmSets -> isInductedIntoHallOfFame (count=3)\n- isInductedIntoHallOfFame -> hasEthnicity (count=2)\n- hasStudent -> isInRankedList -> isInductedIntoHallOfFame (count=2)\n- isInductedIntoHallOfFame -> hasEthnicity -> hasPeer (count=2)\n- isInductedIntoHallOfFame -> hasEthnicity -> hasRuntime (count=2)\n\nCandidates:\n1. David Henrie [id=9995 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n2. Insurgency in Khyber Pakhtunkhwa [id=10086 | class=Insurgency | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Danubio F.c. [id=4810 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Sioux City [id=11814 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=6 | aux=3 | key=1]\n7. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n8. Kristin Scott Thomas [id=6765 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n9. Bee Gees [id=7797 | class=Music Group | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Scott Glenn [id=12084 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. New York Film Critics Circle Award for Best Film [id=8083 | class=Film Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Sofia [id=10729 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Costa Rica [id=9448 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Ebbsfleet United F.c. [id=10052 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Sketch Comedy [id=13234 | class=Comedy Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Lili Taylor [id=5388 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Haifa [id=13665 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n19. Placekicker [id=937 | class=Position in American Football | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Johannesburg [id=1985 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

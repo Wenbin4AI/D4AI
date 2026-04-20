@@ -7,15 +7,15 @@
         "relation_label": "nominated_for",
         "gold_tail": 8852,
         "gold_tail_label": "Letters From Iwo Jima",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 10
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 5245,
-            "entity_label": "Miniseries",
-            "entity_class": "Tv Format",
+            "entity_id": 1114,
+            "entity_label": "Darryl F. Zanuck",
+            "entity_class": "Person",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -29,31 +29,31 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 4994,
-            "entity_label": "Seattle",
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
             "entity_class": "City",
-            "score": 3.079442,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 3,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 9460,
-            "entity_label": "Bachelor of Commerce",
-            "entity_class": "Degree",
-            "score": 1.039721,
+            "score": 1.732868,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 9995,
+            "entity_label": "David Henrie",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -61,22 +61,70 @@
         },
         {
             "rank_index": 4,
-            "entity_id": 6765,
-            "entity_label": "Kristin Scott Thomas",
-            "entity_class": "Person",
-            "score": 3.341066,
+            "entity_id": 3566,
+            "entity_label": "I Don't Know How She Does It",
+            "entity_class": "Movie",
+            "score": 4.5,
             "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
+                "type_match": 1,
+                "soft_type_match": 1,
                 "direct": 0,
-                "path_count": 2,
-                "aux_support": 1,
-                "key": 1
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 5,
+            "entity_id": 13678,
+            "entity_label": "Tulane University Law School",
+            "entity_class": "Law School",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 11576,
+            "entity_label": "Time in China",
+            "entity_class": "Time Zone",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 11320,
+            "entity_label": "Nigel Lythgoe",
+            "entity_class": "Television Producer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
             "entity_id": 5817,
             "entity_label": "Why We Fight",
             "entity_class": "Film",
@@ -92,42 +140,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 6,
-            "entity_id": 5604,
-            "entity_label": "Dermot Mulroney",
-            "entity_class": "Person",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 10052,
-            "entity_label": "Ebbsfleet United F.c.",
-            "entity_class": "Football Club",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 11345,
-            "entity_label": "Delta Blues",
-            "entity_class": "Music Genre",
+            "rank_index": 9,
+            "entity_id": 9257,
+            "entity_label": "Delaware County",
+            "entity_class": "County",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -140,42 +156,26 @@
             "is_gold": 0
         },
         {
-            "rank_index": 9,
-            "entity_id": 7544,
-            "entity_label": "Jamie Gangel",
-            "entity_class": "Person",
-            "score": 2.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
             "rank_index": 10,
-            "entity_id": 12176,
-            "entity_label": "Monty Python",
-            "entity_class": "Organization",
-            "score": 1.039721,
+            "entity_id": 8852,
+            "entity_label": "Letters From Iwo Jima",
+            "entity_class": "Movie",
+            "score": 8.539721,
             "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 1,
                 "path_count": 1,
                 "aux_support": 0,
                 "key": 0
             },
-            "is_gold": 0
+            "is_gold": 1
         },
         {
             "rank_index": 11,
-            "entity_id": 1383,
-            "entity_label": "Athlete",
-            "entity_class": "Athlete",
+            "entity_id": 6773,
+            "entity_label": "Jonny Greenwood",
+            "entity_class": "Person",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -189,15 +189,15 @@
         },
         {
             "rank_index": 12,
-            "entity_id": 10815,
-            "entity_label": "Victoria Beckham",
-            "entity_class": "Fashion Designer",
-            "score": 1.039721,
+            "entity_id": 13032,
+            "entity_label": "Salford",
+            "entity_class": "Cities",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -205,15 +205,15 @@
         },
         {
             "rank_index": 13,
-            "entity_id": 3776,
-            "entity_label": "Hope Springs",
-            "entity_class": "Movie",
-            "score": 5.539721,
+            "entity_id": 5245,
+            "entity_label": "Miniseries",
+            "entity_class": "Tv Format",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -221,15 +221,15 @@
         },
         {
             "rank_index": 14,
-            "entity_id": 7481,
-            "entity_label": "Brian Helgeland",
-            "entity_class": "Person",
-            "score": 1.039721,
+            "entity_id": 9375,
+            "entity_label": "Oliver Twist",
+            "entity_class": "Fictional Character",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -237,17 +237,17 @@
         },
         {
             "rank_index": 15,
-            "entity_id": 5029,
-            "entity_label": "Exeter",
-            "entity_class": "City",
-            "score": 4.512769,
+            "entity_id": 12689,
+            "entity_label": "Andes",
+            "entity_class": "Mountain Range",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 4,
-                "aux_support": 2,
-                "key": 1
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
@@ -269,29 +269,29 @@
         },
         {
             "rank_index": 17,
-            "entity_id": 14037,
-            "entity_label": "Pontefract",
-            "entity_class": "City",
-            "score": 1.732868,
+            "entity_id": 10052,
+            "entity_label": "Ebbsfleet United F.c.",
+            "entity_class": "Football Club",
+            "score": 1.039721,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 1,
-                "aux_support": 1,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 18,
-            "entity_id": 4695,
-            "entity_label": "The Kingdom",
-            "entity_class": "Film",
-            "score": 1.5,
+            "entity_id": 7663,
+            "entity_label": "30th United States Congress",
+            "entity_class": "Government Body",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -301,29 +301,29 @@
         },
         {
             "rank_index": 19,
-            "entity_id": 8852,
-            "entity_label": "Letters From Iwo Jima",
-            "entity_class": "Movie",
-            "score": 8.539721,
+            "entity_id": 10729,
+            "entity_label": "Sofia",
+            "entity_class": "City",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
-            "is_gold": 1
+            "is_gold": 0
         },
         {
             "rank_index": 20,
-            "entity_id": 3566,
-            "entity_label": "I Don't Know How She Does It",
-            "entity_class": "Movie",
-            "score": 4.5,
+            "entity_id": 13292,
+            "entity_label": "William Lava",
+            "entity_class": "Person",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -333,26 +333,26 @@
         }
     ],
     "candidate_id_to_rank_index": {
-        "5245": 1,
-        "4994": 2,
-        "9460": 3,
-        "6765": 4,
-        "5817": 5,
-        "5604": 6,
-        "10052": 7,
-        "11345": 8,
-        "7544": 9,
-        "12176": 10,
-        "1383": 11,
-        "10815": 12,
-        "3776": 13,
-        "7481": 14,
-        "5029": 15,
+        "1114": 1,
+        "14037": 2,
+        "9995": 3,
+        "3566": 4,
+        "13678": 5,
+        "11576": 6,
+        "11320": 7,
+        "5817": 8,
+        "9257": 9,
+        "8852": 10,
+        "6773": 11,
+        "13032": 12,
+        "5245": 13,
+        "9375": 14,
+        "12689": 15,
         "6727": 16,
-        "14037": 17,
-        "4695": 18,
-        "8852": 19,
-        "3566": 20
+        "10052": 17,
+        "7663": 18,
+        "10729": 19,
+        "13292": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Tampa, relation=nominated_for, tail=?)\n\nOntology summary:\n- Query relation: nominated_for\n- Head entity: Tampa\n- Head class: City\n- Relation domain: Movie\n- Relation range: Movie\n- Domain check: not clearly matched\n- Tail entities of class 'Movie' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=40, edges=52, paths=20\n- Head outgoing edges under target relation nominated_for: 1\n- Key support nodes: Tampa, Rock and Roll, Exeter, Northumberland, Seattle, Gary Cole, Boxing, Jamie Gangel\n- Main auxiliary relations: hasNetflixGenreTitle(9), placeOfDeath(6), hasAthlete(3)\n\nFrequent relation path patterns:\n- placeOfDeath -> hasNetflixGenreTitle (count=8)\n- placeOfDeath -> editedBy (count=3)\n- hasGovernmentType -> hasGenre -> nominated_for (count=2)\n- nominated_for (count=1)\n- hasInvolvedEntity (count=1)\n\nCandidates:\n1. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n3. Bachelor of Commerce [id=9460 | class=Degree | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n4. Kristin Scott Thomas [id=6765 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=1 | key=1]\n5. Why We Fight [id=5817 | class=Film | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Dermot Mulroney [id=5604 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n7. Ebbsfleet United F.c. [id=10052 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n8. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n10. Monty Python [id=12176 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. Athlete [id=1383 | class=Athlete | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Victoria Beckham [id=10815 | class=Fashion Designer | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Hope Springs [id=3776 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n14. Brian Helgeland [id=7481 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=4 | aux=2 | key=1]\n16. Liver Cirrhosis [id=6727 | class=Medical Condition | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n18. The Kingdom [id=4695 | class=Film | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Letters From Iwo Jima [id=8852 | class=Movie | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n20. I Don't Know How She Does It [id=3566 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Tampa, relation=nominated_for, tail=?)\n\nOntology summary:\n- Query relation: nominated_for\n- Head entity: Tampa\n- Head class: City\n- Relation domain: Movie\n- Relation range: Movie\n- Domain check: not clearly matched\n- Tail entities of class 'Movie' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=40, edges=52, paths=20\n- Head outgoing edges under target relation nominated_for: 1\n- Key support nodes: Tampa, Rock and Roll, Exeter, Northumberland, Seattle, Gary Cole, Boxing, Jamie Gangel\n- Main auxiliary relations: hasNetflixGenreTitle(9), placeOfDeath(6), hasAthlete(3)\n\nFrequent relation path patterns:\n- placeOfDeath -> hasNetflixGenreTitle (count=8)\n- placeOfDeath -> editedBy (count=3)\n- hasGovernmentType -> hasGenre -> nominated_for (count=2)\n- nominated_for (count=1)\n- hasInvolvedEntity (count=1)\n\nCandidates:\n1. Darryl F. Zanuck [id=1114 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n3. David Henrie [id=9995 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. I Don't Know How She Does It [id=3566 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Tulane University Law School [id=13678 | class=Law School | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Time in China [id=11576 | class=Time Zone | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Nigel Lythgoe [id=11320 | class=Television Producer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Why We Fight [id=5817 | class=Film | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n9. Delaware County [id=9257 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Letters From Iwo Jima [id=8852 | class=Movie | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n11. Jonny Greenwood [id=6773 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Salford [id=13032 | class=Cities | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Oliver Twist [id=9375 | class=Fictional Character | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Liver Cirrhosis [id=6727 | class=Medical Condition | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Ebbsfleet United F.c. [id=10052 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n18. 30th United States Congress [id=7663 | class=Government Body | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Sofia [id=10729 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. William Lava [id=13292 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

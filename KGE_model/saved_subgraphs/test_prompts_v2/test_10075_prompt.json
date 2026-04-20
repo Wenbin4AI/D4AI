@@ -7,12 +7,28 @@
         "relation_label": "hasDomesticTuition",
         "gold_tail": 7976,
         "gold_tail_label": "Tom Arnold",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 16
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
+            "entity_id": 12316,
+            "entity_label": "Weber County",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
             "entity_id": 1366,
             "entity_label": "Chick Corea",
             "entity_class": "Musician",
@@ -28,32 +44,16 @@
             "is_gold": 0
         },
         {
-            "rank_index": 2,
-            "entity_id": 9233,
-            "entity_label": "Boston Bruins",
-            "entity_class": "Sports Team",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
             "rank_index": 3,
-            "entity_id": 9005,
-            "entity_label": "Sanctuary Records",
-            "entity_class": "Record Label",
-            "score": 4.039721,
+            "entity_id": 1612,
+            "entity_label": "Linda Ronstadt",
+            "entity_class": "Singer",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -61,214 +61,22 @@
         },
         {
             "rank_index": 4,
-            "entity_id": 10542,
-            "entity_label": "Jackson County",
-            "entity_class": "County",
-            "score": 5.039721,
+            "entity_id": 10547,
+            "entity_label": "Dagenham & Redbridge F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 5,
-            "entity_id": 11599,
-            "entity_label": "Subhash Ghai",
-            "entity_class": "Person",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 1098,
-            "entity_label": "Production Sound Mixer",
-            "entity_class": "Profession",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 984,
-            "entity_label": "Dave Matthews",
-            "entity_class": "Musician",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 5615,
-            "entity_label": "Decca",
-            "entity_class": "Record Label",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 3183,
-            "entity_label": "Harvard University",
-            "entity_class": "University",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 8094,
-            "entity_label": "Larry David",
-            "entity_class": "Comedian, Writer, Director",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 7642,
-            "entity_label": "David Paymer",
-            "entity_class": "Actor",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 1742,
-            "entity_label": "Dave Grohl",
-            "entity_class": "Person",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 7198,
-            "entity_label": "Hampton",
-            "entity_class": "City",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 5073,
-            "entity_label": "Kurt Vonnegut",
-            "entity_class": "Author",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 13803,
-            "entity_label": "Las Cruces",
-            "entity_class": "City",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 13415,
-            "entity_label": "Abraham Lincoln",
-            "entity_class": "Person",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
             "entity_id": 10955,
             "entity_label": "Jerry Herman",
             "entity_class": "Composer Lyricist",
@@ -284,10 +92,26 @@
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 5769,
-            "entity_label": "Michael Crichton",
-            "entity_class": "Author",
+            "rank_index": 6,
+            "entity_id": 13498,
+            "entity_label": "Glasgow School of Art",
+            "entity_class": "Education Institution",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 5751,
+            "entity_label": "Walter Becker",
+            "entity_class": "Musician",
             "score": 5.039721,
             "features": {
                 "type_match": 0,
@@ -300,7 +124,135 @@
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 8,
+            "entity_id": 2695,
+            "entity_label": "Hot Fuzz",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 10636,
+            "entity_label": "Janeane Garofalo",
+            "entity_class": "Actress",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 1742,
+            "entity_label": "Dave Grohl",
+            "entity_class": "Person",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 10137,
+            "entity_label": "Beijing Guoan F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 11266,
+            "entity_label": "Wonder Woman",
+            "entity_class": "Superhero",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 5001,
+            "entity_label": "Luxembourg",
+            "entity_class": "Country",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 7198,
+            "entity_label": "Hampton",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 3183,
+            "entity_label": "Harvard University",
+            "entity_class": "University",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
             "entity_id": 7976,
             "entity_label": "Tom Arnold",
             "entity_class": "Person",
@@ -316,43 +268,91 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 5751,
-            "entity_label": "Walter Becker",
-            "entity_class": "Musician",
-            "score": 5.039721,
+            "rank_index": 17,
+            "entity_id": 11573,
+            "entity_label": "Gothenburg",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 12306,
+            "entity_label": "Newmarket",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 7642,
+            "entity_label": "David Paymer",
+            "entity_class": "Actor",
+            "score": 4.039721,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
                 "path_count": 1,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 984,
+            "entity_label": "Dave Matthews",
+            "entity_class": "Musician",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "1366": 1,
-        "9233": 2,
-        "9005": 3,
-        "10542": 4,
-        "11599": 5,
-        "1098": 6,
-        "984": 7,
-        "5615": 8,
-        "3183": 9,
-        "8094": 10,
-        "7642": 11,
-        "1742": 12,
-        "7198": 13,
-        "5073": 14,
-        "13803": 15,
-        "13415": 16,
-        "10955": 17,
-        "5769": 18,
-        "7976": 19,
-        "5751": 20
+        "12316": 1,
+        "1366": 2,
+        "1612": 3,
+        "10547": 4,
+        "10955": 5,
+        "13498": 6,
+        "5751": 7,
+        "2695": 8,
+        "10636": 9,
+        "1742": 10,
+        "10137": 11,
+        "11266": 12,
+        "5001": 13,
+        "7198": 14,
+        "3183": 15,
+        "7976": 16,
+        "11573": 17,
+        "12306": 18,
+        "7642": 19,
+        "984": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=A Christmas Carol, relation=hasDomesticTuition, tail=?)\n\nOntology summary:\n- Query relation: hasDomesticTuition\n- Head entity: A Christmas Carol\n- Head class: Book\n- Relation domain: University\n- Relation range: Currency\n- Domain check: not clearly matched\n- Tail entities of class 'Currency' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=43, edges=48, paths=20\n- Head outgoing edges under target relation hasDomesticTuition: 21\n- Key support nodes: A Christmas Carol, Hampton, Las Cruces, Walter Becker, Jackson County, Boston Bruins, Harvard University, Jerry Herman\n- Main auxiliary relations: hasRosterPosition(12), workedAt(2), hasCounty(2)\n\nFrequent relation path patterns:\n- hasDomesticTuition (count=20)\n\nCandidates:\n1. Chick Corea [id=1366 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Boston Bruins [id=9233 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Sanctuary Records [id=9005 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Jackson County [id=10542 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Subhash Ghai [id=11599 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Production Sound Mixer [id=1098 | class=Profession | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Dave Matthews [id=984 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Decca [id=5615 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Harvard University [id=3183 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Larry David [id=8094 | class=Comedian, Writer, Director | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. David Paymer [id=7642 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Dave Grohl [id=1742 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Hampton [id=7198 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Kurt Vonnegut [id=5073 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Las Cruces [id=13803 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Abraham Lincoln [id=13415 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Jerry Herman [id=10955 | class=Composer Lyricist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Michael Crichton [id=5769 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Tom Arnold [id=7976 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Walter Becker [id=5751 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=A Christmas Carol, relation=hasDomesticTuition, tail=?)\n\nOntology summary:\n- Query relation: hasDomesticTuition\n- Head entity: A Christmas Carol\n- Head class: Book\n- Relation domain: University\n- Relation range: Currency\n- Domain check: not clearly matched\n- Tail entities of class 'Currency' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=43, edges=48, paths=20\n- Head outgoing edges under target relation hasDomesticTuition: 21\n- Key support nodes: A Christmas Carol, Hampton, Las Cruces, Walter Becker, Jackson County, Boston Bruins, Harvard University, Jerry Herman\n- Main auxiliary relations: hasRosterPosition(12), workedAt(2), hasCounty(2)\n\nFrequent relation path patterns:\n- hasDomesticTuition (count=20)\n\nCandidates:\n1. Weber County [id=12316 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Chick Corea [id=1366 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n3. Linda Ronstadt [id=1612 | class=Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Dagenham & Redbridge F.c. [id=10547 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Jerry Herman [id=10955 | class=Composer Lyricist | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Glasgow School of Art [id=13498 | class=Education Institution | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Walter Becker [id=5751 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n8. Hot Fuzz [id=2695 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Janeane Garofalo [id=10636 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Dave Grohl [id=1742 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Beijing Guoan F.c. [id=10137 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Wonder Woman [id=11266 | class=Superhero | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Luxembourg [id=5001 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Hampton [id=7198 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n15. Harvard University [id=3183 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Tom Arnold [id=7976 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Gothenburg [id=11573 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Newmarket [id=12306 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. David Paymer [id=7642 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Dave Matthews [id=984 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n"
 }

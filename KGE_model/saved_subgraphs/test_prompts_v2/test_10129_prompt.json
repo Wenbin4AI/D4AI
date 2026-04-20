@@ -7,21 +7,21 @@
         "relation_label": "hasProductionDesignBy",
         "gold_tail": 13935,
         "gold_tail_label": "E!",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 2
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 8430,
-            "entity_label": "The Robe",
-            "entity_class": "Movie",
-            "score": 4.039721,
+            "entity_id": 11339,
+            "entity_label": "Minister",
+            "entity_class": "Politician",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -29,278 +29,6 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 2630,
-            "entity_label": "Tony Award for Best Book of a Musical",
-            "entity_class": "Award",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 5243,
-            "entity_label": "London Film Critics Circle Award for Director of the Year",
-            "entity_class": "Award",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 4868,
-            "entity_label": "Etta James",
-            "entity_class": "Singer",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 13345,
-            "entity_label": "East Java",
-            "entity_class": "Location",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 3542,
-            "entity_label": "J. Michael Straczynski",
-            "entity_class": "Writer",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 5772,
-            "entity_label": "Chicago",
-            "entity_class": "Location",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 9221,
-            "entity_label": "Bath",
-            "entity_class": "City",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 10859,
-            "entity_label": "6th United States Congress",
-            "entity_class": "Organization",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 494,
-            "entity_label": "Executive Producer",
-            "entity_class": "Profession",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 8088,
-            "entity_label": "Grammy Award for Best Historical Album",
-            "entity_class": "Music Award",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 7548,
-            "entity_label": "Gene Wolfe",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 8399,
-            "entity_label": "Morgan Spurlock",
-            "entity_class": "Person",
-            "score": 9.539721,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 7545,
-            "entity_label": "John Schlesinger",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 6611,
-            "entity_label": "Walter Murphy",
-            "entity_class": "Person",
-            "score": 9.539721,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 9047,
-            "entity_label": "Kingdom of England",
-            "entity_class": "Country",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
-            "entity_id": 3449,
-            "entity_label": "Roadside Attractions",
-            "entity_class": "Film Distributor",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 13578,
-            "entity_label": "Greenwood",
-            "entity_class": "City",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
             "entity_id": 13935,
             "entity_label": "E!",
             "entity_class": "Television Network",
@@ -316,7 +44,183 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
+            "rank_index": 3,
+            "entity_id": 9047,
+            "entity_label": "Kingdom of England",
+            "entity_class": "Country",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 6799,
+            "entity_label": "Long Snapper",
+            "entity_class": "Position",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 11737,
+            "entity_label": "James Fox",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 13345,
+            "entity_label": "East Java",
+            "entity_class": "Location",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 3542,
+            "entity_label": "J. Michael Straczynski",
+            "entity_class": "Writer",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 2630,
+            "entity_label": "Tony Award for Best Book of a Musical",
+            "entity_class": "Award",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 9514,
+            "entity_label": "Ray Mckinnon",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 1850,
+            "entity_label": "Phillips Exeter Academy",
+            "entity_class": "School",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 5266,
+            "entity_label": "University of East Anglia",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 10289,
+            "entity_label": "Tulane University",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 1225,
+            "entity_label": "Neal H. Moritz",
+            "entity_class": "Film Producer",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
             "entity_id": 12583,
             "entity_label": "Augsburg",
             "entity_class": "City",
@@ -330,29 +234,125 @@
                 "key": 1
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 12356,
+            "entity_label": "Activism",
+            "entity_class": "Social Movement",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 4868,
+            "entity_label": "Etta James",
+            "entity_class": "Singer",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 8088,
+            "entity_label": "Grammy Award for Best Historical Album",
+            "entity_class": "Music Award",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 13951,
+            "entity_label": "Bad Boy Records",
+            "entity_class": "Record Label",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 9221,
+            "entity_label": "Bath",
+            "entity_class": "City",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 12900,
+            "entity_label": "Dirty Pretty Things",
+            "entity_class": "Film",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "8430": 1,
-        "2630": 2,
-        "5243": 3,
-        "4868": 4,
-        "13345": 5,
-        "3542": 6,
-        "5772": 7,
-        "9221": 8,
-        "10859": 9,
-        "494": 10,
-        "8088": 11,
-        "7548": 12,
-        "8399": 13,
-        "7545": 14,
-        "6611": 15,
-        "9047": 16,
-        "3449": 17,
-        "13578": 18,
-        "13935": 19,
-        "12583": 20
+        "11339": 1,
+        "13935": 2,
+        "9047": 3,
+        "6799": 4,
+        "11737": 5,
+        "13345": 6,
+        "3542": 7,
+        "2630": 8,
+        "9514": 9,
+        "1850": 10,
+        "5266": 11,
+        "10289": 12,
+        "1225": 13,
+        "12583": 14,
+        "12356": 15,
+        "4868": 16,
+        "8088": 17,
+        "13951": 18,
+        "9221": 19,
+        "12900": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Seth Rogen, relation=hasProductionDesignBy, tail=?)\n\nOntology summary:\n- Query relation: hasProductionDesignBy\n- Head entity: Seth Rogen\n- Head class: Actor\n- Relation domain: Movie\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=34, edges=45, paths=20\n- Head outgoing edges under target relation hasProductionDesignBy: 19\n- Key support nodes: Seth Rogen, Augsburg, East Java, Morgan Spurlock, Etta James, Walter Murphy, Tony Award for Best Book of a Musical, 6th United States Congress\n- Main auxiliary relations: hasNominee(12), hasAdminParent(10), hasPlayer(3)\n\nFrequent relation path patterns:\n- hasProductionDesignBy (count=19)\n- hasProductionDesignBy -> hasNominee -> hasLocalTuitionCurrency (count=1)\n\nCandidates:\n1. The Robe [id=8430 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Tony Award for Best Book of a Musical [id=2630 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. London Film Critics Circle Award for Director of the Year [id=5243 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Etta James [id=4868 | class=Singer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. East Java [id=13345 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. J. Michael Straczynski [id=3542 | class=Writer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Chicago [id=5772 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Bath [id=9221 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. 6th United States Congress [id=10859 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Executive Producer [id=494 | class=Profession | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Grammy Award for Best Historical Album [id=8088 | class=Music Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Gene Wolfe [id=7548 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Morgan Spurlock [id=8399 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n14. John Schlesinger [id=7545 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Walter Murphy [id=6611 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n16. Kingdom of England [id=9047 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Roadside Attractions [id=3449 | class=Film Distributor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Greenwood [id=13578 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. E! [id=13935 | class=Television Network | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Augsburg [id=12583 | class=City | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Seth Rogen, relation=hasProductionDesignBy, tail=?)\n\nOntology summary:\n- Query relation: hasProductionDesignBy\n- Head entity: Seth Rogen\n- Head class: Actor\n- Relation domain: Movie\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=34, edges=45, paths=20\n- Head outgoing edges under target relation hasProductionDesignBy: 19\n- Key support nodes: Seth Rogen, Augsburg, East Java, Morgan Spurlock, Etta James, Walter Murphy, Tony Award for Best Book of a Musical, 6th United States Congress\n- Main auxiliary relations: hasNominee(12), hasAdminParent(10), hasPlayer(3)\n\nFrequent relation path patterns:\n- hasProductionDesignBy (count=19)\n- hasProductionDesignBy -> hasNominee -> hasLocalTuitionCurrency (count=1)\n\nCandidates:\n1. Minister [id=11339 | class=Politician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. E! [id=13935 | class=Television Network | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n3. Kingdom of England [id=9047 | class=Country | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Long Snapper [id=6799 | class=Position | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n5. James Fox [id=11737 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. East Java [id=13345 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n7. J. Michael Straczynski [id=3542 | class=Writer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Tony Award for Best Book of a Musical [id=2630 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n9. Ray Mckinnon [id=9514 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Phillips Exeter Academy [id=1850 | class=School | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. University of East Anglia [id=5266 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Tulane University [id=10289 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Neal H. Moritz [id=1225 | class=Film Producer | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n14. Augsburg [id=12583 | class=City | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n15. Activism [id=12356 | class=Social Movement | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Etta James [id=4868 | class=Singer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n17. Grammy Award for Best Historical Album [id=8088 | class=Music Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n18. Bad Boy Records [id=13951 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Bath [id=9221 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Dirty Pretty Things [id=12900 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

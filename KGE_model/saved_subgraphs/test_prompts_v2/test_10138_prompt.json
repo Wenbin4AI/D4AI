@@ -7,236 +7,12 @@
         "relation_label": "hasReligion",
         "gold_tail": 7256,
         "gold_tail_label": "Irene Cara",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 15
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 2207,
-            "entity_label": "Arrested Development",
-            "entity_class": "Tv Show",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
-            "entity_id": 6042,
-            "entity_label": "Nathaniel Hawthorne",
-            "entity_class": "Author",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 13864,
-            "entity_label": "Mine",
-            "entity_class": "Mine",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 11567,
-            "entity_label": "Harrow",
-            "entity_class": "District",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 10206,
-            "entity_label": "Pirate",
-            "entity_class": "Pirate",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 8645,
-            "entity_label": "Klaas-jan Huntelaar",
-            "entity_class": "Athlete",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 719,
-            "entity_label": "Quo Vadis",
-            "entity_class": "Book",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 3848,
-            "entity_label": "The Bold and the Beautiful",
-            "entity_class": "Tv Show",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 8651,
-            "entity_label": "Manufacturing",
-            "entity_class": "Industry",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 4728,
-            "entity_label": "Thora Birch",
-            "entity_class": "Actor",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 13577,
-            "entity_label": "St. Louis Blues",
-            "entity_class": "Sports Team",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 12584,
-            "entity_label": "Montclair",
-            "entity_class": "City",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 1526,
-            "entity_label": "Absurdism",
-            "entity_class": "Movement",
-            "score": 6.772589,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 3,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 2081,
-            "entity_label": "Joseph C. Wright",
-            "entity_class": "People",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
             "entity_id": 10500,
             "entity_label": "Priyanka Chopra",
             "entity_class": "Person",
@@ -252,10 +28,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 16,
-            "entity_id": 14540,
-            "entity_label": "Australian Labor Party",
-            "entity_class": "Political Party",
+            "rank_index": 2,
+            "entity_id": 11966,
+            "entity_label": "Rostock",
+            "entity_class": "City",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -268,10 +44,122 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 3747,
-            "entity_label": "Grammy Award for Best Arrangement, Instrumental and Vocals",
-            "entity_class": "Award",
+            "rank_index": 3,
+            "entity_id": 8645,
+            "entity_label": "Klaas-jan Huntelaar",
+            "entity_class": "Athlete",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 12415,
+            "entity_label": "Animal",
+            "entity_class": "Animal",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 14192,
+            "entity_label": "Ghent",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 1791,
+            "entity_label": "New Order",
+            "entity_class": "Musical Groups",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 2584,
+            "entity_label": "Bolero",
+            "entity_class": "Music Piece",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 6502,
+            "entity_label": "The Shawshank Redemption",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 719,
+            "entity_label": "Quo Vadis",
+            "entity_class": "Book",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 10206,
+            "entity_label": "Pirate",
+            "entity_class": "Pirate",
             "score": 1.039721,
             "features": {
                 "type_match": 0,
@@ -284,23 +172,71 @@
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 3659,
-            "entity_label": "Mindy Kaling",
+            "rank_index": 11,
+            "entity_id": 13864,
+            "entity_label": "Mine",
+            "entity_class": "Mine",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 12037,
+            "entity_label": "Alsace",
+            "entity_class": "Location",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 2441,
+            "entity_label": "S.c. Olhanense",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 1209,
+            "entity_label": "Albert Brooks",
             "entity_class": "Actor",
-            "score": 1.039721,
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 15,
             "entity_id": 7256,
             "entity_label": "Irene Cara",
             "entity_class": "Actor",
@@ -316,7 +252,55 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
+            "rank_index": 16,
+            "entity_id": 2207,
+            "entity_label": "Arrested Development",
+            "entity_class": "Tv Show",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 7966,
+            "entity_label": "Secrets & Lies",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 9483,
+            "entity_label": "James K. Polk",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
             "entity_id": 4601,
             "entity_label": "Charlie Kaufman",
             "entity_class": "Screenwriter",
@@ -330,29 +314,45 @@
                 "key": 1
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 1526,
+            "entity_label": "Absurdism",
+            "entity_class": "Movement",
+            "score": 6.772589,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "2207": 1,
-        "6042": 2,
-        "13864": 3,
-        "11567": 4,
-        "10206": 5,
-        "8645": 6,
-        "719": 7,
-        "3848": 8,
-        "8651": 9,
-        "4728": 10,
-        "13577": 11,
-        "12584": 12,
-        "1526": 13,
-        "2081": 14,
-        "10500": 15,
-        "14540": 16,
-        "3747": 17,
-        "3659": 18,
-        "7256": 19,
-        "4601": 20
+        "10500": 1,
+        "11966": 2,
+        "8645": 3,
+        "12415": 4,
+        "14192": 5,
+        "1791": 6,
+        "2584": 7,
+        "6502": 8,
+        "719": 9,
+        "10206": 10,
+        "13864": 11,
+        "12037": 12,
+        "2441": 13,
+        "1209": 14,
+        "7256": 15,
+        "2207": 16,
+        "7966": 17,
+        "9483": 18,
+        "4601": 19,
+        "1526": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Brad Paisley, relation=hasReligion, tail=?)\n\nOntology summary:\n- Query relation: hasReligion\n- Head entity: Brad Paisley\n- Head class: Musician\n- Relation domain: Person\n- Relation range: Religion\n- Domain check: not clearly matched\n- Tail entities of class 'Religion' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=42, edges=51, paths=20\n- Head outgoing edges under target relation hasReligion: 6\n- Key support nodes: Brad Paisley, Italia Conti Academy of Theatre Arts, John Logan, Irene Cara, Priyanka Chopra, Absurdism, Charlie Kaufman, Harrow\n- Main auxiliary relations: hasDesignedFilmSets(4), hasHeadquartersLocation(3), performedBy(3)\n\nFrequent relation path patterns:\n- hasDesignedFilmSets -> hasReligion (count=13)\n- hasReligion (count=6)\n- hasReligion -> livingIn (count=1)\n\nCandidates:\n1. Arrested Development [id=2207 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Nathaniel Hawthorne [id=6042 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Mine [id=13864 | class=Mine | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Harrow [id=11567 | class=District | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Pirate [id=10206 | class=Pirate | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Klaas-jan Huntelaar [id=8645 | class=Athlete | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Quo Vadis [id=719 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. The Bold and the Beautiful [id=3848 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Manufacturing [id=8651 | class=Industry | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n10. Thora Birch [id=4728 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. St. Louis Blues [id=13577 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Montclair [id=12584 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Absurdism [id=1526 | class=Movement | type=0 | soft_type=0 | direct=1 | paths=3 | aux=1 | key=1]\n14. Joseph C. Wright [id=2081 | class=People | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Priyanka Chopra [id=10500 | class=Person | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n16. Australian Labor Party [id=14540 | class=Political Party | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Grammy Award for Best Arrangement, Instrumental and Vocals [id=3747 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n18. Mindy Kaling [id=3659 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n19. Irene Cara [id=7256 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=3 | aux=1 | key=1]\n20. Charlie Kaufman [id=4601 | class=Screenwriter | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Brad Paisley, relation=hasReligion, tail=?)\n\nOntology summary:\n- Query relation: hasReligion\n- Head entity: Brad Paisley\n- Head class: Musician\n- Relation domain: Person\n- Relation range: Religion\n- Domain check: not clearly matched\n- Tail entities of class 'Religion' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=42, edges=51, paths=20\n- Head outgoing edges under target relation hasReligion: 6\n- Key support nodes: Brad Paisley, Italia Conti Academy of Theatre Arts, John Logan, Irene Cara, Priyanka Chopra, Absurdism, Charlie Kaufman, Harrow\n- Main auxiliary relations: hasDesignedFilmSets(4), hasHeadquartersLocation(3), performedBy(3)\n\nFrequent relation path patterns:\n- hasDesignedFilmSets -> hasReligion (count=13)\n- hasReligion (count=6)\n- hasReligion -> livingIn (count=1)\n\nCandidates:\n1. Priyanka Chopra [id=10500 | class=Person | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n2. Rostock [id=11966 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Klaas-jan Huntelaar [id=8645 | class=Athlete | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Animal [id=12415 | class=Animal | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Ghent [id=14192 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. New Order [id=1791 | class=Musical Groups | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Bolero [id=2584 | class=Music Piece | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. The Shawshank Redemption [id=6502 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Quo Vadis [id=719 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Pirate [id=10206 | class=Pirate | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. Mine [id=13864 | class=Mine | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Alsace [id=12037 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. S.c. Olhanense [id=2441 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Albert Brooks [id=1209 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Irene Cara [id=7256 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=3 | aux=1 | key=1]\n16. Arrested Development [id=2207 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Secrets & Lies [id=7966 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. James K. Polk [id=9483 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Charlie Kaufman [id=4601 | class=Screenwriter | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n20. Absurdism [id=1526 | class=Movement | type=0 | soft_type=0 | direct=1 | paths=3 | aux=1 | key=1]\n"
 }

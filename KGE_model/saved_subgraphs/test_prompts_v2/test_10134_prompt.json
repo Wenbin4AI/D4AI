@@ -7,44 +7,28 @@
         "relation_label": "placeOfDeath",
         "gold_tail": 4790,
         "gold_tail_label": "Basingstoke",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 20
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 5773,
-            "entity_label": "Mike Mogis",
-            "entity_class": "Person",
-            "score": 0.693147,
+            "entity_id": 1655,
+            "entity_label": "Vera Drake",
+            "entity_class": "Movie",
+            "score": 4.465736,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 0,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
-            "entity_id": 5222,
-            "entity_label": "Ian Holm",
-            "entity_class": "Actor",
-            "score": 6.426015,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "path_count": 3,
                 "aux_support": 3,
                 "key": 1
             },
             "is_gold": 0
         },
         {
-            "rank_index": 3,
+            "rank_index": 2,
             "entity_id": 8292,
             "entity_label": "Federico Fellini",
             "entity_class": "Person",
@@ -60,30 +44,46 @@
             "is_gold": 0
         },
         {
-            "rank_index": 4,
-            "entity_id": 5302,
-            "entity_label": "New Mexico",
-            "entity_class": "Location",
-            "score": 6.539721,
+            "rank_index": 3,
+            "entity_id": 1341,
+            "entity_label": "Alex Borstein",
+            "entity_class": "Actor",
+            "score": 0.693147,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 12134,
+            "entity_label": "William B. Davis",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 5,
-            "entity_id": 3935,
-            "entity_label": "Norristown",
-            "entity_class": "City",
-            "score": 4.5,
+            "entity_id": 10407,
+            "entity_label": "Minnesota Wild",
+            "entity_class": "Sports Team",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -109,38 +109,54 @@
         },
         {
             "rank_index": 7,
-            "entity_id": 4426,
-            "entity_label": "Goya Award for Best Film",
-            "entity_class": "Award",
-            "score": 2.138333,
+            "entity_id": 7882,
+            "entity_label": "Garry Shandling",
+            "entity_class": "Person",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
-                "aux_support": 2,
+                "path_count": 0,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 8,
-            "entity_id": 4166,
-            "entity_label": "Jenna Bush Hager",
-            "entity_class": "Television Personality",
-            "score": 1.098612,
+            "entity_id": 6392,
+            "entity_label": "Kymx",
+            "entity_class": "Radio Station",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
-                "aux_support": 2,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 9,
+            "entity_id": 779,
+            "entity_label": "65th Golden Globe Awards",
+            "entity_class": "Award Ceremony",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
             "entity_id": 9777,
             "entity_label": "Elizabeth",
             "entity_class": "Person",
@@ -156,39 +172,39 @@
             "is_gold": 0
         },
         {
-            "rank_index": 10,
-            "entity_id": 1655,
-            "entity_label": "Vera Drake",
-            "entity_class": "Movie",
-            "score": 4.465736,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 3,
-                "aux_support": 3,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
             "rank_index": 11,
-            "entity_id": 3926,
-            "entity_label": "George Kennedy",
-            "entity_class": "Actor",
-            "score": 1.732868,
+            "entity_id": 2431,
+            "entity_label": "Giovani Dos Santos",
+            "entity_class": "Footballer",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
+                "path_count": 0,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 12,
+            "entity_id": 12238,
+            "entity_label": "Theoni V. Aldredge",
+            "entity_class": "Costume Designer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
             "entity_id": 12838,
             "entity_label": "Mangaluru",
             "entity_class": "City",
@@ -204,39 +220,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 13,
-            "entity_id": 14517,
-            "entity_label": "Lasker-debakey Clinical Medical Research Award",
-            "entity_class": "Science Award",
-            "score": 7.871201,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 3,
-                "aux_support": 5,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
             "rank_index": 14,
-            "entity_id": 5252,
-            "entity_label": "Bowling Green",
-            "entity_class": "City",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
             "entity_id": 3267,
             "entity_label": "Robert Taylor",
             "entity_class": "Person",
@@ -252,30 +236,46 @@
             "is_gold": 0
         },
         {
-            "rank_index": 16,
-            "entity_id": 13475,
-            "entity_label": "Wally Wingert",
+            "rank_index": 15,
+            "entity_id": 9882,
+            "entity_label": "Douglas Shearer",
             "entity_class": "Person",
-            "score": 1.732868,
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 5252,
+            "entity_label": "Bowling Green",
+            "entity_class": "City",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 17,
-            "entity_id": 8490,
-            "entity_label": "Manchester",
-            "entity_class": "City",
-            "score": 4.5,
+            "entity_id": 9128,
+            "entity_label": "Peking University",
+            "entity_class": "University",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -285,13 +285,13 @@
         },
         {
             "rank_index": 18,
-            "entity_id": 986,
-            "entity_label": "Rio De Janeiro",
-            "entity_class": "City",
-            "score": 4.5,
+            "entity_id": 1022,
+            "entity_label": "Venezuela",
+            "entity_class": "Country",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -301,6 +301,22 @@
         },
         {
             "rank_index": 19,
+            "entity_id": 10349,
+            "entity_label": "Uttar Pradesh",
+            "entity_class": "State",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
             "entity_id": 4790,
             "entity_label": "Basingstoke",
             "entity_class": "Town",
@@ -314,45 +330,29 @@
                 "key": 1
             },
             "is_gold": 1
-        },
-        {
-            "rank_index": 20,
-            "entity_id": 7535,
-            "entity_label": "Curtis Hanson",
-            "entity_class": "Person",
-            "score": 7.034213,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 2,
-                "aux_support": 3,
-                "key": 1
-            },
-            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "5773": 1,
-        "5222": 2,
-        "8292": 3,
-        "5302": 4,
-        "3935": 5,
+        "1655": 1,
+        "8292": 2,
+        "1341": 3,
+        "12134": 4,
+        "10407": 5,
         "1099": 6,
-        "4426": 7,
-        "4166": 8,
-        "9777": 9,
-        "1655": 10,
-        "3926": 11,
-        "12838": 12,
-        "14517": 13,
-        "5252": 14,
-        "3267": 15,
-        "13475": 16,
-        "8490": 17,
-        "986": 18,
-        "4790": 19,
-        "7535": 20
+        "7882": 7,
+        "6392": 8,
+        "779": 9,
+        "9777": 10,
+        "2431": 11,
+        "12238": 12,
+        "12838": 13,
+        "3267": 14,
+        "9882": 15,
+        "5252": 16,
+        "9128": 17,
+        "1022": 18,
+        "10349": 19,
+        "4790": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Fergie, relation=placeOfDeath, tail=?)\n\nOntology summary:\n- Query relation: placeOfDeath\n- Head entity: Fergie\n- Head class: Person\n- Relation domain: Person\n- Relation range: City\n- Domain check: matched\n- Tail entities of class 'City' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=39, edges=50, paths=20\n- Head outgoing edges under target relation placeOfDeath: 7\n- Key support nodes: Fergie, Robert Taylor, Lasker-debakey Clinical Medical Research Award, Ian Holm, Elizabeth, Curtis Hanson, Vera Drake, Basingstoke\n- Main auxiliary relations: hasDesignedFilmSets(22), hasSubsidiary(4), editedBy(3)\n\nFrequent relation path patterns:\n- placeOfDeath -> hasDesignedFilmSets (count=13)\n- placeOfDeath (count=7)\n\nCandidates:\n1. Mike Mogis [id=5773 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n2. Ian Holm [id=5222 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n3. Federico Fellini [id=8292 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=0]\n4. New Mexico [id=5302 | class=Location | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n5. Norristown [id=3935 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Jerry Bruckheimer [id=1099 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n7. Goya Award for Best Film [id=4426 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=0]\n8. Jenna Bush Hager [id=4166 | class=Television Personality | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=0]\n9. Elizabeth [id=9777 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n10. Vera Drake [id=1655 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=3 | aux=3 | key=1]\n11. George Kennedy [id=3926 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n12. Mangaluru [id=12838 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Lasker-debakey Clinical Medical Research Award [id=14517 | class=Science Award | type=0 | soft_type=0 | direct=1 | paths=3 | aux=5 | key=1]\n14. Bowling Green [id=5252 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Robert Taylor [id=3267 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=7 | key=1]\n16. Wally Wingert [id=13475 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n17. Manchester [id=8490 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Rio De Janeiro [id=986 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Basingstoke [id=4790 | class=Town | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n20. Curtis Hanson [id=7535 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=3 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Fergie, relation=placeOfDeath, tail=?)\n\nOntology summary:\n- Query relation: placeOfDeath\n- Head entity: Fergie\n- Head class: Person\n- Relation domain: Person\n- Relation range: City\n- Domain check: matched\n- Tail entities of class 'City' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=39, edges=50, paths=20\n- Head outgoing edges under target relation placeOfDeath: 7\n- Key support nodes: Fergie, Robert Taylor, Lasker-debakey Clinical Medical Research Award, Ian Holm, Elizabeth, Curtis Hanson, Vera Drake, Basingstoke\n- Main auxiliary relations: hasDesignedFilmSets(22), hasSubsidiary(4), editedBy(3)\n\nFrequent relation path patterns:\n- placeOfDeath -> hasDesignedFilmSets (count=13)\n- placeOfDeath (count=7)\n\nCandidates:\n1. Vera Drake [id=1655 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=3 | aux=3 | key=1]\n2. Federico Fellini [id=8292 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=0]\n3. Alex Borstein [id=1341 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n4. William B. Davis [id=12134 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Minnesota Wild [id=10407 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Jerry Bruckheimer [id=1099 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n7. Garry Shandling [id=7882 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Kymx [id=6392 | class=Radio Station | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. 65th Golden Globe Awards [id=779 | class=Award Ceremony | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Elizabeth [id=9777 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n11. Giovani Dos Santos [id=2431 | class=Footballer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Theoni V. Aldredge [id=12238 | class=Costume Designer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Mangaluru [id=12838 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n14. Robert Taylor [id=3267 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=7 | key=1]\n15. Douglas Shearer [id=9882 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Bowling Green [id=5252 | class=City | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Peking University [id=9128 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Venezuela [id=1022 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Uttar Pradesh [id=10349 | class=State | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Basingstoke [id=4790 | class=Town | type=0 | soft_type=0 | direct=1 | paths=1 | aux=2 | key=1]\n"
 }

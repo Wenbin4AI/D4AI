@@ -7,108 +7,12 @@
         "relation_label": "hasCreator",
         "gold_tail": 1767,
         "gold_tail_label": "Washington & Jefferson College",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 16
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 14037,
-            "entity_label": "Pontefract",
-            "entity_class": "City",
-            "score": 1.098612,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 2,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
-            "entity_id": 12439,
-            "entity_label": "Shinya Tsukamoto",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 6358,
-            "entity_label": "University of California, San Diego",
-            "entity_class": "University",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 11290,
-            "entity_label": "Bob Clark",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 4994,
-            "entity_label": "Seattle",
-            "entity_class": "City",
-            "score": 4.236945,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 8,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 11918,
-            "entity_label": "County Durham",
-            "entity_class": "County",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
             "entity_id": 8409,
             "entity_label": "Queen of the Damned",
             "entity_class": "Book",
@@ -124,25 +28,41 @@
             "is_gold": 0
         },
         {
-            "rank_index": 8,
-            "entity_id": 3418,
-            "entity_label": "The Phantom of the Opera",
-            "entity_class": "Musical",
-            "score": 1.732868,
+            "rank_index": 2,
+            "entity_id": 4695,
+            "entity_label": "The Kingdom",
+            "entity_class": "Film",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
+                "path_count": 0,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 9,
-            "entity_id": 14248,
-            "entity_label": "Samuel Vincent",
+            "rank_index": 3,
+            "entity_id": 4414,
+            "entity_label": "Popcap Games",
+            "entity_class": "Company",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 12439,
+            "entity_label": "Shinya Tsukamoto",
             "entity_class": "Person",
             "score": 4.5,
             "features": {
@@ -156,39 +76,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 10,
-            "entity_id": 2340,
-            "entity_label": "Safety",
-            "entity_class": "Safety",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 13744,
-            "entity_label": "Douala",
-            "entity_class": "Place",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
+            "rank_index": 5,
             "entity_id": 8419,
             "entity_label": "Victor Hugo",
             "entity_class": "Author",
@@ -204,71 +92,23 @@
             "is_gold": 0
         },
         {
-            "rank_index": 13,
-            "entity_id": 9007,
-            "entity_label": "Craig Ferguson",
-            "entity_class": "Person",
-            "score": 6.193147,
+            "rank_index": 6,
+            "entity_id": 11571,
+            "entity_label": "Fairfield University",
+            "entity_class": "University",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 12217,
-            "entity_label": "Rebecca Eaton",
-            "entity_class": "Producer",
-            "score": 3.539721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 1,
                 "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 7685,
-            "entity_label": "The Cult",
-            "entity_class": "Music Group",
-            "score": 5.382027,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 3,
-                "aux_support": 9,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 1903,
-            "entity_label": "Patti Smith",
-            "entity_class": "Musician",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 17,
+            "rank_index": 7,
             "entity_id": 1493,
             "entity_label": "Sociology",
             "entity_class": "Academic Discipline",
@@ -284,23 +124,135 @@
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 11508,
-            "entity_label": "K.s.c. Lokeren Oost-vlaanderen",
-            "entity_class": "Sports Club",
-            "score": 4.257356,
+            "rank_index": 8,
+            "entity_id": 2317,
+            "entity_label": "New Line Cinema",
+            "entity_class": "Movie Studio",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
-                "aux_support": 4,
-                "key": 1
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 9,
+            "entity_id": 1678,
+            "entity_label": "Brigitte Nielsen",
+            "entity_class": "Actress, Model, Wrestler",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 6521,
+            "entity_label": "Bassoon",
+            "entity_class": "Musical Instrument",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 11918,
+            "entity_label": "County Durham",
+            "entity_class": "County",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 6442,
+            "entity_label": "Singin' in the Rain",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 2821,
+            "entity_label": "Washington County",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 12724,
+            "entity_label": "Rome",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 11038,
+            "entity_label": "Mexican Americans",
+            "entity_class": "Ethnic Group",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
             "entity_id": 1767,
             "entity_label": "Washington & Jefferson College",
             "entity_class": "College",
@@ -316,14 +268,62 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 13295,
-            "entity_label": "Dio",
-            "entity_class": "Person",
-            "score": 4.5,
+            "rank_index": 17,
+            "entity_id": 8906,
+            "entity_label": "Rotterdam",
+            "entity_class": "City",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 1.098612,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 2,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 928,
+            "entity_label": "Universal Pictures",
+            "entity_class": "Movie Studio",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 8777,
+            "entity_label": "28th Academy Awards",
+            "entity_class": "Awards Ceremony",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -333,26 +333,26 @@
         }
     ],
     "candidate_id_to_rank_index": {
-        "14037": 1,
-        "12439": 2,
-        "6358": 3,
-        "11290": 4,
-        "4994": 5,
-        "11918": 6,
-        "8409": 7,
-        "3418": 8,
-        "14248": 9,
-        "2340": 10,
-        "13744": 11,
-        "8419": 12,
-        "9007": 13,
-        "12217": 14,
-        "7685": 15,
-        "1903": 16,
-        "1493": 17,
-        "11508": 18,
-        "1767": 19,
-        "13295": 20
+        "8409": 1,
+        "4695": 2,
+        "4414": 3,
+        "12439": 4,
+        "8419": 5,
+        "11571": 6,
+        "1493": 7,
+        "2317": 8,
+        "1678": 9,
+        "6521": 10,
+        "11918": 11,
+        "6442": 12,
+        "2821": 13,
+        "12724": 14,
+        "11038": 15,
+        "1767": 16,
+        "8906": 17,
+        "14037": 18,
+        "928": 19,
+        "8777": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Craig Ferguson, relation=hasCreator, tail=?)\n\nOntology summary:\n- Query relation: hasCreator\n- Head entity: Craig Ferguson\n- Head class: Person\n- Relation domain: Tv Show\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=38, edges=52, paths=20\n- Head outgoing edges under target relation hasCreator: 1\n- Key support nodes: Craig Ferguson, Washington & Jefferson College, The Cult, Seattle, Victor Hugo, Sociology, K.s.c. Lokeren Oost-vlaanderen, Kagoshima Prefecture\n- Main auxiliary relations: hasGenre(18), hasParticipantCountries(3), hasBorder(3)\n\nFrequent relation path patterns:\n- hasCreator -> nominatedFor -> hasGenre (count=7)\n- hasGovernmentType -> hasGenre -> hasCreator (count=4)\n- hasCreator -> hasParticipantCountries -> hasGenre (count=4)\n- hasCreator (count=1)\n- hasPrequel -> hasCreator (count=1)\n\nCandidates:\n1. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=0]\n2. Shinya Tsukamoto [id=12439 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. University of California, San Diego [id=6358 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n4. Bob Clark [id=11290 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=8 | key=1]\n6. County Durham [id=11918 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n7. Queen of the Damned [id=8409 | class=Book | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n8. The Phantom of the Opera [id=3418 | class=Musical | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n9. Samuel Vincent [id=14248 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Safety [id=2340 | class=Safety | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n11. Douala [id=13744 | class=Place | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n12. Victor Hugo [id=8419 | class=Author | type=0 | soft_type=0 | direct=0 | paths=3 | aux=2 | key=1]\n13. Craig Ferguson [id=9007 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=1]\n14. Rebecca Eaton [id=12217 | class=Producer | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=1]\n15. The Cult [id=7685 | class=Music Group | type=0 | soft_type=0 | direct=0 | paths=3 | aux=9 | key=1]\n16. Patti Smith [id=1903 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n17. Sociology [id=1493 | class=Academic Discipline | type=0 | soft_type=0 | direct=0 | paths=2 | aux=4 | key=1]\n18. K.s.c. Lokeren Oost-vlaanderen [id=11508 | class=Sports Club | type=0 | soft_type=0 | direct=0 | paths=2 | aux=4 | key=1]\n19. Washington & Jefferson College [id=1767 | class=College | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n20. Dio [id=13295 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Craig Ferguson, relation=hasCreator, tail=?)\n\nOntology summary:\n- Query relation: hasCreator\n- Head entity: Craig Ferguson\n- Head class: Person\n- Relation domain: Tv Show\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=38, edges=52, paths=20\n- Head outgoing edges under target relation hasCreator: 1\n- Key support nodes: Craig Ferguson, Washington & Jefferson College, The Cult, Seattle, Victor Hugo, Sociology, K.s.c. Lokeren Oost-vlaanderen, Kagoshima Prefecture\n- Main auxiliary relations: hasGenre(18), hasParticipantCountries(3), hasBorder(3)\n\nFrequent relation path patterns:\n- hasCreator -> nominatedFor -> hasGenre (count=7)\n- hasGovernmentType -> hasGenre -> hasCreator (count=4)\n- hasCreator -> hasParticipantCountries -> hasGenre (count=4)\n- hasCreator (count=1)\n- hasPrequel -> hasCreator (count=1)\n\nCandidates:\n1. Queen of the Damned [id=8409 | class=Book | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n2. The Kingdom [id=4695 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Popcap Games [id=4414 | class=Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Shinya Tsukamoto [id=12439 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Victor Hugo [id=8419 | class=Author | type=0 | soft_type=0 | direct=0 | paths=3 | aux=2 | key=1]\n6. Fairfield University [id=11571 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Sociology [id=1493 | class=Academic Discipline | type=0 | soft_type=0 | direct=0 | paths=2 | aux=4 | key=1]\n8. New Line Cinema [id=2317 | class=Movie Studio | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Brigitte Nielsen [id=1678 | class=Actress, Model, Wrestler | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Bassoon [id=6521 | class=Musical Instrument | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. County Durham [id=11918 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n12. Singin' in the Rain [id=6442 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Washington County [id=2821 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Rome [id=12724 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Mexican Americans [id=11038 | class=Ethnic Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Washington & Jefferson College [id=1767 | class=College | type=0 | soft_type=0 | direct=1 | paths=1 | aux=3 | key=1]\n17. Rotterdam [id=8906 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=0]\n19. Universal Pictures [id=928 | class=Movie Studio | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. 28th Academy Awards [id=8777 | class=Awards Ceremony | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

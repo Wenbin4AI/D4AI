@@ -7,15 +7,15 @@
         "relation_label": "hasCapital",
         "gold_tail": 7591,
         "gold_tail_label": "Dane Cook",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 13
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 10430,
-            "entity_label": "St. John's Icecaps",
-            "entity_class": "Ice Hockey Team",
+            "entity_id": 9681,
+            "entity_label": "Liza Minnelli",
+            "entity_class": "Person",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -29,31 +29,31 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 6527,
-            "entity_label": "William T. Orr",
-            "entity_class": "Actor",
-            "score": 3.414157,
+            "entity_id": 10345,
+            "entity_label": "Tobymac",
+            "entity_class": "Musician",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 4,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 3,
-            "entity_id": 7037,
-            "entity_label": "Nurse Jackie",
-            "entity_class": "Tv Series",
-            "score": 1.039721,
+            "entity_id": 5599,
+            "entity_label": "Brockton",
+            "entity_class": "City",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -61,13 +61,13 @@
         },
         {
             "rank_index": 4,
-            "entity_id": 8446,
-            "entity_label": "Pima County",
-            "entity_class": "County",
-            "score": 4.5,
+            "entity_id": 5418,
+            "entity_label": "Oswald Morris",
+            "entity_class": "Cinematographer",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -77,15 +77,15 @@
         },
         {
             "rank_index": 5,
-            "entity_id": 883,
-            "entity_label": "Kyushu",
-            "entity_class": "Region",
-            "score": 2.539721,
+            "entity_id": 9224,
+            "entity_label": "Uxbridge",
+            "entity_class": "District",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -93,102 +93,6 @@
         },
         {
             "rank_index": 6,
-            "entity_id": 693,
-            "entity_label": "Cannes Film Festival Award for Best Actor",
-            "entity_class": "Award",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 8953,
-            "entity_label": "Sullivan's Travels",
-            "entity_class": "Movie",
-            "score": 1.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 13546,
-            "entity_label": "Canterbury",
-            "entity_class": "City",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 13115,
-            "entity_label": "Ljubljana",
-            "entity_class": "City",
-            "score": 2.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 13848,
-            "entity_label": "Ayr",
-            "entity_class": "Location",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 4760,
-            "entity_label": "Uconn Huskies Men's Basketball",
-            "entity_class": "University Basketball Team",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
             "entity_id": 7414,
             "entity_label": "Body of Lies",
             "entity_class": "Movie",
@@ -204,7 +108,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 13,
+            "rank_index": 7,
             "entity_id": 7969,
             "entity_label": "Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series",
             "entity_class": "Award",
@@ -220,42 +124,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 14,
-            "entity_id": 3936,
-            "entity_label": "Montgomery County",
-            "entity_class": "Location",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 818,
-            "entity_label": "Screenwriter",
-            "entity_class": "Profession",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 863,
-            "entity_label": "National Society of Film Critics Award for Best Supporting Actor",
-            "entity_class": "Award",
+            "rank_index": 8,
+            "entity_id": 7725,
+            "entity_label": "Red Skelton",
+            "entity_class": "Actor",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -268,39 +140,71 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 3694,
-            "entity_label": "Attorney General",
-            "entity_class": "Title",
-            "score": 2.647918,
+            "rank_index": 9,
+            "entity_id": 3212,
+            "entity_label": "L-threonine",
+            "entity_class": "Chemical Compound",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 2830,
-            "entity_label": "The Impossible",
-            "entity_class": "Movie",
-            "score": 2.647918,
+            "rank_index": 10,
+            "entity_id": 6150,
+            "entity_label": "Angola",
+            "entity_class": "Country",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 11,
+            "entity_id": 13546,
+            "entity_label": "Canterbury",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 693,
+            "entity_label": "Cannes Film Festival Award for Best Actor",
+            "entity_class": "Award",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
             "entity_id": 7591,
             "entity_label": "Dane Cook",
             "entity_class": "Person",
@@ -316,43 +220,139 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 6008,
-            "entity_label": "Avocado",
-            "entity_class": "Food",
-            "score": 5.039721,
+            "rank_index": 14,
+            "entity_id": 4759,
+            "entity_label": "Astronomy",
+            "entity_class": "Field of Study",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 12292,
+            "entity_label": "Iain Banks",
+            "entity_class": "Author",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 1660,
+            "entity_label": "Margin Call",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 863,
+            "entity_label": "National Society of Film Critics Award for Best Supporting Actor",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 6517,
+            "entity_label": "Leighton Meester",
+            "entity_class": "Actress",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 871,
+            "entity_label": "Television Producer",
+            "entity_class": "Profession",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "10430": 1,
-        "6527": 2,
-        "7037": 3,
-        "8446": 4,
-        "883": 5,
-        "693": 6,
-        "8953": 7,
-        "13546": 8,
-        "13115": 9,
-        "13848": 10,
-        "4760": 11,
-        "7414": 12,
-        "7969": 13,
-        "3936": 14,
-        "818": 15,
-        "863": 16,
-        "3694": 17,
-        "2830": 18,
-        "7591": 19,
-        "6008": 20
+        "9681": 1,
+        "10345": 2,
+        "5599": 3,
+        "5418": 4,
+        "9224": 5,
+        "7414": 6,
+        "7969": 7,
+        "7725": 8,
+        "3212": 9,
+        "6150": 10,
+        "13546": 11,
+        "693": 12,
+        "7591": 13,
+        "4759": 14,
+        "12292": 15,
+        "1660": 16,
+        "14037": 17,
+        "863": 18,
+        "6517": 19,
+        "871": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Sullivan's Travels, relation=hasCapital, tail=?)\n\nOntology summary:\n- Query relation: hasCapital\n- Head entity: Sullivan's Travels\n- Head class: Movie\n- Relation domain: City\n- Relation range: County\n- Domain check: not clearly matched\n- Tail entities of class 'County' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=30, edges=42, paths=20\n- Head outgoing edges under target relation hasCapital: 4\n- Key support nodes: Sullivan's Travels, Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series, Avocado, Dane Cook, William T. Orr, Screenwriter, Ljubljana, Attorney General\n- Main auxiliary relations: hasSubject(18)\n\nFrequent relation path patterns:\n- hasCapital -> hasCapital (count=16)\n- hasCapital (count=4)\n\nCandidates:\n1. St. John's Icecaps [id=10430 | class=Ice Hockey Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. William T. Orr [id=6527 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=4 | aux=0 | key=1]\n3. Nurse Jackie [id=7037 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n4. Pima County [id=8446 | class=County | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Kyushu [id=883 | class=Region | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n6. Cannes Film Festival Award for Best Actor [id=693 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n7. Sullivan's Travels [id=8953 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]\n8. Canterbury [id=13546 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Ljubljana [id=13115 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n10. Ayr [id=13848 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Uconn Huskies Men's Basketball [id=4760 | class=University Basketball Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Body of Lies [id=7414 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n13. Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series [id=7969 | class=Award | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n14. Montgomery County [id=3936 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Screenwriter [id=818 | class=Profession | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. National Society of Film Critics Award for Best Supporting Actor [id=863 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Attorney General [id=3694 | class=Title | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n18. The Impossible [id=2830 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n19. Dane Cook [id=7591 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n20. Avocado [id=6008 | class=Food | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Sullivan's Travels, relation=hasCapital, tail=?)\n\nOntology summary:\n- Query relation: hasCapital\n- Head entity: Sullivan's Travels\n- Head class: Movie\n- Relation domain: City\n- Relation range: County\n- Domain check: not clearly matched\n- Tail entities of class 'County' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=30, edges=42, paths=20\n- Head outgoing edges under target relation hasCapital: 4\n- Key support nodes: Sullivan's Travels, Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series, Avocado, Dane Cook, William T. Orr, Screenwriter, Ljubljana, Attorney General\n- Main auxiliary relations: hasSubject(18)\n\nFrequent relation path patterns:\n- hasCapital -> hasCapital (count=16)\n- hasCapital (count=4)\n\nCandidates:\n1. Liza Minnelli [id=9681 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Tobymac [id=10345 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Brockton [id=5599 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Oswald Morris [id=5418 | class=Cinematographer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Uxbridge [id=9224 | class=District | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Body of Lies [id=7414 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n7. Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series [id=7969 | class=Award | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n8. Red Skelton [id=7725 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. L-threonine [id=3212 | class=Chemical Compound | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Angola [id=6150 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Canterbury [id=13546 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Cannes Film Festival Award for Best Actor [id=693 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Dane Cook [id=7591 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n14. Astronomy [id=4759 | class=Field of Study | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Iain Banks [id=12292 | class=Author | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Margin Call [id=1660 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. National Society of Film Critics Award for Best Supporting Actor [id=863 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Leighton Meester [id=6517 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Television Producer [id=871 | class=Profession | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

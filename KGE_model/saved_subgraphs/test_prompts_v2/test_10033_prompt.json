@@ -7,60 +7,12 @@
         "relation_label": "honoredFor",
         "gold_tail": 9223,
         "gold_tail_label": "Worcester County",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 7
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 10580,
-            "entity_label": "Ncaa Division I Men's Basketball Tournament",
-            "entity_class": "Tournament",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
-            "entity_id": 7452,
-            "entity_label": "John Amos",
-            "entity_class": "Actor",
-            "score": 3.426015,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 3,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 1863,
-            "entity_label": "Michelle Forbes",
-            "entity_class": "Actress",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
             "entity_id": 7239,
             "entity_label": "Richmond",
             "entity_class": "City",
@@ -76,151 +28,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 5,
-            "entity_id": 1499,
-            "entity_label": "Green Lantern",
-            "entity_class": "Superhero",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 2771,
-            "entity_label": "Frank Sinatra",
-            "entity_class": "Person",
-            "score": 1.098612,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 2,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 5463,
-            "entity_label": "Western Illinois University",
-            "entity_class": "University",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 4994,
-            "entity_label": "Seattle",
-            "entity_class": "City",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 9278,
-            "entity_label": "Yeshiva University",
-            "entity_class": "Educational Institution",
-            "score": 3.426015,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 3,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 7153,
-            "entity_label": "The X Factor",
-            "entity_class": "Tv Show",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 6980,
-            "entity_label": "Pancreatic Cancer",
-            "entity_class": "Disease",
-            "score": 0.693147,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 3273,
-            "entity_label": "From Hell",
-            "entity_class": "Film",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 5713,
-            "entity_label": "Mountain Biking",
-            "entity_class": "Activity",
-            "score": 8.899064,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 4,
-                "aux_support": 11,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
+            "rank_index": 2,
             "entity_id": 624,
             "entity_label": "Midnight Express",
             "entity_class": "Film",
@@ -236,71 +44,71 @@
             "is_gold": 0
         },
         {
-            "rank_index": 15,
-            "entity_id": 1063,
-            "entity_label": "The Happening",
-            "entity_class": "Movie",
-            "score": 7.232868,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 11018,
-            "entity_label": "Nobel Prize in Physics",
-            "entity_class": "Award",
-            "score": 1.039721,
+            "rank_index": 3,
+            "entity_id": 2771,
+            "entity_label": "Frank Sinatra",
+            "entity_class": "Person",
+            "score": 1.098612,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
+                "aux_support": 2,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 9034,
+            "entity_label": "Karnataka",
+            "entity_class": "State",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 14526,
-            "entity_label": "2009 Tour De France",
-            "entity_class": "Cycling Race",
-            "score": 3.341066,
+            "rank_index": 5,
+            "entity_id": 12872,
+            "entity_label": "Volusia County",
+            "entity_class": "County",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
-                "aux_support": 1,
-                "key": 1
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 1751,
-            "entity_label": "Aurora",
-            "entity_class": "City",
-            "score": 2.732868,
+            "rank_index": 6,
+            "entity_id": 12897,
+            "entity_label": "Akira Kamiya",
+            "entity_class": "Person",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 7,
             "entity_id": 9223,
             "entity_label": "Worcester County",
             "entity_class": "County",
@@ -316,43 +124,235 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 4029,
-            "entity_label": "University of Arizona",
-            "entity_class": "University",
-            "score": 4.439678,
+            "rank_index": 8,
+            "entity_id": 7124,
+            "entity_label": "Montpelier",
+            "entity_class": "City",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
-                "aux_support": 5,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 1863,
+            "entity_label": "Michelle Forbes",
+            "entity_class": "Actress",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 12402,
+            "entity_label": "Kanpur",
+            "entity_class": "Location",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 11018,
+            "entity_label": "Nobel Prize in Physics",
+            "entity_class": "Award",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 2911,
+            "entity_label": "Danger Mouse",
+            "entity_class": "Music Producer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 5753,
+            "entity_label": "Flash Gordon",
+            "entity_class": "Movie Title",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 3273,
+            "entity_label": "From Hell",
+            "entity_class": "Film",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 2882,
+            "entity_label": "Kajol",
+            "entity_class": "Actor/actress",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 1111,
+            "entity_label": "Lille Osc",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 3502,
+            "entity_label": "100th United States Congress",
+            "entity_class": "Government Agency",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 5713,
+            "entity_label": "Mountain Biking",
+            "entity_class": "Activity",
+            "score": 8.899064,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 4,
+                "aux_support": 11,
                 "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 1943,
+            "entity_label": "Jorge Luis Borges",
+            "entity_class": "Author",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "10580": 1,
-        "7452": 2,
-        "1863": 3,
-        "7239": 4,
-        "1499": 5,
-        "2771": 6,
-        "5463": 7,
-        "4994": 8,
-        "9278": 9,
-        "7153": 10,
-        "6980": 11,
-        "3273": 12,
-        "5713": 13,
-        "624": 14,
-        "1063": 15,
-        "11018": 16,
-        "14526": 17,
-        "1751": 18,
-        "9223": 19,
-        "4029": 20
+        "7239": 1,
+        "624": 2,
+        "2771": 3,
+        "9034": 4,
+        "12872": 5,
+        "12897": 6,
+        "9223": 7,
+        "7124": 8,
+        "1863": 9,
+        "12402": 10,
+        "11018": 11,
+        "2911": 12,
+        "5753": 13,
+        "3273": 14,
+        "2882": 15,
+        "14037": 16,
+        "1111": 17,
+        "3502": 18,
+        "5713": 19,
+        "1943": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Rkc Waalwijk, relation=honoredFor, tail=?)\n\nOntology summary:\n- Query relation: honoredFor\n- Head entity: Rkc Waalwijk\n- Head class: Football Club\n- Relation domain: Award Ceremony\n- Relation range: Movie\n- Domain check: not clearly matched\n- Tail entities of class 'Movie' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=29, edges=45, paths=20\n- Head outgoing edges under target relation honoredFor: 2\n- Key support nodes: Rkc Waalwijk, Mountain Biking, Worcester County, University of Arizona, Richmond, 2009 Tour De France, Aurora, The Happening\n- Main auxiliary relations: hasColors(9), countyPlace(8), hasRiskFactors(4)\n\nFrequent relation path patterns:\n- honoredFor -> hasColors (count=7)\n- honoredFor -> countyPlace (count=5)\n- hasRiskFactors (count=4)\n- honoredFor (count=2)\n- hasFriend (count=1)\n\nCandidates:\n1. Ncaa Division I Men's Basketball Tournament [id=10580 | class=Tournament | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. John Amos [id=7452 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]\n3. Michelle Forbes [id=1863 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n4. Richmond [id=7239 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=4 | key=1]\n5. Green Lantern [id=1499 | class=Superhero | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n6. Frank Sinatra [id=2771 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=0]\n7. Western Illinois University [id=5463 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n8. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Yeshiva University [id=9278 | class=Educational Institution | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]\n10. The X Factor [id=7153 | class=Tv Show | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Pancreatic Cancer [id=6980 | class=Disease | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n12. From Hell [id=3273 | class=Film | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Mountain Biking [id=5713 | class=Activity | type=0 | soft_type=0 | direct=1 | paths=4 | aux=11 | key=1]\n14. Midnight Express [id=624 | class=Film | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. The Happening [id=1063 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=1]\n16. Nobel Prize in Physics [id=11018 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n17. 2009 Tour De France [id=14526 | class=Cycling Race | type=0 | soft_type=0 | direct=0 | paths=2 | aux=1 | key=1]\n18. Aurora [id=1751 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n19. Worcester County [id=9223 | class=County | type=0 | soft_type=0 | direct=1 | paths=2 | aux=5 | key=1]\n20. University of Arizona [id=4029 | class=University | type=0 | soft_type=0 | direct=0 | paths=2 | aux=5 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Rkc Waalwijk, relation=honoredFor, tail=?)\n\nOntology summary:\n- Query relation: honoredFor\n- Head entity: Rkc Waalwijk\n- Head class: Football Club\n- Relation domain: Award Ceremony\n- Relation range: Movie\n- Domain check: not clearly matched\n- Tail entities of class 'Movie' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=29, edges=45, paths=20\n- Head outgoing edges under target relation honoredFor: 2\n- Key support nodes: Rkc Waalwijk, Mountain Biking, Worcester County, University of Arizona, Richmond, 2009 Tour De France, Aurora, The Happening\n- Main auxiliary relations: hasColors(9), countyPlace(8), hasRiskFactors(4)\n\nFrequent relation path patterns:\n- honoredFor -> hasColors (count=7)\n- honoredFor -> countyPlace (count=5)\n- hasRiskFactors (count=4)\n- honoredFor (count=2)\n- hasFriend (count=1)\n\nCandidates:\n1. Richmond [id=7239 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=4 | key=1]\n2. Midnight Express [id=624 | class=Film | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Frank Sinatra [id=2771 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=0]\n4. Karnataka [id=9034 | class=State | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Volusia County [id=12872 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Akira Kamiya [id=12897 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Worcester County [id=9223 | class=County | type=0 | soft_type=0 | direct=1 | paths=2 | aux=5 | key=1]\n8. Montpelier [id=7124 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Michelle Forbes [id=1863 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n10. Kanpur [id=12402 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Nobel Prize in Physics [id=11018 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n12. Danger Mouse [id=2911 | class=Music Producer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Flash Gordon [id=5753 | class=Movie Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. From Hell [id=3273 | class=Film | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Kajol [id=2882 | class=Actor/actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Lille Osc [id=1111 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. 100th United States Congress [id=3502 | class=Government Agency | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Mountain Biking [id=5713 | class=Activity | type=0 | soft_type=0 | direct=1 | paths=4 | aux=11 | key=1]\n20. Jorge Luis Borges [id=1943 | class=Author | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

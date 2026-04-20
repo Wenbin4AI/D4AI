@@ -7,7 +7,7 @@
         "relation_label": "influencedBy",
         "gold_tail": 7727,
         "gold_tail_label": "University of Vermont",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 11
     },
     "candidate_limit": 20,
     "selected_candidates": [
@@ -29,70 +29,6 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 10947,
-            "entity_label": "Golden Screen Award",
-            "entity_class": "Award",
-            "score": 4.439678,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 5,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 5889,
-            "entity_label": "European Film Award for Best Composer",
-            "entity_class": "Award",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 4516,
-            "entity_label": "David O. Selznick",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 3294,
-            "entity_label": "Parma Calcio 1913",
-            "entity_class": "Sports Team",
-            "score": 4.257356,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 4,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
             "entity_id": 11604,
             "entity_label": "Ravenna",
             "entity_class": "City",
@@ -108,30 +44,14 @@
             "is_gold": 0
         },
         {
-            "rank_index": 7,
-            "entity_id": 3508,
-            "entity_label": "Legend",
-            "entity_class": "Music Group",
-            "score": 1.732868,
+            "rank_index": 3,
+            "entity_id": 8383,
+            "entity_label": "De-lovely",
+            "entity_class": "Movie",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 6046,
-            "entity_label": "Alec Baldwin",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -140,41 +60,25 @@
             "is_gold": 0
         },
         {
-            "rank_index": 9,
-            "entity_id": 7713,
-            "entity_label": "Hindustani Classical Music",
-            "entity_class": "Music Genre",
-            "score": 4.439678,
+            "rank_index": 4,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
-                "aux_support": 5,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 6478,
-            "entity_label": "Geoffrey Lewis",
-            "entity_class": "Actor",
-            "score": 2.539721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 11,
-            "entity_id": 3728,
-            "entity_label": "Martin Heidegger",
+            "rank_index": 5,
+            "entity_id": 10814,
+            "entity_label": "Friedrich Nietzsche",
             "entity_class": "Philosopher",
             "score": 1.5,
             "features": {
@@ -188,23 +92,55 @@
             "is_gold": 0
         },
         {
-            "rank_index": 12,
-            "entity_id": 470,
-            "entity_label": "Crime Novel",
-            "entity_class": "Book",
-            "score": 3.426015,
+            "rank_index": 6,
+            "entity_id": 10947,
+            "entity_label": "Golden Screen Award",
+            "entity_class": "Award",
+            "score": 4.439678,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
-                "aux_support": 3,
+                "path_count": 2,
+                "aux_support": 5,
                 "key": 1
             },
             "is_gold": 0
         },
         {
-            "rank_index": 13,
+            "rank_index": 7,
+            "entity_id": 5889,
+            "entity_label": "European Film Award for Best Composer",
+            "entity_class": "Award",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 1315,
+            "entity_label": "Spider-man 3",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
             "entity_id": 3757,
             "entity_label": "Adam Horowitz",
             "entity_class": "Person",
@@ -220,46 +156,14 @@
             "is_gold": 0
         },
         {
-            "rank_index": 14,
-            "entity_id": 5508,
-            "entity_label": "Irvine",
-            "entity_class": "City",
-            "score": 3.138333,
+            "rank_index": 10,
+            "entity_id": 1323,
+            "entity_label": "Juris Doctor",
+            "entity_class": "Academic Degree",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 1710,
-            "entity_label": "Frank Langella",
-            "entity_class": "Actor",
-            "score": 5.757356,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 4,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 3626,
-            "entity_label": "Lee Marvin",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -268,39 +172,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 13172,
-            "entity_label": "Execution by Firing Squad",
-            "entity_class": "Execution Method",
-            "score": 4.439678,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 5,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 5265,
-            "entity_label": "Alice in Wonderland",
-            "entity_class": "Book",
-            "score": 4.257356,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 4,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
+            "rank_index": 11,
             "entity_id": 7727,
             "entity_label": "University of Vermont",
             "entity_class": "University",
@@ -316,17 +188,145 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 6909,
-            "entity_label": "John Wells",
-            "entity_class": "Person",
-            "score": 5.193147,
+            "rank_index": 12,
+            "entity_id": 10598,
+            "entity_label": "Grammy Award for Best Compilation Soundtrack for Visual Media",
+            "entity_class": "Award",
+            "score": 0.693147,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 5381,
+            "entity_label": "Panionios F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 14303,
+            "entity_label": "Wrexham",
+            "entity_class": "Location",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 11846,
+            "entity_label": "Fighter Pilot",
+            "entity_class": "Occupation",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 25,
+            "entity_label": "Gabriel Yared",
+            "entity_class": "Composer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 1718,
+            "entity_label": "2008 Summer Olympics",
+            "entity_class": "Olympic Games",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 6918,
+            "entity_label": "Sheffield United F.c.",
+            "entity_class": "Sports Team",
+            "score": 0.693147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 8450,
+            "entity_label": "Bus",
+            "entity_class": "Vehicle",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 6478,
+            "entity_label": "Geoffrey Lewis",
+            "entity_class": "Actor",
+            "score": 2.539721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
@@ -334,25 +334,25 @@
     ],
     "candidate_id_to_rank_index": {
         "5337": 1,
-        "10947": 2,
-        "5889": 3,
-        "4516": 4,
-        "3294": 5,
-        "11604": 6,
-        "3508": 7,
-        "6046": 8,
-        "7713": 9,
-        "6478": 10,
-        "3728": 11,
-        "470": 12,
-        "3757": 13,
-        "5508": 14,
-        "1710": 15,
-        "3626": 16,
-        "13172": 17,
-        "5265": 18,
-        "7727": 19,
-        "6909": 20
+        "11604": 2,
+        "8383": 3,
+        "14037": 4,
+        "10814": 5,
+        "10947": 6,
+        "5889": 7,
+        "1315": 8,
+        "3757": 9,
+        "1323": 10,
+        "7727": 11,
+        "10598": 12,
+        "5381": 13,
+        "14303": 14,
+        "11846": 15,
+        "25": 16,
+        "1718": 17,
+        "6918": 18,
+        "8450": 19,
+        "6478": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Richard Wagner, relation=influencedBy, tail=?)\n\nOntology summary:\n- Query relation: influencedBy\n- Head entity: Richard Wagner\n- Head class: Person\n- Relation domain: Person\n- Relation range: Person\n- Domain check: matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=30, edges=48, paths=20\n- Head outgoing edges under target relation influencedBy: 1\n- Key support nodes: Richard Wagner, University of Vermont, Golden Screen Award, Frank Langella, Hindustani Classical Music, Execution by Firing Squad, Alice in Wonderland, Parma Calcio 1913\n- Main auxiliary relations: hasReleaseMedium(19), hasImpersonatedCelebrities(16), hasWife(4)\n\nFrequent relation path patterns:\n- influencedBy -> hasImpersonatedCelebrities (count=9)\n- influencedBy -> hasReleaseMedium (count=9)\n- influencedBy (count=1)\n- influencedBy -> hasRegularPerformanceRole -> influencedBy (count=1)\n\nCandidates:\n1. Armand Assante [id=5337 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n2. Golden Screen Award [id=10947 | class=Award | type=0 | soft_type=0 | direct=0 | paths=2 | aux=5 | key=1]\n3. European Film Award for Best Composer [id=5889 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n4. David O. Selznick [id=4516 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Parma Calcio 1913 [id=3294 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=2 | aux=4 | key=1]\n6. Ravenna [id=11604 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n7. Legend [id=3508 | class=Music Group | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n8. Alec Baldwin [id=6046 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n9. Hindustani Classical Music [id=7713 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=2 | aux=5 | key=1]\n10. Geoffrey Lewis [id=6478 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n11. Martin Heidegger [id=3728 | class=Philosopher | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Crime Novel [id=470 | class=Book | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]\n13. Adam Horowitz [id=3757 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]\n14. Irvine [id=5508 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n15. Frank Langella [id=1710 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=2 | aux=4 | key=1]\n16. Lee Marvin [id=3626 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Execution by Firing Squad [id=13172 | class=Execution Method | type=0 | soft_type=0 | direct=0 | paths=2 | aux=5 | key=1]\n18. Alice in Wonderland [id=5265 | class=Book | type=0 | soft_type=0 | direct=0 | paths=2 | aux=4 | key=1]\n19. University of Vermont [id=7727 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=18 | key=1]\n20. John Wells [id=6909 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Richard Wagner, relation=influencedBy, tail=?)\n\nOntology summary:\n- Query relation: influencedBy\n- Head entity: Richard Wagner\n- Head class: Person\n- Relation domain: Person\n- Relation range: Person\n- Domain check: matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=30, edges=48, paths=20\n- Head outgoing edges under target relation influencedBy: 1\n- Key support nodes: Richard Wagner, University of Vermont, Golden Screen Award, Frank Langella, Hindustani Classical Music, Execution by Firing Squad, Alice in Wonderland, Parma Calcio 1913\n- Main auxiliary relations: hasReleaseMedium(19), hasImpersonatedCelebrities(16), hasWife(4)\n\nFrequent relation path patterns:\n- influencedBy -> hasImpersonatedCelebrities (count=9)\n- influencedBy -> hasReleaseMedium (count=9)\n- influencedBy (count=1)\n- influencedBy -> hasRegularPerformanceRole -> influencedBy (count=1)\n\nCandidates:\n1. Armand Assante [id=5337 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n2. Ravenna [id=11604 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n3. De-lovely [id=8383 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Friedrich Nietzsche [id=10814 | class=Philosopher | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Golden Screen Award [id=10947 | class=Award | type=0 | soft_type=0 | direct=0 | paths=2 | aux=5 | key=1]\n7. European Film Award for Best Composer [id=5889 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n8. Spider-man 3 [id=1315 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Adam Horowitz [id=3757 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=1 | key=0]\n10. Juris Doctor [id=1323 | class=Academic Degree | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. University of Vermont [id=7727 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=18 | key=1]\n12. Grammy Award for Best Compilation Soundtrack for Visual Media [id=10598 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n13. Panionios F.c. [id=5381 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Wrexham [id=14303 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Fighter Pilot [id=11846 | class=Occupation | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Gabriel Yared [id=25 | class=Composer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. 2008 Summer Olympics [id=1718 | class=Olympic Games | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Sheffield United F.c. [id=6918 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n19. Bus [id=8450 | class=Vehicle | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Geoffrey Lewis [id=6478 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n"
 }

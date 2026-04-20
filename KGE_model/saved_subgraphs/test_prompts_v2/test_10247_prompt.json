@@ -7,31 +7,47 @@
         "relation_label": "performedBy",
         "gold_tail": 3056,
         "gold_tail_label": "Ryan Phillippe",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 1
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 5913,
-            "entity_label": "Ray Romano",
+            "entity_id": 3056,
+            "entity_label": "Ryan Phillippe",
             "entity_class": "Actor",
-            "score": 4.039721,
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 8429,
+            "entity_label": "San Diego State Aztecs Football",
+            "entity_class": "Football Team",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 2,
-            "entity_id": 2505,
-            "entity_label": "How to Train Your Dragon",
-            "entity_class": "Animated Movie Series",
+            "rank_index": 3,
+            "entity_id": 9003,
+            "entity_label": "Samuel R. Delany",
+            "entity_class": "Person",
             "score": 5.039721,
             "features": {
                 "type_match": 0,
@@ -44,7 +60,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 3,
+            "rank_index": 4,
             "entity_id": 823,
             "entity_label": "Kazan",
             "entity_class": "City",
@@ -60,55 +76,23 @@
             "is_gold": 0
         },
         {
-            "rank_index": 4,
-            "entity_id": 12402,
-            "entity_label": "Kanpur",
-            "entity_class": "Location",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
             "rank_index": 5,
-            "entity_id": 4031,
-            "entity_label": "Santa Cruz",
-            "entity_class": "City",
-            "score": 5.039721,
+            "entity_id": 3502,
+            "entity_label": "100th United States Congress",
+            "entity_class": "Government Agency",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 12872,
-            "entity_label": "Volusia County",
-            "entity_class": "County",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 7,
+            "rank_index": 6,
             "entity_id": 3366,
             "entity_label": "Cary Grant",
             "entity_class": "Person",
@@ -124,16 +108,32 @@
             "is_gold": 0
         },
         {
-            "rank_index": 8,
-            "entity_id": 9818,
-            "entity_label": "Schulich School of Law",
-            "entity_class": "Law School",
-            "score": 4.039721,
+            "rank_index": 7,
+            "entity_id": 10222,
+            "entity_label": "World Fantasy Award for Best Novel",
+            "entity_class": "Award",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 11218,
+            "entity_label": "2006 Major League Baseball Season",
+            "entity_class": "Baseball Season",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -141,25 +141,25 @@
         },
         {
             "rank_index": 9,
-            "entity_id": 9617,
-            "entity_label": "38th Academy Awards",
-            "entity_class": "Awards",
-            "score": 5.039721,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 10,
-            "entity_id": 2029,
-            "entity_label": "Uriah Heep",
-            "entity_class": "Rock Band",
+            "entity_id": 12872,
+            "entity_label": "Volusia County",
+            "entity_class": "County",
             "score": 4.039721,
             "features": {
                 "type_match": 0,
@@ -173,15 +173,15 @@
         },
         {
             "rank_index": 11,
-            "entity_id": 268,
-            "entity_label": "Warner Bros.",
-            "entity_class": "Film Company",
-            "score": 4.039721,
+            "entity_id": 7377,
+            "entity_label": "Batman Beyond",
+            "entity_class": "Animated Tv Series",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -189,9 +189,9 @@
         },
         {
             "rank_index": 12,
-            "entity_id": 9851,
-            "entity_label": "Wikimedia Foundation",
-            "entity_class": "Organization",
+            "entity_id": 5913,
+            "entity_label": "Ray Romano",
+            "entity_class": "Actor",
             "score": 4.039721,
             "features": {
                 "type_match": 0,
@@ -221,15 +221,15 @@
         },
         {
             "rank_index": 14,
-            "entity_id": 2911,
-            "entity_label": "Danger Mouse",
-            "entity_class": "Music Producer",
-            "score": 4.039721,
+            "entity_id": 9065,
+            "entity_label": "Bobby Wolff",
+            "entity_class": "Person",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -237,25 +237,9 @@
         },
         {
             "rank_index": 15,
-            "entity_id": 13506,
-            "entity_label": "Tennis Borussia Berlin",
-            "entity_class": "Sports Club",
-            "score": 5.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 3031,
-            "entity_label": "Charlotte Gainsbourg",
-            "entity_class": "Actor",
+            "entity_id": 9851,
+            "entity_label": "Wikimedia Foundation",
+            "entity_class": "Organization",
             "score": 4.039721,
             "features": {
                 "type_match": 0,
@@ -268,23 +252,71 @@
             "is_gold": 0
         },
         {
+            "rank_index": 16,
+            "entity_id": 14173,
+            "entity_label": "Lake District",
+            "entity_class": "Geographical Area",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
             "rank_index": 17,
-            "entity_id": 9034,
-            "entity_label": "Karnataka",
-            "entity_class": "State",
-            "score": 5.039721,
+            "entity_id": 9780,
+            "entity_label": "Meath",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 2029,
+            "entity_label": "Uriah Heep",
+            "entity_class": "Rock Band",
+            "score": 4.039721,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
                 "path_count": 1,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 18,
+            "rank_index": 19,
+            "entity_id": 10060,
+            "entity_label": "Columbia",
+            "entity_class": "Record Label",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
             "entity_id": 1943,
             "entity_label": "Jorge Luis Borges",
             "entity_class": "Author",
@@ -298,61 +330,29 @@
                 "key": 1
             },
             "is_gold": 0
-        },
-        {
-            "rank_index": 19,
-            "entity_id": 3056,
-            "entity_label": "Ryan Phillippe",
-            "entity_class": "Actor",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 1
-        },
-        {
-            "rank_index": 20,
-            "entity_id": 9003,
-            "entity_label": "Samuel R. Delany",
-            "entity_class": "Person",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "5913": 1,
-        "2505": 2,
-        "823": 3,
-        "12402": 4,
-        "4031": 5,
-        "12872": 6,
-        "3366": 7,
-        "9818": 8,
-        "9617": 9,
-        "2029": 10,
-        "268": 11,
-        "9851": 12,
+        "3056": 1,
+        "8429": 2,
+        "9003": 3,
+        "823": 4,
+        "3502": 5,
+        "3366": 6,
+        "10222": 7,
+        "11218": 8,
+        "4994": 9,
+        "12872": 10,
+        "7377": 11,
+        "5913": 12,
         "5168": 13,
-        "2911": 14,
-        "13506": 15,
-        "3031": 16,
-        "9034": 17,
-        "1943": 18,
-        "3056": 19,
-        "9003": 20
+        "9065": 14,
+        "9851": 15,
+        "14173": 16,
+        "9780": 17,
+        "2029": 18,
+        "10060": 19,
+        "1943": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=2008 Tour De France, relation=performedBy, tail=?)\n\nOntology summary:\n- Query relation: performedBy\n- Head entity: 2008 Tour De France\n- Head class: Cycling Race\n- Relation domain: Musical Instrument\n- Relation range: Musical Instrument\n- Domain check: not clearly matched\n- Tail entities of class 'Musical Instrument' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=47, edges=48, paths=20\n- Head outgoing edges under target relation performedBy: 21\n- Key support nodes: 2008 Tour De France, Rambo Iii, Samuel R. Delany, Kanpur, Tennis Borussia Berlin, How to Train Your Dragon, 38th Academy Awards, Karnataka\n- Main auxiliary relations: hasGenre(5), hasPhoneNumber(4), memberOf(3)\n\nFrequent relation path patterns:\n- performedBy (count=20)\n\nCandidates:\n1. Ray Romano [id=5913 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. How to Train Your Dragon [id=2505 | class=Animated Movie Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Kazan [id=823 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Kanpur [id=12402 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Santa Cruz [id=4031 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Volusia County [id=12872 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Cary Grant [id=3366 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Schulich School of Law [id=9818 | class=Law School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. 38th Academy Awards [id=9617 | class=Awards | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Uriah Heep [id=2029 | class=Rock Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Warner Bros. [id=268 | class=Film Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Wikimedia Foundation [id=9851 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Rambo Iii [id=5168 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n14. Danger Mouse [id=2911 | class=Music Producer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Tennis Borussia Berlin [id=13506 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n16. Charlotte Gainsbourg [id=3031 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Karnataka [id=9034 | class=State | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Jorge Luis Borges [id=1943 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Ryan Phillippe [id=3056 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Samuel R. Delany [id=9003 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=2008 Tour De France, relation=performedBy, tail=?)\n\nOntology summary:\n- Query relation: performedBy\n- Head entity: 2008 Tour De France\n- Head class: Cycling Race\n- Relation domain: Musical Instrument\n- Relation range: Musical Instrument\n- Domain check: not clearly matched\n- Tail entities of class 'Musical Instrument' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=47, edges=48, paths=20\n- Head outgoing edges under target relation performedBy: 21\n- Key support nodes: 2008 Tour De France, Rambo Iii, Samuel R. Delany, Kanpur, Tennis Borussia Berlin, How to Train Your Dragon, 38th Academy Awards, Karnataka\n- Main auxiliary relations: hasGenre(5), hasPhoneNumber(4), memberOf(3)\n\nFrequent relation path patterns:\n- performedBy (count=20)\n\nCandidates:\n1. Ryan Phillippe [id=3056 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. San Diego State Aztecs Football [id=8429 | class=Football Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Samuel R. Delany [id=9003 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n4. Kazan [id=823 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n5. 100th United States Congress [id=3502 | class=Government Agency | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Cary Grant [id=3366 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. World Fantasy Award for Best Novel [id=10222 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. 2006 Major League Baseball Season [id=11218 | class=Baseball Season | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Volusia County [id=12872 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Batman Beyond [id=7377 | class=Animated Tv Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Ray Romano [id=5913 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Rambo Iii [id=5168 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n14. Bobby Wolff [id=9065 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Wikimedia Foundation [id=9851 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n16. Lake District [id=14173 | class=Geographical Area | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Meath [id=9780 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Uriah Heep [id=2029 | class=Rock Band | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n19. Columbia [id=10060 | class=Record Label | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Jorge Luis Borges [id=1943 | class=Author | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
 }

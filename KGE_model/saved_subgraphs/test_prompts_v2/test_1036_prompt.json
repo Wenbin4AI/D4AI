@@ -7,21 +7,21 @@
         "relation_label": "hasRegionalReleaseDate",
         "gold_tail": 766,
         "gold_tail_label": "Michael Lantieri",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 9
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 13231,
-            "entity_label": "International Tennis Hall of Fame",
-            "entity_class": "Museum",
-            "score": 4.039721,
+            "entity_id": 1168,
+            "entity_label": "Drummer",
+            "entity_class": "Occupation",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -29,31 +29,31 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 7551,
-            "entity_label": "Hilary Swank",
-            "entity_class": "Actor",
-            "score": 5.039721,
+            "entity_id": 11449,
+            "entity_label": "Chiswick",
+            "entity_class": "Geographic Location",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 3,
-            "entity_id": 12646,
-            "entity_label": "Guam",
-            "entity_class": "Region",
-            "score": 4.039721,
+            "entity_id": 14234,
+            "entity_label": "Aegean Sea",
+            "entity_class": "Sea",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -61,47 +61,47 @@
         },
         {
             "rank_index": 4,
-            "entity_id": 9725,
-            "entity_label": "Maximilian Schell",
-            "entity_class": "Person",
-            "score": 5.039721,
+            "entity_id": 7807,
+            "entity_label": "Koreans",
+            "entity_class": "Nationality",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 5,
-            "entity_id": 5595,
-            "entity_label": "Mission: Impossible 2",
-            "entity_class": "Movie",
-            "score": 5.039721,
+            "entity_id": 11156,
+            "entity_label": "Latin Grammy Award for Best Short Form Music Video",
+            "entity_class": "Award",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 6,
-            "entity_id": 9893,
-            "entity_label": "Grinnell College",
-            "entity_class": "College",
-            "score": 4.039721,
+            "entity_id": 4367,
+            "entity_label": "Gillian Spencer",
+            "entity_class": "Person",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -109,15 +109,15 @@
         },
         {
             "rank_index": 7,
-            "entity_id": 9518,
-            "entity_label": "The Wiz",
-            "entity_class": "Musical",
-            "score": 4.039721,
+            "entity_id": 7071,
+            "entity_label": "Harbin",
+            "entity_class": "City",
+            "score": 1.5,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -125,15 +125,15 @@
         },
         {
             "rank_index": 8,
-            "entity_id": 3214,
-            "entity_label": "The Silence of the Lambs",
-            "entity_class": "Movie",
-            "score": 4.039721,
+            "entity_id": 5089,
+            "entity_label": "Artisan Entertainment",
+            "entity_class": "Company",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -141,166 +141,6 @@
         },
         {
             "rank_index": 9,
-            "entity_id": 13923,
-            "entity_label": "Bangor",
-            "entity_class": "Town",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 9046,
-            "entity_label": "Star Trek: Voyager",
-            "entity_class": "Tv Show",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 3891,
-            "entity_label": "Robert Cray",
-            "entity_class": "Person",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 4940,
-            "entity_label": "The Towering Inferno",
-            "entity_class": "Film",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 2775,
-            "entity_label": "Santa Clara University",
-            "entity_class": "University",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 4748,
-            "entity_label": "Bullets Over Broadway",
-            "entity_class": "Movie",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 2523,
-            "entity_label": "Electric Piano",
-            "entity_class": "Instrument",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 10966,
-            "entity_label": "Usa Network",
-            "entity_class": "Television Network",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
-            "entity_id": 2463,
-            "entity_label": "Water",
-            "entity_class": "Substance",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 13330,
-            "entity_label": "Portrait",
-            "entity_class": "Artwork",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
             "entity_id": 766,
             "entity_label": "Michael Lantieri",
             "entity_class": "Person",
@@ -316,7 +156,151 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
+            "rank_index": 10,
+            "entity_id": 12646,
+            "entity_label": "Guam",
+            "entity_class": "Region",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 164,
+            "entity_label": "Cincinnati Reds",
+            "entity_class": "Sports Team",
+            "score": 3.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 9893,
+            "entity_label": "Grinnell College",
+            "entity_class": "College",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 5595,
+            "entity_label": "Mission: Impossible 2",
+            "entity_class": "Movie",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 2523,
+            "entity_label": "Electric Piano",
+            "entity_class": "Instrument",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 1368,
+            "entity_label": "Grammy Award for Best Alternative Music Album",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 13330,
+            "entity_label": "Portrait",
+            "entity_class": "Artwork",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 8909,
+            "entity_label": "Maui County",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 962,
+            "entity_label": "First Indochina War",
+            "entity_class": "Military Conflict",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
             "entity_id": 8377,
             "entity_label": "Jumper",
             "entity_class": "Book",
@@ -330,29 +314,45 @@
                 "key": 1
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 6116,
+            "entity_label": "50/50",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "13231": 1,
-        "7551": 2,
-        "12646": 3,
-        "9725": 4,
-        "5595": 5,
-        "9893": 6,
-        "9518": 7,
-        "3214": 8,
-        "13923": 9,
-        "9046": 10,
-        "3891": 11,
-        "4940": 12,
-        "2775": 13,
-        "4748": 14,
-        "2523": 15,
-        "10966": 16,
-        "2463": 17,
-        "13330": 18,
-        "766": 19,
-        "8377": 20
+        "1168": 1,
+        "11449": 2,
+        "14234": 3,
+        "7807": 4,
+        "11156": 5,
+        "4367": 6,
+        "7071": 7,
+        "5089": 8,
+        "766": 9,
+        "12646": 10,
+        "164": 11,
+        "9893": 12,
+        "5595": 13,
+        "2523": 14,
+        "1368": 15,
+        "13330": 16,
+        "8909": 17,
+        "962": 18,
+        "8377": 19,
+        "6116": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Jon Hamm, relation=hasRegionalReleaseDate, tail=?)\n\nOntology summary:\n- Query relation: hasRegionalReleaseDate\n- Head entity: Jon Hamm\n- Head class: Person\n- Relation domain: Movie\n- Relation range: Country\n- Domain check: not clearly matched\n- Tail entities of class 'Country' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=23, edges=22, paths=20\n- Head outgoing edges under target relation hasRegionalReleaseDate: 22\n- Key support nodes: Jon Hamm, Santa Clara University, Electric Piano, Jumper, Maximilian Schell, Hilary Swank, Bangor, Water\n\nFrequent relation path patterns:\n- hasRegionalReleaseDate (count=20)\n\nCandidates:\n1. International Tennis Hall of Fame [id=13231 | class=Museum | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Hilary Swank [id=7551 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Guam [id=12646 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Maximilian Schell [id=9725 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Mission: Impossible 2 [id=5595 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Grinnell College [id=9893 | class=College | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. The Wiz [id=9518 | class=Musical | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. The Silence of the Lambs [id=3214 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Bangor [id=13923 | class=Town | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Star Trek: Voyager [id=9046 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Robert Cray [id=3891 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. The Towering Inferno [id=4940 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Santa Clara University [id=2775 | class=University | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Bullets Over Broadway [id=4748 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Electric Piano [id=2523 | class=Instrument | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Usa Network [id=10966 | class=Television Network | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Water [id=2463 | class=Substance | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Portrait [id=13330 | class=Artwork | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Michael Lantieri [id=766 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Jumper [id=8377 | class=Book | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Jon Hamm, relation=hasRegionalReleaseDate, tail=?)\n\nOntology summary:\n- Query relation: hasRegionalReleaseDate\n- Head entity: Jon Hamm\n- Head class: Person\n- Relation domain: Movie\n- Relation range: Country\n- Domain check: not clearly matched\n- Tail entities of class 'Country' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=23, edges=22, paths=20\n- Head outgoing edges under target relation hasRegionalReleaseDate: 22\n- Key support nodes: Jon Hamm, Santa Clara University, Electric Piano, Jumper, Maximilian Schell, Hilary Swank, Bangor, Water\n\nFrequent relation path patterns:\n- hasRegionalReleaseDate (count=20)\n\nCandidates:\n1. Drummer [id=1168 | class=Occupation | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Chiswick [id=11449 | class=Geographic Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Aegean Sea [id=14234 | class=Sea | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Koreans [id=7807 | class=Nationality | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Latin Grammy Award for Best Short Form Music Video [id=11156 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Gillian Spencer [id=4367 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Harbin [id=7071 | class=City | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Artisan Entertainment [id=5089 | class=Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Michael Lantieri [id=766 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Guam [id=12646 | class=Region | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Cincinnati Reds [id=164 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=0 | aux=0 | key=0]\n12. Grinnell College [id=9893 | class=College | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Mission: Impossible 2 [id=5595 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Electric Piano [id=2523 | class=Instrument | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n15. Grammy Award for Best Alternative Music Album [id=1368 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Portrait [id=13330 | class=Artwork | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n17. Maui County [id=8909 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. First Indochina War [id=962 | class=Military Conflict | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n19. Jumper [id=8377 | class=Book | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. 50/50 [id=6116 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

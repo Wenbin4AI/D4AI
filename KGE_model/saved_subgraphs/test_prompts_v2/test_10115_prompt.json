@@ -7,15 +7,15 @@
         "relation_label": "hasCapital",
         "gold_tail": 6085,
         "gold_tail_label": "Tracey Ullman",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 3
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 4106,
-            "entity_label": "Mongol Invasions and Conquests",
-            "entity_class": "Historical Event",
+            "entity_id": 871,
+            "entity_label": "Television Producer",
+            "entity_class": "Profession",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -29,22 +29,6 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 12460,
-            "entity_label": "Josh Groban",
-            "entity_class": "Person",
-            "score": 2.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
             "entity_id": 2454,
             "entity_label": "Thomas Jane",
             "entity_class": "Actor",
@@ -60,55 +44,135 @@
             "is_gold": 0
         },
         {
+            "rank_index": 3,
+            "entity_id": 6085,
+            "entity_label": "Tracey Ullman",
+            "entity_class": "Person",
+            "score": 5.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
             "rank_index": 4,
-            "entity_id": 14037,
-            "entity_label": "Pontefract",
-            "entity_class": "City",
-            "score": 2.647918,
+            "entity_id": 2460,
+            "entity_label": "1941",
+            "entity_class": "Year",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 5,
-            "entity_id": 6380,
-            "entity_label": "Lil Jon",
+            "entity_id": 9681,
+            "entity_label": "Liza Minnelli",
             "entity_class": "Person",
-            "score": 1.732868,
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
+                "path_count": 0,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 6,
-            "entity_id": 3694,
-            "entity_label": "Attorney General",
-            "entity_class": "Title",
-            "score": 1.039721,
+            "entity_id": 6658,
+            "entity_label": "Bass Clarinet",
+            "entity_class": "Musical Instrument",
+            "score": 2.039721,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 1,
                 "aux_support": 0,
-                "key": 0
+                "key": 1
             },
             "is_gold": 0
         },
         {
             "rank_index": 7,
+            "entity_id": 202,
+            "entity_label": "Sweden",
+            "entity_class": "Country",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 11675,
+            "entity_label": "Shaun of the Dead",
+            "entity_class": "Film",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 12789,
+            "entity_label": "Farnborough F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 693,
+            "entity_label": "Cannes Film Festival Award for Best Actor",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
             "entity_id": 1633,
             "entity_label": "Oxford",
             "entity_class": "University",
@@ -124,80 +188,16 @@
             "is_gold": 0
         },
         {
-            "rank_index": 8,
-            "entity_id": 11320,
-            "entity_label": "Nigel Lythgoe",
-            "entity_class": "Television Producer",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 11794,
-            "entity_label": "Vivendi Games",
-            "entity_class": "Company",
-            "score": 2.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 5935,
-            "entity_label": "Real Madrid Castilla",
-            "entity_class": "Sports Team",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 6897,
-            "entity_label": "Sprint Corporation",
-            "entity_class": "Company",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
             "rank_index": 12,
-            "entity_id": 2830,
-            "entity_label": "The Impossible",
-            "entity_class": "Movie",
-            "score": 1.039721,
+            "entity_id": 13229,
+            "entity_label": "French Revolution",
+            "entity_class": "Historical Event",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -205,31 +205,31 @@
         },
         {
             "rank_index": 13,
-            "entity_id": 883,
-            "entity_label": "Kyushu",
-            "entity_class": "Region",
-            "score": 7.841066,
+            "entity_id": 4299,
+            "entity_label": "Edgar Meyer",
+            "entity_class": "Composer",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 2,
-                "aux_support": 1,
-                "key": 1
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 14,
-            "entity_id": 7786,
-            "entity_label": "Redlands",
-            "entity_class": "Place",
-            "score": 1.039721,
+            "entity_id": 13855,
+            "entity_label": "Programmer",
+            "entity_class": "Occupation",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -253,8 +253,56 @@
         },
         {
             "rank_index": 16,
-            "entity_id": 1921,
-            "entity_label": "Grammy Award for Album of the Year",
+            "entity_id": 12460,
+            "entity_label": "Josh Groban",
+            "entity_class": "Person",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 11794,
+            "entity_label": "Vivendi Games",
+            "entity_class": "Company",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 545,
+            "entity_label": "Golden Raspberry Award for Worst Screenplay",
             "entity_class": "Award",
             "score": 0.0,
             "features": {
@@ -268,91 +316,43 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 7969,
-            "entity_label": "Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series",
-            "entity_class": "Award",
-            "score": 2.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 6658,
-            "entity_label": "Bass Clarinet",
-            "entity_class": "Musical Instrument",
-            "score": 2.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
-            "entity_id": 6085,
-            "entity_label": "Tracey Ullman",
-            "entity_class": "Person",
-            "score": 5.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 1
-        },
-        {
             "rank_index": 20,
-            "entity_id": 6366,
-            "entity_label": "Atlanta Falcons",
-            "entity_class": "Sports Team",
-            "score": 2.647918,
+            "entity_id": 9293,
+            "entity_label": "University of Victoria",
+            "entity_class": "Organization",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "4106": 1,
-        "12460": 2,
-        "2454": 3,
-        "14037": 4,
-        "6380": 5,
-        "3694": 6,
-        "1633": 7,
-        "11320": 8,
-        "11794": 9,
-        "5935": 10,
-        "6897": 11,
-        "2830": 12,
-        "883": 13,
-        "7786": 14,
+        "871": 1,
+        "2454": 2,
+        "6085": 3,
+        "2460": 4,
+        "9681": 5,
+        "6658": 6,
+        "202": 7,
+        "11675": 8,
+        "12789": 9,
+        "693": 10,
+        "1633": 11,
+        "13229": 12,
+        "4299": 13,
+        "13855": 14,
         "7037": 15,
-        "1921": 16,
-        "7969": 17,
-        "6658": 18,
-        "6085": 19,
-        "6366": 20
+        "12460": 16,
+        "14037": 17,
+        "11794": 18,
+        "545": 19,
+        "9293": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Thomas Jane, relation=hasCapital, tail=?)\n\nOntology summary:\n- Query relation: hasCapital\n- Head entity: Thomas Jane\n- Head class: Actor\n- Relation domain: City\n- Relation range: County\n- Domain check: not clearly matched\n- Tail entities of class 'County' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=40, edges=43, paths=20\n- Head outgoing edges under target relation hasCapital: 3\n- Key support nodes: Thomas Jane, Nurse Jackie, Atlanta Falcons, Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series, Tracey Ullman, Kyushu, Josh Groban, Vivendi Games\n- Main auxiliary relations: hasSubject(26), hasBorder(2)\n\nFrequent relation path patterns:\n- hasCapital -> hasCapital -> hasCapital (count=10)\n- hasCapital -> hasCapital (count=4)\n- hasCapital (count=3)\n- hasSubject -> hasBorder (count=2)\n- hasCapital -> hasSubject (count=1)\n\nCandidates:\n1. Mongol Invasions and Conquests [id=4106 | class=Historical Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Josh Groban [id=12460 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n3. Thomas Jane [id=2454 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]\n4. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n5. Lil Jon [id=6380 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n6. Attorney General [id=3694 | class=Title | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n7. Oxford [id=1633 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Nigel Lythgoe [id=11320 | class=Television Producer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Vivendi Games [id=11794 | class=Company | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n10. Real Madrid Castilla [id=5935 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. Sprint Corporation [id=6897 | class=Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. The Impossible [id=2830 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Kyushu [id=883 | class=Region | type=0 | soft_type=1 | direct=1 | paths=2 | aux=1 | key=1]\n14. Redlands [id=7786 | class=Place | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Nurse Jackie [id=7037 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Grammy Award for Album of the Year [id=1921 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series [id=7969 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n18. Bass Clarinet [id=6658 | class=Musical Instrument | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n19. Tracey Ullman [id=6085 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n20. Atlanta Falcons [id=6366 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Thomas Jane, relation=hasCapital, tail=?)\n\nOntology summary:\n- Query relation: hasCapital\n- Head entity: Thomas Jane\n- Head class: Actor\n- Relation domain: City\n- Relation range: County\n- Domain check: not clearly matched\n- Tail entities of class 'County' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=40, edges=43, paths=20\n- Head outgoing edges under target relation hasCapital: 3\n- Key support nodes: Thomas Jane, Nurse Jackie, Atlanta Falcons, Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series, Tracey Ullman, Kyushu, Josh Groban, Vivendi Games\n- Main auxiliary relations: hasSubject(26), hasBorder(2)\n\nFrequent relation path patterns:\n- hasCapital -> hasCapital -> hasCapital (count=10)\n- hasCapital -> hasCapital (count=4)\n- hasCapital (count=3)\n- hasSubject -> hasBorder (count=2)\n- hasCapital -> hasSubject (count=1)\n\nCandidates:\n1. Television Producer [id=871 | class=Profession | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Thomas Jane [id=2454 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]\n3. Tracey Ullman [id=6085 | class=Person | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n4. 1941 [id=2460 | class=Year | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Liza Minnelli [id=9681 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Bass Clarinet [id=6658 | class=Musical Instrument | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n7. Sweden [id=202 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Shaun of the Dead [id=11675 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Farnborough F.c. [id=12789 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Cannes Film Festival Award for Best Actor [id=693 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Oxford [id=1633 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. French Revolution [id=13229 | class=Historical Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Edgar Meyer [id=4299 | class=Composer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Programmer [id=13855 | class=Occupation | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Nurse Jackie [id=7037 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Josh Groban [id=12460 | class=Person | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n17. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n18. Vivendi Games [id=11794 | class=Company | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n19. Golden Raspberry Award for Worst Screenplay [id=545 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. University of Victoria [id=9293 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

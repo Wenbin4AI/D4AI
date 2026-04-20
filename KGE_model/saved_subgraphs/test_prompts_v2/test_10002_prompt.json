@@ -7,15 +7,15 @@
         "relation_label": "hasCapital",
         "gold_tail": 2697,
         "gold_tail_label": "Oklahoma City",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 8
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 693,
-            "entity_label": "Cannes Film Festival Award for Best Actor",
-            "entity_class": "Award",
+            "entity_id": 5890,
+            "entity_label": "Craig Barron",
+            "entity_class": "Visual Effects Artist",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -29,150 +29,6 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 1790,
-            "entity_label": "Chattanooga",
-            "entity_class": "Cities",
-            "score": 2.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 11582,
-            "entity_label": "James Marsters",
-            "entity_class": "Person",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 4106,
-            "entity_label": "Mongol Invasions and Conquests",
-            "entity_class": "Historical Event",
-            "score": 2.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 10133,
-            "entity_label": "Rick Baker",
-            "entity_class": "Person",
-            "score": 1.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 1921,
-            "entity_label": "Grammy Award for Album of the Year",
-            "entity_class": "Award",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 4221,
-            "entity_label": "Beetlejuice",
-            "entity_class": "Movie",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 11794,
-            "entity_label": "Vivendi Games",
-            "entity_class": "Company",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 5949,
-            "entity_label": "Hawaii",
-            "entity_class": "State",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 8468,
-            "entity_label": "Eric Roberts",
-            "entity_class": "Actor",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
             "entity_id": 14037,
             "entity_label": "Pontefract",
             "entity_class": "City",
@@ -188,7 +44,199 @@
             "is_gold": 0
         },
         {
+            "rank_index": 3,
+            "entity_id": 5949,
+            "entity_label": "Hawaii",
+            "entity_class": "State",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 1633,
+            "entity_label": "Oxford",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 11320,
+            "entity_label": "Nigel Lythgoe",
+            "entity_class": "Television Producer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 11582,
+            "entity_label": "James Marsters",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 9293,
+            "entity_label": "University of Victoria",
+            "entity_class": "Organization",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 2697,
+            "entity_label": "Oklahoma City",
+            "entity_class": "City",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 2830,
+            "entity_label": "The Impossible",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 13616,
+            "entity_label": "Stepney",
+            "entity_class": "Area",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 8753,
+            "entity_label": "Grammy Award for Best Jazz Vocal Album",
+            "entity_class": "Music Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
             "rank_index": 12,
+            "entity_id": 3936,
+            "entity_label": "Montgomery County",
+            "entity_class": "Location",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 1628,
+            "entity_label": "Torino Football Club",
+            "entity_class": "Organization",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 6726,
+            "entity_label": "Liver Failure",
+            "entity_class": "Medical Condition",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
             "entity_id": 545,
             "entity_label": "Golden Raspberry Award for Worst Screenplay",
             "entity_class": "Award",
@@ -204,58 +252,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 13,
-            "entity_id": 4810,
-            "entity_label": "Danubio F.c.",
-            "entity_class": "Football Club",
-            "score": 5.24982,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 16,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 2751,
-            "entity_label": "Indie Rock",
-            "entity_class": "Music Genre",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 3012,
-            "entity_label": "Don Knotts",
-            "entity_class": "Person",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
             "rank_index": 16,
-            "entity_id": 9385,
-            "entity_label": "37th Academy Awards",
-            "entity_class": "Awards Ceremony",
+            "entity_id": 4759,
+            "entity_label": "Astronomy",
+            "entity_class": "Field of Study",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -285,13 +285,29 @@
         },
         {
             "rank_index": 18,
-            "entity_id": 3936,
-            "entity_label": "Montgomery County",
-            "entity_class": "Location",
-            "score": 1.5,
+            "entity_id": 10133,
+            "entity_label": "Rick Baker",
+            "entity_class": "Person",
+            "score": 1.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 3702,
+            "entity_label": "Tabla",
+            "entity_class": "Musical Instrument",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -300,30 +316,14 @@
             "is_gold": 0
         },
         {
-            "rank_index": 19,
-            "entity_id": 2697,
-            "entity_label": "Oklahoma City",
-            "entity_class": "City",
-            "score": 5.039721,
+            "rank_index": 20,
+            "entity_id": 1921,
+            "entity_label": "Grammy Award for Album of the Year",
+            "entity_class": "Award",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 1
-        },
-        {
-            "rank_index": 20,
-            "entity_id": 8446,
-            "entity_label": "Pima County",
-            "entity_class": "County",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -333,26 +333,26 @@
         }
     ],
     "candidate_id_to_rank_index": {
-        "693": 1,
-        "1790": 2,
-        "11582": 3,
-        "4106": 4,
-        "10133": 5,
-        "1921": 6,
-        "4221": 7,
-        "11794": 8,
-        "5949": 9,
-        "8468": 10,
-        "14037": 11,
-        "545": 12,
-        "4810": 13,
-        "2751": 14,
-        "3012": 15,
-        "9385": 16,
+        "5890": 1,
+        "14037": 2,
+        "5949": 3,
+        "1633": 4,
+        "11320": 5,
+        "11582": 6,
+        "9293": 7,
+        "2697": 8,
+        "2830": 9,
+        "13616": 10,
+        "8753": 11,
+        "3936": 12,
+        "1628": 13,
+        "6726": 14,
+        "545": 15,
+        "4759": 16,
         "883": 17,
-        "3936": 18,
-        "2697": 19,
-        "8446": 20
+        "10133": 18,
+        "3702": 19,
+        "1921": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Rick Baker, relation=hasCapital, tail=?)\n\nOntology summary:\n- Query relation: hasCapital\n- Head entity: Rick Baker\n- Head class: Person\n- Relation domain: City\n- Relation range: County\n- Domain check: not clearly matched\n- Tail entities of class 'County' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=45, edges=62, paths=20\n- Head outgoing edges under target relation hasCapital: 2\n- Key support nodes: Rick Baker, Oklahoma City, Danubio F.c., Don Knotts, Mongol Invasions and Conquests, Chattanooga, Basilicata, The Talented Mr. Ripley\n- Main auxiliary relations: hasSubject(30), hasMonthlyClimate(16), hasAthlete(3)\n\nFrequent relation path patterns:\n- hasCapital -> hasSubject -> hasMonthlyClimate (count=16)\n- hasCapital (count=2)\n- hasCapital -> hasCapital (count=2)\n\nCandidates:\n1. Cannes Film Festival Award for Best Actor [id=693 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Chattanooga [id=1790 | class=Cities | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n3. James Marsters [id=11582 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Mongol Invasions and Conquests [id=4106 | class=Historical Event | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n5. Rick Baker [id=10133 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]\n6. Grammy Award for Album of the Year [id=1921 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Beetlejuice [id=4221 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Vivendi Games [id=11794 | class=Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Hawaii [id=5949 | class=State | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Eric Roberts [id=8468 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Golden Raspberry Award for Worst Screenplay [id=545 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Danubio F.c. [id=4810 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=16 | aux=0 | key=1]\n14. Indie Rock [id=2751 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Don Knotts [id=3012 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. 37th Academy Awards [id=9385 | class=Awards Ceremony | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Kyushu [id=883 | class=Region | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Montgomery County [id=3936 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Oklahoma City [id=2697 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Pima County [id=8446 | class=County | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Rick Baker, relation=hasCapital, tail=?)\n\nOntology summary:\n- Query relation: hasCapital\n- Head entity: Rick Baker\n- Head class: Person\n- Relation domain: City\n- Relation range: County\n- Domain check: not clearly matched\n- Tail entities of class 'County' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=45, edges=62, paths=20\n- Head outgoing edges under target relation hasCapital: 2\n- Key support nodes: Rick Baker, Oklahoma City, Danubio F.c., Don Knotts, Mongol Invasions and Conquests, Chattanooga, Basilicata, The Talented Mr. Ripley\n- Main auxiliary relations: hasSubject(30), hasMonthlyClimate(16), hasAthlete(3)\n\nFrequent relation path patterns:\n- hasCapital -> hasSubject -> hasMonthlyClimate (count=16)\n- hasCapital (count=2)\n- hasCapital -> hasCapital (count=2)\n\nCandidates:\n1. Craig Barron [id=5890 | class=Visual Effects Artist | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Hawaii [id=5949 | class=State | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Oxford [id=1633 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Nigel Lythgoe [id=11320 | class=Television Producer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. James Marsters [id=11582 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. University of Victoria [id=9293 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Oklahoma City [id=2697 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n9. The Impossible [id=2830 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Stepney [id=13616 | class=Area | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Grammy Award for Best Jazz Vocal Album [id=8753 | class=Music Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Montgomery County [id=3936 | class=Location | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Torino Football Club [id=1628 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Liver Failure [id=6726 | class=Medical Condition | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Golden Raspberry Award for Worst Screenplay [id=545 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Astronomy [id=4759 | class=Field of Study | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Kyushu [id=883 | class=Region | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Rick Baker [id=10133 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]\n19. Tabla [id=3702 | class=Musical Instrument | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Grammy Award for Album of the Year [id=1921 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

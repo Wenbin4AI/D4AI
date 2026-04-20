@@ -7,140 +7,12 @@
         "relation_label": "hasInvolvedEntity",
         "gold_tail": 1489,
         "gold_tail_label": "Mtv Movie Award for Best Comedic Performance",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 17
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 10269,
-            "entity_label": "Nelson Mandela",
-            "entity_class": "Person",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
-            "entity_id": 10228,
-            "entity_label": "James Monroe",
-            "entity_class": "Us President",
-            "score": 3.83148,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 5,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 3732,
-            "entity_label": "Janet Jackson",
-            "entity_class": "Person",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 7544,
-            "entity_label": "Jamie Gangel",
-            "entity_class": "Person",
-            "score": 4.147918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 218,
-            "entity_label": "Conrad Buff Iv",
-            "entity_class": "Person",
-            "score": 2.193147,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 8715,
-            "entity_label": "Allen Iverson",
-            "entity_class": "Person",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 9266,
-            "entity_label": "Fidel Castro",
-            "entity_class": "Person",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 2255,
-            "entity_label": "Margaret Atwood",
-            "entity_class": "Person",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
             "entity_id": 14037,
             "entity_label": "Pontefract",
             "entity_class": "City",
@@ -156,103 +28,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 10,
-            "entity_id": 10264,
-            "entity_label": "Anthony Newley",
-            "entity_class": "Person",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 13615,
-            "entity_label": "Sidhique",
-            "entity_class": "Person",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 8719,
-            "entity_label": "Gregory Peck",
-            "entity_class": "Person",
-            "score": 2.193147,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 5120,
-            "entity_label": "Lorenzo Music",
-            "entity_class": "Person",
-            "score": 6.658883,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 3,
-                "aux_support": 7,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 3511,
-            "entity_label": "Correspondent",
-            "entity_class": "Journalist",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 11862,
-            "entity_label": "Royal Medal",
-            "entity_class": "Award",
-            "score": 5.493598,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 4,
-                "aux_support": 7,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
+            "rank_index": 2,
             "entity_id": 1423,
             "entity_label": "Gloria Stuart",
             "entity_class": "Person",
@@ -268,30 +44,30 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 12987,
-            "entity_label": "American Hockey League",
-            "entity_class": "Ice Hockey League",
-            "score": 3.426015,
+            "rank_index": 3,
+            "entity_id": 2255,
+            "entity_label": "Margaret Atwood",
+            "entity_class": "Person",
+            "score": 1.5,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 0,
+                "soft_type_match": 1,
                 "direct": 0,
-                "path_count": 1,
-                "aux_support": 3,
-                "key": 1
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 16,
-            "entity_label": "Danny Devito",
-            "entity_class": "Person",
-            "score": 2.193147,
+            "rank_index": 4,
+            "entity_id": 14226,
+            "entity_label": "Gold Medal of the Royal Astronomical Society",
+            "entity_class": "Award",
+            "score": 0.693147,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 1,
@@ -300,7 +76,199 @@
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 5,
+            "entity_id": 1469,
+            "entity_label": "Screen Actors Guild Award for Outstanding Performance by an Ensemble in a Drama Series",
+            "entity_class": "Award",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 9266,
+            "entity_label": "Fidel Castro",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 3732,
+            "entity_label": "Janet Jackson",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 10435,
+            "entity_label": "Edmonton",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 2418,
+            "entity_label": "Antony Sher",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 11429,
+            "entity_label": "Anticipation",
+            "entity_class": "Concept",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 12122,
+            "entity_label": "Wilmington",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 11090,
+            "entity_label": "Michael Piller",
+            "entity_class": "Producer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 792,
+            "entity_label": "Timbaland",
+            "entity_class": "Music Producer, Rapper",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 11862,
+            "entity_label": "Royal Medal",
+            "entity_class": "Award",
+            "score": 5.493598,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 4,
+                "aux_support": 7,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 5609,
+            "entity_label": "Al-gharafa Sports Club",
+            "entity_class": "Sports Team",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 7544,
+            "entity_label": "Jamie Gangel",
+            "entity_class": "Person",
+            "score": 4.147918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
             "entity_id": 1489,
             "entity_label": "Mtv Movie Award for Best Comedic Performance",
             "entity_class": "Award",
@@ -316,43 +284,75 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 7169,
-            "entity_label": "Timbales",
-            "entity_class": "Musical Instrument",
-            "score": 4.439678,
+            "rank_index": 18,
+            "entity_id": 5120,
+            "entity_label": "Lorenzo Music",
+            "entity_class": "Person",
+            "score": 6.658883,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 3,
+                "aux_support": 7,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 6100,
+            "entity_label": "Grammy Award for Best Contemporary Blues Album",
+            "entity_class": "Music Award",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
-                "aux_support": 5,
-                "key": 1
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 218,
+            "entity_label": "Conrad Buff Iv",
+            "entity_class": "Person",
+            "score": 2.193147,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 1,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "10269": 1,
-        "10228": 2,
-        "3732": 3,
-        "7544": 4,
-        "218": 5,
-        "8715": 6,
-        "9266": 7,
-        "2255": 8,
-        "14037": 9,
-        "10264": 10,
-        "13615": 11,
-        "8719": 12,
-        "5120": 13,
-        "3511": 14,
-        "11862": 15,
-        "1423": 16,
-        "12987": 17,
-        "16": 18,
-        "1489": 19,
-        "7169": 20
+        "14037": 1,
+        "1423": 2,
+        "2255": 3,
+        "14226": 4,
+        "1469": 5,
+        "9266": 6,
+        "3732": 7,
+        "10435": 8,
+        "2418": 9,
+        "11429": 10,
+        "12122": 11,
+        "11090": 12,
+        "792": 13,
+        "11862": 14,
+        "5609": 15,
+        "7544": 16,
+        "1489": 17,
+        "5120": 18,
+        "6100": 19,
+        "218": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Freestyle Music, relation=hasInvolvedEntity, tail=?)\n\nOntology summary:\n- Query relation: hasInvolvedEntity\n- Head entity: Freestyle Music\n- Head class: Music Genre\n- Relation domain: Historical Event\n- Relation range: Country\n- Domain check: not clearly matched\n- Tail entities of class 'Country' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=36, edges=48, paths=20\n- Head outgoing edges under target relation hasInvolvedEntity: 1\n- Key support nodes: Freestyle Music, Mtv Movie Award for Best Comedic Performance, Lorenzo Music, Pontefract, Royal Medal, Timbales, James Monroe, American Hockey League\n- Main auxiliary relations: originCountry(23), hasBorder(5), hasOfficialLanguage(4)\n\nFrequent relation path patterns:\n- hasInvolvedEntity -> originCountry (count=6)\n- hasInvolvedEntity -> originCountry -> originCountry (count=6)\n- hasInvolvedEntity -> hasOfficialLanguage -> hasBorder (count=2)\n- hasInvolvedEntity (count=1)\n- hasBorder (count=1)\n\nCandidates:\n1. Nelson Mandela [id=10269 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n2. James Monroe [id=10228 | class=Us President | type=0 | soft_type=0 | direct=0 | paths=1 | aux=5 | key=1]\n3. Janet Jackson [id=3732 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=1 | direct=0 | paths=2 | aux=0 | key=1]\n5. Conrad Buff Iv [id=218 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]\n6. Allen Iverson [id=8715 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Fidel Castro [id=9266 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Margaret Atwood [id=2255 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n9. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=5 | aux=0 | key=1]\n10. Anthony Newley [id=10264 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Sidhique [id=13615 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Gregory Peck [id=8719 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]\n13. Lorenzo Music [id=5120 | class=Person | type=0 | soft_type=1 | direct=0 | paths=3 | aux=7 | key=1]\n14. Correspondent [id=3511 | class=Journalist | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n15. Royal Medal [id=11862 | class=Award | type=0 | soft_type=0 | direct=0 | paths=4 | aux=7 | key=1]\n16. Gloria Stuart [id=1423 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. American Hockey League [id=12987 | class=Ice Hockey League | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]\n18. Danny Devito [id=16 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]\n19. Mtv Movie Award for Best Comedic Performance [id=1489 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=6 | key=1]\n20. Timbales [id=7169 | class=Musical Instrument | type=0 | soft_type=0 | direct=0 | paths=2 | aux=5 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Freestyle Music, relation=hasInvolvedEntity, tail=?)\n\nOntology summary:\n- Query relation: hasInvolvedEntity\n- Head entity: Freestyle Music\n- Head class: Music Genre\n- Relation domain: Historical Event\n- Relation range: Country\n- Domain check: not clearly matched\n- Tail entities of class 'Country' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=36, edges=48, paths=20\n- Head outgoing edges under target relation hasInvolvedEntity: 1\n- Key support nodes: Freestyle Music, Mtv Movie Award for Best Comedic Performance, Lorenzo Music, Pontefract, Royal Medal, Timbales, James Monroe, American Hockey League\n- Main auxiliary relations: originCountry(23), hasBorder(5), hasOfficialLanguage(4)\n\nFrequent relation path patterns:\n- hasInvolvedEntity -> originCountry (count=6)\n- hasInvolvedEntity -> originCountry -> originCountry (count=6)\n- hasInvolvedEntity -> hasOfficialLanguage -> hasBorder (count=2)\n- hasInvolvedEntity (count=1)\n- hasBorder (count=1)\n\nCandidates:\n1. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=5 | aux=0 | key=1]\n2. Gloria Stuart [id=1423 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Margaret Atwood [id=2255 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Gold Medal of the Royal Astronomical Society [id=14226 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n5. Screen Actors Guild Award for Outstanding Performance by an Ensemble in a Drama Series [id=1469 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Fidel Castro [id=9266 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Janet Jackson [id=3732 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Edmonton [id=10435 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Antony Sher [id=2418 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Anticipation [id=11429 | class=Concept | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Wilmington [id=12122 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Michael Piller [id=11090 | class=Producer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Timbaland [id=792 | class=Music Producer, Rapper | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Royal Medal [id=11862 | class=Award | type=0 | soft_type=0 | direct=0 | paths=4 | aux=7 | key=1]\n15. Al-gharafa Sports Club [id=5609 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=1 | direct=0 | paths=2 | aux=0 | key=1]\n17. Mtv Movie Award for Best Comedic Performance [id=1489 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=6 | key=1]\n18. Lorenzo Music [id=5120 | class=Person | type=0 | soft_type=1 | direct=0 | paths=3 | aux=7 | key=1]\n19. Grammy Award for Best Contemporary Blues Album [id=6100 | class=Music Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Conrad Buff Iv [id=218 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=1 | key=0]\n"
 }

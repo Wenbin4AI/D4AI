@@ -7,15 +7,15 @@
         "relation_label": "hasRosterPosition",
         "gold_tail": 8241,
         "gold_tail_label": "David Shore",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 15
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 11806,
-            "entity_label": "Brazil National Football Team",
-            "entity_class": "Sports Team",
+            "entity_id": 2757,
+            "entity_label": "Henry Fonda",
+            "entity_class": "Actor/director",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -29,25 +29,9 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 12009,
-            "entity_label": "Harry Andrews",
-            "entity_class": "Person",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 912,
-            "entity_label": "72nd Academy Awards",
-            "entity_class": "Academy Awards",
+            "entity_id": 6302,
+            "entity_label": "Mecca",
+            "entity_class": "Location",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -60,25 +44,9 @@
             "is_gold": 0
         },
         {
-            "rank_index": 4,
-            "entity_id": 12677,
-            "entity_label": "Alan J. Pakula",
-            "entity_class": "Person",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 3776,
-            "entity_label": "Hope Springs",
+            "rank_index": 3,
+            "entity_id": 5700,
+            "entity_label": "Primary Colors",
             "entity_class": "Movie",
             "score": 0.0,
             "features": {
@@ -92,39 +60,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 6,
-            "entity_id": 743,
-            "entity_label": "Some Kind of Monster",
-            "entity_class": "Movie Title",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 8701,
-            "entity_label": "University of California College of the Law, San Francisco",
-            "entity_class": "Law School",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
+            "rank_index": 4,
             "entity_id": 9671,
             "entity_label": "Television Hall of Fame",
             "entity_class": "Hall of Fame",
@@ -140,10 +76,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 9,
-            "entity_id": 5817,
-            "entity_label": "Why We Fight",
-            "entity_class": "Film",
+            "rank_index": 5,
+            "entity_id": 6544,
+            "entity_label": "Middle Tennessee State University",
+            "entity_class": "Educational Institution",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -156,10 +92,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 10,
-            "entity_id": 11191,
-            "entity_label": "Butler University",
-            "entity_class": "University",
+            "rank_index": 6,
+            "entity_id": 912,
+            "entity_label": "72nd Academy Awards",
+            "entity_class": "Academy Awards",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -172,9 +108,9 @@
             "is_gold": 0
         },
         {
-            "rank_index": 11,
-            "entity_id": 11871,
-            "entity_label": "Butch Hartman",
+            "rank_index": 7,
+            "entity_id": 3732,
+            "entity_label": "Janet Jackson",
             "entity_class": "Person",
             "score": 0.0,
             "features": {
@@ -188,10 +124,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 12,
-            "entity_id": 14072,
-            "entity_label": "Glitch",
-            "entity_class": "Music Subgenre",
+            "rank_index": 8,
+            "entity_id": 7230,
+            "entity_label": "Primetime Emmy Award for Outstanding Directing for a Comedy Series",
+            "entity_class": "Award",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -204,23 +140,23 @@
             "is_gold": 0
         },
         {
-            "rank_index": 13,
-            "entity_id": 8811,
-            "entity_label": "Southend United F.c.",
-            "entity_class": "Football Club",
-            "score": 7.119162,
+            "rank_index": 9,
+            "entity_id": 743,
+            "entity_label": "Some Kind of Monster",
+            "entity_class": "Movie Title",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 7,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 14,
+            "rank_index": 10,
             "entity_id": 4864,
             "entity_label": "Set Dresser",
             "entity_class": "Job Title",
@@ -236,26 +172,26 @@
             "is_gold": 0
         },
         {
-            "rank_index": 15,
-            "entity_id": 805,
-            "entity_label": "The Lord of the Rings: the Fellowship of the Ring",
-            "entity_class": "Movie",
-            "score": 7.119162,
+            "rank_index": 11,
+            "entity_id": 7891,
+            "entity_label": "Snare Drum",
+            "entity_class": "Musical Instrument",
+            "score": 6.341066,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
-                "path_count": 7,
-                "aux_support": 0,
+                "path_count": 2,
+                "aux_support": 1,
                 "key": 1
             },
             "is_gold": 0
         },
         {
-            "rank_index": 16,
-            "entity_id": 14355,
-            "entity_label": "Dinosaur",
-            "entity_class": "Animal",
+            "rank_index": 12,
+            "entity_id": 6080,
+            "entity_label": "Rock Hudson",
+            "entity_class": "Person",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -268,10 +204,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 10746,
-            "entity_label": "Hamilton",
-            "entity_class": "Geography",
+            "rank_index": 13,
+            "entity_id": 4994,
+            "entity_label": "Seattle",
+            "entity_class": "City",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -284,10 +220,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 13511,
-            "entity_label": "Shochiku",
-            "entity_class": "Company",
+            "rank_index": 14,
+            "entity_id": 14359,
+            "entity_label": "Makati",
+            "entity_class": "Location",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -300,7 +236,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 15,
             "entity_id": 8241,
             "entity_label": "David Shore",
             "entity_class": "Screenwriter",
@@ -316,43 +252,107 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 7891,
-            "entity_label": "Snare Drum",
-            "entity_class": "Musical Instrument",
-            "score": 6.341066,
+            "rank_index": 16,
+            "entity_id": 4433,
+            "entity_label": "Tommy Lee Jones",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 12009,
+            "entity_label": "Harry Andrews",
+            "entity_class": "Person",
+            "score": 5.039721,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 1,
-                "path_count": 2,
-                "aux_support": 1,
+                "path_count": 1,
+                "aux_support": 0,
                 "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 3103,
+            "entity_label": "Research",
+            "entity_class": "Field of Study",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 8761,
+            "entity_label": "Hammersmith",
+            "entity_class": "Location",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 7544,
+            "entity_label": "Jamie Gangel",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "11806": 1,
-        "12009": 2,
-        "912": 3,
-        "12677": 4,
-        "3776": 5,
-        "743": 6,
-        "8701": 7,
-        "9671": 8,
-        "5817": 9,
-        "11191": 10,
-        "11871": 11,
-        "14072": 12,
-        "8811": 13,
-        "4864": 14,
-        "805": 15,
-        "14355": 16,
-        "10746": 17,
-        "13511": 18,
-        "8241": 19,
-        "7891": 20
+        "2757": 1,
+        "6302": 2,
+        "5700": 3,
+        "9671": 4,
+        "6544": 5,
+        "912": 6,
+        "3732": 7,
+        "7230": 8,
+        "743": 9,
+        "4864": 10,
+        "7891": 11,
+        "6080": 12,
+        "4994": 13,
+        "14359": 14,
+        "8241": 15,
+        "4433": 16,
+        "12009": 17,
+        "3103": 18,
+        "8761": 19,
+        "7544": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Norfolk County, relation=hasRosterPosition, tail=?)\n\nOntology summary:\n- Query relation: hasRosterPosition\n- Head entity: Norfolk County\n- Head class: County\n- Relation domain: Football Club\n- Relation range: Position\n- Domain check: not clearly matched\n- Tail entities of class 'Position' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=41, edges=54, paths=20\n- Head outgoing edges under target relation hasRosterPosition: 6\n- Key support nodes: Norfolk County, Cowbell, Southend United F.c., The Lord of the Rings: the Fellowship of the Ring, Snare Drum, David Shore, Russell T Davies, Alan J. Pakula\n- Main auxiliary relations: foundIn(13), hasDomesticTuition(9), hasNominees(2)\n\nFrequent relation path patterns:\n- hasArtist -> foundIn -> hasRosterPosition (count=13)\n- hasRosterPosition (count=6)\n- hasRosterPosition -> hasAppearance (count=1)\n\nCandidates:\n1. Brazil National Football Team [id=11806 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Harry Andrews [id=12009 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. 72nd Academy Awards [id=912 | class=Academy Awards | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Alan J. Pakula [id=12677 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Hope Springs [id=3776 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Some Kind of Monster [id=743 | class=Movie Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. University of California College of the Law, San Francisco [id=8701 | class=Law School | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Television Hall of Fame [id=9671 | class=Hall of Fame | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Why We Fight [id=5817 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Butler University [id=11191 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Butch Hartman [id=11871 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Glitch [id=14072 | class=Music Subgenre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Southend United F.c. [id=8811 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=7 | aux=0 | key=1]\n14. Set Dresser [id=4864 | class=Job Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. The Lord of the Rings: the Fellowship of the Ring [id=805 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=7 | aux=0 | key=1]\n16. Dinosaur [id=14355 | class=Animal | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Hamilton [id=10746 | class=Geography | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Shochiku [id=13511 | class=Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. David Shore [id=8241 | class=Screenwriter | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]\n20. Snare Drum [id=7891 | class=Musical Instrument | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Norfolk County, relation=hasRosterPosition, tail=?)\n\nOntology summary:\n- Query relation: hasRosterPosition\n- Head entity: Norfolk County\n- Head class: County\n- Relation domain: Football Club\n- Relation range: Position\n- Domain check: not clearly matched\n- Tail entities of class 'Position' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=41, edges=54, paths=20\n- Head outgoing edges under target relation hasRosterPosition: 6\n- Key support nodes: Norfolk County, Cowbell, Southend United F.c., The Lord of the Rings: the Fellowship of the Ring, Snare Drum, David Shore, Russell T Davies, Alan J. Pakula\n- Main auxiliary relations: foundIn(13), hasDomesticTuition(9), hasNominees(2)\n\nFrequent relation path patterns:\n- hasArtist -> foundIn -> hasRosterPosition (count=13)\n- hasRosterPosition (count=6)\n- hasRosterPosition -> hasAppearance (count=1)\n\nCandidates:\n1. Henry Fonda [id=2757 | class=Actor/director | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Mecca [id=6302 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Primary Colors [id=5700 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Television Hall of Fame [id=9671 | class=Hall of Fame | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Middle Tennessee State University [id=6544 | class=Educational Institution | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. 72nd Academy Awards [id=912 | class=Academy Awards | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Janet Jackson [id=3732 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Primetime Emmy Award for Outstanding Directing for a Comedy Series [id=7230 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Some Kind of Monster [id=743 | class=Movie Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Set Dresser [id=4864 | class=Job Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Snare Drum [id=7891 | class=Musical Instrument | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]\n12. Rock Hudson [id=6080 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Makati [id=14359 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. David Shore [id=8241 | class=Screenwriter | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]\n16. Tommy Lee Jones [id=4433 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Harry Andrews [id=12009 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Research [id=3103 | class=Field of Study | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Hammersmith [id=8761 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

@@ -7,15 +7,15 @@
         "relation_label": "producedPrograms",
         "gold_tail": 2792,
         "gold_tail_label": "Georgia",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 11
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 1365,
-            "entity_label": "I Know Who Killed Me",
-            "entity_class": "Film",
+            "entity_id": 2395,
+            "entity_label": "1994 Winter Olympics",
+            "entity_class": "Event",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -29,70 +29,54 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 11735,
-            "entity_label": "Lacrosse",
-            "entity_class": "Sport",
-            "score": 5.039721,
+            "entity_id": 13488,
+            "entity_label": "St George's Chapel, Windsor",
+            "entity_class": "Religious Building or Landmark",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 3,
-            "entity_id": 3773,
-            "entity_label": "Rush Hour 2",
-            "entity_class": "Movie",
-            "score": 1.732868,
+            "entity_id": 12550,
+            "entity_label": "Grammy Award for Best Classical Solo Vocal Album",
+            "entity_class": "Award",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
+                "path_count": 0,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 4,
-            "entity_id": 12622,
-            "entity_label": "St Johnstone F.c.",
-            "entity_class": "Football Club",
-            "score": 5.732868,
+            "entity_id": 4746,
+            "entity_label": "Filmfare Award for Best Film",
+            "entity_class": "Award",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 1572,
-            "entity_label": "War of the Spanish Succession",
-            "entity_class": "Historical Event",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 6,
+            "rank_index": 5,
             "entity_id": 10341,
             "entity_label": "Paul Oakenfold",
             "entity_class": "Musician",
@@ -108,138 +92,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 7,
-            "entity_id": 9160,
-            "entity_label": "Bedtime Stories",
-            "entity_class": "Movie",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 1450,
-            "entity_label": "Aida Turturro",
-            "entity_class": "Actor",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 11014,
-            "entity_label": "John G. Avildsen",
-            "entity_class": "Person",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 2559,
-            "entity_label": "William A. Horning",
-            "entity_class": "Art Director",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 4416,
-            "entity_label": "Luc Besson",
-            "entity_class": "Director",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 9998,
-            "entity_label": "Purdue Boilermakers Football",
-            "entity_class": "Sports Team",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 14453,
-            "entity_label": "Statistician",
-            "entity_class": "Profession",
-            "score": 11.33148,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 5,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 9770,
-            "entity_label": "Sv Wacker Burghausen",
-            "entity_class": "Football Club",
-            "score": 3.746531,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 11227,
-            "entity_label": "Jonathan Walters",
-            "entity_class": "Person",
+            "rank_index": 6,
+            "entity_id": 2483,
+            "entity_label": "Ska Punk",
+            "entity_class": "Music Genre",
             "score": 5.732868,
             "features": {
                 "type_match": 0,
@@ -252,55 +108,71 @@
             "is_gold": 0
         },
         {
-            "rank_index": 16,
-            "entity_id": 4348,
-            "entity_label": "Writers Guild of America Awards 2007",
-            "entity_class": "Award",
-            "score": 1.732868,
+            "rank_index": 7,
+            "entity_id": 6874,
+            "entity_label": "Ludwig Maximilian University of Munich",
+            "entity_class": "University",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
-            "entity_id": 5921,
-            "entity_label": "Along Came Polly",
-            "entity_class": "Movie",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 1191,
-            "entity_label": "Corey Burton",
-            "entity_class": "Voice Actor",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 8,
+            "entity_id": 13039,
+            "entity_label": "Sovereign Military Order of Malta",
+            "entity_class": "Historical Organization",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 13157,
+            "entity_label": "Tashkent",
+            "entity_class": "Capital City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 13641,
+            "entity_label": "Bronxville",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
             "entity_id": 2792,
             "entity_label": "Georgia",
             "entity_class": "Location",
@@ -316,10 +188,106 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 2483,
-            "entity_label": "Ska Punk",
-            "entity_class": "Music Genre",
+            "rank_index": 12,
+            "entity_id": 1342,
+            "entity_label": "Peter Jacobson",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 10685,
+            "entity_label": "Scatman Crothers",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 1450,
+            "entity_label": "Aida Turturro",
+            "entity_class": "Actor",
+            "score": 1.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 9008,
+            "entity_label": "Colm Feore",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 1365,
+            "entity_label": "I Know Who Killed Me",
+            "entity_class": "Film",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 1531,
+            "entity_label": "Pleasantville",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 11227,
+            "entity_label": "Jonathan Walters",
+            "entity_class": "Person",
             "score": 5.732868,
             "features": {
                 "type_match": 0,
@@ -330,29 +298,61 @@
                 "key": 1
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 1291,
+            "entity_label": "Aidan Quinn",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 1572,
+            "entity_label": "War of the Spanish Succession",
+            "entity_class": "Historical Event",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "1365": 1,
-        "11735": 2,
-        "3773": 3,
-        "12622": 4,
-        "1572": 5,
-        "10341": 6,
-        "9160": 7,
-        "1450": 8,
-        "11014": 9,
-        "2559": 10,
-        "4416": 11,
-        "9998": 12,
-        "14453": 13,
-        "9770": 14,
-        "11227": 15,
-        "4348": 16,
-        "5921": 17,
-        "1191": 18,
-        "2792": 19,
-        "2483": 20
+        "2395": 1,
+        "13488": 2,
+        "12550": 3,
+        "4746": 4,
+        "10341": 5,
+        "2483": 6,
+        "6874": 7,
+        "13039": 8,
+        "13157": 9,
+        "13641": 10,
+        "2792": 11,
+        "1342": 12,
+        "10685": 13,
+        "1450": 14,
+        "9008": 15,
+        "1365": 16,
+        "1531": 17,
+        "11227": 18,
+        "1291": 19,
+        "1572": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Walter Scharf, relation=producedPrograms, tail=?)\n\nOntology summary:\n- Query relation: producedPrograms\n- Head entity: Walter Scharf\n- Head class: Composer\n- Relation domain: Person\n- Relation range: Profession\n- Domain check: not clearly matched\n- Tail entities of class 'Profession' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=45, edges=48, paths=20\n- Head outgoing edges under target relation producedPrograms: 11\n- Key support nodes: Walter Scharf, Statistician, Jonathan Walters, Ska Punk, St Johnstone F.c., Georgia, Sv Wacker Burghausen, Lacrosse\n- Main auxiliary relations: hasImpersonatedCelebrities(12), hasAthlete(4), hasReligion(4)\n\nFrequent relation path patterns:\n- producedPrograms (count=11)\n- producedPrograms -> hasImpersonatedCelebrities (count=7)\n- producedPrograms -> hasReleaseMedium (count=1)\n- producedPrograms -> hasCountry (count=1)\n\nCandidates:\n1. I Know Who Killed Me [id=1365 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Lacrosse [id=11735 | class=Sport | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Rush Hour 2 [id=3773 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n4. St Johnstone F.c. [id=12622 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n5. War of the Spanish Succession [id=1572 | class=Historical Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n6. Paul Oakenfold [id=10341 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n7. Bedtime Stories [id=9160 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n8. Aida Turturro [id=1450 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n9. John G. Avildsen [id=11014 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. William A. Horning [id=2559 | class=Art Director | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n11. Luc Besson [id=4416 | class=Director | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n12. Purdue Boilermakers Football [id=9998 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Statistician [id=14453 | class=Profession | type=1 | soft_type=1 | direct=1 | paths=1 | aux=5 | key=1]\n14. Sv Wacker Burghausen [id=9770 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=2 | aux=2 | key=1]\n15. Jonathan Walters [id=11227 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n16. Writers Guild of America Awards 2007 [id=4348 | class=Award | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n17. Along Came Polly [id=5921 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Corey Burton [id=1191 | class=Voice Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n19. Georgia [id=2792 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n20. Ska Punk [id=2483 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Walter Scharf, relation=producedPrograms, tail=?)\n\nOntology summary:\n- Query relation: producedPrograms\n- Head entity: Walter Scharf\n- Head class: Composer\n- Relation domain: Person\n- Relation range: Profession\n- Domain check: not clearly matched\n- Tail entities of class 'Profession' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=45, edges=48, paths=20\n- Head outgoing edges under target relation producedPrograms: 11\n- Key support nodes: Walter Scharf, Statistician, Jonathan Walters, Ska Punk, St Johnstone F.c., Georgia, Sv Wacker Burghausen, Lacrosse\n- Main auxiliary relations: hasImpersonatedCelebrities(12), hasAthlete(4), hasReligion(4)\n\nFrequent relation path patterns:\n- producedPrograms (count=11)\n- producedPrograms -> hasImpersonatedCelebrities (count=7)\n- producedPrograms -> hasReleaseMedium (count=1)\n- producedPrograms -> hasCountry (count=1)\n\nCandidates:\n1. 1994 Winter Olympics [id=2395 | class=Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. St George's Chapel, Windsor [id=13488 | class=Religious Building or Landmark | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Grammy Award for Best Classical Solo Vocal Album [id=12550 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Filmfare Award for Best Film [id=4746 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Paul Oakenfold [id=10341 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n6. Ska Punk [id=2483 | class=Music Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n7. Ludwig Maximilian University of Munich [id=6874 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Sovereign Military Order of Malta [id=13039 | class=Historical Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Tashkent [id=13157 | class=Capital City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Bronxville [id=13641 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Georgia [id=2792 | class=Location | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n12. Peter Jacobson [id=1342 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Scatman Crothers [id=10685 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Aida Turturro [id=1450 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n15. Colm Feore [id=9008 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. I Know Who Killed Me [id=1365 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Pleasantville [id=1531 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Jonathan Walters [id=11227 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=1 | key=1]\n19. Aidan Quinn [id=1291 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. War of the Spanish Succession [id=1572 | class=Historical Event | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n"
 }

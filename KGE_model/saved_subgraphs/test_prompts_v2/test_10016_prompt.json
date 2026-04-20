@@ -7,15 +7,15 @@
         "relation_label": "hasProducer",
         "gold_tail": 5756,
         "gold_tail_label": "Cheese",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 14
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 8982,
-            "entity_label": "Maaya Sakamoto",
-            "entity_class": "Voice Actress and Singer",
+            "entity_id": 13665,
+            "entity_label": "Haifa",
+            "entity_class": "City",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -29,104 +29,8 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 5604,
-            "entity_label": "Dermot Mulroney",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 2788,
-            "entity_label": "Denise Richards",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 8595,
-            "entity_label": "Casey Kasem",
-            "entity_class": "Disc Jockey",
-            "score": 6.079442,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 3,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 13843,
-            "entity_label": "Boaz Davidson",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 4612,
-            "entity_label": "Mark Harmon",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 4100,
-            "entity_label": "Kathy Bates",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 14037,
-            "entity_label": "Pontefract",
+            "entity_id": 11396,
+            "entity_label": "Dehradun",
             "entity_class": "City",
             "score": 0.0,
             "features": {
@@ -140,119 +44,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 9,
-            "entity_id": 5388,
-            "entity_label": "Lili Taylor",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 4994,
-            "entity_label": "Seattle",
-            "entity_class": "City",
-            "score": 1.693147,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 12689,
-            "entity_label": "Andes",
-            "entity_class": "Mountain Range",
-            "score": 0.693147,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 7544,
-            "entity_label": "Jamie Gangel",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 11103,
-            "entity_label": "Josh Weinstein",
-            "entity_class": "Person",
-            "score": 10.579442,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 3,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 1114,
-            "entity_label": "Darryl F. Zanuck",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 5144,
-            "entity_label": "Fiddle",
-            "entity_class": "Musical Instrument",
-            "score": 7.295837,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 8,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
+            "rank_index": 3,
             "entity_id": 7439,
             "entity_label": "Allium Cepa",
             "entity_class": "Plant",
@@ -268,9 +60,9 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 12677,
-            "entity_label": "Alan J. Pakula",
+            "rank_index": 4,
+            "entity_id": 5388,
+            "entity_label": "Lili Taylor",
             "entity_class": "Person",
             "score": 4.5,
             "features": {
@@ -284,9 +76,25 @@
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 4133,
-            "entity_label": "Matthew Mcconaughey",
+            "rank_index": 5,
+            "entity_id": 10052,
+            "entity_label": "Ebbsfleet United F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 7544,
+            "entity_label": "Jamie Gangel",
             "entity_class": "Person",
             "score": 4.5,
             "features": {
@@ -300,7 +108,119 @@
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 7,
+            "entity_id": 5029,
+            "entity_label": "Exeter",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 4864,
+            "entity_label": "Set Dresser",
+            "entity_class": "Job Title",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 6803,
+            "entity_label": "Blues Rock",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 5144,
+            "entity_label": "Fiddle",
+            "entity_class": "Musical Instrument",
+            "score": 7.295837,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 8,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 4810,
+            "entity_label": "Danubio F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 1045,
+            "entity_label": "Fish Tank",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 5245,
+            "entity_label": "Miniseries",
+            "entity_class": "Tv Format",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
             "entity_id": 5756,
             "entity_label": "Cheese",
             "entity_class": "Food Item",
@@ -316,43 +236,123 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 9206,
-            "entity_label": "Toy Story 2",
-            "entity_class": "Film",
-            "score": 6.079442,
+            "rank_index": 15,
+            "entity_id": 11103,
+            "entity_label": "Josh Weinstein",
+            "entity_class": "Person",
+            "score": 10.579442,
             "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
+                "type_match": 1,
+                "soft_type_match": 1,
                 "direct": 1,
                 "path_count": 3,
                 "aux_support": 0,
                 "key": 1
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 10839,
+            "entity_label": "Third Battle of Ypres",
+            "entity_class": "Event",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 11155,
+            "entity_label": "Fc Zorya Luhansk",
+            "entity_class": "Organization",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 2788,
+            "entity_label": "Denise Richards",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 4133,
+            "entity_label": "Matthew Mcconaughey",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 11345,
+            "entity_label": "Delta Blues",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "8982": 1,
-        "5604": 2,
-        "2788": 3,
-        "8595": 4,
-        "13843": 5,
-        "4612": 6,
-        "4100": 7,
-        "14037": 8,
-        "5388": 9,
-        "4994": 10,
-        "12689": 11,
-        "7544": 12,
-        "11103": 13,
-        "1114": 14,
-        "5144": 15,
-        "7439": 16,
-        "12677": 17,
-        "4133": 18,
-        "5756": 19,
-        "9206": 20
+        "13665": 1,
+        "11396": 2,
+        "7439": 3,
+        "5388": 4,
+        "10052": 5,
+        "7544": 6,
+        "5029": 7,
+        "4864": 8,
+        "6803": 9,
+        "5144": 10,
+        "4810": 11,
+        "1045": 12,
+        "5245": 13,
+        "5756": 14,
+        "11103": 15,
+        "10839": 16,
+        "11155": 17,
+        "2788": 18,
+        "4133": 19,
+        "11345": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Buck Henry, relation=hasProducer, tail=?)\n\nOntology summary:\n- Query relation: hasProducer\n- Head entity: Buck Henry\n- Head class: Person\n- Relation domain: Movie\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=28, edges=43, paths=20\n- Head outgoing edges under target relation hasProducer: 5\n- Key support nodes: Buck Henry, Allium Cepa, Fiddle, Patti Smith, University of California, San Diego, Seattle, Josh Weinstein, Toy Story 2\n- Main auxiliary relations: hasGenre(10), memberOf(5), hasSport(2)\n\nFrequent relation path patterns:\n- hasParticipantCountries -> hasGenre -> hasProducer (count=10)\n- hasProducer (count=5)\n- nominatedFor -> hasGenre -> hasProducer (count=5)\n\nCandidates:\n1. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Dermot Mulroney [id=5604 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Denise Richards [id=2788 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Casey Kasem [id=8595 | class=Disc Jockey | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n5. Boaz Davidson [id=13843 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Mark Harmon [id=4612 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Kathy Bates [id=4100 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Lili Taylor [id=5388 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=1]\n11. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n12. Jamie Gangel [id=7544 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Josh Weinstein [id=11103 | class=Person | type=1 | soft_type=1 | direct=1 | paths=3 | aux=0 | key=1]\n14. Darryl F. Zanuck [id=1114 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Fiddle [id=5144 | class=Musical Instrument | type=0 | soft_type=0 | direct=1 | paths=8 | aux=0 | key=1]\n16. Allium Cepa [id=7439 | class=Plant | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]\n17. Alan J. Pakula [id=12677 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Matthew Mcconaughey [id=4133 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Cheese [id=5756 | class=Food Item | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n20. Toy Story 2 [id=9206 | class=Film | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Buck Henry, relation=hasProducer, tail=?)\n\nOntology summary:\n- Query relation: hasProducer\n- Head entity: Buck Henry\n- Head class: Person\n- Relation domain: Movie\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=28, edges=43, paths=20\n- Head outgoing edges under target relation hasProducer: 5\n- Key support nodes: Buck Henry, Allium Cepa, Fiddle, Patti Smith, University of California, San Diego, Seattle, Josh Weinstein, Toy Story 2\n- Main auxiliary relations: hasGenre(10), memberOf(5), hasSport(2)\n\nFrequent relation path patterns:\n- hasParticipantCountries -> hasGenre -> hasProducer (count=10)\n- hasProducer (count=5)\n- nominatedFor -> hasGenre -> hasProducer (count=5)\n\nCandidates:\n1. Haifa [id=13665 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Dehradun [id=11396 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Allium Cepa [id=7439 | class=Plant | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=1]\n4. Lili Taylor [id=5388 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Ebbsfleet United F.c. [id=10052 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Jamie Gangel [id=7544 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Set Dresser [id=4864 | class=Job Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Blues Rock [id=6803 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Fiddle [id=5144 | class=Musical Instrument | type=0 | soft_type=0 | direct=1 | paths=8 | aux=0 | key=1]\n11. Danubio F.c. [id=4810 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Fish Tank [id=1045 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Cheese [id=5756 | class=Food Item | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n15. Josh Weinstein [id=11103 | class=Person | type=1 | soft_type=1 | direct=1 | paths=3 | aux=0 | key=1]\n16. Third Battle of Ypres [id=10839 | class=Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Fc Zorya Luhansk [id=11155 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Denise Richards [id=2788 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Matthew Mcconaughey [id=4133 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n20. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

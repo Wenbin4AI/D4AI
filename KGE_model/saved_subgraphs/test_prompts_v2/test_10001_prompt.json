@@ -7,21 +7,21 @@
         "relation_label": "hasAthlete",
         "gold_tail": 3171,
         "gold_tail_label": "Loretta Lynn",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 20
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 223,
-            "entity_label": "University of Pittsburgh",
-            "entity_class": "Institution",
-            "score": 1.039721,
+            "entity_id": 9098,
+            "entity_label": "The Next Best Thing",
+            "entity_class": "Film",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -29,15 +29,15 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 8624,
-            "entity_label": "Cliff Robertson",
-            "entity_class": "Person",
-            "score": 5.539721,
+            "entity_id": 2843,
+            "entity_label": "2004 Nfl Draft",
+            "entity_class": "Sports Event",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -45,54 +45,22 @@
         },
         {
             "rank_index": 3,
-            "entity_id": 11097,
-            "entity_label": "Paul Winfield",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 2054,
-            "entity_label": "Cumulus Media",
-            "entity_class": "Company",
-            "score": 5.647918,
+            "entity_id": 6614,
+            "entity_label": "Carnegie Mellon University",
+            "entity_class": "University",
+            "score": 2.039721,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 2,
+                "direct": 0,
+                "path_count": 1,
                 "aux_support": 0,
                 "key": 1
             },
             "is_gold": 0
         },
         {
-            "rank_index": 5,
-            "entity_id": 351,
-            "entity_label": "Billy West",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
+            "rank_index": 4,
             "entity_id": 4195,
             "entity_label": "James Woods",
             "entity_class": "Actor",
@@ -108,10 +76,42 @@
             "is_gold": 0
         },
         {
-            "rank_index": 7,
+            "rank_index": 5,
             "entity_id": 7856,
             "entity_label": "The Lady",
             "entity_class": "Film",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 5210,
+            "entity_label": "Phoenix Suns",
+            "entity_class": "Sports Team",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 7040,
+            "entity_label": "Pride & Prejudice",
+            "entity_class": "Novel",
             "score": 1.039721,
             "features": {
                 "type_match": 0,
@@ -141,102 +141,22 @@
         },
         {
             "rank_index": 9,
-            "entity_id": 12545,
-            "entity_label": "New Hampshire's 2nd Congressional District",
-            "entity_class": "Congressional District",
-            "score": 5.039721,
+            "entity_id": 6471,
+            "entity_label": "Dumb and Dumber",
+            "entity_class": "Movie",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 10,
-            "entity_id": 6614,
-            "entity_label": "Carnegie Mellon University",
-            "entity_class": "University",
-            "score": 2.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 7040,
-            "entity_label": "Pride & Prejudice",
-            "entity_class": "Novel",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 6420,
-            "entity_label": "Zach Galifianakis",
-            "entity_class": "Actor",
-            "score": 2.539721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 11175,
-            "entity_label": "Anchor Bay Entertainment",
-            "entity_class": "Home Video Company",
-            "score": 5.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 10537,
-            "entity_label": "Harris County",
-            "entity_class": "County",
-            "score": 2.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
             "entity_id": 13647,
             "entity_label": "Social Issue",
             "entity_class": "Social Problem",
@@ -252,10 +172,26 @@
             "is_gold": 0
         },
         {
-            "rank_index": 16,
-            "entity_id": 7736,
-            "entity_label": "The Fairly Oddparents",
-            "entity_class": "Tv Show",
+            "rank_index": 11,
+            "entity_id": 7483,
+            "entity_label": "King Records",
+            "entity_class": "Record Label",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 223,
+            "entity_label": "University of Pittsburgh",
+            "entity_class": "Institution",
             "score": 1.039721,
             "features": {
                 "type_match": 0,
@@ -268,13 +204,77 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 7952,
-            "entity_label": "Gilles Deleuze",
-            "entity_class": "Person",
-            "score": 4.5,
+            "rank_index": 13,
+            "entity_id": 12545,
+            "entity_label": "New Hampshire's 2nd Congressional District",
+            "entity_class": "Congressional District",
+            "score": 5.039721,
             "features": {
-                "type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 3972,
+            "entity_label": "Jeph Loeb",
+            "entity_class": "Comic Book Writer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 3067,
+            "entity_label": "Mark Irwin",
+            "entity_class": "Songwriter",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 1937,
+            "entity_label": "Brave",
+            "entity_class": "Film",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 11097,
+            "entity_label": "Paul Winfield",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
                 "soft_type_match": 1,
                 "direct": 0,
                 "path_count": 0,
@@ -285,13 +285,13 @@
         },
         {
             "rank_index": 18,
-            "entity_id": 4704,
-            "entity_label": "James Denton",
-            "entity_class": "Person",
-            "score": 4.5,
+            "entity_id": 13347,
+            "entity_label": "Green Party of the United States",
+            "entity_class": "Political Party",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -301,6 +301,22 @@
         },
         {
             "rank_index": 19,
+            "entity_id": 12567,
+            "entity_label": "Aol",
+            "entity_class": "Company",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
             "entity_id": 3171,
             "entity_label": "Loretta Lynn",
             "entity_class": "Person",
@@ -314,45 +330,29 @@
                 "key": 1
             },
             "is_gold": 1
-        },
-        {
-            "rank_index": 20,
-            "entity_id": 3804,
-            "entity_label": "(e)-phytonadione",
-            "entity_class": "Chemical Compound",
-            "score": 5.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "223": 1,
-        "8624": 2,
-        "11097": 3,
-        "2054": 4,
-        "351": 5,
-        "4195": 6,
-        "7856": 7,
+        "9098": 1,
+        "2843": 2,
+        "6614": 3,
+        "4195": 4,
+        "7856": 5,
+        "5210": 6,
+        "7040": 7,
         "9307": 8,
-        "12545": 9,
-        "6614": 10,
-        "7040": 11,
-        "6420": 12,
-        "11175": 13,
-        "10537": 14,
-        "13647": 15,
-        "7736": 16,
-        "7952": 17,
-        "4704": 18,
-        "3171": 19,
-        "3804": 20
+        "6471": 9,
+        "13647": 10,
+        "7483": 11,
+        "223": 12,
+        "12545": 13,
+        "3972": 14,
+        "3067": 15,
+        "1937": 16,
+        "11097": 17,
+        "13347": 18,
+        "12567": 19,
+        "3171": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=University of Vienna, relation=hasAthlete, tail=?)\n\nOntology summary:\n- Query relation: hasAthlete\n- Head entity: University of Vienna\n- Head class: University\n- Relation domain: Sport\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=42, edges=48, paths=20\n- Head outgoing edges under target relation hasAthlete: 6\n- Key support nodes: University of Vienna, George A. Romero, Anchor Bay Entertainment, Social Issue, (e)-phytonadione, Cumulus Media, Loretta Lynn, New Hampshire's 2nd Congressional District\n- Main auxiliary relations: hasWinner(14), plays(8), isInductedIntoHallOfFame(1)\n\nFrequent relation path patterns:\n- hasImpersonatedCelebrities -> hasAthlete (count=14)\n- hasAthlete (count=6)\n\nCandidates:\n1. University of Pittsburgh [id=223 | class=Institution | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n2. Cliff Robertson [id=8624 | class=Person | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n3. Paul Winfield [id=11097 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Cumulus Media [id=2054 | class=Company | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n5. Billy West [id=351 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. James Woods [id=4195 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. The Lady [id=7856 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n8. The Hollies [id=9307 | class=Musical Group | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n9. New Hampshire's 2nd Congressional District [id=12545 | class=Congressional District | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Carnegie Mellon University [id=6614 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n11. Pride & Prejudice [id=7040 | class=Novel | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n12. Zach Galifianakis [id=6420 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n13. Anchor Bay Entertainment [id=11175 | class=Home Video Company | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n14. Harris County [id=10537 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n15. Social Issue [id=13647 | class=Social Problem | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n16. The Fairly Oddparents [id=7736 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n17. Gilles Deleuze [id=7952 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. James Denton [id=4704 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Loretta Lynn [id=3171 | class=Person | type=1 | soft_type=1 | direct=1 | paths=2 | aux=0 | key=1]\n20. (e)-phytonadione [id=3804 | class=Chemical Compound | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=University of Vienna, relation=hasAthlete, tail=?)\n\nOntology summary:\n- Query relation: hasAthlete\n- Head entity: University of Vienna\n- Head class: University\n- Relation domain: Sport\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=42, edges=48, paths=20\n- Head outgoing edges under target relation hasAthlete: 6\n- Key support nodes: University of Vienna, George A. Romero, Anchor Bay Entertainment, Social Issue, (e)-phytonadione, Cumulus Media, Loretta Lynn, New Hampshire's 2nd Congressional District\n- Main auxiliary relations: hasWinner(14), plays(8), isInductedIntoHallOfFame(1)\n\nFrequent relation path patterns:\n- hasImpersonatedCelebrities -> hasAthlete (count=14)\n- hasAthlete (count=6)\n\nCandidates:\n1. The Next Best Thing [id=9098 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. 2004 Nfl Draft [id=2843 | class=Sports Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Carnegie Mellon University [id=6614 | class=University | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n4. James Woods [id=4195 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. The Lady [id=7856 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Phoenix Suns [id=5210 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Pride & Prejudice [id=7040 | class=Novel | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n8. The Hollies [id=9307 | class=Musical Group | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n9. Dumb and Dumber [id=6471 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Social Issue [id=13647 | class=Social Problem | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n11. King Records [id=7483 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. University of Pittsburgh [id=223 | class=Institution | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. New Hampshire's 2nd Congressional District [id=12545 | class=Congressional District | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Jeph Loeb [id=3972 | class=Comic Book Writer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Mark Irwin [id=3067 | class=Songwriter | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Brave [id=1937 | class=Film | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Paul Winfield [id=11097 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Green Party of the United States [id=13347 | class=Political Party | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Aol [id=12567 | class=Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Loretta Lynn [id=3171 | class=Person | type=1 | soft_type=1 | direct=1 | paths=2 | aux=0 | key=1]\n"
 }

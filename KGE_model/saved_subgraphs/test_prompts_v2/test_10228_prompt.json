@@ -7,12 +7,60 @@
         "relation_label": "hasAthlete",
         "gold_tail": 9183,
         "gold_tail_label": "Cardinal",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 20
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
+            "entity_id": 795,
+            "entity_label": "Protestantism",
+            "entity_class": "Religion",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 2,
+            "entity_id": 2588,
+            "entity_label": "Auburn University",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 3,
+            "entity_id": 13081,
+            "entity_label": "Cool Jazz",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
             "entity_id": 8363,
             "entity_label": "Prison Break",
             "entity_class": "Tv Show",
@@ -28,215 +76,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 2,
-            "entity_id": 5268,
-            "entity_label": "Anna Faris",
-            "entity_class": "Actor",
-            "score": 5.539721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 9480,
-            "entity_label": "Gene Simmons",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 2043,
-            "entity_label": "T. Rajendar",
-            "entity_class": "Actor",
-            "score": 6.539721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
             "rank_index": 5,
-            "entity_id": 5574,
-            "entity_label": "Inverness Caledonian Thistle F.c.",
-            "entity_class": "Football Club",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 8298,
-            "entity_label": "Syd Barrett",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 4133,
-            "entity_label": "Matthew Mcconaughey",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 9247,
-            "entity_label": "Think Like a Man",
-            "entity_class": "Movie",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 8859,
-            "entity_label": "Betty White",
-            "entity_class": "Comedian",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 3246,
-            "entity_label": "Bob Newhart",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 1598,
-            "entity_label": "The Iron Lady",
-            "entity_class": "Movie",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 2541,
-            "entity_label": "Keith Richards",
-            "entity_class": "Singer/musician",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 11159,
-            "entity_label": "Cliff Richard",
-            "entity_class": "Person",
-            "score": 9.539721,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 12091,
-            "entity_label": "Jesus College",
-            "entity_class": "College",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
             "entity_id": 11593,
             "entity_label": "Michael Bay",
             "entity_class": "Person",
@@ -252,10 +92,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 16,
-            "entity_id": 9230,
-            "entity_label": "Club Universitario De Deportes",
-            "entity_class": "Football Club",
+            "rank_index": 6,
+            "entity_id": 1598,
+            "entity_label": "The Iron Lady",
+            "entity_class": "Movie",
             "score": 4.039721,
             "features": {
                 "type_match": 0,
@@ -268,7 +108,183 @@
             "is_gold": 0
         },
         {
+            "rank_index": 7,
+            "entity_id": 7220,
+            "entity_label": "Bucks County",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 8994,
+            "entity_label": "Shasta County",
+            "entity_class": "Region",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 12527,
+            "entity_label": "Foreigner",
+            "entity_class": "Band",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 9676,
+            "entity_label": "Carlsbad",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 13745,
+            "entity_label": "United States Department of State",
+            "entity_class": "Government Agency",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 8298,
+            "entity_label": "Syd Barrett",
+            "entity_class": "Person",
+            "score": 4.5,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 9553,
+            "entity_label": "Portland Pirates",
+            "entity_class": "Sports Team",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 12881,
+            "entity_label": "Timmins",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 12938,
+            "entity_label": "Unknown",
+            "entity_class": "Unknown",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 811,
+            "entity_label": "S.s. Lazio",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
             "rank_index": 17,
+            "entity_id": 7105,
+            "entity_label": "Trevor Howard",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
             "entity_id": 7661,
             "entity_label": "Welling United F.c.",
             "entity_class": "Sports Club",
@@ -284,7 +300,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 18,
+            "rank_index": 19,
             "entity_id": 10925,
             "entity_label": "Steve-o",
             "entity_class": "Comedian",
@@ -300,7 +316,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 20,
             "entity_id": 9183,
             "entity_label": "Cardinal",
             "entity_class": "Bird",
@@ -314,45 +330,29 @@
                 "key": 0
             },
             "is_gold": 1
-        },
-        {
-            "rank_index": 20,
-            "entity_id": 11597,
-            "entity_label": "Villarreal Cf",
-            "entity_class": "Organization",
-            "score": 6.687639,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 5,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "8363": 1,
-        "5268": 2,
-        "9480": 3,
-        "2043": 4,
-        "5574": 5,
-        "8298": 6,
-        "4133": 7,
-        "9247": 8,
-        "8859": 9,
-        "3246": 10,
-        "1598": 11,
-        "2541": 12,
-        "11159": 13,
-        "12091": 14,
-        "11593": 15,
-        "9230": 16,
-        "7661": 17,
-        "10925": 18,
-        "9183": 19,
-        "11597": 20
+        "795": 1,
+        "2588": 2,
+        "13081": 3,
+        "8363": 4,
+        "11593": 5,
+        "1598": 6,
+        "7220": 7,
+        "8994": 8,
+        "12527": 9,
+        "9676": 10,
+        "13745": 11,
+        "8298": 12,
+        "9553": 13,
+        "12881": 14,
+        "12938": 15,
+        "811": 16,
+        "7105": 17,
+        "7661": 18,
+        "10925": 19,
+        "9183": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Kim Manners, relation=hasAthlete, tail=?)\n\nOntology summary:\n- Query relation: hasAthlete\n- Head entity: Kim Manners\n- Head class: Director\n- Relation domain: Sport\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=51, edges=54, paths=20\n- Head outgoing edges under target relation hasAthlete: 16\n- Key support nodes: Kim Manners, Villarreal Cf, Betty White, Welling United F.c., Steve-o, Inverness Caledonian Thistle F.c., T. Rajendar, Keith Richards\n- Main auxiliary relations: hasEndowmentCurrency(15), hasWinner(10), hasImpersonatedCelebrities(5)\n\nFrequent relation path patterns:\n- hasAthlete (count=16)\n- hasImpersonatedCelebrities -> hasAthlete (count=4)\n\nCandidates:\n1. Prison Break [id=8363 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Anna Faris [id=5268 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n3. Gene Simmons [id=9480 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. T. Rajendar [id=2043 | class=Actor | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n5. Inverness Caledonian Thistle F.c. [id=5574 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Syd Barrett [id=8298 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Matthew Mcconaughey [id=4133 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Think Like a Man [id=9247 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Betty White [id=8859 | class=Comedian | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Bob Newhart [id=3246 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. The Iron Lady [id=1598 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Keith Richards [id=2541 | class=Singer/musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. Cliff Richard [id=11159 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n14. Jesus College [id=12091 | class=College | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n15. Michael Bay [id=11593 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n16. Club Universitario De Deportes [id=9230 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Welling United F.c. [id=7661 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Steve-o [id=10925 | class=Comedian | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Cardinal [id=9183 | class=Bird | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Villarreal Cf [id=11597 | class=Organization | type=0 | soft_type=0 | direct=1 | paths=5 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Kim Manners, relation=hasAthlete, tail=?)\n\nOntology summary:\n- Query relation: hasAthlete\n- Head entity: Kim Manners\n- Head class: Director\n- Relation domain: Sport\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=51, edges=54, paths=20\n- Head outgoing edges under target relation hasAthlete: 16\n- Key support nodes: Kim Manners, Villarreal Cf, Betty White, Welling United F.c., Steve-o, Inverness Caledonian Thistle F.c., T. Rajendar, Keith Richards\n- Main auxiliary relations: hasEndowmentCurrency(15), hasWinner(10), hasImpersonatedCelebrities(5)\n\nFrequent relation path patterns:\n- hasAthlete (count=16)\n- hasImpersonatedCelebrities -> hasAthlete (count=4)\n\nCandidates:\n1. Protestantism [id=795 | class=Religion | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Auburn University [id=2588 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Cool Jazz [id=13081 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Prison Break [id=8363 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n5. Michael Bay [id=11593 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=0]\n6. The Iron Lady [id=1598 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Bucks County [id=7220 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Shasta County [id=8994 | class=Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Foreigner [id=12527 | class=Band | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Carlsbad [id=9676 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. United States Department of State [id=13745 | class=Government Agency | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Syd Barrett [id=8298 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Portland Pirates [id=9553 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Timmins [id=12881 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Unknown [id=12938 | class=Unknown | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. S.s. Lazio [id=811 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Trevor Howard [id=7105 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Welling United F.c. [id=7661 | class=Sports Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Steve-o [id=10925 | class=Comedian | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Cardinal [id=9183 | class=Bird | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n"
 }

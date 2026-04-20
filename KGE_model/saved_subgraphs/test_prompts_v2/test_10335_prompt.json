@@ -7,15 +7,15 @@
         "relation_label": "hasRosterPosition",
         "gold_tail": 5817,
         "gold_tail_label": "Why We Fight",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 9
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 2631,
-            "entity_label": "Joshua Logan",
-            "entity_class": "Person",
+            "entity_id": 270,
+            "entity_label": "Writers Guild of America Award for Best Adapted Screenplay",
+            "entity_class": "Award",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -29,24 +29,24 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 13511,
-            "entity_label": "Shochiku",
-            "entity_class": "Company",
-            "score": 3.918865,
+            "entity_id": 12735,
+            "entity_label": "Virus",
+            "entity_class": "Biological Entity",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 6,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 3,
-            "entity_id": 5029,
-            "entity_label": "Exeter",
+            "entity_id": 13705,
+            "entity_label": "Breda",
             "entity_class": "City",
             "score": 0.0,
             "features": {
@@ -61,40 +61,8 @@
         },
         {
             "rank_index": 4,
-            "entity_id": 805,
-            "entity_label": "The Lord of the Rings: the Fellowship of the Ring",
-            "entity_class": "Movie",
-            "score": 4.453878,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 9,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 3020,
-            "entity_label": "Austin",
-            "entity_class": "City",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 12009,
-            "entity_label": "Harry Andrews",
+            "entity_id": 1114,
+            "entity_label": "Darryl F. Zanuck",
             "entity_class": "Person",
             "score": 0.0,
             "features": {
@@ -108,10 +76,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 7,
-            "entity_id": 10246,
-            "entity_label": "Fayette County",
-            "entity_class": "County",
+            "rank_index": 5,
+            "entity_id": 7544,
+            "entity_label": "Jamie Gangel",
+            "entity_class": "Person",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -124,71 +92,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 8,
-            "entity_id": 13438,
-            "entity_label": "Principality of Moldavia",
-            "entity_class": "Historical Region",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 7230,
-            "entity_label": "Primetime Emmy Award for Outstanding Directing for a Comedy Series",
-            "entity_class": "Award",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 743,
-            "entity_label": "Some Kind of Monster",
-            "entity_class": "Movie Title",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 1810,
-            "entity_label": "A Christmas Carol",
-            "entity_class": "Book",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
+            "rank_index": 6,
             "entity_id": 13942,
             "entity_label": "Ctv Television Network",
             "entity_class": "Television Network",
@@ -204,26 +108,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 13,
-            "entity_id": 7280,
-            "entity_label": "George Lopez",
-            "entity_class": "Comedian",
-            "score": 5.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 2418,
-            "entity_label": "Antony Sher",
-            "entity_class": "Actor",
+            "rank_index": 7,
+            "entity_id": 3020,
+            "entity_label": "Austin",
+            "entity_class": "City",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -236,23 +124,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 15,
-            "entity_id": 5490,
-            "entity_label": "Grammy Award for Best Opera Recording",
-            "entity_class": "Award",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
+            "rank_index": 8,
             "entity_id": 7892,
             "entity_label": "Morris County",
             "entity_class": "Geographic Region",
@@ -268,39 +140,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 4864,
-            "entity_label": "Set Dresser",
-            "entity_class": "Job Title",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 14037,
-            "entity_label": "Pontefract",
-            "entity_class": "City",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
+            "rank_index": 9,
             "entity_id": 5817,
             "entity_label": "Why We Fight",
             "entity_class": "Film",
@@ -316,7 +156,135 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
+            "rank_index": 10,
+            "entity_id": 2418,
+            "entity_label": "Antony Sher",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 5245,
+            "entity_label": "Miniseries",
+            "entity_class": "Tv Format",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 743,
+            "entity_label": "Some Kind of Monster",
+            "entity_class": "Movie Title",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 11345,
+            "entity_label": "Delta Blues",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 5490,
+            "entity_label": "Grammy Award for Best Opera Recording",
+            "entity_class": "Award",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 14083,
+            "entity_label": "Padua",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 4864,
+            "entity_label": "Set Dresser",
+            "entity_class": "Job Title",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 1810,
+            "entity_label": "A Christmas Carol",
+            "entity_class": "Book",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
             "entity_id": 3776,
             "entity_label": "Hope Springs",
             "entity_class": "Movie",
@@ -330,29 +298,61 @@
                 "key": 1
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 12009,
+            "entity_label": "Harry Andrews",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 13511,
+            "entity_label": "Shochiku",
+            "entity_class": "Company",
+            "score": 3.918865,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 6,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "2631": 1,
-        "13511": 2,
-        "5029": 3,
-        "805": 4,
-        "3020": 5,
-        "12009": 6,
-        "10246": 7,
-        "13438": 8,
-        "7230": 9,
-        "743": 10,
-        "1810": 11,
-        "13942": 12,
-        "7280": 13,
-        "2418": 14,
-        "5490": 15,
-        "7892": 16,
-        "4864": 17,
-        "14037": 18,
-        "5817": 19,
-        "3776": 20
+        "270": 1,
+        "12735": 2,
+        "13705": 3,
+        "1114": 4,
+        "7544": 5,
+        "13942": 6,
+        "3020": 7,
+        "7892": 8,
+        "5817": 9,
+        "2418": 10,
+        "5245": 11,
+        "743": 12,
+        "11345": 13,
+        "5490": 14,
+        "14083": 15,
+        "4864": 16,
+        "1810": 17,
+        "3776": 18,
+        "12009": 19,
+        "13511": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Walsall F.c., relation=hasRosterPosition, tail=?)\n\nOntology summary:\n- Query relation: hasRosterPosition\n- Head entity: Walsall F.c.\n- Head class: Football Club\n- Relation domain: Football Club\n- Relation range: Position\n- Domain check: matched\n- Tail entities of class 'Position' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=42, edges=58, paths=20\n- Head outgoing edges under target relation hasRosterPosition: 4\n- Key support nodes: Walsall F.c., Hope Springs, The Lord of the Rings: the Fellowship of the Ring, Shochiku, George Lopez, Grammy Award for Best Opera Recording, Why We Fight, Bancroft Prize\n- Main auxiliary relations: hasDomesticTuition(25), hasOfficialLanguage(2), hasProgram(1)\n\nFrequent relation path patterns:\n- hasRosterPosition -> hasDomesticTuition -> hasRosterPosition (count=16)\n- hasRosterPosition (count=4)\n\nCandidates:\n1. Joshua Logan [id=2631 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Shochiku [id=13511 | class=Company | type=0 | soft_type=0 | direct=0 | paths=6 | aux=0 | key=1]\n3. Exeter [id=5029 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. The Lord of the Rings: the Fellowship of the Ring [id=805 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=9 | aux=0 | key=1]\n5. Austin [id=3020 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Harry Andrews [id=12009 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Fayette County [id=10246 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Principality of Moldavia [id=13438 | class=Historical Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Primetime Emmy Award for Outstanding Directing for a Comedy Series [id=7230 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Some Kind of Monster [id=743 | class=Movie Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. A Christmas Carol [id=1810 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Ctv Television Network [id=13942 | class=Television Network | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. George Lopez [id=7280 | class=Comedian | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n14. Antony Sher [id=2418 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Grammy Award for Best Opera Recording [id=5490 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. Morris County [id=7892 | class=Geographic Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Set Dresser [id=4864 | class=Job Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Why We Fight [id=5817 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Hope Springs [id=3776 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Walsall F.c., relation=hasRosterPosition, tail=?)\n\nOntology summary:\n- Query relation: hasRosterPosition\n- Head entity: Walsall F.c.\n- Head class: Football Club\n- Relation domain: Football Club\n- Relation range: Position\n- Domain check: matched\n- Tail entities of class 'Position' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=42, edges=58, paths=20\n- Head outgoing edges under target relation hasRosterPosition: 4\n- Key support nodes: Walsall F.c., Hope Springs, The Lord of the Rings: the Fellowship of the Ring, Shochiku, George Lopez, Grammy Award for Best Opera Recording, Why We Fight, Bancroft Prize\n- Main auxiliary relations: hasDomesticTuition(25), hasOfficialLanguage(2), hasProgram(1)\n\nFrequent relation path patterns:\n- hasRosterPosition -> hasDomesticTuition -> hasRosterPosition (count=16)\n- hasRosterPosition (count=4)\n\nCandidates:\n1. Writers Guild of America Award for Best Adapted Screenplay [id=270 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Virus [id=12735 | class=Biological Entity | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Breda [id=13705 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Darryl F. Zanuck [id=1114 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Ctv Television Network [id=13942 | class=Television Network | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Austin [id=3020 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Morris County [id=7892 | class=Geographic Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Why We Fight [id=5817 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Antony Sher [id=2418 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Some Kind of Monster [id=743 | class=Movie Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Grammy Award for Best Opera Recording [id=5490 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n15. Padua [id=14083 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Set Dresser [id=4864 | class=Job Title | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. A Christmas Carol [id=1810 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Hope Springs [id=3776 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Harry Andrews [id=12009 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Shochiku [id=13511 | class=Company | type=0 | soft_type=0 | direct=0 | paths=6 | aux=0 | key=1]\n"
 }

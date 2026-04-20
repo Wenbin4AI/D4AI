@@ -7,60 +7,12 @@
         "relation_label": "hasSubject",
         "gold_tail": 9959,
         "gold_tail_label": "Midnight in Paris",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 17
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 8384,
-            "entity_label": "Darren Aronofsky",
-            "entity_class": "Person",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 2,
-            "entity_id": 2699,
-            "entity_label": "Reds",
-            "entity_class": "Movie",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 967,
-            "entity_label": "Comedian",
-            "entity_class": "Profession",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
             "entity_id": 7477,
             "entity_label": "Tombstone",
             "entity_class": "Movie",
@@ -76,135 +28,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 5,
-            "entity_id": 3408,
-            "entity_label": "Pennsylvania",
-            "entity_class": "State",
-            "score": 2.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 7636,
-            "entity_label": "Apocalypto",
-            "entity_class": "Film",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 12999,
-            "entity_label": "Holby City",
-            "entity_class": "Tv Series",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 11625,
-            "entity_label": "Independent Record Label",
-            "entity_class": "Record Label",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 4009,
-            "entity_label": "Mao's Last Dancer",
-            "entity_class": "Movie",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 1179,
-            "entity_label": "The Artist",
-            "entity_class": "Film",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 14017,
-            "entity_label": "El Paso County",
-            "entity_class": "地理位置",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 10363,
-            "entity_label": "Codemasters",
-            "entity_class": "Video Game Developer",
-            "score": 2.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
+            "rank_index": 2,
             "entity_id": 4129,
             "entity_label": "The Life and Death of Peter Sellers",
             "entity_class": "Movie",
@@ -220,10 +44,106 @@
             "is_gold": 0
         },
         {
-            "rank_index": 14,
-            "entity_id": 11133,
-            "entity_label": "Beloved",
-            "entity_class": "Novel",
+            "rank_index": 3,
+            "entity_id": 8154,
+            "entity_label": "Tragedy",
+            "entity_class": "Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 13338,
+            "entity_label": "Charleston County",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 9166,
+            "entity_label": "Yale School of Medicine",
+            "entity_class": "Medical School",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 9378,
+            "entity_label": "Florence",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 8384,
+            "entity_label": "Darren Aronofsky",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 13400,
+            "entity_label": "Dorchester Town F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 7636,
+            "entity_label": "Apocalypto",
+            "entity_class": "Film",
             "score": 1.5,
             "features": {
                 "type_match": 0,
@@ -236,41 +156,41 @@
             "is_gold": 0
         },
         {
-            "rank_index": 15,
-            "entity_id": 660,
-            "entity_label": "Grindhouse",
-            "entity_class": "Movie",
-            "score": 7.147918,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 7440,
-            "entity_label": "Phosphorus",
-            "entity_class": "Chemical Element",
-            "score": 1.039721,
+            "rank_index": 10,
+            "entity_id": 2778,
+            "entity_label": "Dave Mustaine",
+            "entity_class": "Person",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 11112,
-            "entity_label": "The Glenn Miller Story",
+            "rank_index": 11,
+            "entity_id": 13928,
+            "entity_label": "Kill Rock Stars",
+            "entity_class": "Company",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 2699,
+            "entity_label": "Reds",
             "entity_class": "Movie",
             "score": 4.5,
             "features": {
@@ -284,7 +204,55 @@
             "is_gold": 0
         },
         {
-            "rank_index": 18,
+            "rank_index": 13,
+            "entity_id": 10323,
+            "entity_label": "Aesthetics",
+            "entity_class": "Philosophy",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 11896,
+            "entity_label": "Celtic Music",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 11625,
+            "entity_label": "Independent Record Label",
+            "entity_class": "Record Label",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
             "entity_id": 13013,
             "entity_label": "Middlesex",
             "entity_class": "County",
@@ -300,7 +268,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 17,
             "entity_id": 9959,
             "entity_label": "Midnight in Paris",
             "entity_class": "Film",
@@ -316,43 +284,75 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 7604,
-            "entity_label": "Jesus",
-            "entity_class": "Religious Figure",
-            "score": 6.079442,
+            "rank_index": 18,
+            "entity_id": 12462,
+            "entity_label": "Vadivelu",
+            "entity_class": "Person",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 3,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 3608,
+            "entity_label": "M. Night Shyamalan",
+            "entity_class": "Director",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 14530,
+            "entity_label": "Natural History",
+            "entity_class": "Field of Study",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "8384": 1,
-        "2699": 2,
-        "967": 3,
-        "7477": 4,
-        "3408": 5,
-        "7636": 6,
-        "12999": 7,
-        "11625": 8,
-        "4009": 9,
-        "1179": 10,
-        "14017": 11,
-        "10363": 12,
-        "4129": 13,
-        "11133": 14,
-        "660": 15,
-        "7440": 16,
-        "11112": 17,
-        "13013": 18,
-        "9959": 19,
-        "7604": 20
+        "7477": 1,
+        "4129": 2,
+        "8154": 3,
+        "13338": 4,
+        "9166": 5,
+        "9378": 6,
+        "8384": 7,
+        "13400": 8,
+        "7636": 9,
+        "2778": 10,
+        "13928": 11,
+        "2699": 12,
+        "10323": 13,
+        "11896": 14,
+        "11625": 15,
+        "13013": 16,
+        "9959": 17,
+        "12462": 18,
+        "3608": 19,
+        "14530": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=David Carradine, relation=hasSubject, tail=?)\n\nOntology summary:\n- Query relation: hasSubject\n- Head entity: David Carradine\n- Head class: Actor\n- Relation domain: Event\n- Relation range: Movie\n- Domain check: not clearly matched\n- Tail entities of class 'Movie' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=36, edges=47, paths=20\n- Head outgoing edges under target relation hasSubject: 2\n- Key support nodes: David Carradine, Tabla, Montgomery County, Jesus, Middlesex, Pennsylvania, The Life and Death of Peter Sellers, Grindhouse\n- Main auxiliary relations: hasAthlete(7), hasAward(5), hasBorder(4)\n\nFrequent relation path patterns:\n- hasCapital -> hasSubject (count=18)\n- hasSubject (count=2)\n\nCandidates:\n1. Darren Aronofsky [id=8384 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Reds [id=2699 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Comedian [id=967 | class=Profession | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n4. Tombstone [id=7477 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n5. Pennsylvania [id=3408 | class=State | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n6. Apocalypto [id=7636 | class=Film | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Holby City [id=12999 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n8. Independent Record Label [id=11625 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n9. Mao's Last Dancer [id=4009 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. The Artist [id=1179 | class=Film | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. El Paso County [id=14017 | class=地理位置 | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n12. Codemasters [id=10363 | class=Video Game Developer | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n13. The Life and Death of Peter Sellers [id=4129 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=2 | aux=0 | key=1]\n14. Beloved [id=11133 | class=Novel | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Grindhouse [id=660 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=2 | aux=0 | key=1]\n16. Phosphorus [id=7440 | class=Chemical Element | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n17. The Glenn Miller Story [id=11112 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Middlesex [id=13013 | class=County | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n19. Midnight in Paris [id=9959 | class=Film | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n20. Jesus [id=7604 | class=Religious Figure | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=David Carradine, relation=hasSubject, tail=?)\n\nOntology summary:\n- Query relation: hasSubject\n- Head entity: David Carradine\n- Head class: Actor\n- Relation domain: Event\n- Relation range: Movie\n- Domain check: not clearly matched\n- Tail entities of class 'Movie' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=36, edges=47, paths=20\n- Head outgoing edges under target relation hasSubject: 2\n- Key support nodes: David Carradine, Tabla, Montgomery County, Jesus, Middlesex, Pennsylvania, The Life and Death of Peter Sellers, Grindhouse\n- Main auxiliary relations: hasAthlete(7), hasAward(5), hasBorder(4)\n\nFrequent relation path patterns:\n- hasCapital -> hasSubject (count=18)\n- hasSubject (count=2)\n\nCandidates:\n1. Tombstone [id=7477 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n2. The Life and Death of Peter Sellers [id=4129 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=2 | aux=0 | key=1]\n3. Tragedy [id=8154 | class=Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Charleston County [id=13338 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Yale School of Medicine [id=9166 | class=Medical School | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Florence [id=9378 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Darren Aronofsky [id=8384 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Dorchester Town F.c. [id=13400 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Apocalypto [id=7636 | class=Film | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Dave Mustaine [id=2778 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Kill Rock Stars [id=13928 | class=Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Reds [id=2699 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Aesthetics [id=10323 | class=Philosophy | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Celtic Music [id=11896 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Independent Record Label [id=11625 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n16. Middlesex [id=13013 | class=County | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n17. Midnight in Paris [id=9959 | class=Film | type=0 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n18. Vadivelu [id=12462 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. M. Night Shyamalan [id=3608 | class=Director | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Natural History [id=14530 | class=Field of Study | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

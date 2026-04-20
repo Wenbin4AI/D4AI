@@ -7,21 +7,21 @@
         "relation_label": "hasDesignedFilmSets",
         "gold_tail": 4166,
         "gold_tail_label": "Jenna Bush Hager",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 11
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 6621,
-            "entity_label": "Bob Marley",
-            "entity_class": "Person",
-            "score": 4.039721,
+            "entity_id": 8594,
+            "entity_label": "Rachael Leigh Cook",
+            "entity_class": "Actress",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -29,70 +29,22 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 2543,
-            "entity_label": "Beck",
-            "entity_class": "Musician",
-            "score": 5.039721,
+            "entity_id": 13799,
+            "entity_label": "Ronny Cox",
+            "entity_class": "Actor",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 11525,
-            "entity_label": "Nathan Lane",
-            "entity_class": "Person",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 4,
-            "entity_id": 7464,
-            "entity_label": "University of North Carolina School of the Arts",
-            "entity_class": "School",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 149,
-            "entity_label": "Anjelica Huston",
-            "entity_class": "Actor",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
+            "rank_index": 3,
             "entity_id": 8222,
             "entity_label": "Bruce Berman",
             "entity_class": "Person",
@@ -108,87 +60,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 7,
-            "entity_id": 1099,
-            "entity_label": "Jerry Bruckheimer",
-            "entity_class": "Person",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 12838,
-            "entity_label": "Mangaluru",
-            "entity_class": "City",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 4201,
-            "entity_label": "Jacksonville Jaguars",
-            "entity_class": "Sports Team",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 1655,
-            "entity_label": "Vera Drake",
-            "entity_class": "Movie",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 9127,
-            "entity_label": "Michael Kamen",
-            "entity_class": "Composer",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
+            "rank_index": 4,
             "entity_id": 4594,
             "entity_label": "Trainspotting",
             "entity_class": "Movie",
@@ -204,30 +76,14 @@
             "is_gold": 0
         },
         {
-            "rank_index": 13,
-            "entity_id": 1644,
-            "entity_label": "Jimmy Van Heusen",
-            "entity_class": "Composer",
-            "score": 6.079442,
+            "rank_index": 5,
+            "entity_id": 13475,
+            "entity_label": "Wally Wingert",
+            "entity_class": "Person",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 3,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 7152,
-            "entity_label": "The Truman Show",
-            "entity_class": "Movie",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -236,26 +92,42 @@
             "is_gold": 0
         },
         {
-            "rank_index": 15,
-            "entity_id": 8845,
-            "entity_label": "Jaime Pressly",
-            "entity_class": "Actress",
-            "score": 5.647918,
+            "rank_index": 6,
+            "entity_id": 1341,
+            "entity_label": "Alex Borstein",
+            "entity_class": "Actor",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 2,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 16,
-            "entity_id": 7043,
-            "entity_label": "Slapstick",
-            "entity_class": "Comedy Genre",
+            "rank_index": 7,
+            "entity_id": 10329,
+            "entity_label": "Pork",
+            "entity_class": "Food",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 11525,
+            "entity_label": "Nathan Lane",
+            "entity_class": "Person",
             "score": 4.039721,
             "features": {
                 "type_match": 0,
@@ -268,39 +140,39 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 6330,
-            "entity_label": "Tim Armstrong",
-            "entity_class": "Musician",
-            "score": 5.039721,
+            "rank_index": 9,
+            "entity_id": 5389,
+            "entity_label": "The Walking Dead",
+            "entity_class": "Tv Series",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 7357,
-            "entity_label": "Murali",
+            "rank_index": 10,
+            "entity_id": 5773,
+            "entity_label": "Mike Mogis",
             "entity_class": "Person",
-            "score": 5.039721,
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
-                "key": 1
+                "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 11,
             "entity_id": 4166,
             "entity_label": "Jenna Bush Hager",
             "entity_class": "Television Personality",
@@ -316,7 +188,87 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
+            "rank_index": 12,
+            "entity_id": 2626,
+            "entity_label": "Dennis Muren",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 10407,
+            "entity_label": "Minnesota Wild",
+            "entity_class": "Sports Team",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 7464,
+            "entity_label": "University of North Carolina School of the Arts",
+            "entity_class": "School",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 11411,
+            "entity_label": "Canton Vaud",
+            "entity_class": "Canton",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 1644,
+            "entity_label": "Jimmy Van Heusen",
+            "entity_class": "Composer",
+            "score": 6.079442,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 3,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
             "entity_id": 12896,
             "entity_label": "Fist of the North Star",
             "entity_class": "Media Franchise",
@@ -330,29 +282,77 @@
                 "key": 1
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 9801,
+            "entity_label": "2010 Toronto International Film Festival",
+            "entity_class": "Event",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 5472,
+            "entity_label": "St Trinian's",
+            "entity_class": "Movie Series",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 14384,
+            "entity_label": "Southern Soul",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "6621": 1,
-        "2543": 2,
-        "11525": 3,
-        "7464": 4,
-        "149": 5,
-        "8222": 6,
-        "1099": 7,
-        "12838": 8,
-        "4201": 9,
-        "1655": 10,
-        "9127": 11,
-        "4594": 12,
-        "1644": 13,
-        "7152": 14,
-        "8845": 15,
-        "7043": 16,
-        "6330": 17,
-        "7357": 18,
-        "4166": 19,
-        "12896": 20
+        "8594": 1,
+        "13799": 2,
+        "8222": 3,
+        "4594": 4,
+        "13475": 5,
+        "1341": 6,
+        "10329": 7,
+        "11525": 8,
+        "5389": 9,
+        "5773": 10,
+        "4166": 11,
+        "2626": 12,
+        "10407": 13,
+        "7464": 14,
+        "11411": 15,
+        "1644": 16,
+        "12896": 17,
+        "9801": 18,
+        "5472": 19,
+        "14384": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Joseph Conrad, relation=hasDesignedFilmSets, tail=?)\n\nOntology summary:\n- Query relation: hasDesignedFilmSets\n- Head entity: Joseph Conrad\n- Head class: Person\n- Relation domain: Person\n- Relation range: Movie\n- Domain check: matched\n- Tail entities of class 'Movie' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=39, edges=49, paths=20\n- Head outgoing edges under target relation hasDesignedFilmSets: 17\n- Key support nodes: Joseph Conrad, Jimmy Van Heusen, Jaime Pressly, University of North Carolina School of the Arts, Murali, Anjelica Huston, Fist of the North Star, Beck\n- Main auxiliary relations: hasNetflixGenreTitle(9), hasStudent(4), isInductedIntoHallOfFame(2)\n\nFrequent relation path patterns:\n- hasDesignedFilmSets (count=17)\n- hasDesignedFilmSets -> hasDesignedFilmSets (count=3)\n\nCandidates:\n1. Bob Marley [id=6621 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. Beck [id=2543 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Nathan Lane [id=11525 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. University of North Carolina School of the Arts [id=7464 | class=School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Anjelica Huston [id=149 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Bruce Berman [id=8222 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Jerry Bruckheimer [id=1099 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Mangaluru [id=12838 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Jacksonville Jaguars [id=4201 | class=Sports Team | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Vera Drake [id=1655 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Michael Kamen [id=9127 | class=Composer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Trainspotting [id=4594 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Jimmy Van Heusen [id=1644 | class=Composer | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n14. The Truman Show [id=7152 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Jaime Pressly [id=8845 | class=Actress | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n16. Slapstick [id=7043 | class=Comedy Genre | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Tim Armstrong [id=6330 | class=Musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Murali [id=7357 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Jenna Bush Hager [id=4166 | class=Television Personality | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Fist of the North Star [id=12896 | class=Media Franchise | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Joseph Conrad, relation=hasDesignedFilmSets, tail=?)\n\nOntology summary:\n- Query relation: hasDesignedFilmSets\n- Head entity: Joseph Conrad\n- Head class: Person\n- Relation domain: Person\n- Relation range: Movie\n- Domain check: matched\n- Tail entities of class 'Movie' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=39, edges=49, paths=20\n- Head outgoing edges under target relation hasDesignedFilmSets: 17\n- Key support nodes: Joseph Conrad, Jimmy Van Heusen, Jaime Pressly, University of North Carolina School of the Arts, Murali, Anjelica Huston, Fist of the North Star, Beck\n- Main auxiliary relations: hasNetflixGenreTitle(9), hasStudent(4), isInductedIntoHallOfFame(2)\n\nFrequent relation path patterns:\n- hasDesignedFilmSets (count=17)\n- hasDesignedFilmSets -> hasDesignedFilmSets (count=3)\n\nCandidates:\n1. Rachael Leigh Cook [id=8594 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Ronny Cox [id=13799 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Bruce Berman [id=8222 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Trainspotting [id=4594 | class=Movie | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Wally Wingert [id=13475 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Alex Borstein [id=1341 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Pork [id=10329 | class=Food | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Nathan Lane [id=11525 | class=Person | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. The Walking Dead [id=5389 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Mike Mogis [id=5773 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Jenna Bush Hager [id=4166 | class=Television Personality | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. Dennis Muren [id=2626 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Minnesota Wild [id=10407 | class=Sports Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. University of North Carolina School of the Arts [id=7464 | class=School | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n15. Canton Vaud [id=11411 | class=Canton | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Jimmy Van Heusen [id=1644 | class=Composer | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n17. Fist of the North Star [id=12896 | class=Media Franchise | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. 2010 Toronto International Film Festival [id=9801 | class=Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. St Trinian's [id=5472 | class=Movie Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Southern Soul [id=14384 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

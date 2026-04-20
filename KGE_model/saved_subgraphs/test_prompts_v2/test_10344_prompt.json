@@ -7,23 +7,23 @@
         "relation_label": "hasSoundtrack",
         "gold_tail": 4033,
         "gold_tail_label": "South Pacific",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 17
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 5245,
-            "entity_label": "Miniseries",
-            "entity_class": "Tv Format",
-            "score": 0.0,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
+            "entity_class": "City",
+            "score": 4.871201,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
+                "path_count": 3,
+                "aux_support": 5,
+                "key": 1
             },
             "is_gold": 0
         },
@@ -45,22 +45,6 @@
         },
         {
             "rank_index": 3,
-            "entity_id": 13843,
-            "entity_label": "Boaz Davidson",
-            "entity_class": "Person",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
             "entity_id": 5974,
             "entity_label": "Rachel Portman",
             "entity_class": "Composer",
@@ -76,135 +60,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 5,
-            "entity_id": 1114,
-            "entity_label": "Darryl F. Zanuck",
-            "entity_class": "Person",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 7544,
-            "entity_label": "Jamie Gangel",
-            "entity_class": "Person",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 7952,
-            "entity_label": "Gilles Deleuze",
-            "entity_class": "Person",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 10059,
-            "entity_label": "Sc Heerenveen",
-            "entity_class": "Football Club",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 1039,
-            "entity_label": "Colin Firth",
-            "entity_class": "Actor",
-            "score": 3.426015,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 3,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 5604,
-            "entity_label": "Dermot Mulroney",
-            "entity_class": "Person",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 2937,
-            "entity_label": "Morgan Freeman",
-            "entity_class": "Person",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 9563,
-            "entity_label": "Alec Berg",
-            "entity_class": "Person",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
+            "rank_index": 4,
             "entity_id": 9995,
             "entity_label": "David Henrie",
             "entity_class": "Person",
@@ -220,9 +76,89 @@
             "is_gold": 0
         },
         {
-            "rank_index": 14,
-            "entity_id": 5388,
-            "entity_label": "Lili Taylor",
+            "rank_index": 5,
+            "entity_id": 10059,
+            "entity_label": "Sc Heerenveen",
+            "entity_class": "Football Club",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 5958,
+            "entity_label": "The Cabin in the Woods",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 8647,
+            "entity_label": "Joel Schumacher",
+            "entity_class": "Film Director",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 8982,
+            "entity_label": "Maaya Sakamoto",
+            "entity_class": "Voice Actress and Singer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 4106,
+            "entity_label": "Mongol Invasions and Conquests",
+            "entity_class": "Historical Event",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 7952,
+            "entity_label": "Gilles Deleuze",
             "entity_class": "Person",
             "score": 1.5,
             "features": {
@@ -236,23 +172,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 15,
-            "entity_id": 6765,
-            "entity_label": "Kristin Scott Thomas",
-            "entity_class": "Person",
-            "score": 5.272589,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 3,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
+            "rank_index": 11,
             "entity_id": 13292,
             "entity_label": "William Lava",
             "entity_class": "Person",
@@ -268,39 +188,87 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 9709,
-            "entity_label": "Nick Broomfield",
-            "entity_class": "Film Director",
-            "score": 3.341066,
+            "rank_index": 12,
+            "entity_id": 14386,
+            "entity_label": "Bath Iron Works",
+            "entity_class": "Company",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 6631,
+            "entity_label": "Blake Edwards",
+            "entity_class": "Film Director",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 3683,
+            "entity_label": "University of Minnesota",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 5604,
+            "entity_label": "Dermot Mulroney",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 6765,
+            "entity_label": "Kristin Scott Thomas",
+            "entity_class": "Person",
+            "score": 5.272589,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 3,
                 "aux_support": 1,
                 "key": 1
             },
             "is_gold": 0
         },
         {
-            "rank_index": 18,
-            "entity_id": 4994,
-            "entity_label": "Seattle",
-            "entity_class": "City",
-            "score": 1.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
+            "rank_index": 17,
             "entity_id": 4033,
             "entity_label": "South Pacific",
             "entity_class": "Region",
@@ -316,43 +284,75 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 14037,
-            "entity_label": "Pontefract",
-            "entity_class": "City",
-            "score": 4.871201,
+            "rank_index": 18,
+            "entity_id": 11345,
+            "entity_label": "Delta Blues",
+            "entity_class": "Music Genre",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 3,
-                "aux_support": 5,
-                "key": 1
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 4810,
+            "entity_label": "Danubio F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 14251,
+            "entity_label": "Shiraz",
+            "entity_class": "Location",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "5245": 1,
+        "14037": 1,
         "12465": 2,
-        "13843": 3,
-        "5974": 4,
-        "1114": 5,
-        "7544": 6,
-        "7952": 7,
-        "10059": 8,
-        "1039": 9,
-        "5604": 10,
-        "2937": 11,
-        "9563": 12,
-        "9995": 13,
-        "5388": 14,
-        "6765": 15,
-        "13292": 16,
-        "9709": 17,
-        "4994": 18,
-        "4033": 19,
-        "14037": 20
+        "5974": 3,
+        "9995": 4,
+        "10059": 5,
+        "5958": 6,
+        "8647": 7,
+        "8982": 8,
+        "4106": 9,
+        "7952": 10,
+        "13292": 11,
+        "14386": 12,
+        "6631": 13,
+        "3683": 14,
+        "5604": 15,
+        "6765": 16,
+        "4033": 17,
+        "11345": 18,
+        "4810": 19,
+        "14251": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=South Pacific, relation=hasSoundtrack, tail=?)\n\nOntology summary:\n- Query relation: hasSoundtrack\n- Head entity: South Pacific\n- Head class: Region\n- Relation domain: Movie\n- Relation range: Composer\n- Domain check: not clearly matched\n- Tail entities of class 'Composer' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=15, edges=34, paths=20\n- Head outgoing edges under target relation hasSoundtrack: 0\n- Key support nodes: South Pacific, Joyce Carol Oates, David Henrie, Rio Ave F.c., Springfield, Colin Firth, Kristin Scott Thomas, Pontefract\n- Main auxiliary relations: hasDraftPickFromSchool(6), hasGenre(6), hasBorder(5)\n\nFrequent relation path patterns:\n- isRecurringEvent -> hasGenre (count=2)\n- isRecurringEvent -> hasColors -> hasGenre (count=2)\n- isRecurringEvent -> hasGenre -> hasDraftPickFromSchool (count=2)\n- isRecurringEvent -> hasColors -> hasDraftPickFromSchool (count=2)\n- isRecurringEvent -> hasGenre -> hasBorder (count=2)\n\nCandidates:\n1. Miniseries [id=5245 | class=Tv Format | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Rio Ave F.c. [id=12465 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=2 | aux=3 | key=1]\n3. Boaz Davidson [id=13843 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Rachel Portman [id=5974 | class=Composer | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Darryl F. Zanuck [id=1114 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Gilles Deleuze [id=7952 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Sc Heerenveen [id=10059 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n9. Colin Firth [id=1039 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]\n10. Dermot Mulroney [id=5604 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Morgan Freeman [id=2937 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Alec Berg [id=9563 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. David Henrie [id=9995 | class=Person | type=0 | soft_type=1 | direct=0 | paths=7 | aux=4 | key=1]\n14. Lili Taylor [id=5388 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Kristin Scott Thomas [id=6765 | class=Person | type=0 | soft_type=1 | direct=0 | paths=3 | aux=1 | key=1]\n16. William Lava [id=13292 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Nick Broomfield [id=9709 | class=Film Director | type=0 | soft_type=0 | direct=0 | paths=2 | aux=1 | key=1]\n18. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=0]\n19. South Pacific [id=4033 | class=Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=1]\n20. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=3 | aux=5 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=South Pacific, relation=hasSoundtrack, tail=?)\n\nOntology summary:\n- Query relation: hasSoundtrack\n- Head entity: South Pacific\n- Head class: Region\n- Relation domain: Movie\n- Relation range: Composer\n- Domain check: not clearly matched\n- Tail entities of class 'Composer' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=15, edges=34, paths=20\n- Head outgoing edges under target relation hasSoundtrack: 0\n- Key support nodes: South Pacific, Joyce Carol Oates, David Henrie, Rio Ave F.c., Springfield, Colin Firth, Kristin Scott Thomas, Pontefract\n- Main auxiliary relations: hasDraftPickFromSchool(6), hasGenre(6), hasBorder(5)\n\nFrequent relation path patterns:\n- isRecurringEvent -> hasGenre (count=2)\n- isRecurringEvent -> hasColors -> hasGenre (count=2)\n- isRecurringEvent -> hasGenre -> hasDraftPickFromSchool (count=2)\n- isRecurringEvent -> hasColors -> hasDraftPickFromSchool (count=2)\n- isRecurringEvent -> hasGenre -> hasBorder (count=2)\n\nCandidates:\n1. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=3 | aux=5 | key=1]\n2. Rio Ave F.c. [id=12465 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=2 | aux=3 | key=1]\n3. Rachel Portman [id=5974 | class=Composer | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. David Henrie [id=9995 | class=Person | type=0 | soft_type=1 | direct=0 | paths=7 | aux=4 | key=1]\n5. Sc Heerenveen [id=10059 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. The Cabin in the Woods [id=5958 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Joel Schumacher [id=8647 | class=Film Director | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Maaya Sakamoto [id=8982 | class=Voice Actress and Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Mongol Invasions and Conquests [id=4106 | class=Historical Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Gilles Deleuze [id=7952 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. William Lava [id=13292 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Bath Iron Works [id=14386 | class=Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Blake Edwards [id=6631 | class=Film Director | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. University of Minnesota [id=3683 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Dermot Mulroney [id=5604 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n16. Kristin Scott Thomas [id=6765 | class=Person | type=0 | soft_type=1 | direct=0 | paths=3 | aux=1 | key=1]\n17. South Pacific [id=4033 | class=Region | type=0 | soft_type=0 | direct=0 | paths=0 | aux=2 | key=1]\n18. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Danubio F.c. [id=4810 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Shiraz [id=14251 | class=Location | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

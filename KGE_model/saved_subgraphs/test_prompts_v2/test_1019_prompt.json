@@ -7,21 +7,21 @@
         "relation_label": "hasAthlete",
         "gold_tail": 811,
         "gold_tail_label": "S.s. Lazio",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 9
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 4486,
-            "entity_label": "Teachers College",
-            "entity_class": "College",
-            "score": 1.039721,
+            "entity_id": 2665,
+            "entity_label": "Juilliard School",
+            "entity_class": "School",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -29,166 +29,6 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 11159,
-            "entity_label": "Cliff Richard",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 2043,
-            "entity_label": "T. Rajendar",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 8363,
-            "entity_label": "Prison Break",
-            "entity_class": "Tv Show",
-            "score": 5.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 3246,
-            "entity_label": "Bob Newhart",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 1536,
-            "entity_label": "Michael Gambon",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 10392,
-            "entity_label": "Julie Delpy",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 7397,
-            "entity_label": "The Lives of a Bengal Lancer",
-            "entity_class": "Film",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 8298,
-            "entity_label": "Syd Barrett",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 5268,
-            "entity_label": "Anna Faris",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 7105,
-            "entity_label": "Trevor Howard",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
             "entity_id": 2541,
             "entity_label": "Keith Richards",
             "entity_class": "Singer/musician",
@@ -204,87 +44,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 13,
-            "entity_id": 11593,
-            "entity_label": "Michael Bay",
-            "entity_class": "Person",
-            "score": 9.539721,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 9183,
-            "entity_label": "Cardinal",
-            "entity_class": "Bird",
-            "score": 2.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 12527,
-            "entity_label": "Foreigner",
-            "entity_class": "Band",
-            "score": 7.119162,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 7,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 5703,
-            "entity_label": "Timothy Hutton",
-            "entity_class": "Actor",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
-            "entity_id": 9480,
-            "entity_label": "Gene Simmons",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
+            "rank_index": 3,
             "entity_id": 4133,
             "entity_label": "Matthew Mcconaughey",
             "entity_class": "Person",
@@ -300,7 +60,87 @@
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 4,
+            "entity_id": 3653,
+            "entity_label": "Kingdom of Italy",
+            "entity_class": "Country",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 7397,
+            "entity_label": "The Lives of a Bengal Lancer",
+            "entity_class": "Film",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 13038,
+            "entity_label": "Broadcasting",
+            "entity_class": "Broadcasting",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 2043,
+            "entity_label": "T. Rajendar",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
+            "entity_id": 11597,
+            "entity_label": "Villarreal Cf",
+            "entity_class": "Organization",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
             "entity_id": 811,
             "entity_label": "S.s. Lazio",
             "entity_class": "Football Club",
@@ -316,43 +156,203 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 10925,
-            "entity_label": "Steve-o",
-            "entity_class": "Comedian",
-            "score": 6.079442,
+            "rank_index": 10,
+            "entity_id": 8787,
+            "entity_label": "Queens Park Rangers F.c.",
+            "entity_class": "Football Club",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 1536,
+            "entity_label": "Michael Gambon",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 13081,
+            "entity_label": "Cool Jazz",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 7997,
+            "entity_label": "Psychiatry",
+            "entity_class": "Field of Study",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 11593,
+            "entity_label": "Michael Bay",
+            "entity_class": "Person",
+            "score": 9.539721,
+            "features": {
+                "type_match": 1,
+                "soft_type_match": 1,
                 "direct": 1,
-                "path_count": 3,
+                "path_count": 1,
                 "aux_support": 0,
                 "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 1294,
+            "entity_label": "Lisa Gerrard",
+            "entity_class": "Musician",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 3679,
+            "entity_label": "Lorimar Television",
+            "entity_class": "Company",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 9557,
+            "entity_label": "Anna Karenina",
+            "entity_class": "Book",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 8859,
+            "entity_label": "Betty White",
+            "entity_class": "Comedian",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 1045,
+            "entity_label": "Fish Tank",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 7105,
+            "entity_label": "Trevor Howard",
+            "entity_class": "Actor",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "4486": 1,
-        "11159": 2,
-        "2043": 3,
-        "8363": 4,
-        "3246": 5,
-        "1536": 6,
-        "10392": 7,
-        "7397": 8,
-        "8298": 9,
-        "5268": 10,
-        "7105": 11,
-        "2541": 12,
-        "11593": 13,
-        "9183": 14,
-        "12527": 15,
-        "5703": 16,
-        "9480": 17,
-        "4133": 18,
-        "811": 19,
-        "10925": 20
+        "2665": 1,
+        "2541": 2,
+        "4133": 3,
+        "3653": 4,
+        "7397": 5,
+        "13038": 6,
+        "2043": 7,
+        "11597": 8,
+        "811": 9,
+        "8787": 10,
+        "1536": 11,
+        "13081": 12,
+        "7997": 13,
+        "11593": 14,
+        "1294": 15,
+        "3679": 16,
+        "9557": 17,
+        "8859": 18,
+        "1045": 19,
+        "7105": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Paz De La Huerta, relation=hasAthlete, tail=?)\n\nOntology summary:\n- Query relation: hasAthlete\n- Head entity: Paz De La Huerta\n- Head class: Person\n- Relation domain: Sport\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=45, edges=57, paths=20\n- Head outgoing edges under target relation hasAthlete: 6\n- Key support nodes: Paz De La Huerta, Foreigner, Orlando Pirates F.c., Steve-o, Prison Break, Prime Minister of Canada, Russian Empire, Cardinal\n- Main auxiliary relations: hasEndowmentCurrency(8), hasImpersonatedCelebrities(8), hasWinner(6)\n\nFrequent relation path patterns:\n- hasImpersonatedCelebrities -> hasAthlete (count=14)\n- hasAthlete (count=6)\n\nCandidates:\n1. Teachers College [id=4486 | class=College | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n2. Cliff Richard [id=11159 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. T. Rajendar [id=2043 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Prison Break [id=8363 | class=Tv Show | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n5. Bob Newhart [id=3246 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. Michael Gambon [id=1536 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n7. Julie Delpy [id=10392 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. The Lives of a Bengal Lancer [id=7397 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n9. Syd Barrett [id=8298 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Anna Faris [id=5268 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Trevor Howard [id=7105 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Keith Richards [id=2541 | class=Singer/musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Michael Bay [id=11593 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n14. Cardinal [id=9183 | class=Bird | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n15. Foreigner [id=12527 | class=Band | type=0 | soft_type=0 | direct=1 | paths=7 | aux=0 | key=1]\n16. Timothy Hutton [id=5703 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Gene Simmons [id=9480 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Matthew Mcconaughey [id=4133 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. S.s. Lazio [id=811 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n20. Steve-o [id=10925 | class=Comedian | type=0 | soft_type=0 | direct=1 | paths=3 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Paz De La Huerta, relation=hasAthlete, tail=?)\n\nOntology summary:\n- Query relation: hasAthlete\n- Head entity: Paz De La Huerta\n- Head class: Person\n- Relation domain: Sport\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=45, edges=57, paths=20\n- Head outgoing edges under target relation hasAthlete: 6\n- Key support nodes: Paz De La Huerta, Foreigner, Orlando Pirates F.c., Steve-o, Prison Break, Prime Minister of Canada, Russian Empire, Cardinal\n- Main auxiliary relations: hasEndowmentCurrency(8), hasImpersonatedCelebrities(8), hasWinner(6)\n\nFrequent relation path patterns:\n- hasImpersonatedCelebrities -> hasAthlete (count=14)\n- hasAthlete (count=6)\n\nCandidates:\n1. Juilliard School [id=2665 | class=School | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Keith Richards [id=2541 | class=Singer/musician | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n3. Matthew Mcconaughey [id=4133 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n4. Kingdom of Italy [id=3653 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. The Lives of a Bengal Lancer [id=7397 | class=Film | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Broadcasting [id=13038 | class=Broadcasting | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. T. Rajendar [id=2043 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Villarreal Cf [id=11597 | class=Organization | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. S.s. Lazio [id=811 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Queens Park Rangers F.c. [id=8787 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Michael Gambon [id=1536 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Cool Jazz [id=13081 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Psychiatry [id=7997 | class=Field of Study | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Michael Bay [id=11593 | class=Person | type=1 | soft_type=1 | direct=1 | paths=1 | aux=0 | key=1]\n15. Lisa Gerrard [id=1294 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Lorimar Television [id=3679 | class=Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Anna Karenina [id=9557 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Betty White [id=8859 | class=Comedian | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Fish Tank [id=1045 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Trevor Howard [id=7105 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

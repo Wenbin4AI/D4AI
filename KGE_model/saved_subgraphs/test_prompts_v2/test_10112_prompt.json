@@ -7,15 +7,15 @@
         "relation_label": "hasRegularPerformanceRole",
         "gold_tail": 992,
         "gold_tail_label": "Transformers: Dark of the Moon",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 7
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 974,
-            "entity_label": "The Queen's College",
-            "entity_class": "College",
+            "entity_id": 7785,
+            "entity_label": "David Strathairn",
+            "entity_class": "Actor",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -29,70 +29,6 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 10466,
-            "entity_label": "The Pirate Movie",
-            "entity_class": "Movie",
-            "score": 2.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 14380,
-            "entity_label": "Adolescence",
-            "entity_class": "Stage",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 12317,
-            "entity_label": "York",
-            "entity_class": "City",
-            "score": 2.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 9136,
-            "entity_label": "Anaheim",
-            "entity_class": "City",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
             "entity_id": 6940,
             "entity_label": "Industrial Music",
             "entity_class": "Music Genre",
@@ -108,10 +44,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 7,
-            "entity_id": 5993,
-            "entity_label": "A Separation",
-            "entity_class": "Movie",
+            "rank_index": 3,
+            "entity_id": 9241,
+            "entity_label": "Mobile Suit Gundam Seed Destiny",
+            "entity_class": "Anime Series",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -124,7 +60,23 @@
             "is_gold": 0
         },
         {
-            "rank_index": 8,
+            "rank_index": 4,
+            "entity_id": 13606,
+            "entity_label": "Alachua County",
+            "entity_class": "County",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
             "entity_id": 8510,
             "entity_label": "American Psycho",
             "entity_class": "Movie",
@@ -140,42 +92,10 @@
             "is_gold": 0
         },
         {
-            "rank_index": 9,
-            "entity_id": 4588,
-            "entity_label": "Laura Carmichael",
-            "entity_class": "Actor",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 7829,
-            "entity_label": "Gary Sheffield",
-            "entity_class": "Baseball Player",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 8358,
-            "entity_label": "Speed Metal",
-            "entity_class": "Music Genre",
+            "rank_index": 6,
+            "entity_id": 2789,
+            "entity_label": "Zero Dark Thirty",
+            "entity_class": "Movie",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -188,119 +108,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 12,
-            "entity_id": 1385,
-            "entity_label": "Branford Marsalis",
-            "entity_class": "Musician",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 7537,
-            "entity_label": "Master of Laws",
-            "entity_class": "Academic Degree",
-            "score": 3.079442,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 3,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 1391,
-            "entity_label": "New Bedford",
-            "entity_class": "City",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 5474,
-            "entity_label": "Emilie De Ravin",
-            "entity_class": "Actress",
-            "score": 3.079442,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 3,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 10425,
-            "entity_label": "Havana",
-            "entity_class": "City",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
-            "entity_id": 3484,
-            "entity_label": "Transformers",
-            "entity_class": "Toy Series",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
-            "entity_id": 9720,
-            "entity_label": "Beverly D'angelo",
-            "entity_class": "Person",
-            "score": 1.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
+            "rank_index": 7,
             "entity_id": 992,
             "entity_label": "Transformers: Dark of the Moon",
             "entity_class": "Movie Title",
@@ -316,43 +124,235 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 10678,
-            "entity_label": "News",
-            "entity_class": "News",
-            "score": 3.079442,
+            "rank_index": 8,
+            "entity_id": 1385,
+            "entity_label": "Branford Marsalis",
+            "entity_class": "Musician",
+            "score": 1.039721,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 3,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 9178,
+            "entity_label": "Guyana",
+            "entity_class": "Country",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 12324,
+            "entity_label": "Lamar Odom",
+            "entity_class": "Person",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 9720,
+            "entity_label": "Beverly D'angelo",
+            "entity_class": "Person",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 7470,
+            "entity_label": "Funny Girl",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 3484,
+            "entity_label": "Transformers",
+            "entity_class": "Toy Series",
+            "score": 1.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 8162,
+            "entity_label": "The Avengers",
+            "entity_class": "Fictional Team",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 1905,
+            "entity_label": "Pete Postlethwaite",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 1091,
+            "entity_label": "1998 Winter Olympics",
+            "entity_class": "Event",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 708,
+            "entity_label": "1984 Summer Olympics",
+            "entity_class": "Event",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 9547,
+            "entity_label": "Religion",
+            "entity_class": "Religion",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 12317,
+            "entity_label": "York",
+            "entity_class": "City",
+            "score": 2.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
                 "aux_support": 0,
                 "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 5993,
+            "entity_label": "A Separation",
+            "entity_class": "Movie",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "974": 1,
-        "10466": 2,
-        "14380": 3,
-        "12317": 4,
-        "9136": 5,
-        "6940": 6,
-        "5993": 7,
-        "8510": 8,
-        "4588": 9,
-        "7829": 10,
-        "8358": 11,
-        "1385": 12,
-        "7537": 13,
-        "1391": 14,
-        "5474": 15,
-        "10425": 16,
-        "3484": 17,
-        "9720": 18,
-        "992": 19,
-        "10678": 20
+        "7785": 1,
+        "6940": 2,
+        "9241": 3,
+        "13606": 4,
+        "8510": 5,
+        "2789": 6,
+        "992": 7,
+        "1385": 8,
+        "9178": 9,
+        "12324": 10,
+        "9720": 11,
+        "7470": 12,
+        "3484": 13,
+        "8162": 14,
+        "1905": 15,
+        "1091": 16,
+        "708": 17,
+        "9547": 18,
+        "12317": 19,
+        "5993": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Jiang Wen, relation=hasRegularPerformanceRole, tail=?)\n\nOntology summary:\n- Query relation: hasRegularPerformanceRole\n- Head entity: Jiang Wen\n- Head class: Actor\n- Relation domain: Musical Instrument\n- Relation range: Musical Instrument\n- Domain check: not clearly matched\n- Tail entities of class 'Musical Instrument' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=50, edges=58, paths=20\n- Head outgoing edges under target relation hasRegularPerformanceRole: 1\n- Key support nodes: Jiang Wen, Fernando Trueba, Transformers: Dark of the Moon, Organization, Emilie De Ravin, News, Master of Laws, Luc Besson\n- Main auxiliary relations: hasReligion(10), hasWinner(7), influencedBy(5)\n\nFrequent relation path patterns:\n- hasReligion (count=8)\n- hasAthlete -> hasWinner -> hasRegularPerformanceRole (count=7)\n- hasImpersonatedCelebrities -> hasRegularPerformanceRole (count=3)\n- hasRegularPerformanceRole (count=1)\n- hasRegularPerformanceRole -> influencedBy -> hasRegularPerformanceRole (count=1)\n\nCandidates:\n1. The Queen's College [id=974 | class=College | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. The Pirate Movie [id=10466 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n3. Adolescence [id=14380 | class=Stage | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. York [id=12317 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n5. Anaheim [id=9136 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n6. Industrial Music [id=6940 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. A Separation [id=5993 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. American Psycho [id=8510 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Laura Carmichael [id=4588 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n10. Gary Sheffield [id=7829 | class=Baseball Player | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n11. Speed Metal [id=8358 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Branford Marsalis [id=1385 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. Master of Laws [id=7537 | class=Academic Degree | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n14. New Bedford [id=1391 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n15. Emilie De Ravin [id=5474 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n16. Havana [id=10425 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Transformers [id=3484 | class=Toy Series | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n18. Beverly D'angelo [id=9720 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n19. Transformers: Dark of the Moon [id=992 | class=Movie Title | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n20. News [id=10678 | class=News | type=0 | soft_type=0 | direct=0 | paths=3 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Jiang Wen, relation=hasRegularPerformanceRole, tail=?)\n\nOntology summary:\n- Query relation: hasRegularPerformanceRole\n- Head entity: Jiang Wen\n- Head class: Actor\n- Relation domain: Musical Instrument\n- Relation range: Musical Instrument\n- Domain check: not clearly matched\n- Tail entities of class 'Musical Instrument' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=50, edges=58, paths=20\n- Head outgoing edges under target relation hasRegularPerformanceRole: 1\n- Key support nodes: Jiang Wen, Fernando Trueba, Transformers: Dark of the Moon, Organization, Emilie De Ravin, News, Master of Laws, Luc Besson\n- Main auxiliary relations: hasReligion(10), hasWinner(7), influencedBy(5)\n\nFrequent relation path patterns:\n- hasReligion (count=8)\n- hasAthlete -> hasWinner -> hasRegularPerformanceRole (count=7)\n- hasImpersonatedCelebrities -> hasRegularPerformanceRole (count=3)\n- hasRegularPerformanceRole (count=1)\n- hasRegularPerformanceRole -> influencedBy -> hasRegularPerformanceRole (count=1)\n\nCandidates:\n1. David Strathairn [id=7785 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Industrial Music [id=6940 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Mobile Suit Gundam Seed Destiny [id=9241 | class=Anime Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Alachua County [id=13606 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. American Psycho [id=8510 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n6. Zero Dark Thirty [id=2789 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Transformers: Dark of the Moon [id=992 | class=Movie Title | type=0 | soft_type=0 | direct=1 | paths=2 | aux=0 | key=1]\n8. Branford Marsalis [id=1385 | class=Musician | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n9. Guyana [id=9178 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Lamar Odom [id=12324 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Beverly D'angelo [id=9720 | class=Person | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n12. Funny Girl [id=7470 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n13. Transformers [id=3484 | class=Toy Series | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n14. The Avengers [id=8162 | class=Fictional Team | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Pete Postlethwaite [id=1905 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. 1998 Winter Olympics [id=1091 | class=Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. 1984 Summer Olympics [id=708 | class=Event | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Religion [id=9547 | class=Religion | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. York [id=12317 | class=City | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=1]\n20. A Separation [id=5993 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

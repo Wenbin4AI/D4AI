@@ -7,15 +7,15 @@
         "relation_label": "hasProfession",
         "gold_tail": 7544,
         "gold_tail_label": "Jamie Gangel",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 3
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 7255,
-            "entity_label": "Mtv Video Music Award for Best Editing",
-            "entity_class": "Award",
+            "entity_id": 1752,
+            "entity_label": "The Simpsons Movie",
+            "entity_class": "Movie",
             "score": 0.0,
             "features": {
                 "type_match": 0,
@@ -29,9 +29,9 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 3056,
-            "entity_label": "Ryan Phillippe",
-            "entity_class": "Actor",
+            "entity_id": 14361,
+            "entity_label": "Vagrant Records",
+            "entity_class": "Record Label",
             "score": 2.732868,
             "features": {
                 "type_match": 0,
@@ -45,41 +45,41 @@
         },
         {
             "rank_index": 3,
-            "entity_id": 4994,
-            "entity_label": "Seattle",
-            "entity_class": "City",
-            "score": 0.693147,
+            "entity_id": 7544,
+            "entity_label": "Jamie Gangel",
+            "entity_class": "Person",
+            "score": 7.638333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 1
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 4897,
+            "entity_label": "The Messenger",
+            "entity_class": "Movie",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
-                "aux_support": 1,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 4,
-            "entity_id": 7667,
-            "entity_label": "Fort Bend County",
-            "entity_class": "County",
-            "score": 2.732868,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
             "rank_index": 5,
-            "entity_id": 6913,
-            "entity_label": "Jack Bruce",
-            "entity_class": "Musician",
+            "entity_id": 1067,
+            "entity_label": "Jason Robards",
+            "entity_class": "Person",
             "score": 1.5,
             "features": {
                 "type_match": 0,
@@ -109,102 +109,6 @@
         },
         {
             "rank_index": 7,
-            "entity_id": 2,
-            "entity_label": "Mighty Morphin Power Rangers",
-            "entity_class": "Tv Series",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 6100,
-            "entity_label": "Grammy Award for Best Contemporary Blues Album",
-            "entity_class": "Music Award",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 11128,
-            "entity_label": "H. H. Asquith",
-            "entity_class": "Politician",
-            "score": 2.647918,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 2,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 12009,
-            "entity_label": "Harry Andrews",
-            "entity_class": "Person",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 4361,
-            "entity_label": "Swoosie Kurtz",
-            "entity_class": "Actor",
-            "score": 0.0,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 3521,
-            "entity_label": "Tom Kenny",
-            "entity_class": "Person",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
             "entity_id": 6033,
             "entity_label": "Adolph Green",
             "entity_class": "Musician",
@@ -220,14 +124,110 @@
             "is_gold": 0
         },
         {
-            "rank_index": 14,
-            "entity_id": 1288,
-            "entity_label": "Ron Weiner",
-            "entity_class": "Person",
-            "score": 1.5,
+            "rank_index": 8,
+            "entity_id": 10086,
+            "entity_label": "Insurgency in Khyber Pakhtunkhwa",
+            "entity_class": "Insurgency",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 9,
+            "entity_id": 14246,
+            "entity_label": "Microsoft Windows",
+            "entity_class": "Software",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 7667,
+            "entity_label": "Fort Bend County",
+            "entity_class": "County",
+            "score": 2.732868,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 1,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 5684,
+            "entity_label": "Angels & Demons",
+            "entity_class": "Book",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 11128,
+            "entity_label": "H. H. Asquith",
+            "entity_class": "Politician",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 11345,
+            "entity_label": "Delta Blues",
+            "entity_class": "Music Genre",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 9929,
+            "entity_label": "Wilmington",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -253,8 +253,24 @@
         },
         {
             "rank_index": 16,
-            "entity_id": 13705,
-            "entity_label": "Breda",
+            "entity_id": 3521,
+            "entity_label": "Tom Kenny",
+            "entity_class": "Person",
+            "score": 1.5,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 1,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 14037,
+            "entity_label": "Pontefract",
             "entity_class": "City",
             "score": 0.0,
             "features": {
@@ -268,30 +284,14 @@
             "is_gold": 0
         },
         {
-            "rank_index": 17,
-            "entity_id": 1067,
-            "entity_label": "Jason Robards",
-            "entity_class": "Person",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
             "rank_index": 18,
-            "entity_id": 5221,
-            "entity_label": "Brian Eno",
-            "entity_class": "Musician",
-            "score": 1.5,
+            "entity_id": 2640,
+            "entity_label": "Bobsleigh",
+            "entity_class": "Sport",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -301,58 +301,58 @@
         },
         {
             "rank_index": 19,
-            "entity_id": 7544,
-            "entity_label": "Jamie Gangel",
-            "entity_class": "Person",
-            "score": 7.638333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
-            },
-            "is_gold": 1
-        },
-        {
-            "rank_index": 20,
-            "entity_id": 14361,
-            "entity_label": "Vagrant Records",
-            "entity_class": "Record Label",
-            "score": 2.732868,
+            "entity_id": 9731,
+            "entity_label": "Robert E. Lee",
+            "entity_class": "Historical Figure",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
-                "aux_support": 1,
-                "key": 1
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 10357,
+            "entity_label": "Michelle Dockery",
+            "entity_class": "Actress",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "7255": 1,
-        "3056": 2,
-        "4994": 3,
-        "7667": 4,
-        "6913": 5,
+        "1752": 1,
+        "14361": 2,
+        "7544": 3,
+        "4897": 4,
+        "1067": 5,
         "7469": 6,
-        "2": 7,
-        "6100": 8,
-        "11128": 9,
-        "12009": 10,
-        "4361": 11,
-        "3521": 12,
-        "6033": 13,
-        "1288": 14,
+        "6033": 7,
+        "10086": 8,
+        "14246": 9,
+        "7667": 10,
+        "5684": 11,
+        "11128": 12,
+        "11345": 13,
+        "9929": 14,
         "11624": 15,
-        "13705": 16,
-        "1067": 17,
-        "5221": 18,
-        "7544": 19,
-        "14361": 20
+        "3521": 16,
+        "14037": 17,
+        "2640": 18,
+        "9731": 19,
+        "10357": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=1908 Major League Baseball Season, relation=hasProfession, tail=?)\n\nOntology summary:\n- Query relation: hasProfession\n- Head entity: 1908 Major League Baseball Season\n- Head class: Season\n- Relation domain: Person\n- Relation range: Profession\n- Domain check: not clearly matched\n- Tail entities of class 'Profession' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=52, edges=65, paths=20\n- Head outgoing edges under target relation hasProfession: 1\n- Key support nodes: 1908 Major League Baseball Season, Hope Springs, Adolph Green, Jamie Gangel, H. H. Asquith, Fort Bend County, Ryan Phillippe, Jessalyn Gilsig\n- Main auxiliary relations: hasDomesticTuition(20), spokenInCountries(10), hasGenre(3)\n\nFrequent relation path patterns:\n- hasRosterPosition -> hasDomesticTuition -> hasProfession (count=17)\n- hasProfession (count=1)\n- hasProfession -> originCountry (count=1)\n- hasProfession -> spokenInCountries (count=1)\n\nCandidates:\n1. Mtv Video Music Award for Best Editing [id=7255 | class=Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Ryan Phillippe [id=3056 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n3. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n4. Fort Bend County [id=7667 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n5. Jack Bruce [id=6913 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. John Madden [id=7469 | class=Football Coach | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n7. Mighty Morphin Power Rangers [id=2 | class=Tv Series | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Grammy Award for Best Contemporary Blues Album [id=6100 | class=Music Award | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. H. H. Asquith [id=11128 | class=Politician | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n10. Harry Andrews [id=12009 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n11. Swoosie Kurtz [id=4361 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Tom Kenny [id=3521 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n13. Adolph Green [id=6033 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=13 | aux=0 | key=1]\n14. Ron Weiner [id=1288 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n15. Announcer [id=11624 | class=Profession | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n16. Breda [id=13705 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Jason Robards [id=1067 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. Brian Eno [id=5221 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=1 | direct=1 | paths=1 | aux=2 | key=1]\n20. Vagrant Records [id=14361 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=1908 Major League Baseball Season, relation=hasProfession, tail=?)\n\nOntology summary:\n- Query relation: hasProfession\n- Head entity: 1908 Major League Baseball Season\n- Head class: Season\n- Relation domain: Person\n- Relation range: Profession\n- Domain check: not clearly matched\n- Tail entities of class 'Profession' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=52, edges=65, paths=20\n- Head outgoing edges under target relation hasProfession: 1\n- Key support nodes: 1908 Major League Baseball Season, Hope Springs, Adolph Green, Jamie Gangel, H. H. Asquith, Fort Bend County, Ryan Phillippe, Jessalyn Gilsig\n- Main auxiliary relations: hasDomesticTuition(20), spokenInCountries(10), hasGenre(3)\n\nFrequent relation path patterns:\n- hasRosterPosition -> hasDomesticTuition -> hasProfession (count=17)\n- hasProfession (count=1)\n- hasProfession -> originCountry (count=1)\n- hasProfession -> spokenInCountries (count=1)\n\nCandidates:\n1. The Simpsons Movie [id=1752 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Vagrant Records [id=14361 | class=Record Label | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n3. Jamie Gangel [id=7544 | class=Person | type=0 | soft_type=1 | direct=1 | paths=1 | aux=2 | key=1]\n4. The Messenger [id=4897 | class=Movie | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Jason Robards [id=1067 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n6. John Madden [id=7469 | class=Football Coach | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n7. Adolph Green [id=6033 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=13 | aux=0 | key=1]\n8. Insurgency in Khyber Pakhtunkhwa [id=10086 | class=Insurgency | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Microsoft Windows [id=14246 | class=Software | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Fort Bend County [id=7667 | class=County | type=0 | soft_type=0 | direct=0 | paths=1 | aux=1 | key=1]\n11. Angels & Demons [id=5684 | class=Book | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. H. H. Asquith [id=11128 | class=Politician | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n13. Delta Blues [id=11345 | class=Music Genre | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Wilmington [id=9929 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Announcer [id=11624 | class=Profession | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n16. Tom Kenny [id=3521 | class=Person | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Pontefract [id=14037 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Bobsleigh [id=2640 | class=Sport | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. Robert E. Lee [id=9731 | class=Historical Figure | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Michelle Dockery [id=10357 | class=Actress | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

@@ -7,21 +7,21 @@
         "relation_label": "hasDomesticTuition",
         "gold_tail": 10082,
         "gold_tail_label": "Mclennan County",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 8
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 4489,
-            "entity_label": "Arkansas",
-            "entity_class": "State",
-            "score": 4.039721,
+            "entity_id": 10500,
+            "entity_label": "Priyanka Chopra",
+            "entity_class": "Person",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
+                "direct": 0,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
@@ -29,262 +29,6 @@
         },
         {
             "rank_index": 2,
-            "entity_id": 7630,
-            "entity_label": "There Will Be Blood",
-            "entity_class": "Film",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 3,
-            "entity_id": 719,
-            "entity_label": "Quo Vadis",
-            "entity_class": "Book",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 4,
-            "entity_id": 11055,
-            "entity_label": "Primetime Emmy Award for Short-format Animation",
-            "entity_class": "Award",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 5,
-            "entity_id": 741,
-            "entity_label": "Tasmania",
-            "entity_class": "Australian State",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 13193,
-            "entity_label": "Htc Corporation",
-            "entity_class": "Company",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 4328,
-            "entity_label": "Edmond O'brien",
-            "entity_class": "Actor",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 8,
-            "entity_id": 793,
-            "entity_label": "Lute",
-            "entity_class": "Instrument",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 9,
-            "entity_id": 10994,
-            "entity_label": "Van Heflin",
-            "entity_class": "Actor",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 10,
-            "entity_id": 8319,
-            "entity_label": "Lorenzo Ferrero",
-            "entity_class": "Composer",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
-            "entity_id": 14540,
-            "entity_label": "Australian Labor Party",
-            "entity_class": "Political Party",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 4499,
-            "entity_label": "The Royal Tenenbaums",
-            "entity_class": "Movie",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 13,
-            "entity_id": 12674,
-            "entity_label": "Franklin County",
-            "entity_class": "County",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 14,
-            "entity_id": 1650,
-            "entity_label": "Political Philosophy",
-            "entity_class": "Philosophy",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 15,
-            "entity_id": 9641,
-            "entity_label": "Cbs Corporation",
-            "entity_class": "Company",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 16,
-            "entity_id": 2441,
-            "entity_label": "S.c. Olhanense",
-            "entity_class": "Football Club",
-            "score": 4.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 17,
-            "entity_id": 8278,
-            "entity_label": "Koch Entertainment",
-            "entity_class": "Company",
-            "score": 5.039721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 18,
             "entity_id": 3270,
             "entity_label": "Graham King",
             "entity_class": "Producer",
@@ -300,7 +44,87 @@
             "is_gold": 0
         },
         {
-            "rank_index": 19,
+            "rank_index": 3,
+            "entity_id": 14540,
+            "entity_label": "Australian Labor Party",
+            "entity_class": "Political Party",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 4,
+            "entity_id": 3302,
+            "entity_label": "Logic",
+            "entity_class": "Music Artist",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 12674,
+            "entity_label": "Franklin County",
+            "entity_class": "County",
+            "score": 5.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 9035,
+            "entity_label": "Tom Rosenberg",
+            "entity_class": "Producer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
+            "entity_id": 10460,
+            "entity_label": "Peter Gallagher",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 8,
             "entity_id": 10082,
             "entity_label": "Mclennan County",
             "entity_class": "County",
@@ -316,10 +140,58 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 10629,
-            "entity_label": "Gatineau",
+            "rank_index": 9,
+            "entity_id": 6176,
+            "entity_label": "Rockville",
             "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 10,
+            "entity_id": 210,
+            "entity_label": "Electric Guitar",
+            "entity_class": "Musical Instrument",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 9403,
+            "entity_label": "Keith Allen",
+            "entity_class": "Actor",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 12,
+            "entity_id": 9641,
+            "entity_label": "Cbs Corporation",
+            "entity_class": "Company",
             "score": 5.039721,
             "features": {
                 "type_match": 0,
@@ -330,29 +202,157 @@
                 "key": 1
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 13,
+            "entity_id": 2207,
+            "entity_label": "Arrested Development",
+            "entity_class": "Tv Show",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 14,
+            "entity_id": 13367,
+            "entity_label": "Jaleco",
+            "entity_class": "Video Game Company",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 15,
+            "entity_id": 8319,
+            "entity_label": "Lorenzo Ferrero",
+            "entity_class": "Composer",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 16,
+            "entity_id": 7833,
+            "entity_label": "Bill Berry",
+            "entity_class": "Singer",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 17,
+            "entity_id": 13434,
+            "entity_label": "South Sudan",
+            "entity_class": "Country",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 18,
+            "entity_id": 10938,
+            "entity_label": "Anniston",
+            "entity_class": "City",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 19,
+            "entity_id": 4499,
+            "entity_label": "The Royal Tenenbaums",
+            "entity_class": "Movie",
+            "score": 4.039721,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 1,
+                "path_count": 1,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 7948,
+            "entity_label": "Matthew Weiner",
+            "entity_class": "Director",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "4489": 1,
-        "7630": 2,
-        "719": 3,
-        "11055": 4,
-        "741": 5,
-        "13193": 6,
-        "4328": 7,
-        "793": 8,
-        "10994": 9,
-        "8319": 10,
-        "14540": 11,
-        "4499": 12,
-        "12674": 13,
-        "1650": 14,
-        "9641": 15,
-        "2441": 16,
-        "8278": 17,
-        "3270": 18,
-        "10082": 19,
-        "10629": 20
+        "10500": 1,
+        "3270": 2,
+        "14540": 3,
+        "3302": 4,
+        "12674": 5,
+        "9035": 6,
+        "10460": 7,
+        "10082": 8,
+        "6176": 9,
+        "210": 10,
+        "9403": 11,
+        "9641": 12,
+        "2207": 13,
+        "13367": 14,
+        "8319": 15,
+        "7833": 16,
+        "13434": 17,
+        "10938": 18,
+        "4499": 19,
+        "7948": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Microsoft Windows, relation=hasDomesticTuition, tail=?)\n\nOntology summary:\n- Query relation: hasDomesticTuition\n- Head entity: Microsoft Windows\n- Head class: Software\n- Relation domain: University\n- Relation range: Currency\n- Domain check: not clearly matched\n- Tail entities of class 'Currency' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=43, edges=49, paths=20\n- Head outgoing edges under target relation hasDomesticTuition: 22\n- Key support nodes: Microsoft Windows, Franklin County, Cbs Corporation, Gatineau, Primetime Emmy Award for Short-format Animation, There Will Be Blood, Van Heflin, Koch Entertainment\n- Main auxiliary relations: hasRosterPosition(6), hasProfession(3), hasProductionCompanies(3)\n\nFrequent relation path patterns:\n- hasDomesticTuition (count=20)\n\nCandidates:\n1. Arkansas [id=4489 | class=State | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n2. There Will Be Blood [id=7630 | class=Film | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Quo Vadis [id=719 | class=Book | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Primetime Emmy Award for Short-format Animation [id=11055 | class=Award | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n5. Tasmania [id=741 | class=Australian State | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Htc Corporation [id=13193 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n7. Edmond O'brien [id=4328 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n8. Lute [id=793 | class=Instrument | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n9. Van Heflin [id=10994 | class=Actor | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n10. Lorenzo Ferrero [id=8319 | class=Composer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Australian Labor Party [id=14540 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n12. The Royal Tenenbaums [id=4499 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n13. Franklin County [id=12674 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n14. Political Philosophy [id=1650 | class=Philosophy | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n15. Cbs Corporation [id=9641 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n16. S.c. Olhanense [id=2441 | class=Football Club | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n17. Koch Entertainment [id=8278 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n18. Graham King [id=3270 | class=Producer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n19. Mclennan County [id=10082 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n20. Gatineau [id=10629 | class=City | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Microsoft Windows, relation=hasDomesticTuition, tail=?)\n\nOntology summary:\n- Query relation: hasDomesticTuition\n- Head entity: Microsoft Windows\n- Head class: Software\n- Relation domain: University\n- Relation range: Currency\n- Domain check: not clearly matched\n- Tail entities of class 'Currency' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=43, edges=49, paths=20\n- Head outgoing edges under target relation hasDomesticTuition: 22\n- Key support nodes: Microsoft Windows, Franklin County, Cbs Corporation, Gatineau, Primetime Emmy Award for Short-format Animation, There Will Be Blood, Van Heflin, Koch Entertainment\n- Main auxiliary relations: hasRosterPosition(6), hasProfession(3), hasProductionCompanies(3)\n\nFrequent relation path patterns:\n- hasDomesticTuition (count=20)\n\nCandidates:\n1. Priyanka Chopra [id=10500 | class=Person | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n2. Graham King [id=3270 | class=Producer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n3. Australian Labor Party [id=14540 | class=Political Party | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n4. Logic [id=3302 | class=Music Artist | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n5. Franklin County [id=12674 | class=County | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n6. Tom Rosenberg [id=9035 | class=Producer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Peter Gallagher [id=10460 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n8. Mclennan County [id=10082 | class=County | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Rockville [id=6176 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Electric Guitar [id=210 | class=Musical Instrument | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n11. Keith Allen [id=9403 | class=Actor | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n12. Cbs Corporation [id=9641 | class=Company | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=1]\n13. Arrested Development [id=2207 | class=Tv Show | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n14. Jaleco [id=13367 | class=Video Game Company | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n15. Lorenzo Ferrero [id=8319 | class=Composer | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n16. Bill Berry [id=7833 | class=Singer | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. South Sudan [id=13434 | class=Country | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n18. Anniston [id=10938 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n19. The Royal Tenenbaums [id=4499 | class=Movie | type=0 | soft_type=0 | direct=1 | paths=1 | aux=0 | key=0]\n20. Matthew Weiner [id=7948 | class=Director | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }

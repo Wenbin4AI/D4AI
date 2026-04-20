@@ -7,35 +7,35 @@
         "relation_label": "hasStudent",
         "gold_tail": 348,
         "gold_tail_label": "Garbage",
-        "gold_candidate_rank_index": 19
+        "gold_candidate_rank_index": 18
     },
     "candidate_limit": 20,
     "selected_candidates": [
         {
             "rank_index": 1,
-            "entity_id": 4994,
-            "entity_label": "Seattle",
-            "entity_class": "City",
-            "score": 0.693147,
+            "entity_id": 14445,
+            "entity_label": "Ecw Hardcore Tv",
+            "entity_class": "Tv Series",
+            "score": 6.341066,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 0,
+                "direct": 1,
+                "path_count": 2,
                 "aux_support": 1,
-                "key": 0
+                "key": 1
             },
             "is_gold": 0
         },
         {
             "rank_index": 2,
-            "entity_id": 13873,
-            "entity_label": "Amjad Khan",
-            "entity_class": "Person",
-            "score": 4.5,
+            "entity_id": 3568,
+            "entity_label": "Prescott",
+            "entity_class": "City",
+            "score": 0.0,
             "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
+                "type_match": 0,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -45,22 +45,70 @@
         },
         {
             "rank_index": 3,
-            "entity_id": 14204,
-            "entity_label": "Republic Pictures",
-            "entity_class": "Film Studio",
-            "score": 2.138333,
+            "entity_id": 116,
+            "entity_label": "Acf Fiorentina",
+            "entity_class": "Sports Club",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
-                "aux_support": 2,
+                "path_count": 0,
+                "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 4,
+            "entity_id": 14489,
+            "entity_label": "Oneworld",
+            "entity_class": "Alliance",
+            "score": 3.138333,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 1,
+                "aux_support": 2,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 5,
+            "entity_id": 12689,
+            "entity_label": "Andes",
+            "entity_class": "Mountain Range",
+            "score": 2.647918,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 2,
+                "aux_support": 0,
+                "key": 1
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 6,
+            "entity_id": 6358,
+            "entity_label": "University of California, San Diego",
+            "entity_class": "University",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 7,
             "entity_id": 12439,
             "entity_label": "Shinya Tsukamoto",
             "entity_class": "Person",
@@ -76,46 +124,14 @@
             "is_gold": 0
         },
         {
-            "rank_index": 5,
-            "entity_id": 7253,
-            "entity_label": "Designated Hitter",
-            "entity_class": "Sport",
-            "score": 3.426015,
+            "rank_index": 8,
+            "entity_id": 14342,
+            "entity_label": "Tartu",
+            "entity_class": "City",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 3,
-                "key": 1
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 6,
-            "entity_id": 8419,
-            "entity_label": "Victor Hugo",
-            "entity_class": "Author",
-            "score": 2.539721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 7,
-            "entity_id": 2664,
-            "entity_label": "Lenny Kravitz",
-            "entity_class": "Musician",
-            "score": 1.5,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -124,25 +140,41 @@
             "is_gold": 0
         },
         {
-            "rank_index": 8,
-            "entity_id": 10161,
-            "entity_label": "Cagliari Calcio",
-            "entity_class": "Football Club",
-            "score": 1.039721,
+            "rank_index": 9,
+            "entity_id": 9366,
+            "entity_label": "Asian Americans",
+            "entity_class": "Ethnic Group",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 1,
+                "path_count": 0,
                 "aux_support": 0,
                 "key": 0
             },
             "is_gold": 0
         },
         {
-            "rank_index": 9,
-            "entity_id": 9110,
-            "entity_label": "Rick Kline",
+            "rank_index": 10,
+            "entity_id": 11038,
+            "entity_label": "Mexican Americans",
+            "entity_class": "Ethnic Group",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
+        },
+        {
+            "rank_index": 11,
+            "entity_id": 9963,
+            "entity_label": "Rainer Werner Fassbinder",
             "entity_class": "Person",
             "score": 4.5,
             "features": {
@@ -156,23 +188,7 @@
             "is_gold": 0
         },
         {
-            "rank_index": 10,
-            "entity_id": 4643,
-            "entity_label": "Franz Kafka",
-            "entity_class": "Author",
-            "score": 2.539721,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 11,
+            "rank_index": 12,
             "entity_id": 8862,
             "entity_label": "Isle of Wight",
             "entity_class": "Island",
@@ -184,22 +200,6 @@
                 "path_count": 1,
                 "aux_support": 0,
                 "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 12,
-            "entity_id": 14489,
-            "entity_label": "Oneworld",
-            "entity_class": "Alliance",
-            "score": 3.138333,
-            "features": {
-                "type_match": 0,
-                "soft_type_match": 0,
-                "direct": 0,
-                "path_count": 1,
-                "aux_support": 2,
-                "key": 1
             },
             "is_gold": 0
         },
@@ -221,45 +221,45 @@
         },
         {
             "rank_index": 14,
-            "entity_id": 12689,
-            "entity_label": "Andes",
-            "entity_class": "Mountain Range",
-            "score": 2.647918,
+            "entity_id": 7253,
+            "entity_label": "Designated Hitter",
+            "entity_class": "Sport",
+            "score": 3.426015,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
                 "direct": 0,
-                "path_count": 2,
-                "aux_support": 0,
+                "path_count": 1,
+                "aux_support": 3,
                 "key": 1
             },
             "is_gold": 0
         },
         {
             "rank_index": 15,
-            "entity_id": 14445,
-            "entity_label": "Ecw Hardcore Tv",
-            "entity_class": "Tv Series",
-            "score": 6.341066,
+            "entity_id": 7154,
+            "entity_label": "Becket",
+            "entity_class": "Play",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
                 "soft_type_match": 0,
-                "direct": 1,
-                "path_count": 2,
-                "aux_support": 1,
-                "key": 1
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
             },
             "is_gold": 0
         },
         {
             "rank_index": 16,
-            "entity_id": 8462,
-            "entity_label": "Christopher Mcdonald",
-            "entity_class": "Actor",
-            "score": 1.5,
+            "entity_id": 8300,
+            "entity_label": "Blockbuster",
+            "entity_class": "Video Rental Chain",
+            "score": 0.0,
             "features": {
                 "type_match": 0,
-                "soft_type_match": 1,
+                "soft_type_match": 0,
                 "direct": 0,
                 "path_count": 0,
                 "aux_support": 0,
@@ -269,15 +269,15 @@
         },
         {
             "rank_index": 17,
-            "entity_id": 9963,
-            "entity_label": "Rainer Werner Fassbinder",
-            "entity_class": "Person",
-            "score": 4.5,
+            "entity_id": 4643,
+            "entity_label": "Franz Kafka",
+            "entity_class": "Author",
+            "score": 2.539721,
             "features": {
-                "type_match": 1,
+                "type_match": 0,
                 "soft_type_match": 1,
                 "direct": 0,
-                "path_count": 0,
+                "path_count": 1,
                 "aux_support": 0,
                 "key": 0
             },
@@ -285,22 +285,6 @@
         },
         {
             "rank_index": 18,
-            "entity_id": 5055,
-            "entity_label": "John Adams",
-            "entity_class": "Person",
-            "score": 4.5,
-            "features": {
-                "type_match": 1,
-                "soft_type_match": 1,
-                "direct": 0,
-                "path_count": 0,
-                "aux_support": 0,
-                "key": 0
-            },
-            "is_gold": 0
-        },
-        {
-            "rank_index": 19,
             "entity_id": 348,
             "entity_label": "Garbage",
             "entity_class": "Band",
@@ -316,9 +300,9 @@
             "is_gold": 1
         },
         {
-            "rank_index": 20,
-            "entity_id": 14248,
-            "entity_label": "Samuel Vincent",
+            "rank_index": 19,
+            "entity_id": 5055,
+            "entity_label": "John Adams",
             "entity_class": "Person",
             "score": 4.5,
             "features": {
@@ -330,29 +314,45 @@
                 "key": 0
             },
             "is_gold": 0
+        },
+        {
+            "rank_index": 20,
+            "entity_id": 6310,
+            "entity_label": "Peter Jackson",
+            "entity_class": "Director",
+            "score": 0.0,
+            "features": {
+                "type_match": 0,
+                "soft_type_match": 0,
+                "direct": 0,
+                "path_count": 0,
+                "aux_support": 0,
+                "key": 0
+            },
+            "is_gold": 0
         }
     ],
     "candidate_id_to_rank_index": {
-        "4994": 1,
-        "13873": 2,
-        "14204": 3,
-        "12439": 4,
-        "7253": 5,
-        "8419": 6,
-        "2664": 7,
-        "10161": 8,
-        "9110": 9,
-        "4643": 10,
-        "8862": 11,
-        "14489": 12,
+        "14445": 1,
+        "3568": 2,
+        "116": 3,
+        "14489": 4,
+        "12689": 5,
+        "6358": 6,
+        "12439": 7,
+        "14342": 8,
+        "9366": 9,
+        "11038": 10,
+        "9963": 11,
+        "8862": 12,
         "5648": 13,
-        "12689": 14,
-        "14445": 15,
-        "8462": 16,
-        "9963": 17,
-        "5055": 18,
-        "348": 19,
-        "14248": 20
+        "7253": 14,
+        "7154": 15,
+        "8300": 16,
+        "4643": 17,
+        "348": 18,
+        "5055": 19,
+        "6310": 20
     },
-    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Virginia Beach, relation=hasStudent, tail=?)\n\nOntology summary:\n- Query relation: hasStudent\n- Head entity: Virginia Beach\n- Head class: City\n- Relation domain: University\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=42, edges=55, paths=20\n- Head outgoing edges under target relation hasStudent: 3\n- Key support nodes: Virginia Beach, Garbage, 44th Academy Awards, Sven Nykvist, Kabul, Ecw Hardcore Tv, Electrical Engineering, Andes\n- Main auxiliary relations: hasImpersonatedCelebrities(11), hasGenre(6), hasColors(5)\n\nFrequent relation path patterns:\n- hasImpersonatedCelebrities -> hasStudent (count=11)\n- hasStudent (count=3)\n- hasStudent -> hasGenre (count=2)\n- hasStudent -> hasColors (count=2)\n- hasReleaseMedium -> hasStudent (count=2)\n\nCandidates:\n1. Seattle [id=4994 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=1 | key=0]\n2. Amjad Khan [id=13873 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n3. Republic Pictures [id=14204 | class=Film Studio | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=0]\n4. Shinya Tsukamoto [id=12439 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n5. Designated Hitter [id=7253 | class=Sport | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]\n6. Victor Hugo [id=8419 | class=Author | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n7. Lenny Kravitz [id=2664 | class=Musician | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Cagliari Calcio [id=10161 | class=Football Club | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n9. Rick Kline [id=9110 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n10. Franz Kafka [id=4643 | class=Author | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n11. Isle of Wight [id=8862 | class=Island | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n12. Oneworld [id=14489 | class=Alliance | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n13. 44th Academy Awards [id=5648 | class=Event | type=0 | soft_type=0 | direct=1 | paths=3 | aux=3 | key=1]\n14. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n15. Ecw Hardcore Tv [id=14445 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]\n16. Christopher Mcdonald [id=8462 | class=Actor | type=0 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n17. Rainer Werner Fassbinder [id=9963 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n18. John Adams [id=5055 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n19. Garbage [id=348 | class=Band | type=0 | soft_type=0 | direct=1 | paths=6 | aux=1 | key=1]\n20. Samuel Vincent [id=14248 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n"
+    "prompt": "You are given a knowledge graph link prediction ranking task.\n\nYour task is to rank the numbered candidate tail entities for the query (head, relation, ?).\n\nYou must follow these rules strictly:\n1. Only rank the numbered candidates listed below.\n2. Use ontology constraints, path-pattern evidence, and local subgraph evidence jointly.\n3. Prefer candidates whose class matches the expected relation range.\n4. Prefer candidates with direct target-relation evidence, stronger path support, and denser auxiliary-neighborhood support.\n5. Output only the ranking of candidate numbers in descending likelihood.\n6. Do not explain your reasoning.\n7. Do not output entity names.\n8. Do not output anything except one Python-style list of candidate numbers.\n9. Do not omit any number and do not repeat any number.\n\nExpected output format:\n[3, 7, 1, 5, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n\nQuery:\n(head=Virginia Beach, relation=hasStudent, tail=?)\n\nOntology summary:\n- Query relation: hasStudent\n- Head entity: Virginia Beach\n- Head class: City\n- Relation domain: University\n- Relation range: Person\n- Domain check: not clearly matched\n- Tail entities of class 'Person' should be preferred.\n\nLocal subgraph summary:\n- Local subgraph: nodes=42, edges=55, paths=20\n- Head outgoing edges under target relation hasStudent: 3\n- Key support nodes: Virginia Beach, Garbage, 44th Academy Awards, Sven Nykvist, Kabul, Ecw Hardcore Tv, Electrical Engineering, Andes\n- Main auxiliary relations: hasImpersonatedCelebrities(11), hasGenre(6), hasColors(5)\n\nFrequent relation path patterns:\n- hasImpersonatedCelebrities -> hasStudent (count=11)\n- hasStudent (count=3)\n- hasStudent -> hasGenre (count=2)\n- hasStudent -> hasColors (count=2)\n- hasReleaseMedium -> hasStudent (count=2)\n\nCandidates:\n1. Ecw Hardcore Tv [id=14445 | class=Tv Series | type=0 | soft_type=0 | direct=1 | paths=2 | aux=1 | key=1]\n2. Prescott [id=3568 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n3. Acf Fiorentina [id=116 | class=Sports Club | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n4. Oneworld [id=14489 | class=Alliance | type=0 | soft_type=0 | direct=0 | paths=1 | aux=2 | key=1]\n5. Andes [id=12689 | class=Mountain Range | type=0 | soft_type=0 | direct=0 | paths=2 | aux=0 | key=1]\n6. University of California, San Diego [id=6358 | class=University | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n7. Shinya Tsukamoto [id=12439 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n8. Tartu [id=14342 | class=City | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n9. Asian Americans [id=9366 | class=Ethnic Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n10. Mexican Americans [id=11038 | class=Ethnic Group | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n11. Rainer Werner Fassbinder [id=9963 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n12. Isle of Wight [id=8862 | class=Island | type=0 | soft_type=0 | direct=0 | paths=1 | aux=0 | key=0]\n13. 44th Academy Awards [id=5648 | class=Event | type=0 | soft_type=0 | direct=1 | paths=3 | aux=3 | key=1]\n14. Designated Hitter [id=7253 | class=Sport | type=0 | soft_type=0 | direct=0 | paths=1 | aux=3 | key=1]\n15. Becket [id=7154 | class=Play | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n16. Blockbuster [id=8300 | class=Video Rental Chain | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n17. Franz Kafka [id=4643 | class=Author | type=0 | soft_type=1 | direct=0 | paths=1 | aux=0 | key=0]\n18. Garbage [id=348 | class=Band | type=0 | soft_type=0 | direct=1 | paths=6 | aux=1 | key=1]\n19. John Adams [id=5055 | class=Person | type=1 | soft_type=1 | direct=0 | paths=0 | aux=0 | key=0]\n20. Peter Jackson [id=6310 | class=Director | type=0 | soft_type=0 | direct=0 | paths=0 | aux=0 | key=0]\n"
 }
