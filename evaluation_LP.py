@@ -38,15 +38,15 @@ def infer_candidate_count_from_json(meta: Dict[str, Any]) -> int:
 def parse_rank_list(text: str) -> List[int]:
     text = text.strip()
 
-    # 1) 先去掉 <think>...</think>
-    text_wo_think = re.sub(r"<think>.*?</think>", "", text, flags=re.S | re.I).strip()
+    # 尝试去掉 <think> 标签（非贪婪或未闭合情况也可）
+    text_wo_think = re.sub(r"<think.*?>", "", text, flags=re.S | re.I)
+    text_wo_think = re.sub(r"</think>", "", text_wo_think, flags=re.S | re.I).strip()
 
-    # 2) 优先解析去掉 think 后的内容
     for candidate_text in [text_wo_think, text]:
         if not candidate_text:
             continue
 
-        # 尝试整体直接解析
+        # 尝试整体解析
         try:
             obj = ast.literal_eval(candidate_text)
             if isinstance(obj, list):
@@ -54,10 +54,20 @@ def parse_rank_list(text: str) -> List[int]:
         except Exception:
             pass
 
-        # 尝试提取最后一个列表
-        matches = re.findall(r"\[[\s\d,]+\]", candidate_text, flags=re.S)
+        # 按行逐行查找列表
+        for line in candidate_text.splitlines()[::-1]:  # 从后向前
+            line = line.strip()
+            if line.startswith("[") and line.endswith("]"):
+                try:
+                    obj = ast.literal_eval(line)
+                    if isinstance(obj, list):
+                        return [int(x) for x in obj]
+                except Exception:
+                    continue
+
+        # 再使用正则匹配最后一个列表
+        matches = re.findall(r"\[[\s\d,]+\]", candidate_text)
         if matches:
-            # reasoning 模型常常前面举例，最后一个才是真正答案
             for candidate in reversed(matches):
                 try:
                     obj = ast.literal_eval(candidate)
@@ -121,16 +131,17 @@ def query_model(
     model_name: str,
     prompt: str,
     temperature: float = 0.0,
-    max_tokens: int = 256,
-    timeout_sec: float = 120.0,
+    max_tokens: int = 2048,
+    timeout_sec: float = 300.0,
 ) -> str:
     resp = client.chat.completions.create(
         model=model_name,
         messages=[{"role": "user", "content": prompt}],
         temperature=temperature,
-        max_tokens=max_tokens,
-        timeout=timeout_sec,
+        # max_tokens=max_tokens,
+        # timeout=timeout_sec,
     )
+
     return resp.choices[0].message.content.strip()
 
 
@@ -264,7 +275,7 @@ def main():
     parser.add_argument(
         "--model_name",
         type=str,
-        default="/home/wenbin.guo/.cache/modelscope/hub/models/LLM-Research/Meta-Llama-3-8B-Instruct"
+        default="/home/wenbin.guo/.cache/modelscope/hub/models/Qwen/Qwen3-8B"
     )
     parser.add_argument(
         "--temperature",

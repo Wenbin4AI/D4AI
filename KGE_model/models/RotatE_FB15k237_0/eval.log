@@ -1,26 +1,29 @@
-2026-04-20 16:03:48 INFO     ========== Evaluation Start ==========
-2026-04-20 16:03:48 INFO     Checkpoint: /home/wenbin.guo/DKGE4R/KGE_model/models/RotatE_FB15k237_0
-2026-04-20 16:03:48 INFO     Data Path  : /home/wenbin.guo/DKGE4R/data/FB15k-237
-2026-04-20 16:03:48 INFO     Model: RotatE
-2026-04-20 16:03:48 INFO     #entity: 14541
-2026-04-20 16:03:48 INFO     #relation: 237
-2026-04-20 16:03:48 INFO     #train: 272115
-2026-04-20 16:03:48 INFO     #valid: 17535
-2026-04-20 16:03:48 INFO     #test : 20466
-2026-04-20 16:03:51 INFO     Model loaded successfully from checkpoint.
-2026-04-20 16:03:51 INFO     Checkpoint step = 149999
-2026-04-20 16:03:51 INFO     Model Parameter Configuration:
-2026-04-20 16:03:51 INFO     Parameter gamma: torch.Size([1]), require_grad = False
-2026-04-20 16:03:51 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
-2026-04-20 16:03:51 INFO     Parameter entity_embedding: torch.Size([14541, 2000]), require_grad = True
-2026-04-20 16:03:51 INFO     Parameter relation_embedding: torch.Size([237, 1000]), require_grad = True
-2026-04-20 16:03:51 INFO     Evaluating on Test Dataset...
-2026-04-20 16:03:53 INFO     Evaluating the model... (0/2560)
-2026-04-20 16:04:49 INFO     Evaluating the model... (1000/2560)
-2026-04-20 16:06:08 INFO     Evaluating the model... (2000/2560)
-2026-04-20 16:06:52 INFO     Test MRR at step 149999: 0.324315
-2026-04-20 16:06:52 INFO     Test MR at step 149999: 239.743795
-2026-04-20 16:06:52 INFO     Test HITS@1 at step 149999: 0.232727
-2026-04-20 16:06:52 INFO     Test HITS@3 at step 149999: 0.358302
-2026-04-20 16:06:52 INFO     Test HITS@10 at step 149999: 0.510090
-2026-04-20 16:06:52 INFO     Building and saving test subgraphs...
+2026-04-20 16:31:37 INFO     ========== Evaluation Start ==========
+2026-04-20 16:31:37 INFO     Checkpoint: /home/wenbin.guo/DKGE4R/KGE_model/models/RotatE_FB15k237_0
+2026-04-20 16:31:37 INFO     Data Path  : /home/wenbin.guo/DKGE4R/data/FB15k-237
+2026-04-20 16:31:37 INFO     Model: RotatE
+2026-04-20 16:31:37 INFO     #entity: 14541
+2026-04-20 16:31:37 INFO     #relation: 237
+2026-04-20 16:31:37 INFO     #train: 272115
+2026-04-20 16:31:37 INFO     #valid: 17535
+2026-04-20 16:31:37 INFO     #test : 20466
+2026-04-20 16:31:38 INFO     Model loaded successfully from checkpoint.
+2026-04-20 16:31:38 INFO     Checkpoint step = 149999
+2026-04-20 16:31:38 INFO     Model Parameter Configuration:
+2026-04-20 16:31:38 INFO     Parameter gamma: torch.Size([1]), require_grad = False
+2026-04-20 16:31:38 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
+2026-04-20 16:31:38 INFO     Parameter entity_embedding: torch.Size([14541, 2000]), require_grad = True
+2026-04-20 16:31:38 INFO     Parameter relation_embedding: torch.Size([237, 1000]), require_grad = True
+2026-04-20 16:31:38 INFO     Evaluating on Valid Dataset...
+2026-04-20 16:31:38 INFO     Evaluating the model... (0/2192)
+2026-04-20 16:31:55 INFO     Evaluating the model... (1000/2192)
+2026-04-20 16:32:12 INFO     Evaluating the model... (2000/2192)
+2026-04-20 16:32:15 INFO     Valid MRR at step 149999: 0.329760
+2026-04-20 16:32:15 INFO     Valid MR at step 149999: 220.285401
+2026-04-20 16:32:15 INFO     Valid HITS@1 at step 149999: 0.238409
+2026-04-20 16:32:15 INFO     Valid HITS@3 at step 149999: 0.363986
+2026-04-20 16:32:15 INFO     Valid HITS@10 at step 149999: 0.514514
+2026-04-20 16:32:15 INFO     Building and saving valid subgraphs...
+2026-04-20 16:32:15 INFO     Start saving subgraphs for valid from index 0 (total=17535)
+2026-04-20 16:32:52 INFO     Saved subgraphs for valid queries: 0/17535
+2026-04-20 17:12:03 INFO     Saved subgraphs for valid queries: 100/17535
