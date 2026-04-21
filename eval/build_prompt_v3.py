@@ -57,9 +57,6 @@ def safe_relation_name(relation_info, rid):
 
 
 def normalize_path_score(path_score):
-    """
-    你的样例里 -0.1 比 -2.0 更好，所以这里映射成越大越好
-    """
     try:
         return -float(path_score)
     except Exception:
@@ -83,10 +80,10 @@ def unique_keep_order(seq):
 
 
 # =========================================================
-# 3. 抽取 query-level 高质量证据
+# 3. 抽取紧凑型 query-level evidence
 # =========================================================
 
-def extract_high_quality_evidence(subgraph, entity_info, relation_info, max_path_keep=3, max_struct_keep=3):
+def extract_compact_query_evidence(subgraph, entity_info, relation_info, max_path_keep=2, max_struct_keep=3):
     query = subgraph["query"]
     head = int(query["head"])
     relation = int(query["relation"])
@@ -107,25 +104,9 @@ def extract_high_quality_evidence(subgraph, entity_info, relation_info, max_path
     if gold_tail is not None:
         gold_tail = int(gold_tail)
 
-    # -----------------------------------------------------
-    # 1) direct tails: (head, relation, tail)
-    # -----------------------------------------------------
     direct_tails = []
-    for e in edges:
-        h = int(e["head"])
-        r = int(e["relation"])
-        t = int(e["tail"])
-        if h == head and r == relation:
-            direct_tails.append(t)
-    direct_tails = unique_keep_order(direct_tails)
-    direct_tail_set = set(direct_tails)
-
-    # -----------------------------------------------------
-    # 2) 统计局部结构强度
-    # -----------------------------------------------------
     degree = defaultdict(int)
     aux_degree = defaultdict(int)
-    neighbor_map = defaultdict(list)
 
     for e in edges:
         h = int(e["head"])
@@ -135,11 +116,15 @@ def extract_high_quality_evidence(subgraph, entity_info, relation_info, max_path
         degree[h] += 1
         degree[t] += 1
 
+        if h == head and r == relation:
+            direct_tails.append(t)
+
         if r != relation:
             aux_degree[h] += 1
             aux_degree[t] += 1
-            neighbor_map[h].append((r, t))
-            neighbor_map[t].append((r, h))
+
+    direct_tails = unique_keep_order(direct_tails)
+    direct_tail_set = set(direct_tails)
 
     strong_direct_tails = sorted(
         direct_tails,
@@ -152,9 +137,6 @@ def extract_high_quality_evidence(subgraph, entity_info, relation_info, max_path
         reverse=True
     )[:max_struct_keep]
 
-    # -----------------------------------------------------
-    # 3) 高质量路径
-    # -----------------------------------------------------
     filtered_paths = []
     for p in paths:
         tail = int(p.get("tail"))
@@ -175,86 +157,49 @@ def extract_high_quality_evidence(subgraph, entity_info, relation_info, max_path
 
     filtered_paths = sorted(
         filtered_paths,
-        key=lambda x: (
-            int(x["tail"] in direct_tail_set),
-            x["score"]
-        ),
+        key=lambda x: (int(x["tail"] in direct_tail_set), x["score"]),
         reverse=True
     )
-
     best_paths = filtered_paths[:max_path_keep]
 
-    # -----------------------------------------------------
-    # 4) 构造 query-level evidence
-    # -----------------------------------------------------
     evidence = []
 
-    ontology_text = (
-        f"[Ontology] Relation {r_label} expects head type {r_domain} and tail type {r_range}. "
-        f"The head entity {head_label} is of class {head_class}"
-    )
+    # 1. ontology
+    text = f"Relation {r_label} expects tail type {r_range}"
     if r_domain != "Unknown":
-        if class_match(head_class, r_domain):
-            ontology_text += ", which matches the expected domain."
-        else:
-            ontology_text += ", which does not clearly match the expected domain."
-    else:
-        ontology_text += "."
-    evidence.append(ontology_text)
+        text += f" and head type {r_domain}"
+    text += f". The head {head_label} is of class {head_class}."
+    evidence.append(text)
 
+    # 2. direct pattern
     evidence.append(
-        f"[Direct Relation] The subgraph contains {len(direct_tails)} direct edges from {head_label} "
-        f"via relation {r_label}. Direct target-relation connectivity is a primary signal for this query."
+        f"There are {len(direct_tails)} direct candidates connected from {head_label} by relation {r_label}; direct target-relation support is a primary signal."
     )
 
-    if direct_tails:
-        class_count = defaultdict(int)
-        for t in direct_tails:
-            t_class = safe_entity_class(entity_info, t)
-            class_count[t_class] += 1
-
-        sorted_classes = sorted(class_count.items(), key=lambda x: x[1], reverse=True)
-        class_desc = "; ".join([f"{cls}: {cnt}" for cls, cnt in sorted_classes[:3]])
-        evidence.append(
-            f"[Type Pattern] Among direct candidates connected by {r_label}, the observed tail classes are: {class_desc}."
-        )
-
+    # 3. structural cluster
     if strong_direct_tails:
-        desc_list = []
+        names = []
         for t in strong_direct_tails:
             t_label = safe_entity_name(entity_info, t)
             t_class = safe_entity_class(entity_info, t)
-            desc_list.append(
-                f"{t_label} (class={t_class}, degree={degree[t]}, aux_degree={aux_degree[t]}, key_node={'yes' if t in key_nodes else 'no'})"
-            )
+            names.append(f"{t_label} [{t_class}]")
         evidence.append(
-            "[Structural Cluster] The strongest structurally supported direct candidates are: "
-            + "; ".join(desc_list) + "."
+            f"Structurally strong direct candidates include: {', '.join(names)}."
         )
 
+    # 4. path pattern
     if best_paths:
         path_descs = []
         for p in best_paths:
             node_names = [safe_entity_name(entity_info, n) for n in p["nodes"]]
-            rel_names = [safe_relation_name(relation_info, r) for r in p["relations"]]
-            tail_name = safe_entity_name(entity_info, p["tail"])
-            path_descs.append(
-                f"tail={tail_name}, path={' -> '.join(node_names)}, relations={' -> '.join(rel_names)}, score={p['raw_score']}"
-            )
+            path_descs.append(" -> ".join(node_names))
         evidence.append(
-            "[Path Pattern] High-quality supporting paths include: " + "; ".join(path_descs) + "."
+            f"Useful supporting paths include: {'; '.join(path_descs)}."
         )
 
-    direct_key_nodes = [t for t in direct_tails if t in key_nodes]
-    if direct_key_nodes:
-        names = [safe_entity_name(entity_info, x) for x in direct_key_nodes[:5]]
-        evidence.append(
-            f"[Key Nodes] Some direct candidates are also key nodes in the retrieved subgraph, including: {', '.join(names)}."
-        )
-
+    # 5. summary
     evidence.append(
-        "[Summary] The correct tail entity is most likely the one that satisfies ontology constraints, "
-        "receives direct support under the target relation, and is embedded in a dense local structural region with supporting paths."
+        "The best answer should match the expected tail type and also have strong direct or local structural support."
     )
 
     return {
@@ -267,15 +212,12 @@ def extract_high_quality_evidence(subgraph, entity_info, relation_info, max_path
         "relation_domain": r_domain,
         "relation_range": r_range,
         "candidate_tails": candidate_tails,
-        "direct_tails": direct_tails,
-        "strong_direct_tails": strong_direct_tails,
-        "best_paths": best_paths,
-        "query_evidence": evidence,
+        "query_evidence": evidence
     }
 
 
 # =========================================================
-# 4. 候选选择：强制 gold 进入 top-k
+# 4. 候选筛选：保证 gold 在 top-k
 # =========================================================
 
 def score_candidate_for_selection(
@@ -287,9 +229,6 @@ def score_candidate_for_selection(
     aux_degree_map,
     entity_info
 ):
-    """
-    用于候选筛选排序，不生成candidate-level文本，只做排序依据。
-    """
     t_class = safe_entity_class(entity_info, tail_id)
 
     score = 0.0
@@ -299,21 +238,15 @@ def score_candidate_for_selection(
         score += 5.0
     if tail_id in key_nodes:
         score += 2.0
-
     score += 0.3 * degree_map.get(tail_id, 0)
     score += 0.5 * aux_degree_map.get(tail_id, 0)
-
     return score
 
 
 def select_topk_candidates(subgraph, entity_info, relation_info, topk=20):
-    """
-    保证：
-    1. gold_tail 若存在，则一定进入最终 top-k
-    2. 优先保留 ontology匹配 + direct + key_node + 高局部结构 的候选
-    """
     query = subgraph["query"]
     relation = int(query["relation"])
+    head = int(query["head"])
     candidate_tails = [int(x) for x in query.get("candidate_tails", [])]
     candidate_tails = unique_keep_order(candidate_tails)
 
@@ -330,8 +263,6 @@ def select_topk_candidates(subgraph, entity_info, relation_info, topk=20):
     degree = defaultdict(int)
     aux_degree = defaultdict(int)
     direct_tail_set = set()
-
-    head = int(query["head"])
 
     for e in edges:
         h = int(e["head"])
@@ -365,43 +296,37 @@ def select_topk_candidates(subgraph, entity_info, relation_info, topk=20):
     selected = [x[0] for x in scored[:topk]]
     selected = unique_keep_order(selected)
 
-    # 强制 gold 进入 top-k
-    if gold_tail is not None and gold_tail in candidate_tails:
-        if gold_tail not in selected:
-            if len(selected) < topk:
-                selected.append(gold_tail)
-            else:
-                selected[-1] = gold_tail
-            selected = unique_keep_order(selected)
+    if gold_tail is not None and gold_tail in candidate_tails and gold_tail not in selected:
+        if len(selected) < topk:
+            selected.append(gold_tail)
+        else:
+            selected[-1] = gold_tail
+        selected = unique_keep_order(selected)
 
-            # 若替换后长度 < topk，则继续补齐
-            if len(selected) < topk:
-                for tail_id, _ in scored:
-                    if tail_id not in selected:
-                        selected.append(tail_id)
-                    if len(selected) >= topk:
-                        break
+        if len(selected) < topk:
+            for tail_id, _ in scored:
+                if tail_id not in selected:
+                    selected.append(tail_id)
+                if len(selected) >= topk:
+                    break
 
-    # 兜底裁剪
-    selected = selected[:topk]
-
-    return selected
+    return selected[:topk]
 
 
 # =========================================================
-# 5. 构造候选文本，并计算 gold 编号
+# 5. 生成候选行与 gold index（从0开始）
 # =========================================================
 
 def build_candidate_lines(selected_candidates, entity_info, gold_tail=None):
     candidate_lines = []
-    gold_rank_id = None
+    gold_selected_index = None
 
-    for idx, tail_id in enumerate(selected_candidates, start=1):
+    for idx, tail_id in enumerate(selected_candidates):
         label = safe_entity_name(entity_info, tail_id)
         classname = safe_entity_class(entity_info, tail_id)
 
         item = {
-            "rank_id": idx,
+            "selected_index": idx,
             "tail_id": tail_id,
             "label": label,
             "classname": classname,
@@ -410,66 +335,74 @@ def build_candidate_lines(selected_candidates, entity_info, gold_tail=None):
         candidate_lines.append(item)
 
         if gold_tail is not None and tail_id == gold_tail:
-            gold_rank_id = idx
+            gold_selected_index = idx
 
-    return candidate_lines, gold_rank_id
+    return candidate_lines, gold_selected_index
 
 
 # =========================================================
-# 6. 构造 prompt
+# 6. 构造单选 JSON prompt
 # =========================================================
 
-def build_prompt_from_query_evidence(result, candidate_lines, output_one_number=False):
+def build_single_choice_prompt(result, candidate_lines):
     head_label = result["head_label"]
     relation_label = result["relation_label"]
     evidence = result["query_evidence"]
 
-    lines = []
-    lines.append("You are given a knowledge graph link prediction task.")
-    lines.append("")
-    lines.append(f"Query: (head={head_label}, relation={relation_label}, tail=?)")
-    lines.append("")
+    candidate_block = "\n".join([item["text"] for item in candidate_lines])
+    evidence_block = "\n".join([f"- {x}" for x in evidence])
 
-    lines.append("Key Evidence:")
-    for ev in evidence:
-        lines.append(f"- {ev}")
+    prompt = f"""You are an expert knowledge graph completion system.
 
-    lines.append("")
-    lines.append("Candidates:")
-    for item in candidate_lines:
-        lines.append(item["text"])
+Your task is to select the correct tail entity from a candidate list.
 
-    lines.append("")
-    lines.append("Instruction:")
-    if output_one_number:
-        lines.append("Select the single most likely correct candidate.")
-        lines.append("Output only one candidate number.")
-        lines.append("Do not explain.")
-        lines.append("Do not output entity names.")
-        lines.append("Do not output markdown.")
-        lines.append("Do not output any extra text.")
-    else:
-        lines.append("Rank the candidate numbers in descending likelihood.")
-        lines.append("Output only one Python-style list of candidate numbers.")
-        lines.append("Do not explain.")
-        lines.append("Do not output entity names.")
-        lines.append("Do not output markdown.")
-        lines.append("Do not output any text before or after the list.")
+Triple format:
+(head entity, relation, tail entity)
 
-    return "\n".join(lines)
+Important:
+- You are predicting ONLY the tail entity.
+- The head entity "{head_label}" is NOT a valid answer.
+- You MUST select exactly ONE candidate index.
+- You MUST NOT output entity names.
+- You MUST NOT generate new entities.
+- Use the ontology and structural evidence to compare candidates.
+- Output ONLY valid JSON.
+
+Before answering, internally:
+1. Understand the semantic meaning of the relation.
+2. Determine the expected type of the tail entity.
+3. Use the key evidence to compare all candidates carefully.
+4. Select the most logically consistent candidate.
+Do NOT output reasoning.
+
+Key evidence:
+{evidence_block}
+
+Candidate entities:
+{candidate_block}
+
+Output format:
+{{
+  "selected_index": integer
+}}
+
+Incomplete triple:
+({head_label}, {relation_label}, ?)
+"""
+    return prompt
 
 
 # =========================================================
 # 7. 处理单个子图文件
 # =========================================================
 
-def process_one_subgraph_file(subgraph_file, entity_info, relation_info, topk=20, output_one_number=False):
+def process_one_subgraph_file(subgraph_file, entity_info, relation_info, topk=20):
     with open(subgraph_file, "r", encoding="utf-8") as f:
         subgraph = json.load(f)
 
-    result = extract_high_quality_evidence(subgraph, entity_info, relation_info)
-    gold_tail = result["gold_tail"]
+    result = extract_compact_query_evidence(subgraph, entity_info, relation_info)
 
+    gold_tail = result["gold_tail"]
     selected_candidates = select_topk_candidates(
         subgraph=subgraph,
         entity_info=entity_info,
@@ -477,24 +410,20 @@ def process_one_subgraph_file(subgraph_file, entity_info, relation_info, topk=20
         topk=topk
     )
 
-    candidate_lines, gold_rank_id = build_candidate_lines(
+    candidate_lines, gold_selected_index = build_candidate_lines(
         selected_candidates=selected_candidates,
         entity_info=entity_info,
         gold_tail=gold_tail
     )
 
-    prompt = build_prompt_from_query_evidence(
-        result=result,
-        candidate_lines=candidate_lines,
-        output_one_number=output_one_number
-    )
+    prompt = build_single_choice_prompt(result, candidate_lines)
 
-    output = {
+    return {
         "file": os.path.basename(subgraph_file),
         "head_id": result["head_id"],
         "relation_id": result["relation_id"],
         "gold_tail": gold_tail,
-        "gold_rank_id_in_prompt": gold_rank_id,
+        "gold_selected_index": gold_selected_index,
         "head_label": result["head_label"],
         "head_class": result["head_class"],
         "relation_label": result["relation_label"],
@@ -504,11 +433,10 @@ def process_one_subgraph_file(subgraph_file, entity_info, relation_info, topk=20
         "candidate_lines": candidate_lines,
         "prompt": prompt
     }
-    return output
 
 
 # =========================================================
-# 8. 批量处理目录并逐文件保存
+# 8. 批量处理并保存
 # =========================================================
 
 def process_and_save_per_file(
@@ -516,8 +444,7 @@ def process_and_save_per_file(
     entity_path,
     relation_path,
     output_dir,
-    topk=20,
-    output_one_number=False
+    topk=20
 ):
     entity_info = load_entities(entity_path)
     relation_info = load_relations(relation_path)
@@ -525,8 +452,7 @@ def process_and_save_per_file(
     os.makedirs(output_dir, exist_ok=True)
     print(f"[INFO] Output dir ready: {output_dir}")
 
-    files = sorted(os.listdir(subgraph_dir))
-    json_files = [f for f in files if f.endswith(".json")]
+    json_files = sorted([f for f in os.listdir(subgraph_dir) if f.endswith(".json")])
     print(f"[INFO] Found {len(json_files)} subgraph files")
 
     success_count = 0
@@ -535,17 +461,15 @@ def process_and_save_per_file(
 
     for idx, fname in enumerate(json_files, start=1):
         fpath = os.path.join(subgraph_dir, fname)
-
         try:
             result = process_one_subgraph_file(
                 subgraph_file=fpath,
                 entity_info=entity_info,
                 relation_info=relation_info,
-                topk=topk,
-                output_one_number=output_one_number
+                topk=topk
             )
 
-            if result["gold_tail"] is not None and result["gold_rank_id_in_prompt"] is None:
+            if result["gold_tail"] is not None and result["gold_selected_index"] is None:
                 missing_gold_count += 1
 
             out_name = fname.replace(".json", "_prompt.json")
@@ -561,7 +485,6 @@ def process_and_save_per_file(
                     f"[{idx}/{len(json_files)}] saved={out_name} | "
                     f"success={success_count} | fail={fail_count} | missing_gold={missing_gold_count}"
                 )
-
         except Exception as e:
             fail_count += 1
             print(f"[ERROR] {fname} failed: {e}")
@@ -582,13 +505,12 @@ if __name__ == "__main__":
     relation_path = "/home/wenbin.guo/DKGE4R/data/FB15k-237/relation_new.json"
 
     subgraph_dir = "/home/wenbin.guo/DKGE4R/KGE_model/saved_subgraphs/test"
-    output_dir = "/home/wenbin.guo/DKGE4R/KGE_model/saved_subgraphs/test_prompts_v4"
+    output_dir = "/home/wenbin.guo/DKGE4R/KGE_model/saved_subgraphs/test_prompts_v5"
 
     process_and_save_per_file(
         subgraph_dir=subgraph_dir,
         entity_path=entity_path,
         relation_path=relation_path,
         output_dir=output_dir,
-        topk=20,
-        output_one_number=False
+        topk=20
     )

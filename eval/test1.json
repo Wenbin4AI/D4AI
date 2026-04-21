@@ -1,0 +1,185 @@
+[
+  {
+    "file": "test_0.json",
+    "head_id": 4092,
+    "relation_id": 23,
+    "gold_tail": 13397,
+    "gold_rank_id_in_prompt": 12,
+    "head_label": "The Queen",
+    "head_class": "Person",
+    "relation_label": "memberOf",
+    "relation_domain": "Country",
+    "relation_range": "International Organization",
+    "direct_tails": [
+      3053,
+      3452,
+      4353,
+      5287,
+      9839,
+      10543,
+      12521,
+      13034,
+      13397,
+      13443,
+      13478,
+      14434
+    ],
+    "strong_direct_tails": [
+      10543,
+      9839,
+      13443
+    ],
+    "query_evidence": [
+      "[Ontology] Relation memberOf expects head type Country and tail type International Organization. The head entity The Queen is of class Person, which does not clearly match the expected domain.",
+      "[Direct Relation] The subgraph contains 12 direct edges from The Queen via relation memberOf. Direct target-relation connectivity is therefore a primary signal for this query.",
+      "[Type Pattern] Among direct candidates connected by memberOf, the observed tail classes are: City: 2; Movie: 1; Musical Instrument: 1.",
+      "[Structural Cluster] The strongest structurally supported direct candidates are: My Neighbor Totoro (class=Animated Film, degree=12, aux_degree=11, key_node=yes); Wallace Shawn (class=Person, degree=10, aux_degree=9, key_node=yes); Ac Arles (class=City, degree=9, aux_degree=8, key_node=yes).",
+      "[Path Pattern] High-quality supporting paths include: tail=My Neighbor Totoro, path=The Queen -> Wallace Shawn -> My Neighbor Totoro, relations=memberOf -> hasArtDirector, score=-2.019563627243042; tail=My Neighbor Totoro, path=The Queen -> Dresden -> My Neighbor Totoro, relations=memberOf -> hasArtDirector, score=-2.019563627243042; tail=My Neighbor Totoro, path=The Queen -> Hammond Organ -> My Neighbor Totoro, relations=memberOf -> hasArtDirector, score=-2.019563627243042.",
+      "[Key Nodes] Some direct candidates are also key nodes in the retrieved subgraph, including: Hammond Organ, Dresden, Wallace Shawn, My Neighbor Totoro, Howard Morris.",
+      "[Summary] The correct tail entity is most likely the one that the correct tail should satisfy ontology constraints, receive direct support under the target relation, be embedded in a dense local structural region, and be supported by high-quality paths."
+    ],
+    "candidate_lines": [
+      {
+        "rank_id": 1,
+        "tail_id": 10543,
+        "label": "My Neighbor Totoro",
+        "classname": "Animated Film",
+        "text": "1. My Neighbor Totoro [class=Animated Film]"
+      },
+      {
+        "rank_id": 2,
+        "tail_id": 3452,
+        "label": "Hammond Organ",
+        "classname": "Musical Instrument",
+        "text": "2. Hammond Organ [class=Musical Instrument]"
+      },
+      {
+        "rank_id": 3,
+        "tail_id": 12521,
+        "label": "Howard Morris",
+        "classname": "Actor",
+        "text": "3. Howard Morris [class=Actor]"
+      },
+      {
+        "rank_id": 4,
+        "tail_id": 3053,
+        "label": "The World's Fastest Indian",
+        "classname": "Movie",
+        "text": "4. The World's Fastest Indian [class=Movie]"
+      },
+      {
+        "rank_id": 5,
+        "tail_id": 13034,
+        "label": "Chinese Communist Party",
+        "classname": "Politics",
+        "text": "5. Chinese Communist Party [class=Politics]"
+      },
+      {
+        "rank_id": 6,
+        "tail_id": 14434,
+        "label": "Television Special",
+        "classname": "Tv Genre",
+        "text": "6. Television Special [class=Tv Genre]"
+      },
+      {
+        "rank_id": 7,
+        "tail_id": 13478,
+        "label": "Hiroshima Prefecture",
+        "classname": "Prefecture",
+        "text": "7. Hiroshima Prefecture [class=Prefecture]"
+      },
+      {
+        "rank_id": 8,
+        "tail_id": 9839,
+        "label": "Wallace Shawn",
+        "classname": "Person",
+        "text": "8. Wallace Shawn [class=Person]"
+      },
+      {
+        "rank_id": 9,
+        "tail_id": 5287,
+        "label": "Dresden",
+        "classname": "City",
+        "text": "9. Dresden [class=City]"
+      },
+      {
+        "rank_id": 10,
+        "tail_id": 13443,
+        "label": "Ac Arles",
+        "classname": "City",
+        "text": "10. Ac Arles [class=City]"
+      },
+      {
+        "rank_id": 11,
+        "tail_id": 4353,
+        "label": "Mississippi",
+        "classname": "Location",
+        "text": "11. Mississippi [class=Location]"
+      },
+      {
+        "rank_id": 12,
+        "tail_id": 13397,
+        "label": "Cleveland State University",
+        "classname": "University",
+        "text": "12. Cleveland State University [class=University]"
+      },
+      {
+        "rank_id": 13,
+        "tail_id": 14037,
+        "label": "Pontefract",
+        "classname": "City",
+        "text": "13. Pontefract [class=City]"
+      },
+      {
+        "rank_id": 14,
+        "tail_id": 11345,
+        "label": "Delta Blues",
+        "classname": "Music Genre",
+        "text": "14. Delta Blues [class=Music Genre]"
+      },
+      {
+        "rank_id": 15,
+        "tail_id": 8982,
+        "label": "Maaya Sakamoto",
+        "classname": "Voice Actress and Singer",
+        "text": "15. Maaya Sakamoto [class=Voice Actress and Singer]"
+      },
+      {
+        "rank_id": 16,
+        "tail_id": 5029,
+        "label": "Exeter",
+        "classname": "City",
+        "text": "16. Exeter [class=City]"
+      },
+      {
+        "rank_id": 17,
+        "tail_id": 4810,
+        "label": "Danubio F.c.",
+        "classname": "Football Club",
+        "text": "17. Danubio F.c. [class=Football Club]"
+      },
+      {
+        "rank_id": 18,
+        "tail_id": 5245,
+        "label": "Miniseries",
+        "classname": "Tv Format",
+        "text": "18. Miniseries [class=Tv Format]"
+      },
+      {
+        "rank_id": 19,
+        "tail_id": 12176,
+        "label": "Monty Python",
+        "classname": "Organization",
+        "text": "19. Monty Python [class=Organization]"
+      },
+      {
+        "rank_id": 20,
+        "tail_id": 5604,
+        "label": "Dermot Mulroney",
+        "classname": "Person",
+        "text": "20. Dermot Mulroney [class=Person]"
+      }
+    ],
+    "prompt": "You are given a knowledge graph link prediction task.\n\nQuery: (head=The Queen, relation=memberOf, tail=?)\n\nKey Evidence:\n- [Ontology] Relation memberOf expects head type Country and tail type International Organization. The head entity The Queen is of class Person, which does not clearly match the expected domain.\n- [Direct Relation] The subgraph contains 12 direct edges from The Queen via relation memberOf. Direct target-relation connectivity is therefore a primary signal for this query.\n- [Type Pattern] Among direct candidates connected by memberOf, the observed tail classes are: City: 2; Movie: 1; Musical Instrument: 1.\n- [Structural Cluster] The strongest structurally supported direct candidates are: My Neighbor Totoro (class=Animated Film, degree=12, aux_degree=11, key_node=yes); Wallace Shawn (class=Person, degree=10, aux_degree=9, key_node=yes); Ac Arles (class=City, degree=9, aux_degree=8, key_node=yes).\n- [Path Pattern] High-quality supporting paths include: tail=My Neighbor Totoro, path=The Queen -> Wallace Shawn -> My Neighbor Totoro, relations=memberOf -> hasArtDirector, score=-2.019563627243042; tail=My Neighbor Totoro, path=The Queen -> Dresden -> My Neighbor Totoro, relations=memberOf -> hasArtDirector, score=-2.019563627243042; tail=My Neighbor Totoro, path=The Queen -> Hammond Organ -> My Neighbor Totoro, relations=memberOf -> hasArtDirector, score=-2.019563627243042.\n- [Key Nodes] Some direct candidates are also key nodes in the retrieved subgraph, including: Hammond Organ, Dresden, Wallace Shawn, My Neighbor Totoro, Howard Morris.\n- [Summary] The correct tail entity is most likely the one that the correct tail should satisfy ontology constraints, receive direct support under the target relation, be embedded in a dense local structural region, and be supported by high-quality paths.\n\nCandidates:\n1. My Neighbor Totoro [class=Animated Film]\n2. Hammond Organ [class=Musical Instrument]\n3. Howard Morris [class=Actor]\n4. The World's Fastest Indian [class=Movie]\n5. Chinese Communist Party [class=Politics]\n6. Television Special [class=Tv Genre]\n7. Hiroshima Prefecture [class=Prefecture]\n8. Wallace Shawn [class=Person]\n9. Dresden [class=City]\n10. Ac Arles [class=City]\n11. Mississippi [class=Location]\n12. Cleveland State University [class=University]\n13. Pontefract [class=City]\n14. Delta Blues [class=Music Genre]\n15. Maaya Sakamoto [class=Voice Actress and Singer]\n16. Exeter [class=City]\n17. Danubio F.c. [class=Football Club]\n18. Miniseries [class=Tv Format]\n19. Monty Python [class=Organization]\n20. Dermot Mulroney [class=Person]\n\nInstruction:\nRank the candidate numbers in descending likelihood.\nOutput only one Python-style list of candidate numbers.\nDo not explain."
+  }
+]
