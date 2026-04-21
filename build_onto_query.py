@@ -499,6 +499,80 @@ def process_one_file(subgraph_path, entity_map, relation_map, output_dir, candid
     print(f"Saved: {json_out}")
     print(f"Saved: {txt_out}")
 
+def generate_hit1_prompt_with_ontology(subgraph, entity_map, relation_map, candidate_limit=20, random_seed=42):
+    h = subgraph["query"]["head"]
+    r = subgraph["query"]["relation"]
+    candidate_tails = subgraph["query"]["candidate_tails"]
+    gold_tail = subgraph.get("gold_tail", None)
+
+    if gold_tail is None:
+        raise ValueError("gold_tail not found in subgraph")
+
+    rel_info = relation_map.get(r, {"label": f"Relation_{r}"})
+    direct_edges = build_direct_edge_set(subgraph["edges"])
+    tail2paths = group_paths_by_tail(subgraph.get("paths", []))
+    aux_out, aux_in = build_aux_neighbors(subgraph["edges"], target_relation=r)
+    key_nodes = set(subgraph.get("key_nodes", []))
+
+    # 生成候选，保证只有一个 gold
+    selected_infos = select_candidates_with_single_gold(
+        candidate_tails=candidate_tails,
+        gold_tail=gold_tail,
+        h=h,
+        r=r,
+        rel_info=rel_info,
+        entity_map=entity_map,
+        direct_edges=direct_edges,
+        tail2paths=tail2paths,
+        aux_out=aux_out,
+        aux_in=aux_in,
+        key_nodes=key_nodes,
+        candidate_limit=candidate_limit,
+        random_seed=random_seed
+    )
+
+    # 构建紧凑候选行
+    candidate_lines = [make_candidate_compact_line(idx + 1, info) for idx, info in enumerate(selected_infos)]
+    candidate_id_to_rank_index = {info["candidate_id"]: idx+1 for idx, info in enumerate(selected_infos)}
+    gold_rank_index = candidate_id_to_rank_index[gold_tail]
+
+    ontology_summary = make_ontology_summary(h, r, entity_map, relation_map)
+    subgraph_summary = make_subgraph_summary(h, r, subgraph, relation_map, entity_map)
+    path_pattern_lines = summarize_relation_path_patterns(subgraph.get("paths", []), relation_map)
+
+    prompt = f"""
+You are an expert knowledge graph completion system.
+Select exactly ONE correct tail entity from the candidate list.
+
+Head: {get_entity_label(entity_map, h)} (class={get_entity_class(entity_map, h)})
+Relation: {get_relation_label(relation_map, r)}
+
+Ontology summary:
+{ontology_summary}
+
+Subgraph summary:
+{subgraph_summary}
+
+Frequent path patterns:
+{chr(10).join(path_pattern_lines)}
+
+Candidates:
+{chr(10).join(candidate_lines)}
+
+Output format:
+{{"selected_index": integer}}
+"""
+
+    return {
+        "prompt": prompt,
+        "query": {
+            "head_id": h,
+            "relation_id": r,
+            "gold_tail": gold_tail,
+            "gold_candidate_rank_index": gold_rank_index,
+            "selected_candidates": selected_infos
+        }
+    }
 
 def process_all_files():
     random.seed(RANDOM_SEED)
