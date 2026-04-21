@@ -1,372 +1,139 @@
 import os
+import re
 import json
-from collections import defaultdict
+from glob import glob
+from typing import List, Dict, Optional
+from openai import OpenAI
+from tqdm import tqdm
 
 
-# =========================================================
-# 1. 读取实体 / 关系本体
-# =========================================================
-
-def load_entities(entity_path):
-    with open(entity_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    entity_info = {}
-    for x in data:
-        eid = int(x["value"])
-        entity_info[eid] = {
-            "label": x.get("label", f"entity_{eid}"),
-            "classname": x.get("classname", "Unknown"),
-            "classid": x.get("classid", None),
-            "freebase_id": x.get("freebase_id", "")
-        }
-    return entity_info
-
-
-def load_relations(relation_path):
-    with open(relation_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    relation_info = {}
-    for x in data:
-        rid = int(x["id"])
-        relation_info[rid] = {
-            "label": x.get("label", f"relation_{rid}"),
-            "domain": x.get("domain", "Unknown"),
-            "range": x.get("range", "Unknown"),
-            "domain_candidates": x.get("domain_candidates", []),
-            "freebase": x.get("freebase", "")
-        }
-    return relation_info
-
-
-# =========================================================
-# 2. 基础工具函数
-# =========================================================
-
-def safe_entity_name(entity_info, eid):
-    return entity_info.get(eid, {}).get("label", f"entity_{eid}")
-
-
-def safe_entity_class(entity_info, eid):
-    return entity_info.get(eid, {}).get("classname", "Unknown")
-
-
-def safe_relation_name(relation_info, rid):
-    return relation_info.get(rid, {}).get("label", f"relation_{rid}")
-
-
-def class_match(entity_class, expected_class):
-    if expected_class is None or expected_class == "Unknown":
-        return False
-    return entity_class == expected_class
-
-
-def normalize_path_score(path_score):
+def clean_llm_output(text: str) -> str:
     """
-    你的路径分数越接近 0 越好，例如 -0.1 比 -2.0 更好。
-    这里转成越大越好。
+    Remove <think>...</think> blocks if they exist.
+    """
+    cleaned = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL)
+    return cleaned.strip()
+
+
+def extract_selected_index(llm_output: str) -> Optional[int]:
+    """
+    从模型输出中提取 selected_index
+    优先解析 JSON；失败则回退提取第一个数字
+    """
+    cleaned_output = clean_llm_output(llm_output)
+
+    try:
+        data = json.loads(cleaned_output)
+        return int(data["selected_index"])
+    except Exception:
+        pass
+
+    match = re.search(r"\d+", cleaned_output)
+    if match:
+        return int(match.group())
+
+    return None
+
+
+def load_json_safe(path: str) -> Optional[Dict]:
+    """
+    安全读取 JSON：
+    - 空文件 -> 返回 None
+    - 非法 JSON -> 返回 None
     """
     try:
-        return -float(path_score)
-    except Exception:
-        return -999999.0
+        with open(path, "r", encoding="utf-8") as f:
+            text = f.read()
+
+        if not text.strip():
+            print(f"[Skip Empty JSON] {path}")
+            return None
+
+        return json.loads(text)
+
+    except Exception as e:
+        print(f"[Skip Bad JSON] {path} | {e}")
+        return None
 
 
-def unique_keep_order(seq):
-    seen = set()
-    out = []
-    for x in seq:
-        if x not in seen:
-            seen.add(x)
-            out.append(x)
-    return out
+def extract_file_index(filename: str) -> int:
+    """
+    从 test_20463.json 中提取数字 20463，用于排序
+    """
+    base = os.path.basename(filename)
+    match = re.search(r"(\d+)", base)
+    return int(match.group(1)) if match else 10**18
 
 
-# =========================================================
-# 3. 为每个查询抽取 query_evidence
-#    这里保持简洁，只生成少量高质量证据
-# =========================================================
+def load_prompt_cases(prompt_dir: str) -> List[Dict]:
+    """
+    遍历目录下所有 json 文件，并按文件编号排序
+    遇到损坏/空文件直接跳过
+    """
+    paths = glob(os.path.join(prompt_dir, "*.json"))
+    paths = sorted(paths, key=extract_file_index)
 
-def extract_query_evidence(subgraph, entity_info, relation_info, max_path_keep=2, max_struct_keep=3):
-    query = subgraph["query"]
-    head = int(query["head"])
-    relation = int(query["relation"])
+    cases = []
+    skipped = 0
 
-    head_label = safe_entity_name(entity_info, head)
-    head_class = safe_entity_class(entity_info, head)
-
-    rel_meta = relation_info.get(relation, {})
-    relation_label = rel_meta.get("label", f"relation_{relation}")
-    relation_domain = rel_meta.get("domain", "Unknown")
-    relation_range = rel_meta.get("range", "Unknown")
-
-    edges = subgraph.get("edges", [])
-    paths = subgraph.get("paths", [])
-    key_nodes = set(subgraph.get("key_nodes", []))
-
-    # 1) direct tails
-    direct_tails = []
-    degree = defaultdict(int)
-    aux_degree = defaultdict(int)
-
-    for e in edges:
-        h = int(e["head"])
-        r = int(e["relation"])
-        t = int(e["tail"])
-
-        degree[h] += 1
-        degree[t] += 1
-
-        if h == head and r == relation:
-            direct_tails.append(t)
-
-        if r != relation:
-            aux_degree[h] += 1
-            aux_degree[t] += 1
-
-    direct_tails = unique_keep_order(direct_tails)
-    direct_tail_set = set(direct_tails)
-
-    strong_direct_tails = sorted(
-        direct_tails,
-        key=lambda x: (
-            int(class_match(safe_entity_class(entity_info, x), relation_range)),
-            int(x in key_nodes),
-            aux_degree[x],
-            degree[x]
-        ),
-        reverse=True
-    )[:max_struct_keep]
-
-    # 2) high-quality paths
-    filtered_paths = []
-    for p in paths:
-        tail = int(p.get("tail"))
-        path_nodes = [int(n) for n in p.get("nodes", [])]
-        score = normalize_path_score(p.get("path_score", -999999))
-
-        if not path_nodes or path_nodes[0] != head:
+    for path in paths:
+        item = load_json_safe(path)
+        if item is None:
+            skipped += 1
             continue
 
-        filtered_paths.append({
-            "tail": tail,
-            "nodes": path_nodes,
-            "score": score,
-            "raw_score": p.get("path_score", None)
-        })
+        required_keys = [
+            "head_label",
+            "relation_label",
+            "gold_selected_index",
+            "candidate_lines"
+        ]
+        missing = [k for k in required_keys if k not in item]
+        if missing:
+            print(f"[Skip Invalid Case] {path} | missing keys: {missing}")
+            skipped += 1
+            continue
 
-    filtered_paths = sorted(
-        filtered_paths,
-        key=lambda x: (int(x["tail"] in direct_tail_set), x["score"]),
-        reverse=True
-    )
-    best_paths = filtered_paths[:max_path_keep]
+        item["_file_path"] = path
+        item["_file_name"] = os.path.basename(path)
+        cases.append(item)
 
-    evidence = []
-
-    # Evidence 1: ontology
-    ontology_text = (
-        f"Relation {relation_label} expects the tail to be of type {relation_range}"
-    )
-    if relation_domain != "Unknown":
-        ontology_text += f" and the head to be of type {relation_domain}"
-    ontology_text += f". The head entity {head_label} is of class {head_class}."
-    evidence.append(ontology_text)
-
-    # Evidence 2: direct relation pattern
-    evidence.append(
-        f"Direct target-relation links from {head_label} under {relation_label} are a primary signal in this query."
-    )
-
-    # Evidence 3: structural candidates
-    if strong_direct_tails:
-        names = []
-        for t in strong_direct_tails:
-            t_label = safe_entity_name(entity_info, t)
-            t_class = safe_entity_class(entity_info, t)
-            names.append(f"{t_label} [{t_class}]")
-        evidence.append(
-            f"Structurally strong direct candidates include: {', '.join(names)}."
-        )
-
-    # Evidence 4: path support
-    if best_paths:
-        path_descs = []
-        for p in best_paths:
-            node_names = [safe_entity_name(entity_info, n) for n in p["nodes"]]
-            path_descs.append(" -> ".join(node_names))
-        evidence.append(
-            f"Useful supporting paths include: {'; '.join(path_descs)}."
-        )
-
-    # Evidence 5: summary
-    evidence.append(
-        "The best answer should be semantically consistent with the relation and also supported by direct or local structural evidence."
-    )
-
-    return {
-        "head_id": head,
-        "relation_id": relation,
-        "head_label": head_label,
-        "head_class": head_class,
-        "relation_label": relation_label,
-        "relation_domain": relation_domain,
-        "relation_range": relation_range,
-        "query_evidence": evidence,
-    }
+    print(f"Loaded valid cases: {len(cases)}")
+    print(f"Skipped files: {skipped}")
+    return cases
 
 
-# =========================================================
-# 4. 候选筛选：保证 gold 进入 top-k
-#    这里只负责选择，不生成 candidate-level evidence
-# =========================================================
+def format_query_evidence(query_evidence: List[str]) -> str:
+    if not query_evidence:
+        return ""
 
-def score_candidate_for_selection(
-    tail_id,
-    relation_range,
-    direct_tail_set,
-    key_nodes,
-    degree_map,
-    aux_degree_map,
-    entity_info
-):
-    t_class = safe_entity_class(entity_info, tail_id)
-
-    score = 0.0
-    if class_match(t_class, relation_range):
-        score += 4.0
-    if tail_id in direct_tail_set:
-        score += 5.0
-    if tail_id in key_nodes:
-        score += 2.0
-
-    score += 0.3 * degree_map.get(tail_id, 0)
-    score += 0.5 * aux_degree_map.get(tail_id, 0)
-
-    return score
+    evidence_lines = "\n".join([f"- {x}" for x in query_evidence])
+    return f"\nKey evidence:\n{evidence_lines}\n"
 
 
-def select_topk_candidates(subgraph, entity_info, relation_info, topk=20):
-    query = subgraph["query"]
-    relation = int(query["relation"])
-    head = int(query["head"])
-    candidate_tails = [int(x) for x in query.get("candidate_tails", [])]
-    candidate_tails = unique_keep_order(candidate_tails)
-
-    gold_tail = subgraph.get("gold_tail", None)
-    if gold_tail is not None:
-        gold_tail = int(gold_tail)
-
-    rel_meta = relation_info.get(relation, {})
-    relation_range = rel_meta.get("range", "Unknown")
-
-    edges = subgraph.get("edges", [])
-    key_nodes = set(subgraph.get("key_nodes", []))
-
-    degree = defaultdict(int)
-    aux_degree = defaultdict(int)
-    direct_tail_set = set()
-
-    for e in edges:
-        h = int(e["head"])
-        r = int(e["relation"])
-        t = int(e["tail"])
-
-        degree[h] += 1
-        degree[t] += 1
-
-        if h == head and r == relation:
-            direct_tail_set.add(t)
-
-        if r != relation:
-            aux_degree[h] += 1
-            aux_degree[t] += 1
-
-    scored = []
-    for tail_id in candidate_tails:
-        s = score_candidate_for_selection(
-            tail_id=tail_id,
-            relation_range=relation_range,
-            direct_tail_set=direct_tail_set,
-            key_nodes=key_nodes,
-            degree_map=degree,
-            aux_degree_map=aux_degree,
-            entity_info=entity_info
-        )
-        scored.append((tail_id, s))
-
-    scored.sort(key=lambda x: x[1], reverse=True)
-    selected = [x[0] for x in scored[:topk]]
-    selected = unique_keep_order(selected)
-
-    # 强制 gold 进入 topk
-    if gold_tail is not None and gold_tail in candidate_tails and gold_tail not in selected:
-        if len(selected) < topk:
-            selected.append(gold_tail)
+def format_candidate_lines(candidate_lines: List[Dict]) -> str:
+    lines = []
+    for item in candidate_lines:
+        if "text" in item and item["text"]:
+            lines.append(item["text"])
         else:
-            selected[-1] = gold_tail
-
-        selected = unique_keep_order(selected)
-
-        if len(selected) < topk:
-            for tail_id, _ in scored:
-                if tail_id not in selected:
-                    selected.append(tail_id)
-                if len(selected) >= topk:
-                    break
-
-    return selected[:topk]
+            idx = item["selected_index"]
+            label = item["label"]
+            classname = item.get("classname", "Unknown")
+            lines.append(f"{idx}. {label} [class={classname}]")
+    return "\n".join(lines)
 
 
-# =========================================================
-# 5. 构建 candidate lines
-#    这里完全沿用“单选风格”，编号从 0 开始，
-#    因为你提供的高效果版本就是这种形式。:contentReference[oaicite:1]{index=1}
-# =========================================================
+def build_prompt_from_case(case: Dict) -> str:
+    head = case["head_label"]
+    relation = case["relation_label"]
+    candidate_lines = case["candidate_lines"]
+    query_evidence = case.get("query_evidence", [])
 
-def build_candidate_lines(selected_candidates, entity_info, gold_tail=None):
-    candidate_lines = []
-    gold_selected_index = None
+    indexed_candidates = format_candidate_lines(candidate_lines)
+    evidence_block = format_query_evidence(query_evidence)
 
-    for idx, tail_id in enumerate(selected_candidates):
-        label = safe_entity_name(entity_info, tail_id)
-        classname = safe_entity_class(entity_info, tail_id)
-
-        item = {
-            "selected_index": idx,
-            "tail_id": tail_id,
-            "label": label,
-            "classname": classname,
-            "text": f"{idx}. {label}"
-        }
-        candidate_lines.append(item)
-
-        if gold_tail is not None and tail_id == gold_tail:
-            gold_selected_index = idx
-
-    return candidate_lines, gold_selected_index
-
-
-# =========================================================
-# 6. 完全按照你那版模板生成 prompt，
-#    只在 Candidate entities 前插入 query_evidence
-# =========================================================
-
-def build_prompt_with_evidence(head, relation, candidate_lines, query_evidence):
-    indexed_candidates = "\n".join([item["text"] for item in candidate_lines])
-
-    evidence_block = ""
-    if query_evidence:
-        evidence_lines = "\n".join([f"- {x}" for x in query_evidence])
-        evidence_block = f"""
-Key evidence:
-{evidence_lines}
-
-"""
-
-    prompt = f"""
-You are an expert knowledge graph completion system.
+    prompt = f"""You are an expert knowledge graph completion system.
 
 Your task is to select the correct tail entity from a candidate list.
 
@@ -379,164 +146,132 @@ Important:
 - You MUST select exactly ONE candidate index.
 - You MUST NOT output entity names.
 - You MUST NOT generate new entities.
+- Use the ontology and structural evidence to compare candidates.
 - Output ONLY valid JSON.
 
 Before answering, internally:
 1. Understand the semantic meaning of the relation.
 2. Determine the expected type of the tail entity.
 3. Compare all candidates carefully.
-4. Select the most logically consistent one.
+4. Select the most logically consistent candidate.
 Do NOT output reasoning.
 
-{evidence_block}Candidate entities:
+Candidate entities:
 {indexed_candidates}
 
 Output format:
-
 {{
   "selected_index": integer
 }}
 
-
 Incomplete triple:
 ({head}, {relation}, ?)
 """
-    return prompt.strip()
+    return prompt
 
 
-# =========================================================
-# 7. 处理单个子图文件
-# =========================================================
-
-def process_one_subgraph_file(subgraph_file, entity_info, relation_info, topk=20):
-    with open(subgraph_file, "r", encoding="utf-8") as f:
-        subgraph = json.load(f)
-
-    query = subgraph["query"]
-    head_id = int(query["head"])
-    relation_id = int(query["relation"])
-    gold_tail = subgraph.get("gold_tail", None)
-    if gold_tail is not None:
-        gold_tail = int(gold_tail)
-
-    head_label = safe_entity_name(entity_info, head_id)
-    relation_label = safe_relation_name(relation_info, relation_id)
-
-    evidence_result = extract_query_evidence(subgraph, entity_info, relation_info)
-    query_evidence = evidence_result["query_evidence"]
-
-    selected_candidates = select_topk_candidates(
-        subgraph=subgraph,
-        entity_info=entity_info,
-        relation_info=relation_info,
-        topk=topk
+def query_llm(prompt: str) -> str:
+    client = OpenAI(
+        base_url="http://localhost:22014/v1",
+        api_key="EMPTY"
     )
 
-    candidate_lines, gold_selected_index = build_candidate_lines(
-        selected_candidates=selected_candidates,
-        entity_info=entity_info,
-        gold_tail=gold_tail
+    resp = client.chat.completions.create(
+        model="/home/wenbin.guo/.cache/modelscope/hub/models/Qwen/Qwen3-8B",
+        messages=[{"role": "user", "content": prompt}]
     )
 
-    prompt = build_prompt_with_evidence(
-        head=head_label,
-        relation=relation_label,
-        candidate_lines=candidate_lines,
-        query_evidence=query_evidence
-    )
+    return resp.choices[0].message.content
+
+
+def predict_for_case(case: Dict) -> Dict:
+    prompt = build_prompt_from_case(case)
+    # print(prompt)
+    result = query_llm(prompt)
+    pred_index = extract_selected_index(result)
+
+    gold_index = case["gold_selected_index"]
+    candidate_lines = case["candidate_lines"]
+
+    predicted_tail = None
+    true_tail = None
+    is_hit = 0
+
+    for c in candidate_lines:
+        if c["selected_index"] == gold_index:
+            true_tail = c["label"]
+            break
+
+    if pred_index is not None:
+        for c in candidate_lines:
+            if c["selected_index"] == pred_index:
+                predicted_tail = c["label"]
+                break
+
+    if pred_index == gold_index:
+        is_hit = 1
 
     return {
-        "file": os.path.basename(subgraph_file),
-        "head_id": head_id,
-        "relation_id": relation_id,
-        "gold_tail": gold_tail,
-        "gold_selected_index": gold_selected_index,
-        "head_label": head_label,
-        "relation_label": relation_label,
-        "query_evidence": query_evidence,
-        "candidate_lines": candidate_lines,
-        "prompt": prompt
+        "file": case.get("_file_name"),
+        "triple": (
+            case["head_label"],
+            case["relation_label"],
+            true_tail
+        ),
+        "gold_index": gold_index,
+        "pred_index": pred_index,
+        "predicted_tail": predicted_tail,
+        "true_tail": true_tail,
+        "llm_prediction": result,
+        "is_hit": is_hit,
+        "prompt": prompt,
     }
 
 
-# =========================================================
-# 8. 批量处理并保存到 test_prompts_v5
-# =========================================================
+def main():
+    prompt_dir = "/home/wenbin.guo/DKGE4R/KGE_model/saved_subgraphs/test_prompts_v5"
 
-def process_and_save_per_file(
-    subgraph_dir,
-    entity_path,
-    relation_path,
-    output_dir,
-    topk=20
-):
-    entity_info = load_entities(entity_path)
-    relation_info = load_relations(relation_path)
+    cases = load_prompt_cases(prompt_dir)
+    print(f"==== Start evaluating {len(cases)} valid prompt files ====")
 
-    os.makedirs(output_dir, exist_ok=True)
-    print(f"[INFO] Output dir ready: {output_dir}")
+    results = []
+    hit_count = 0
+    valid_count = 0
 
-    json_files = sorted([f for f in os.listdir(subgraph_dir) if f.endswith(".json")])
-    print(f"[INFO] Found {len(json_files)} subgraph files")
-
-    success_count = 0
-    fail_count = 0
-    missing_gold_count = 0
-
-    for idx, fname in enumerate(json_files, start=1):
-        fpath = os.path.join(subgraph_dir, fname)
-
+    for idx, case in enumerate(tqdm(cases, desc="Evaluating", ncols=100), start=1):
         try:
-            result = process_one_subgraph_file(
-                subgraph_file=fpath,
-                entity_info=entity_info,
-                relation_info=relation_info,
-                topk=topk
+            prediction = predict_for_case(case)
+            results.append(prediction)
+
+            hit_count += prediction["is_hit"]
+            valid_count += 1
+
+            print(
+                f"[{idx}/{len(cases)}] {prediction['file']} | "
+                f"pred={prediction['pred_index']} | "
+                f"gold={prediction['gold_index']} | "
+                f"hit1={prediction['is_hit']}"
             )
 
-            if result["gold_tail"] is not None and result["gold_selected_index"] is None:
-                missing_gold_count += 1
-
-            out_name = fname.replace(".json", "_prompt.json")
-            out_path = os.path.join(output_dir, out_name)
-
-            with open(out_path, "w", encoding="utf-8") as f:
-                json.dump(result, f, ensure_ascii=False, indent=2)
-
-            success_count += 1
-
-            if idx % 50 == 0 or idx == 1 or idx == len(json_files):
-                print(
-                    f"[{idx}/{len(json_files)}] saved={out_name} | "
-                    f"success={success_count} | fail={fail_count} | missing_gold={missing_gold_count}"
-                )
+            if idx % 50 == 0:
+                current_hit1 = hit_count / valid_count if valid_count > 0 else 0.0
+                print(f"\n===== Processed {idx} samples =====")
+                print(f"Current Hit@1: {current_hit1:.4f}")
+                print("Last Triple:", prediction["triple"])
+                print("Pred Index:", prediction["pred_index"])
+                print("Gold Index:", prediction["gold_index"])
+                print("Pred Tail:", prediction["predicted_tail"])
+                print("True Tail:", prediction["true_tail"])
+                print("Hit:", prediction["is_hit"])
+                print("=" * 60)
 
         except Exception as e:
-            fail_count += 1
-            print(f"[ERROR] {fname} failed: {e}")
+            print(f"[{idx}/{len(cases)}] {case.get('_file_name', 'unknown')} | Failed | {e}")
 
-    print("==== Prompt Generation Finished ====")
-    print(f"Total files    : {len(json_files)}")
-    print(f"Success        : {success_count}")
-    print(f"Fail           : {fail_count}")
-    print(f"Missing gold   : {missing_gold_count}")
+    final_hit1 = hit_count / valid_count if valid_count > 0 else 0.0
+    print(f"\nFinal Hit@1: {final_hit1:.4f}")
+    print(f"Valid cases: {valid_count}/{len(cases)}")
 
-
-# =========================================================
-# 9. main
-# =========================================================
 
 if __name__ == "__main__":
-    entity_path = "/home/wenbin.guo/DKGE4R/data/FB15k-237/entity.json"
-    relation_path = "/home/wenbin.guo/DKGE4R/data/FB15k-237/relation_new.json"
-
-    subgraph_dir = "/home/wenbin.guo/DKGE4R/KGE_model/saved_subgraphs/test"
-    output_dir = "/home/wenbin.guo/DKGE4R/KGE_model/saved_subgraphs/test_prompts_v5"
-
-    process_and_save_per_file(
-        subgraph_dir=subgraph_dir,
-        entity_path=entity_path,
-        relation_path=relation_path,
-        output_dir=output_dir,
-        topk=20
-    )
+    main()

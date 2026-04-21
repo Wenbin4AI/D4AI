@@ -199,7 +199,7 @@ def predict_for_triple(triple: Tuple[int, int, int],
     candidates = build_tail_candidates(t_id, entity_dict, num_candidates=20)
     
     prompt = build_prompt(head, relation, candidates)
-    print(prompt)
+    # print(prompt)
     result = query_llm(prompt)
 
     pred_index = extract_selected_index(result)
