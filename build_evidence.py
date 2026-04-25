@@ -3,7 +3,7 @@ import json
 from collections import defaultdict, deque
 
 
-DATA_DIR = "/home/wenbin.guo/DKGE4R/data/FB15k-237"
+DATA_DIR = "/home/wenbin.guo/DKGE4R/data/WN18RR"
 
 TRAIN_PATH = os.path.join(DATA_DIR, "train2id.txt")
 VALID_PATH = os.path.join(DATA_DIR, "valid2id.txt")

@@ -3,7 +3,7 @@ import os
 from collections import defaultdict, Counter
 
 
-DATA_DIR = "/home/wenbin.guo/DKGE4R/data/FB15k-237"
+DATA_DIR = "/home/wenbin.guo/DKGE4R/data/WN18RR"
 
 ENTITY_PATH = os.path.join(DATA_DIR, "entity.json")
 RELATION_PATH = os.path.join(DATA_DIR, "relation.json")
