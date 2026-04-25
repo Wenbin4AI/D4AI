@@ -284,7 +284,7 @@ def main():
         hit_count += prediction["is_hit"]
 
         # 每50个展示一次阶段结果
-        if idx % 50 == 0:
+        if idx % 10 == 0:
             current_hit1 = hit_count / idx
             print(f"\n===== Processed {idx} samples =====")
             print(f"Current Hit@1: {current_hit1:.4f}")
