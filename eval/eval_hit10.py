@@ -189,18 +189,17 @@ def predict_for_triple(triple: Tuple[int, int, int],
     pred_indices = extract_selected_indices(result, k=10)
 
     predicted_tails = []
-    is_hit = 0
 
     if pred_indices is not None:
         for pred_idx in pred_indices:
             if 0 <= pred_idx < len(candidates):
-                pred_tail = candidates[pred_idx]
-                predicted_tails.append(pred_tail)
-
-                if pred_tail == true_tail:
-                    is_hit = 1
+                predicted_tails.append(candidates[pred_idx])
             else:
                 predicted_tails.append(None)
+
+    is_hit1 = int(true_tail in predicted_tails[:1])
+    is_hit3 = int(true_tail in predicted_tails[:3])
+    is_hit10 = int(true_tail in predicted_tails[:10])
 
     return {
         "triple": (head, relation, true_tail),
@@ -209,10 +208,10 @@ def predict_for_triple(triple: Tuple[int, int, int],
         "llm_prediction": result,
         "pred_indices": pred_indices,
         "predicted_tails": predicted_tails,
-        "is_hit": is_hit,
-        "is_hit@10": is_hit
+        "is_hit@1": is_hit1,
+        "is_hit@3": is_hit3,
+        "is_hit@10": is_hit10
     }
-
 
 def main():
 
@@ -238,7 +237,9 @@ def main():
     sampled_items = list(enumerate(triples))
 
     results = []
-    hit_count = 0
+    hit1_count = 0
+    hit3_count = 0
+    hit10_count = 0
 
     for idx, (query_index, triple) in enumerate(
         tqdm(sampled_items, desc="Evaluating Hit@10", ncols=100),
@@ -256,30 +257,57 @@ def main():
         prediction["query_index"] = query_index
         results.append(prediction)
 
-        hit_count += prediction["is_hit@10"]
+        hit1_count += prediction["is_hit@1"]
+        hit3_count += prediction["is_hit@3"]
+        hit10_count += prediction["is_hit@10"]
 
-        if idx % 1 == 0:
-            current_hit10 = hit_count / idx
+        if idx % 100 == 0:
+            current_hit1 = hit1_count / idx
+            current_hit3 = hit3_count / idx
+            current_hit10 = hit10_count / idx
+
             print(f"\n===== Processed {idx}/{len(sampled_items)} samples =====")
+            print(f"Current Hit@1 : {current_hit1:.4f}")
+            print(f"Current Hit@3 : {current_hit3:.4f}")
             print(f"Current Hit@10: {current_hit10:.4f}")
             print("Last Query Index:", query_index)
             print("Last Triple:", prediction["triple"])
             print("Pred Indices:", prediction["pred_indices"])
             print("Pred Tails:", prediction["predicted_tails"])
             print("True Tail:", prediction["triple"][2])
+            print("Hit@1:", prediction["is_hit@1"])
+            print("Hit@3:", prediction["is_hit@3"])
             print("Hit@10:", prediction["is_hit@10"])
             print("=" * 60)
 
-    final_hit10 = hit_count / len(results) if results else 0.0
+    final_hit1 = hit1_count / len(results) if results else 0.0
+    final_hit3 = hit3_count / len(results) if results else 0.0
+    final_hit10 = hit10_count / len(results) if results else 0.0
 
-    print(f"\nFinal Hit@10: {final_hit10:.4f}")
+    metrics = {
+        "total": len(results),
+        "hit1_count": hit1_count,
+        "hit3_count": hit3_count,
+        "hit10_count": hit10_count,
+        "Hit@1": final_hit1,
+        "Hit@3": final_hit3,
+        "Hit@10": final_hit10
+    }
+
+    print(f"\nFinal Hit@1 : {final_hit1:.4f}")
+    print(f"Final Hit@3 : {final_hit3:.4f}")
+    print(f"Final Hit@10: {final_hit10:.4f}")
     print(f"Total samples: {len(results)}")
-    print(f"Hit count: {hit_count}")
 
-    output_path = "/home/wenbin.guo/DKGE4R/data/FB15k-237/eval_with_key_evidence_hit10_results.json"
+    output_path = "/home/wenbin.guo/DKGE4R/data/FB15k-237/eval_with_key_evidence_hit1_hit3_hit10_results.json"
+
+    save_obj = {
+        "metrics": metrics,
+        "results": results
+    }
 
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
+        json.dump(save_obj, f, ensure_ascii=False, indent=2)
 
     print(f"Evaluation results saved to: {output_path}")
 
