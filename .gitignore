@@ -3,3 +3,4 @@ __pycache__/
 .DS_Store
 
 KGE_model/saved_subgraphs/
+data/FB15k-237/test_key_evidence.json
