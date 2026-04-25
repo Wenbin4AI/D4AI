@@ -1,7 +1,9 @@
 import json
 import random
 from typing import List, Dict, Tuple
-from openai import OpenAI
+import os
+import time
+from openai import OpenAI, APITimeoutError, APIError, APIConnectionError
 import re
 from tqdm import tqdm
 
@@ -161,12 +163,29 @@ client = OpenAI(
 )
 
 
-def query_llm(prompt: str) -> str:
-    resp = client.chat.completions.create(
-        model="/home/wenbin.guo/.cache/modelscope/hub/models/Qwen/Qwen3-8B",
-        messages=[{"role": "user", "content": prompt}]
-    )
-    return resp.choices[0].message.content
+def query_llm(prompt: str, max_retries: int = 2) -> str:
+    last_error = None
+
+    for attempt in range(max_retries + 1):
+        try:
+            resp = client.chat.completions.create(
+                model="/home/wenbin.guo/.cache/modelscope/hub/models/Qwen/Qwen3-8B",
+                messages=[{"role": "user", "content": prompt}],
+                timeout=120
+            )
+            return resp.choices[0].message.content
+
+        except (APITimeoutError, APIConnectionError, APIError) as e:
+            last_error = repr(e)
+            print(f"\n[Warning] LLM request failed, attempt {attempt + 1}/{max_retries + 1}: {last_error}")
+            time.sleep(2)
+
+        except Exception as e:
+            last_error = repr(e)
+            print(f"\n[Warning] Unexpected LLM error: {last_error}")
+            break
+
+    return None
 
 
 def predict_for_triple(triple: Tuple[int, int, int],
@@ -185,6 +204,20 @@ def predict_for_triple(triple: Tuple[int, int, int],
     prompt = build_prompt(head, relation, candidates, key_evidence)
 
     result = query_llm(prompt)
+
+    if result is None:
+        return {
+            "triple": (head, relation, true_tail),
+            "candidates": candidates,
+            "key_evidence": key_evidence,
+            "llm_prediction": None,
+            "pred_indices": None,
+            "predicted_tails": [],
+            "is_hit@1": 0,
+            "is_hit@3": 0,
+            "is_hit@10": 0,
+            "status": "failed_timeout_or_api_error"
+        }
 
     pred_indices = extract_selected_indices(result, k=10)
 
@@ -210,8 +243,34 @@ def predict_for_triple(triple: Tuple[int, int, int],
         "predicted_tails": predicted_tails,
         "is_hit@1": is_hit1,
         "is_hit@3": is_hit3,
-        "is_hit@10": is_hit10
+        "is_hit@10": is_hit10,
+        "status": "ok"
     }
+
+def save_checkpoint(output_path, results, hit1_count, hit3_count, hit10_count):
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+    total = len(results)
+    metrics = {
+        "total": total,
+        "hit1_count": hit1_count,
+        "hit3_count": hit3_count,
+        "hit10_count": hit10_count,
+        "Hit@1": hit1_count / total if total else 0.0,
+        "Hit@3": hit3_count / total if total else 0.0,
+        "Hit@10": hit10_count / total if total else 0.0,
+        "failed_count": sum(1 for x in results if x.get("status") != "ok")
+    }
+
+    save_obj = {
+        "metrics": metrics,
+        "results": results
+    }
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(save_obj, f, ensure_ascii=False, indent=2)
+
+    print(f"\n[Checkpoint Saved] {output_path}")
 
 def main():
 
@@ -220,6 +279,7 @@ def main():
     triple_path = "/home/wenbin.guo/RAG/data/FB15k-237/test2id.txt"
 
     evidence_path = "/home/wenbin.guo/DKGE4R/data/FB15k-237/test_key_evidence.json"
+    output_path = "/home/wenbin.guo/DKGE4R/data/FB15k-237/eval_with_key_evidence_hit1_hit3_hit10_results.json"
 
     entity_list = load_json(entity_path)
     relation_list = load_json(relation_path)
@@ -247,37 +307,74 @@ def main():
     ):
         key_evidence = evidence_dict.get(query_index, "")
 
-        prediction = predict_for_triple(
-            triple,
-            entity_dict,
-            relation_dict,
-            key_evidence
-        )
+        try:
+            prediction = predict_for_triple(
+                triple,
+                entity_dict,
+                relation_dict,
+                key_evidence
+            )
+        except Exception as e:
+            prediction = {
+                "query_index": query_index,
+                "triple_id": triple,
+                "key_evidence": key_evidence,
+                "llm_prediction": None,
+                "pred_indices": None,
+                "predicted_tails": [],
+                "is_hit@1": 0,
+                "is_hit@3": 0,
+                "is_hit@10": 0,
+                "status": f"failed_exception: {repr(e)}"
+            }
 
         prediction["query_index"] = query_index
         results.append(prediction)
 
-        hit1_count += prediction["is_hit@1"]
-        hit3_count += prediction["is_hit@3"]
-        hit10_count += prediction["is_hit@10"]
+        hit1_count += prediction.get("is_hit@1", 0)
+        hit3_count += prediction.get("is_hit@3", 0)
+        hit10_count += prediction.get("is_hit@10", 0)
 
         if idx % 100 == 0:
-            current_hit1 = hit1_count / idx
-            current_hit3 = hit3_count / idx
-            current_hit10 = hit10_count / idx
+            total_done = len(results)
+            current_hit1 = hit1_count / total_done if total_done else 0.0
+            current_hit3 = hit3_count / total_done if total_done else 0.0
+            current_hit10 = hit10_count / total_done if total_done else 0.0
+
+            metrics = {
+                "total": total_done,
+                "hit1_count": hit1_count,
+                "hit3_count": hit3_count,
+                "hit10_count": hit10_count,
+                "Hit@1": current_hit1,
+                "Hit@3": current_hit3,
+                "Hit@10": current_hit10,
+                "failed_count": sum(1 for x in results if x.get("status") != "ok")
+            }
+
+            save_obj = {
+                "metrics": metrics,
+                "results": results
+            }
+
+            with open(output_path, "w", encoding="utf-8") as f:
+                json.dump(save_obj, f, ensure_ascii=False, indent=2)
 
             print(f"\n===== Processed {idx}/{len(sampled_items)} samples =====")
             print(f"Current Hit@1 : {current_hit1:.4f}")
             print(f"Current Hit@3 : {current_hit3:.4f}")
             print(f"Current Hit@10: {current_hit10:.4f}")
+            print(f"Failed Count  : {metrics['failed_count']}")
             print("Last Query Index:", query_index)
-            print("Last Triple:", prediction["triple"])
-            print("Pred Indices:", prediction["pred_indices"])
-            print("Pred Tails:", prediction["predicted_tails"])
-            print("True Tail:", prediction["triple"][2])
-            print("Hit@1:", prediction["is_hit@1"])
-            print("Hit@3:", prediction["is_hit@3"])
-            print("Hit@10:", prediction["is_hit@10"])
+            print("Status:", prediction.get("status", "ok"))
+            print("Last Triple:", prediction.get("triple"))
+            print("Pred Indices:", prediction.get("pred_indices"))
+            print("Pred Tails:", prediction.get("predicted_tails"))
+            print("True Tail:", prediction.get("triple", [None, None, None])[2])
+            print("Hit@1:", prediction.get("is_hit@1"))
+            print("Hit@3:", prediction.get("is_hit@3"))
+            print("Hit@10:", prediction.get("is_hit@10"))
+            print(f"[Checkpoint Saved] {output_path}")
             print("=" * 60)
 
     final_hit1 = hit1_count / len(results) if results else 0.0
@@ -291,15 +388,9 @@ def main():
         "hit10_count": hit10_count,
         "Hit@1": final_hit1,
         "Hit@3": final_hit3,
-        "Hit@10": final_hit10
+        "Hit@10": final_hit10,
+        "failed_count": sum(1 for x in results if x.get("status") != "ok")
     }
-
-    print(f"\nFinal Hit@1 : {final_hit1:.4f}")
-    print(f"Final Hit@3 : {final_hit3:.4f}")
-    print(f"Final Hit@10: {final_hit10:.4f}")
-    print(f"Total samples: {len(results)}")
-
-    output_path = "/home/wenbin.guo/DKGE4R/data/FB15k-237/eval_with_key_evidence_hit1_hit3_hit10_results.json"
 
     save_obj = {
         "metrics": metrics,
@@ -309,8 +400,12 @@ def main():
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(save_obj, f, ensure_ascii=False, indent=2)
 
+    print(f"\nFinal Hit@1 : {final_hit1:.4f}")
+    print(f"Final Hit@3 : {final_hit3:.4f}")
+    print(f"Final Hit@10: {final_hit10:.4f}")
+    print(f"Total samples: {len(results)}")
+    print(f"Failed Count : {metrics['failed_count']}")
     print(f"Evaluation results saved to: {output_path}")
-
 
 if __name__ == "__main__":
     main()
